@@ -212,7 +212,7 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ========== FORM ==========
-  const API_URL = 'https://landing-api-daniel-anders.onrender.com';
+  const API_URL = 'https://www.andersdev.com.br';
 
   const form = document.getElementById('leadForm');
   if (form) {

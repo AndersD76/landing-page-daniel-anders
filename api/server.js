@@ -1,5 +1,6 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const { neon } = require('@neondatabase/serverless');
 const nodemailer = require('nodemailer');
 require('dotenv').config();
@@ -9,6 +10,7 @@ const sql = neon(process.env.DATABASE_URL);
 
 app.use(cors());
 app.use(express.json());
+app.use(express.static(path.join(__dirname, '..')));
 
 const transporter = nodemailer.createTransport({
   host: 'smtp-mail.outlook.com',

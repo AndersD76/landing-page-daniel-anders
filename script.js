@@ -212,6 +212,8 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
   // ========== FORM ==========
+  const API_URL = 'https://landing-api-daniel-anders.onrender.com';
+
   const form = document.getElementById('leadForm');
   if (form) {
     form.addEventListener('submit', async (e) => {
@@ -229,32 +231,18 @@ document.addEventListener('DOMContentLoaded', () => {
       btnSpan.textContent = 'ENVIANDO...';
       btn.style.pointerEvents = 'none';
 
-      // 1) Google Sheets
+      // 1) Salva no banco + envia email
       try {
-        const sheetUrl = 'GOOGLE_APPS_SCRIPT_URL_AQUI';
-        if (!sheetUrl.includes('AQUI')) {
-          await fetch(sheetUrl, {
-            method: 'POST',
-            mode: 'no-cors',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ timestamp: new Date().toISOString(), name, email, phone, sector, idea })
-          });
-        }
-      } catch (err) {}
-
-      // 2) Formspree
-      const FORMSPREE_ID = 'SEU_FORM_ID';
-      if (FORMSPREE_ID !== 'SEU_FORM_ID') {
-        try {
-          await fetch(`https://formspree.io/f/${FORMSPREE_ID}`, {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ name, email, phone, sector, idea, _subject: `Novo Lead: ${name} — ${sector || 'N/A'}`, _replyto: email })
-          });
-        } catch (err) {}
+        await fetch(`${API_URL}/api/lead`, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ name, email, phone, sector, idea })
+        });
+      } catch (err) {
+        console.log('API offline, lead vai pelo WhatsApp');
       }
 
-      // 3) WhatsApp
+      // 2) WhatsApp
       const msg = encodeURIComponent(
         `Olá Daniel! Meu nome é ${name}.` +
         (sector ? ` Meu setor: ${sector}.` : '') +

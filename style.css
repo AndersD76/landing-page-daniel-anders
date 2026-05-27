@@ -5,10 +5,10 @@
 }
 
 :root {
-  --green: #7ED957;
-  --green-glow: rgba(126, 217, 87, 0.5);
-  --green-bright: #9eff6e;
-  --green-dark: #4CAF30;
+  --green: #38bdf8;
+  --green-glow: rgba(56, 189, 248, 0.5);
+  --green-bright: #7dd3fc;
+  --green-dark: #0284c7;
   --black: #030303;
   --dark: #080808;
   --dark2: #0d0d0d;

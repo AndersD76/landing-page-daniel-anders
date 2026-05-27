@@ -152,6 +152,45 @@ body::after {
   box-shadow: 0 0 50px rgba(126, 217, 87, 0.4);
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.lang-toggle {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 100px;
+  padding: 3px;
+}
+
+.lang-btn {
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #555;
+  background: transparent;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.lang-btn:hover {
+  color: var(--white);
+}
+
+.lang-btn.active {
+  background: var(--green);
+  color: var(--black);
+  box-shadow: 0 0 12px var(--green-glow);
+}
+
 /* ===================== HERO ===================== */
 .hero {
   position: relative;

@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!-- SEO -->
   <title>Daniel Anders | Full-Stack Developer & Business Consultant</title>
-  <meta name="description" content="Full-Stack Developer specializing in React, Next.js, TypeScript, Python, and FastAPI. Building SaaS MVPs, dashboards, and web applications for startups and businesses worldwide.">
-  <meta name="keywords" content="full-stack developer, React, Next.js, TypeScript, Python, FastAPI, SaaS, MVP, web development, freelance developer, Daniel Anders">
+  <meta name="description" content="Desenvolvedor Full-Stack especializado em React, Next.js, TypeScript, Python e FastAPI. Construindo MVPs SaaS, dashboards e aplicacoes web para startups e empresas no mundo todo.">
+  <meta name="keywords" content="full-stack developer, React, Next.js, TypeScript, Python, FastAPI, SaaS, MVP, web development, freelance developer, Daniel Anders, desenvolvedor">
   <meta name="author" content="Daniel Anders">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://andersdev.com.br">
@@ -16,11 +16,12 @@
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://andersdev.com.br">
   <meta property="og:title" content="Daniel Anders | Full-Stack Developer & Business Consultant">
-  <meta property="og:description" content="Building modern web applications with React, Next.js, TypeScript, and Python. Available for freelance projects worldwide.">
+  <meta property="og:description" content="Construindo aplicacoes web modernas com React, Next.js, TypeScript e Python. Disponivel para projetos freelance no mundo todo.">
   <meta property="og:image" content="https://andersdev.com.br/og-image.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
-  <meta property="og:locale" content="en_US">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:locale:alternate" content="en_US">
   <meta property="og:site_name" content="Daniel Anders Dev">
 
   <!-- TWITTER CARD -->
@@ -35,7 +36,7 @@
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "Daniel Anders - Full-Stack Developer",
-    "description": "Full-Stack Developer specializing in React, Next.js, TypeScript, Python, and FastAPI. Building SaaS MVPs, dashboards, and web applications.",
+    "description": "Full-Stack Developer specializing in React, Next.js, TypeScript, Python, and FastAPI.",
     "url": "https://andersdev.com.br",
     "telephone": "+55-54-99964-8368",
     "email": "danielanders76@gmail.com",
@@ -45,19 +46,12 @@
       "addressRegion": "RS",
       "addressCountry": "BR"
     },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "-28.2624",
-      "longitude": "-52.4069"
-    },
     "founder": {
       "@type": "Person",
       "name": "Daniel Anders"
     },
     "areaServed": "Worldwide",
     "serviceType": ["Web Development", "SaaS Development", "API Integration", "Business Consulting"],
-    "priceRange": "$$",
-    "image": "https://andersdev.com.br/og-image.jpg",
     "sameAs": [
       "https://github.com/AndersD76",
       "https://linkedin.com/in/danielandersbrrs"
@@ -84,12 +78,18 @@
     <div class="container nav-inner">
       <a href="#" class="nav-brand">DA<span class="green">.</span></a>
       <ul class="nav-links">
-        <li><a href="#services">Services</a></li>
-        <li><a href="#stack">Stack</a></li>
-        <li><a href="#process">Process</a></li>
-        <li><a href="#about">About</a></li>
+        <li><a href="#services" data-i18n="nav_services">Servicos</a></li>
+        <li><a href="#stack" data-i18n="nav_stack">Stack</a></li>
+        <li><a href="#process" data-i18n="nav_process">Processo</a></li>
+        <li><a href="#about" data-i18n="nav_about">Sobre</a></li>
       </ul>
-      <a href="#contact" class="nav-cta">LET'S TALK &rarr;</a>
+      <div class="nav-right">
+        <div class="lang-toggle" id="langToggle">
+          <button class="lang-btn" data-lang="en" title="English">EN</button>
+          <button class="lang-btn active" data-lang="pt" title="Portugues">BR</button>
+        </div>
+        <a href="#contact" class="nav-cta" data-i18n="nav_cta">FALAR COMIGO &rarr;</a>
+      </div>
     </div>
   </nav>
 
@@ -99,19 +99,19 @@
     <div class="hero-content">
       <div class="hero-eyebrow">
         <span class="eyebrow-line"></span>
-        <span>FULL-STACK DEVELOPER</span>
+        <span data-i18n="hero_eyebrow">DESENVOLVEDOR FULL-STACK</span>
         <span class="eyebrow-line"></span>
       </div>
-      <h1 class="glitch-text" data-text="I BUILD MODERN WEB APPS">
-        I BUILD<br>
-        <span class="green glow-text">MODERN WEB</span><br>
-        <span class="white-bold">APPLICATIONS</span>
+      <h1 class="glitch-text" data-text="EU CONSTRUO APLICACOES WEB MODERNAS">
+        <span data-i18n="hero_h1_1">EU CONSTRUO</span><br>
+        <span class="green glow-text" data-i18n="hero_h1_2">APLICACOES WEB</span><br>
+        <span class="white-bold" data-i18n="hero_h1_3">MODERNAS</span>
       </h1>
-      <p class="hero-sub">that solve <strong>real business problems.</strong></p>
+      <p class="hero-sub" data-i18n="hero_sub">que resolvem <strong>problemas reais de negocio.</strong></p>
       <div class="hero-line"></div>
-      <p class="hero-tagline">From idea to production. <span class="green">Code that ships and scales.</span></p>
+      <p class="hero-tagline" data-i18n="hero_tagline">Da ideia a producao. <span class="green">Codigo que funciona e escala.</span></p>
       <a href="#contact" class="cta-btn magnetic" data-magnetic>
-        <span>START A PROJECT</span>
+        <span data-i18n="hero_cta">INICIAR PROJETO</span>
         <svg class="cta-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
       </a>
       <div class="hero-scroll">
@@ -159,25 +159,25 @@
     <div class="container">
       <div class="split-section">
         <div class="split-left reveal">
-          <span class="section-label">WHAT I DO</span>
-          <h2>Your idea deserves<br>a builder who <span class="green">gets it.</span></h2>
+          <span class="section-label" data-i18n="what_label">O QUE EU FACO</span>
+          <h2 data-i18n="what_h2">Sua ideia merece<br>um builder que <span class="green">entende.</span></h2>
         </div>
         <div class="split-right reveal">
           <div class="problem-item">
             <span class="problem-number">01</span>
-            <p>You need a developer who understands business, not just code. Someone who asks "why" before writing a single line.</p>
+            <p data-i18n="what_01">Voce precisa de um desenvolvedor que entende negocios, nao so codigo. Alguem que pergunta "por que" antes de escrever uma linha.</p>
           </div>
           <div class="problem-item">
             <span class="problem-number">02</span>
-            <p>You need clean, production-ready code that ships fast and scales without breaking.</p>
+            <p data-i18n="what_02">Voce precisa de codigo limpo, pronto pra producao, que entrega rapido e escala sem quebrar.</p>
           </div>
           <div class="problem-item">
             <span class="problem-number">03</span>
-            <p>You need clear communication, real deadlines, and zero ghosting. Every week, you see progress.</p>
+            <p data-i18n="what_03">Voce precisa de comunicacao clara, prazos reais e zero sumiaco. Toda semana, voce ve progresso.</p>
           </div>
           <div class="problem-item">
             <span class="problem-number">04</span>
-            <p>You need a partner for the long run, not a freelancer who disappears after delivery.</p>
+            <p data-i18n="what_04">Voce precisa de um parceiro de longo prazo, nao um freelancer que desaparece depois da entrega.</p>
           </div>
         </div>
       </div>
@@ -188,8 +188,8 @@
   <section class="section section-accent" id="oquefaco">
     <div class="container">
       <div class="big-statement reveal">
-        <h2>I take your <span class="green">vision</span>,<br>build the <span class="green">product</span>,<br>and deliver it ready to <span class="green">launch</span>.</h2>
-        <p class="big-sub">SaaS MVPs. Dashboards. API integrations. Full-stack web apps. From Figma to production.</p>
+        <h2 data-i18n="big_h2">Eu pego sua <span class="green">visao</span>,<br>construo o <span class="green">produto</span>,<br>e entrego pronto pra <span class="green">lancar</span>.</h2>
+        <p class="big-sub" data-i18n="big_sub">MVPs SaaS. Dashboards. Integracoes de API. Apps web full-stack. Do Figma a producao.</p>
       </div>
     </div>
   </section>
@@ -197,41 +197,41 @@
   <!-- SERVICES -->
   <section class="section" id="services">
     <div class="container">
-      <span class="section-label reveal">SERVICES</span>
-      <h2 class="reveal">What I <span class="green">build</span></h2>
-      <p class="section-sub reveal">Every project gets the same treatment: clean architecture, modern stack, shipped on time.</p>
+      <span class="section-label reveal" data-i18n="svc_label">SERVICOS</span>
+      <h2 class="reveal" data-i18n="svc_h2">O que eu <span class="green">construo</span></h2>
+      <p class="section-sub reveal" data-i18n="svc_sub">Todo projeto recebe o mesmo tratamento: arquitetura limpa, stack moderna, entregue no prazo.</p>
 
       <div class="showcase-grid">
         <div class="showcase-card featured reveal" data-tilt>
           <div class="card-glow"></div>
           <div class="card-badge">CORE</div>
           <div class="card-sector">SaaS MVPs</div>
-          <h3>Full-Stack Web Applications</h3>
-          <p>Complete web apps from database to UI. Authentication, payments, dashboards, admin panels. Built to scale from day one.</p>
+          <h3 data-i18n="svc_1_h">Aplicacoes Web Full-Stack</h3>
+          <p data-i18n="svc_1_p">Apps completos do banco de dados a interface. Autenticacao, pagamentos, dashboards, paineis admin. Construido pra escalar desde o dia um.</p>
           <span class="card-tag">Next.js + Node.js + PostgreSQL</span>
         </div>
 
         <div class="showcase-card reveal" data-tilt>
           <div class="card-glow"></div>
           <div class="card-sector">FRONTEND</div>
-          <h3>React & Next.js Apps</h3>
-          <p>High-fidelity UI from Figma designs. Responsive layouts, smooth animations, pixel-perfect implementation.</p>
+          <h3 data-i18n="svc_2_h">Apps React & Next.js</h3>
+          <p data-i18n="svc_2_p">UI de alta fidelidade a partir de designs Figma. Layouts responsivos, animacoes suaves, implementacao pixel-perfect.</p>
           <span class="card-tag">React + TypeScript + Tailwind CSS</span>
         </div>
 
         <div class="showcase-card reveal" data-tilt>
           <div class="card-glow"></div>
           <div class="card-sector">BACKEND</div>
-          <h3>APIs & Integrations</h3>
-          <p>RESTful APIs, third-party integrations, payment processing, webhook systems. Clean, documented, tested.</p>
+          <h3 data-i18n="svc_3_h">APIs & Integracoes</h3>
+          <p data-i18n="svc_3_p">APIs RESTful, integracoes com terceiros, processamento de pagamentos, sistemas de webhook. Limpo, documentado, testado.</p>
           <span class="card-tag">Python + FastAPI + Node.js</span>
         </div>
 
         <div class="showcase-card reveal" data-tilt>
           <div class="card-glow"></div>
           <div class="card-sector">DATA</div>
-          <h3>Dashboards & Analytics</h3>
-          <p>Real-time dashboards, KPI tracking, data visualization. Turn your data into actionable insights.</p>
+          <h3 data-i18n="svc_4_h">Dashboards & Analytics</h3>
+          <p data-i18n="svc_4_p">Dashboards em tempo real, acompanhamento de KPIs, visualizacao de dados. Transforme seus dados em insights acionaveis.</p>
           <span class="card-tag">React + Charts + PostgreSQL</span>
         </div>
 
@@ -239,41 +239,41 @@
           <div class="card-glow"></div>
           <div class="card-badge">HOT</div>
           <div class="card-sector">AI</div>
-          <h3>AI-Powered Features</h3>
-          <p>LLM integrations, intelligent automation, chatbots, document processing. AI that solves real problems.</p>
+          <h3 data-i18n="svc_5_h">Recursos com IA</h3>
+          <p data-i18n="svc_5_p">Integracoes com LLMs, automacao inteligente, chatbots, processamento de documentos. IA que resolve problemas reais.</p>
           <span class="card-tag">OpenAI + Claude + RAG</span>
         </div>
 
         <div class="showcase-card reveal" data-tilt>
           <div class="card-glow"></div>
           <div class="card-sector">ECOMMERCE</div>
-          <h3>Stripe & Payment Systems</h3>
-          <p>Checkout flows, subscription billing, invoice management, webhook processing. Revenue infrastructure that works.</p>
+          <h3 data-i18n="svc_6_h">Stripe & Sistemas de Pagamento</h3>
+          <p data-i18n="svc_6_p">Fluxos de checkout, cobranca por assinatura, gestao de faturas, processamento de webhooks. Infraestrutura de receita que funciona.</p>
           <span class="card-tag">Stripe + Next.js + Webhooks</span>
         </div>
 
         <div class="showcase-card reveal" data-tilt>
           <div class="card-glow"></div>
           <div class="card-sector">DEPLOY</div>
-          <h3>Cloud & DevOps</h3>
-          <p>CI/CD pipelines, containerization, cloud deployment. Your app running reliably in production.</p>
+          <h3 data-i18n="svc_7_h">Cloud & DevOps</h3>
+          <p data-i18n="svc_7_p">Pipelines CI/CD, containerizacao, deploy em nuvem. Seu app rodando de forma confiavel em producao.</p>
           <span class="card-tag">Vercel + Railway + Docker + AWS</span>
         </div>
 
         <div class="showcase-card reveal" data-tilt>
           <div class="card-glow"></div>
           <div class="card-sector">CONSULTING</div>
-          <h3>Business & Tech Strategy</h3>
-          <p>15+ years of business management experience. I help you make the right technical decisions for your business goals.</p>
+          <h3 data-i18n="svc_8_h">Estrategia de Negocios & Tech</h3>
+          <p data-i18n="svc_8_p">15+ anos de experiencia em gestao empresarial. Ajudo voce a tomar as decisoes tecnicas certas para seus objetivos de negocio.</p>
           <span class="card-tag">ISO 9001 + Process Optimization</span>
         </div>
 
         <!-- SPECIAL CARD -->
         <div class="showcase-card card-yours reveal" data-tilt>
           <div class="card-glow"></div>
-          <h3>Your Project Here</h3>
-          <p>Have an idea that needs building? Tell me about it. If it can be solved with code, I'll build it.</p>
-          <a href="#contact" class="card-cta">LET'S TALK &rarr;</a>
+          <h3 data-i18n="svc_yours_h">Seu Projeto Aqui</h3>
+          <p data-i18n="svc_yours_p">Tem uma ideia que precisa ser construida? Me conta. Se da pra resolver com codigo, eu construo.</p>
+          <a href="#contact" class="card-cta" data-i18n="svc_yours_cta">FALAR COMIGO &rarr;</a>
         </div>
       </div>
     </div>
@@ -282,44 +282,36 @@
   <!-- PROCESS -->
   <section class="section section-accent" id="process">
     <div class="container">
-      <span class="section-label reveal">HOW I WORK</span>
-      <h2 class="reveal">From idea to production in <span class="green">4 steps</span></h2>
+      <span class="section-label reveal" data-i18n="proc_label">COMO EU TRABALHO</span>
+      <h2 class="reveal" data-i18n="proc_h2">Da ideia a producao em <span class="green">4 passos</span></h2>
 
       <div class="process-timeline">
         <div class="process-step reveal">
-          <div class="process-marker">
-            <span class="process-num">01</span>
-          </div>
+          <div class="process-marker"><span class="process-num">01</span></div>
           <div class="process-content">
-            <h3>Discovery</h3>
-            <p>We talk about your project, goals, and constraints. I ask the right questions so I build the right thing. <strong>No commitment. No cost.</strong></p>
+            <h3 data-i18n="proc_1_h">Descoberta</h3>
+            <p data-i18n="proc_1_p">Conversamos sobre seu projeto, objetivos e restricoes. Faco as perguntas certas pra construir a coisa certa. <strong>Sem compromisso. Sem custo.</strong></p>
           </div>
         </div>
         <div class="process-step reveal">
-          <div class="process-marker">
-            <span class="process-num">02</span>
-          </div>
+          <div class="process-marker"><span class="process-num">02</span></div>
           <div class="process-content">
-            <h3>Architecture & Planning</h3>
-            <p>Tech stack, data model, milestones, timeline. You know exactly what you're getting and when. No surprises.</p>
+            <h3 data-i18n="proc_2_h">Arquitetura & Planejamento</h3>
+            <p data-i18n="proc_2_p">Stack tecnica, modelo de dados, marcos, cronograma. Voce sabe exatamente o que vai receber e quando. Sem surpresas.</p>
           </div>
         </div>
         <div class="process-step reveal">
-          <div class="process-marker">
-            <span class="process-num">03</span>
-          </div>
+          <div class="process-marker"><span class="process-num">03</span></div>
           <div class="process-content">
-            <h3>Build & Ship</h3>
-            <p>Weekly demos, async updates, clean commits. You see progress every week. I ship fast without cutting corners.</p>
+            <h3 data-i18n="proc_3_h">Construir & Entregar</h3>
+            <p data-i18n="proc_3_p">Demos semanais, atualizacoes assincronas, commits limpos. Voce ve progresso toda semana. Entrego rapido sem cortar caminho.</p>
           </div>
         </div>
         <div class="process-step reveal">
-          <div class="process-marker">
-            <span class="process-num">04</span>
-          </div>
+          <div class="process-marker"><span class="process-num">04</span></div>
           <div class="process-content">
-            <h3>Launch & Support</h3>
-            <p>Deploy to production, documentation, handoff. I don't disappear after delivery. Your success is my success.</p>
+            <h3 data-i18n="proc_4_h">Lancamento & Suporte</h3>
+            <p data-i18n="proc_4_p">Deploy em producao, documentacao, handoff. Nao desapareco depois da entrega. Seu sucesso e meu sucesso.</p>
           </div>
         </div>
       </div>
@@ -329,39 +321,39 @@
   <!-- WHY ME -->
   <section class="section" id="diferencial">
     <div class="container">
-      <span class="section-label reveal">WHY ME</span>
-      <h2 class="reveal">Not just a developer.<br>Your <span class="green">technical partner</span>.</h2>
+      <span class="section-label reveal" data-i18n="why_label">POR QUE EU</span>
+      <h2 class="reveal" data-i18n="why_h2">Nao sou so um dev.<br>Sou seu <span class="green">parceiro tecnico</span>.</h2>
 
       <div class="diff-grid">
         <div class="diff-card reveal">
           <div class="diff-number">//</div>
-          <h3>Fast Delivery</h3>
-          <p>Modern tools and AI-assisted development. Weeks, not months.</p>
+          <h3 data-i18n="why_1_h">Entrega Rapida</h3>
+          <p data-i18n="why_1_p">Ferramentas modernas e desenvolvimento assistido por IA. Semanas, nao meses.</p>
         </div>
         <div class="diff-card reveal">
           <div class="diff-number">{}</div>
-          <h3>Clean Code</h3>
-          <p>TypeScript, tests, documentation. Code your next developer will thank you for.</p>
+          <h3 data-i18n="why_2_h">Codigo Limpo</h3>
+          <p data-i18n="why_2_p">TypeScript, testes, documentacao. Codigo que o proximo dev vai agradecer.</p>
         </div>
         <div class="diff-card reveal">
           <div class="diff-number">&lt;/&gt;</div>
-          <h3>Full-Stack</h3>
-          <p>Frontend to backend to deploy. One developer, zero coordination overhead.</p>
+          <h3 data-i18n="why_3_h">Full-Stack</h3>
+          <p data-i18n="why_3_p">Do frontend ao backend ao deploy. Um desenvolvedor, zero overhead de coordenacao.</p>
         </div>
         <div class="diff-card reveal">
           <div class="diff-number">$_</div>
-          <h3>Business Mindset</h3>
-          <p>15+ years in business management. I understand ROI, not just React.</p>
+          <h3 data-i18n="why_4_h">Visao de Negocio</h3>
+          <p data-i18n="why_4_p">15+ anos em gestao empresarial. Entendo ROI, nao so React.</p>
         </div>
         <div class="diff-card reveal">
           <div class="diff-number">--</div>
-          <h3>Clear Communication</h3>
-          <p>Weekly updates, honest timelines, no jargon. You always know where things stand.</p>
+          <h3 data-i18n="why_5_h">Comunicacao Clara</h3>
+          <p data-i18n="why_5_p">Atualizacoes semanais, prazos honestos, sem jargao. Voce sempre sabe como as coisas estao.</p>
         </div>
         <div class="diff-card reveal">
           <div class="diff-number">+1</div>
-          <h3>Long-Term Partner</h3>
-          <p>I build for maintainability. After launch, I'm still here for iterations and support.</p>
+          <h3 data-i18n="why_6_h">Parceiro de Longo Prazo</h3>
+          <p data-i18n="why_6_p">Construo pensando em manutencao. Depois do lancamento, continuo aqui pra iteracoes e suporte.</p>
         </div>
       </div>
     </div>
@@ -370,69 +362,35 @@
   <!-- TECH STACK -->
   <section class="section section-accent" id="stack">
     <div class="container">
-      <span class="section-label reveal">TECH STACK</span>
-      <h2 class="reveal">Built with <span class="green">modern tools</span></h2>
-      <p class="section-sub reveal">Production-tested technologies. No experiments on your project.</p>
+      <span class="section-label reveal" data-i18n="stack_label">TECH STACK</span>
+      <h2 class="reveal" data-i18n="stack_h2">Construido com <span class="green">ferramentas modernas</span></h2>
+      <p class="section-sub reveal" data-i18n="stack_sub">Tecnologias testadas em producao. Nenhum experimento no seu projeto.</p>
 
       <div class="results-grid">
         <div class="result-card reveal">
-          <div class="result-before">
-            <span class="result-tag before-tag">FRONTEND</span>
-            <p>React, Next.js 14, TypeScript, Tailwind CSS, Zustand, TanStack Query, shadcn/ui</p>
-          </div>
+          <div class="result-before"><span class="result-tag before-tag">FRONTEND</span><p>React, Next.js 14, TypeScript, Tailwind CSS, Zustand, TanStack Query, shadcn/ui</p></div>
           <div class="result-arrow">//</div>
-          <div class="result-after">
-            <span class="result-tag after-tag">RESULT</span>
-            <p>Fast, responsive, accessible UIs that look great on every device and screen size.</p>
-          </div>
+          <div class="result-after"><span class="result-tag after-tag">RESULT</span><p data-i18n="stack_r1">UIs rapidas, responsivas e acessiveis que ficam otimas em qualquer dispositivo e tamanho de tela.</p></div>
         </div>
-
         <div class="result-card reveal">
-          <div class="result-before">
-            <span class="result-tag before-tag">BACKEND</span>
-            <p>Python, FastAPI, Node.js, Express, REST APIs, GraphQL, WebSockets</p>
-          </div>
+          <div class="result-before"><span class="result-tag before-tag">BACKEND</span><p>Python, FastAPI, Node.js, Express, REST APIs, GraphQL, WebSockets</p></div>
           <div class="result-arrow">//</div>
-          <div class="result-after">
-            <span class="result-tag after-tag">RESULT</span>
-            <p>Scalable APIs that handle thousands of requests. Clean, documented, easy to extend.</p>
-          </div>
+          <div class="result-after"><span class="result-tag after-tag">RESULT</span><p data-i18n="stack_r2">APIs escalaveis que processam milhares de requisicoes. Limpas, documentadas, faceis de estender.</p></div>
         </div>
-
         <div class="result-card reveal">
-          <div class="result-before">
-            <span class="result-tag before-tag">DATABASE</span>
-            <p>PostgreSQL, Prisma, Drizzle ORM, Redis, Supabase, NeonDB</p>
-          </div>
+          <div class="result-before"><span class="result-tag before-tag">DATABASE</span><p>PostgreSQL, Prisma, Drizzle ORM, Redis, Supabase, NeonDB</p></div>
           <div class="result-arrow">//</div>
-          <div class="result-after">
-            <span class="result-tag after-tag">RESULT</span>
-            <p>Reliable data layer with migrations, type safety, and optimized queries.</p>
-          </div>
+          <div class="result-after"><span class="result-tag after-tag">RESULT</span><p data-i18n="stack_r3">Camada de dados confiavel com migrations, type safety e queries otimizadas.</p></div>
         </div>
-
         <div class="result-card reveal">
-          <div class="result-before">
-            <span class="result-tag before-tag">DEPLOY</span>
-            <p>Vercel, Railway, AWS, Docker, GitHub Actions, CI/CD</p>
-          </div>
+          <div class="result-before"><span class="result-tag before-tag">DEPLOY</span><p>Vercel, Railway, AWS, Docker, GitHub Actions, CI/CD</p></div>
           <div class="result-arrow">//</div>
-          <div class="result-after">
-            <span class="result-tag after-tag">RESULT</span>
-            <p>Zero-downtime deployments, auto-scaling, monitoring. Your app is always running.</p>
-          </div>
+          <div class="result-after"><span class="result-tag after-tag">RESULT</span><p data-i18n="stack_r4">Deploys sem downtime, auto-scaling, monitoramento. Seu app esta sempre rodando.</p></div>
         </div>
-
         <div class="result-card reveal">
-          <div class="result-before">
-            <span class="result-tag before-tag">AI / ML</span>
-            <p>OpenAI, Claude, LangChain, RAG, Whisper, Vision AI</p>
-          </div>
+          <div class="result-before"><span class="result-tag before-tag">AI / ML</span><p>OpenAI, Claude, LangChain, RAG, Whisper, Vision AI</p></div>
           <div class="result-arrow">//</div>
-          <div class="result-after">
-            <span class="result-tag after-tag">RESULT</span>
-            <p>Intelligent features that automate workflows and create real business value.</p>
-          </div>
+          <div class="result-after"><span class="result-tag after-tag">RESULT</span><p data-i18n="stack_r5">Recursos inteligentes que automatizam fluxos de trabalho e criam valor real para o negocio.</p></div>
         </div>
       </div>
     </div>
@@ -441,53 +399,17 @@
   <!-- BEHIND THE SCENES -->
   <section class="section" id="bastidores">
     <div class="container">
-      <span class="section-label reveal">HOW I BUILD</span>
-      <h2 class="reveal">Behind the <span class="green">scenes</span></h2>
-      <p class="section-sub reveal">Transparent process. You know what's happening at every step.</p>
+      <span class="section-label reveal" data-i18n="bts_label">COMO EU CONSTRUO</span>
+      <h2 class="reveal" data-i18n="bts_h2">Por dentro dos <span class="green">bastidores</span></h2>
+      <p class="section-sub reveal" data-i18n="bts_sub">Processo transparente. Voce sabe o que esta acontecendo em cada etapa.</p>
 
       <div class="bts-grid">
-        <div class="bts-card reveal">
-          <div class="bts-icon">&lt;/&gt;</div>
-          <div class="bts-content">
-            <h3>TypeScript Everything</h3>
-            <p>End-to-end type safety. Fewer bugs, better developer experience, easier maintenance.</p>
-          </div>
-        </div>
-        <div class="bts-card reveal">
-          <div class="bts-icon">CI</div>
-          <div class="bts-content">
-            <h3>Automated Testing</h3>
-            <p>Tests run on every commit. Linting, type checking, CI/CD. Nothing breaks silently.</p>
-          </div>
-        </div>
-        <div class="bts-card reveal">
-          <div class="bts-icon">API</div>
-          <div class="bts-content">
-            <h3>API-First Design</h3>
-            <p>Clean REST endpoints, documented, versioned. Ready for mobile apps and future integrations.</p>
-          </div>
-        </div>
-        <div class="bts-card reveal">
-          <div class="bts-icon">GIT</div>
-          <div class="bts-content">
-            <h3>Git-Based Workflow</h3>
-            <p>Feature branches, pull requests, code reviews. Full history, zero lost work.</p>
-          </div>
-        </div>
-        <div class="bts-card reveal">
-          <div class="bts-icon">UX</div>
-          <div class="bts-content">
-            <h3>Mobile-First Design</h3>
-            <p>Responsive from the start. Your app works perfectly on phones, tablets, and desktops.</p>
-          </div>
-        </div>
-        <div class="bts-card reveal">
-          <div class="bts-icon">24h</div>
-          <div class="bts-content">
-            <h3>Fast Response Time</h3>
-            <p>Messages answered within 24 hours. Weekly progress demos. No communication blackholes.</p>
-          </div>
-        </div>
+        <div class="bts-card reveal"><div class="bts-icon">&lt;/&gt;</div><div class="bts-content"><h3 data-i18n="bts_1_h">TypeScript em Tudo</h3><p data-i18n="bts_1_p">Type safety de ponta a ponta. Menos bugs, melhor experiencia de dev, manutencao mais facil.</p></div></div>
+        <div class="bts-card reveal"><div class="bts-icon">CI</div><div class="bts-content"><h3 data-i18n="bts_2_h">Testes Automatizados</h3><p data-i18n="bts_2_p">Testes rodam em cada commit. Linting, type checking, CI/CD. Nada quebra silenciosamente.</p></div></div>
+        <div class="bts-card reveal"><div class="bts-icon">API</div><div class="bts-content"><h3 data-i18n="bts_3_h">Design API-First</h3><p data-i18n="bts_3_p">Endpoints REST limpos, documentados, versionados. Prontos pra apps mobile e integracoes futuras.</p></div></div>
+        <div class="bts-card reveal"><div class="bts-icon">GIT</div><div class="bts-content"><h3 data-i18n="bts_4_h">Workflow baseado em Git</h3><p data-i18n="bts_4_p">Feature branches, pull requests, code reviews. Historico completo, zero trabalho perdido.</p></div></div>
+        <div class="bts-card reveal"><div class="bts-icon">UX</div><div class="bts-content"><h3 data-i18n="bts_5_h">Design Mobile-First</h3><p data-i18n="bts_5_p">Responsivo desde o inicio. Seu app funciona perfeitamente em celulares, tablets e desktops.</p></div></div>
+        <div class="bts-card reveal"><div class="bts-icon">24h</div><div class="bts-content"><h3 data-i18n="bts_6_h">Tempo de Resposta Rapido</h3><p data-i18n="bts_6_p">Mensagens respondidas em ate 24 horas. Demos semanais de progresso. Sem buracos negros de comunicacao.</p></div></div>
       </div>
     </div>
   </section>
@@ -497,34 +419,16 @@
     <div class="container">
       <div class="about-grid">
         <div class="about-text reveal">
-          <span class="section-label">ABOUT</span>
+          <span class="section-label" data-i18n="about_label">SOBRE</span>
           <h2>Daniel <span class="green">Anders</span></h2>
-          <p class="about-role">Full-Stack Developer &middot; Business Consultant &middot; Engineer</p>
-          <p>15+ years building systems that solve real problems. Started as an Electrical Engineer, founded a business consulting company, and evolved into a full-stack developer building modern web applications.</p>
-          <p>I bring an engineering mindset and business experience to every project. I don't just write code &mdash; I understand the problem behind it and build solutions that generate real value.</p>
-          <p>Currently available for freelance projects worldwide. I work best with startups and small teams who need a reliable developer that thinks like a business owner.</p>
+          <p class="about-role" data-i18n="about_role">Desenvolvedor Full-Stack &middot; Consultor Empresarial &middot; Engenheiro</p>
+          <p data-i18n="about_p1">15+ anos construindo sistemas que resolvem problemas reais. Comecei como Engenheiro Eletricista, fundei uma empresa de consultoria empresarial e evolui para desenvolvedor full-stack construindo aplicacoes web modernas.</p>
+          <p data-i18n="about_p2">Trago mentalidade de engenheiro e experiencia em negocios para cada projeto. Nao apenas escrevo codigo &mdash; entendo o problema por tras dele e construo solucoes que geram valor real.</p>
+          <p data-i18n="about_p3">Atualmente disponivel para projetos freelance no mundo todo. Trabalho melhor com startups e equipes pequenas que precisam de um desenvolvedor confiavel que pensa como dono de negocio.</p>
           <div class="about-values">
-            <div class="about-value">
-              <span class="green">_Q</span>
-              <div>
-                <strong>Quality</strong>
-                <p>ISO 9001 background. Process, evidence, and continuous improvement.</p>
-              </div>
-            </div>
-            <div class="about-value">
-              <span class="green">&lt;/&gt;</span>
-              <div>
-                <strong>Modern Stack</strong>
-                <p>React, Next.js, TypeScript, Python. Always up to date.</p>
-              </div>
-            </div>
-            <div class="about-value">
-              <span class="green">$&gt;</span>
-              <div>
-                <strong>Business First</strong>
-                <p>Every line of code serves a business goal. No overengineering.</p>
-              </div>
-            </div>
+            <div class="about-value"><span class="green">_Q</span><div><strong data-i18n="about_v1_h">Qualidade</strong><p data-i18n="about_v1_p">Background em ISO 9001. Processo, evidencia e melhoria continua.</p></div></div>
+            <div class="about-value"><span class="green">&lt;/&gt;</span><div><strong data-i18n="about_v2_h">Stack Moderna</strong><p data-i18n="about_v2_p">React, Next.js, TypeScript, Python. Sempre atualizado.</p></div></div>
+            <div class="about-value"><span class="green">$&gt;</span><div><strong data-i18n="about_v3_h">Negocio Primeiro</strong><p data-i18n="about_v3_p">Cada linha de codigo serve um objetivo de negocio. Sem overengineering.</p></div></div>
           </div>
           <div class="about-contact">
             <a href="mailto:danielanders76@gmail.com" class="about-link">danielanders76@gmail.com</a>
@@ -534,22 +438,10 @@
         </div>
         <div class="about-visual reveal">
           <div class="about-card-stack">
-            <div class="about-floating-card">
-              <span class="afc-number">+15</span>
-              <span class="afc-label">years in tech & business</span>
-            </div>
-            <div class="about-floating-card">
-              <span class="afc-number">+50</span>
-              <span class="afc-label">systems delivered</span>
-            </div>
-            <div class="about-floating-card">
-              <span class="afc-number">5+</span>
-              <span class="afc-label">industries served</span>
-            </div>
-            <div class="about-floating-card accent">
-              <span class="afc-label">Passo Fundo, Brazil</span>
-              <span class="afc-sublabel">Working remotely with clients worldwide</span>
-            </div>
+            <div class="about-floating-card"><span class="afc-number">+15</span><span class="afc-label" data-i18n="about_s1">anos em tech & negocios</span></div>
+            <div class="about-floating-card"><span class="afc-number">+50</span><span class="afc-label" data-i18n="about_s2">sistemas entregues</span></div>
+            <div class="about-floating-card"><span class="afc-number">5+</span><span class="afc-label" data-i18n="about_s3">setores atendidos</span></div>
+            <div class="about-floating-card accent"><span class="afc-label" data-i18n="about_loc">Passo Fundo, Brasil</span><span class="afc-sublabel" data-i18n="about_loc_sub">Trabalhando remotamente com clientes no mundo todo</span></div>
           </div>
         </div>
       </div>
@@ -560,10 +452,10 @@
   <section class="section section-urgency">
     <div class="container">
       <div class="urgency-content reveal">
-        <h2>Ready to build<br><span class="green">something great?</span></h2>
-        <p>Whether it's an MVP, a dashboard, an API integration, or a complete web application &mdash; I'm here to make it happen.</p>
-        <p class="urgency-big">Let's turn your idea into <strong>working software</strong>.</p>
-        <a href="#contact" class="cta-btn">START A PROJECT &rarr;</a>
+        <h2 data-i18n="cta_h2">Pronto pra construir<br><span class="green">algo incrivel?</span></h2>
+        <p data-i18n="cta_p">Seja um MVP, um dashboard, uma integracao de API ou uma aplicacao web completa &mdash; estou aqui pra fazer acontecer.</p>
+        <p class="urgency-big" data-i18n="cta_big">Vamos transformar sua ideia em <strong>software funcionando</strong>.</p>
+        <a href="#contact" class="cta-btn" data-i18n="cta_btn">INICIAR PROJETO &rarr;</a>
       </div>
     </div>
   </section>
@@ -573,35 +465,25 @@
     <div class="container">
       <div class="form-wrapper reveal">
         <div class="form-left">
-          <span class="section-label">LET'S TALK</span>
-          <h2>Tell me about<br><span class="green">your project.</span></h2>
-          <p>No commitment. I'll review your project scope and get back to you within 24 hours with an honest assessment and a plan.</p>
+          <span class="section-label" data-i18n="form_label">VAMOS CONVERSAR</span>
+          <h2 data-i18n="form_h2">Me conte sobre<br><span class="green">seu projeto.</span></h2>
+          <p data-i18n="form_p">Sem compromisso. Vou analisar o escopo do seu projeto e retornar em ate 24 horas com uma avaliacao honesta e um plano.</p>
           <div class="form-trust-items">
-            <div class="trust-item">// Free initial consultation</div>
-            <div class="trust-item">// Response within 24h</div>
-            <div class="trust-item">// No commitment required</div>
-            <div class="trust-item">// NDA available on request</div>
+            <div class="trust-item" data-i18n="form_t1">// Consulta inicial gratuita</div>
+            <div class="trust-item" data-i18n="form_t2">// Resposta em ate 24h</div>
+            <div class="trust-item" data-i18n="form_t3">// Sem compromisso</div>
+            <div class="trust-item" data-i18n="form_t4">// NDA disponivel sob solicitacao</div>
           </div>
         </div>
         <div class="form-right">
           <form class="contact-form" id="leadForm">
-            <div class="form-group">
-              <input type="text" name="name" placeholder="Your name" required>
-            </div>
-            <div class="form-group">
-              <input type="email" name="email" placeholder="Your email" required>
-            </div>
-            <div class="form-group">
-              <input type="tel" name="phone" placeholder="Phone / WhatsApp (optional)">
-            </div>
-            <div class="form-group">
-              <input type="text" name="sector" placeholder="Project type (e.g., SaaS MVP, Dashboard, API...)">
-            </div>
-            <div class="form-group">
-              <textarea name="idea" placeholder="Tell me about your project in a few words..." rows="3"></textarea>
-            </div>
+            <div class="form-group"><input type="text" name="name" data-i18n="form_name" placeholder="Seu nome" required></div>
+            <div class="form-group"><input type="email" name="email" data-i18n="form_email" placeholder="Seu email" required></div>
+            <div class="form-group"><input type="tel" name="phone" data-i18n="form_phone" placeholder="Telefone / WhatsApp (opcional)"></div>
+            <div class="form-group"><input type="text" name="sector" data-i18n="form_type" placeholder="Tipo de projeto (ex: MVP SaaS, Dashboard, API...)"></div>
+            <div class="form-group"><textarea name="idea" data-i18n="form_idea" placeholder="Me conte sobre seu projeto em poucas palavras..." rows="3"></textarea></div>
             <button type="submit" class="cta-btn full-width">
-              <span>SEND MESSAGE</span>
+              <span data-i18n="form_btn">ENVIAR MENSAGEM</span>
               <svg class="cta-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </button>
           </form>
@@ -615,19 +497,13 @@
     <div class="container footer-inner">
       <div class="footer-left">
         <p class="footer-brand">Daniel<span class="green">Anders</span></p>
-        <p class="footer-tagline">Building modern web applications. Available worldwide.</p>
+        <p class="footer-tagline" data-i18n="footer_tagline">Construindo aplicacoes web modernas. Disponivel no mundo todo.</p>
       </div>
       <div class="footer-right">
         <div class="footer-social">
-          <a href="https://github.com/AndersD76" target="_blank" rel="noopener" aria-label="GitHub">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
-          </a>
-          <a href="https://linkedin.com/in/danielandersbrrs" target="_blank" rel="noopener" aria-label="LinkedIn">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-          </a>
-          <a href="https://wa.me/5554999648368" target="_blank" rel="noopener" aria-label="WhatsApp">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-          </a>
+          <a href="https://github.com/AndersD76" target="_blank" rel="noopener" aria-label="GitHub"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg></a>
+          <a href="https://linkedin.com/in/danielandersbrrs" target="_blank" rel="noopener" aria-label="LinkedIn"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+          <a href="https://wa.me/5554999648368" target="_blank" rel="noopener" aria-label="WhatsApp"><svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
         </div>
         <p class="footer-copy">&copy; 2026 Daniel Anders</p>
       </div>
@@ -635,5 +511,6 @@
   </footer>
 
   <script src="script.js"></script>
+  <script src="i18n.js"></script>
 </body>
 </html>

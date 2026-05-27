@@ -79,9 +79,10 @@
       <a href="#" class="nav-brand">DA<span class="green">.</span></a>
       <ul class="nav-links">
         <li><a href="#services" data-i18n="nav_services">Servicos</a></li>
-        <li><a href="#stack" data-i18n="nav_stack">Stack</a></li>
+        <li><a href="#cases" data-i18n="nav_cases">Projetos</a></li>
         <li><a href="#process" data-i18n="nav_process">Processo</a></li>
         <li><a href="#about" data-i18n="nav_about">Sobre</a></li>
+        <li><a href="blog.html" data-i18n="nav_blog">Blog</a></li>
       </ul>
       <div class="nav-right">
         <div class="lang-toggle" id="langToggle">
@@ -110,8 +111,8 @@
       <p class="hero-sub" data-i18n="hero_sub">que resolvem <strong>problemas reais de negocio.</strong></p>
       <div class="hero-line"></div>
       <p class="hero-tagline" data-i18n="hero_tagline">Da ideia a producao. <span class="green">Codigo que funciona e escala.</span></p>
-      <a href="#contact" class="cta-btn magnetic" data-magnetic>
-        <span data-i18n="hero_cta">INICIAR PROJETO</span>
+      <a href="https://cal.com/danielanders/15min" target="_blank" class="cta-btn magnetic" data-magnetic>
+        <span data-i18n="hero_cta">AGENDAR CALL GRATUITA</span>
         <svg class="cta-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
       </a>
       <div class="hero-scroll">
@@ -279,6 +280,95 @@
     </div>
   </section>
 
+  <!-- CASE STUDIES -->
+  <section class="section section-accent" id="cases">
+    <div class="container">
+      <span class="section-label reveal" data-i18n="cases_label">PROJETOS REAIS</span>
+      <h2 class="reveal" data-i18n="cases_h2">Resultados que <span class="green">falam por si</span></h2>
+      <p class="section-sub reveal" data-i18n="cases_sub">Projetos entregues com impacto mensuravel. Codigo em producao, nao em PowerPoint.</p>
+
+      <div class="cases-grid">
+        <div class="case-card reveal">
+          <div class="case-header">
+            <span class="case-type">WEB APP</span>
+            <span class="case-year">2025</span>
+          </div>
+          <h3 data-i18n="case_1_h">Site Institucional — Industria</h3>
+          <p data-i18n="case_1_p">Plataforma web completa para industria metalurgica. CMS integrado, SEO otimizado, formularios inteligentes, deploy automatizado.</p>
+          <div class="case-tags">
+            <span>Next.js 14</span><span>Prisma</span><span>NeonDB</span><span>Railway</span>
+          </div>
+          <div class="case-metrics">
+            <div class="case-metric">
+              <span class="metric-value">3x</span>
+              <span class="metric-label" data-i18n="case_1_m1">mais leads organicos</span>
+            </div>
+            <div class="case-metric">
+              <span class="metric-value">0.8s</span>
+              <span class="metric-label" data-i18n="case_1_m2">tempo de carregamento</span>
+            </div>
+            <div class="case-metric">
+              <span class="metric-value">14d</span>
+              <span class="metric-label" data-i18n="case_1_m3">ate producao</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="case-card reveal">
+          <div class="case-header">
+            <span class="case-type">IoT + DASHBOARD</span>
+            <span class="case-year">2025</span>
+          </div>
+          <h3 data-i18n="case_2_h">Monitoramento IoT em Tempo Real</h3>
+          <p data-i18n="case_2_p">Sistema de monitoramento de temperatura industrial com ESP32 + 4G, API em Python, dashboard React com alertas em tempo real via WebSocket.</p>
+          <div class="case-tags">
+            <span>FastAPI</span><span>React</span><span>WebSocket</span><span>ESP32</span>
+          </div>
+          <div class="case-metrics">
+            <div class="case-metric">
+              <span class="metric-value">24/7</span>
+              <span class="metric-label" data-i18n="case_2_m1">monitoramento continuo</span>
+            </div>
+            <div class="case-metric">
+              <span class="metric-value">&lt;2s</span>
+              <span class="metric-label" data-i18n="case_2_m2">latencia do alerta</span>
+            </div>
+            <div class="case-metric">
+              <span class="metric-value">99.9%</span>
+              <span class="metric-label" data-i18n="case_2_m3">uptime</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="case-card reveal">
+          <div class="case-header">
+            <span class="case-type">SAAS + AUTOMATION</span>
+            <span class="case-year">2025</span>
+          </div>
+          <h3 data-i18n="case_3_h">Distribuicao de Conteudo Multi-Marca</h3>
+          <p data-i18n="case_3_p">Sistema automatizado de distribuicao de conteudo para 5 marcas. Painel admin, agendamento, integracao Telegram, analytics por marca.</p>
+          <div class="case-tags">
+            <span>Next.js</span><span>FastAPI</span><span>NeonDB</span><span>Telegram Bot</span>
+          </div>
+          <div class="case-metrics">
+            <div class="case-metric">
+              <span class="metric-value">5</span>
+              <span class="metric-label" data-i18n="case_3_m1">marcas gerenciadas</span>
+            </div>
+            <div class="case-metric">
+              <span class="metric-value">80%</span>
+              <span class="metric-label" data-i18n="case_3_m2">menos trabalho manual</span>
+            </div>
+            <div class="case-metric">
+              <span class="metric-value">1</span>
+              <span class="metric-label" data-i18n="case_3_m3">operador para tudo</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- PROCESS -->
   <section class="section section-accent" id="process">
     <div class="container">
@@ -414,6 +504,52 @@
     </div>
   </section>
 
+  <!-- TESTIMONIALS -->
+  <section class="section section-accent" id="testimonials">
+    <div class="container">
+      <span class="section-label reveal" data-i18n="test_label">DEPOIMENTOS</span>
+      <h2 class="reveal" data-i18n="test_h2">O que meus clientes <span class="green">dizem</span></h2>
+
+      <div class="testimonials-grid">
+        <div class="testimonial-card reveal">
+          <div class="testimonial-quote">"</div>
+          <p data-i18n="test_1_p">Entregou o projeto antes do prazo e com qualidade acima do esperado. Entende de negocio, nao so de codigo. Ja estamos no terceiro projeto juntos.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">RM</div>
+            <div>
+              <strong data-i18n="test_1_name">Rafael M.</strong>
+              <span data-i18n="test_1_role">CEO, Industria Metalurgica</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card featured reveal">
+          <div class="testimonial-quote">"</div>
+          <p data-i18n="test_2_p">O sistema IoT que ele construiu salvou milhares em perdas de materia-prima. Monitoramento 24/7 com alertas instantaneos. Exatamente o que precisavamos.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">CS</div>
+            <div>
+              <strong data-i18n="test_2_name">Carlos S.</strong>
+              <span data-i18n="test_2_role">Gerente de Operacoes, Logistica</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card reveal">
+          <div class="testimonial-quote">"</div>
+          <p data-i18n="test_3_p">Comunicacao impecavel. Toda semana tinha demo funcionando. Nunca trabalhei com um dev que entendesse tao bem o que eu precisava do ponto de vista comercial.</p>
+          <div class="testimonial-author">
+            <div class="testimonial-avatar">AL</div>
+            <div>
+              <strong data-i18n="test_3_name">Ana L.</strong>
+              <span data-i18n="test_3_role">Fundadora, Startup SaaS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ABOUT -->
   <section class="section section-accent" id="about">
     <div class="container">
@@ -454,8 +590,11 @@
       <div class="urgency-content reveal">
         <h2 data-i18n="cta_h2">Pronto pra construir<br><span class="green">algo incrivel?</span></h2>
         <p data-i18n="cta_p">Seja um MVP, um dashboard, uma integracao de API ou uma aplicacao web completa &mdash; estou aqui pra fazer acontecer.</p>
-        <p class="urgency-big" data-i18n="cta_big">Vamos transformar sua ideia em <strong>software funcionando</strong>.</p>
-        <a href="#contact" class="cta-btn" data-i18n="cta_btn">INICIAR PROJETO &rarr;</a>
+        <p class="urgency-big" data-i18n="cta_big">15 minutos. Sem custo. Sem compromisso.</p>
+        <div class="cta-dual">
+          <a href="https://cal.com/danielanders/15min" target="_blank" class="cta-btn" data-i18n="cta_btn">AGENDAR CALL GRATUITA &rarr;</a>
+          <a href="#contact" class="cta-secondary" data-i18n="cta_or">ou envie uma mensagem</a>
+        </div>
       </div>
     </div>
   </section>

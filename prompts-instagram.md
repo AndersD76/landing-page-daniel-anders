@@ -405,3 +405,262 @@ Chama no direct. Diagnóstico gratuito.
 
 **Frequência:** 3-4x/semana feed + stories diários
 **Stories diários:** repost do feed com enquete "Você se identifica?" ou "Já passou por isso?"
+
+---
+---
+
+# LINKEDIN — POSICIONAMENTO DEV FREELANCER INTERNACIONAL
+
+Perfil: Daniel Anders | Full-Stack Developer — React, Next.js, Python, FastAPI
+Objetivo: atrair clientes internacionais (US/EU) e brasileiros para projetos freelance
+
+---
+
+## LINKEDIN POST 1 — POSICIONAMENTO (Texto puro, sem imagem)
+
+```
+I quit a 15-year business career to write code.
+
+Not because I was bored. Because I realized the best way to solve business problems is to build the solution yourself.
+
+I spent 15+ years managing companies, implementing ISO 9001, optimizing processes. Every time, the bottleneck was the same: we needed software that didn't exist yet.
+
+So I learned to build it.
+
+Now I build full-stack web apps for startups and SMBs worldwide:
+- MVPs that go from idea to production in weeks, not months
+- Dashboards that turn chaos into clarity
+- APIs that connect everything
+- AI features that actually solve problems
+
+My stack: React, Next.js 14, TypeScript, Python, FastAPI, PostgreSQL.
+
+My edge: I don't just write code. I understand the business behind it.
+
+If you're a founder who needs a developer who asks "why" before "how" — let's talk.
+
+15-minute discovery call, no cost: andersdev.com.br
+
+#fullstack #developer #freelance #react #nextjs #python #startup #mvp #webdevelopment
+```
+
+---
+
+## LINKEDIN POST 2 — CASE STUDY: IoT (Com imagem)
+
+### Prompt de imagem:
+```
+Professional dark tech dashboard screenshot mockup on a modern laptop screen. Dashboard shows real-time temperature monitoring with line charts, alert indicators, and sensor status cards. Blue accent color #38bdf8 on dark background #0a0a0a. Clean minimal design, glassmorphism cards. Side panel shows "Sensors: 12 Active" and "Alerts: 0". Bottom status bar: "Last update: 2s ago". Photorealistic product screenshot, dramatic desk lighting, slight perspective angle. 16:9 aspect ratio.
+```
+
+### Texto:
+```
+Built an IoT monitoring system in 3 weeks. Here's what it does:
+
+A logistics company needed to monitor cold chamber temperatures 24/7. Their old solution? A guy walking around with a clipboard every 4 hours.
+
+What I built:
+→ ESP32 sensors with 4G connectivity
+→ FastAPI backend processing data in real-time
+→ React dashboard with WebSocket live updates
+→ SMS/email alerts when temperature drifts
+
+Results after 60 days:
+• 24/7 monitoring (vs 6x/day manual checks)
+• Caught a refrigeration failure at 2 AM that would've cost R$40k in spoiled inventory
+• <2 second alert latency
+• 99.9% uptime
+
+The whole system — hardware, firmware, API, dashboard, deploy — delivered in 21 days.
+
+This is what happens when a developer understands both the technology AND the business problem.
+
+Stack: FastAPI + React + WebSocket + ESP32 + NeonDB + Railway
+
+Have a monitoring or IoT challenge? Let's talk: andersdev.com.br
+
+#iot #monitoring #fullstack #python #fastapi #react #webdevelopment #startup
+```
+
+---
+
+## LINKEDIN POST 3 — VALOR TÉCNICO (Texto puro)
+
+```
+The real cost of choosing the wrong tech stack for your MVP:
+
+I've seen this pattern too many times:
+
+1. Founder hires the cheapest dev they can find
+2. Dev picks whatever stack they're comfortable with
+3. MVP launches but can't scale, can't be maintained
+4. Founder needs to rewrite everything from scratch
+
+The rewrite costs 3-5x what the original build cost. Plus 3-6 months of lost time.
+
+Here's what I do instead:
+
+→ Next.js 14 with App Router — SSR, API routes, and frontend in one codebase
+→ TypeScript everywhere — catch bugs before they reach production
+→ PostgreSQL + Prisma — type-safe database with real migrations
+→ CI/CD from day 1 — every push is tested and deployed automatically
+
+It's not the flashiest approach. It's the one that works 12 months from now.
+
+The most expensive code is the code you have to throw away.
+
+If you're building an MVP and want to do it right the first time: andersdev.com.br
+
+#mvp #startup #webdev #nextjs #typescript #softwarearchitecture #freelance
+```
+
+---
+
+## LINKEDIN POST 4 — PROCESSO (Com imagem carrossel)
+
+### Slide 1 (capa):
+```
+Clean dark slide #0a0a0a with white bold text: "How I deliver MVPs in 2-4 weeks" and subtitle in blue #38bdf8: "The exact process I use for every project." Small text at bottom: "Daniel Anders — Full-Stack Developer". Modern sans-serif typography, minimal design. 16:9 aspect ratio.
+```
+
+### Slide 2:
+```
+Dark slide #0a0a0a with "01" in large blue #38bdf8 text. White bold: "Discovery Call (15 min)" Gray text: "I listen to your problem. Ask hard questions. Tell you honestly if it makes sense to build." Minimal design. 16:9.
+```
+
+### Slide 3:
+```
+Dark slide #0a0a0a with "02" in large blue #38bdf8 text. White bold: "Architecture & Proposal (48h)" Gray text: "Tech stack, data model, milestones, timeline, fixed price. You know exactly what you're getting." 16:9.
+```
+
+### Slide 4:
+```
+Dark slide #0a0a0a with "03" in large blue #38bdf8 text. White bold: "Build & Ship (2-4 weeks)" Gray text: "Weekly demos. Async updates. Clean commits. You see real progress every 7 days." 16:9.
+```
+
+### Slide 5:
+```
+Dark slide #0a0a0a with "04" in large blue #38bdf8 text. White bold: "Launch & Support" Gray text: "Production deploy, documentation, handoff. I don't disappear after delivery. Your success = my success." 16:9.
+```
+
+### Slide 6 (CTA):
+```
+Dark slide #0a0a0a with blue #38bdf8 bold text: "Ready to build?" White text: "15-min discovery call. No cost. No commitment." Blue button-style element: "andersdev.com.br" Small gray text: "React • Next.js • TypeScript • Python • FastAPI". 16:9.
+```
+
+### Texto:
+```
+How I deliver MVPs in 2-4 weeks (swipe →)
+
+Most freelancers take months and deliver something you can't maintain.
+
+Here's my exact process:
+
+01 — Discovery: 15-minute call. I understand your problem, not just your feature list.
+02 — Architecture: Within 48h you get a proposal with tech stack, milestones, and fixed price.
+03 — Build: Weekly demos. You see working software every 7 days.
+04 — Launch: Production deploy + documentation + handoff. And I stay for support.
+
+This process has delivered:
+• Industrial websites in 14 days
+• IoT monitoring systems in 21 days
+• Multi-brand content platforms in 18 days
+
+The secret? Modern tools + business experience + zero wasted time.
+
+Book a discovery call: andersdev.com.br
+
+#freelance #webdevelopment #mvp #startup #process #developer #react #nextjs
+```
+
+---
+
+## LINKEDIN POST 5 — ARTIGO DO BLOG (Compartilhar link)
+
+### Texto:
+```
+New article: "Por que Next.js 14 é a melhor escolha para seu MVP SaaS em 2026"
+
+I've built every SaaS MVP in the last 12 months with Next.js 14. Not because it's popular — because it eliminates decisions that cost time and money.
+
+In the article I cover:
+→ How Server Components kill the "API tax"
+→ Why App Router gives you architecture for free
+→ The exact stack that takes you from npx create-next-app to paying users in 4 days
+→ When Next.js is NOT the answer (honesty matters)
+
+Full article with code examples: andersdev.com.br/blog/nextjs-mvp-saas-2026.html
+
+If you're planning an MVP in 2026, this might save you weeks of wrong decisions.
+
+#nextjs #react #saas #mvp #webdevelopment #startup #typescript #fullstack
+```
+
+---
+
+## LINKEDIN POST 6 — SOCIAL PROOF / DEPOIMENTO
+
+```
+"A gente já tinha passado por dois devs que sumiram no meio do projeto."
+
+This is what a client told me during our first call.
+
+It's the most common story I hear from founders and business owners:
+
+→ Hired a dev. Looked great on paper.
+→ First 2 weeks went well.
+→ Then silence. Delayed deadlines. Excuses.
+→ Eventually ghosted. Money lost. Time lost.
+
+Here's what I do differently:
+
+1. Weekly video demos — you see working software, not just "it's almost done"
+2. Async updates — every Friday you get a summary of what was done
+3. Clean git history — every change is documented, every decision is traceable
+4. I don't disappear — after launch, I'm here for iterations and support
+
+The bar for freelance development is embarrassingly low. I intend to raise it.
+
+Currently available for projects. Let's talk: andersdev.com.br
+
+#freelance #developer #webdevelopment #trust #startup #business
+```
+
+---
+
+## CALENDÁRIO LINKEDIN (4 semanas)
+
+| Semana | Dia | Post | Formato |
+|--------|-----|------|---------|
+| 1 | Seg | Post 1 — Posicionamento | Texto puro |
+| 1 | Qui | Post 2 — Case IoT | Imagem + texto |
+| 2 | Seg | Post 3 — Valor técnico | Texto puro |
+| 2 | Qui | Post 4 — Processo | Carrossel |
+| 3 | Seg | Post 5 — Blog article | Link + texto |
+| 3 | Qui | Post 6 — Social proof | Texto puro |
+| 4 | Seg | Repost Post 1 com nova intro | Texto puro |
+| 4 | Qui | Novo case study (quando tiver) | Imagem + texto |
+
+**Frequência:** 2x/semana (Seg + Qui)
+**Horário:** 8h-9h BRT (ideal para audiência US/EU)
+**Idioma:** Inglês (foco clientes internacionais)
+**Engajamento:** Comentar em 5-10 posts relevantes/dia, especialmente em grupos de startup/dev
+
+---
+
+## PROMPTS DE IMAGEM PARA O SITE (andersdev.com.br)
+
+### OG Image (1200x630):
+```
+Dark minimal tech banner. Left side: bold white text "Daniel Anders" with blue #38bdf8 dot after "Anders". Below in gray: "Full-Stack Developer". Right side: abstract code brackets "</>" in blue #38bdf8 with subtle glow. Background: #030303 with faint dot-grid pattern. Clean, professional, no photos. 1200x630 pixels.
+```
+
+### Hero background (desktop, subtle):
+```
+Abstract dark tech background #030303. Subtle blue #38bdf8 dot-grid pattern fading from center. Very faint interconnected node/particle network lines in blue. Noise texture overlay. Ultra dark, minimal, no text. Suitable as website hero background. 2560x1440.
+```
+
+### Profile photo (About section):
+```
+Professional headshot of a confident Brazilian man in his 40s with short gray hair, wearing a simple black crew neck t-shirt. Clean dark background #0a0a0a. Soft directional studio lighting from the left creating subtle shadows. Slight smile, direct eye contact. Professional but approachable. No tattoos visible. Square crop, high resolution. 800x800 pixels.
+```

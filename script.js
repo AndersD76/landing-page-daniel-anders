@@ -61,14 +61,14 @@ document.addEventListener('DOMContentLoaded', () => {
         const pulsedOpacity = this.opacity * (0.7 + Math.sin(this.pulse) * 0.3);
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
-        ctx.fillStyle = `rgba(126, 217, 87, ${pulsedOpacity})`;
+        ctx.fillStyle = `rgba(56, 189, 248, ${pulsedOpacity})`;
         ctx.fill();
 
         // Glow effect on larger particles
         if (this.size > 1.2) {
           ctx.beginPath();
           ctx.arc(this.x, this.y, this.size * 4, 0, Math.PI * 2);
-          ctx.fillStyle = `rgba(126, 217, 87, ${pulsedOpacity * 0.06})`;
+          ctx.fillStyle = `rgba(56, 189, 248, ${pulsedOpacity * 0.06})`;
           ctx.fill();
         }
       }
@@ -90,7 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ctx.beginPath();
             ctx.moveTo(particles[i].x, particles[i].y);
             ctx.lineTo(particles[j].x, particles[j].y);
-            ctx.strokeStyle = `rgba(126, 217, 87, ${opacity})`;
+            ctx.strokeStyle = `rgba(56, 189, 248, ${opacity})`;
             ctx.lineWidth = 0.6;
             ctx.stroke();
           }
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
         canvas.width / 2, canvas.height * 0.4, 0,
         canvas.width / 2, canvas.height * 0.4, canvas.width * 0.4
       );
-      gradient.addColorStop(0, 'rgba(126, 217, 87, 0.02)');
+      gradient.addColorStop(0, 'rgba(56, 189, 248, 0.02)');
       gradient.addColorStop(1, 'transparent');
       ctx.fillStyle = gradient;
       ctx.fillRect(0, 0, canvas.width, canvas.height);

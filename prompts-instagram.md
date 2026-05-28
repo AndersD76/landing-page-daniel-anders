@@ -3,15 +3,15 @@
 ## CONFIGURAÇÃO DA BIO
 
 **Nome do perfil:**
-Daniel Anders | Apps com IA
+Daniel Anders | Apps & IA
 
 **Bio:**
-Eu transformo sua ideia de app em dinheiro 💰
-🤖 Desenvolvimento com IA sob medida
-🏗️ 🏠 🩺 ⚖️ 🐾 e qualquer setor
-📩 Diagnóstico gratuito — clica no link 👇
+Consultoria, sistemas e dev de apps com IA 🤖
+📊 Qualidade | 🧠 Processos | 💡 Inovação
+Sua ideia → app que fatura 💰
+Diagnóstico gratuito 👇
 
-**Link:** anderstech.com.br (ou domínio escolhido)
+**Link:** andersdev.com.br
 **Categoria:** Consultor IA
 
 ---

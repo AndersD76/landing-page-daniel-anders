@@ -59,7 +59,7 @@ body::after {
   width: 800px;
   height: 800px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(126, 217, 87, 0.06) 0%, rgba(126, 217, 87, 0.02) 30%, transparent 70%);
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.06) 0%, rgba(56, 189, 248, 0.02) 30%, transparent 70%);
   pointer-events: none;
   z-index: 1;
   transform: translate(-50%, -50%);
@@ -80,7 +80,7 @@ body::after {
   backdrop-filter: blur(30px) saturate(1.5);
   -webkit-backdrop-filter: blur(30px) saturate(1.5);
   padding: 14px 0;
-  border-bottom: 1px solid rgba(126, 217, 87, 0.08);
+  border-bottom: 1px solid rgba(56, 189, 248, 0.08);
 }
 
 .nav-inner {
@@ -144,12 +144,12 @@ body::after {
   background: var(--green);
   border-radius: 100px;
   transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
-  box-shadow: 0 0 30px rgba(126, 217, 87, 0.2);
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.2);
 }
 
 .nav-cta:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 50px rgba(126, 217, 87, 0.4);
+  box-shadow: 0 0 50px rgba(56, 189, 248, 0.4);
 }
 
 .nav-right {
@@ -201,7 +201,7 @@ body::after {
   text-align: center;
   padding: 120px 32px 80px;
   overflow: hidden;
-  background: radial-gradient(ellipse 80% 60% at 50% 40%, rgba(126, 217, 87, 0.05) 0%, transparent 60%);
+  background: radial-gradient(ellipse 80% 60% at 50% 40%, rgba(56, 189, 248, 0.05) 0%, transparent 60%);
 }
 
 #heroCanvas {
@@ -253,9 +253,9 @@ body::after {
 
 .glow-text {
   text-shadow:
-    0 0 20px rgba(126, 217, 87, 0.6),
-    0 0 60px rgba(126, 217, 87, 0.3),
-    0 0 120px rgba(126, 217, 87, 0.15);
+    0 0 20px rgba(56, 189, 248, 0.6),
+    0 0 60px rgba(56, 189, 248, 0.3),
+    0 0 120px rgba(56, 189, 248, 0.15);
   background: linear-gradient(135deg, var(--green-bright) 0%, var(--green) 50%, var(--green-dark) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -348,8 +348,8 @@ body::after {
   opacity: 0;
   animation: fadeUp 0.8s ease 1.4s forwards;
   box-shadow:
-    0 0 30px rgba(126, 217, 87, 0.25),
-    0 0 60px rgba(126, 217, 87, 0.1),
+    0 0 30px rgba(56, 189, 248, 0.25),
+    0 0 60px rgba(56, 189, 248, 0.1),
     inset 0 1px 0 rgba(255, 255, 255, 0.2);
 }
 
@@ -370,8 +370,8 @@ body::after {
 .cta-btn:hover {
   transform: translateY(-4px) scale(1.03);
   box-shadow:
-    0 0 50px rgba(126, 217, 87, 0.4),
-    0 0 100px rgba(126, 217, 87, 0.15),
+    0 0 50px rgba(56, 189, 248, 0.4),
+    0 0 100px rgba(56, 189, 248, 0.15),
     0 20px 60px rgba(0, 0, 0, 0.5);
 }
 
@@ -437,7 +437,7 @@ body::after {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: radial-gradient(ellipse 60% 40% at 50% 0%, rgba(126, 217, 87, 0.03) 0%, transparent 60%);
+  background: radial-gradient(ellipse 60% 40% at 50% 0%, rgba(56, 189, 248, 0.03) 0%, transparent 60%);
   pointer-events: none;
 }
 
@@ -499,7 +499,7 @@ body::after {
 
 .problem-item:hover {
   padding-left: 12px;
-  border-color: rgba(126, 217, 87, 0.15);
+  border-color: rgba(56, 189, 248, 0.15);
 }
 
 .problem-item:last-child {
@@ -571,12 +571,12 @@ body::after {
 }
 
 .showcase-card:hover {
-  border-color: rgba(126, 217, 87, 0.2);
+  border-color: rgba(56, 189, 248, 0.2);
   transform: translateY(-8px);
-  background: rgba(126, 217, 87, 0.03);
+  background: rgba(56, 189, 248, 0.03);
   box-shadow:
     0 30px 80px rgba(0, 0, 0, 0.5),
-    0 0 40px rgba(126, 217, 87, 0.04);
+    0 0 40px rgba(56, 189, 248, 0.04);
 }
 
 .showcase-card:hover .card-glow {
@@ -584,8 +584,8 @@ body::after {
 }
 
 .showcase-card.featured {
-  border-color: rgba(126, 217, 87, 0.12);
-  background: linear-gradient(160deg, rgba(126, 217, 87, 0.04) 0%, var(--glass) 60%);
+  border-color: rgba(56, 189, 248, 0.12);
+  background: linear-gradient(160deg, rgba(56, 189, 248, 0.04) 0%, var(--glass) 60%);
 }
 
 .showcase-card.featured::after {
@@ -594,7 +594,7 @@ body::after {
   top: 0; right: 0;
   width: 120px;
   height: 120px;
-  background: radial-gradient(circle, rgba(126, 217, 87, 0.06) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.06) 0%, transparent 70%);
   pointer-events: none;
 }
 
@@ -604,12 +604,12 @@ body::after {
   font-weight: 800;
   letter-spacing: 2px;
   color: var(--green);
-  background: rgba(126, 217, 87, 0.08);
+  background: rgba(56, 189, 248, 0.08);
   padding: 6px 14px;
   border-radius: 100px;
   margin-bottom: 14px;
   text-transform: uppercase;
-  border: 1px solid rgba(126, 217, 87, 0.15);
+  border: 1px solid rgba(56, 189, 248, 0.15);
 }
 
 .card-sector {
@@ -648,14 +648,14 @@ body::after {
 
 .card-yours {
   border-style: dashed;
-  border-color: rgba(126, 217, 87, 0.2);
+  border-color: rgba(56, 189, 248, 0.2);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
   min-height: 280px;
-  background: linear-gradient(160deg, rgba(126, 217, 87, 0.03) 0%, transparent 60%);
+  background: linear-gradient(160deg, rgba(56, 189, 248, 0.03) 0%, transparent 60%);
 }
 
 .card-yours h3 {
@@ -670,7 +670,7 @@ body::after {
   text-decoration: none;
   letter-spacing: 1px;
   padding: 14px 32px;
-  border: 1px solid rgba(126, 217, 87, 0.4);
+  border: 1px solid rgba(56, 189, 248, 0.4);
   border-radius: 8px;
   transition: all 0.4s;
   margin-top: 8px;
@@ -679,7 +679,7 @@ body::after {
 .card-cta:hover {
   background: var(--green);
   color: var(--black);
-  box-shadow: 0 0 30px rgba(126, 217, 87, 0.25);
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.25);
 }
 
 /* ===================== CASE STUDIES ===================== */
@@ -921,7 +921,7 @@ body::after {
   left: 32px;
   top: 0; bottom: 0;
   width: 1px;
-  background: linear-gradient(to bottom, var(--green), rgba(126, 217, 87, 0.05));
+  background: linear-gradient(to bottom, var(--green), rgba(56, 189, 248, 0.05));
 }
 
 .process-step {
@@ -953,7 +953,7 @@ body::after {
   justify-content: center;
   position: relative;
   z-index: 2;
-  box-shadow: 0 0 25px var(--green-glow), 0 0 50px rgba(126, 217, 87, 0.15);
+  box-shadow: 0 0 25px var(--green-glow), 0 0 50px rgba(56, 189, 248, 0.15);
 }
 
 .process-content h3 {
@@ -997,14 +997,14 @@ body::after {
   position: absolute;
   top: 0; left: 0; right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(126, 217, 87, 0.2), transparent);
+  background: linear-gradient(90deg, transparent, rgba(56, 189, 248, 0.2), transparent);
   opacity: 0;
   transition: opacity 0.4s;
 }
 
 .diff-card:hover {
-  border-color: rgba(126, 217, 87, 0.15);
-  background: rgba(126, 217, 87, 0.02);
+  border-color: rgba(56, 189, 248, 0.15);
+  background: rgba(56, 189, 248, 0.02);
   transform: translateY(-4px);
 }
 
@@ -1052,9 +1052,9 @@ body::after {
 }
 
 .result-card:hover {
-  border-color: rgba(126, 217, 87, 0.2);
+  border-color: rgba(56, 189, 248, 0.2);
   transform: scale(1.01);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 30px rgba(126, 217, 87, 0.04);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 30px rgba(56, 189, 248, 0.04);
 }
 
 .result-before,
@@ -1067,7 +1067,7 @@ body::after {
 }
 
 .result-after {
-  background: rgba(126, 217, 87, 0.03);
+  background: rgba(56, 189, 248, 0.03);
 }
 
 .result-tag {
@@ -1089,8 +1089,8 @@ body::after {
 
 .after-tag {
   color: var(--green);
-  background: rgba(126, 217, 87, 0.08);
-  border: 1px solid rgba(126, 217, 87, 0.15);
+  background: rgba(56, 189, 248, 0.08);
+  border: 1px solid rgba(56, 189, 248, 0.15);
 }
 
 .result-before p,
@@ -1111,7 +1111,7 @@ body::after {
   padding: 0 20px;
   font-size: 1.8rem;
   color: var(--green);
-  background: rgba(126, 217, 87, 0.02);
+  background: rgba(56, 189, 248, 0.02);
   font-weight: 700;
   text-shadow: 0 0 20px var(--green-glow);
 }
@@ -1151,8 +1151,8 @@ body::after {
 }
 
 .bts-card:hover {
-  border-color: rgba(126, 217, 87, 0.15);
-  background: rgba(126, 217, 87, 0.02);
+  border-color: rgba(56, 189, 248, 0.15);
+  background: rgba(56, 189, 248, 0.02);
   transform: translateX(6px);
 }
 
@@ -1164,9 +1164,9 @@ body::after {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(126, 217, 87, 0.05);
+  background: rgba(56, 189, 248, 0.05);
   border-radius: 12px;
-  border: 1px solid rgba(126, 217, 87, 0.08);
+  border: 1px solid rgba(56, 189, 248, 0.08);
 }
 
 .bts-content h3 {
@@ -1285,14 +1285,14 @@ body::after {
 }
 
 .about-floating-card:hover {
-  border-color: rgba(126, 217, 87, 0.2);
+  border-color: rgba(56, 189, 248, 0.2);
   transform: translateY(-6px) scale(1.02);
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 30px rgba(126, 217, 87, 0.06);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.4), 0 0 30px rgba(56, 189, 248, 0.06);
 }
 
 .about-floating-card.accent {
-  background: linear-gradient(160deg, rgba(126, 217, 87, 0.06) 0%, var(--glass) 60%);
-  border-color: rgba(126, 217, 87, 0.12);
+  background: linear-gradient(160deg, rgba(56, 189, 248, 0.06) 0%, var(--glass) 60%);
+  border-color: rgba(56, 189, 248, 0.12);
 }
 
 .afc-number {
@@ -1303,7 +1303,7 @@ body::after {
   color: var(--green);
   line-height: 1;
   margin-bottom: 8px;
-  text-shadow: 0 0 30px var(--green-glow), 0 0 60px rgba(126, 217, 87, 0.1);
+  text-shadow: 0 0 30px var(--green-glow), 0 0 60px rgba(56, 189, 248, 0.1);
 }
 
 .afc-label {
@@ -1328,10 +1328,10 @@ body::after {
 .section-urgency {
   padding: 120px 0;
   background:
-    radial-gradient(ellipse 50% 50% at 50% 50%, rgba(126, 217, 87, 0.04) 0%, transparent 60%),
+    radial-gradient(ellipse 50% 50% at 50% 50%, rgba(56, 189, 248, 0.04) 0%, transparent 60%),
     var(--dark);
-  border-top: 1px solid rgba(126, 217, 87, 0.06);
-  border-bottom: 1px solid rgba(126, 217, 87, 0.06);
+  border-top: 1px solid rgba(56, 189, 248, 0.06);
+  border-bottom: 1px solid rgba(56, 189, 248, 0.06);
 }
 
 .urgency-content {
@@ -1366,7 +1366,7 @@ body::after {
 .section-form {
   padding: 140px 0;
   background:
-    radial-gradient(ellipse 40% 40% at 70% 50%, rgba(126, 217, 87, 0.03) 0%, transparent 60%),
+    radial-gradient(ellipse 40% 40% at 70% 50%, rgba(56, 189, 248, 0.03) 0%, transparent 60%),
     var(--dark);
 }
 
@@ -1422,9 +1422,9 @@ body::after {
 
 .form-group input:focus,
 .form-group textarea:focus {
-  border-color: rgba(126, 217, 87, 0.4);
-  box-shadow: 0 0 30px rgba(126, 217, 87, 0.06);
-  background: rgba(126, 217, 87, 0.02);
+  border-color: rgba(56, 189, 248, 0.4);
+  box-shadow: 0 0 30px rgba(56, 189, 248, 0.06);
+  background: rgba(56, 189, 248, 0.02);
 }
 
 .form-group input::placeholder,
@@ -1481,7 +1481,7 @@ body::after {
 
 .footer-social a:hover {
   color: var(--green);
-  filter: drop-shadow(0 0 10px rgba(126, 217, 87, 0.3));
+  filter: drop-shadow(0 0 10px rgba(56, 189, 248, 0.3));
 }
 
 .footer-copy {
@@ -1649,6 +1649,244 @@ body::after {
   .section h2 { font-size: 2rem; letter-spacing: -1px; }
 
   .big-statement h2 { font-size: 2.2rem; letter-spacing: -1px; }
+}
+
+/* ===================== FLOATING WHATSAPP ===================== */
+.fab-whatsapp {
+  position: fixed;
+  bottom: 28px;
+  right: 28px;
+  z-index: 90;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: #25D366;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4), 0 0 40px rgba(37, 211, 102, 0.15);
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  text-decoration: none;
+}
+
+.fab-whatsapp:hover {
+  transform: scale(1.12);
+  box-shadow: 0 6px 30px rgba(37, 211, 102, 0.5), 0 0 60px rgba(37, 211, 102, 0.2);
+}
+
+/* ===================== MINI CTA ===================== */
+.mini-cta {
+  padding: 20px 0;
+  background: linear-gradient(90deg, rgba(56, 189, 248, 0.06), rgba(56, 189, 248, 0.02));
+  border-top: 1px solid rgba(56, 189, 248, 0.08);
+  border-bottom: 1px solid rgba(56, 189, 248, 0.08);
+}
+
+.mini-cta-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+
+.mini-cta-inner p {
+  font-size: 0.95rem;
+  color: var(--gray-light);
+  font-weight: 500;
+}
+
+.mini-cta-btn {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: var(--green);
+  text-decoration: none;
+  letter-spacing: 0.5px;
+  padding: 10px 24px;
+  border: 1px solid rgba(56, 189, 248, 0.3);
+  border-radius: 100px;
+  transition: all 0.3s;
+}
+
+.mini-cta-btn:hover {
+  background: var(--green);
+  color: var(--black);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+}
+
+/* ===================== CASES CTA ===================== */
+.cases-cta-wrap {
+  text-align: center;
+  margin-top: 56px;
+}
+
+.cases-cta-wrap p {
+  font-size: 1.1rem;
+  color: var(--gray-light);
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+/* ===================== TECH ELEMENTS ===================== */
+
+/* Dot grid background overlay */
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(56, 189, 248, 0.07) 1px, transparent 1px);
+  background-size: 40px 40px;
+  pointer-events: none;
+  z-index: 0;
+  mask-image: radial-gradient(ellipse 60% 50% at 50% 40%, black 20%, transparent 70%);
+  -webkit-mask-image: radial-gradient(ellipse 60% 50% at 50% 40%, black 20%, transparent 70%);
+}
+
+/* Floating terminal code widget */
+.hero-terminal {
+  position: absolute;
+  bottom: 12%;
+  right: 8%;
+  width: 320px;
+  background: rgba(8, 8, 8, 0.85);
+  border: 1px solid rgba(56, 189, 248, 0.12);
+  border-radius: 12px;
+  backdrop-filter: blur(20px);
+  overflow: hidden;
+  opacity: 0;
+  animation: fadeUp 1s ease 2.5s forwards;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.terminal-header {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 10px 14px;
+  background: rgba(255, 255, 255, 0.03);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+.terminal-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.terminal-dot.red { background: #ff5f57; }
+.terminal-dot.yellow { background: #febc2e; }
+.terminal-dot.green { background: #28c840; }
+
+.terminal-title {
+  font-size: 0.6rem;
+  color: #555;
+  font-family: 'Space Grotesk', monospace;
+  margin-left: 8px;
+  letter-spacing: 1px;
+}
+
+.terminal-body {
+  padding: 14px 16px;
+  font-family: 'Space Grotesk', monospace;
+  font-size: 0.72rem;
+  line-height: 1.7;
+  color: #555;
+}
+
+.terminal-body .t-keyword { color: #c678dd; }
+.terminal-body .t-func { color: #61afef; }
+.terminal-body .t-string { color: #98c379; }
+.terminal-body .t-comment { color: #444; font-style: italic; }
+.terminal-body .t-var { color: var(--green); }
+
+.terminal-cursor {
+  display: inline-block;
+  width: 7px;
+  height: 14px;
+  background: var(--green);
+  margin-left: 2px;
+  vertical-align: middle;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+/* Section accent lines */
+.section-accent::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 200px;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--green), transparent);
+  opacity: 0.3;
+}
+
+/* Terminal dots on case/service cards */
+.case-card .case-header::before,
+.showcase-card.featured .card-badge::before {
+  content: '';
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #28c840;
+  margin-right: 8px;
+  box-shadow: 0 0 6px rgba(40, 200, 64, 0.4);
+  vertical-align: middle;
+}
+
+/* Scanline effect on hover for tech feel */
+.showcase-card:hover::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background: repeating-linear-gradient(
+    0deg,
+    transparent,
+    transparent 2px,
+    rgba(56, 189, 248, 0.008) 2px,
+    rgba(56, 189, 248, 0.008) 4px
+  );
+  pointer-events: none;
+  border-radius: 20px;
+}
+
+/* Status indicator animation */
+@keyframes pulse-dot {
+  0%, 100% { box-shadow: 0 0 6px rgba(40, 200, 64, 0.4); }
+  50% { box-shadow: 0 0 12px rgba(40, 200, 64, 0.8); }
+}
+
+.case-card .case-header::before {
+  animation: pulse-dot 2s ease infinite;
+}
+
+/* Typing effect on hero subtitle */
+.hero-tagline .green {
+  position: relative;
+}
+
+.hero-tagline .green::after {
+  content: '|';
+  position: absolute;
+  right: -8px;
+  animation: blink 1s step-end infinite;
+  color: var(--green);
+  font-weight: 300;
+}
+
+@media (max-width: 900px) {
+  .hero-terminal { display: none; }
 }
 
 /* ===================== SCROLLBAR ===================== */

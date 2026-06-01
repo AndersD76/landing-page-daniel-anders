@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import { I18nProvider } from "@/lib/i18n/context";
+import { Analytics } from "@/components/analytics/Analytics";
 import "./globals.css";
 
 const inter = Inter({
@@ -239,6 +240,7 @@ export default function RootLayout({
       </head>
       <body className="bg-surface-black text-foreground font-body">
         <I18nProvider>{children}</I18nProvider>
+        <Analytics />
       </body>
     </html>
   );

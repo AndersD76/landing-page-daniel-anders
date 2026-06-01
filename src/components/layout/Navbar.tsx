@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { useI18n } from "@/lib/i18n/context";
 
 export function Navbar() {
@@ -24,11 +25,18 @@ export function Navbar() {
       }`}
     >
       <div className="container-main flex items-center justify-between">
-        <Link
-          href="/"
-          className="font-heading text-3xl font-bold text-foreground no-underline tracking-[-2px]"
-        >
-          DA<span className="text-brand">.</span>
+        <Link href="/" className="flex items-center gap-2 no-underline">
+          <Image
+            src="/logo.png"
+            alt="Anders Dev"
+            width={40}
+            height={40}
+            className="w-10 h-10"
+            priority
+          />
+          <span className="font-heading text-lg font-bold text-foreground tracking-tight hidden sm:inline">
+            anders<span className="text-brand">dev</span>
+          </span>
         </Link>
 
         <ul className="hidden lg:flex list-none gap-9">

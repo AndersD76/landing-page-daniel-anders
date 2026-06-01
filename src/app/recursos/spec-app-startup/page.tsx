@@ -91,11 +91,11 @@ export default function LeadMagnetPage() {
     <main className="min-h-screen bg-surface-black text-foreground">
       <nav className="py-6">
         <div className="max-w-container mx-auto px-8">
-          <Link
-            href="/"
-            className="font-heading text-2xl font-bold text-foreground no-underline tracking-[-2px]"
-          >
-            DA<span className="text-brand">.</span>
+          <Link href="/" className="flex items-center gap-2 no-underline">
+            <img src="/logo.png" alt="Anders Dev" className="w-8 h-8" />
+            <span className="font-heading text-lg font-bold text-foreground tracking-tight">
+              anders<span className="text-brand">dev</span>
+            </span>
           </Link>
         </div>
       </nav>

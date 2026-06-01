@@ -65,11 +65,11 @@ export default function AdminLeadsPage() {
     return (
       <main className="min-h-screen bg-surface-black text-foreground flex items-center justify-center px-8">
         <div className="w-full max-w-sm">
-          <Link
-            href="/"
-            className="font-heading text-2xl font-bold text-foreground no-underline tracking-[-2px] block mb-8"
-          >
-            DA<span className="text-brand">.</span>
+          <Link href="/" className="flex items-center gap-2 no-underline mb-8">
+            <img src="/logo.png" alt="Anders Dev" className="w-8 h-8" />
+            <span className="font-heading text-lg font-bold text-foreground tracking-tight">
+              anders<span className="text-brand">dev</span>
+            </span>
           </Link>
           <h1 className="font-heading text-2xl font-bold mb-6">Admin</h1>
           <form onSubmit={login} className="flex flex-col gap-4">
@@ -128,11 +128,11 @@ export default function AdminLeadsPage() {
       <div className="max-w-6xl mx-auto">
         <div className="flex items-center justify-between mb-8">
           <div>
-            <Link
-              href="/"
-              className="font-heading text-2xl font-bold text-foreground no-underline tracking-[-2px]"
-            >
-              DA<span className="text-brand">.</span>
+            <Link href="/" className="flex items-center gap-2 no-underline">
+              <img src="/logo.png" alt="Anders Dev" className="w-8 h-8" />
+              <span className="font-heading text-lg font-bold text-foreground tracking-tight">
+                anders<span className="text-brand">dev</span>
+              </span>
             </Link>
             <h1 className="font-heading text-3xl font-bold mt-2">Leads</h1>
           </div>

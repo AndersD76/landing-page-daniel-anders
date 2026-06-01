@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useI18n } from "@/lib/i18n/context";
 
 export function Footer() {
@@ -9,9 +10,12 @@ export function Footer() {
     <footer className="border-t border-white/[0.04] py-12">
       <div className="container-main flex flex-col md:flex-row items-center justify-between gap-6">
         <div>
-          <p className="font-heading text-xl font-bold">
-            Daniel<span className="text-brand">Anders</span>
-          </p>
+          <div className="flex items-center gap-3">
+            <Image src="/logo.png" alt="Anders Dev" width={32} height={32} className="w-8 h-8" />
+            <p className="font-heading text-xl font-bold">
+              anders<span className="text-brand">dev</span>
+            </p>
+          </div>
           <p className="text-sm text-[#555] mt-1">{t("footer_tagline")}</p>
           <p className="text-xs text-[#444] mt-2">
             Anders Tech — andersdev.com.br

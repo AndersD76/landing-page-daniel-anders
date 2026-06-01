@@ -1,0 +1,459 @@
+import { Metadata } from "next";
+import Link from "next/link";
+import Image from "next/image";
+import { notFound } from "next/navigation";
+import {
+  blogPosts,
+  getPostBySlug,
+  getAllPosts,
+  type BlogPost,
+} from "@/data/blog";
+
+// ── Static params ──
+
+export function generateStaticParams() {
+  return blogPosts.map((post) => ({ slug: post.slug }));
+}
+
+// ── Metadata ──
+
+export function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Metadata {
+  const post = getPostBySlug(params.slug);
+  if (!post) return {};
+
+  return {
+    title: post.title,
+    description: post.excerpt,
+    openGraph: {
+      type: "article",
+      title: post.title,
+      description: post.excerpt,
+      url: `https://andersdev.com.br/blog/${post.slug}`,
+      publishedTime: post.publishedAt,
+      authors: ["Daniel Anders"],
+      tags: post.tags,
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: post.title,
+      description: post.excerpt,
+    },
+    alternates: {
+      canonical: `https://andersdev.com.br/blog/${post.slug}`,
+    },
+  };
+}
+
+// ── Helpers ──
+
+const categoryLabels: Record<BlogPost["category"], string> = {
+  desenvolvimento: "Desenvolvimento",
+  "negócios": "Negócios",
+  tech: "Tech",
+};
+
+const categoryColors: Record<BlogPost["category"], string> = {
+  desenvolvimento: "bg-blue-500/15 text-blue-400",
+  "negócios": "bg-emerald-500/15 text-emerald-400",
+  tech: "bg-brand/15 text-brand",
+};
+
+function formatDate(dateStr: string): string {
+  return new Date(dateStr + "T00:00:00").toLocaleDateString("pt-BR", {
+    day: "2-digit",
+    month: "long",
+    year: "numeric",
+  });
+}
+
+function getRelatedPosts(currentSlug: string, category: BlogPost["category"]): BlogPost[] {
+  return getAllPosts()
+    .filter((p) => p.slug !== currentSlug)
+    .filter((p) => p.category === category || p.tags.some((t) =>
+      blogPosts.find((bp) => bp.slug === currentSlug)?.tags.includes(t)
+    ))
+    .slice(0, 3);
+}
+
+// ── Content renderer ──
+
+function ArticleContent({ content }: { content: string }) {
+  const blocks = content.split("\n\n");
+
+  return (
+    <div className="space-y-5">
+      {blocks.map((block, i) => {
+        const trimmed = block.trim();
+
+        // H2 headings
+        if (trimmed.startsWith("## ")) {
+          return (
+            <h2
+              key={i}
+              className="font-heading text-xl md:text-2xl font-bold text-foreground mt-10 mb-2"
+            >
+              {trimmed.replace("## ", "")}
+            </h2>
+          );
+        }
+
+        // H3 headings
+        if (trimmed.startsWith("### ")) {
+          return (
+            <h3
+              key={i}
+              className="font-heading text-lg font-bold text-foreground mt-8 mb-1"
+            >
+              {trimmed.replace("### ", "")}
+            </h3>
+          );
+        }
+
+        // Numbered or bulleted lists
+        if (/^(\d+\.|-)/.test(trimmed)) {
+          const items = trimmed.split("\n").filter(Boolean);
+          const isOrdered = /^\d+\./.test(items[0]);
+          const Tag = isOrdered ? "ol" : "ul";
+          return (
+            <Tag
+              key={i}
+              className={`text-gray leading-relaxed space-y-2 pl-6 ${
+                isOrdered ? "list-decimal" : "list-disc"
+              }`}
+            >
+              {items.map((item, j) => (
+                <li key={j}>{item.replace(/^(\d+\.\s?|-\s?)/, "")}</li>
+              ))}
+            </Tag>
+          );
+        }
+
+        // Regular paragraph
+        return (
+          <p key={i} className="text-gray leading-relaxed">
+            {trimmed}
+          </p>
+        );
+      })}
+    </div>
+  );
+}
+
+// ── Page ──
+
+export default function BlogPostPage({
+  params,
+}: {
+  params: { slug: string };
+}) {
+  const post = getPostBySlug(params.slug);
+  if (!post) notFound();
+
+  const related = getRelatedPosts(post.slug, post.category);
+
+  const postSchema = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.publishedAt,
+    dateModified: post.publishedAt,
+    author: {
+      "@type": "Person",
+      name: "Daniel Anders",
+      jobTitle: "Full-Stack Developer",
+      url: "https://andersdev.com.br",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "Anders Dev",
+      url: "https://andersdev.com.br",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://andersdev.com.br/logo.png",
+      },
+    },
+    mainEntityOfPage: {
+      "@type": "WebPage",
+      "@id": `https://andersdev.com.br/blog/${post.slug}`,
+    },
+    keywords: post.tags.join(", "),
+    articleSection: categoryLabels[post.category],
+    wordCount: post.content.split(/\s+/).length,
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Início",
+        item: "https://andersdev.com.br",
+      },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Blog",
+        item: "https://andersdev.com.br/blog",
+      },
+      {
+        "@type": "ListItem",
+        position: 3,
+        name: post.title,
+        item: `https://andersdev.com.br/blog/${post.slug}`,
+      },
+    ],
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(postSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+
+      {/* NAVBAR */}
+      <nav className="py-6 border-b border-white/[0.04]">
+        <div className="max-w-[900px] mx-auto px-8 flex items-center justify-between">
+          <Link href="/" className="flex items-center gap-2 no-underline">
+            <Image
+              src="/logo.png"
+              alt="Anders Dev"
+              width={36}
+              height={36}
+              className="w-9 h-9"
+              priority
+            />
+            <span className="font-heading text-lg font-bold text-foreground tracking-tight">
+              anders<span className="text-brand">dev</span>
+            </span>
+          </Link>
+          <div className="flex items-center gap-6">
+            <Link
+              href="/blog"
+              className="text-xs font-semibold text-gray no-underline tracking-[2px] uppercase hover:text-brand transition-colors hidden sm:inline"
+            >
+              Blog
+            </Link>
+            <Link
+              href="/#contact"
+              className="text-sm font-bold text-white bg-brand px-5 py-2.5 rounded-full no-underline hover:scale-105 transition-transform shadow-[0_0_20px_rgba(230,57,70,0.2)]"
+            >
+              FALAR COMIGO
+            </Link>
+          </div>
+        </div>
+      </nav>
+
+      <main className="max-w-[900px] mx-auto px-8 py-16">
+        {/* BREADCRUMB */}
+        <div className="flex items-center gap-2 text-sm text-gray mb-8 flex-wrap">
+          <Link
+            href="/"
+            className="hover:text-brand transition-colors no-underline text-gray"
+          >
+            Início
+          </Link>
+          <span className="text-gray/50">/</span>
+          <Link
+            href="/blog"
+            className="hover:text-brand transition-colors no-underline text-gray"
+          >
+            Blog
+          </Link>
+          <span className="text-gray/50">/</span>
+          <span className="text-foreground line-clamp-1">{post.title}</span>
+        </div>
+
+        {/* ARTICLE HEADER */}
+        <header className="mb-12">
+          <div className="flex items-center gap-3 mb-5">
+            <span
+              className={`text-xs font-bold px-3 py-1 rounded-full ${categoryColors[post.category]}`}
+            >
+              {categoryLabels[post.category]}
+            </span>
+            <span className="text-xs text-gray">
+              {post.readingTime} min de leitura
+            </span>
+          </div>
+
+          <h1 className="font-heading text-3xl md:text-4xl lg:text-5xl font-bold leading-tight mb-6">
+            {post.title}
+          </h1>
+
+          <p className="text-lg text-gray leading-relaxed mb-6">
+            {post.excerpt}
+          </p>
+
+          <div className="flex items-center gap-4 pb-8 border-b border-white/[0.06]">
+            <div className="w-10 h-10 rounded-full bg-brand/20 flex items-center justify-center text-brand font-heading font-bold text-sm">
+              DA
+            </div>
+            <div>
+              <p className="text-sm font-bold text-foreground">
+                Daniel Anders
+              </p>
+              <p className="text-xs text-gray">
+                {formatDate(post.publishedAt)}
+              </p>
+            </div>
+          </div>
+        </header>
+
+        {/* ARTICLE CONTENT */}
+        <article className="mb-16">
+          <ArticleContent content={post.content} />
+        </article>
+
+        {/* TAGS */}
+        <div className="flex flex-wrap gap-2 mb-12 pb-8 border-b border-white/[0.06]">
+          {post.tags.map((tag) => (
+            <span
+              key={tag}
+              className="text-xs text-gray bg-white/[0.04] border border-white/[0.08] px-3 py-1.5 rounded-full"
+            >
+              #{tag}
+            </span>
+          ))}
+        </div>
+
+        {/* AUTHOR BLOCK */}
+        <section className="glass-card mb-16">
+          <div className="flex flex-col sm:flex-row items-start gap-5">
+            <div className="w-16 h-16 rounded-full bg-brand/20 flex items-center justify-center text-brand font-heading font-bold text-xl shrink-0">
+              DA
+            </div>
+            <div>
+              <h3 className="font-heading text-lg font-bold text-foreground mb-1">
+                Daniel Anders
+              </h3>
+              <p className="text-sm text-brand mb-3">
+                Full-Stack Developer &amp; Business Consultant
+              </p>
+              <p className="text-sm text-gray leading-relaxed">
+                Mais de 15 anos combinando tecnologia e negócios. Construo
+                MVPs, SaaS e dashboards pra startups e empresas usando
+                Next.js, TypeScript, Python e FastAPI. Baseado em Passo
+                Fundo/RS, atendendo clientes no mundo todo.
+              </p>
+              <div className="flex items-center gap-4 mt-4">
+                <a
+                  href="https://linkedin.com/in/danielandersbrrs"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-gray hover:text-brand transition-colors no-underline"
+                >
+                  LinkedIn
+                </a>
+                <a
+                  href="https://github.com/AndersD76"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-xs text-gray hover:text-brand transition-colors no-underline"
+                >
+                  GitHub
+                </a>
+                <a
+                  href="https://andersdev.com.br"
+                  className="text-xs text-gray hover:text-brand transition-colors no-underline"
+                >
+                  andersdev.com.br
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* RELATED POSTS */}
+        {related.length > 0 && (
+          <section className="mb-16">
+            <h2 className="font-heading text-2xl font-bold mb-6">
+              Artigos relacionados
+            </h2>
+            <div className="grid md:grid-cols-3 gap-4">
+              {related.map((rp) => (
+                <Link
+                  key={rp.slug}
+                  href={`/blog/${rp.slug}`}
+                  className="glass-card no-underline group"
+                >
+                  <span
+                    className={`text-[0.65rem] font-bold px-2.5 py-0.5 rounded-full inline-block mb-3 ${categoryColors[rp.category]}`}
+                  >
+                    {categoryLabels[rp.category]}
+                  </span>
+                  <h3 className="font-heading text-sm font-bold text-foreground leading-snug mb-2 group-hover:text-brand transition-colors">
+                    {rp.title}
+                  </h3>
+                  <p className="text-xs text-gray line-clamp-2">
+                    {rp.excerpt}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* CTA */}
+        <section className="text-center py-16" id="contato">
+          <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">
+            Pronto pra <span className="text-brand">construir?</span>
+          </h2>
+          <p className="text-gray text-lg mb-2">
+            Transforme sua ideia em produto real com quem entende de
+            tecnologia e negócios.
+          </p>
+          <p className="text-foreground font-heading font-bold text-xl mb-8">
+            15 minutos. Sem custo. Sem compromisso.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <a
+              href="https://cal.com/danielanders/15min"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cta-btn"
+            >
+              AGENDAR CALL GRATUITA &rarr;
+            </a>
+            <Link
+              href="/#contact"
+              className="text-sm text-gray hover:text-brand transition-colors no-underline"
+            >
+              ou envie uma mensagem
+            </Link>
+          </div>
+        </section>
+      </main>
+
+      {/* FOOTER */}
+      <footer className="border-t border-white/[0.04] py-8">
+        <div className="max-w-[900px] mx-auto px-8 flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <Image
+              src="/logo.png"
+              alt="Anders Dev"
+              width={24}
+              height={24}
+              className="w-6 h-6"
+            />
+            <span className="text-sm text-gray">andersdev.com.br</span>
+          </div>
+          <span className="text-xs text-gray">
+            &copy; 2026 Daniel Anders
+          </span>
+        </div>
+      </footer>
+    </>
+  );
+}

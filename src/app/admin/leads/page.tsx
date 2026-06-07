@@ -20,45 +20,51 @@ export default function AdminLeadsPage() {
   const [authenticated, setAuthenticated] = useState(false);
   const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
   const [filter, setFilter] = useState("");
+
+  async function fetchLeads() {
+    const res = await fetch("/api/admin/leads", { credentials: "include" });
+    if (!res.ok) throw new Error("Unauthorized");
+    return res.json() as Promise<Lead[]>;
+  }
 
   async function login(e: React.FormEvent) {
     e.preventDefault();
     setLoading(true);
+    setError("");
     try {
-      const res = await fetch("/api/admin/leads", {
-        headers: { Authorization: `Bearer ${password}` },
+      const authRes = await fetch("/api/admin/auth", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password }),
+        credentials: "include",
       });
-      if (res.ok) {
-        const data = await res.json();
-        setLeads(data);
-        setAuthenticated(true);
-        sessionStorage.setItem("admin_token", password);
-      } else {
-        alert("Senha incorreta");
-      }
+      if (!authRes.ok) throw new Error("Unauthorized");
+
+      const data = await fetchLeads();
+      setLeads(data);
+      setAuthenticated(true);
+      setPassword("");
     } catch {
-      alert("Erro de conexão");
+      setError("Senha incorreta");
     }
     setLoading(false);
   }
 
+  async function logout() {
+    await fetch("/api/admin/auth", { method: "DELETE", credentials: "include" });
+    setAuthenticated(false);
+    setLeads([]);
+  }
+
   useEffect(() => {
-    const saved = sessionStorage.getItem("admin_token");
-    if (saved) {
-      fetch("/api/admin/leads", {
-        headers: { Authorization: `Bearer ${saved}` },
+    fetchLeads()
+      .then((data) => {
+        setLeads(data);
+        setAuthenticated(true);
       })
-        .then((r) => {
-          if (r.ok) return r.json();
-          throw new Error("Unauthorized");
-        })
-        .then((data) => {
-          setLeads(data);
-          setAuthenticated(true);
-        })
-        .catch(() => sessionStorage.removeItem("admin_token"));
-    }
+      .catch(() => {});
   }, []);
 
   if (!authenticated) {
@@ -80,6 +86,7 @@ export default function AdminLeadsPage() {
               placeholder="Senha"
               className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-gray-700 focus:border-brand/30 focus:outline-none transition-colors"
             />
+            {error && <p className="text-red-400 text-sm">{error}</p>}
             <button
               type="submit"
               disabled={loading}
@@ -137,10 +144,7 @@ export default function AdminLeadsPage() {
             <h1 className="font-heading text-3xl font-bold mt-2">Leads</h1>
           </div>
           <button
-            onClick={() => {
-              sessionStorage.removeItem("admin_token");
-              setAuthenticated(false);
-            }}
+            onClick={logout}
             className="text-sm text-gray-600 hover:text-red-400 transition-colors"
           >
             Sair

@@ -4,6 +4,7 @@ import { emailSubscribers, leadEvents, leads } from "@/lib/db/schema";
 import { eq, and, sql, inArray } from "drizzle-orm";
 import { NURTURE_SEQUENCE } from "@/lib/email-templates";
 import { Resend } from "resend";
+import { verifyToken, generateUnsubscribeToken } from "@/lib/security";
 
 const FROM_EMAIL = "Daniel Anders <contato@andersdev.com.br>";
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://andersdev.com.br";
@@ -37,7 +38,8 @@ export async function GET(req: NextRequest) {
       );
     }
 
-    if (authHeader !== `Bearer ${cronSecret}`) {
+    const token = authHeader?.replace("Bearer ", "");
+    if (!verifyToken(token, cronSecret)) {
       return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
     }
 
@@ -121,7 +123,8 @@ export async function GET(req: NextRequest) {
         if (daysSinceSignup < step.delay_days) break;
 
         // Send this email
-        const unsubscribeUrl = `${SITE_URL}/api/newsletter/unsubscribe?email=${encodeURIComponent(subscriber.email)}`;
+        const unsubToken = generateUnsubscribeToken(subscriber.email);
+        const unsubscribeUrl = `${SITE_URL}/api/newsletter/unsubscribe?email=${encodeURIComponent(subscriber.email)}&token=${unsubToken}`;
         const html = step.template_fn(
           subscriber.name || "Fundador",
           unsubscribeUrl,

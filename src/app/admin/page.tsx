@@ -43,10 +43,8 @@ export default function AdminDashboardPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  async function fetchStats(token: string) {
-    const res = await fetch("/api/admin/stats", {
-      headers: { Authorization: `Bearer ${token}` },
-    });
+  async function fetchStats() {
+    const res = await fetch("/api/admin/stats", { credentials: "include" });
     if (!res.ok) throw new Error("Unauthorized");
     return res.json() as Promise<StatsData>;
   }
@@ -56,26 +54,37 @@ export default function AdminDashboardPage() {
     setLoading(true);
     setError("");
     try {
-      const data = await fetchStats(password);
+      const authRes = await fetch("/api/admin/auth", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ password }),
+        credentials: "include",
+      });
+      if (!authRes.ok) throw new Error("Unauthorized");
+
+      const data = await fetchStats();
       setStats(data);
       setAuthenticated(true);
-      sessionStorage.setItem("admin_token", password);
+      setPassword("");
     } catch {
       setError("Senha incorreta");
     }
     setLoading(false);
   }
 
+  async function logout() {
+    await fetch("/api/admin/auth", { method: "DELETE", credentials: "include" });
+    setAuthenticated(false);
+    setStats(null);
+  }
+
   useEffect(() => {
-    const saved = sessionStorage.getItem("admin_token");
-    if (saved) {
-      fetchStats(saved)
-        .then((data) => {
-          setStats(data);
-          setAuthenticated(true);
-        })
-        .catch(() => sessionStorage.removeItem("admin_token"));
-    }
+    fetchStats()
+      .then((data) => {
+        setStats(data);
+        setAuthenticated(true);
+      })
+      .catch(() => {});
   }, []);
 
   if (!authenticated) {
@@ -136,11 +145,7 @@ export default function AdminDashboardPage() {
           <div className="flex items-center gap-4">
             <span className="text-xs text-gray-600 hidden sm:inline">Admin Dashboard</span>
             <button
-              onClick={() => {
-                sessionStorage.removeItem("admin_token");
-                setAuthenticated(false);
-                setStats(null);
-              }}
+              onClick={logout}
               className="text-sm text-gray-600 hover:text-red-400 transition-colors"
             >
               Sair

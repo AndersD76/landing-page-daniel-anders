@@ -3,27 +3,13 @@ import { db } from "@/lib/db";
 import { leads, leadEvents } from "@/lib/db/schema";
 import { leadFormSchema } from "@/lib/validations";
 import { sendLeadNotification, sendWebhookNotification } from "@/lib/email";
-
-const RATE_LIMIT_MAP = new Map<string, number[]>();
-const RATE_LIMIT_WINDOW = 60_000;
-const RATE_LIMIT_MAX = 5;
-
-function isRateLimited(ip: string): boolean {
-  const now = Date.now();
-  const timestamps = RATE_LIMIT_MAP.get(ip) || [];
-  const recent = timestamps.filter((t) => now - t < RATE_LIMIT_WINDOW);
-  RATE_LIMIT_MAP.set(ip, recent);
-  if (recent.length >= RATE_LIMIT_MAX) return true;
-  recent.push(now);
-  return false;
-}
+import { rateLimit, getClientIp } from "@/lib/security";
 
 export async function POST(req: NextRequest) {
   try {
-    const ip =
-      req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || "unknown";
+    const ip = getClientIp(req);
 
-    if (isRateLimited(ip)) {
+    if (!rateLimit(`lead:${ip}`, 5, 60_000)) {
       return NextResponse.json(
         { error: "Muitas tentativas. Tente novamente em 1 minuto." },
         { status: 429 }

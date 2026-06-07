@@ -1,4 +1,5 @@
 import { Resend } from "resend";
+import { escapeHtml } from "./security";
 
 const FROM_EMAIL = "Daniel Anders <contato@andersdev.com.br>";
 const NOTIFY_EMAIL = "danielanders76@gmail.com";
@@ -21,16 +22,16 @@ export async function sendLeadNotification(lead: LeadNotificationData) {
     await getResend().emails.send({
       from: FROM_EMAIL,
       to: NOTIFY_EMAIL,
-      subject: `Novo Lead: ${lead.name} — ${lead.source || "website"}`,
+      subject: `Novo Lead: ${escapeHtml(lead.name)} — ${escapeHtml(lead.source || "website")}`,
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px;">
           <h2 style="color: #e63946;">Novo lead da landing page</h2>
           <table style="border-collapse: collapse; width: 100%;">
-            <tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Nome</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${lead.name}</td></tr>
-            <tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Email</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${lead.email}</td></tr>
-            <tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Telefone</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${lead.phone || "—"}</td></tr>
-            <tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Empresa</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${lead.company || "—"}</td></tr>
-            <tr><td style="padding: 8px; font-weight: bold;">Mensagem</td><td style="padding: 8px;">${lead.message || "—"}</td></tr>
+            <tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Nome</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${escapeHtml(lead.name)}</td></tr>
+            <tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Email</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${escapeHtml(lead.email)}</td></tr>
+            <tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Telefone</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${escapeHtml(lead.phone || "—")}</td></tr>
+            <tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Empresa</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${escapeHtml(lead.company || "—")}</td></tr>
+            <tr><td style="padding: 8px; font-weight: bold;">Mensagem</td><td style="padding: 8px;">${escapeHtml(lead.message || "—")}</td></tr>
           </table>
         </div>
       `,
@@ -48,7 +49,7 @@ export async function sendLeadMagnetEmail(to: string, name: string) {
       subject: "Seu Template de Especificação de App — Download",
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto;">
-          <h2 style="color: #e63946;">Olá ${name}!</h2>
+          <h2 style="color: #e63946;">Olá ${escapeHtml(name)}!</h2>
           <p>Obrigado por baixar o <strong>Template de Especificação de App para Startup</strong>.</p>
           <p>Clique no botão abaixo para fazer o download:</p>
           <a href="https://andersdev.com.br/downloads/spec-app-startup.pdf"
@@ -77,7 +78,7 @@ export async function sendWebhookNotification(lead: LeadNotificationData) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          text: `🚀 Novo lead: *${lead.name}* (${lead.email}) — ${lead.source || "website"}`,
+          text: `🚀 Novo lead: *${escapeHtml(lead.name)}* (${escapeHtml(lead.email)}) — ${escapeHtml(lead.source || "website")}`,
         }),
       });
     } catch (err) {

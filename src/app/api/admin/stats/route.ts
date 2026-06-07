@@ -2,12 +2,18 @@ import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/lib/db";
 import { leads, emailSubscribers } from "@/lib/db/schema";
 import { desc, sql, gte, count, eq } from "drizzle-orm";
+import { verifyToken, verifyAdminCookie, rateLimit, getClientIp } from "@/lib/security";
 
 export async function GET(req: NextRequest) {
-  const auth = req.headers.get("authorization");
-  const token = auth?.replace("Bearer ", "");
+  const ip = getClientIp(req);
+  if (!rateLimit(`admin:${ip}`, 10, 15 * 60_000)) {
+    return NextResponse.json({ error: "Too many attempts" }, { status: 429 });
+  }
 
-  if (!token || token !== process.env.ADMIN_PASSWORD) {
+  const bearerToken = req.headers.get("authorization")?.replace("Bearer ", "");
+  const cookie = req.cookies.get("admin_session")?.value;
+
+  if (!verifyAdminCookie(cookie) && !verifyToken(bearerToken, process.env.ADMIN_PASSWORD)) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 

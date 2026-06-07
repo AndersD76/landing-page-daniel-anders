@@ -1,21 +1,21 @@
 import { z } from "zod";
 
 export const leadFormSchema = z.object({
-  name: z.string().min(2, "Nome deve ter pelo menos 2 caracteres"),
-  email: z.string().email("Email inválido"),
-  phone: z.string().optional(),
-  company: z.string().optional(),
-  message: z.string().optional(),
-  source: z.string().optional(),
-  utmSource: z.string().optional(),
-  utmMedium: z.string().optional(),
-  utmCampaign: z.string().optional(),
+  name: z.string().min(2, "Nome deve ter pelo menos 2 caracteres").max(255),
+  email: z.string().email("Email inválido").max(255),
+  phone: z.string().max(30).optional(),
+  company: z.string().max(255).optional(),
+  message: z.string().max(5000).optional(),
+  source: z.string().max(100).optional(),
+  utmSource: z.string().max(255).optional(),
+  utmMedium: z.string().max(255).optional(),
+  utmCampaign: z.string().max(255).optional(),
   honeypot: z.string().max(0, "Bot detected").optional(),
 });
 
 export const leadMagnetSchema = z.object({
-  name: z.string().min(2, "Nome deve ter pelo menos 2 caracteres"),
-  email: z.string().email("Email inválido"),
+  name: z.string().min(2, "Nome deve ter pelo menos 2 caracteres").max(255),
+  email: z.string().email("Email inválido").max(255),
   honeypot: z.string().max(0, "Bot detected").optional(),
 });
 

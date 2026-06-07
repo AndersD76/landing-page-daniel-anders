@@ -7,9 +7,18 @@ import {
   sendLeadNotification,
   sendWebhookNotification,
 } from "@/lib/email";
+import { rateLimit, getClientIp } from "@/lib/security";
 
 export async function POST(req: NextRequest) {
   try {
+    const ip = getClientIp(req);
+    if (!rateLimit(`magnet:${ip}`, 3, 60_000)) {
+      return NextResponse.json(
+        { error: "Muitas tentativas. Tente novamente em 1 minuto." },
+        { status: 429 },
+      );
+    }
+
     const body = await req.json();
 
     if (body.honeypot) {

@@ -1,6 +1,8 @@
 // Nurture email templates for lead magnet sequence
 // Each template returns an HTML string with branding for andersdev.com.br
 
+import { escapeHtml } from "./security";
+
 const BRAND_RED = "#e63946";
 const BRAND_NAVY = "#0a1929";
 const SITE_URL = "https://andersdev.com.br";
@@ -63,7 +65,7 @@ function ctaButton(text: string, href: string): string {
 // Email 1 — Day 0: Welcome + template usage tips
 function nurtureEmail1(name: string, unsubscribeUrl: string): string {
   return layout(
-    `<h2 style="color:${BRAND_NAVY};margin:0 0 16px;">Olá ${name}, bem-vindo(a)! \u{1F44B}</h2>
+    `<h2 style="color:${BRAND_NAVY};margin:0 0 16px;">Olá ${escapeHtml(name)}, bem-vindo(a)! \u{1F44B}</h2>
     <p>Obrigado por baixar o <strong>Template de Especificação de App para Startup</strong>. Vou te enviar algumas dicas nos próximos dias para você tirar o máximo do template.</p>
     <p>Aqui vão <strong>3 dicas rápidas</strong> para começar:</p>
     <ol style="padding-left:20px;">
@@ -83,7 +85,7 @@ function nurtureEmail1(name: string, unsubscribeUrl: string): string {
 // Email 2 — Day 3: "3 erros que fundadores cometem ao especificar o app"
 function nurtureEmail2(name: string, unsubscribeUrl: string): string {
   return layout(
-    `<h2 style="color:${BRAND_NAVY};margin:0 0 16px;">${name}, 3 erros fatais na especificação de apps</h2>
+    `<h2 style="color:${BRAND_NAVY};margin:0 0 16px;">${escapeHtml(name)}, 3 erros fatais na especificação de apps</h2>
     <p>Depois de ajudar dezenas de startups a tirar apps do papel, percebi que os mesmos 3 erros se repetem:</p>
 
     <div style="background-color:#f8f9fa;border-left:4px solid ${BRAND_RED};padding:16px;margin:16px 0;border-radius:0 8px 8px 0;">
@@ -114,7 +116,7 @@ function nurtureEmail2(name: string, unsubscribeUrl: string): string {
 function nurtureEmail3(name: string, unsubscribeUrl: string): string {
   return layout(
     `<h2 style="color:${BRAND_NAVY};margin:0 0 16px;">Como uma startup economizou 3 meses com uma boa spec</h2>
-    <p>Oi ${name},</p>
+    <p>Oi ${escapeHtml(name)},</p>
     <p>Quero compartilhar um caso real (nomes alterados por privacidade):</p>
 
     <div style="background-color:${BRAND_NAVY};color:#ffffff;padding:24px;border-radius:8px;margin:16px 0;">
@@ -140,7 +142,7 @@ function nurtureEmail3(name: string, unsubscribeUrl: string): string {
 function nurtureEmail4(name: string, unsubscribeUrl: string): string {
   return layout(
     `<h2 style="color:${BRAND_NAVY};margin:0 0 16px;">Checklist: seu app está pronto pra desenvolvimento?</h2>
-    <p>Oi ${name},</p>
+    <p>Oi ${escapeHtml(name)},</p>
     <p>Antes de começar a desenvolver (ou contratar um dev), passe por este checklist rápido:</p>
 
     <table width="100%" cellpadding="0" cellspacing="0" style="margin:16px 0;">
@@ -203,7 +205,7 @@ function nurtureEmail4(name: string, unsubscribeUrl: string): string {
 function nurtureEmail5(name: string, unsubscribeUrl: string): string {
   return layout(
     `<h2 style="color:${BRAND_NAVY};margin:0 0 16px;">Vamos transformar sua spec em produto?</h2>
-    <p>Oi ${name},</p>
+    <p>Oi ${escapeHtml(name)},</p>
     <p>Nas últimas duas semanas, compartilhei:</p>
     <ul style="padding-left:20px;color:#555;">
       <li style="margin-bottom:8px;">Dicas para usar o template de especificação</li>

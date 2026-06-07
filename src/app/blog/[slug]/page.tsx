@@ -9,6 +9,7 @@ import {
   getAllPosts,
   type BlogPost,
 } from "@/data/blog";
+import { getRelatedServicesForPost } from "@/data/interlinks";
 
 // ── Static params ──
 
@@ -155,6 +156,7 @@ export default function BlogPostPage({
   if (!post) notFound();
 
   const related = getRelatedPosts(post.slug, post.category);
+  const relatedServices = getRelatedServicesForPost(post.slug);
 
   const postSchema = {
     "@context": "https://schema.org",
@@ -372,6 +374,31 @@ export default function BlogPostPage({
                   </h3>
                   <p className="text-xs text-gray line-clamp-2">
                     {rp.excerpt}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
+
+        {/* RELATED SERVICES */}
+        {relatedServices.length > 0 && (
+          <section className="mb-16">
+            <h2 className="font-heading text-2xl font-bold mb-6">
+              Serviços relacionados
+            </h2>
+            <div className="grid md:grid-cols-3 gap-4">
+              {relatedServices.map((svc) => (
+                <Link
+                  key={svc.slug}
+                  href={`/servicos/${svc.slug}`}
+                  className="glass-card no-underline group"
+                >
+                  <h3 className="font-heading text-sm font-bold text-foreground mb-2 group-hover:text-brand transition-colors">
+                    {svc.title.split("—")[0].trim()}
+                  </h3>
+                  <p className="text-xs text-gray line-clamp-2">
+                    {svc.heroSubtitle}
                   </p>
                 </Link>
               ))}

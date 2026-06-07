@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import { trackEvent } from "@/components/analytics/Analytics";
 
 export function NewsletterForm() {
   const [status, setStatus] = useState<
@@ -35,6 +36,7 @@ export function NewsletterForm() {
       }
 
       setStatus("success");
+      trackEvent("newsletter_subscribe");
     } catch (err) {
       setStatus("error");
       setErrorMsg(err instanceof Error ? err.message : "Erro ao inscrever");

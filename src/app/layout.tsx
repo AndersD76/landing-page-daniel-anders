@@ -44,7 +44,6 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "pt_BR",
-    alternateLocale: "en_US",
     url: "https://andersdev.com.br",
     siteName: "Daniel Anders Dev",
     title: "Daniel Anders | Full-Stack Developer & Business Consultant",
@@ -232,6 +231,8 @@ export default function RootLayout({
         <link rel="icon" type="image/png" href="/favicon.png" sizes="32x32" />
         <link rel="icon" type="image/png" href="/favicon-48.png" sizes="48x48" />
         <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="manifest" href="/manifest.json" />
+        <meta name="theme-color" content="#e63946" />
         {schemaOrg.map((schema, i) => (
           <script
             key={i}

@@ -3,6 +3,7 @@
 import { useState, useRef } from "react";
 import { useI18n } from "@/lib/i18n/context";
 import { leadFormSchema } from "@/lib/validations";
+import { trackEvent } from "@/components/analytics/Analytics";
 
 export function ContactForm() {
   const { t } = useI18n();
@@ -46,6 +47,7 @@ export function ContactForm() {
       }
 
       setStatus("success");
+      trackEvent("lead_form_submit", { source: "contact-form" });
       formRef.current?.reset();
     } catch (err) {
       setStatus("error");

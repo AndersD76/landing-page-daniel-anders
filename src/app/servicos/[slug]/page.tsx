@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { PageNavbar } from "@/components/layout/PageNavbar";
 import { PageFooter } from "@/components/layout/PageFooter";
 import { services, getServiceBySlug, getServiceSlugs } from "@/data/services";
+import { getRelatedPostsForService } from "@/data/interlinks";
 
 export function generateStaticParams() {
   return getServiceSlugs().map((slug) => ({ slug }));
@@ -42,6 +43,8 @@ export default function ServicePage({
   const related = service.relatedServices
     .map((slug) => services.find((s) => s.slug === slug))
     .filter(Boolean);
+
+  const relatedPosts = getRelatedPostsForService(service.slug);
 
   const faqSchema = {
     "@context": "https://schema.org",
@@ -244,6 +247,31 @@ export default function ServicePage({
             )}
           </div>
         </section>
+
+        {/* RELATED BLOG POSTS */}
+        {relatedPosts.length > 0 && (
+          <section className="mb-14">
+            <h2 className="font-heading text-2xl font-bold mb-6">
+              Artigos relacionados
+            </h2>
+            <div className="grid md:grid-cols-3 gap-4">
+              {relatedPosts.map((post) => (
+                <Link
+                  key={post.slug}
+                  href={`/blog/${post.slug}`}
+                  className="glass-card no-underline group"
+                >
+                  <h3 className="font-heading text-sm font-bold text-foreground mb-2 group-hover:text-brand transition-colors">
+                    {post.title}
+                  </h3>
+                  <p className="text-xs text-gray line-clamp-2">
+                    {post.excerpt}
+                  </p>
+                </Link>
+              ))}
+            </div>
+          </section>
+        )}
 
         {/* FINAL CTA */}
         <section className="text-center py-16" id="contato">

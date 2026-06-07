@@ -26,6 +26,7 @@ export function Footer() {
               { href: "#cases", label: t("nav_cases") },
               { href: "/apps", label: t("nav_apps") },
               { href: "/blog", label: t("nav_blog") },
+              { href: "/recursos/spec-app-startup", label: t("nav_resources") },
               { href: "#contact", label: "Contato" },
             ].map((link) => (
               <Link

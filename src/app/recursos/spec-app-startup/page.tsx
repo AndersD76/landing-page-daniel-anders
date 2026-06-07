@@ -4,6 +4,7 @@ import { useState, useRef } from "react";
 import Link from "next/link";
 import { PageNavbar } from "@/components/layout/PageNavbar";
 import { leadMagnetSchema } from "@/lib/validations";
+import { trackEvent } from "@/components/analytics/Analytics";
 
 export default function LeadMagnetPage() {
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
@@ -42,6 +43,7 @@ export default function LeadMagnetPage() {
       }
 
       setStatus("success");
+      trackEvent("lead_magnet_download", { source: "spec-app-startup" });
     } catch (err) {
       setStatus("error");
       setErrorMsg(err instanceof Error ? err.message : "Erro ao enviar");

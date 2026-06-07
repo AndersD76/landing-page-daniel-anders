@@ -47,6 +47,7 @@ export function Navbar() {
             { href: "#about", label: t("nav_about") },
             { href: "/apps", label: t("nav_apps") },
             { href: "/blog", label: t("nav_blog") },
+            { href: "/recursos/spec-app-startup", label: t("nav_resources") },
           ].map((link) => (
             <li key={link.href}>
               <Link
@@ -112,6 +113,7 @@ export function Navbar() {
               { href: "#about", label: t("nav_about") },
               { href: "/apps", label: t("nav_apps") },
               { href: "/blog", label: t("nav_blog") },
+              { href: "/recursos/spec-app-startup", label: t("nav_resources") },
             ].map((link) => (
               <Link
                 key={link.href}

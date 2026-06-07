@@ -1,0 +1,38 @@
+# andersdev.com.br — LLMs.txt
+
+## About
+Daniel Anders is a full-stack software developer based in Passo Fundo, RS, Brazil with 15+ years of experience in business and technology. He builds modern web applications, SaaS products, MVPs, and dashboards for startups, SMBs, and digital agencies.
+
+## Services
+- SaaS & MVP Development (Next.js, React, TypeScript)
+- Real-time Dashboards & Analytics
+- API Integrations & Payment Systems (Stripe, Asaas)
+- AI/LLM Applications
+- Legacy System Migration
+- White-label Development for Agencies
+
+## Key Pages
+- Homepage: https://andersdev.com.br
+- Blog: https://andersdev.com.br/blog
+- Services: https://andersdev.com.br/servicos/desenvolvimento-saas-mvp
+- For Startups: https://andersdev.com.br/para-startups
+- For SMBs: https://andersdev.com.br/para-pmes-brasil
+- For Agencies: https://andersdev.com.br/agencias-parceiras
+- Apps Catalog: https://andersdev.com.br/apps
+- Process: https://andersdev.com.br/trabalhar-comigo
+
+## Contact
+- Website: https://andersdev.com.br
+- Email: danielanders76@gmail.com
+- Schedule a call: https://cal.com/danielanders/15min
+- LinkedIn: https://linkedin.com/in/danielandersbrrs
+- GitHub: https://github.com/AndersD76
+
+## Tech Stack
+Next.js, React, TypeScript, Tailwind CSS, Node.js, FastAPI, Python, PostgreSQL, NeonDB, Drizzle ORM, Stripe, Resend, Vercel, Railway
+
+## Location
+Passo Fundo, Rio Grande do Sul, Brazil
+
+## Language
+Primary: Portuguese (pt-BR)

@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
+import { PageNavbar } from "@/components/layout/PageNavbar";
+import { PageFooter } from "@/components/layout/PageFooter";
 import { getAllPosts, getAllCategories, type BlogPost } from "@/data/blog";
 
 export const metadata: Metadata = {
@@ -80,7 +81,7 @@ function CategoryTabs({
     <div className="flex flex-wrap gap-2 mb-12">
       <Link
         href="/blog"
-        className="text-xs font-bold tracking-[1px] uppercase px-5 py-2.5 rounded-full no-underline transition-all bg-brand text-white shadow-[0_0_12px_rgba(230,57,70,0.4)]"
+        className="text-xs font-bold tracking-[1px] uppercase px-5 py-2.5 rounded-full no-underline transition-all bg-brand text-white shadow-brand-glow"
       >
         Todos
       </Link>
@@ -132,44 +133,13 @@ export default function BlogPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(blogSchema) }}
       />
 
-      {/* NAVBAR */}
-      <nav className="py-6 border-b border-white/[0.04]">
-        <div className="container-main flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 no-underline">
-            <Image
-              src="/logo.png"
-              alt="Anders Dev"
-              width={36}
-              height={36}
-              className="w-9 h-9"
-              priority
-            />
-            <span className="font-heading text-lg font-bold text-foreground tracking-tight">
-              anders<span className="text-brand">dev</span>
-            </span>
-          </Link>
-          <div className="flex items-center gap-6">
-            <Link
-              href="/"
-              className="text-xs font-semibold text-gray no-underline tracking-[2px] uppercase hover:text-brand transition-colors hidden sm:inline"
-            >
-              Home
-            </Link>
-            <Link
-              href="/#services"
-              className="text-xs font-semibold text-gray no-underline tracking-[2px] uppercase hover:text-brand transition-colors hidden sm:inline"
-            >
-              Serviços
-            </Link>
-            <Link
-              href="/#contact"
-              className="text-sm font-bold text-white bg-brand px-5 py-2.5 rounded-full no-underline hover:scale-105 transition-transform shadow-[0_0_20px_rgba(230,57,70,0.2)]"
-            >
-              FALAR COMIGO
-            </Link>
-          </div>
-        </div>
-      </nav>
+      <PageNavbar
+        links={[
+          { href: "/", label: "Home" },
+          { href: "/#services", label: "Serviços" },
+        ]}
+        cta={{ href: "/#contact", label: "FALAR COMIGO" }}
+      />
 
       <main className="container-main py-16">
         {/* HEADER */}
@@ -216,24 +186,7 @@ export default function BlogPage() {
         </section>
       </main>
 
-      {/* FOOTER */}
-      <footer className="border-t border-white/[0.04] py-8">
-        <div className="container-main flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Image
-              src="/logo.png"
-              alt="Anders Dev"
-              width={24}
-              height={24}
-              className="w-6 h-6"
-            />
-            <span className="text-sm text-gray">andersdev.com.br</span>
-          </div>
-          <span className="text-xs text-gray">
-            &copy; 2026 Daniel Anders
-          </span>
-        </div>
-      </footer>
+      <PageFooter />
     </>
   );
 }

@@ -2,6 +2,7 @@
 
 import { useState, useRef } from "react";
 import Link from "next/link";
+import { PageNavbar } from "@/components/layout/PageNavbar";
 import { leadMagnetSchema } from "@/lib/validations";
 
 export default function LeadMagnetPage() {
@@ -55,7 +56,7 @@ export default function LeadMagnetPage() {
           <h1 className="font-heading text-3xl md:text-4xl font-bold mb-4">
             Template enviado pro seu email!
           </h1>
-          <p className="text-[#666] mb-8">
+          <p className="text-gray-500 mb-8">
             Cheque sua caixa de entrada (e o spam, por via das dúvidas). O PDF
             vai chegar em menos de 5 minutos.
           </p>
@@ -63,7 +64,7 @@ export default function LeadMagnetPage() {
             <h2 className="font-heading text-xl font-bold mb-3">
               Quer ir mais rápido?
             </h2>
-            <p className="text-sm text-[#666] mb-4">
+            <p className="text-sm text-gray-500 mb-4">
               Agende uma call gratuita de 15 minutos. Eu te ajudo a preencher o
               template e a definir o escopo do seu MVP.
             </p>
@@ -78,7 +79,7 @@ export default function LeadMagnetPage() {
           </div>
           <Link
             href="/"
-            className="text-sm text-[#555] hover:text-brand transition-colors"
+            className="text-sm text-gray-600 hover:text-brand transition-colors"
           >
             &larr; Voltar ao site
           </Link>
@@ -89,16 +90,7 @@ export default function LeadMagnetPage() {
 
   return (
     <main className="min-h-screen bg-surface-black text-foreground">
-      <nav className="py-6">
-        <div className="max-w-container mx-auto px-8">
-          <Link href="/" className="flex items-center gap-2 no-underline">
-            <img src="/logo.png" alt="Anders Dev" className="w-8 h-8" />
-            <span className="font-heading text-lg font-bold text-foreground tracking-tight">
-              anders<span className="text-brand">dev</span>
-            </span>
-          </Link>
-        </div>
-      </nav>
+      <PageNavbar cta={null} />
 
       <section className="py-16 md:py-24">
         <div className="max-w-5xl mx-auto px-8 grid md:grid-cols-2 gap-16 items-center">
@@ -110,7 +102,7 @@ export default function LeadMagnetPage() {
               Template de Especificação de App pra Startup
               <span className="text-brand"> — pronto pra preencher</span>
             </h1>
-            <p className="text-lg text-[#666] mb-8">
+            <p className="text-lg text-gray-500 mb-8">
               O mesmo modelo que eu uso com meus clientes pra definir escopo,
               funcionalidades e stack antes de escrever uma linha de código. 15
               páginas, direto ao ponto.
@@ -126,7 +118,7 @@ export default function LeadMagnetPage() {
               ].map((item) => (
                 <div key={item} className="flex items-start gap-3">
                   <span className="text-brand mt-1 shrink-0">&#10003;</span>
-                  <p className="text-sm text-[#888]">{item}</p>
+                  <p className="text-sm text-gray-400">{item}</p>
                 </div>
               ))}
             </div>
@@ -145,7 +137,7 @@ export default function LeadMagnetPage() {
                     <div className="w-10 h-1 bg-white/10 rounded mx-auto mb-3" />
                     <div className="w-8 h-1 bg-brand/10 rounded mx-auto" />
                   </div>
-                  <span className="absolute bottom-2 text-[0.5rem] text-[#333]">
+                  <span className="absolute bottom-2 text-[0.5rem] text-gray-800">
                     p.{page}
                   </span>
                 </div>
@@ -158,7 +150,7 @@ export default function LeadMagnetPage() {
               <h2 className="font-heading text-2xl font-bold mb-2">
                 Baixe grátis
               </h2>
-              <p className="text-sm text-[#666] mb-6">
+              <p className="text-sm text-gray-500 mb-6">
                 Preencha seu nome e email. O PDF chega na sua caixa em menos de
                 5 minutos.
               </p>
@@ -173,14 +165,14 @@ export default function LeadMagnetPage() {
                   name="name"
                   required
                   placeholder="Seu nome"
-                  className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-[#444] focus:border-brand/30 focus:outline-none transition-colors"
+                  className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-gray-700 focus:border-brand/30 focus:outline-none transition-colors"
                 />
                 <input
                   type="email"
                   name="email"
                   required
                   placeholder="Seu melhor email"
-                  className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-[#444] focus:border-brand/30 focus:outline-none transition-colors"
+                  className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-gray-700 focus:border-brand/30 focus:outline-none transition-colors"
                 />
 
                 <button
@@ -197,10 +189,10 @@ export default function LeadMagnetPage() {
               </form>
 
               <div className="flex flex-col gap-2 mt-6 pt-4 border-t border-white/[0.06]">
-                <p className="text-[0.65rem] text-[#444]">
+                <p className="text-[0.65rem] text-gray-700">
                   &#128274; Seus dados estão seguros. Não envio spam.
                 </p>
-                <p className="text-[0.65rem] text-[#444]">
+                <p className="text-[0.65rem] text-gray-700">
                   +50 fundadores já baixaram este template.
                 </p>
               </div>

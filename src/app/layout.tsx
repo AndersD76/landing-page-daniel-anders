@@ -241,6 +241,12 @@ export default function RootLayout({
         ))}
       </head>
       <body className="bg-surface-black text-foreground font-body">
+        <a
+          href="#main-content"
+          className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[200] focus:bg-brand focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:text-sm focus:font-bold focus:no-underline"
+        >
+          Pular para o conteúdo
+        </a>
         <I18nProvider>{children}</I18nProvider>
         <Analytics />
       </body>

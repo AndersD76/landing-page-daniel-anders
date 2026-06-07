@@ -2,7 +2,8 @@
 
 import { useState, useMemo } from "react";
 import Link from "next/link";
-import Image from "next/image";
+import { PageNavbar } from "@/components/layout/PageNavbar";
+import { PageFooter } from "@/components/layout/PageFooter";
 
 /* ------------------------------------------------------------------ */
 /*  PRICING DATA                                                       */
@@ -130,40 +131,7 @@ export default function CalculadoraPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }}
       />
 
-      {/* NAVBAR */}
-      <nav className="py-6 border-b border-white/[0.04]">
-        <div className="container-main flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 no-underline">
-            <Image
-              src="/logo.png"
-              alt="Anders Dev"
-              width={36}
-              height={36}
-              className="w-9 h-9"
-              priority
-            />
-            <span className="font-heading text-lg font-bold text-foreground tracking-tight">
-              anders<span className="text-brand">dev</span>
-            </span>
-          </Link>
-          <div className="flex items-center gap-4">
-            <Link
-              href="/apps"
-              className="hidden sm:inline-block text-sm font-semibold text-gray no-underline hover:text-brand transition-colors tracking-wide"
-            >
-              CATÁLOGO
-            </Link>
-            <a
-              href="https://cal.com/danielanders/15min"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-bold text-white bg-brand px-5 py-2.5 rounded-full no-underline hover:scale-105 transition-transform shadow-[0_0_20px_rgba(230,57,70,0.2)]"
-            >
-              AGENDAR CALL
-            </a>
-          </div>
-        </div>
-      </nav>
+      <PageNavbar links={[{ href: "/apps", label: "Catálogo" }]} />
 
       <main className="container-main py-12 md:py-16">
         {/* BREADCRUMB */}
@@ -210,7 +178,7 @@ export default function CalculadoraPage() {
               }}
               className={`flex items-center gap-2 px-4 py-2 rounded-full text-sm font-bold transition-all border cursor-pointer ${
                 s === step
-                  ? "bg-brand text-white border-brand shadow-[0_0_20px_rgba(230,57,70,0.3)]"
+                  ? "bg-brand text-white border-brand shadow-brand-sm"
                   : s < step
                     ? "bg-brand/10 text-brand border-brand/20"
                     : "bg-white/[0.04] text-gray border-white/[0.08]"
@@ -384,7 +352,7 @@ export default function CalculadoraPage() {
                   disabled={!canAdvance}
                   className={`text-sm font-bold px-6 py-3 rounded-full transition-all cursor-pointer ${
                     canAdvance
-                      ? "bg-brand text-white hover:scale-105 shadow-[0_0_20px_rgba(230,57,70,0.2)]"
+                      ? "bg-brand text-white hover:scale-105 shadow-brand-sm"
                       : "bg-white/[0.06] text-gray/50 cursor-not-allowed"
                   }`}
                 >
@@ -604,24 +572,7 @@ export default function CalculadoraPage() {
         </div>
       </main>
 
-      {/* FOOTER */}
-      <footer className="border-t border-white/[0.04] py-8">
-        <div className="container-main flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-2">
-            <Image
-              src="/logo.png"
-              alt="Anders Dev"
-              width={24}
-              height={24}
-              className="w-6 h-6"
-            />
-            <span className="text-sm text-gray">andersdev.com.br</span>
-          </div>
-          <span className="text-xs text-gray">
-            &copy; 2026 Daniel Anders
-          </span>
-        </div>
-      </footer>
+      <PageFooter />
     </>
   );
 }

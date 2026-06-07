@@ -18,7 +18,7 @@ export function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-[100] transition-all duration-500 ${
+      className={`fixed top-0 left-0 right-0 z-nav transition-all duration-500 ${
         scrolled
           ? "bg-surface-black/85 backdrop-blur-[30px] py-3.5 border-b border-brand/[0.08]"
           : "py-6"
@@ -51,7 +51,7 @@ export function Navbar() {
             <li key={link.href}>
               <Link
                 href={link.href}
-                className="text-xs font-semibold text-[#555] no-underline tracking-[2px] uppercase hover:text-brand transition-colors relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-px after:bg-brand after:transition-all hover:after:w-full"
+                className="text-xs font-semibold text-gray-600 no-underline tracking-[2px] uppercase hover:text-brand transition-colors relative after:content-[''] after:absolute after:bottom-[-4px] after:left-0 after:w-0 after:h-px after:bg-brand after:transition-all hover:after:w-full"
               >
                 {link.label}
               </Link>
@@ -65,8 +65,8 @@ export function Navbar() {
               onClick={() => setLocale("en")}
               className={`text-[0.7rem] font-semibold tracking-[1px] border-none px-3 py-1.5 rounded-full cursor-pointer transition-all ${
                 locale === "en"
-                  ? "bg-brand text-white shadow-[0_0_12px_rgba(230,57,70,0.5)]"
-                  : "bg-transparent text-[#555] hover:text-foreground"
+                  ? "bg-brand text-white shadow-brand-glow"
+                  : "bg-transparent text-gray-600 hover:text-foreground"
               }`}
             >
               EN
@@ -75,8 +75,8 @@ export function Navbar() {
               onClick={() => setLocale("pt")}
               className={`text-[0.7rem] font-semibold tracking-[1px] border-none px-3 py-1.5 rounded-full cursor-pointer transition-all ${
                 locale === "pt"
-                  ? "bg-brand text-white shadow-[0_0_12px_rgba(230,57,70,0.5)]"
-                  : "bg-transparent text-[#555] hover:text-foreground"
+                  ? "bg-brand text-white shadow-brand-glow"
+                  : "bg-transparent text-gray-600 hover:text-foreground"
               }`}
             >
               BR
@@ -85,7 +85,7 @@ export function Navbar() {
 
           <Link
             href="#contact"
-            className="hidden md:inline-block text-[0.8rem] font-bold text-white no-underline tracking-[1px] px-7 py-3 bg-brand rounded-full transition-all duration-400 shadow-[0_0_30px_rgba(230,57,70,0.2)] hover:scale-105 hover:shadow-[0_0_50px_rgba(230,57,70,0.4)]"
+            className="hidden md:inline-block text-[0.8rem] font-bold text-white no-underline tracking-[1px] px-7 py-3 bg-brand rounded-full transition-all duration-400 shadow-brand-sm hover:scale-105 hover:shadow-brand-lg"
           >
             {t("nav_cta")}
           </Link>
@@ -117,7 +117,7 @@ export function Navbar() {
                 key={link.href}
                 href={link.href}
                 onClick={() => setMobileOpen(false)}
-                className="text-sm font-semibold text-[#555] no-underline tracking-[2px] uppercase hover:text-brand transition-colors"
+                className="text-sm font-semibold text-gray-600 no-underline tracking-[2px] uppercase hover:text-brand transition-colors"
               >
                 {link.label}
               </Link>

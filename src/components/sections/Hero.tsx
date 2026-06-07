@@ -10,6 +10,7 @@ export function Hero() {
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
@@ -147,7 +148,7 @@ export function Hero() {
           <span className="white-bold">{t("hero_h1_3")}</span>
         </h1>
 
-        <p className="text-[clamp(1.2rem,2.5vw,1.6rem)] text-[#666] mb-9 opacity-0 animate-fade-up [animation-delay:0.9s]">
+        <p className="text-[clamp(1.2rem,2.5vw,1.6rem)] text-gray-500 mb-9 opacity-0 animate-fade-up [animation-delay:0.9s]">
           {t("hero_sub_1")}
           <strong className="text-foreground font-bold">
             {t("hero_sub_2")}
@@ -156,7 +157,7 @@ export function Hero() {
 
         <div className="w-20 h-0.5 bg-gradient-to-r from-transparent via-brand to-transparent mx-auto mb-9 opacity-0 animate-scale-x [animation-delay:1.1s]" />
 
-        <p className="text-[1.05rem] text-[#555] font-medium mb-14 opacity-0 animate-fade-up [animation-delay:1.3s]">
+        <p className="text-[1.05rem] text-gray-600 font-medium mb-14 opacity-0 animate-fade-up [animation-delay:1.3s]">
           {t("hero_tagline_1")}
           <span className="text-brand">{t("hero_tagline_2")}</span>
         </p>
@@ -181,7 +182,7 @@ export function Hero() {
         </a>
 
         <div className="mt-16 flex flex-col items-center gap-2 opacity-0 animate-fade-up [animation-delay:1.8s]">
-          <span className="text-xs text-[#333] tracking-[4px] uppercase">
+          <span className="text-xs text-gray-800 tracking-[4px] uppercase">
             scroll
           </span>
           <div className="w-px h-8 bg-gradient-to-b from-brand/50 to-transparent" />
@@ -193,7 +194,7 @@ export function Hero() {
           <div className="terminal-dot bg-[#ff5f57]" />
           <div className="terminal-dot bg-[#ffbd2e]" />
           <div className="terminal-dot bg-[#28ca42]" />
-          <span className="text-[0.65rem] text-[#555] ml-2">builder.ts</span>
+          <span className="text-[0.65rem] text-gray-600 ml-2">builder.ts</span>
         </div>
         <div className="terminal-body">
           <span className="t-comment">{"// Da ideia ao deploy"}</span>

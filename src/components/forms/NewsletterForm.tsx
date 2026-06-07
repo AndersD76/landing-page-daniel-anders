@@ -61,7 +61,7 @@ export function NewsletterForm() {
         name="email"
         required
         placeholder="Seu melhor email"
-        className="flex-1 px-5 py-3 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-[#444] focus:border-brand/30 focus:outline-none transition-colors"
+        className="flex-1 px-5 py-3 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-gray-700 focus:border-brand/30 focus:outline-none transition-colors"
       />
       <button
         type="submit"

@@ -78,7 +78,7 @@ export default function AdminLeadsPage() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="Senha"
-              className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-[#444] focus:border-brand/30 focus:outline-none transition-colors"
+              className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-gray-700 focus:border-brand/30 focus:outline-none transition-colors"
             />
             <button
               type="submit"
@@ -141,7 +141,7 @@ export default function AdminLeadsPage() {
               sessionStorage.removeItem("admin_token");
               setAuthenticated(false);
             }}
-            className="text-sm text-[#555] hover:text-red-400 transition-colors"
+            className="text-sm text-gray-600 hover:text-red-400 transition-colors"
           >
             Sair
           </button>
@@ -153,25 +153,25 @@ export default function AdminLeadsPage() {
             <div className="text-3xl font-heading font-bold text-brand">
               {stats.total}
             </div>
-            <div className="text-xs text-[#555]">Total</div>
+            <div className="text-xs text-gray-600">Total</div>
           </div>
           <div className="glass-card text-center">
             <div className="text-3xl font-heading font-bold text-brand">
               {stats.today}
             </div>
-            <div className="text-xs text-[#555]">Hoje</div>
+            <div className="text-xs text-gray-600">Hoje</div>
           </div>
           <div className="glass-card text-center">
             <div className="text-3xl font-heading font-bold text-brand">
               {stats.thisWeek}
             </div>
-            <div className="text-xs text-[#555]">Últimos 7 dias</div>
+            <div className="text-xs text-gray-600">Últimos 7 dias</div>
           </div>
           <div className="glass-card text-center">
             <div className="text-3xl font-heading font-bold text-brand">
               {stats.sources.length}
             </div>
-            <div className="text-xs text-[#555]">Fontes</div>
+            <div className="text-xs text-gray-600">Fontes</div>
           </div>
         </div>
 
@@ -181,7 +181,7 @@ export default function AdminLeadsPage() {
           value={filter}
           onChange={(e) => setFilter(e.target.value)}
           placeholder="Filtrar por nome, email ou fonte..."
-          className="w-full px-5 py-3 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-[#444] focus:border-brand/30 focus:outline-none transition-colors mb-6"
+          className="w-full px-5 py-3 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-gray-700 focus:border-brand/30 focus:outline-none transition-colors mb-6"
         />
 
         {/* TABLE */}
@@ -189,22 +189,22 @@ export default function AdminLeadsPage() {
           <table className="w-full text-sm">
             <thead>
               <tr className="border-b border-white/[0.06]">
-                <th className="text-left py-3 px-4 text-[#555] font-medium">
+                <th className="text-left py-3 px-4 text-gray-600 font-medium">
                   Nome
                 </th>
-                <th className="text-left py-3 px-4 text-[#555] font-medium">
+                <th className="text-left py-3 px-4 text-gray-600 font-medium">
                   Email
                 </th>
-                <th className="text-left py-3 px-4 text-[#555] font-medium hidden md:table-cell">
+                <th className="text-left py-3 px-4 text-gray-600 font-medium hidden md:table-cell">
                   Telefone
                 </th>
-                <th className="text-left py-3 px-4 text-[#555] font-medium hidden lg:table-cell">
+                <th className="text-left py-3 px-4 text-gray-600 font-medium hidden lg:table-cell">
                   Fonte
                 </th>
-                <th className="text-left py-3 px-4 text-[#555] font-medium hidden lg:table-cell">
+                <th className="text-left py-3 px-4 text-gray-600 font-medium hidden lg:table-cell">
                   Mensagem
                 </th>
-                <th className="text-left py-3 px-4 text-[#555] font-medium">
+                <th className="text-left py-3 px-4 text-gray-600 font-medium">
                   Data
                 </th>
               </tr>
@@ -219,7 +219,7 @@ export default function AdminLeadsPage() {
                     {lead.name}
                   </td>
                   <td className="py-3 px-4 text-brand">{lead.email}</td>
-                  <td className="py-3 px-4 text-[#666] hidden md:table-cell">
+                  <td className="py-3 px-4 text-gray-500 hidden md:table-cell">
                     {lead.phone || "—"}
                   </td>
                   <td className="py-3 px-4 hidden lg:table-cell">
@@ -227,10 +227,10 @@ export default function AdminLeadsPage() {
                       {lead.source || "website"}
                     </span>
                   </td>
-                  <td className="py-3 px-4 text-[#666] hidden lg:table-cell max-w-[200px] truncate">
+                  <td className="py-3 px-4 text-gray-500 hidden lg:table-cell max-w-[200px] truncate">
                     {lead.message || "—"}
                   </td>
-                  <td className="py-3 px-4 text-[#555] text-xs">
+                  <td className="py-3 px-4 text-gray-600 text-xs">
                     {new Date(lead.created_at).toLocaleDateString("pt-BR")}
                   </td>
                 </tr>
@@ -240,7 +240,7 @@ export default function AdminLeadsPage() {
         </div>
 
         {filteredLeads.length === 0 && (
-          <p className="text-center text-[#555] py-12">Nenhum lead encontrado.</p>
+          <p className="text-center text-gray-600 py-12">Nenhum lead encontrado.</p>
         )}
       </div>
     </main>

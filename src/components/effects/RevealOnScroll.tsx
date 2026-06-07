@@ -14,6 +14,10 @@ export function RevealOnScroll({
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      el.classList.add("visible");
+      return;
+    }
 
     const observer = new IntersectionObserver(
       ([entry]) => {

@@ -23,6 +23,11 @@ const config: Config = {
         gray: {
           DEFAULT: "#8892a8",
           light: "#a0aec0",
+          400: "#888888",
+          500: "#666666",
+          600: "#555555",
+          700: "#444444",
+          800: "#333333",
         },
         foreground: "#edf2f7",
       },
@@ -32,6 +37,20 @@ const config: Config = {
       },
       maxWidth: {
         container: "1200px",
+      },
+      zIndex: {
+        glow: "1",
+        content: "10",
+        nav: "100",
+        fab: "500",
+        overlay: "900",
+        skiplink: "950",
+      },
+      boxShadow: {
+        "brand-sm": "0 0 20px rgba(230, 57, 70, 0.2)",
+        "brand-md": "0 0 40px rgba(230, 57, 70, 0.25)",
+        "brand-lg": "0 0 60px rgba(230, 57, 70, 0.4)",
+        "brand-glow": "0 0 12px rgba(230, 57, 70, 0.5)",
       },
       animation: {
         "fade-up": "fadeUp 0.8s ease forwards",

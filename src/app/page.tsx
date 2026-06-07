@@ -88,6 +88,7 @@ export default function HomePage() {
     <>
       <CursorGlow />
       <Navbar />
+      <main id="main-content">
       <Hero />
 
       {/* MARQUEE */}
@@ -122,7 +123,7 @@ export default function HomePage() {
                     <span className="text-brand/30 font-heading text-sm font-bold tracking-wider shrink-0">
                       {String(i + 1).padStart(2, "0")}
                     </span>
-                    <p className="text-[#888] leading-relaxed">{t(key)}</p>
+                    <p className="text-gray-400 leading-relaxed">{t(key)}</p>
                   </div>
                 )
               )}
@@ -144,7 +145,7 @@ export default function HomePage() {
               <span className="text-brand">{t("big_h2_6")}</span>
               {t("big_h2_7")}
             </h2>
-            <p className="text-xl text-[#666] mt-6 max-w-2xl mx-auto">
+            <p className="text-xl text-gray-500 mt-6 max-w-2xl mx-auto">
               {t("big_sub")}
             </p>
           </RevealOnScroll>
@@ -154,7 +155,7 @@ export default function HomePage() {
       {/* MINI CTA */}
       <div className="border-y border-white/[0.04] bg-white/[0.02]">
         <div className="container-main flex items-center justify-between py-5 flex-wrap gap-4">
-          <p className="text-[#666]">{t("minicta_text")}</p>
+          <p className="text-gray-500">{t("minicta_text")}</p>
           <a
             href="https://cal.com/danielanders/15min"
             target="_blank"
@@ -191,16 +192,16 @@ export default function HomePage() {
                       {svc.badge}
                     </div>
                   )}
-                  <div className="text-[0.65rem] font-bold tracking-[3px] text-[#444] uppercase mb-2">
+                  <div className="text-[0.65rem] font-bold tracking-[3px] text-gray-700 uppercase mb-2">
                     {svc.sector}
                   </div>
                   <h3 className="font-heading text-lg font-bold text-foreground mb-3">
                     {t(`svc_${svc.key}_h` as any)}
                   </h3>
-                  <p className="text-sm text-[#666] leading-relaxed mb-4">
+                  <p className="text-sm text-gray-500 leading-relaxed mb-4">
                     {t(`svc_${svc.key}_p` as any)}
                   </p>
-                  <span className="text-xs text-[#444] font-mono">
+                  <span className="text-xs text-gray-700 font-mono">
                     {svc.tag}
                   </span>
                 </div>
@@ -213,7 +214,7 @@ export default function HomePage() {
                 <h3 className="font-heading text-lg font-bold text-foreground mb-3">
                   {t("svc_yours_h")}
                 </h3>
-                <p className="text-sm text-[#666] leading-relaxed mb-4">
+                <p className="text-sm text-gray-500 leading-relaxed mb-4">
                   {t("svc_yours_p")}
                 </p>
                 <Link href="#contact" className="text-sm font-bold text-brand tracking-wider hover:text-brand-bright transition-colors">
@@ -232,7 +233,7 @@ export default function HomePage() {
               <h3 className="font-heading text-xl font-bold text-foreground mb-3">
                 {t("apps_router_h")}
               </h3>
-              <p className="text-sm text-[#666] max-w-[500px] mx-auto mb-4">
+              <p className="text-sm text-gray-500 max-w-[500px] mx-auto mb-4">
                 {t("apps_router_p")}
               </p>
               <Link href="/apps" className="text-sm font-bold text-brand tracking-wider hover:text-brand-bright transition-colors">
@@ -263,12 +264,12 @@ export default function HomePage() {
                     <span className="text-[0.65rem] font-bold tracking-[2px] text-brand/60">
                       {c.type}
                     </span>
-                    <span className="text-xs text-[#444]">{c.year}</span>
+                    <span className="text-xs text-gray-700">{c.year}</span>
                   </div>
                   <h3 className="font-heading text-lg font-bold text-foreground mb-3">
                     {t(`case_${c.key}_h` as any)}
                   </h3>
-                  <p className="text-sm text-[#666] leading-relaxed mb-4">
+                  <p className="text-sm text-gray-500 leading-relaxed mb-4">
                     {t(`case_${c.key}_p` as any)}
                   </p>
                   <div className="flex flex-wrap gap-2 mb-6">
@@ -287,7 +288,7 @@ export default function HomePage() {
                         <span className="block font-heading text-xl font-bold text-brand">
                           {m.value}
                         </span>
-                        <span className="text-[0.65rem] text-[#555]">
+                        <span className="text-[0.65rem] text-gray-600">
                           {t(`case_${c.key}_${m.key}` as any)}
                         </span>
                       </div>
@@ -299,7 +300,7 @@ export default function HomePage() {
           </div>
 
           <RevealOnScroll className="text-center mt-12">
-            <p className="text-[#666] mb-4">{t("cases_cta")}</p>
+            <p className="text-gray-500 mb-4">{t("cases_cta")}</p>
             <a
               href="https://cal.com/danielanders/15min"
               target="_blank"
@@ -333,7 +334,7 @@ export default function HomePage() {
                   <h3 className="font-heading text-xl font-bold text-foreground mb-2">
                     {t(`proc_${step.key}_h` as any)}
                   </h3>
-                  <p className="text-[#666] leading-relaxed max-w-lg">
+                  <p className="text-gray-500 leading-relaxed max-w-lg">
                     {t(`proc_${step.key}_p` as any)}
                     {step.key === "1" && (
                       <strong className="text-foreground block mt-1">
@@ -372,7 +373,7 @@ export default function HomePage() {
                   <h3 className="font-heading text-lg font-bold text-foreground mb-2">
                     {t(`why_${i}_h` as any)}
                   </h3>
-                  <p className="text-sm text-[#666] leading-relaxed">
+                  <p className="text-sm text-gray-500 leading-relaxed">
                     {t(`why_${i}_p` as any)}
                   </p>
                 </div>
@@ -403,7 +404,7 @@ export default function HomePage() {
                     <span className="text-[0.6rem] font-bold tracking-[2px] text-brand/60 mb-2 block">
                       {s.tag}
                     </span>
-                    <p className="text-sm text-[#888]">{s.items}</p>
+                    <p className="text-sm text-gray-400">{s.items}</p>
                   </div>
                   <div className="text-brand/30 font-mono text-xl hidden md:block">
                     //
@@ -412,7 +413,7 @@ export default function HomePage() {
                     <span className="text-[0.6rem] font-bold tracking-[2px] text-brand mb-2 block">
                       RESULT
                     </span>
-                    <p className="text-sm text-[#666]">{t(s.resultKey as any)}</p>
+                    <p className="text-sm text-gray-500">{t(s.resultKey as any)}</p>
                   </div>
                 </div>
               </RevealOnScroll>
@@ -448,7 +449,7 @@ export default function HomePage() {
                     <h3 className="font-heading text-base font-bold text-foreground mb-2">
                       {t(item.hKey)}
                     </h3>
-                    <p className="text-sm text-[#666] leading-relaxed">
+                    <p className="text-sm text-gray-500 leading-relaxed">
                       {t(item.pKey)}
                     </p>
                   </div>
@@ -481,7 +482,7 @@ export default function HomePage() {
                   <div className="text-5xl text-brand/20 font-heading leading-none mb-4">
                     &ldquo;
                   </div>
-                  <p className="text-sm text-[#888] leading-relaxed mb-8">
+                  <p className="text-sm text-gray-400 leading-relaxed mb-8">
                     {t(`test_${test.key}_p` as any)}
                   </p>
                   <div className="flex items-center gap-3 mt-auto">
@@ -492,7 +493,7 @@ export default function HomePage() {
                       <strong className="text-sm text-foreground block">
                         {t(`test_${test.key}_name` as any)}
                       </strong>
-                      <span className="text-xs text-[#555]">
+                      <span className="text-xs text-gray-600">
                         {t(`test_${test.key}_role` as any)}
                       </span>
                     </div>
@@ -516,19 +517,19 @@ export default function HomePage() {
               <p className="text-sm text-brand/60 font-medium mb-6">
                 {t("about_role")}
               </p>
-              <div className="flex flex-col gap-4 text-[#888] leading-relaxed mb-8">
+              <div className="flex flex-col gap-4 text-gray-400 leading-relaxed mb-8">
                 <p>{t("about_p1")}</p>
                 <p>{t("about_p2")}</p>
                 <p>{t("about_p3")}</p>
               </div>
               <div className="flex flex-col gap-3">
-                <a href="mailto:danielanders76@gmail.com" className="text-sm text-[#555] hover:text-brand transition-colors">
+                <a href="mailto:danielanders76@gmail.com" className="text-sm text-gray-600 hover:text-brand transition-colors">
                   danielanders76@gmail.com
                 </a>
-                <a href="https://github.com/AndersD76" target="_blank" rel="noopener noreferrer" className="text-sm text-[#555] hover:text-brand transition-colors">
+                <a href="https://github.com/AndersD76" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-brand transition-colors">
                   github.com/AndersD76
                 </a>
-                <a href="https://linkedin.com/in/danielandersbrrs" target="_blank" rel="noopener noreferrer" className="text-sm text-[#555] hover:text-brand transition-colors">
+                <a href="https://linkedin.com/in/danielandersbrrs" target="_blank" rel="noopener noreferrer" className="text-sm text-gray-600 hover:text-brand transition-colors">
                   linkedin.com/in/danielandersbrrs
                 </a>
               </div>
@@ -544,14 +545,14 @@ export default function HomePage() {
                   <span className="text-3xl font-heading font-bold text-brand">
                     {stat.number}
                   </span>
-                  <span className="text-sm text-[#666]">{stat.label}</span>
+                  <span className="text-sm text-gray-500">{stat.label}</span>
                 </div>
               ))}
               <div className="glass-card border-brand/10 bg-brand/[0.02]">
                 <span className="text-sm text-foreground font-medium block">
                   {t("about_loc")}
                 </span>
-                <span className="text-xs text-[#555]">
+                <span className="text-xs text-gray-600">
                   {t("about_loc_sub")}
                 </span>
               </div>
@@ -569,7 +570,7 @@ export default function HomePage() {
               <br />
               <span className="text-brand">{t("cta_h2_2")}</span>
             </h2>
-            <p className="text-lg text-[#666] max-w-2xl mx-auto mb-4">
+            <p className="text-lg text-gray-500 max-w-2xl mx-auto mb-4">
               {t("cta_p")}
             </p>
             <p className="text-xl font-heading font-bold text-foreground mb-8">
@@ -586,7 +587,7 @@ export default function HomePage() {
               </a>
               <Link
                 href="#contact"
-                className="text-sm text-[#666] hover:text-brand transition-colors"
+                className="text-sm text-gray-500 hover:text-brand transition-colors"
               >
                 {t("cta_or")}
               </Link>
@@ -596,6 +597,7 @@ export default function HomePage() {
       </section>
 
       <ContactForm />
+      </main>
       <Footer />
 
       {/* FLOATING WHATSAPP */}

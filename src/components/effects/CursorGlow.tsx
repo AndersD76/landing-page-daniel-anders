@@ -8,6 +8,7 @@ export function CursorGlow() {
   useEffect(() => {
     const el = ref.current;
     if (!el) return;
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
 
     const onMove = (e: MouseEvent) => {
       el.style.left = `${e.clientX}px`;

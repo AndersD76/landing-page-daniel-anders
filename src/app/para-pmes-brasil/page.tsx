@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
+import { PageNavbar } from "@/components/layout/PageNavbar";
+import { PageFooter } from "@/components/layout/PageFooter";
 
 export const metadata: Metadata = {
   title: "Desenvolvimento Web pra PMEs — Modernize Sua Empresa",
@@ -127,32 +128,7 @@ export default function ParaPMEsPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
-      {/* NAVBAR */}
-      <nav className="py-6 border-b border-white/[0.04]">
-        <div className="max-w-[900px] mx-auto px-8 flex items-center justify-between">
-          <Link href="/" className="flex items-center gap-2 no-underline">
-            <Image
-              src="/logo.png"
-              alt="Anders Dev"
-              width={36}
-              height={36}
-              className="w-9 h-9"
-              priority
-            />
-            <span className="font-heading text-lg font-bold text-foreground tracking-tight">
-              anders<span className="text-brand">dev</span>
-            </span>
-          </Link>
-          <a
-            href="https://cal.com/danielanders/15min"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm font-bold text-white bg-brand px-5 py-2.5 rounded-full no-underline hover:scale-105 transition-transform shadow-[0_0_20px_rgba(230,57,70,0.2)]"
-          >
-            AGENDAR CALL
-          </a>
-        </div>
-      </nav>
+      <PageNavbar narrow />
 
       <main className="max-w-[900px] mx-auto px-8 py-16">
         {/* BREADCRUMB */}
@@ -681,24 +657,7 @@ export default function ParaPMEsPage() {
         </section>
       </main>
 
-      {/* FOOTER */}
-      <footer className="border-t border-white/[0.04] py-8">
-        <div className="max-w-[900px] mx-auto px-8 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <Image
-              src="/logo.png"
-              alt="Anders Dev"
-              width={24}
-              height={24}
-              className="w-6 h-6"
-            />
-            <span className="text-sm text-gray">andersdev.com.br</span>
-          </div>
-          <span className="text-xs text-gray">
-            &copy; 2026 Daniel Anders
-          </span>
-        </div>
-      </footer>
+      <PageFooter narrow />
     </>
   );
 }

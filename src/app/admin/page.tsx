@@ -95,7 +95,7 @@ export default function AdminDashboardPage() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               placeholder="Senha"
-              className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-[#444] focus:border-brand/30 focus:outline-none transition-colors"
+              className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-gray-700 focus:border-brand/30 focus:outline-none transition-colors"
             />
             {error && <p className="text-red-400 text-sm">{error}</p>}
             <button
@@ -114,7 +114,7 @@ export default function AdminDashboardPage() {
   if (!stats) {
     return (
       <main className="min-h-screen bg-surface-black text-foreground flex items-center justify-center">
-        <div className="text-[#555]">Carregando...</div>
+        <div className="text-gray-600">Carregando...</div>
       </main>
     );
   }
@@ -134,14 +134,14 @@ export default function AdminDashboardPage() {
             </span>
           </Link>
           <div className="flex items-center gap-4">
-            <span className="text-xs text-[#555] hidden sm:inline">Admin Dashboard</span>
+            <span className="text-xs text-gray-600 hidden sm:inline">Admin Dashboard</span>
             <button
               onClick={() => {
                 sessionStorage.removeItem("admin_token");
                 setAuthenticated(false);
                 setStats(null);
               }}
-              className="text-sm text-[#555] hover:text-red-400 transition-colors"
+              className="text-sm text-gray-600 hover:text-red-400 transition-colors"
             >
               Sair
             </button>
@@ -169,7 +169,7 @@ export default function AdminDashboardPage() {
               Leads - Ultimos 30 dias
             </h2>
             {stats.dailyTrend.length === 0 ? (
-              <p className="text-[#555] text-sm">Sem dados no periodo.</p>
+              <p className="text-gray-600 text-sm">Sem dados no periodo.</p>
             ) : (
               <div className="flex items-end gap-[2px] h-40">
                 {stats.dailyTrend.map((day) => {
@@ -182,7 +182,7 @@ export default function AdminDashboardPage() {
                       className="flex-1 flex flex-col items-center justify-end group relative"
                     >
                       <div
-                        className="absolute -top-8 bg-[#1a2744] text-foreground text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10"
+                        className="absolute -top-8 bg-surface-dark2 text-foreground text-[10px] px-2 py-1 rounded opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap z-10"
                       >
                         {label}: {day.count} lead{day.count !== 1 ? "s" : ""}
                       </div>
@@ -204,14 +204,14 @@ export default function AdminDashboardPage() {
               {stats.leadsByStatus.map((s) => (
                 <span
                   key={s.status}
-                  className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium border ${STATUS_COLORS[s.status] ?? "bg-white/10 text-[#999] border-white/10"}`}
+                  className={`inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-medium border ${STATUS_COLORS[s.status] ?? "bg-white/10 text-gray-400 border-white/10"}`}
                 >
                   {s.status}
                   <span className="font-bold">{s.count}</span>
                 </span>
               ))}
               {stats.leadsByStatus.length === 0 && (
-                <p className="text-[#555] text-sm">Sem dados.</p>
+                <p className="text-gray-600 text-sm">Sem dados.</p>
               )}
             </div>
           </div>
@@ -222,7 +222,7 @@ export default function AdminDashboardPage() {
           <div className="glass-card lg:col-span-2">
             <h2 className="font-heading text-lg font-bold mb-4">Por Fonte</h2>
             {stats.leadsBySource.length === 0 ? (
-              <p className="text-[#555] text-sm">Sem dados.</p>
+              <p className="text-gray-600 text-sm">Sem dados.</p>
             ) : (
               <div className="space-y-3">
                 {stats.leadsBySource.map((s) => {
@@ -253,10 +253,10 @@ export default function AdminDashboardPage() {
               <QuickLink href="/admin/leads" label="Ver Todos os Leads" />
               <QuickLink href="/" label="Ver Site" />
               <div className="pt-2 border-t border-white/[0.06]">
-                <div className="text-xs text-[#555] mb-1">Inscritos</div>
+                <div className="text-xs text-gray-600 mb-1">Inscritos</div>
                 <div className="text-sm">
                   <span className="text-foreground">{stats.totalSubscribers} total</span>
-                  <span className="text-[#555] mx-2">/</span>
+                  <span className="text-gray-600 mx-2">/</span>
                   <span className="text-green-400">{stats.confirmedSubscribers} confirmados</span>
                 </div>
               </div>
@@ -279,15 +279,15 @@ export default function AdminDashboardPage() {
             <table className="w-full text-sm">
               <thead>
                 <tr className="border-b border-white/[0.06]">
-                  <th className="text-left py-3 px-4 text-[#555] font-medium">Nome</th>
-                  <th className="text-left py-3 px-4 text-[#555] font-medium">Email</th>
-                  <th className="text-left py-3 px-4 text-[#555] font-medium hidden md:table-cell">
+                  <th className="text-left py-3 px-4 text-gray-600 font-medium">Nome</th>
+                  <th className="text-left py-3 px-4 text-gray-600 font-medium">Email</th>
+                  <th className="text-left py-3 px-4 text-gray-600 font-medium hidden md:table-cell">
                     Fonte
                   </th>
-                  <th className="text-left py-3 px-4 text-[#555] font-medium hidden md:table-cell">
+                  <th className="text-left py-3 px-4 text-gray-600 font-medium hidden md:table-cell">
                     Status
                   </th>
-                  <th className="text-left py-3 px-4 text-[#555] font-medium">Data</th>
+                  <th className="text-left py-3 px-4 text-gray-600 font-medium">Data</th>
                 </tr>
               </thead>
               <tbody>
@@ -305,12 +305,12 @@ export default function AdminDashboardPage() {
                     </td>
                     <td className="py-3 px-4 hidden md:table-cell">
                       <span
-                        className={`text-[0.65rem] px-2 py-0.5 rounded-full border ${STATUS_COLORS[lead.status ?? "new"] ?? "bg-white/10 text-[#999] border-white/10"}`}
+                        className={`text-[0.65rem] px-2 py-0.5 rounded-full border ${STATUS_COLORS[lead.status ?? "new"] ?? "bg-white/10 text-gray-400 border-white/10"}`}
                       >
                         {lead.status ?? "new"}
                       </span>
                     </td>
-                    <td className="py-3 px-4 text-[#555] text-xs">
+                    <td className="py-3 px-4 text-gray-600 text-xs">
                       {new Date(lead.created_at).toLocaleDateString("pt-BR")}
                     </td>
                   </tr>
@@ -319,7 +319,7 @@ export default function AdminDashboardPage() {
             </table>
           </div>
           {stats.recentLeads.length === 0 && (
-            <p className="text-center text-[#555] py-8">Nenhum lead encontrado.</p>
+            <p className="text-center text-gray-600 py-8">Nenhum lead encontrado.</p>
           )}
         </div>
       </div>
@@ -333,7 +333,7 @@ function StatCard({ label, value }: { label: string; value: string | number }) {
       <div className="text-2xl md:text-3xl font-heading font-bold text-brand">
         {value}
       </div>
-      <div className="text-xs text-[#555] mt-1">{label}</div>
+      <div className="text-xs text-gray-600 mt-1">{label}</div>
     </div>
   );
 }
@@ -345,7 +345,7 @@ function QuickLink({ href, label }: { href: string; label: string }) {
       className="flex items-center justify-between px-4 py-3 bg-white/[0.02] hover:bg-white/[0.04] border border-white/[0.06] rounded-lg text-sm text-foreground no-underline transition-colors group"
     >
       <span>{label}</span>
-      <span className="text-[#555] group-hover:text-brand transition-colors">
+      <span className="text-gray-600 group-hover:text-brand transition-colors">
         &rarr;
       </span>
     </Link>

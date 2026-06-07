@@ -64,13 +64,13 @@ export function ContactForm() {
               <br />
               <span className="text-brand">{t("form_h2_2")}</span>
             </h2>
-            <p className="text-[#666] text-lg mb-8">{t("form_p")}</p>
+            <p className="text-gray-500 text-lg mb-8">{t("form_p")}</p>
             <div className="flex flex-col gap-3">
               {(["form_t1", "form_t2", "form_t3", "form_t4"] as const).map(
                 (key) => (
                   <div
                     key={key}
-                    className="text-sm text-[#555] font-mono tracking-wide"
+                    className="text-sm text-gray-600 font-mono tracking-wide"
                   >
                     {t(key)}
                   </div>
@@ -90,32 +90,32 @@ export function ContactForm() {
               name="name"
               required
               placeholder={t("form_name")}
-              className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-[#444] focus:border-brand/30 focus:outline-none transition-colors"
+              className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-gray-700 focus:border-brand/30 focus:outline-none transition-colors"
             />
             <input
               type="email"
               name="email"
               required
               placeholder={t("form_email")}
-              className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-[#444] focus:border-brand/30 focus:outline-none transition-colors"
+              className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-gray-700 focus:border-brand/30 focus:outline-none transition-colors"
             />
             <input
               type="tel"
               name="phone"
               placeholder={t("form_phone")}
-              className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-[#444] focus:border-brand/30 focus:outline-none transition-colors"
+              className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-gray-700 focus:border-brand/30 focus:outline-none transition-colors"
             />
             <input
               type="text"
               name="company"
               placeholder={t("form_company")}
-              className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-[#444] focus:border-brand/30 focus:outline-none transition-colors"
+              className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-gray-700 focus:border-brand/30 focus:outline-none transition-colors"
             />
             <textarea
               name="message"
               rows={3}
               placeholder={t("form_message")}
-              className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-[#444] focus:border-brand/30 focus:outline-none transition-colors resize-none"
+              className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-gray-700 focus:border-brand/30 focus:outline-none transition-colors resize-none"
             />
 
             <button

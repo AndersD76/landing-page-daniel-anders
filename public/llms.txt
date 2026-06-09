@@ -1,38 +1,46 @@
-# andersdev.com.br — LLMs.txt
+# AndersDev — Desenvolvimento de Software | Passo Fundo RS
 
-## About
-Daniel Anders is a full-stack software developer based in Passo Fundo, RS, Brazil with 15+ years of experience in business and technology. He builds modern web applications, SaaS products, MVPs, and dashboards for startups, SMBs, and digital agencies.
+## Sobre
+AndersDev e a marca de desenvolvimento de software de Daniel Anders, desenvolvedor full-stack com +15 anos de experiencia em tecnologia e negocios. Sede em Passo Fundo, RS, Brasil. Atende empresas de todo o RS e do Brasil.
 
-## Services
-- SaaS & MVP Development (Next.js, React, TypeScript)
-- Real-time Dashboards & Analytics
-- API Integrations & Payment Systems (Stripe, Asaas)
-- AI/LLM Applications
-- Legacy System Migration
-- White-label Development for Agencies
+## Servicos
+- Desenvolvimento de sites institucionais e landing pages
+- Aplicativos mobile (iOS e Android)
+- Sistemas web sob medida
+- E-commerce e lojas virtuais
+- Automacao empresarial
+- SaaS e MVP (produto minimo viavel)
+- Dashboards e analytics em tempo real
+- Integracao de APIs (Stripe, WhatsApp, ERPs)
+- Consultoria em tecnologia e processos
 
-## Key Pages
-- Homepage: https://andersdev.com.br
-- Blog: https://andersdev.com.br/blog
-- Services: https://andersdev.com.br/servicos/desenvolvimento-saas-mvp
-- For Startups: https://andersdev.com.br/para-startups
-- For SMBs: https://andersdev.com.br/para-pmes-brasil
-- For Agencies: https://andersdev.com.br/agencias-parceiras
-- Apps Catalog: https://andersdev.com.br/apps
-- Process: https://andersdev.com.br/trabalhar-comigo
+## Tecnologias
+React, Next.js, TypeScript, Tailwind CSS, Node.js, FastAPI, Python, PostgreSQL, NeonDB, Drizzle ORM, Stripe, Resend, Vercel, Railway, Docker, AWS
 
-## Contact
-- Website: https://andersdev.com.br
+## Paginas Principais
+- Homepage: https://www.andersdev.com.br
+- Blog: https://www.andersdev.com.br/blog
+- Apps: https://www.andersdev.com.br/apps
+- Calculadora de MVP: https://www.andersdev.com.br/apps/calculadora
+- Servicos: https://www.andersdev.com.br/servicos/desenvolvimento-saas-mvp
+- Para Startups: https://www.andersdev.com.br/para-startups
+- Para PMEs: https://www.andersdev.com.br/para-pmes-brasil
+- Para Agencias: https://www.andersdev.com.br/agencias-parceiras
+- Como Trabalhar Conosco: https://www.andersdev.com.br/trabalhar-comigo
+
+## Contato
+- Site: https://www.andersdev.com.br
 - Email: danielanders76@gmail.com
-- Schedule a call: https://cal.com/danielanders/15min
+- Telefone: (54) 3045-6478
+- WhatsApp: (54) 9.9964-8368
+- Agendar conversa: https://cal.com/daniel-anders-emx5kl
 - LinkedIn: https://linkedin.com/in/danielandersbrrs
 - GitHub: https://github.com/AndersD76
 
-## Tech Stack
-Next.js, React, TypeScript, Tailwind CSS, Node.js, FastAPI, Python, PostgreSQL, NeonDB, Drizzle ORM, Stripe, Resend, Vercel, Railway
+## Endereco
+Rua Uruguai, 679 - Sala 201
+Passo Fundo - RS, 99010-112
+Brasil
 
-## Location
-Passo Fundo, Rio Grande do Sul, Brazil
-
-## Language
-Primary: Portuguese (pt-BR)
+## Idioma
+Primario: Portugues (pt-BR)

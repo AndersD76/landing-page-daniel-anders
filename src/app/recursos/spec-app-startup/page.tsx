@@ -71,7 +71,7 @@ export default function LeadMagnetPage() {
               template e a definir o escopo do seu MVP.
             </p>
             <a
-              href="https://cal.com/danielanders/15min"
+              href="https://cal.com/daniel-anders-emx5kl"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn"

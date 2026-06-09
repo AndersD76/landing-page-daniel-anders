@@ -12,10 +12,10 @@ export const metadata: Metadata = {
     title: "Blog | Daniel Anders Dev",
     description:
       "Artigos sobre desenvolvimento de software, SaaS, startups e tecnologia.",
-    url: "https://andersdev.com.br/blog",
+    url: "https://www.andersdev.com.br/blog",
   },
   alternates: {
-    canonical: "https://andersdev.com.br/blog",
+    canonical: "https://www.andersdev.com.br/blog",
   },
 };
 
@@ -107,18 +107,18 @@ export default function BlogPage() {
     name: "Blog | Daniel Anders Dev",
     description:
       "Artigos sobre desenvolvimento de software, SaaS, startups e tecnologia.",
-    url: "https://andersdev.com.br/blog",
+    url: "https://www.andersdev.com.br/blog",
     author: {
       "@type": "Person",
       name: "Daniel Anders",
-      url: "https://andersdev.com.br",
+      url: "https://www.andersdev.com.br",
     },
     blogPost: posts.map((post) => ({
       "@type": "BlogPosting",
       headline: post.title,
       description: post.excerpt,
       datePublished: post.publishedAt,
-      url: `https://andersdev.com.br/blog/${post.slug}`,
+      url: `https://www.andersdev.com.br/blog/${post.slug}`,
       author: {
         "@type": "Person",
         name: "Daniel Anders",
@@ -176,7 +176,7 @@ export default function BlogPage() {
             transformar sua ideia em produto.
           </p>
           <a
-            href="https://cal.com/danielanders/15min"
+            href="https://cal.com/daniel-anders-emx5kl"
             target="_blank"
             rel="noopener noreferrer"
             className="cta-btn"

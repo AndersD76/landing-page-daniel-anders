@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Desenvolvimento Web pra PMEs — Modernize Sua Empresa",
     description:
       "Transforme planilhas em sistemas, automatize processos e tome decisões com dados reais. 15+ anos de experiência em negócios e tecnologia.",
-    url: "https://andersdev.com.br/para-pmes-brasil",
+    url: "https://www.andersdev.com.br/para-pmes-brasil",
     type: "website",
     images: [
       {
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://andersdev.com.br/para-pmes-brasil",
+    canonical: "https://www.andersdev.com.br/para-pmes-brasil",
   },
 };
 
@@ -85,11 +85,11 @@ const serviceSchema = {
   provider: {
     "@type": "Person",
     name: "Daniel Anders",
-    url: "https://andersdev.com.br",
+    url: "https://www.andersdev.com.br",
     jobTitle: "Full-Stack Developer & Business Consultant",
   },
   areaServed: { "@type": "Country", name: "Brazil" },
-  url: "https://andersdev.com.br/para-pmes-brasil",
+  url: "https://www.andersdev.com.br/para-pmes-brasil",
   serviceType: "Custom Web Development for SMBs",
 };
 
@@ -101,13 +101,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Início",
-      item: "https://andersdev.com.br",
+      item: "https://www.andersdev.com.br",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Para PMEs",
-      item: "https://andersdev.com.br/para-pmes-brasil",
+      item: "https://www.andersdev.com.br/para-pmes-brasil",
     },
   ],
 };
@@ -159,7 +159,7 @@ export default function ParaPMEsPage() {
           </p>
           <div className="flex flex-wrap gap-3">
             <a
-              href="https://cal.com/danielanders/15min"
+              href="https://cal.com/daniel-anders-emx5kl"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn"
@@ -409,7 +409,7 @@ export default function ParaPMEsPage() {
             processos que mais impactam o resultado.
           </p>
           <a
-            href="https://cal.com/danielanders/15min"
+            href="https://cal.com/daniel-anders-emx5kl"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-bold text-brand hover:text-brand-bright transition-colors"
@@ -640,7 +640,7 @@ export default function ParaPMEsPage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://cal.com/danielanders/15min"
+              href="https://cal.com/daniel-anders-emx5kl"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn"

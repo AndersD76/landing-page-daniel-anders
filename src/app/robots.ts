@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/admin/", "/api/"],
       },
     ],
-    sitemap: "https://andersdev.com.br/sitemap.xml",
+    sitemap: "https://www.andersdev.com.br/sitemap.xml",
   };
 }

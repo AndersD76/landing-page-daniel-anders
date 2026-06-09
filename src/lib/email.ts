@@ -52,13 +52,13 @@ export async function sendLeadMagnetEmail(to: string, name: string) {
           <h2 style="color: #e63946;">Olá ${escapeHtml(name)}!</h2>
           <p>Obrigado por baixar o <strong>Template de Especificação de App para Startup</strong>.</p>
           <p>Clique no botão abaixo para fazer o download:</p>
-          <a href="https://andersdev.com.br/downloads/spec-app-startup.pdf"
+          <a href="https://www.andersdev.com.br/downloads/spec-app-startup.pdf"
              style="display: inline-block; padding: 14px 28px; background: #e63946; color: #030303; font-weight: 700; text-decoration: none; border-radius: 8px; margin: 16px 0;">
             BAIXAR TEMPLATE (PDF)
           </a>
           <p style="color: #666; font-size: 14px; margin-top: 24px;">
             Precisa de ajuda pra preencher? Agende uma call gratuita de 15 minutos:
-            <a href="https://cal.com/danielanders/15min" style="color: #e63946;">Agendar agora</a>
+            <a href="https://cal.com/daniel-anders-emx5kl" style="color: #e63946;">Agendar agora</a>
           </p>
           <hr style="border: none; border-top: 1px solid #eee; margin: 24px 0;">
           <p style="color: #999; font-size: 12px;">Daniel Anders — andersdev.com.br</p>

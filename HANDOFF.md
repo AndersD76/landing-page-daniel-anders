@@ -169,3 +169,111 @@ Para garantir que os emails do Resend não caiam em spam:
 | GTM server-side | Migrar quando >500 sessões/mês | Baixa |
 | Consent Mode v2 | Antes de Google Ads | Condicional |
 | Robots/IA | Decidir política de crawlers IA | Baixa |
+
+---
+
+# Parte 3 — Growth / AndersDev (2026-06-08)
+
+## O que foi feito
+
+### SEO Local — Posicionamento AndersDev + Passo Fundo
+- [x] Title tag reescrito: "AndersDev | Desenvolvimento de Sites, Apps e Sistemas | Passo Fundo RS"
+- [x] Meta description reescrita em PT-BR com foco local
+- [x] 14 keywords geo-targeted adicionadas ("desenvolvimento de sites passo fundo", "criar aplicativo passo fundo", etc.)
+- [x] OpenGraph e Twitter Card tags reescritas em PT-BR
+- [x] Sitemap.xml estatico removido (conflitava com sitemap.ts dinamico)
+- [x] Sitemap.ts atualizado: /apps e /apps/calculadora adicionadas (total: 9 paginas estaticas + 8 servicos + 10 blog posts)
+
+### Schema Markup — LocalBusiness completo
+- [x] Schema `LocalBusiness` + `ProfessionalService` adicionado com:
+  - Endereco completo: Rua Uruguai, 679 - Sala 201, Passo Fundo RS, 99010-112
+  - Telefones: fixo (54) 3045-6478 e celular (54) 9.9964-8368
+  - Coordenadas geo: -28.2625, -52.4069
+  - Area de atendimento: Passo Fundo + Rio Grande do Sul
+  - Horario de funcionamento: Seg-Sex 09:00-18:00
+  - 8 tipos de servico em PT-BR
+  - priceRange: "$$"
+- [x] FAQ Schema reescrito em PT-BR com 4 perguntas locais:
+  - "Quanto custa criar um site profissional em Passo Fundo?"
+  - "Quanto tempo leva para desenvolver um aplicativo ou sistema?"
+  - "A AndersDev atende empresas de outras cidades?"
+  - "Quais servicos de desenvolvimento a AndersDev oferece?"
+- [x] Reviews traduzidas para PT-BR
+- [x] Brand atualizado de "AndersD76" para "AndersDev"
+
+### Conteudo SEO — 5 artigos de blog locais
+- [x] "Quanto custa criar um site profissional em 2026" (slug: quanto-custa-criar-site-profissional-2026)
+- [x] "Site ou aplicativo: qual sua empresa precisa?" (slug: site-ou-aplicativo-qual-empresa-precisa)
+- [x] "5 sinais de que sua empresa precisa de um sistema personalizado" (slug: 5-sinais-empresa-precisa-sistema-personalizado)
+- [x] "E-commerce: como comecar a vender online" (slug: ecommerce-como-comecar-vender-online)
+- [x] "Por que ter um app mobile para sua empresa" (slug: por-que-ter-app-mobile-empresa)
+- [x] Interlinks blog-servicos configurados para todos os 5 artigos novos
+
+### Infraestrutura
+- [x] manifest.json atualizado para "AndersDev" (nome + descricao em PT-BR)
+- [x] llms.txt reescrito em PT-BR com servicos, endereco completo, e keywords locais
+- [x] Cal.com link atualizado em 14 arquivos: `cal.com/danielanders/15min` → `cal.com/daniel-anders-emx5kl`
+
+---
+
+## O que VOCE precisa fazer
+
+### Railway — Deploy + GA4
+- **Push para o branch principal** para triggerar deploy automatico
+- **Adicionar variavel de ambiente no Railway**:
+  ```
+  NEXT_PUBLIC_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+  ```
+  Como descobrir o ID: GA4 → Admin → Data Streams → Web → Measurement ID (formato `G-...`, NAO e o Property ID 540463482)
+- **IMPORTANTE**: Sem essa variavel, o GA4 NAO CARREGA. O componente Analytics.tsx so renderiza o script se `NEXT_PUBLIC_GA_MEASUREMENT_ID` existir. E por isso que o GA4 mostra zero.
+- **Atualizar tambem**: `NEXT_PUBLIC_SITE_URL=https://www.andersdev.com.br`
+- **Apos deploy**: abrir o site, ir em GA4 → Tempo Real → se aparecer 1 usuario ativo, esta funcionando
+- **Verificar meta tags**: abrir `view-source:www.andersdev.com.br` e conferir title + description
+- **Testar schema**: colar URL no https://search.google.com/test/rich-results
+
+### DNS — Dominio sem www
+- **PROBLEMA**: `andersdev.com.br` (sem www) retorna conexao recusada. So `www.andersdev.com.br` funciona.
+- **Fix**: No painel do registrador de dominio, configurar:
+  - Registro A ou CNAME para `andersdev.com.br` (raiz) apontando pro Railway
+  - OU redirect 301 de `andersdev.com.br` → `www.andersdev.com.br`
+- **Prioridade: CRITICA** — metade das pessoas digita URL sem www, e os links antigos apontam pra la. Todas as canonical URLs do codigo agora usam `www.andersdev.com.br`.
+
+### Cal.com
+- **Verificar** se o link `https://cal.com/daniel-anders-emx5kl` esta funcionando
+- Se o link antigo (`cal.com/danielanders/15min`) era o correto, reverter com busca/replace global
+
+### Google Meu Negocio (Google Business Profile)
+- **Criar perfil** em https://business.google.com com:
+  - Nome: "AndersDev — Desenvolvimento de Software"
+  - Categoria: "Empresa de desenvolvimento de software" + "Desenvolvimento de sites"
+  - Endereco: Rua Uruguai, 679 - Sala 201, Passo Fundo - RS, 99010-112
+  - Telefone: (54) 3045-6478
+  - WhatsApp: (54) 9.9964-8368
+  - Site: https://www.andersdev.com.br
+  - Horario: Seg-Sex 09:00-18:00
+- **Solicitar verificacao** (geralmente por carta ou telefone)
+- **Prioridade: ALTA** — Google Meu Negocio e o fator #1 para aparecer no "Local Pack" (mapa do Google)
+
+### Google Search Console
+- **Verificar propriedade** de `www.andersdev.com.br`
+- **Reenviar sitemap** apos deploy: `https://www.andersdev.com.br/sitemap.xml`
+- **Solicitar indexacao** das 5 novas paginas de blog
+
+### Pagamento
+- N/A
+
+### E-mail
+- N/A
+
+---
+
+## Resumo de acoes (Parte 3)
+
+| Plataforma | Acao | Prioridade |
+|---|---|---|
+| Railway | Adicionar `NEXT_PUBLIC_GA_MEASUREMENT_ID` + deploy | **CRITICA** |
+| DNS | Corrigir dominio sem www (redirect ou CNAME) | **CRITICA** |
+| Google Meu Negocio | Criar perfil completo | **Alta** |
+| GSC | Verificar propriedade www + reenviar sitemap | **Alta** |
+| Cal.com | Verificar link `daniel-anders-emx5kl` | Media |
+| Rich Results Test | Testar schema markup | Media |

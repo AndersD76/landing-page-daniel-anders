@@ -117,11 +117,11 @@ export default function CalculadoraPage() {
     provider: {
       "@type": "Person",
       name: "Daniel Anders",
-      url: "https://andersdev.com.br",
+      url: "https://www.andersdev.com.br",
       jobTitle: "Full-Stack Developer & Business Consultant",
     },
     areaServed: { "@type": "Country", name: "Brazil" },
-    url: "https://andersdev.com.br/apps/calculadora",
+    url: "https://www.andersdev.com.br/apps/calculadora",
   };
 
   return (
@@ -360,7 +360,7 @@ export default function CalculadoraPage() {
                 </button>
               ) : (
                 <a
-                  href="https://cal.com/danielanders/15min"
+                  href="https://cal.com/daniel-anders-emx5kl"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="cta-btn text-center"
@@ -460,7 +460,7 @@ export default function CalculadoraPage() {
               {estimate && (
                 <div className="mt-6 flex flex-col gap-3">
                   <a
-                    href="https://cal.com/danielanders/15min"
+                    href="https://cal.com/daniel-anders-emx5kl"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="cta-btn text-center justify-center w-full"

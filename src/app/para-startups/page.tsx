@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Desenvolvimento pra Startups — Do MVP à Escala",
     description:
       "MVP funcional em 2-6 semanas. Entendo de negócio, penso como co-founder, entrego como sênior. Agende uma call gratuita de 15 minutos.",
-    url: "https://andersdev.com.br/para-startups",
+    url: "https://www.andersdev.com.br/para-startups",
     type: "website",
     images: [
       {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://andersdev.com.br/para-startups",
+    canonical: "https://www.andersdev.com.br/para-startups",
   },
 };
 
@@ -84,11 +84,11 @@ const serviceSchema = {
   provider: {
     "@type": "Person",
     name: "Daniel Anders",
-    url: "https://andersdev.com.br",
+    url: "https://www.andersdev.com.br",
     jobTitle: "Full-Stack Developer & Business Consultant",
   },
   areaServed: { "@type": "Country", name: "Brazil" },
-  url: "https://andersdev.com.br/para-startups",
+  url: "https://www.andersdev.com.br/para-startups",
   serviceType: "MVP Development",
   offers: {
     "@type": "Offer",
@@ -111,13 +111,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Início",
-      item: "https://andersdev.com.br",
+      item: "https://www.andersdev.com.br",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Para Startups",
-      item: "https://andersdev.com.br/para-startups",
+      item: "https://www.andersdev.com.br/para-startups",
     },
   ],
 };
@@ -169,7 +169,7 @@ export default function ParaStartupsPage() {
           </p>
           <div className="flex flex-wrap gap-3">
             <a
-              href="https://cal.com/danielanders/15min"
+              href="https://cal.com/daniel-anders-emx5kl"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn"
@@ -385,7 +385,7 @@ export default function ParaStartupsPage() {
             em MVP.
           </p>
           <a
-            href="https://cal.com/danielanders/15min"
+            href="https://cal.com/daniel-anders-emx5kl"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-bold text-brand hover:text-brand-bright transition-colors"
@@ -676,7 +676,7 @@ export default function ParaStartupsPage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://cal.com/danielanders/15min"
+              href="https://cal.com/daniel-anders-emx5kl"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn"

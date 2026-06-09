@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     title: "Calculadora de Investimento — Estime o Custo do Seu Projeto",
     description:
       "Estime o custo do seu projeto em 3 passos: tipo, funcionalidades e prazo. Cálculo em tempo real.",
-    url: "https://andersdev.com.br/apps/calculadora",
+    url: "https://www.andersdev.com.br/apps/calculadora",
     type: "website",
     images: [
       {
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://andersdev.com.br/apps/calculadora",
+    canonical: "https://www.andersdev.com.br/apps/calculadora",
   },
 };
 

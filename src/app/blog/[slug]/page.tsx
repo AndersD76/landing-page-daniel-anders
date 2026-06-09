@@ -34,7 +34,7 @@ export function generateMetadata({
       type: "article",
       title: post.title,
       description: post.excerpt,
-      url: `https://andersdev.com.br/blog/${post.slug}`,
+      url: `https://www.andersdev.com.br/blog/${post.slug}`,
       publishedTime: post.publishedAt,
       authors: ["Daniel Anders"],
       tags: post.tags,
@@ -45,7 +45,7 @@ export function generateMetadata({
       description: post.excerpt,
     },
     alternates: {
-      canonical: `https://andersdev.com.br/blog/${post.slug}`,
+      canonical: `https://www.andersdev.com.br/blog/${post.slug}`,
     },
   };
 }
@@ -169,20 +169,20 @@ export default function BlogPostPage({
       "@type": "Person",
       name: "Daniel Anders",
       jobTitle: "Full-Stack Developer",
-      url: "https://andersdev.com.br",
+      url: "https://www.andersdev.com.br",
     },
     publisher: {
       "@type": "Organization",
       name: "Anders Dev",
-      url: "https://andersdev.com.br",
+      url: "https://www.andersdev.com.br",
       logo: {
         "@type": "ImageObject",
-        url: "https://andersdev.com.br/logo.png",
+        url: "https://www.andersdev.com.br/logo.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://andersdev.com.br/blog/${post.slug}`,
+      "@id": `https://www.andersdev.com.br/blog/${post.slug}`,
     },
     keywords: post.tags.join(", "),
     articleSection: categoryLabels[post.category],
@@ -197,19 +197,19 @@ export default function BlogPostPage({
         "@type": "ListItem",
         position: 1,
         name: "Início",
-        item: "https://andersdev.com.br",
+        item: "https://www.andersdev.com.br",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Blog",
-        item: "https://andersdev.com.br/blog",
+        item: "https://www.andersdev.com.br/blog",
       },
       {
         "@type": "ListItem",
         position: 3,
         name: post.title,
-        item: `https://andersdev.com.br/blog/${post.slug}`,
+        item: `https://www.andersdev.com.br/blog/${post.slug}`,
       },
     ],
   };
@@ -341,7 +341,7 @@ export default function BlogPostPage({
                   GitHub
                 </a>
                 <a
-                  href="https://andersdev.com.br"
+                  href="https://www.andersdev.com.br"
                   className="text-xs text-gray hover:text-brand transition-colors no-underline"
                 >
                   andersdev.com.br
@@ -420,7 +420,7 @@ export default function BlogPostPage({
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://cal.com/danielanders/15min"
+              href="https://cal.com/daniel-anders-emx5kl"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn"

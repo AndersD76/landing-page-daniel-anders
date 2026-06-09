@@ -7,7 +7,7 @@ import { Resend } from "resend";
 import { verifyToken, generateUnsubscribeToken } from "@/lib/security";
 
 const FROM_EMAIL = "Daniel Anders <contato@andersdev.com.br>";
-const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://andersdev.com.br";
+const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "https://www.andersdev.com.br";
 const BATCH_SIZE = 10; // rate limit: max emails per cron run
 
 function getResend() {

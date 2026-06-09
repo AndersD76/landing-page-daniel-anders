@@ -24,10 +24,10 @@ export function generateMetadata({
     openGraph: {
       title: service.title,
       description: service.metaDescription,
-      url: `https://andersdev.com.br/servicos/${service.slug}`,
+      url: `https://www.andersdev.com.br/servicos/${service.slug}`,
     },
     alternates: {
-      canonical: `https://andersdev.com.br/servicos/${service.slug}`,
+      canonical: `https://www.andersdev.com.br/servicos/${service.slug}`,
     },
   };
 }
@@ -64,10 +64,10 @@ export default function ServicePage({
     provider: {
       "@type": "Person",
       name: "Daniel Anders",
-      url: "https://andersdev.com.br",
+      url: "https://www.andersdev.com.br",
     },
     areaServed: "Worldwide",
-    url: `https://andersdev.com.br/servicos/${service.slug}`,
+    url: `https://www.andersdev.com.br/servicos/${service.slug}`,
   };
 
   return (
@@ -108,7 +108,7 @@ export default function ServicePage({
           </p>
           <div className="flex flex-wrap gap-3">
             <a
-              href="https://cal.com/danielanders/15min"
+              href="https://cal.com/daniel-anders-emx5kl"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn"
@@ -151,7 +151,7 @@ export default function ServicePage({
                   {service.ctaText}
                 </p>
                 <a
-                  href="https://cal.com/danielanders/15min"
+                  href="https://cal.com/daniel-anders-emx5kl"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm font-bold text-brand hover:text-brand-bright transition-colors"
@@ -284,7 +284,7 @@ export default function ServicePage({
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://cal.com/danielanders/15min"
+              href="https://cal.com/daniel-anders-emx5kl"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn"

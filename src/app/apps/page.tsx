@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     title: "MVPs Prontos pra Customizar — Apps e Sistemas",
     description:
       "Catálogo de aplicações pré-construídas: CRM, PDV, Dashboard, SaaS e mais. Customização rápida com código profissional. A partir de R$3.500.",
-    url: "https://andersdev.com.br/apps",
+    url: "https://www.andersdev.com.br/apps",
     type: "website",
     images: [
       {
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://andersdev.com.br/apps",
+    canonical: "https://www.andersdev.com.br/apps",
   },
 };
 
@@ -144,7 +144,7 @@ const productSchema = {
   name: "MVPs Prontos pra Customizar",
   description:
     "Catálogo de aplicações pré-construídas prontas para customização rápida.",
-  url: "https://andersdev.com.br/apps",
+  url: "https://www.andersdev.com.br/apps",
   numberOfItems: apps.length,
   itemListElement: apps.map((app, i) => ({
     "@type": "ListItem",
@@ -178,13 +178,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Início",
-      item: "https://andersdev.com.br",
+      item: "https://www.andersdev.com.br",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Apps & MVPs",
-      item: "https://andersdev.com.br/apps",
+      item: "https://www.andersdev.com.br/apps",
     },
   ],
 };
@@ -346,7 +346,7 @@ export default function AppsPage() {
 
                 {/* CTA */}
                 <a
-                  href="https://cal.com/danielanders/15min"
+                  href="https://cal.com/daniel-anders-emx5kl"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="block text-center text-sm font-bold text-white bg-brand/90 hover:bg-brand px-6 py-3 rounded-full no-underline transition-all hover:scale-[1.02] hover:shadow-brand-sm"
@@ -374,7 +374,7 @@ export default function AppsPage() {
                 ABRIR CALCULADORA
               </Link>
               <a
-                href="https://cal.com/danielanders/15min"
+                href="https://cal.com/daniel-anders-emx5kl"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-sm font-bold text-brand hover:text-brand-bright transition-colors no-underline"
@@ -475,7 +475,7 @@ export default function AppsPage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://cal.com/danielanders/15min"
+              href="https://cal.com/daniel-anders-emx5kl"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn"

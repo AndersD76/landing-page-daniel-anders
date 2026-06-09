@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Como Trabalhar Comigo — Processo em 4 Fases",
     description:
       "Discovery, Arquitetura, Build, Launch. 4 fases claras com entregáveis definidos, demos semanais e transparência total. Conheça o processo.",
-    url: "https://andersdev.com.br/trabalhar-comigo",
+    url: "https://www.andersdev.com.br/trabalhar-comigo",
     type: "website",
     images: [
       {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://andersdev.com.br/trabalhar-comigo",
+    canonical: "https://www.andersdev.com.br/trabalhar-comigo",
   },
 };
 
@@ -92,28 +92,28 @@ const howToSchema = {
       position: 1,
       name: "Discovery",
       text: "Mapeamento de funcionalidades, definição de escopo, análise de concorrentes e modelo de negócio. Resultado: documento de escopo com cronograma e preço fechado.",
-      url: "https://andersdev.com.br/trabalhar-comigo#discovery",
+      url: "https://www.andersdev.com.br/trabalhar-comigo#discovery",
     },
     {
       "@type": "HowToStep",
       position: 2,
       name: "Arquitetura",
       text: "Definição de modelo de dados, estrutura de API, stack técnica e infraestrutura. Validação do cliente antes de iniciar o código.",
-      url: "https://andersdev.com.br/trabalhar-comigo#arquitetura",
+      url: "https://www.andersdev.com.br/trabalhar-comigo#arquitetura",
     },
     {
       "@type": "HowToStep",
       position: 3,
       name: "Build",
       text: "Desenvolvimento iterativo com demos semanais. Cada semana uma entrega funcional em ambiente de staging. Feedback incorporado em tempo real.",
-      url: "https://andersdev.com.br/trabalhar-comigo#build",
+      url: "https://www.andersdev.com.br/trabalhar-comigo#build",
     },
     {
       "@type": "HowToStep",
       position: 4,
       name: "Launch",
       text: "Deploy final em produção, testes de carga, documentação completa, treinamento e handoff. 30 dias de suporte pós-lançamento incluídos.",
-      url: "https://andersdev.com.br/trabalhar-comigo#launch",
+      url: "https://www.andersdev.com.br/trabalhar-comigo#launch",
     },
   ],
   totalTime: "P6W",
@@ -127,13 +127,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Início",
-      item: "https://andersdev.com.br",
+      item: "https://www.andersdev.com.br",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Trabalhar Comigo",
-      item: "https://andersdev.com.br/trabalhar-comigo",
+      item: "https://www.andersdev.com.br/trabalhar-comigo",
     },
   ],
 };
@@ -185,7 +185,7 @@ export default function TrabalharComigoPage() {
           </p>
           <div className="flex flex-wrap gap-3">
             <a
-              href="https://cal.com/danielanders/15min"
+              href="https://cal.com/daniel-anders-emx5kl"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn"
@@ -527,7 +527,7 @@ export default function TrabalharComigoPage() {
             primeiro passo.
           </p>
           <a
-            href="https://cal.com/danielanders/15min"
+            href="https://cal.com/daniel-anders-emx5kl"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-bold text-brand hover:text-brand-bright transition-colors"
@@ -830,7 +830,7 @@ export default function TrabalharComigoPage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://cal.com/danielanders/15min"
+              href="https://cal.com/daniel-anders-emx5kl"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn"

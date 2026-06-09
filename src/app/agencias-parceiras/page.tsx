@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Parceria pra Agências — Dev Full-Stack White-Label",
     description:
       "Capacidade de overflow confiável para sua agência. Entrego no prazo, na qualidade, com sua marca. Desenvolvimento full-stack com Next.js, React e TypeScript.",
-    url: "https://andersdev.com.br/agencias-parceiras",
+    url: "https://www.andersdev.com.br/agencias-parceiras",
     type: "website",
     images: [
       {
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     ],
   },
   alternates: {
-    canonical: "https://andersdev.com.br/agencias-parceiras",
+    canonical: "https://www.andersdev.com.br/agencias-parceiras",
   },
 };
 
@@ -84,11 +84,11 @@ const serviceSchema = {
   provider: {
     "@type": "Person",
     name: "Daniel Anders",
-    url: "https://andersdev.com.br",
+    url: "https://www.andersdev.com.br",
     jobTitle: "Full-Stack Developer",
   },
   areaServed: { "@type": "Country", name: "Brazil" },
-  url: "https://andersdev.com.br/agencias-parceiras",
+  url: "https://www.andersdev.com.br/agencias-parceiras",
   serviceType: "White-Label Web Development",
 };
 
@@ -100,13 +100,13 @@ const breadcrumbSchema = {
       "@type": "ListItem",
       position: 1,
       name: "Início",
-      item: "https://andersdev.com.br",
+      item: "https://www.andersdev.com.br",
     },
     {
       "@type": "ListItem",
       position: 2,
       name: "Agências Parceiras",
-      item: "https://andersdev.com.br/agencias-parceiras",
+      item: "https://www.andersdev.com.br/agencias-parceiras",
     },
   ],
 };
@@ -158,7 +158,7 @@ export default function AgenciasParceirasPage() {
           </p>
           <div className="flex flex-wrap gap-3">
             <a
-              href="https://cal.com/danielanders/15min"
+              href="https://cal.com/daniel-anders-emx5kl"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn"
@@ -349,7 +349,7 @@ export default function AgenciasParceirasPage() {
             Quer testar a parceria com um projeto piloto? Vamos conversar.
           </p>
           <a
-            href="https://cal.com/danielanders/15min"
+            href="https://cal.com/daniel-anders-emx5kl"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-bold text-brand hover:text-brand-bright transition-colors"
@@ -581,7 +581,7 @@ export default function AgenciasParceirasPage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://cal.com/danielanders/15min"
+              href="https://cal.com/daniel-anders-emx5kl"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn"

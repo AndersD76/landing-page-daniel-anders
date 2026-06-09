@@ -163,7 +163,7 @@ export function Hero() {
         </p>
 
         <a
-          href="https://cal.com/danielanders/15min"
+          href="https://cal.com/daniel-anders-emx5kl"
           target="_blank"
           rel="noopener noreferrer"
           className="cta-btn opacity-0 animate-fade-up [animation-delay:1.5s]"

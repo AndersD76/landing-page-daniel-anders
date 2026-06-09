@@ -5,8 +5,8 @@ import { escapeHtml } from "./security";
 
 const BRAND_RED = "#e63946";
 const BRAND_NAVY = "#0a1929";
-const SITE_URL = "https://andersdev.com.br";
-const CAL_URL = "https://cal.com/danielanders/15min";
+const SITE_URL = "https://www.andersdev.com.br";
+const CAL_URL = "https://cal.com/daniel-anders-emx5kl";
 
 function layout(content: string, unsubscribeUrl: string): string {
   return `<!DOCTYPE html>

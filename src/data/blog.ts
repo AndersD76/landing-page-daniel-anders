@@ -679,6 +679,525 @@ Se quiser avaliar seu caso específico, agende 15 minutos comigo em andersdev.co
     publishedAt: "2026-04-08",
     readingTime: 11,
   },
+  {
+    slug: "quanto-custa-criar-site-profissional-2026",
+    title: "Quanto custa criar um site profissional em 2026? Guia com preços reais",
+    excerpt:
+      "Breakdown completo de custos para criar um site profissional em 2026: site institucional, e-commerce, blog, landing page. Com preços reais praticados em Passo Fundo e região.",
+    content: `Se você pesquisou "quanto custa criar um site" e só encontrou respostas vagas, este artigo é pra você. Vou abrir os números reais que pratico em Passo Fundo e que vejo no mercado do Rio Grande do Sul em 2026.
+
+## Tipos de site e suas faixas de preço
+
+Antes de falar de valores, precisa entender que "site" é um termo genérico. Existem tipos muito diferentes, e cada um tem custo proporcional à complexidade.
+
+### Site institucional (R$ 2.500-6.000)
+
+O clássico "cartão de visita digital". Geralmente tem 3-5 páginas: Home, Sobre, Serviços, Contato. Inclui formulário de contato, integração com WhatsApp, e otimização básica pra Google (SEO).
+
+Prazo típico: 1-2 semanas.
+
+Pra quem serve: escritórios de advocacia, clínicas, consultórios, prestadores de serviço, pequenas empresas que precisam de presença online profissional.
+
+Exemplo: um escritório de contabilidade em Passo Fundo que precisa aparecer no Google quando alguém busca "contador passo fundo". Home com os serviços, página sobre a equipe, formulário de contato com WhatsApp.
+
+### Landing page (R$ 1.500-4.000)
+
+Uma página única, focada em conversão. Ideal pra campanhas de marketing, lançamento de produto, ou captura de leads. Tem headline forte, benefícios, depoimentos, e um CTA claro (agendar, comprar, baixar).
+
+Prazo típico: 3-7 dias.
+
+Pra quem serve: qualquer empresa que vai rodar anúncios (Google Ads, Meta Ads) e precisa de uma página de destino otimizada.
+
+### Blog / site de conteúdo (R$ 3.000-8.000)
+
+Site com sistema de publicação de artigos, categorias, busca, e otimização avançada pra SEO. Essencial pra quem quer atrair tráfego orgânico do Google a médio/longo prazo.
+
+Prazo típico: 2-3 semanas.
+
+Pra quem serve: empresas que querem se posicionar como referência no seu setor. Imobiliárias, clínicas, escritórios, consultorias.
+
+### E-commerce / loja virtual (R$ 5.000-20.000)
+
+Loja online completa com catálogo de produtos, carrinho, checkout, pagamento (PIX, cartão, boleto), gestão de estoque, painel administrativo.
+
+Prazo típico: 3-6 semanas.
+
+Pra quem serve: lojas físicas que querem vender online, marcas que estão começando no digital, negócios que querem escalar vendas além da cidade.
+
+A variação de preço é grande porque depende do número de produtos, integrações (Correios, transportadoras, ERPs), e nível de personalização.
+
+### Sistema web / aplicação web (R$ 8.000-30.000+)
+
+Software acessível pelo navegador, com login, dashboard, relatórios, integrações. Não é um "site" — é uma ferramenta de trabalho.
+
+Prazo típico: 4-12 semanas.
+
+Pra quem serve: empresas que precisam de um sistema sob medida que não existe pronto no mercado. Gestão de pedidos, agendamento, controle de frota, CRM personalizado.
+
+## O que influencia o preço
+
+Complexidade visual: um design customizado custa mais que um template adaptado. Mas um template bem adaptado pode ser tão profissional quanto um design do zero.
+
+Número de páginas: cada página adicional é conteúdo, design, e desenvolvimento. 5 páginas é diferente de 20.
+
+Integrações: conectar com WhatsApp é simples. Integrar com ERP, gateway de pagamento, ou sistema de estoque é mais complexo.
+
+Responsividade: em 2026, todo site precisa funcionar em celular. Isso não é "extra" — é obrigatório. Se alguém te cobra separado por responsividade, desconfie.
+
+SEO: otimização básica (meta tags, sitemap, velocidade) deve estar incluída. SEO avançado (pesquisa de palavras-chave, conteúdo otimizado, link building) é um serviço contínuo separado.
+
+## Custo de manutenção: o que ninguém fala
+
+O site não termina quando fica pronto. Tem custos recorrentes:
+
+Hospedagem: R$ 0-100/mês. Plataformas modernas como Vercel oferecem planos gratuitos pra sites de baixo tráfego.
+
+Domínio: R$ 40-80/ano. O ".com.br" é essencial pra empresas brasileiras.
+
+SSL (HTTPS): incluído gratuitamente na maioria das hospedagens modernas. Se te cobram separado, é sinal de infraestrutura desatualizada.
+
+Atualizações: dependências de segurança, ajustes de conteúdo, novas features. Reserve 10-15% do custo do site por ano pra manutenção.
+
+## Como escolher quem vai fazer
+
+Freelancer especializado: R$ 2.500-15.000. Comunicação direta, custo-benefício alto, flexibilidade.
+
+Agência: R$ 8.000-50.000. Time maior, processos formais, suporte contínuo.
+
+Plataforma DIY (Wix, WordPress): R$ 50-200/mês. Você faz sozinho, limitado ao que a plataforma permite.
+
+Sobrinho/amigo que "mexe com computador": R$ 0-500. Resultado imprevisível, sem suporte, sem garantia.
+
+Minha recomendação: pra empresas sérias que dependem do site pra gerar negócio, invista em um profissional. O site é a vitrine digital da sua empresa — economizar R$ 2.000 e ter um site amador pode custar muito mais em clientes perdidos.
+
+## E em Passo Fundo?
+
+O mercado de Passo Fundo tem particularidades. A maioria das empresas locais ainda não tem site, ou tem sites desatualizados dos anos 2010. Isso é uma oportunidade enorme: quem investe num site profissional hoje se destaca da concorrência facilmente.
+
+As buscas locais ("dentista passo fundo", "restaurante passo fundo", "advogado passo fundo") são relativamente pouco competitivas. Um site bem otimizado pode aparecer no topo do Google em poucas semanas, sem precisar investir pesado em anúncios.
+
+Se você tem uma empresa em Passo Fundo ou região e quer entender quanto custaria um site profissional pro seu caso específico, agende uma conversa gratuita em andersdev.com.br. Em 15 minutos, analiso sua situação e passo um orçamento realista.`,
+    category: "negócios",
+    tags: ["site", "custos", "passo fundo", "web", "orçamento", "empresa"],
+    publishedAt: "2026-06-05",
+    readingTime: 8,
+  },
+  {
+    slug: "site-ou-aplicativo-qual-empresa-precisa",
+    title: "Site ou aplicativo: qual sua empresa realmente precisa?",
+    excerpt:
+      "Guia prático pra decidir entre site, app mobile, ou sistema web. Com exemplos reais de empresas que fizeram a escolha certa (e errada).",
+    content: `"Preciso de um app." Essa é a frase mais comum que ouço de empresários. Mas em 80% dos casos, o que eles realmente precisam é de um site bem feito — ou de um sistema web. A diferença entre essas opções pode significar economizar R$ 10.000-50.000 e meses de desenvolvimento.
+
+## As 3 opções (e o que cada uma resolve)
+
+### Site (institucional ou e-commerce)
+
+O que é: páginas acessíveis pelo navegador, em qualquer dispositivo. Não precisa instalar nada.
+
+Resolve: presença online, credibilidade, vendas, captação de leads, informação.
+
+Exemplos: site de escritório de advocacia, loja virtual de roupas, blog de clínica, cardápio digital de restaurante.
+
+Custo: R$ 2.500-20.000 (depende do tipo).
+
+Quando escolher: quando o objetivo é ser encontrado, vender, ou informar. Se o cliente interage de forma esporádica (busca no Google, recebe um link, visita e sai), site é a resposta.
+
+### Aplicativo mobile (app nativo)
+
+O que é: software instalado no celular do usuário, disponível nas lojas (App Store, Google Play).
+
+Resolve: interação frequente e recorrente, acesso offline, notificações push, uso de recursos do celular (câmera, GPS, sensores).
+
+Exemplos: app de delivery, app de banco, app de fitness com tracking, app de comunicação interna.
+
+Custo: R$ 15.000-80.000 (iOS + Android).
+
+Quando escolher: quando o usuário vai abrir o app várias vezes por semana, precisa de funcionalidades offline, ou depende de recursos nativos do celular. Se o uso é esporádico, app é desperdício.
+
+### Sistema web (aplicação web / SaaS)
+
+O que é: software que roda no navegador, com login, dashboard, e funcionalidades complexas. Parece um app, mas não precisa instalar.
+
+Resolve: automação de processos, gestão, controle, relatórios, colaboração entre equipe.
+
+Exemplos: CRM, sistema de agendamento, painel de controle de estoque, plataforma de gestão de projetos.
+
+Custo: R$ 8.000-30.000+.
+
+Quando escolher: quando você precisa de uma ferramenta de trabalho, não de uma vitrine. Quando tem dados, processos, e fluxos que precisam ser gerenciados.
+
+## O erro mais caro: pedir app quando precisa de site
+
+Vi uma loja de roupas em Passo Fundo gastar R$ 25.000 num app que basicamente mostrava o catálogo de produtos. O app teve 200 downloads nos primeiros 3 meses — e 180 foram de amigos e família. A loja não tinha problema de engajamento com clientes recorrentes. Tinha problema de ser encontrada por novos clientes.
+
+A solução certa era um e-commerce de R$ 8.000 otimizado pra Google, que apareceria quando alguém buscasse "loja de roupas passo fundo". O app poderia vir depois, quando tivesse uma base de clientes fiéis que justificasse o investimento.
+
+## O framework de decisão
+
+Responda essas 4 perguntas:
+
+1. Com que frequência o usuário vai usar? Se é menos de 1x por semana, site. Se é diário, considere app.
+
+2. Precisa funcionar offline? Se sim, app. Se não, site ou sistema web.
+
+3. Precisa de câmera, GPS, ou sensores? Se sim, app. Se não, site ou sistema web.
+
+4. O objetivo principal é ser encontrado no Google? Se sim, site. Apps não aparecem em buscas do Google.
+
+Se respondeu "site" pra 3 ou 4 perguntas, comece com site. Sempre. Você pode adicionar um app depois, quando tiver dados pra justificar o investimento.
+
+## A alternativa intermediária: PWA
+
+PWA (Progressive Web App) é um site que se comporta como app. O usuário pode "instalar" no celular direto do navegador, sem passar pela loja. Funciona offline (parcialmente), envia notificações push, e tem ícone na tela inicial.
+
+Custo: praticamente o mesmo de um site bem feito (R$ 3.000-10.000).
+
+Quando usar: quando você quer a experiência de app sem o custo de desenvolvimento nativo. Funciona bem pra cardápios digitais, catálogos, e sistemas internos simples.
+
+Limitações: não aparece na App Store/Google Play (perde o canal de descoberta), funcionalidades nativas limitadas (Bluetooth, NFC, alguns sensores não funcionam), e a experiência no iOS é mais limitada que no Android.
+
+## Casos reais de decisão certa
+
+Clínica de estética em Passo Fundo: escolheu site institucional + sistema de agendamento online. Pacientes agendam pelo site, recebem confirmação por WhatsApp. Não precisava de app — o agendamento é esporádico e o WhatsApp já resolve a comunicação recorrente. Investimento: R$ 6.000.
+
+Empresa de monitoramento IoT: escolheu sistema web (dashboard) + app mobile pra técnicos em campo. O dashboard mostra dados em tempo real pra gestores. O app permite que técnicos registrem manutenções usando a câmera do celular e GPS. Investimento: R$ 35.000 (dashboard + app).
+
+Restaurante com delivery: escolheu site com cardápio digital + integração com iFood. Não precisava de app próprio — iFood já tem a audiência. O site serve pra quem busca "restaurante japonês passo fundo" no Google. Investimento: R$ 4.000.
+
+## E se eu precisar dos dois?
+
+Se realmente precisa de site E app, comece pelo site. Sempre. Motivos:
+
+O site valida a demanda. Se ninguém acessa o site, ninguém vai baixar o app.
+
+O site é mais rápido de construir. Você pode ter um site no ar em 1-2 semanas e um app leva 6-8 semanas.
+
+O site alimenta o app. O conteúdo, a identidade visual, e os fluxos que você testa no site informam o design do app.
+
+Se você tem uma empresa e não sabe se precisa de site, app, ou sistema, podemos conversar. Em 15 minutos, analiso seu caso e recomendo a solução certa pro seu momento — sem viés. Se app não fizer sentido, eu falo. Agende em andersdev.com.br.`,
+    category: "negócios",
+    tags: ["aplicativo", "site", "decisão", "empresa", "mobile", "passo fundo"],
+    publishedAt: "2026-06-03",
+    readingTime: 8,
+  },
+  {
+    slug: "5-sinais-empresa-precisa-sistema-personalizado",
+    title: "5 sinais de que sua empresa precisa de um sistema personalizado",
+    excerpt:
+      "Se sua equipe vive em planilhas, perde informações, ou gasta horas em tarefas repetitivas, talvez seja hora de investir em um sistema sob medida.",
+    content: `Toda empresa começa com planilhas. E tudo bem — Excel e Google Sheets resolvem quando são 2 pessoas e 50 registros. O problema é quando a empresa cresce e as planilhas não acompanham. Aqui estão os 5 sinais de que chegou a hora de investir num sistema personalizado.
+
+## Sinal 1: Sua equipe gasta mais tempo organizando dados do que usando eles
+
+Se alguém na sua empresa passa 2+ horas por dia copiando dados entre planilhas, consolidando relatórios, ou "arrumando" informações pra poder trabalhar, isso é um sistema manual disfarçado de planilha.
+
+Um sistema personalizado automatiza essa organização. Os dados entram uma vez, ficam estruturados, e os relatórios se geram sozinhos. Aquelas 2 horas diárias viram 5 minutos.
+
+Exemplo real: uma distribuidora em Passo Fundo tinha 3 planilhas separadas — uma pra pedidos, uma pra estoque, e uma pra financeiro. Todo dia, alguém gastava 1h30 cruzando os dados manualmente. Com um sistema integrado, os 3 módulos conversam entre si automaticamente. Pedido entra, estoque atualiza, financeiro registra.
+
+## Sinal 2: Você perdeu informação importante porque "alguém mexeu na planilha"
+
+Planilhas não têm controle de acesso real. Qualquer pessoa pode deletar uma linha, mudar um número, ou sobrescrever uma fórmula. E quando isso acontece, geralmente ninguém sabe quem fez ou quando.
+
+Um sistema tem controle de acesso (quem pode ver, editar, deletar), histórico de alterações (o que mudou, quando, e quem mudou), e backups automáticos. Se alguém cometer um erro, é reversível.
+
+Exemplo real: uma construtora perdeu o registro de 3 meses de pagamentos a fornecedores porque alguém "limpou" a planilha achando que era uma cópia. Sem backup, sem histórico. Com um sistema, cada alteração fica registrada e qualquer versão anterior pode ser restaurada.
+
+## Sinal 3: Você não consegue responder perguntas básicas sobre seu negócio em menos de 1 hora
+
+"Quanto faturamos no mês passado por categoria?" "Qual o ticket médio dos últimos 3 meses?" "Quais clientes não compraram nos últimos 60 dias?"
+
+Se responder qualquer uma dessas perguntas exige abrir 3 planilhas, filtrar, cruzar dados, e rezar pra fórmula estar certa, seu negócio está voando às cegas.
+
+Um sistema com dashboard mostra essas informações em tempo real, com gráficos, filtros, e alertas automáticos. A decisão que levava 1 hora de análise leva 10 segundos.
+
+Exemplo real: uma rede de lojas não sabia qual filial era mais lucrativa porque os dados de cada loja estavam em planilhas separadas com formatos diferentes. Com um sistema centralizado, cada filial alimenta o mesmo banco de dados e o dashboard compara automaticamente.
+
+## Sinal 4: Você depende de UMA pessoa que "sabe como funciona a planilha"
+
+Se a pessoa que criou a planilha-mestre sair da empresa, o que acontece? Se ela ficar doente por uma semana, alguém consegue operar?
+
+Esse é o risco da "planilha-legado": uma ferramenta crítica que só uma pessoa entende. As fórmulas são complexas, a estrutura é confusa, e ninguém tem coragem de mexer com medo de quebrar tudo.
+
+Um sistema bem construído é documentado, intuitivo, e independe de uma pessoa. A interface guia o usuário, validações impedem erros, e o suporte é profissional.
+
+## Sinal 5: Seus concorrentes já automatizaram e você está ficando pra trás
+
+Em Passo Fundo e região, a digitalização está acelerando. Empresas que automatizam processos operam com menos gente, cometem menos erros, e atendem mais rápido. Se seus concorrentes estão usando sistemas e você ainda está nas planilhas, a diferença de eficiência vai aparecer no caixa.
+
+Não é sobre tecnologia pela tecnologia. É sobre competitividade. Um sistema que economiza 2 horas por dia por funcionário, num time de 5 pessoas, são 10 horas/dia — 220 horas/mês. Isso é mais de um salário inteiro em produtividade desperdiçada.
+
+## Quanto custa e quanto tempo leva
+
+Um sistema personalizado básico (1-2 módulos, 2-5 usuários) custa entre R$ 8.000-15.000 e fica pronto em 3-6 semanas.
+
+Um sistema mais completo (3-5 módulos, integração com sistemas existentes, 10+ usuários) custa entre R$ 15.000-40.000 e leva 6-12 semanas.
+
+O retorno geralmente aparece nos primeiros 2-3 meses — em redução de erros, economia de tempo, e melhores decisões baseadas em dados.
+
+## Não precisa resolver tudo de uma vez
+
+O erro mais comum é querer automatizar tudo no dia 1. Comece pelo processo que mais dói — aquele que consome mais tempo ou gera mais erros. Automatize esse primeiro, valide o resultado, e depois expanda.
+
+Se reconheceu sua empresa em algum desses sinais e quer entender se um sistema personalizado faz sentido pro seu caso, agende uma conversa gratuita em andersdev.com.br. Analiso seu processo atual e sugiro o que vale a pena automatizar primeiro.`,
+    category: "negócios",
+    tags: ["sistema", "automação", "empresa", "gestão", "planilha", "passo fundo"],
+    publishedAt: "2026-05-28",
+    readingTime: 7,
+  },
+  {
+    slug: "ecommerce-como-comecar-vender-online",
+    title: "E-commerce: como começar a vender online em 2026",
+    excerpt:
+      "Guia passo a passo pra criar sua loja virtual: plataforma, pagamento, frete, estoque, e marketing. Do zero à primeira venda.",
+    content: `Se você tem um negócio físico em Passo Fundo ou região e ainda não vende online, está deixando dinheiro na mesa. O e-commerce brasileiro faturou mais de R$ 200 bilhões em 2025, e a tendência é só crescer. Neste guia, mostro como começar — do zero à primeira venda.
+
+## Passo 1: Decidir O QUE vender online
+
+Nem todo produto físico faz sentido vender online. Avalie:
+
+Margem de lucro: o frete come margem. Produtos com margem abaixo de 30% podem não compensar dependendo do peso e destino.
+
+Demanda online: as pessoas buscam seu produto no Google? Use o Google Trends e o planejador de palavras-chave (gratuito) pra verificar.
+
+Logística: produtos frágeis, perecíveis, ou muito pesados têm desafios logísticos extras. Não é impeditivo, mas precisa planejar.
+
+Diferencial: se você vende exatamente o mesmo produto que a Amazon ou Mercado Livre, vai competir por preço — e perder. Pense em curadoria, personalização, ou nicho.
+
+## Passo 2: Escolher a plataforma
+
+### Opção A: Marketplace (iFood, Mercado Livre, Shopee)
+
+Prós: tráfego pronto (milhões de usuários), infraestrutura de pagamento e frete resolvida, custo inicial zero.
+
+Contras: comissão de 10-20% por venda, sem controle da marca, concorrência direta na mesma página, dados dos clientes ficam com o marketplace.
+
+Pra quem serve: quem está começando e precisa de vendas rápidas sem investir em site próprio.
+
+### Opção B: Plataforma pronta (Shopify, Nuvemshop, Tray)
+
+Prós: setup rápido (1-3 dias), templates profissionais, suporte técnico, integrações prontas.
+
+Contras: mensalidade (R$ 50-300/mês), limitações de personalização, dependência da plataforma.
+
+Pra quem serve: quem quer loja própria sem investimento alto em desenvolvimento.
+
+### Opção C: E-commerce customizado (Next.js + Stripe)
+
+Prós: controle total, performance máxima, sem mensalidade de plataforma, design único, SEO avançado.
+
+Contras: custo de desenvolvimento (R$ 5.000-20.000), precisa de desenvolvedor pra manutenção.
+
+Pra quem serve: quem tem margem e volume pra justificar o investimento, ou quem precisa de funcionalidades que plataformas prontas não oferecem.
+
+### Minha recomendação
+
+Comece no marketplace OU na plataforma pronta pra validar. Quando estiver vendendo R$ 10.000+/mês, considere migrar pra e-commerce customizado. A economia em comissões paga o desenvolvimento em 3-6 meses.
+
+## Passo 3: Configurar pagamentos
+
+No Brasil em 2026, os métodos obrigatórios são:
+
+PIX: 60%+ das transações online. Confirmação instantânea, custo baixo (0-1%). Não oferecer PIX é perder a maioria das vendas.
+
+Cartão de crédito: parcelamento é cultura brasileira. Ofereça pelo menos 3x sem juros pra produtos acima de R$ 100.
+
+Boleto: ainda relevante pra um segmento (15-20%), especialmente fora dos grandes centros.
+
+Gateways recomendados: Stripe (internacional + PIX), Mercado Pago (forte no Brasil), Asaas (boa API, taxas competitivas).
+
+## Passo 4: Resolver a logística
+
+Frete é o maior motivo de abandono de carrinho no Brasil. Como resolver:
+
+Correios: funciona pra todo o Brasil, mas é caro pra produtos pesados. Use o contrato comercial (desconto de 20-40%).
+
+Transportadoras: Jadlog, Total Express, Sequoia. Melhores preços pra volumes acima de 50 envios/mês.
+
+Entrega local: se você vende em Passo Fundo e região, ofereça entrega própria. Custo menor, prazo menor, experiência melhor. Pode ser o seu diferencial.
+
+Frete grátis: use estrategicamente. "Frete grátis acima de R$ 150" aumenta ticket médio e conversão.
+
+## Passo 5: Otimizar pra Google (SEO)
+
+A maioria das lojas virtuais depende de anúncios pagos (Google Ads, Meta Ads). Mas SEO traz tráfego gratuito e recorrente.
+
+Títulos de produto otimizados: "Camiseta Polo Masculina Algodão Pima — Azul Marinho" é melhor que "Camiseta 001".
+
+Descrições únicas: não copie a descrição do fabricante. Escreva descrições originais com palavras-chave que seus clientes usam.
+
+Fotos de qualidade: imagens boas aumentam conversão em 30-40%. Fundo branco, múltiplos ângulos, foto em uso.
+
+Blog com conteúdo: "Como escolher [seu produto]", "Tendências de [seu nicho] em 2026". Artigos que atraem tráfego do Google e educam o cliente.
+
+## Passo 6: Marketing — os primeiros 90 dias
+
+### Mês 1: Base
+
+Google Meu Negócio: se tem loja física, cadastre. Aparece nas buscas locais com mapa, horário, avaliações.
+
+Redes sociais: Instagram + WhatsApp Business no mínimo. Poste 3-5x por semana. Não precisa ser perfeito — precisa ser consistente.
+
+Lista de clientes: pegue o WhatsApp/email de todo mundo que compra na loja física e avise que agora vende online.
+
+### Mês 2: Tração
+
+Google Ads: campanha de Shopping pra seus produtos principais. Comece com R$ 500-1.000/mês.
+
+Meta Ads: campanha de conversão pra público semelhante aos seus clientes. Comece com R$ 500/mês.
+
+Email marketing: sequência de boas-vindas pra quem se cadastra. Promoções semanais pra base existente.
+
+### Mês 3: Otimização
+
+Análise: o que vendeu? De onde veio o tráfego? Qual produto tem melhor margem? Dobre o que funciona, corte o que não funciona.
+
+Retargeting: anúncios pra quem visitou o site mas não comprou. Conversão 3-5x maior que tráfego frio.
+
+Avaliações: peça pros primeiros clientes deixarem avaliação. Prova social é o maior conversor depois do preço.
+
+## Quanto investir no total?
+
+Setup mínimo pra começar a vender online:
+
+Plataforma pronta (Nuvemshop): R$ 0-150/mês
+Domínio: R$ 50/ano
+Fotos de produtos: R$ 500-1.500 (fotógrafo) ou R$ 0 (faça você mesmo com celular bom)
+Marketing (mês 1-3): R$ 1.000-3.000/mês
+Total: R$ 1.500-5.000 pra começar
+
+Se quer um e-commerce customizado com performance e SEO avançado, o investimento é maior (R$ 5.000-20.000 de desenvolvimento), mas o retorno a médio prazo compensa pela economia em comissões e pelo tráfego orgânico.
+
+Se você tem um negócio em Passo Fundo e quer começar a vender online, posso ajudar a escolher a melhor estratégia pro seu caso. Agende uma conversa gratuita em andersdev.com.br.`,
+    category: "negócios",
+    tags: ["ecommerce", "loja virtual", "vender online", "passo fundo", "marketing"],
+    publishedAt: "2026-05-22",
+    readingTime: 9,
+  },
+  {
+    slug: "por-que-ter-app-mobile-empresa",
+    title: "Por que ter um app mobile para sua empresa em 2026",
+    excerpt:
+      "Quando um app mobile faz sentido, quanto custa, e como decidir entre app nativo, híbrido, ou PWA. Com exemplos de empresas que lucraram com apps.",
+    content: `O brasileiro passa em média 5 horas por dia no celular. Se sua empresa depende de interação frequente com clientes ou equipe interna, um app mobile pode ser a ferramenta que falta pra escalar.
+
+Mas "pode ser" não é "sempre é". Neste artigo, explico quando um app faz sentido, quando é desperdício, e como construir da forma certa.
+
+## Quando um app mobile FAZ sentido
+
+### 1. Interação frequente (3+ vezes por semana)
+
+Se seus clientes ou funcionários precisam acessar uma ferramenta várias vezes por semana, app mobile melhora drasticamente a experiência. Abrir o app é mais rápido que abrir o navegador, digitar URL, e logar.
+
+Exemplos: app de delivery (uso diário), app de academia (check-in diário), app de gestão de equipe (uso constante).
+
+### 2. Funcionalidades nativas do celular
+
+Câmera: app de inspeção que precisa fotografar e documentar. App de reconhecimento de produtos.
+
+GPS: app de rastreamento de entregas, check-in por localização, rotas otimizadas.
+
+Notificações push: alertas em tempo real que o usuário precisa ver imediatamente. Pedidos novos, alarmes, lembretes críticos.
+
+Offline: técnicos em campo que trabalham em áreas sem sinal. O app funciona offline e sincroniza quando volta a conexão.
+
+### 3. Canal de retenção e fidelização
+
+Um app instalado no celular do cliente é um canal direto. Diferente do email (que vai pro spam) ou das redes sociais (que dependem do algoritmo), o app está ali, na tela inicial, lembrando o cliente da sua marca.
+
+Programas de fidelidade, cupons exclusivos, conteúdo premium — tudo funciona melhor dentro de um app.
+
+## Quando um app NÃO faz sentido
+
+Uso esporádico: se o cliente usa seu serviço 1-2x por mês, ele não vai instalar um app. Site responsivo resolve.
+
+Objetivo é ser encontrado: apps não aparecem no Google. Se seu problema é visibilidade, invista em site + SEO.
+
+Orçamento limitado: se o budget total é R$ 5.000-10.000, gaste em site + marketing, não em app. O retorno será maior.
+
+Poucos usuários: se você tem 50-100 clientes, o custo por usuário de um app não se justifica. Use WhatsApp Business + site.
+
+## Tipos de app e seus custos
+
+### App nativo (iOS + Android separados)
+
+Tecnologias: Swift (iOS) + Kotlin (Android).
+
+Custo: R$ 25.000-80.000 por plataforma. Total: R$ 50.000-160.000 pros dois.
+
+Vantagens: melhor performance, acesso total a recursos nativos, experiência de usuário superior.
+
+Desvantagens: custo alto, time de desenvolvimento maior, manutenção em duas bases de código.
+
+Quando usar: apps de alta performance (jogos, vídeo, processamento pesado), apps que precisam de recursos nativos avançados.
+
+### App híbrido / cross-platform (React Native, Flutter)
+
+Tecnologias: React Native (JavaScript) ou Flutter (Dart).
+
+Custo: R$ 15.000-50.000 para iOS + Android juntos.
+
+Vantagens: uma base de código pra duas plataformas, custo 40-60% menor que nativo, time menor.
+
+Desvantagens: performance ligeiramente inferior em cenários específicos, dependência do framework.
+
+Quando usar: 90% dos casos. A não ser que seu app seja um jogo ou processe vídeo em tempo real, híbrido resolve.
+
+### PWA (Progressive Web App)
+
+Tecnologias: Next.js, React, qualquer framework web moderno.
+
+Custo: R$ 3.000-15.000 (praticamente o custo de um site).
+
+Vantagens: sem loja de apps (distribuição direta), funciona em qualquer dispositivo, custo mínimo.
+
+Desvantagens: sem acesso a App Store/Play Store, funcionalidades nativas limitadas, experiência no iOS mais limitada.
+
+Quando usar: quando quer a experiência de app sem o investimento de desenvolvimento nativo. Cardápios, catálogos, dashboards simples.
+
+## O processo de desenvolvimento
+
+### Fase 1 — Discovery (1-2 semanas)
+
+Definir público-alvo, funcionalidades core, e métricas de sucesso. Sair com um documento de escopo claro.
+
+### Fase 2 — Design (1-2 semanas)
+
+Wireframes, protótipo navegável, identidade visual. O cliente testa antes de escrever código.
+
+### Fase 3 — Desenvolvimento (4-8 semanas)
+
+Sprints semanais com demo ao vivo. O cliente vê progresso toda semana e pode ajustar prioridades.
+
+### Fase 4 — Testes e lançamento (1-2 semanas)
+
+Testes em dispositivos reais, publicação nas lojas (Apple demora 1-3 dias pra aprovar, Google 1-2 dias), configuração de analytics.
+
+## Casos de sucesso em Passo Fundo
+
+Empresa de monitoramento industrial: app pra técnicos registrarem manutenções em campo. Câmera pra fotos, GPS pra localização, offline pra áreas sem sinal. Resultado: redução de 60% no tempo de registro e 100% de rastreabilidade.
+
+Rede de academias: app com check-in por QR code, treinos personalizados, e notificações de aulas. Resultado: aumento de 35% na frequência dos alunos e redução de 50% nas faltas.
+
+Restaurante delivery: PWA com cardápio, pedido online, e rastreamento. Sem comissão do iFood. Resultado: margem 15% maior por pedido e base própria de clientes.
+
+## Minha recomendação
+
+Se você está começando: PWA. Custo baixo, validação rápida, sem burocracia de loja de apps.
+
+Se já validou e precisa de mais: React Native (híbrido). Uma base de código, duas plataformas, custo-benefício ideal.
+
+Se performance é crítica: nativo. Mas avalie se realmente precisa — 90% dos apps não precisam.
+
+Em todos os casos, comece pelo MVP: as 3-5 funcionalidades mais importantes, em 4-6 semanas, com investimento controlado. Itere depois com dados reais.
+
+Se sua empresa em Passo Fundo ou região está considerando um app mobile, podemos conversar sobre qual abordagem faz mais sentido pro seu caso. Agende uma conversa gratuita em andersdev.com.br.`,
+    category: "tech",
+    tags: ["app mobile", "aplicativo", "react native", "flutter", "passo fundo", "empresa"],
+    publishedAt: "2026-05-18",
+    readingTime: 9,
+  },
 ];
 
 // ── Helper functions ──

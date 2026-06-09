@@ -3,12 +3,14 @@ import { getServiceSlugs } from "@/data/services";
 import { getAllPosts } from "@/data/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://andersdev.com.br";
+  const baseUrl = "https://www.andersdev.com.br";
   const now = new Date();
 
   const staticPages: MetadataRoute.Sitemap = [
     { url: baseUrl, lastModified: now, changeFrequency: "weekly", priority: 1.0 },
     { url: `${baseUrl}/blog`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
+    { url: `${baseUrl}/apps`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
+    { url: `${baseUrl}/apps/calculadora`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/para-startups`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/para-pmes-brasil`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/agencias-parceiras`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },

@@ -8,7 +8,7 @@ interface PageNavbarProps {
 }
 
 const defaultCta = {
-  href: "https://cal.com/danielanders/15min",
+  href: "https://cal.com/daniel-anders-emx5kl",
   label: "AGENDAR CALL",
   external: true,
 };

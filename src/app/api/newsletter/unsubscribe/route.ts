@@ -53,7 +53,7 @@ function htmlPage(title: string, message: string): string {
   <div class="card">
     <h1>${title}</h1>
     <p>${message}</p>
-    <p style="margin-top: 24px;"><a href="https://andersdev.com.br">Voltar ao site</a></p>
+    <p style="margin-top: 24px;"><a href="https://www.andersdev.com.br">Voltar ao site</a></p>
   </div>
 </body>
 </html>`;

@@ -157,7 +157,7 @@ export default function HomePage() {
         <div className="container-main flex items-center justify-between py-5 flex-wrap gap-4">
           <p className="text-gray-500">{t("minicta_text")}</p>
           <a
-            href="https://cal.com/danielanders/15min"
+            href="https://cal.com/daniel-anders-emx5kl"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-semibold text-brand hover:text-brand-bright transition-colors"
@@ -302,7 +302,7 @@ export default function HomePage() {
           <RevealOnScroll className="text-center mt-12">
             <p className="text-gray-500 mb-4">{t("cases_cta")}</p>
             <a
-              href="https://cal.com/danielanders/15min"
+              href="https://cal.com/daniel-anders-emx5kl"
               target="_blank"
               rel="noopener noreferrer"
               className="cta-btn"
@@ -578,7 +578,7 @@ export default function HomePage() {
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
-                href="https://cal.com/danielanders/15min"
+                href="https://cal.com/daniel-anders-emx5kl"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="cta-btn"

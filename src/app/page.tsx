@@ -602,7 +602,7 @@ export default function HomePage() {
 
       {/* FLOATING WHATSAPP */}
       <a
-        href="https://wa.me/5554999648368"
+        href="https://wa.me/5554999648368?text=Oi%20Daniel%2C%20vim%20pelo%20site%20andersdev%20e%20quero%20conversar%20sobre%20um%20projeto."
         target="_blank"
         rel="noopener noreferrer"
         className="fab-whatsapp"

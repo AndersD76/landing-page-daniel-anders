@@ -82,7 +82,7 @@ const BTS_ITEMS = [
 ];
 
 export default function HomePage() {
-  const { t } = useI18n();
+  const { t, locale } = useI18n();
 
   return (
     <>
@@ -387,11 +387,11 @@ export default function HomePage() {
       <section className="py-24 bg-gradient-to-b from-transparent via-white/[0.01] to-transparent">
         <div className="container-main">
           <RevealOnScroll>
-            <span className="section-label">TECH STACK</span>
+            <span className="section-label">{locale === "en" ? "TECH STACK" : "TECNOLOGIAS"}</span>
             <h2 className="font-heading text-4xl md:text-5xl font-bold mb-16">
-              {t("proc_h2_1") === "From idea to production in " ? "Built with " : "Construído com "}
+              {locale === "en" ? "Built with " : "Construído com "}
               <span className="text-brand">
-                {t("proc_h2_1") === "From idea to production in " ? "modern tools" : "ferramentas modernas"}
+                {locale === "en" ? "modern tools" : "ferramentas modernas"}
               </span>
             </h2>
           </RevealOnScroll>
@@ -411,7 +411,7 @@ export default function HomePage() {
                   </div>
                   <div>
                     <span className="text-[0.6rem] font-bold tracking-[2px] text-brand mb-2 block">
-                      RESULT
+                      {locale === "en" ? "RESULT" : "RESULTADO"}
                     </span>
                     <p className="text-sm text-gray-500">{t(s.resultKey as any)}</p>
                   </div>
@@ -427,10 +427,10 @@ export default function HomePage() {
         <div className="container-main">
           <RevealOnScroll>
             <span className="section-label">
-              {t("proc_h2_1") === "From idea to production in " ? "HOW I BUILD" : "COMO EU CONSTRUO"}
+              {locale === "en" ? "HOW I BUILD" : "COMO EU CONSTRUO"}
             </span>
             <h2 className="font-heading text-4xl md:text-5xl font-bold mb-16">
-              {t("proc_h2_1") === "From idea to production in " ? (
+              {locale === "en" ? (
                 <>Behind the <span className="text-brand">scenes</span></>
               ) : (
                 <>Por dentro dos <span className="text-brand">bastidores</span></>

@@ -122,7 +122,7 @@ export function Hero() {
 
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center text-center px-8 pt-[120px] pb-20 overflow-hidden"
+      className="relative min-h-screen flex items-center justify-center text-center px-5 md:px-8 pt-20 md:pt-[120px] pb-12 md:pb-20 overflow-hidden"
       style={{
         background:
           "radial-gradient(ellipse 80% 60% at 50% 40%, rgba(230, 57, 70, 0.05) 0%, transparent 60%)",
@@ -134,7 +134,7 @@ export function Hero() {
       />
 
       <div className="relative z-[2] max-w-[950px]">
-        <div className="flex items-center justify-center gap-5 mb-12 text-[0.7rem] font-bold tracking-[6px] text-brand uppercase opacity-0 animate-fade-down [animation-delay:0.3s]">
+        <div className="flex items-center justify-center gap-5 mb-6 md:mb-12 text-[0.7rem] font-bold tracking-[6px] text-brand uppercase opacity-0 animate-fade-down [animation-delay:0.3s]">
           <span className="block w-[50px] h-px bg-gradient-to-r from-transparent to-brand" />
           <span>{t("hero_eyebrow")}</span>
           <span className="block w-[50px] h-px bg-gradient-to-l from-transparent to-brand" />
@@ -157,7 +157,7 @@ export function Hero() {
 
         <div className="w-20 h-0.5 bg-gradient-to-r from-transparent via-brand to-transparent mx-auto mb-9 opacity-0 animate-scale-x [animation-delay:1.1s]" />
 
-        <p className="text-[1.05rem] text-gray-600 font-medium mb-14 opacity-0 animate-fade-up [animation-delay:1.3s]">
+        <p className="text-[1.05rem] text-gray-600 font-medium mb-8 md:mb-14 opacity-0 animate-fade-up [animation-delay:1.3s]">
           {t("hero_tagline_1")}
           <span className="text-brand">{t("hero_tagline_2")}</span>
         </p>

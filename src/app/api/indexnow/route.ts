@@ -3,7 +3,7 @@ import { verifyToken } from "@/lib/security";
 import sitemap from "@/app/sitemap";
 
 const INDEXNOW_KEY = "db16d61e067044d48b75f2edbbe3fd1a";
-const HOST = "andersdev.com.br";
+const HOST = "www.andersdev.com.br";
 
 export async function POST(req: NextRequest) {
   const authHeader = req.headers.get("authorization");

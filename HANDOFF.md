@@ -387,13 +387,87 @@ curl -X POST https://www.andersdev.com.br/api/indexnow \
 
 ---
 
-## Resumo final de acoes
+# Parte 5 — Pendencias restantes (2026-06-22)
 
-| # | Plataforma | Acao | Prioridade | Tempo |
-|---|---|---|---|---|
-| 1 | GSC | Solicitar indexacao novamente (fix ja no ar) | **CRITICA** | 10 min |
-| 2 | DNS | Redirect 301 de andersdev.com.br → www | **CRITICA** | 5 min |
-| 3 | Google Meu Negocio | Criar perfil completo | **ALTA** | 20 min |
-| 4 | GA4 | Marcar 3 eventos como conversao | **ALTA** | 5 min |
-| 5 | Railway | Confirmar env vars + redeploy | **ALTA** | 5 min |
-| 6 | IndexNow | Disparar curl apos deploy | Media | 2 min |
+## Ja feito nesta sessao
+- [x] DNS — Registro A adicionado no Registro.br (`69.46.46.125`)
+- [x] GA4 — `lead_magnet_download` marcado como evento principal
+- [x] Railway — Env vars confirmadas (`NEXT_PUBLIC_GA_MEASUREMENT_ID`, `NEXT_PUBLIC_SITE_URL`)
+- [x] IndexNow — 27 URLs enviadas ao Bing (status 202)
+- [x] GSC — Fix de SEO confirmado (check verde "URL esta disponivel para o Google")
+- [x] WhatsApp — Mensagem pre-preenchida adicionada com tracking de origem ("andersdev")
+- [x] CRON_SECRET — Valor real identificado: `Vpt9gksDtDC4CbfXrMnAEn6EyFfb1pTW`
+
+## O que VOCE precisa fazer
+
+### 1. GSC — Solicitar indexacao das URLs restantes (AMANHA — cota diaria esgotou)
+A cota de solicitacoes de indexacao esgotou hoje. Amanha reseta.
+
+1. Acesse https://search.google.com/search-console
+2. Na barra de inspecao, cole cada URL abaixo, uma por vez, e clique **SOLICITAR INDEXACAO**:
+
+**Blog (10 posts):**
+- `https://www.andersdev.com.br/blog/quanto-custa-desenvolver-app-saas-2026`
+- `https://www.andersdev.com.br/blog/mvp-4-semanas-o-que-cortar-manter`
+- `https://www.andersdev.com.br/blog/nextjs-fastapi-stack-escala-1000-usuarios`
+- `https://www.andersdev.com.br/blog/stripe-brasil-pagamento-internacional-saas`
+- `https://www.andersdev.com.br/blog/contratar-dev-freelancer-agencia-cto-guia`
+- `https://www.andersdev.com.br/blog/quanto-custa-criar-site-profissional-2026`
+- `https://www.andersdev.com.br/blog/site-ou-aplicativo-qual-empresa-precisa`
+- `https://www.andersdev.com.br/blog/5-sinais-empresa-precisa-sistema-personalizado`
+- `https://www.andersdev.com.br/blog/ecommerce-como-comecar-vender-online`
+- `https://www.andersdev.com.br/blog/por-que-ter-app-mobile-empresa`
+
+**Servicos (8 paginas):**
+- `https://www.andersdev.com.br/servicos/desenvolvimento-saas-mvp`
+- `https://www.andersdev.com.br/servicos/dashboards-analytics`
+- `https://www.andersdev.com.br/servicos/integracoes-api-stripe`
+- `https://www.andersdev.com.br/servicos/aplicacoes-ia-llm`
+- `https://www.andersdev.com.br/servicos/sistemas-pagamento`
+- `https://www.andersdev.com.br/servicos/dashboards-tempo-real`
+- `https://www.andersdev.com.br/servicos/migracao-stack-legado`
+- `https://www.andersdev.com.br/servicos/desenvolvimento-react-next-js`
+
+**Paginas estaticas:**
+- `https://www.andersdev.com.br/`
+- `https://www.andersdev.com.br/blog`
+- `https://www.andersdev.com.br/trabalhar-comigo`
+- `https://www.andersdev.com.br/para-startups`
+- `https://www.andersdev.com.br/para-pmes-brasil`
+- `https://www.andersdev.com.br/agencias-parceiras`
+- `https://www.andersdev.com.br/apps`
+- `https://www.andersdev.com.br/apps/calculadora`
+
+### 2. GA4 — Marcar `lead_form_submit` como evento principal (AGUARDANDO)
+O evento foi disparado com sucesso (confirmado no DevTools — API 200 + GA4 204), mas ainda nao apareceu na lista de eventos. Pode levar ate 24-48h.
+
+1. Acesse https://analytics.google.com
+2. Admin → Exibicao de dados → **Eventos** → aba **Eventos recentes**
+3. Quando `lead_form_submit` aparecer, clique na **estrela** ao lado dele
+
+### 3. Google Meu Negocio — Criar perfil (QUANDO QUISER)
+Fator #1 pra aparecer no mapa do Google quando alguem busca "desenvolvedor passo fundo".
+
+1. Acesse https://business.google.com
+2. Clique **"Adicionar empresa"** → **"Adicionar empresa unica"**
+3. Preencha:
+   - **Nome**: `AndersDev — Desenvolvimento de Software`
+   - **Categoria principal**: `Empresa de desenvolvimento de software`
+   - **Categoria secundaria**: `Desenvolvimento de sites`
+4. Clique **"Sim"** para localizacao fisica
+5. Endereco: `Rua Uruguai, 679 - Sala 201`, Passo Fundo, RS, `99010-112`
+6. Telefone: `(54) 3045-6478`
+7. Site: `https://www.andersdev.com.br`
+8. Horario: Seg-Sex `09:00`-`18:00`
+9. Solicite verificacao (geralmente por carta com codigo)
+10. Apos verificado: adicione logo, fotos do escritorio, e descricao com keywords locais
+
+---
+
+## Resumo de pendencias
+
+| # | O que | Prioridade | Quando |
+|---|---|---|---|
+| 1 | GSC — solicitar indexacao (26 URLs) | **ALTA** | Amanha (cota resetou) |
+| 2 | GA4 — marcar `lead_form_submit` com estrela | **ALTA** | Quando aparecer (24-48h) |
+| 3 | Google Meu Negocio — criar perfil | **ALTA** | Quando quiser |

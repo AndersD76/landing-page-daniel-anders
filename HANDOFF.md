@@ -277,3 +277,108 @@ Para garantir que os emails do Resend não caiam em spam:
 | GSC | Verificar propriedade www + reenviar sitemap | **Alta** |
 | Cal.com | Verificar link `daniel-anders-emx5kl` | Media |
 | Rich Results Test | Testar schema markup | Media |
+
+---
+
+# Parte 4 — Bug fixes e otimizacao mobile (2026-06-22)
+
+## O que foi feito
+
+### Bugs corrigidos
+- [x] 17 traducoes i18n faltantes adicionadas (`bts_1_h`..`bts_6_p`, `stack_r1`..`stack_r5`) — homepage mostrava keys crus em vez de texto
+- [x] Label "RESULT" hardcoded em ingles → agora "RESULTADO" em PT-BR
+- [x] Label "TECH STACK" hardcoded → agora "TECNOLOGIAS" em PT-BR
+- [x] Deteccao de idioma hacky (comparacao de string traduzida) → substituida por `locale === "en"`
+- [x] IndexNow HOST corrigido de `andersdev.com.br` → `www.andersdev.com.br` (sem www esta morto)
+
+### Otimizacao mobile (bounce 66.7%)
+- [x] Hero: padding-top reduzido de 120px → 80px no mobile
+- [x] Hero: margem do eyebrow reduzida de 48px → 24px no mobile
+- [x] Hero: margem pre-CTA reduzida de 56px → 32px no mobile
+- [x] Hero: padding lateral reduzido de 32px → 20px no mobile
+- [x] CTA agora aparece acima do fold em telas mobile (375px+)
+
+### Verificacao de paginas
+- [x] Homepage — bugs corrigidos acima
+- [x] /para-startups — OK, sem bugs
+- [x] /para-pmes-brasil — OK, sem bugs
+- [x] /trabalhar-comigo — OK, sem bugs
+- [x] /agencias-parceiras — OK, links de servicos funcionam, `/#contact` existe
+- [x] /apps/calculadora — OK, funciona como esperado
+- [x] /blog/* — OK, conteudo renderiza corretamente
+- [x] /servicos/* — OK, paginas estaticas (SSG) funcionais
+
+---
+
+## O que VOCE precisa fazer (acoes manuais)
+
+### 1. Google Search Console (PRIORIDADE CRITICA)
+Sem isso, o Google nao sabe que seu site existe.
+
+1. Acesse https://search.google.com/search-console
+2. Clique "Adicionar propriedade" → escolha "Prefixo do URL"
+3. Digite: `https://www.andersdev.com.br`
+4. Verificacao: escolha "Tag HTML" → copie a meta tag
+5. Me envie a meta tag que eu adiciono no codigo
+6. Apos verificar: va em "Sitemaps" → adicione `https://www.andersdev.com.br/sitemap.xml`
+7. Va em "Inspecao de URL" → cole a URL da homepage → clique "Solicitar indexacao"
+8. Repita para os 5 blog posts novos
+
+### 2. Google Meu Negocio (PRIORIDADE ALTA)
+Fator #1 pra aparecer no mapa do Google quando alguem busca "desenvolvedor passo fundo".
+
+1. Acesse https://business.google.com
+2. Crie perfil com:
+   - **Nome**: AndersDev — Desenvolvimento de Software
+   - **Categoria principal**: Empresa de desenvolvimento de software
+   - **Categoria secundaria**: Desenvolvimento de sites
+   - **Endereco**: Rua Uruguai, 679 - Sala 201, Passo Fundo - RS, 99010-112
+   - **Telefone**: (54) 3045-6478
+   - **WhatsApp**: (54) 9.9964-8368
+   - **Site**: https://www.andersdev.com.br
+   - **Horario**: Seg-Sex 09:00-18:00
+3. Solicite verificacao (carta ou telefone)
+4. Apos verificado: adicione fotos do escritorio e logo
+
+### 3. DNS — Dominio sem www (PRIORIDADE CRITICA)
+Quem digita `andersdev.com.br` (sem www) ve erro de conexao.
+
+- **Opcao A** (recomendada): No painel do registrador, adicionar redirect 301:
+  `andersdev.com.br` → `https://www.andersdev.com.br`
+- **Opcao B**: Adicionar registro A/CNAME para `andersdev.com.br` apontando pro Railway
+
+### 4. GA4 — Marcar conversoes
+1. GA4 → Admin → Eventos
+2. Marcar como conversao:
+   - `lead_form_submit`
+   - `newsletter_subscribe`
+   - `lead_magnet_download`
+3. DebugView: abrir o site com `?debug_mode=true` e verificar se os eventos aparecem
+
+### 5. IndexNow — Disparar apos deploy
+Apos o deploy no Railway, rode:
+```bash
+curl -X POST https://www.andersdev.com.br/api/indexnow \
+  -H "Authorization: Bearer SEU_CRON_SECRET" \
+  -H "Content-Type: application/json"
+```
+
+### 6. Railway — Variaveis de ambiente
+Confirme que estas variaveis existem no Railway:
+```
+NEXT_PUBLIC_GA_MEASUREMENT_ID=G-RLTZ4CG0F1
+NEXT_PUBLIC_SITE_URL=https://www.andersdev.com.br
+```
+
+---
+
+## Resumo final de acoes
+
+| # | Plataforma | Acao | Prioridade | Tempo estimado |
+|---|---|---|---|---|
+| 1 | GSC | Verificar propriedade + enviar sitemap + solicitar indexacao | **CRITICA** | 15 min |
+| 2 | DNS | Redirect 301 de andersdev.com.br → www | **CRITICA** | 5 min |
+| 3 | Google Meu Negocio | Criar perfil completo | **ALTA** | 20 min |
+| 4 | GA4 | Marcar 3 eventos como conversao | **ALTA** | 5 min |
+| 5 | Railway | Confirmar env vars + redeploy | **ALTA** | 5 min |
+| 6 | IndexNow | Disparar curl apos deploy | Media | 2 min |

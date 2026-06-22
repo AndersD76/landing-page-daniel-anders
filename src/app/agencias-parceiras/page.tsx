@@ -129,7 +129,7 @@ export default function AgenciasParceirasPage() {
 
       <PageNavbar narrow />
 
-      <main className="max-w-[900px] mx-auto px-8 py-16">
+      <main className="max-w-[900px] mx-auto px-4 sm:px-6 md:px-8 py-8 md:py-16">
         {/* BREADCRUMB */}
         <div className="flex items-center gap-2 text-sm text-gray mb-8">
           <Link
@@ -304,7 +304,7 @@ export default function AgenciasParceirasPage() {
               antes do cliente perceber.
             </p>
           </div>
-          <div className="grid md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-4">
             {[
               {
                 title: "Resposta em 4h (horário comercial)",
@@ -398,7 +398,7 @@ export default function AgenciasParceirasPage() {
               o que faz mais sentido pro volume de projetos.
             </p>
           </div>
-          <div className="grid md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-4">
             {[
               {
                 tier: "Por Projeto",
@@ -511,7 +511,7 @@ export default function AgenciasParceirasPage() {
           <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6">
             Serviços mais procurados por agências
           </h2>
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
             {[
               {
                 slug: "desenvolvimento-react-next-js",

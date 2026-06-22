@@ -6,7 +6,7 @@ interface PageFooterProps {
 
 export function PageFooter({ narrow }: PageFooterProps) {
   const containerClass = narrow
-    ? "max-w-[900px] mx-auto px-8"
+    ? "max-w-[900px] mx-auto px-4 sm:px-6 md:px-8"
     : "container-main";
 
   return (

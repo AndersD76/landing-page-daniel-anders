@@ -106,10 +106,10 @@ export default function HomePage() {
       {/* WHAT I DO */}
       <section className="py-24">
         <div className="container-main">
-          <div className="grid md:grid-cols-2 gap-16">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16">
             <RevealOnScroll>
               <span className="section-label">{t("what_label")}</span>
-              <h2 className="font-heading text-4xl md:text-5xl font-bold leading-tight">
+              <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
                 {t("what_h2_1")}
                 <br />
                 {t("what_h2_2")}
@@ -179,7 +179,7 @@ export default function HomePage() {
             <p className="section-sub">{t("svc_sub")}</p>
           </RevealOnScroll>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-5 lg:grid-cols-3">
             {SERVICES.map((svc) => (
               <RevealOnScroll key={svc.key}>
                 <div
@@ -256,7 +256,7 @@ export default function HomePage() {
             <p className="section-sub">{t("cases_sub")}</p>
           </RevealOnScroll>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-6">
             {CASES.map((c) => (
               <RevealOnScroll key={c.key}>
                 <div className="glass-card h-full">
@@ -282,7 +282,7 @@ export default function HomePage() {
                       </span>
                     ))}
                   </div>
-                  <div className="grid grid-cols-3 gap-3 pt-4 border-t border-white/[0.06]">
+                  <div className="grid grid-cols-3 gap-2 sm:gap-3 pt-4 border-t border-white/[0.06]">
                     {c.metrics.map((m) => (
                       <div key={m.key} className="text-center">
                         <span className="block font-heading text-xl font-bold text-brand">
@@ -318,15 +318,15 @@ export default function HomePage() {
         <div className="container-main">
           <RevealOnScroll>
             <span className="section-label">{t("proc_label")}</span>
-            <h2 className="font-heading text-4xl md:text-5xl font-bold mb-16">
+            <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-16">
               {t("proc_h2_1")}
               <span className="text-brand">{t("proc_h2_2")}</span>
             </h2>
           </RevealOnScroll>
 
-          <div className="flex flex-col gap-12 relative before:absolute before:left-[23px] before:top-0 before:bottom-0 before:w-px before:bg-gradient-to-b before:from-brand/20 before:via-brand/10 before:to-transparent md:before:left-[23px]">
+          <div className="flex flex-col gap-6 md:gap-12 relative before:absolute before:left-[23px] before:top-0 before:bottom-0 before:w-px before:bg-gradient-to-b before:from-brand/20 before:via-brand/10 before:to-transparent md:before:left-[23px]">
             {PROCESS.map((step) => (
-              <RevealOnScroll key={step.key} className="flex gap-8">
+              <RevealOnScroll key={step.key} className="flex gap-4 md:gap-8">
                 <div className="shrink-0 w-12 h-12 rounded-full bg-brand/10 border border-brand/20 flex items-center justify-center text-brand font-heading text-sm font-bold z-10">
                   {step.num}
                 </div>
@@ -354,7 +354,7 @@ export default function HomePage() {
         <div className="container-main">
           <RevealOnScroll>
             <span className="section-label">{t("why_label")}</span>
-            <h2 className="font-heading text-4xl md:text-5xl font-bold leading-tight mb-16">
+            <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-8 md:mb-16">
               {t("why_h2_1")}
               <br />
               {t("why_h2_2")}
@@ -363,7 +363,7 @@ export default function HomePage() {
             </h2>
           </RevealOnScroll>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-5 lg:grid-cols-3">
             {[1, 2, 3, 4, 5, 6].map((i) => (
               <RevealOnScroll key={i}>
                 <div className="glass-card h-full">
@@ -388,7 +388,7 @@ export default function HomePage() {
         <div className="container-main">
           <RevealOnScroll>
             <span className="section-label">{locale === "en" ? "TECH STACK" : "TECNOLOGIAS"}</span>
-            <h2 className="font-heading text-4xl md:text-5xl font-bold mb-16">
+            <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-16">
               {locale === "en" ? "Built with " : "Construído com "}
               <span className="text-brand">
                 {locale === "en" ? "modern tools" : "ferramentas modernas"}
@@ -399,7 +399,7 @@ export default function HomePage() {
           <div className="flex flex-col gap-5">
             {STACK_SECTIONS.map((s) => (
               <RevealOnScroll key={s.tag}>
-                <div className="glass-card grid md:grid-cols-[1fr_auto_1fr] gap-6 items-center">
+                <div className="glass-card grid grid-cols-1 gap-4 md:grid-cols-[1fr_auto_1fr] md:gap-6 items-center">
                   <div>
                     <span className="text-[0.6rem] font-bold tracking-[2px] text-brand/60 mb-2 block">
                       {s.tag}
@@ -429,7 +429,7 @@ export default function HomePage() {
             <span className="section-label">
               {locale === "en" ? "HOW I BUILD" : "COMO EU CONSTRUO"}
             </span>
-            <h2 className="font-heading text-4xl md:text-5xl font-bold mb-16">
+            <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-16">
               {locale === "en" ? (
                 <>Behind the <span className="text-brand">scenes</span></>
               ) : (
@@ -438,7 +438,7 @@ export default function HomePage() {
             </h2>
           </RevealOnScroll>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-5 lg:grid-cols-3">
             {BTS_ITEMS.map((item) => (
               <RevealOnScroll key={item.hKey}>
                 <div className="glass-card h-full flex gap-5">
@@ -471,7 +471,7 @@ export default function HomePage() {
             </h2>
           </RevealOnScroll>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-6">
             {TESTIMONIALS.map((test) => (
               <RevealOnScroll key={test.key}>
                 <div
@@ -508,10 +508,10 @@ export default function HomePage() {
       {/* ABOUT */}
       <section className="py-24 bg-gradient-to-b from-transparent via-white/[0.01] to-transparent" id="about">
         <div className="container-main">
-          <div className="grid md:grid-cols-[1.2fr_0.8fr] gap-16">
+          <div className="grid grid-cols-1 gap-8 md:grid-cols-[1.2fr_0.8fr] md:gap-16">
             <RevealOnScroll>
               <span className="section-label">{t("about_label")}</span>
-              <h2 className="font-heading text-4xl md:text-5xl font-bold mb-2">
+              <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold mb-2">
                 Daniel <span className="text-brand">Anders</span>
               </h2>
               <p className="text-sm text-brand/60 font-medium mb-6">
@@ -565,7 +565,7 @@ export default function HomePage() {
       <section className="py-24">
         <div className="container-main">
           <RevealOnScroll className="text-center">
-            <h2 className="font-heading text-4xl md:text-6xl font-bold leading-tight mb-6">
+            <h2 className="font-heading text-3xl sm:text-4xl md:text-6xl font-bold leading-tight mb-6">
               {t("cta_h2_1")}
               <br />
               <span className="text-brand">{t("cta_h2_2")}</span>

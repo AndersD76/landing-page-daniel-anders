@@ -58,10 +58,10 @@ export function ContactForm() {
   return (
     <section className="py-24" id="contact">
       <div className="container-main">
-        <div className="glass-card grid md:grid-cols-2 gap-12 p-8 md:p-12">
+        <div className="glass-card grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-12 p-5 sm:p-8 md:p-12">
           <div>
             <span className="section-label">{t("form_label")}</span>
-            <h2 className="font-heading text-4xl md:text-5xl font-bold leading-tight mb-6">
+            <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-6">
               {t("form_h2_1")}
               <br />
               <span className="text-brand">{t("form_h2_2")}</span>

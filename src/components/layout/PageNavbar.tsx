@@ -15,11 +15,11 @@ const defaultCta = {
 
 export function PageNavbar({ links, cta = defaultCta, narrow }: PageNavbarProps) {
   const containerClass = narrow
-    ? "max-w-[900px] mx-auto px-8"
+    ? "max-w-[900px] mx-auto px-4 sm:px-6 md:px-8"
     : "container-main";
 
   return (
-    <nav className="py-6 border-b border-white/[0.04]">
+    <nav className="py-4 md:py-6 border-b border-white/[0.04]">
       <div className={`${containerClass} flex items-center justify-between`}>
         <Link href="/" className="flex items-center gap-2 no-underline">
           <Image

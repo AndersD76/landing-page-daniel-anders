@@ -156,7 +156,7 @@ export default function TrabalharComigoPage() {
 
       <PageNavbar narrow />
 
-      <main className="max-w-[900px] mx-auto px-8 py-16">
+      <main className="max-w-[900px] mx-auto px-4 sm:px-6 md:px-8 py-8 md:py-16">
         {/* BREADCRUMB */}
         <div className="flex items-center gap-2 text-sm text-gray mb-8">
           <Link
@@ -223,7 +223,7 @@ export default function TrabalharComigoPage() {
               custo — sem heroísmo de última hora.
             </p>
           </div>
-          <div className="grid grid-cols-4 gap-3 mt-8">
+          <div className="grid grid-cols-2 gap-2 md:grid-cols-4 md:gap-3 mt-8">
             {[
               { num: "01", name: "Discovery", time: "2-3 dias" },
               { num: "02", name: "Arquitetura", time: "2-3 dias" },
@@ -370,7 +370,7 @@ export default function TrabalharComigoPage() {
             <h3 className="font-heading text-lg font-bold text-foreground mb-4">
               O que é definido na Arquitetura
             </h3>
-            <div className="grid md:grid-cols-2 gap-4">
+            <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-4">
               {[
                 {
                   title: "Modelo de dados",
@@ -466,7 +466,7 @@ export default function TrabalharComigoPage() {
               ))}
             </div>
           </div>
-          <div className="grid md:grid-cols-2 gap-4 mb-6">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-4 mb-6">
             <div className="glass-card">
               <h3 className="font-heading text-base font-bold text-foreground mb-2">
                 O que você precisa fazer durante o Build
@@ -679,7 +679,7 @@ export default function TrabalharComigoPage() {
               projetos.
             </p>
           </div>
-          <div className="grid md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-4">
             {[
               {
                 category: "Código e versionamento",
@@ -724,7 +724,7 @@ export default function TrabalharComigoPage() {
           <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6">
             Qual seu perfil?
           </h2>
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
             {[
               {
                 href: "/para-startups",
@@ -761,7 +761,7 @@ export default function TrabalharComigoPage() {
           <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6">
             Serviços disponíveis
           </h2>
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
             {[
               {
                 slug: "desenvolvimento-saas-mvp",

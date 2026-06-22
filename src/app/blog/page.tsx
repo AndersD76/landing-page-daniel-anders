@@ -160,7 +160,7 @@ export default function BlogPage() {
         <CategoryTabs categories={categories} />
 
         {/* POST GRID */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 lg:grid-cols-3">
           {posts.map((post) => (
             <BlogCard key={post.slug} post={post} />
           ))}

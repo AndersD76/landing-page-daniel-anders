@@ -491,7 +491,7 @@ export default function CalculadoraPage() {
           <h2 className="font-heading text-2xl md:text-3xl font-bold mb-8">
             O que está incluído em todo projeto
           </h2>
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
             {[
               {
                 icon: "//",
@@ -529,7 +529,7 @@ export default function CalculadoraPage() {
           <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6">
             Explore por tipo de serviço
           </h2>
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
             {[
               {
                 slug: "desenvolvimento-saas-mvp",

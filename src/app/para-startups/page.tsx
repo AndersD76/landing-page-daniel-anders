@@ -140,7 +140,7 @@ export default function ParaStartupsPage() {
 
       <PageNavbar narrow />
 
-      <main className="max-w-[900px] mx-auto px-8 py-16">
+      <main className="max-w-[900px] mx-auto px-4 sm:px-6 md:px-8 py-8 md:py-16">
         {/* BREADCRUMB */}
         <div className="flex items-center gap-2 text-sm text-gray mb-8">
           <Link
@@ -270,7 +270,7 @@ export default function ParaStartupsPage() {
           <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6">
             O que me diferencia de um dev &quot;comum&quot;
           </h2>
-          <div className="grid md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-4">
             {[
               {
                 icon: "//",
@@ -407,7 +407,7 @@ export default function ParaStartupsPage() {
               planejar.
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
             {[
               {
                 tier: "MVP Simples",
@@ -496,7 +496,7 @@ export default function ParaStartupsPage() {
           <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6">
             O que founders dizem sobre trabalhar comigo
           </h2>
-          <div className="grid md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-4">
             {[
               {
                 quote:
@@ -541,7 +541,7 @@ export default function ParaStartupsPage() {
           <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6">
             Serviços que founders mais pedem
           </h2>
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
             {[
               {
                 slug: "desenvolvimento-saas-mvp",

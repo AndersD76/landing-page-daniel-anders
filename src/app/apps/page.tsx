@@ -248,7 +248,7 @@ export default function AppsPage() {
           <h2 className="font-heading text-2xl md:text-3xl font-bold mb-8">
             Por que partir de um MVP pronto?
           </h2>
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
             {[
               {
                 icon: "//",
@@ -293,7 +293,7 @@ export default function AppsPage() {
             partida.
           </p>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 md:gap-6 lg:grid-cols-3">
             {apps.map((app) => (
               <div
                 key={app.title}
@@ -428,7 +428,7 @@ export default function AppsPage() {
           <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6">
             Serviços relacionados
           </h2>
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
             {[
               {
                 slug: "desenvolvimento-saas-mvp",

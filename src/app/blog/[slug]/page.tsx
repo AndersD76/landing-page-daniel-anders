@@ -233,7 +233,7 @@ export default async function BlogPostPage({
         narrow
       />
 
-      <main className="max-w-[900px] mx-auto px-8 py-16">
+      <main className="max-w-[900px] mx-auto px-4 sm:px-6 md:px-8 py-8 md:py-16">
         {/* BREADCRUMB */}
         <div className="flex items-center gap-2 text-sm text-gray mb-8 flex-wrap">
           <Link
@@ -359,7 +359,7 @@ export default async function BlogPostPage({
             <h2 className="font-heading text-2xl font-bold mb-6">
               Artigos relacionados
             </h2>
-            <div className="grid md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
               {related.map((rp) => (
                 <Link
                   key={rp.slug}
@@ -389,7 +389,7 @@ export default async function BlogPostPage({
             <h2 className="font-heading text-2xl font-bold mb-6">
               Serviços relacionados
             </h2>
-            <div className="grid md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
               {relatedServices.map((svc) => (
                 <Link
                   key={svc.slug}

@@ -130,7 +130,7 @@ export default function ParaPMEsPage() {
 
       <PageNavbar narrow />
 
-      <main className="max-w-[900px] mx-auto px-8 py-16">
+      <main className="max-w-[900px] mx-auto px-4 sm:px-6 md:px-8 py-8 md:py-16">
         {/* BREADCRUMB */}
         <div className="flex items-center gap-2 text-sm text-gray mb-8">
           <Link
@@ -244,7 +244,7 @@ export default function ParaPMEsPage() {
                 <h3 className="font-heading text-lg font-bold text-foreground mb-3">
                   {example.scenario}
                 </h3>
-                <div className="grid md:grid-cols-2 gap-4 mb-3">
+                <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-4 mb-3">
                   <div className="pl-4 border-l-2 border-white/10">
                     <span className="text-xs font-bold tracking-[2px] text-gray/60 block mb-1">
                       ANTES
@@ -318,7 +318,7 @@ export default function ParaPMEsPage() {
               de memória, boa vontade ou planilha colorida.
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
             {[
               {
                 icon: "//",
@@ -432,7 +432,7 @@ export default function ParaPMEsPage() {
               são surpreendentemente parecidos.
             </p>
           </div>
-          <div className="grid md:grid-cols-2 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-4">
             {[
               {
                 sector: "Indústria",
@@ -479,7 +479,7 @@ export default function ParaPMEsPage() {
               detalhado com cronograma. Valores de referência:
             </p>
           </div>
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
             {[
               {
                 tier: "Projeto Pontual",
@@ -570,7 +570,7 @@ export default function ParaPMEsPage() {
           <h2 className="font-heading text-2xl md:text-3xl font-bold mb-6">
             Serviços mais procurados por PMEs
           </h2>
-          <div className="grid md:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 gap-3 md:grid-cols-3 md:gap-4">
             {[
               {
                 slug: "dashboards-analytics",

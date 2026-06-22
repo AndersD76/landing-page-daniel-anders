@@ -280,9 +280,16 @@ Para garantir que os emails do Resend não caiam em spam:
 
 ---
 
-# Parte 4 — Bug fixes e otimizacao mobile (2026-06-22)
+# Parte 4 — Bug fixes, SEO critico e responsividade (2026-06-22)
 
 ## O que foi feito
+
+### Fix critico de SEO — Indexacao Google
+- [x] `generateMetadata` e page components migrados para `async params` (Promise) — exigencia do Next.js 16
+- [x] Antes: blog e servicos mostravam titulo/descricao GENERICOS pro Google (metadata default do layout)
+- [x] Agora: cada pagina retorna seu proprio title, description, canonical e OpenGraph
+- [x] `src/app/loading.tsx` removido — injetava "Carregando..." no HTML que o Googlebot via
+- [x] Esse fix corrige o erro "solicitacao de indexacao foi recusada" no Google Search Console
 
 ### Bugs corrigidos
 - [x] 17 traducoes i18n faltantes adicionadas (`bts_1_h`..`bts_6_p`, `stack_r1`..`stack_r5`) — homepage mostrava keys crus em vez de texto
@@ -291,92 +298,100 @@ Para garantir que os emails do Resend não caiam em spam:
 - [x] Deteccao de idioma hacky (comparacao de string traduzida) → substituida por `locale === "en"`
 - [x] IndexNow HOST corrigido de `andersdev.com.br` → `www.andersdev.com.br` (sem www esta morto)
 
-### Otimizacao mobile (bounce 66.7%)
-- [x] Hero: padding-top reduzido de 120px → 80px no mobile
-- [x] Hero: margem do eyebrow reduzida de 48px → 24px no mobile
-- [x] Hero: margem pre-CTA reduzida de 56px → 32px no mobile
-- [x] Hero: padding lateral reduzido de 32px → 20px no mobile
-- [x] CTA agora aparece acima do fold em telas mobile (375px+)
+### Responsividade 100% mobile-first (13 arquivos, 40+ correcoes)
+- [x] TODOS os grids agora comecam com `grid-cols-1` no mobile + breakpoint `md:` pra desktop
+- [x] Fix critico: `grid-cols-4` na pagina trabalhar-comigo → `grid-cols-2` no mobile (antes estourava em 320px)
+- [x] Padding reduzido de `px-8` (32px) para `px-4` (16px) no mobile em 8 paginas
+- [x] Gaps grandes (64px, 48px) reduzidos pela metade no mobile
+- [x] Headings com escala progressiva: `text-3xl` → `sm:text-4xl` → `md:text-5xl`
+- [x] Hero: CTA agora aparece acima do fold em telas mobile (375px+)
+- [x] ContactForm, PageNavbar, PageFooter — todos responsivos
+- [x] Arquivos corrigidos: page.tsx, para-startups, para-pmes-brasil, agencias-parceiras, trabalhar-comigo, apps, apps/calculadora, blog, blog/[slug], servicos/[slug], ContactForm, PageNavbar, PageFooter
 
 ### Verificacao de paginas
-- [x] Homepage — bugs corrigidos acima
-- [x] /para-startups — OK, sem bugs
-- [x] /para-pmes-brasil — OK, sem bugs
-- [x] /trabalhar-comigo — OK, sem bugs
-- [x] /agencias-parceiras — OK, links de servicos funcionam, `/#contact` existe
-- [x] /apps/calculadora — OK, funciona como esperado
-- [x] /blog/* — OK, conteudo renderiza corretamente
-- [x] /servicos/* — OK, paginas estaticas (SSG) funcionais
+- [x] Homepage, /para-startups, /para-pmes-brasil, /trabalhar-comigo, /agencias-parceiras
+- [x] /apps/calculadora, /blog/*, /servicos/*
+- [x] Todas OK e responsivas
 
 ---
 
 ## O que VOCE precisa fazer (acoes manuais)
 
-### 1. Google Search Console (PRIORIDADE CRITICA)
-Sem isso, o Google nao sabe que seu site existe.
+### 1. GSC — Solicitar indexacao novamente (PRIORIDADE CRITICA)
+O fix de SEO ja esta no ar. O erro anterior ("solicitacao recusada") foi corrigido.
 
 1. Acesse https://search.google.com/search-console
-2. Clique "Adicionar propriedade" → escolha "Prefixo do URL"
-3. Digite: `https://www.andersdev.com.br`
-4. Verificacao: escolha "Tag HTML" → copie a meta tag
-5. Me envie a meta tag que eu adiciono no codigo
-6. Apos verificar: va em "Sitemaps" → adicione `https://www.andersdev.com.br/sitemap.xml`
-7. Va em "Inspecao de URL" → cole a URL da homepage → clique "Solicitar indexacao"
-8. Repita para os 5 blog posts novos
+2. Propriedade `https://www.andersdev.com.br` (ja verificada)
+3. Va em **Sitemaps** → confirme que `https://www.andersdev.com.br/sitemap.xml` esta enviado
+4. Va em **Inspecao de URL** → cole `https://www.andersdev.com.br` → clique **TESTAR O URL PUBLICADO**
+5. Se passar, clique **SOLICITAR INDEXACAO**
+6. Repita para os blog posts:
+   - `https://www.andersdev.com.br/blog/quanto-custa-criar-site-profissional-2026`
+   - `https://www.andersdev.com.br/blog/site-ou-aplicativo-qual-empresa-precisa`
+   - `https://www.andersdev.com.br/blog/5-sinais-empresa-precisa-sistema-personalizado`
+   - `https://www.andersdev.com.br/blog/ecommerce-como-comecar-vender-online`
+   - `https://www.andersdev.com.br/blog/por-que-ter-app-mobile-empresa`
 
-### 2. Google Meu Negocio (PRIORIDADE ALTA)
+### 2. DNS — Redirect sem-www (PRIORIDADE CRITICA)
+Quem digita `andersdev.com.br` (sem www) ve erro de conexao.
+
+**Se Registro.br:**
+1. Acesse https://registro.br → login → clique no dominio
+2. Va em "Redirecionamento Web"
+3. Configure: `andersdev.com.br` → `https://www.andersdev.com.br` (301 permanente)
+
+**Se Cloudflare:**
+1. Dashboard → `andersdev.com.br` → Rules → Redirect Rules
+2. Criar regra: `andersdev.com.br/*` → `https://www.andersdev.com.br/$1` (301)
+
+### 3. Google Meu Negocio (PRIORIDADE ALTA)
 Fator #1 pra aparecer no mapa do Google quando alguem busca "desenvolvedor passo fundo".
 
 1. Acesse https://business.google.com
-2. Crie perfil com:
-   - **Nome**: AndersDev — Desenvolvimento de Software
-   - **Categoria principal**: Empresa de desenvolvimento de software
-   - **Categoria secundaria**: Desenvolvimento de sites
-   - **Endereco**: Rua Uruguai, 679 - Sala 201, Passo Fundo - RS, 99010-112
-   - **Telefone**: (54) 3045-6478
-   - **WhatsApp**: (54) 9.9964-8368
-   - **Site**: https://www.andersdev.com.br
-   - **Horario**: Seg-Sex 09:00-18:00
-3. Solicite verificacao (carta ou telefone)
-4. Apos verificado: adicione fotos do escritorio e logo
+2. Clique "Adicionar empresa" → "Adicionar empresa unica"
+3. Preencha:
+   - **Nome**: `AndersDev — Desenvolvimento de Software`
+   - **Categoria**: "Empresa de desenvolvimento de software"
+4. Clique "Sim" para localizacao fisica
+5. Endereco: `Rua Uruguai, 679 - Sala 201`, Passo Fundo, RS, `99010-112`
+6. Telefone: `(54) 3045-6478`
+7. Site: `https://www.andersdev.com.br`
+8. Horario: Seg-Sex `09:00`-`18:00`
+9. Solicite verificacao (carta ou telefone)
+10. Apos verificado: adicione logo + fotos + descricao com keywords locais
 
-### 3. DNS — Dominio sem www (PRIORIDADE CRITICA)
-Quem digita `andersdev.com.br` (sem www) ve erro de conexao.
-
-- **Opcao A** (recomendada): No painel do registrador, adicionar redirect 301:
-  `andersdev.com.br` → `https://www.andersdev.com.br`
-- **Opcao B**: Adicionar registro A/CNAME para `andersdev.com.br` apontando pro Railway
-
-### 4. GA4 — Marcar conversoes
-1. GA4 → Admin → Eventos
-2. Marcar como conversao:
+### 4. GA4 — Marcar conversoes (5 min)
+1. Acesse https://analytics.google.com
+2. Admin (engrenagem) → Eventos
+3. Ative o toggle "Marcar como conversao" para:
    - `lead_form_submit`
    - `newsletter_subscribe`
    - `lead_magnet_download`
-3. DebugView: abrir o site com `?debug_mode=true` e verificar se os eventos aparecem
+4. Se os eventos nao aparecem: abra o site com `?debug_mode=true`, preencha o formulario de contato, volte ao GA4
 
-### 5. IndexNow — Disparar apos deploy
-Apos o deploy no Railway, rode:
+### 5. Railway — Confirmar env vars (5 min)
+1. https://railway.com → seu projeto → Variables
+2. Confirme que existem:
+   ```
+   NEXT_PUBLIC_GA_MEASUREMENT_ID=G-RLTZ4CG0F1
+   NEXT_PUBLIC_SITE_URL=https://www.andersdev.com.br
+   ```
+3. Se nao existem, adicione e clique Deploy
+
+### 6. IndexNow — Disparar apos deploy
 ```bash
 curl -X POST https://www.andersdev.com.br/api/indexnow \
   -H "Authorization: Bearer SEU_CRON_SECRET" \
   -H "Content-Type: application/json"
 ```
 
-### 6. Railway — Variaveis de ambiente
-Confirme que estas variaveis existem no Railway:
-```
-NEXT_PUBLIC_GA_MEASUREMENT_ID=G-RLTZ4CG0F1
-NEXT_PUBLIC_SITE_URL=https://www.andersdev.com.br
-```
-
 ---
 
 ## Resumo final de acoes
 
-| # | Plataforma | Acao | Prioridade | Tempo estimado |
+| # | Plataforma | Acao | Prioridade | Tempo |
 |---|---|---|---|---|
-| 1 | GSC | Verificar propriedade + enviar sitemap + solicitar indexacao | **CRITICA** | 15 min |
+| 1 | GSC | Solicitar indexacao novamente (fix ja no ar) | **CRITICA** | 10 min |
 | 2 | DNS | Redirect 301 de andersdev.com.br → www | **CRITICA** | 5 min |
 | 3 | Google Meu Negocio | Criar perfil completo | **ALTA** | 20 min |
 | 4 | GA4 | Marcar 3 eventos como conversao | **ALTA** | 5 min |

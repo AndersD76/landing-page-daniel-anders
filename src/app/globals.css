@@ -214,7 +214,9 @@
   }
 
   /* ===== FLOATING WHATSAPP ===== */
+  /* Escondido no mobile: a MobileCtaBar cobre esse caso */
   .fab-whatsapp {
+    display: none;
     position: fixed;
     bottom: 32px;
     right: 32px;
@@ -222,7 +224,6 @@
     height: 56px;
     border-radius: 50%;
     background: #25d366;
-    display: flex;
     align-items: center;
     justify-content: center;
     color: white;
@@ -234,6 +235,12 @@
   .fab-whatsapp:hover {
     transform: scale(1.1);
     box-shadow: 0 6px 30px rgba(37, 211, 102, 0.6);
+  }
+
+  @media (min-width: 768px) {
+    .fab-whatsapp {
+      display: flex;
+    }
   }
 
   /* ===== REVEAL ANIMATION ===== */

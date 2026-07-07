@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import { I18nProvider } from "@/lib/i18n/context";
 import { Analytics } from "@/components/analytics/Analytics";
+import { ClickTracker } from "@/components/analytics/ClickTracker";
+import { MobileCtaBar } from "@/components/layout/MobileCtaBar";
 import "./globals.css";
 
 const inter = Inter({
@@ -272,7 +274,9 @@ export default function RootLayout({
           Pular para o conteúdo
         </a>
         <I18nProvider>{children}</I18nProvider>
+        <MobileCtaBar />
         <Analytics />
+        <ClickTracker />
       </body>
     </html>
   );

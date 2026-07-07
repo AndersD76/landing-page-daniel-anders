@@ -84,23 +84,68 @@ function getRelatedPosts(currentSlug: string, category: BlogPost["category"]): B
 
 // ── Content renderer ──
 
+function MidArticleCta() {
+  return (
+    <aside className="glass-card !border-brand/20 my-10">
+      <p className="font-heading text-lg font-bold text-foreground mb-2">
+        Tem uma ideia de app ou sistema?
+      </p>
+      <p className="text-sm text-gray leading-relaxed mb-5">
+        Baixe o template de especificação e organize o escopo antes de gastar
+        com desenvolvimento — ou agende uma call gratuita de 15 minutos.
+      </p>
+      <div className="flex flex-wrap items-center gap-4">
+        <Link
+          href="/recursos/spec-app-startup"
+          data-track="blog_cta_click"
+          data-track-source="mid-article-template"
+          className="inline-flex text-sm font-bold text-white bg-brand px-6 py-3 rounded-full no-underline hover:scale-105 transition-transform"
+        >
+          Baixar template grátis
+        </Link>
+        <a
+          href="https://cal.com/daniel-anders-emx5kl"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-sm font-bold text-brand hover:text-brand-bright transition-colors no-underline"
+        >
+          Agendar call gratuita →
+        </a>
+      </div>
+    </aside>
+  );
+}
+
 function ArticleContent({ content }: { content: string }) {
   const blocks = content.split("\n\n");
+
+  // CTA inserido antes do H2 mais proximo da metade do artigo
+  const headingIndexes = blocks
+    .map((b, i) => (b.trim().startsWith("## ") ? i : -1))
+    .filter((i) => i > 0);
+  const half = Math.floor(blocks.length / 2);
+  const ctaIndex =
+    headingIndexes.length > 1
+      ? headingIndexes.reduce((best, i) =>
+          Math.abs(i - half) < Math.abs(best - half) ? i : best
+        )
+      : -1;
 
   return (
     <div className="space-y-5">
       {blocks.map((block, i) => {
         const trimmed = block.trim();
+        const cta = i === ctaIndex ? <MidArticleCta key={`cta-${i}`} /> : null;
 
-        // H2 headings
+        // H2 headings (o CTA de meio de artigo entra antes do H2 central)
         if (trimmed.startsWith("## ")) {
           return (
-            <h2
-              key={i}
-              className="font-heading text-xl md:text-2xl font-bold text-foreground mt-10 mb-2"
-            >
-              {trimmed.replace("## ", "")}
-            </h2>
+            <div key={i}>
+              {cta}
+              <h2 className="font-heading text-xl md:text-2xl font-bold text-foreground mt-10 mb-2">
+                {trimmed.replace("## ", "")}
+              </h2>
+            </div>
           );
         }
 

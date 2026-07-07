@@ -103,6 +103,68 @@ export default function HomePage() {
         </div>
       </div>
 
+      {/* 3 CAMINHOS */}
+      <section className="py-16 md:py-24">
+        <div className="container-main">
+          <RevealOnScroll>
+            <span className="section-label">{t("paths_label")}</span>
+            <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-12">
+              {t("paths_h2_1")}
+              <span className="text-brand">{t("paths_h2_2")}</span>
+            </h2>
+          </RevealOnScroll>
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-6">
+            {[
+              {
+                num: "01",
+                h: t("path_1_h"),
+                p: t("path_1_p"),
+                cta: t("path_1_cta"),
+                href: "/recursos/spec-app-startup",
+                track: "path_click_template",
+              },
+              {
+                num: "02",
+                h: t("path_2_h"),
+                p: t("path_2_p"),
+                cta: t("path_2_cta"),
+                href: "/apps",
+                track: "path_click_mvps",
+              },
+              {
+                num: "03",
+                h: t("path_3_h"),
+                p: t("path_3_p"),
+                cta: t("path_3_cta"),
+                href: "#contact",
+                track: "path_click_processo",
+              },
+            ].map((path) => (
+              <RevealOnScroll key={path.num}>
+                <Link
+                  href={path.href}
+                  data-track={path.track}
+                  className="glass-card no-underline group flex flex-col h-full hover:!border-brand/30 transition-colors"
+                >
+                  <span className="text-xs font-mono text-brand/40 mb-3">
+                    {path.num}
+                  </span>
+                  <h3 className="font-heading text-xl font-bold text-foreground mb-3 group-hover:text-brand transition-colors">
+                    {path.h}
+                  </h3>
+                  <p className="text-sm text-gray leading-relaxed mb-5 flex-1">
+                    {path.p}
+                  </p>
+                  <span className="text-sm font-bold text-brand">
+                    {path.cta} &rarr;
+                  </span>
+                </Link>
+              </RevealOnScroll>
+            ))}
+          </div>
+        </div>
+      </section>
+
       {/* WHAT I DO */}
       <section className="py-24">
         <div className="container-main">

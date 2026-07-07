@@ -1,9 +1,10 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useRef } from "react";
 import Link from "next/link";
 import { PageNavbar } from "@/components/layout/PageNavbar";
 import { PageFooter } from "@/components/layout/PageFooter";
+import { trackEvent } from "@/components/analytics/Analytics";
 
 /* ------------------------------------------------------------------ */
 /*  PRICING DATA                                                       */
@@ -66,6 +67,28 @@ export default function CalculadoraPage() {
   const [selectedDeadline, setSelectedDeadline] = useState<DeadlineId | null>(
     null
   );
+  const startedRef = useRef(false);
+  const completedRef = useRef(false);
+
+  const handleSelectType = (id: ProjectTypeId) => {
+    if (!startedRef.current) {
+      startedRef.current = true;
+      trackEvent("calculator_start", { project_type: id });
+    }
+    setSelectedType(id);
+  };
+
+  const handleSelectDeadline = (id: DeadlineId) => {
+    if (!completedRef.current) {
+      completedRef.current = true;
+      trackEvent("calculator_complete", {
+        project_type: selectedType || "unknown",
+        features_count: selectedFeatures.size,
+        deadline: id,
+      });
+    }
+    setSelectedDeadline(id);
+  };
 
   const toggleFeature = (id: FeatureId) => {
     setSelectedFeatures((prev) => {
@@ -215,7 +238,7 @@ export default function CalculadoraPage() {
                   {projectTypes.map((pt) => (
                     <button
                       key={pt.id}
-                      onClick={() => setSelectedType(pt.id)}
+                      onClick={() => handleSelectType(pt.id)}
                       className={`glass-card text-left cursor-pointer border transition-all ${
                         selectedType === pt.id
                           ? "!border-brand/40 !bg-brand/[0.06]"
@@ -310,7 +333,7 @@ export default function CalculadoraPage() {
                   {deadlines.map((dl) => (
                     <button
                       key={dl.id}
-                      onClick={() => setSelectedDeadline(dl.id)}
+                      onClick={() => handleSelectDeadline(dl.id)}
                       className={`glass-card text-left cursor-pointer border transition-all ${
                         selectedDeadline === dl.id
                           ? "!border-brand/40 !bg-brand/[0.06]"

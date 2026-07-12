@@ -39,6 +39,29 @@ export function Footer() {
             ))}
           </nav>
         </div>
+        <div className="mb-8">
+          <p className="text-xs font-semibold text-gray-600 tracking-[2px] uppercase mb-3">
+            Produtos Anders
+          </p>
+          <nav className="flex flex-wrap gap-x-6 gap-y-2">
+            {[
+              { href: "https://www.turbovenda.com.br", label: "TurboVenda — prospecção B2B com IA" },
+              { href: "https://prismabiz.com.br", label: "PrismaBiz — gestão e ISO 9001" },
+              { href: "https://www.pcmonitor.com.br", label: "PC Monitor — monitoramento de PCs" },
+              { href: "https://redutto.com.br", label: "Redutto — inteligência eleitoral" },
+              { href: "https://applargo.com.br", label: "Largô — moda circular" },
+              { href: "https://anderstech.net", label: "Anders Tech — consultoria ISO" },
+            ].map((p) => (
+              <a
+                key={p.href}
+                href={p.href}
+                className="text-xs text-gray-600 no-underline hover:text-brand transition-colors"
+              >
+                {p.label}
+              </a>
+            ))}
+          </nav>
+        </div>
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 pt-6 border-t border-white/[0.04]">
           <p className="text-xs text-gray-700">
             Anders Tech — andersdev.com.br

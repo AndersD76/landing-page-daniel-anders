@@ -11,6 +11,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog`, lastModified: now, changeFrequency: "daily", priority: 0.9 },
     { url: `${baseUrl}/apps`, lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: `${baseUrl}/apps/calculadora`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/calculadora-site`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
+    { url: `${baseUrl}/calculadora-app`, lastModified: now, changeFrequency: "monthly", priority: 0.9 },
     { url: `${baseUrl}/para-startups`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/para-pmes-brasil`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/agencias-parceiras`, lastModified: now, changeFrequency: "monthly", priority: 0.8 },

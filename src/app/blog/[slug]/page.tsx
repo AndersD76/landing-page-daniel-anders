@@ -84,6 +84,51 @@ function getRelatedPosts(currentSlug: string, category: BlogPost["category"]): B
 
 // ── Content renderer ──
 
+// CTA das calculadoras de custo — embutido nos 2 posts de custo
+interface CalculatorCtaConfig {
+  href: string;
+  title: string;
+  desc: string;
+  button: string;
+}
+
+const calculatorCtaBySlug: Record<string, CalculatorCtaConfig> = {
+  "quanto-custa-criar-site-profissional-2026": {
+    href: "/calculadora-site",
+    title: "Calcule o custo do SEU site em 1 minuto",
+    desc: "Responda 4 perguntas (tipo, páginas, integrações, prazo) e veja a faixa de preço realista do seu projeto, com breakdown do que compõe o valor.",
+    button: "Abrir calculadora de site",
+  },
+  "quanto-custa-desenvolver-app-saas-2026": {
+    href: "/calculadora-app",
+    title: "Calcule o custo do SEU app em 1 minuto",
+    desc: "Responda 4 perguntas (tipo, telas, integrações, prazo) e veja a faixa de preço realista do seu projeto, com breakdown do que compõe o valor.",
+    button: "Abrir calculadora de app",
+  },
+};
+
+function CalculatorCta({ cta }: { cta: CalculatorCtaConfig }) {
+  return (
+    <aside className="glass-card !border-brand/20 my-10">
+      <p className="text-xs font-bold tracking-[3px] text-brand uppercase mb-2">
+        FERRAMENTA GRATUITA
+      </p>
+      <p className="font-heading text-lg font-bold text-foreground mb-2">
+        {cta.title}
+      </p>
+      <p className="text-sm text-gray leading-relaxed mb-5">{cta.desc}</p>
+      <Link
+        href={cta.href}
+        data-track="blog_cta_click"
+        data-track-source="calculadora-custo"
+        className="inline-flex text-sm font-bold text-white bg-brand px-6 py-3 rounded-full no-underline hover:scale-105 transition-transform"
+      >
+        {cta.button} &rarr;
+      </Link>
+    </aside>
+  );
+}
+
 function MidArticleCta() {
   return (
     <aside className="glass-card !border-brand/20 my-10">
@@ -116,7 +161,13 @@ function MidArticleCta() {
   );
 }
 
-function ArticleContent({ content }: { content: string }) {
+function ArticleContent({
+  content,
+  calculatorCta,
+}: {
+  content: string;
+  calculatorCta?: CalculatorCtaConfig;
+}) {
   const blocks = content.split("\n\n");
 
   // CTA inserido antes do H2 mais proximo da metade do artigo
@@ -135,7 +186,14 @@ function ArticleContent({ content }: { content: string }) {
     <div className="space-y-5">
       {blocks.map((block, i) => {
         const trimmed = block.trim();
-        const cta = i === ctaIndex ? <MidArticleCta key={`cta-${i}`} /> : null;
+        const cta =
+          i === ctaIndex ? (
+            calculatorCta ? (
+              <CalculatorCta key={`cta-${i}`} cta={calculatorCta} />
+            ) : (
+              <MidArticleCta key={`cta-${i}`} />
+            )
+          ) : null;
 
         // H2 headings (o CTA de meio de artigo entra antes do H2 central)
         if (trimmed.startsWith("## ")) {
@@ -334,9 +392,17 @@ export default async function BlogPostPage({
           </div>
         </header>
 
+        {/* CTA CALCULADORA (posts de custo) */}
+        {calculatorCtaBySlug[post.slug] && (
+          <CalculatorCta cta={calculatorCtaBySlug[post.slug]} />
+        )}
+
         {/* ARTICLE CONTENT */}
         <article className="mb-16">
-          <ArticleContent content={post.content} />
+          <ArticleContent
+            content={post.content}
+            calculatorCta={calculatorCtaBySlug[post.slug]}
+          />
         </article>
 
         {/* TAGS */}

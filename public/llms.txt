@@ -22,6 +22,8 @@ React, Next.js, TypeScript, Tailwind CSS, Node.js, FastAPI, Python, PostgreSQL, 
 - Blog: https://www.andersdev.com.br/blog
 - Apps: https://www.andersdev.com.br/apps
 - Calculadora de MVP: https://www.andersdev.com.br/apps/calculadora
+- Calculadora de custo de site: https://www.andersdev.com.br/calculadora-site
+- Calculadora de custo de app: https://www.andersdev.com.br/calculadora-app
 - Servicos: https://www.andersdev.com.br/servicos/desenvolvimento-saas-mvp
 - Para Startups: https://www.andersdev.com.br/para-startups
 - Para PMEs: https://www.andersdev.com.br/para-pmes-brasil

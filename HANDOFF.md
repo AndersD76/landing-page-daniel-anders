@@ -471,3 +471,30 @@ Fator #1 pra aparecer no mapa do Google quando alguem busca "desenvolvedor passo
 | 1 | GSC — solicitar indexacao (26 URLs) | **ALTA** | Amanha (cota resetou) |
 | 2 | GA4 — marcar `lead_form_submit` com estrela | **ALTA** | Quando aparecer (24-48h) |
 | 3 | Google Meu Negocio — criar perfil | **ALTA** | Quando quiser |
+
+---
+
+# Parte — Calculadoras de custo (/calculadora-site e /calculadora-app)
+
+## O que foi feito
+- [x] `/calculadora-site` e `/calculadora-app`: wizard client-side em 4 passos (tipo, nº páginas/telas, integrações, prazo) → faixa em R$ + breakdown por item
+- [x] Captura de e-mail "Receber orçamento detalhado" → POST `/api/lead` (source `calculadora-site`/`calculadora-app`, seleção completa no campo message) + GA4 `generate_lead`
+- [x] 800+ palavras visíveis por página, FAQ (5 perguntas), tabela de exemplos por faixa
+- [x] FAQPage + HowTo + BreadcrumbList JSON-LD por página (Person + ProfessionalService com sameAs já existiam no layout raiz)
+- [x] CTA das calculadoras embutido nos 2 posts de custo (topo + meio do artigo)
+- [x] Sitemap atualizado com as 2 URLs (priority 0.9)
+
+## O que VOCÊ precisa fazer
+
+### Google Search Console
+- Solicitar indexação de:
+  - `https://www.andersdev.com.br/calculadora-site`
+  - `https://www.andersdev.com.br/calculadora-app`
+  - `https://www.andersdev.com.br/blog/quanto-custa-criar-site-profissional-2026`
+  - `https://www.andersdev.com.br/blog/quanto-custa-desenvolver-app-saas-2026`
+
+### GA4
+- Marcar `generate_lead` como conversão (Admin → Eventos → estrela) quando aparecer nos eventos recentes.
+
+### Orçamento detalhado (processo manual)
+- O lead da calculadora chega no `/admin/leads` e por notificação de e-mail (Resend) com a seleção completa e a faixa calculada no campo message. NÃO há PDF automático: responda o e-mail do lead em até 1 dia útil com o orçamento. Se quiser automatizar depois, o ponto de entrada é `sendLeadNotification` em `src/lib/email.ts`.

@@ -18,7 +18,7 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
-  const urls = sitemap().map((entry) => entry.url);
+  const urls = (await sitemap()).map((entry) => entry.url);
 
   const body = {
     host: HOST,

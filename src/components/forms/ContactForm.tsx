@@ -20,8 +20,6 @@ export function ContactForm() {
     const data = {
       name: formData.get("name") as string,
       email: formData.get("email") as string,
-      phone: (formData.get("phone") as string) || undefined,
-      company: (formData.get("company") as string) || undefined,
       message: (formData.get("message") as string) || undefined,
       honeypot: (formData.get("website") as string) || undefined,
       source: "contact-form",
@@ -99,18 +97,6 @@ export function ContactForm() {
               name="email"
               required
               placeholder={t("form_email")}
-              className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-gray-700 focus:border-brand/30 focus:outline-none transition-colors"
-            />
-            <input
-              type="tel"
-              name="phone"
-              placeholder={t("form_phone")}
-              className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-gray-700 focus:border-brand/30 focus:outline-none transition-colors"
-            />
-            <input
-              type="text"
-              name="company"
-              placeholder={t("form_company")}
               className="w-full px-5 py-4 bg-white/[0.04] border border-white/[0.08] rounded-xl text-foreground placeholder:text-gray-700 focus:border-brand/30 focus:outline-none transition-colors"
             />
             <textarea

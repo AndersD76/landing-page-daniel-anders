@@ -8,7 +8,21 @@ require('dotenv').config();
 const app = express();
 const sql = neon(process.env.DATABASE_URL);
 
-app.use(cors());
+const ALLOWED_ORIGINS = [
+  'https://www.andersdev.com.br',
+  'https://andersdev.com.br',
+];
+
+app.use(cors({
+  origin(origin, callback) {
+    // Sem "origin" = request server-to-server/curl (mesma origem já é servida
+    // por este próprio processo via express.static, então não precisa de CORS).
+    if (!origin || ALLOWED_ORIGINS.includes(origin)) {
+      return callback(null, true);
+    }
+    return callback(new Error('Not allowed by CORS'));
+  },
+}));
 app.use(express.json());
 app.use(express.static(path.join(__dirname, '..')));
 

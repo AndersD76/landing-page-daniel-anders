@@ -498,3 +498,231 @@ Fator #1 pra aparecer no mapa do Google quando alguem busca "desenvolvedor passo
 
 ### Orçamento detalhado (processo manual)
 - O lead da calculadora chega no `/admin/leads` e por notificação de e-mail (Resend) com a seleção completa e a faixa calculada no campo message. NÃO há PDF automático: responda o e-mail do lead em até 1 dia útil com o orçamento. Se quiser automatizar depois, o ponto de entrada é `sendLeadNotification` em `src/lib/email.ts`.
+
+---
+
+# Parte 6 — Otimização de conversão + compliance LGPD (2026-08-23)
+
+## O que foi feito
+
+### Hero reescrito — de "eu" para "valor ao visitante"
+- [x] H1 mudou de "EU CONSTRUO / APLICAÇÕES WEB / MODERNAS" → "DA IDEIA AO / PRODUTO DIGITAL / EM SEMANAS"
+- [x] Subtítulo mudou para proposta de valor: "Sites, apps e sistemas sob medida — por quem entende de negócios, não só de código."
+- [x] CTA primário mudou de "AGENDAR CALL GRATUITA" (compromisso alto) → "CALCULAR MEU PROJETO" (baixa fricção, linka para /calculadora-site)
+- [x] CTA secundário adicionado: "ou agendar call gratuita →" (cal.com mantido como opção)
+- [x] Tagline mudou para "Calcule o investimento em 2 minutos. Sem compromisso."
+- [x] Eyebrow agora inclui localização: "DESENVOLVEDOR FULL-STACK · PASSO FUNDO RS"
+
+### Calculadora como porta de entrada
+- [x] Path 1 ("Quanto custa?") agora linka para /calculadora-site em vez do template de spec
+- [x] Texto reescrito para enfatizar: "Sem cadastro, sem compromisso — só números reais"
+
+### Consent Mode v2 + LGPD
+- [x] Banner de cookie consent criado (`CookieConsent.tsx`): ACEITAR / RECUSAR
+- [x] Google Consent Mode v2 implementado: `analytics_storage`, `ad_storage`, `ad_user_data`, `ad_personalization` — todos `denied` por default
+- [x] Consent atualizado para `granted` somente após aceite explícito do usuário
+- [x] Consentimento persistido em localStorage (não re-exibe após escolha)
+- [x] Banner posicionado acima da MobileCtaBar no mobile, canto inferior direito no desktop
+
+### Microsoft Clarity (heatmap)
+- [x] Script Clarity adicionado em Analytics.tsx, condicionado a `NEXT_PUBLIC_CLARITY_ID`
+- [x] Carrega via `afterInteractive` (não bloqueia render)
+
+### Engagement tracking
+- [x] `EngagementTracker.tsx`: scroll depth (25%, 50%, 75%, 90%) + time on page (10s, 30s, 60s, 120s)
+- [x] Eventos disparam no GA4 e Plausible: `scroll_depth` e `time_on_page`
+- [x] Permite entender onde exatamente o visitante desiste
+
+### Title SEO corrigido
+- [x] De 70 chars ("AndersDev | Desenvolvimento de Sites, Apps e Sistemas | Passo Fundo RS") → 51 chars ("AndersDev | Sites, Apps e Sistemas | Passo Fundo RS")
+- [x] Atualizado tanto no metadata default quanto no OpenGraph
+
+### Traduções EN atualizadas
+- [x] Hero, paths e CTAs em inglês acompanham as mudanças do PT-BR
+
+---
+
+## O que VOCÊ precisa fazer
+
+### Railway (variáveis de ambiente)
+| Variável | Valor | Onde |
+|---|---|---|
+| `NEXT_PUBLIC_CLARITY_ID` | `<seu-project-id>` | Railway → Settings → Variables |
+
+**Para obter o Clarity ID:**
+1. Acesse https://clarity.microsoft.com
+2. Crie um projeto com URL `www.andersdev.com.br`
+3. Copie o Project ID (ex: `oc1234abcde`)
+4. Cole no Railway como `NEXT_PUBLIC_CLARITY_ID`
+5. Redeploy
+
+### GA4 — Marcar novos eventos como conversão
+1. GA4 → Admin → Eventos
+2. Marcar como conversão:
+   - `hero_click_calculator`
+   - `path_click_calculator`
+   - `scroll_depth` (opcional — útil pra reports)
+   - `time_on_page` (opcional — útil pra reports)
+
+### GA4 — Filtrar tráfego de bot/datacenter
+1. GA4 → Admin → Data Streams → Web → Configure tag settings
+2. "Define internal traffic" → adicionar regra com IP ranges de datacenters (Ashburn VA = AWS)
+3. Ou criar Data Filter excluindo tráfego interno
+
+### Google Search Console
+1. Solicitar re-indexação da homepage (title mudou)
+2. URL: `https://www.andersdev.com.br`
+
+### DNS
+N/A
+
+### Pagamento
+N/A
+
+### E-mail
+N/A
+
+### Segredos
+N/A — `NEXT_PUBLIC_CLARITY_ID` é público por design (client-side).
+
+---
+
+# Parte 7 — Exposição / Tráfego
+
+## Classificação
+- **Arquétipos:** A (Web/SaaS) + K (Negócio local — Passo Fundo RS)
+- **Estágio:** Pré-lançamento (0 leads reais, ~70 visitas/mês)
+- **Modelo:** Sales-led (serviços, agendamento via cal.com)
+- **Orçamento pago:** R$ 0/mês (orgânico primeiro)
+
+## O que foi implementado no código
+
+### T1 — Fundação (achável + medível)
+- [x] **robots.ts expandido**: GPTBot, ClaudeBot, PerplexityBot, Google-Extended permitidos. Bytespider e CCBot bloqueados. `/cursos/meus-cursos` e `/cursos/player/` bloqueados (auth-gated).
+- [x] **getClientIp corrigido**: `.pop()` → `[0]` — rate limiting agora usa IP real do cliente, não do proxy.
+- [x] **Analytics condicionado a consent**: Plausible e Clarity agora só carregam após aceitar cookies (LGPD compliance). GA4 já tinha Consent Mode v2.
+- [x] **CookieConsent → custom event**: `consent_update` dispara na mesma aba para sincronizar Analytics.
+- [x] **Footer com NAP completo**: Endereço + telefone visíveis no footer de TODAS as páginas (local SEO).
+- [x] **PageFooter com links internos**: Home, Blog, Calculadora, Apps, Privacidade — crawlabilidade em subpages.
+- [x] **Metadata completados**: `/privacidade` e `/recursos/spec-app-startup` agora com OG, canonical, keywords.
+- [x] **Footer da homepage atualizado**: adicionado link para Calculadora e Privacidade na navegação.
+
+### T2 — Superfície qualificada (já existia, verificado)
+- [x] 10 blog posts com conteúdo longo e keywords locais
+- [x] 8 páginas de serviço com metadata dinâmico + FAQPage schema
+- [x] Interlinks blog↔serviços (bidirecional)
+- [x] JSON-LD: LocalBusiness, Person, FAQPage, Product/AggregateRating
+- [x] IndexNow configurado (API route + key file)
+- [x] llms.txt atualizado com calculadora como ação principal
+- [x] Sitemap dinâmico (~29 URLs, sem EAD)
+
+## O que VOCÊ precisa fazer (manual)
+
+### Google Business Profile — CRÍTICO para tráfego local
+> Isso é o #1 gerador de tráfego para negócio local. Sem GBP, você é invisível no Google Maps e no pack de 3 resultados locais.
+
+1. Acesse https://business.google.com
+2. Crie o perfil para **AndersDev — Desenvolvimento de Software**
+3. Categoria principal: `Empresa de desenvolvimento de software`
+4. Categorias secundárias: `Consultor de TI`, `Designer de sites`
+5. Endereço: Rua Uruguai, 679 - Sala 201, Passo Fundo, RS, 99010-112
+6. Telefone: (54) 9.9964-8368
+7. Site: https://www.andersdev.com.br
+8. Horário: Seg-Sex 09:00–18:00
+9. Descrição: copiar de layout.tsx metadata description
+10. Fotos: escritório, foto profissional, logo
+11. **Após verificação**: peça reviews para os 3 clientes que já avaliaram (Rafael M., Carlos S., Ana L.)
+
+### Bing Places
+1. Acesse https://www.bingplaces.com
+2. Importe do Google Business Profile (opção disponível)
+3. Verifique com o mesmo endereço
+
+### Apple Business Connect
+1. Acesse https://businessconnect.apple.com
+2. Mesmo endereço e dados do GBP
+3. Aparece no Apple Maps (iPhone)
+
+### Google Search Console
+1. Verifique https://www.andersdev.com.br no GSC (se não fez ainda)
+2. Submeta sitemap: `https://www.andersdev.com.br/sitemap.xml`
+3. Solicite indexação da homepage (title/descrição mudaram)
+4. Solicite indexação de `/calculadora-site` e `/privacidade`
+5. Configure alerta de e-mail para problemas de cobertura
+6. **Monitore**: Core Web Vitals, cobertura, e impressões de busca
+
+### Bing Webmaster Tools
+1. Acesse https://www.bing.com/webmasters
+2. Importe do GSC (mais rápido)
+3. Submeta sitemap
+
+### GA4 — Configuração
+1. Marcar como **conversões** os eventos:
+   - `lead_form_submit`
+   - `click_agendar_call`
+   - `whatsapp_click`
+   - `hero_click_calculator`
+   - `desktop_bar_calculator`
+2. Criar **filtro de bot**: excluir IPs de Ashburn VA (datacenter AWS)
+3. Ativar **enhanced measurement** (scroll, outbound clicks, file downloads)
+4. Conectar GA4 ao Google Search Console (Insights)
+
+### Microsoft Clarity
+1. Criar projeto em https://clarity.microsoft.com
+2. Copiar o ID do projeto
+3. Setar `NEXT_PUBLIC_CLARITY_ID=<id>` no Railway
+4. Redeploy
+
+### DNS — SPF/DKIM/DMARC
+1. Verificar domínio no Resend (https://resend.com/domains)
+2. Adicionar registros DNS que o Resend pedir (SPF + DKIM)
+3. Adicionar DMARC: `_dmarc.andersdev.com.br TXT "v=DMARC1; p=quarantine; rua=mailto:danielanders76@gmail.com"`
+
+### IndexNow — Disparo pós-deploy
+1. No Railway, configurar CRON ou chamada pós-deploy:
+   ```
+   curl -X POST https://www.andersdev.com.br/api/indexnow \
+     -H "Authorization: Bearer SEU_CRON_SECRET"
+   ```
+2. Isso notifica Bing/Yandex/Seznam de todas as URLs atualizadas
+
+### Conteúdo — Plano de blog (orgânico)
+O blog já tem 10 posts. Para gerar tráfego orgânico, publicar 2-4 posts/mês focando em:
+
+**Keywords locais de alta intenção (volume baixo, competição baixa):**
+- "desenvolvimento de sites passo fundo" (service page já cobre)
+- "criar aplicativo passo fundo preço"
+- "sistema personalizado para empresa RS"
+- "quanto custa um sistema sob medida"
+- "diferença entre site e sistema web"
+- "como escolher empresa de desenvolvimento de software"
+
+**Conteúdo pillar+cluster:**
+- Pillar: "Guia completo de desenvolvimento de software para empresas" → link para cada serviço
+- Cluster: cada blog post linka para o pillar e para 1-2 serviços
+
+### Diretórios de produto (grátis)
+1. **Product Hunt** — postar os produtos (TurboVenda, PrismaBiz, etc.)
+2. **IndieHackers** — perfil + posts sobre a jornada
+3. **LinkedIn** — postar 2x/semana: cases, tips técnicas, bastidores
+4. **GitHub** — manter perfil ativo, contribuições regulares
+
+### Redes sociais
+- LinkedIn: publicar 2-3x/semana (cases, tips, bastidores de projeto)
+- Instagram: opcional, stories de desenvolvimento (behind the scenes)
+- WhatsApp Business: usar status como canal de conteúdo
+
+## Resumo de prioridades
+
+| # | Ação | Impacto | Esforço | Quem |
+|---|------|---------|---------|------|
+| 1 | Google Business Profile | ALTO — tráfego local | 30 min | VOCÊ |
+| 2 | Google Search Console + sitemap | ALTO — indexação | 15 min | VOCÊ |
+| 3 | Deploy das mudanças + IndexNow | ALTO — ativa tudo | 5 min | VOCÊ |
+| 4 | GA4 conversões marcadas | ALTO — medição | 10 min | VOCÊ |
+| 5 | DNS SPF/DKIM/DMARC | MÉDIO — deliverability | 20 min | VOCÊ |
+| 6 | Clarity setup | MÉDIO — heatmaps | 10 min | VOCÊ |
+| 7 | Bing Places + Webmaster | MÉDIO — cobertura | 15 min | VOCÊ |
+| 8 | Blog 2-4 posts/mês | ALTO — orgânico | contínuo | VOCÊ |
+| 9 | LinkedIn 2-3x/semana | MÉDIO — referral | contínuo | VOCÊ |
+| 10 | Product Hunt / IndieHackers | BAIXO — one-shot | 1h | VOCÊ |

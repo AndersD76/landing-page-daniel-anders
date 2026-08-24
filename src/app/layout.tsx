@@ -3,7 +3,10 @@ import { Inter, Space_Grotesk } from "next/font/google";
 import { I18nProvider } from "@/lib/i18n/context";
 import { Analytics } from "@/components/analytics/Analytics";
 import { ClickTracker } from "@/components/analytics/ClickTracker";
+import { CookieConsent } from "@/components/analytics/CookieConsent";
+import { EngagementTracker } from "@/components/analytics/EngagementTracker";
 import { MobileCtaBar } from "@/components/layout/MobileCtaBar";
+import { DesktopCtaBar } from "@/components/layout/DesktopCtaBar";
 import "./globals.css";
 
 const inter = Inter({
@@ -22,7 +25,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://www.andersdev.com.br"),
   title: {
     default:
-      "AndersDev | Desenvolvimento de Sites, Apps e Sistemas | Passo Fundo RS",
+      "AndersDev | Sites, Apps e Sistemas | Passo Fundo RS",
     template: "%s | AndersDev — Passo Fundo RS",
   },
   description:
@@ -52,7 +55,7 @@ export const metadata: Metadata = {
     url: "https://www.andersdev.com.br",
     siteName: "AndersDev",
     title:
-      "AndersDev | Desenvolvimento de Sites, Apps e Sistemas | Passo Fundo RS",
+      "AndersDev | Sites, Apps e Sistemas | Passo Fundo RS",
     description:
       "Sites, aplicativos, sistemas web, e-commerce e automação para empresas em Passo Fundo e região. Orçamento gratuito.",
     images: [
@@ -275,8 +278,11 @@ export default function RootLayout({
         </a>
         <I18nProvider>{children}</I18nProvider>
         <MobileCtaBar />
+        <DesktopCtaBar />
         <Analytics />
         <ClickTracker />
+        <EngagementTracker />
+        <CookieConsent />
       </body>
     </html>
   );

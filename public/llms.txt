@@ -3,46 +3,44 @@
 ## Sobre
 AndersDev e a marca de desenvolvimento de software de Daniel Anders, desenvolvedor full-stack com +15 anos de experiencia em tecnologia e negocios. Sede em Passo Fundo, RS, Brasil. Atende empresas de todo o RS e do Brasil.
 
+## Acao Principal
+Calcule o custo do seu projeto em 2 minutos: https://www.andersdev.com.br/calculadora-site
+Calculadora de apps: https://www.andersdev.com.br/calculadora-app
+
 ## Servicos
-- Desenvolvimento de sites institucionais e landing pages
-- Aplicativos mobile (iOS e Android)
-- Sistemas web sob medida
+- Sites institucionais e landing pages (a partir de R$ 2.500)
+- Aplicativos mobile iOS e Android
+- Sistemas web sob medida (SaaS, dashboards, automacao)
 - E-commerce e lojas virtuais
-- Automacao empresarial
-- SaaS e MVP (produto minimo viavel)
-- Dashboards e analytics em tempo real
+- MVP em 2-6 semanas
 - Integracao de APIs (Stripe, WhatsApp, ERPs)
-- Consultoria em tecnologia e processos
+- Consultoria em tecnologia e processos (ISO 9001)
 
 ## Tecnologias
-React, Next.js, TypeScript, Tailwind CSS, Node.js, FastAPI, Python, PostgreSQL, NeonDB, Drizzle ORM, Stripe, Resend, Vercel, Railway, Docker, AWS
+React, Next.js, TypeScript, Tailwind CSS, Node.js, FastAPI, Python, PostgreSQL, NeonDB, Drizzle ORM, Stripe, Resend, Vercel, Railway, Docker, AWS, OpenAI, Claude
 
-## Paginas Principais
+## Paginas
 - Homepage: https://www.andersdev.com.br
+- Calculadora de Site: https://www.andersdev.com.br/calculadora-site
+- Calculadora de App: https://www.andersdev.com.br/calculadora-app
 - Blog: https://www.andersdev.com.br/blog
-- Apps: https://www.andersdev.com.br/apps
-- Calculadora de MVP: https://www.andersdev.com.br/apps/calculadora
-- Calculadora de custo de site: https://www.andersdev.com.br/calculadora-site
-- Calculadora de custo de app: https://www.andersdev.com.br/calculadora-app
-- Servicos: https://www.andersdev.com.br/servicos/desenvolvimento-saas-mvp
+- Apps/MVPs: https://www.andersdev.com.br/apps
 - Para Startups: https://www.andersdev.com.br/para-startups
 - Para PMEs: https://www.andersdev.com.br/para-pmes-brasil
 - Para Agencias: https://www.andersdev.com.br/agencias-parceiras
-- Como Trabalhar Conosco: https://www.andersdev.com.br/trabalhar-comigo
+- Servicos: https://www.andersdev.com.br/servicos/desenvolvimento-saas-mvp
 
 ## Contato
-- Site: https://www.andersdev.com.br
-- Email: danielanders76@gmail.com
-- Telefone: (54) 3045-6478
+- Agendar conversa gratuita: https://cal.com/daniel-anders-emx5kl
 - WhatsApp: (54) 9.9964-8368
-- Agendar conversa: https://cal.com/daniel-anders-emx5kl
+- Email: danielanders76@gmail.com
 - LinkedIn: https://linkedin.com/in/danielandersbrrs
 - GitHub: https://github.com/AndersD76
 
 ## Endereco
 Rua Uruguai, 679 - Sala 201
-Passo Fundo - RS, 99010-112
-Brasil
+Passo Fundo - RS, 99010-112, Brasil
 
 ## Idioma
 Primario: Portugues (pt-BR)
+Secundario: English (en)

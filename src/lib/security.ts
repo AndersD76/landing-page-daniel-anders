@@ -77,7 +77,7 @@ export function verifyUnsubscribeToken(email: string, token: string): boolean {
 export function getClientIp(req: { headers: { get(name: string): string | null } }): string {
   const forwarded = req.headers.get("x-forwarded-for");
   if (forwarded) {
-    return forwarded.split(",").pop()?.trim() || "unknown";
+    return forwarded.split(",")[0]?.trim() || "unknown";
   }
   return req.headers.get("x-real-ip") || "unknown";
 }

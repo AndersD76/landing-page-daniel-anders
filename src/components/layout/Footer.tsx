@@ -27,6 +27,8 @@ export function Footer() {
               { href: "/apps", label: t("nav_apps") },
               { href: "/blog", label: t("nav_blog") },
               { href: "/recursos/spec-app-startup", label: t("nav_resources") },
+              { href: "/calculadora-site", label: t("nav_calculator") },
+              { href: "/privacidade", label: "Privacidade" },
               { href: "#contact", label: "Contato" },
             ].map((link) => (
               <Link
@@ -63,9 +65,10 @@ export function Footer() {
           </nav>
         </div>
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 pt-6 border-t border-white/[0.04]">
-          <p className="text-xs text-gray-700">
-            Anders Tech — andersdev.com.br
-          </p>
+          <div className="text-xs text-gray-700">
+            <p>AndersDev — Daniel Anders</p>
+            <p className="mt-1">Rua Uruguai, 679 - Sala 201 · Passo Fundo, RS · (54) 9.9964-8368</p>
+          </div>
           <div className="flex items-center gap-4">
             <a
               href="https://github.com/AndersD76"

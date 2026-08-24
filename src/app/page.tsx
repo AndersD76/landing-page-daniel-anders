@@ -9,11 +9,6 @@ import { RevealOnScroll } from "@/components/effects/RevealOnScroll";
 import { CursorGlow } from "@/components/effects/CursorGlow";
 import { useI18n } from "@/lib/i18n/context";
 
-const TECH_MARQUEE = [
-  "REACT", "NEXT.JS", "TYPESCRIPT", "PYTHON", "FASTAPI", "NODE.JS",
-  "POSTGRESQL", "TAILWIND CSS", "PRISMA", "DOCKER", "VERCEL", "RAILWAY", "AWS", "STRIPE", "REST APIs",
-];
-
 const SERVICES: Array<{
   key: string;
   sector: string;
@@ -56,33 +51,14 @@ const PROCESS = [
   { num: "04", key: "4" },
 ];
 
-const WHY_ICONS = ["//", "{}", "</>", "$_", "--", "+1"];
-
 const TESTIMONIALS = [
   { key: "1", initials: "RM", featured: false },
   { key: "2", initials: "CS", featured: true },
   { key: "3", initials: "AL", featured: false },
 ];
 
-const STACK_SECTIONS = [
-  { tag: "FRONTEND", items: "React, Next.js 14, TypeScript, Tailwind CSS, Zustand, TanStack Query, shadcn/ui", resultKey: "stack_r1" },
-  { tag: "BACKEND", items: "Python, FastAPI, Node.js, Express, REST APIs, GraphQL, WebSockets", resultKey: "stack_r2" },
-  { tag: "DATABASE", items: "PostgreSQL, Prisma, Drizzle ORM, Redis, Supabase, NeonDB", resultKey: "stack_r3" },
-  { tag: "DEPLOY", items: "Vercel, Railway, AWS, Docker, GitHub Actions, CI/CD", resultKey: "stack_r4" },
-  { tag: "AI / ML", items: "OpenAI, Claude, LangChain, RAG, Whisper, Vision AI", resultKey: "stack_r5" },
-];
-
-const BTS_ITEMS = [
-  { icon: "</>", hKey: "bts_1_h" as const, pKey: "bts_1_p" as const },
-  { icon: "CI", hKey: "bts_2_h" as const, pKey: "bts_2_p" as const },
-  { icon: "API", hKey: "bts_3_h" as const, pKey: "bts_3_p" as const },
-  { icon: "GIT", hKey: "bts_4_h" as const, pKey: "bts_4_p" as const },
-  { icon: "UX", hKey: "bts_5_h" as const, pKey: "bts_5_p" as const },
-  { icon: "24h", hKey: "bts_6_h" as const, pKey: "bts_6_p" as const },
-];
-
 export default function HomePage() {
-  const { t, locale } = useI18n();
+  const { t } = useI18n();
 
   return (
     <>
@@ -91,17 +67,22 @@ export default function HomePage() {
       <main id="main-content">
       <Hero />
 
-      {/* MARQUEE */}
-      <div className="marquee-strip">
-        <div className="marquee-track">
-          {[...TECH_MARQUEE, ...TECH_MARQUEE].map((tech, i) => (
-            <span key={i}>
-              {tech}
-              <span className="marquee-dot ml-8">&#9670;</span>
-            </span>
-          ))}
+      {/* SOCIAL PROOF BAR */}
+      <div className="border-y border-white/[0.04] bg-white/[0.02]">
+        <div className="container-main flex items-center justify-center gap-6 md:gap-10 py-4 flex-wrap text-sm text-gray-500">
+          <span className="flex items-center gap-1.5">
+            <span className="text-yellow-400">★★★★★</span>
+            <span className="font-bold text-foreground">{t("proof_rating")}</span>
+          </span>
+          <span className="hidden sm:inline text-white/10">|</span>
+          <span>{t("proof_projects")}</span>
+          <span className="hidden sm:inline text-white/10">|</span>
+          <span>{t("proof_years")}</span>
+          <span className="hidden sm:inline text-white/10">|</span>
+          <span>{t("proof_location")}</span>
         </div>
       </div>
+
 
       {/* 3 CAMINHOS */}
       <section className="py-16 md:py-24">
@@ -120,8 +101,8 @@ export default function HomePage() {
                 h: t("path_1_h"),
                 p: t("path_1_p"),
                 cta: t("path_1_cta"),
-                href: "/recursos/spec-app-startup",
-                track: "path_click_template",
+                href: "/calculadora-site",
+                track: "path_click_calculator",
               },
               {
                 num: "02",
@@ -165,69 +146,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* WHAT I DO */}
-      <section className="py-24">
-        <div className="container-main">
-          <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-16">
-            <RevealOnScroll>
-              <span className="section-label">{t("what_label")}</span>
-              <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold leading-tight">
-                {t("what_h2_1")}
-                <br />
-                {t("what_h2_2")}
-                <span className="text-brand">{t("what_h2_3")}</span>
-              </h2>
-            </RevealOnScroll>
-            <RevealOnScroll className="flex flex-col gap-8">
-              {(["what_01", "what_02", "what_03", "what_04"] as const).map(
-                (key, i) => (
-                  <div key={key} className="flex gap-6">
-                    <span className="text-brand/30 font-heading text-sm font-bold tracking-wider shrink-0">
-                      {String(i + 1).padStart(2, "0")}
-                    </span>
-                    <p className="text-gray-400 leading-relaxed">{t(key)}</p>
-                  </div>
-                )
-              )}
-            </RevealOnScroll>
-          </div>
-        </div>
-      </section>
 
-      {/* BIG STATEMENT */}
-      <section className="py-24 bg-gradient-to-b from-transparent via-white/[0.01] to-transparent">
-        <div className="container-main">
-          <RevealOnScroll className="text-center">
-            <h2 className="font-heading text-4xl md:text-6xl font-bold leading-tight max-w-4xl mx-auto">
-              {t("big_h2_1")}
-              <span className="text-brand">{t("big_h2_2")}</span>
-              {t("big_h2_3")}
-              <span className="text-brand">{t("big_h2_4")}</span>
-              {t("big_h2_5")}
-              <span className="text-brand">{t("big_h2_6")}</span>
-              {t("big_h2_7")}
-            </h2>
-            <p className="text-xl text-gray-500 mt-6 max-w-2xl mx-auto">
-              {t("big_sub")}
-            </p>
-          </RevealOnScroll>
-        </div>
-      </section>
-
-      {/* MINI CTA */}
-      <div className="border-y border-white/[0.04] bg-white/[0.02]">
-        <div className="container-main flex items-center justify-between py-5 flex-wrap gap-4">
-          <p className="text-gray-500">{t("minicta_text")}</p>
-          <a
-            href="https://cal.com/daniel-anders-emx5kl"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-sm font-semibold text-brand hover:text-brand-bright transition-colors"
-          >
-            {t("minicta_btn")}
-          </a>
-        </div>
-      </div>
 
       {/* SERVICES */}
       <section className="py-24" id="services">
@@ -411,116 +330,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* WHY ME */}
-      <section className="py-24">
-        <div className="container-main">
-          <RevealOnScroll>
-            <span className="section-label">{t("why_label")}</span>
-            <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold leading-tight mb-8 md:mb-16">
-              {t("why_h2_1")}
-              <br />
-              {t("why_h2_2")}
-              <span className="text-brand">{t("why_h2_3")}</span>
-              {t("why_h2_4")}
-            </h2>
-          </RevealOnScroll>
-
-          <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-5 lg:grid-cols-3">
-            {[1, 2, 3, 4, 5, 6].map((i) => (
-              <RevealOnScroll key={i}>
-                <div className="glass-card h-full">
-                  <div className="text-2xl font-mono text-brand/30 mb-4">
-                    {WHY_ICONS[i - 1]}
-                  </div>
-                  <h3 className="font-heading text-lg font-bold text-foreground mb-2">
-                    {t(`why_${i}_h` as any)}
-                  </h3>
-                  <p className="text-sm text-gray-500 leading-relaxed">
-                    {t(`why_${i}_p` as any)}
-                  </p>
-                </div>
-              </RevealOnScroll>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* TECH STACK */}
-      <section className="py-24 bg-gradient-to-b from-transparent via-white/[0.01] to-transparent">
-        <div className="container-main">
-          <RevealOnScroll>
-            <span className="section-label">{locale === "en" ? "TECH STACK" : "TECNOLOGIAS"}</span>
-            <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-16">
-              {locale === "en" ? "Built with " : "Construído com "}
-              <span className="text-brand">
-                {locale === "en" ? "modern tools" : "ferramentas modernas"}
-              </span>
-            </h2>
-          </RevealOnScroll>
-
-          <div className="flex flex-col gap-5">
-            {STACK_SECTIONS.map((s) => (
-              <RevealOnScroll key={s.tag}>
-                <div className="glass-card grid grid-cols-1 gap-4 md:grid-cols-[1fr_auto_1fr] md:gap-6 items-center">
-                  <div>
-                    <span className="text-[0.6rem] font-bold tracking-[2px] text-brand/60 mb-2 block">
-                      {s.tag}
-                    </span>
-                    <p className="text-sm text-gray-400">{s.items}</p>
-                  </div>
-                  <div className="text-brand/30 font-mono text-xl hidden md:block">
-                    //
-                  </div>
-                  <div>
-                    <span className="text-[0.6rem] font-bold tracking-[2px] text-brand mb-2 block">
-                      {locale === "en" ? "RESULT" : "RESULTADO"}
-                    </span>
-                    <p className="text-sm text-gray-500">{t(s.resultKey as any)}</p>
-                  </div>
-                </div>
-              </RevealOnScroll>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* BEHIND THE SCENES */}
-      <section className="py-24">
-        <div className="container-main">
-          <RevealOnScroll>
-            <span className="section-label">
-              {locale === "en" ? "HOW I BUILD" : "COMO EU CONSTRUO"}
-            </span>
-            <h2 className="font-heading text-3xl sm:text-4xl md:text-5xl font-bold mb-8 md:mb-16">
-              {locale === "en" ? (
-                <>Behind the <span className="text-brand">scenes</span></>
-              ) : (
-                <>Por dentro dos <span className="text-brand">bastidores</span></>
-              )}
-            </h2>
-          </RevealOnScroll>
-
-          <div className="grid grid-cols-1 gap-3 md:grid-cols-2 md:gap-5 lg:grid-cols-3">
-            {BTS_ITEMS.map((item) => (
-              <RevealOnScroll key={item.hKey}>
-                <div className="glass-card h-full flex gap-5">
-                  <div className="text-brand/40 font-mono font-bold text-sm shrink-0 mt-1">
-                    {item.icon}
-                  </div>
-                  <div>
-                    <h3 className="font-heading text-base font-bold text-foreground mb-2">
-                      {t(item.hKey)}
-                    </h3>
-                    <p className="text-sm text-gray-500 leading-relaxed">
-                      {t(item.pKey)}
-                    </p>
-                  </div>
-                </div>
-              </RevealOnScroll>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* TESTIMONIALS */}
       <section className="py-24 bg-gradient-to-b from-transparent via-white/[0.01] to-transparent">
@@ -662,18 +471,6 @@ export default function HomePage() {
       </main>
       <Footer />
 
-      {/* FLOATING WHATSAPP */}
-      <a
-        href="https://wa.me/5554999648368?text=Oi%20Daniel%2C%20vim%20pelo%20site%20andersdev%20e%20quero%20conversar%20sobre%20um%20projeto."
-        target="_blank"
-        rel="noopener noreferrer"
-        className="fab-whatsapp"
-        aria-label="WhatsApp"
-      >
-        <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
-        </svg>
-      </a>
     </>
   );
 }

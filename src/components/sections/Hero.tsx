@@ -162,24 +162,33 @@ export function Hero() {
           <span className="text-brand">{t("hero_tagline_2")}</span>
         </p>
 
-        <a
-          href="https://cal.com/daniel-anders-emx5kl"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="cta-btn opacity-0 animate-fade-up [animation-delay:1.5s]"
-        >
-          <span>{t("hero_cta")}</span>
-          <svg
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="currentColor"
-            strokeWidth="2"
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 opacity-0 animate-fade-up [animation-delay:1.5s]">
+          <a
+            href="/calculadora-site"
+            className="cta-btn"
+            data-track="hero_click_calculator"
           >
-            <path d="M5 12h14M12 5l7 7-7 7" />
-          </svg>
-        </a>
+            <span>{t("hero_cta")}</span>
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+            >
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a
+            href="https://cal.com/daniel-anders-emx5kl"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-sm text-gray-500 hover:text-brand transition-colors"
+          >
+            {t("hero_cta_secondary")}
+          </a>
+        </div>
 
         <div className="mt-16 flex flex-col items-center gap-2 opacity-0 animate-fade-up [animation-delay:1.8s]">
           <span className="text-xs text-gray-800 tracking-[4px] uppercase">

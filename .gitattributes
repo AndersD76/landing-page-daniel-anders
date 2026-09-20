@@ -1,0 +1,3 @@
+# O loader do CEMPRE escreve com LF. Sem isso, cada `npm run carregar:cempre`
+# no Windows marca o arquivo como modificado mesmo sem mudar um byte de dado.
+src/data/setores-cempre.json text eol=lf

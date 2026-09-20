@@ -16,7 +16,8 @@
     "validar:seo": "node scripts/validar-seo.mjs",
     "carregar:cempre": "node scripts/carregar-cempre.mjs",
     "verificar": "npm run test:contrato && npm run gate && npm run auditar:precos && npm run validar:seo",
-    "auditar:precos": "node scripts/auditar-precos.mjs"
+    "auditar:precos": "node scripts/auditar-precos.mjs",
+    "avisar:indexnow": "node scripts/avisar-indexnow.mjs"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",

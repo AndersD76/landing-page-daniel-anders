@@ -2,6 +2,7 @@ import { Metadata } from "next";
 import Link from "next/link";
 import { PageNavbar } from "@/components/layout/PageNavbar";
 import { PageFooter } from "@/components/layout/PageFooter";
+import { faixaNumericaDoTipo } from "@/data/faixas";
 
 export const metadata: Metadata = {
   title: "Desenvolvimento pra Startups — Do MVP à Escala",
@@ -90,16 +91,14 @@ const serviceSchema = {
   areaServed: { "@type": "Country", name: "Brazil" },
   url: "https://www.andersdev.com.br/para-startups",
   serviceType: "MVP Development",
+  // AggregateOffer com piso e teto vindos da calculadora. Antes era um Offer
+  // fixo de R$ 5.000, que contradizia a faixa exibida no próprio site.
   offers: {
-    "@type": "Offer",
+    "@type": "AggregateOffer",
     priceCurrency: "BRL",
-    price: "5000",
-    priceSpecification: {
-      "@type": "PriceSpecification",
-      priceCurrency: "BRL",
-      price: "5000",
-      description: "A partir de R$ 5.000 para MVP simples",
-    },
+    lowPrice: String(faixaNumericaDoTipo("mvp-saas").min),
+    highPrice: String(faixaNumericaDoTipo("mvp-saas").max),
+    offerCount: 1,
   },
 };
 

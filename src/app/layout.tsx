@@ -8,6 +8,7 @@ import { CookieConsent } from "@/components/analytics/CookieConsent";
 import { EngagementTracker } from "@/components/analytics/EngagementTracker";
 import { MobileCtaBar } from "@/components/layout/MobileCtaBar";
 import { DesktopCtaBar } from "@/components/layout/DesktopCtaBar";
+import { faixaDoTipo } from "@/data/faixas";
 import "./globals.css";
 
 const inter = Inter({
@@ -181,7 +182,7 @@ const schemaOrg = [
         name: "Quanto custa criar um site profissional em Passo Fundo?",
         acceptedAnswer: {
           "@type": "Answer",
-          text: "Sites institucionais partem de R$ 2.500 e e-commerces de R$ 5.000, dependendo do escopo. A AndersDev oferece orçamento gratuito em uma conversa de 15 minutos para definir o que seu negócio precisa.",
+          text: `Site institucional fica entre ${faixaDoTipo("site-institucional")} e e-commerce entre ${faixaDoTipo("ecommerce")}, dependendo do escopo. A AndersDev oferece orçamento gratuito em uma conversa de 15 minutos para definir o que seu negócio precisa.`,
         },
       },
       {

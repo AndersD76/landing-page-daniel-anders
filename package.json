@@ -15,7 +15,8 @@
     "gate": "tsx scripts/relatorio-gate.ts",
     "validar:seo": "node scripts/validar-seo.mjs",
     "carregar:cempre": "node scripts/carregar-cempre.mjs",
-    "verificar": "npm run test:contrato && npm run gate && npm run validar:seo"
+    "verificar": "npm run test:contrato && npm run gate && npm run auditar:precos && npm run validar:seo",
+    "auditar:precos": "node scripts/auditar-precos.mjs"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",

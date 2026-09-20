@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, Space_Grotesk } from "next/font/google";
 import { I18nProvider } from "@/lib/i18n/context";
 import { Analytics } from "@/components/analytics/Analytics";
+import { AttributionTracker } from "@/components/analytics/AttributionTracker";
 import { ClickTracker } from "@/components/analytics/ClickTracker";
 import { CookieConsent } from "@/components/analytics/CookieConsent";
 import { EngagementTracker } from "@/components/analytics/EngagementTracker";
@@ -211,40 +212,21 @@ const schemaOrg = [
   },
   {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "Service",
     name: "AndersDev — Serviços de Desenvolvimento de Software",
     description:
       "Desenvolvimento de sites, aplicativos, sistemas web, e-commerce e automação para empresas em Passo Fundo e região.",
-    brand: { "@type": "Brand", name: "AndersDev" },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "5.0",
-      reviewCount: "3",
-      bestRating: "5",
+    provider: {
+      "@type": "Person",
+      name: "Daniel Anders",
+      url: "https://www.andersdev.com.br",
     },
-    review: [
-      {
-        "@type": "Review",
-        author: { "@type": "Person", name: "Rafael M." },
-        reviewRating: { "@type": "Rating", ratingValue: "5" },
-        reviewBody:
-          "Entregou o projeto antes do prazo com qualidade acima das expectativas. Entende de negócio, não só de código.",
-      },
-      {
-        "@type": "Review",
-        author: { "@type": "Person", name: "Carlos S." },
-        reviewRating: { "@type": "Rating", ratingValue: "5" },
-        reviewBody:
-          "O sistema IoT que ele construiu economizou milhares em perdas de matéria-prima. Monitoramento 24/7 com alertas instantâneos.",
-      },
-      {
-        "@type": "Review",
-        author: { "@type": "Person", name: "Ana L." },
-        reviewRating: { "@type": "Rating", ratingValue: "5" },
-        reviewBody:
-          "Comunicação impecável. Toda semana tinha demo funcionando. Nunca trabalhei com um dev que entendesse tão bem de negócios.",
-      },
-    ],
+    areaServed: "BR",
+    serviceType: "Desenvolvimento de software sob medida",
+    // Sem aggregateRating e sem review: avaliação do próprio negócio, marcada
+    // no próprio site, não é elegível a rich result pelo Google e é caminho
+    // conhecido de ação manual. Depoimento de cliente continua na página, como
+    // texto — o que sai é só a marcação estruturada.
   },
 ];
 
@@ -280,6 +262,7 @@ export default function RootLayout({
         <MobileCtaBar />
         <DesktopCtaBar />
         <Analytics />
+        <AttributionTracker />
         <ClickTracker />
         <EngagementTracker />
         <CookieConsent />

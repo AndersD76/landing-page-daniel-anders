@@ -44,13 +44,23 @@ export async function POST(req: NextRequest) {
         utmSource: data.utmSource || null,
         utmMedium: data.utmMedium || null,
         utmCampaign: data.utmCampaign || null,
+        landingPage: data.landingPage || null,
+        formPage: data.formPage || null,
+        role: data.role || null,
+        scope: data.scope || null,
+        deadline: data.deadline || null,
       })
       .returning();
 
     await db.insert(leadEvents).values({
       leadId: lead.id,
       eventType: "form_submitted",
-      payload: { ip, userAgent: req.headers.get("user-agent") },
+      payload: {
+        ip,
+        userAgent: req.headers.get("user-agent"),
+        landingPage: data.landingPage,
+        formPage: data.formPage,
+      },
     });
 
     sendLeadNotification({
@@ -60,6 +70,10 @@ export async function POST(req: NextRequest) {
       company: data.company,
       message: data.message,
       source: data.source,
+      role: data.role,
+      scope: data.scope,
+      deadline: data.deadline,
+      landingPage: data.landingPage,
     });
 
     sendWebhookNotification({

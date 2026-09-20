@@ -26,6 +26,12 @@ export interface OpcaoIntegracao {
 
 export interface CalculadoraConfig {
   slug: "calculadora-site" | "calculadora-app";
+  /**
+   * Data da carga da tabela de preços. Vive junto do dado: quem mexe nas
+   * faixas mexe aqui. As páginas leem este campo para o carimbo de fonte —
+   * nunca escrevem a data à mão.
+   */
+  atualizadoEm: string; // ISO (YYYY-MM-DD)
   unidadeLabel: string; // pergunta do passo 2
   tipos: OpcaoTipo[];
   volumes: OpcaoMultiplicador[];
@@ -54,6 +60,7 @@ export interface Estimativa {
 
 export const configSite: CalculadoraConfig = {
   slug: "calculadora-site",
+  atualizadoEm: "2026-09-20",
   unidadeLabel: "Quantas páginas o site vai ter?",
   tipos: [
     {
@@ -115,6 +122,7 @@ export const configSite: CalculadoraConfig = {
 
 export const configApp: CalculadoraConfig = {
   slug: "calculadora-app",
+  atualizadoEm: "2026-09-20",
   unidadeLabel: "Quantas telas o app vai ter?",
   tipos: [
     {
@@ -280,4 +288,15 @@ export function resumoSelecao(
     `Prazo: ${prazo?.label}`,
     `Estimativa: ${formatBRL(estimativa.min)} - ${formatBRL(estimativa.max)}`,
   ].join(" | ");
+}
+
+
+/** Nome da fonte do dado de preço, para o carimbo das páginas. */
+export const FONTE_PRECIFICACAO =
+  "Modelo de precificação AndersDev — mercado freelancer BR";
+
+/** Formata a data da carga (dd/mm/aaaa) a partir do próprio dado. */
+export function formatDataCarga(iso: string): string {
+  const [a, m, d] = iso.split("-");
+  return `${d}/${m}/${a}`;
 }

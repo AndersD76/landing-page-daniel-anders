@@ -1,0 +1,370 @@
+{
+  "fonte": "IBGE — Cadastro Central de Empresas (CEMPRE)",
+  "fonteUrl": "https://sidra.ibge.gov.br/tabela/6449",
+  "agregado": 6449,
+  "anoReferencia": "2021",
+  "carregadoEm": "2026-09-20",
+  "totalEmpresasBrasil": 5748599,
+  "setores": [
+    {
+      "slug": "clinicas-e-consultorios",
+      "cnae": "86.30-5",
+      "empresasBrasil": 214609,
+      "pessoalOcupado": 730493,
+      "salariosMilReais": 9598742,
+      "topUfs": [
+        {
+          "uf": "São Paulo",
+          "empresas": 68911
+        },
+        {
+          "uf": "Minas Gerais",
+          "empresas": 25175
+        },
+        {
+          "uf": "Rio de Janeiro",
+          "empresas": 18322
+        },
+        {
+          "uf": "Paraná",
+          "empresas": 17583
+        },
+        {
+          "uf": "Bahia",
+          "empresas": 11961
+        }
+      ],
+      "ufsComDado": 27
+    },
+    {
+      "slug": "restaurantes-e-bares",
+      "cnae": "56.11-2",
+      "empresasBrasil": 222959,
+      "pessoalOcupado": 1382777,
+      "salariosMilReais": 20039535,
+      "topUfs": [
+        {
+          "uf": "São Paulo",
+          "empresas": 68999
+        },
+        {
+          "uf": "Minas Gerais",
+          "empresas": 23871
+        },
+        {
+          "uf": "Rio de Janeiro",
+          "empresas": 19677
+        },
+        {
+          "uf": "Paraná",
+          "empresas": 18343
+        },
+        {
+          "uf": "Rio Grande do Sul",
+          "empresas": 16274
+        }
+      ],
+      "ufsComDado": 27
+    },
+    {
+      "slug": "transportadoras",
+      "cnae": "49.30-2",
+      "empresasBrasil": 150288,
+      "pessoalOcupado": 1224200,
+      "salariosMilReais": 33435100,
+      "topUfs": [
+        {
+          "uf": "São Paulo",
+          "empresas": 42698
+        },
+        {
+          "uf": "Paraná",
+          "empresas": 20060
+        },
+        {
+          "uf": "Minas Gerais",
+          "empresas": 16963
+        },
+        {
+          "uf": "Rio Grande do Sul",
+          "empresas": 16826
+        },
+        {
+          "uf": "Santa Catarina",
+          "empresas": 14516
+        }
+      ],
+      "ufsComDado": 27
+    },
+    {
+      "slug": "imobiliarias",
+      "cnae": "68.10-2",
+      "empresasBrasil": 97250,
+      "pessoalOcupado": 247040,
+      "salariosMilReais": 2352052,
+      "topUfs": [
+        {
+          "uf": "São Paulo",
+          "empresas": 37803
+        },
+        {
+          "uf": "Minas Gerais",
+          "empresas": 9926
+        },
+        {
+          "uf": "Santa Catarina",
+          "empresas": 9200
+        },
+        {
+          "uf": "Paraná",
+          "empresas": 8759
+        },
+        {
+          "uf": "Rio Grande do Sul",
+          "empresas": 6496
+        }
+      ],
+      "ufsComDado": 27
+    },
+    {
+      "slug": "escritorios-de-advocacia",
+      "cnae": "69.11-7",
+      "empresasBrasil": 75533,
+      "pessoalOcupado": 209423,
+      "salariosMilReais": 4244137,
+      "topUfs": [
+        {
+          "uf": "São Paulo",
+          "empresas": 23204
+        },
+        {
+          "uf": "Paraná",
+          "empresas": 7427
+        },
+        {
+          "uf": "Rio Grande do Sul",
+          "empresas": 6706
+        },
+        {
+          "uf": "Rio de Janeiro",
+          "empresas": 6636
+        },
+        {
+          "uf": "Minas Gerais",
+          "empresas": 6568
+        }
+      ],
+      "ufsComDado": 27
+    },
+    {
+      "slug": "escritorios-de-contabilidade",
+      "cnae": "69.20-6",
+      "empresasBrasil": 73040,
+      "pessoalOcupado": 414826,
+      "salariosMilReais": 9586455,
+      "topUfs": [
+        {
+          "uf": "São Paulo",
+          "empresas": 19758
+        },
+        {
+          "uf": "Minas Gerais",
+          "empresas": 7983
+        },
+        {
+          "uf": "Rio de Janeiro",
+          "empresas": 5814
+        },
+        {
+          "uf": "Paraná",
+          "empresas": 5756
+        },
+        {
+          "uf": "Rio Grande do Sul",
+          "empresas": 5584
+        }
+      ],
+      "ufsComDado": 27
+    },
+    {
+      "slug": "empresas-de-engenharia",
+      "cnae": "71.12-0",
+      "empresasBrasil": 65727,
+      "pessoalOcupado": 304435,
+      "salariosMilReais": 9121434,
+      "topUfs": [
+        {
+          "uf": "São Paulo",
+          "empresas": 20457
+        },
+        {
+          "uf": "Minas Gerais",
+          "empresas": 9682
+        },
+        {
+          "uf": "Rio de Janeiro",
+          "empresas": 5318
+        },
+        {
+          "uf": "Paraná",
+          "empresas": 5176
+        },
+        {
+          "uf": "Rio Grande do Sul",
+          "empresas": 4613
+        }
+      ],
+      "ufsComDado": 27
+    },
+    {
+      "slug": "oficinas-mecanicas",
+      "cnae": "45.20-0",
+      "empresasBrasil": 80239,
+      "pessoalOcupado": 309907,
+      "salariosMilReais": 4822878,
+      "topUfs": [
+        {
+          "uf": "São Paulo",
+          "empresas": 21373
+        },
+        {
+          "uf": "Minas Gerais",
+          "empresas": 9404
+        },
+        {
+          "uf": "Paraná",
+          "empresas": 8470
+        },
+        {
+          "uf": "Rio Grande do Sul",
+          "empresas": 7220
+        },
+        {
+          "uf": "Santa Catarina",
+          "empresas": 6617
+        }
+      ],
+      "ufsComDado": 27
+    },
+    {
+      "slug": "academias",
+      "cnae": "93.13-1",
+      "empresasBrasil": 32528,
+      "pessoalOcupado": 137794,
+      "salariosMilReais": 1469843,
+      "topUfs": [
+        {
+          "uf": "São Paulo",
+          "empresas": 8400
+        },
+        {
+          "uf": "Minas Gerais",
+          "empresas": 4058
+        },
+        {
+          "uf": "Rio Grande do Sul",
+          "empresas": 2655
+        },
+        {
+          "uf": "Paraná",
+          "empresas": 2569
+        },
+        {
+          "uf": "Rio de Janeiro",
+          "empresas": 2464
+        }
+      ],
+      "ufsComDado": 27
+    },
+    {
+      "slug": "saloes-de-beleza",
+      "cnae": "96.02-5",
+      "empresasBrasil": 39470,
+      "pessoalOcupado": 124246,
+      "salariosMilReais": 1529918,
+      "topUfs": [
+        {
+          "uf": "São Paulo",
+          "empresas": 12880
+        },
+        {
+          "uf": "Rio de Janeiro",
+          "empresas": 4739
+        },
+        {
+          "uf": "Minas Gerais",
+          "empresas": 3021
+        },
+        {
+          "uf": "Paraná",
+          "empresas": 2817
+        },
+        {
+          "uf": "Rio Grande do Sul",
+          "empresas": 2482
+        }
+      ],
+      "ufsComDado": 27
+    },
+    {
+      "slug": "clinicas-veterinarias",
+      "cnae": "75.00-1",
+      "empresasBrasil": 14450,
+      "pessoalOcupado": 45783,
+      "salariosMilReais": 565809,
+      "topUfs": [
+        {
+          "uf": "São Paulo",
+          "empresas": 4776
+        },
+        {
+          "uf": "Minas Gerais",
+          "empresas": 1621
+        },
+        {
+          "uf": "Paraná",
+          "empresas": 1452
+        },
+        {
+          "uf": "Rio Grande do Sul",
+          "empresas": 1322
+        },
+        {
+          "uf": "Rio de Janeiro",
+          "empresas": 1132
+        }
+      ],
+      "ufsComDado": 27
+    },
+    {
+      "slug": "produtoras-de-eventos",
+      "cnae": "82.30-0",
+      "empresasBrasil": 22544,
+      "pessoalOcupado": 65202,
+      "salariosMilReais": 841465,
+      "topUfs": [
+        {
+          "uf": "São Paulo",
+          "empresas": 9357
+        },
+        {
+          "uf": "Rio de Janeiro",
+          "empresas": 2264
+        },
+        {
+          "uf": "Minas Gerais",
+          "empresas": 1899
+        },
+        {
+          "uf": "Rio Grande do Sul",
+          "empresas": 1414
+        },
+        {
+          "uf": "Paraná",
+          "empresas": 1366
+        }
+      ],
+      "ufsComDado": 27
+    }
+  ]
+}

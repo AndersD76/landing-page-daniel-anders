@@ -282,6 +282,14 @@ export default function CalculadoraSitePage() {
             >
               Quanto custa criar um site profissional em 2026
             </Link>
+            . Prefere ver a faixa já pronta por tipo de projeto, com o que entra em
+            cada uma? Veja{" "}
+            <Link
+              href="/quanto-custa"
+              className="text-brand hover:text-brand-bright transition-colors"
+            >
+              quanto custa cada tipo de projeto
+            </Link>
             . E se o seu projeto é um aplicativo ou sistema, use a{" "}
             <Link
               href="/calculadora-app"

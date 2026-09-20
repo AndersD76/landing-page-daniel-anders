@@ -17,6 +17,16 @@ export const leadStatusEnum = pgEnum("lead_status", [
   "lost",
 ]);
 
+/**
+ * Prazo de decisão declarado pelo lead. É o campo que ordena a fila
+ * comercial — "agora" vem antes de "avaliando", sempre.
+ */
+export const leadDeadlineEnum = pgEnum("lead_deadline", [
+  "agora",
+  "90-dias",
+  "avaliando",
+]);
+
 export const subscriberStatusEnum = pgEnum("subscriber_status", [
   "pending",
   "confirmed",
@@ -34,6 +44,20 @@ export const leads = pgTable("leads", {
   utmSource: varchar("utm_source", { length: 255 }),
   utmMedium: varchar("utm_medium", { length: 255 }),
   utmCampaign: varchar("utm_campaign", { length: 255 }),
+
+  /**
+   * Página de ENTRADA da sessão (não a do formulário). É a única forma de
+   * saber qual página gera dinheiro. Gravada no lead, não só no evento.
+   */
+  landingPage: varchar("landing_page", { length: 500 }),
+  /** Página onde o formulário foi efetivamente enviado. */
+  formPage: varchar("form_page", { length: 500 }),
+
+  /* --- qualificação --- */
+  role: varchar("role", { length: 100 }),
+  scope: varchar("scope", { length: 100 }),
+  deadline: leadDeadlineEnum("deadline"),
+
   status: leadStatusEnum("status").default("new"),
   notes: text("notes"),
   createdAt: timestamp("created_at").defaultNow().notNull(),

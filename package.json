@@ -10,7 +10,12 @@
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push",
-    "db:studio": "drizzle-kit studio"
+    "db:studio": "drizzle-kit studio",
+    "test:contrato": "tsx scripts/teste-contrato-formularios.ts",
+    "gate": "tsx scripts/relatorio-gate.ts",
+    "validar:seo": "node scripts/validar-seo.mjs",
+    "carregar:cempre": "node scripts/carregar-cempre.mjs",
+    "verificar": "npm run test:contrato && npm run gate && npm run validar:seo"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
@@ -36,6 +41,7 @@
     "postcss": "^8.4.49",
     "sharp": "^0.34.5",
     "tailwindcss": "^3.4.17",
+    "tsx": "^4.23.15",
     "typescript": "^5.6.0"
   }
 }

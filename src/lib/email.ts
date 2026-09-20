@@ -15,6 +15,27 @@ interface LeadNotificationData {
   company?: string;
   message?: string;
   source?: string;
+  role?: string;
+  scope?: string;
+  deadline?: string;
+  landingPage?: string;
+}
+
+/** Rótulos legíveis do prazo de decisão — ordenam a fila comercial. */
+const PRAZO_LABEL: Record<string, string> = {
+  agora: "AGORA",
+  "90-dias": "90 dias",
+  avaliando: "avaliando",
+};
+
+/**
+ * Assunto que já diz quem é, sem precisar abrir:
+ *   Novo lead: Ana Souza (ecommerce/pagamento) — AGORA
+ */
+function assuntoLead(lead: LeadNotificationData): string {
+  const recorte = lead.scope || lead.source || "website";
+  const prazo = PRAZO_LABEL[lead.deadline || ""] || "prazo não informado";
+  return `Novo lead: ${lead.name} (${recorte}) — ${prazo}`;
 }
 
 export async function sendLeadNotification(lead: LeadNotificationData) {
@@ -22,7 +43,7 @@ export async function sendLeadNotification(lead: LeadNotificationData) {
     await getResend().emails.send({
       from: FROM_EMAIL,
       to: NOTIFY_EMAIL,
-      subject: `Novo Lead: ${escapeHtml(lead.name)} — ${escapeHtml(lead.source || "website")}`,
+      subject: assuntoLead(lead),
       html: `
         <div style="font-family: Arial, sans-serif; max-width: 600px;">
           <h2 style="color: #e63946;">Novo lead da landing page</h2>
@@ -31,6 +52,10 @@ export async function sendLeadNotification(lead: LeadNotificationData) {
             <tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Email</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${escapeHtml(lead.email)}</td></tr>
             <tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Telefone</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${escapeHtml(lead.phone || "—")}</td></tr>
             <tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Empresa</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${escapeHtml(lead.company || "—")}</td></tr>
+            <tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Papel</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${escapeHtml(lead.role || "—")}</td></tr>
+            <tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Escopo</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${escapeHtml(lead.scope || "—")}</td></tr>
+            <tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Prazo de decisão</td><td style="padding: 8px; border-bottom: 1px solid #eee;"><strong>${escapeHtml(PRAZO_LABEL[lead.deadline || ""] || "—")}</strong></td></tr>
+            <tr><td style="padding: 8px; font-weight: bold; border-bottom: 1px solid #eee;">Página de entrada</td><td style="padding: 8px; border-bottom: 1px solid #eee;">${escapeHtml(lead.landingPage || "—")}</td></tr>
             <tr><td style="padding: 8px; font-weight: bold;">Mensagem</td><td style="padding: 8px;">${escapeHtml(lead.message || "—")}</td></tr>
           </table>
         </div>
@@ -78,7 +103,7 @@ export async function sendWebhookNotification(lead: LeadNotificationData) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          text: `🚀 Novo lead: *${escapeHtml(lead.name)}* (${escapeHtml(lead.email)}) — ${escapeHtml(lead.source || "website")}`,
+          text: `🚀 ${assuntoLead(lead)} — ${lead.email}`,
         }),
       });
     } catch (err) {

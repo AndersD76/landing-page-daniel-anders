@@ -283,6 +283,14 @@ export default function CalculadoraAppPage() {
             >
               Quanto custa desenvolver um app SaaS em 2026
             </Link>
+            . Prefere ver a faixa já pronta por tipo de projeto, com o que entra
+            em cada uma? Veja{" "}
+            <Link
+              href="/quanto-custa"
+              className="text-brand hover:text-brand-bright transition-colors"
+            >
+              quanto custa cada tipo de projeto
+            </Link>
             . E se o seu projeto é um site ou e-commerce, use a{" "}
             <Link
               href="/calculadora-site"

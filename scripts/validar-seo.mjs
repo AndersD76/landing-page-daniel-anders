@@ -16,8 +16,14 @@ const ALVOS = [
   join(RAIZ, "quanto-custa"),
   join(RAIZ, "sistema-para"),
   join(RAIZ, "sites-e-sistemas"),
+  join(RAIZ, "alternativa-a"),
 ];
-const HUBS = ["quanto-custa.html", "sistema-para.html", "sites-e-sistemas.html"];
+const HUBS = [
+  "quanto-custa.html",
+  "sistema-para.html",
+  "sites-e-sistemas.html",
+  "alternativa-a.html",
+];
 
 let falhas = 0;
 
@@ -131,7 +137,12 @@ for (const p of paginas) {
   if (!tipos.includes("BreadcrumbList")) erros.push("sem BreadcrumbList");
 
   // Páginas de entidade precisam de FAQPage e do carimbo de fonte
-  const ehEntidade = !["/quanto-custa", "/sistema-para", "/sites-e-sistemas"].includes(p.rel);
+  const ehEntidade = ![
+    "/quanto-custa",
+    "/sistema-para",
+    "/sites-e-sistemas",
+    "/alternativa-a",
+  ].includes(p.rel);
   if (ehEntidade) {
     if (!tipos.includes("FAQPage")) erros.push("sem FAQPage");
     if (!/Fonte:.*atualizado em/.test(p.html))
@@ -232,10 +243,15 @@ if (!indice) {
 } else {
   const filhos = [...indice.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
   console.log(`  índice aponta para ${filhos.length} sitemaps filhos`);
-  if (filhos.length < 6) falha("índice com menos de 6 filhos");
+  if (filhos.length < 7) falha("índice com menos de 7 filhos");
 
   // Os dois sitemaps de conteúdo gerado.
-  const urlsSitemap = ["sitemap-custos.xml", "sitemap-setores.xml", "sitemap-cidades.xml"].flatMap(
+  const urlsSitemap = [
+    "sitemap-custos.xml",
+    "sitemap-setores.xml",
+    "sitemap-cidades.xml",
+    "sitemap-alternativas.xml",
+  ].flatMap(
     (nome) => {
       const xml = lerSitemap(nome);
       if (!xml) {

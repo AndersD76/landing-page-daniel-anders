@@ -23,6 +23,11 @@ import {
   cidadesReprovadas,
   fonteCidades,
 } from "../src/data/cidades";
+import {
+  paginasAlternativa,
+  alternativasIndexaveis,
+  alternativasReprovadas,
+} from "../src/data/alternativas-paginas";
 
 const linha = "=".repeat(66);
 
@@ -129,11 +134,37 @@ for (const p of cidadesIndexaveis.slice(0, 6)) {
   );
 }
 
+console.log("\n\nQuality gate — eixo COMPARAÇÃO (alternativa a X)");
+console.log(linha);
+console.log("Fonte do dado: modelo de precificação próprio (o preço do concorrente");
+console.log("vem do visitante, pela calculadora de ponto de virada)\n");
+console.log(`Geradas:     ${paginasAlternativa.length}`);
+console.log(`Indexáveis:  ${alternativasIndexaveis.length}`);
+console.log(`Reprovadas:  ${alternativasReprovadas.length}`);
+if (alternativasReprovadas.length) {
+  console.log("\nFora do índice e fora do sitemap:");
+  for (const p of alternativasReprovadas) {
+    console.log(`  ${p.url}`);
+    for (const m of p.gate.reprovacoes) console.log(`     - ${m}`);
+  }
+}
+const pa = paginasAlternativa.map((p) => p.gate.palavras).sort((a, b) => a - b);
+console.log(
+  `\nProsa própria: mín ${pa[0]} / mediana ${pa[Math.floor(pa.length / 2)]} / máx ${pa[pa.length - 1]}`
+);
+
 /* ------------------------------------------------------------------ total */
 
 const total =
-  paginasIndexaveis.length + setoresIndexaveis.length + cidadesIndexaveis.length;
-const geradas = paginasCusto.length + paginasSetor.length + paginasCidade.length;
+  paginasIndexaveis.length +
+  setoresIndexaveis.length +
+  cidadesIndexaveis.length +
+  alternativasIndexaveis.length;
+const geradas =
+  paginasCusto.length +
+  paginasSetor.length +
+  paginasCidade.length +
+  paginasAlternativa.length;
 
 console.log("\n" + linha);
 console.log(`TOTAL: ${total} páginas indexáveis de ${geradas} geradas`);

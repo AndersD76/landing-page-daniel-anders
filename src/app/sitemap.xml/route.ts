@@ -10,6 +10,7 @@ const FILHOS = [
   "sitemap-custos.xml",
   "sitemap-setores.xml",
   "sitemap-cidades.xml",
+  "sitemap-alternativas.xml",
 ];
 
 export function GET() {

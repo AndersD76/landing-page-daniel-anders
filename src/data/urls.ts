@@ -11,6 +11,7 @@ import { getAllPosts } from "./blog";
 import { BASE_URL, paginasIndexaveis } from "./custos";
 import { setoresIndexaveis } from "./setores-paginas";
 import { cidadesIndexaveis } from "./cidades";
+import { alternativasIndexaveis } from "./alternativas-paginas";
 import type { UrlSitemap } from "@/lib/sitemap";
 
 export { BASE_URL };
@@ -29,6 +30,7 @@ const FIXAS: Array<{
   { path: "/quanto-custa", priority: 0.9, changefreq: "monthly" },
   { path: "/sistema-para", priority: 0.9, changefreq: "monthly" },
   { path: "/sites-e-sistemas", priority: 0.9, changefreq: "monthly" },
+  { path: "/alternativa-a", priority: 0.9, changefreq: "monthly" },
   { path: "/calculadora-site", priority: 0.9, changefreq: "monthly" },
   { path: "/calculadora-app", priority: 0.9, changefreq: "monthly" },
   { path: "/apps", priority: 0.8, changefreq: "weekly" },
@@ -101,6 +103,16 @@ export function urlsCidades(): UrlSitemap[] {
   }));
 }
 
+/** Só o que passou no quality gate do eixo de comparação. */
+export function urlsAlternativas(): UrlSitemap[] {
+  return alternativasIndexaveis.map((p) => ({
+    loc: p.url,
+    lastmod: p.preco.atualizadoEmISO,
+    changefreq: "monthly" as const,
+    priority: 0.8,
+  }));
+}
+
 export function todasUrlsIndexaveis(): string[] {
   return [
     ...urlsFixas(),
@@ -109,5 +121,6 @@ export function todasUrlsIndexaveis(): string[] {
     ...urlsCustos(),
     ...urlsSetores(),
     ...urlsCidades(),
+    ...urlsAlternativas(),
   ].map((u) => u.loc);
 }

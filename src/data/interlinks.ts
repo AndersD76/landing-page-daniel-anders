@@ -12,6 +12,8 @@ const blogToServices: Record<string, string[]> = {
   "5-sinais-empresa-precisa-sistema-personalizado": ["desenvolvimento-saas-mvp", "dashboards-analytics", "integracoes-api-stripe"],
   "ecommerce-como-comecar-vender-online": ["sistemas-pagamento", "integracoes-api-stripe", "desenvolvimento-react-next-js"],
   "por-que-ter-app-mobile-empresa": ["desenvolvimento-react-next-js", "desenvolvimento-saas-mvp", "dashboards-tempo-real"],
+  "como-sair-da-planilha-na-empresa": ["desenvolvimento-saas-mvp", "dashboards-analytics", "migracao-stack-legado"],
+  "meu-site-nao-aparece-no-google": ["desenvolvimento-react-next-js", "desenvolvimento-saas-mvp"],
 };
 
 export function getRelatedServicesForPost(postSlug: string): ServiceData[] {

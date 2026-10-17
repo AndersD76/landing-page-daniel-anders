@@ -9,7 +9,9 @@ export interface BlogPost {
   readingTime: number;
 }
 
-export const blogPosts: BlogPost[] = [
+import { postsProblemas } from "./blog-problemas";
+
+const blogPostsBase: BlogPost[] = [
   {
     slug: "quanto-custa-desenvolver-app-saas-2026",
     title: "Quanto custa desenvolver um app SaaS em 2026 (com números reais)",
@@ -1199,6 +1201,12 @@ Se sua empresa em Passo Fundo ou região está considerando um app mobile, podem
     readingTime: 9,
   },
 ];
+
+/**
+ * Catálogo completo. Os posts de intenção problema/solução vivem em arquivo
+ * próprio (blog-problemas.ts) para não fazer cirurgia neste aqui.
+ */
+export const blogPosts: BlogPost[] = [...blogPostsBase, ...postsProblemas];
 
 // ── Helper functions ──
 

@@ -1,8 +1,10 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { Inter, Space_Grotesk } from "next/font/google";
 import { I18nProvider } from "@/lib/i18n/context";
 import { Analytics } from "@/components/analytics/Analytics";
 import { AttributionTracker } from "@/components/analytics/AttributionTracker";
+import { PageviewTracker } from "@/components/analytics/PageviewTracker";
 import { ClickTracker } from "@/components/analytics/ClickTracker";
 import { CookieConsent } from "@/components/analytics/CookieConsent";
 import { EngagementTracker } from "@/components/analytics/EngagementTracker";
@@ -264,6 +266,9 @@ export default function RootLayout({
         <DesktopCtaBar />
         <Analytics />
         <AttributionTracker />
+        <Suspense fallback={null}>
+          <PageviewTracker />
+        </Suspense>
         <ClickTracker />
         <EngagementTracker />
         <CookieConsent />

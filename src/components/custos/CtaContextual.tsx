@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { trackEvent } from "@/components/analytics/Analytics";
-import { attributionPayload } from "@/lib/attribution";
+import { attributionPayload, enviarTrack } from "@/lib/attribution";
 import { leadFormSchema, suggestEmailFix } from "@/lib/validations";
 
 interface CtaContextualProps {
@@ -56,6 +56,11 @@ export function CtaContextual({
           if (entry.isIntersecting && !jaVisto.current) {
             jaVisto.current = true;
             trackEvent("cta_visto", { source, escopo });
+            enviarTrack({
+              tipo: "cta_visto",
+              path: window.location.pathname,
+              escopo,
+            });
             obs.disconnect();
           }
         }
@@ -104,6 +109,11 @@ export function CtaContextual({
 
     setStatus("loading");
     trackEvent("cta_clicado", { source, escopo });
+    enviarTrack({
+      tipo: "cta_clicado",
+      path: window.location.pathname,
+      escopo,
+    });
 
     try {
       const res = await fetch("/api/lead", {

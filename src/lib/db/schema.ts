@@ -6,6 +6,7 @@ import {
   timestamp,
   jsonb,
   pgEnum,
+  index,
 } from "drizzle-orm/pg-core";
 
 export const leadStatusEnum = pgEnum("lead_status", [
@@ -108,6 +109,65 @@ export const emailSends = pgTable("email_sends", {
   bouncedAt: timestamp("bounced_at"),
   createdAt: timestamp("created_at").defaultNow().notNull(),
 });
+
+/**
+ * Espelho local de tráfego.
+ *
+ * Existe porque GA4 responde "quantas sessões" e não responde "qual página
+ * gerou aquele lead" sem exportação. Aqui o dado fica no mesmo banco do lead,
+ * então o join é uma query.
+ *
+ * Sem PII por desenho: nada de IP, nada de user-agent cru, nada de e-mail.
+ * O sessionId é aleatório, vive só no sessionStorage do visitante e morre com
+ * a aba — não identifica pessoa e não persiste entre visitas.
+ */
+export const pageviews = pgTable(
+  "pageviews",
+  {
+    id: serial("id").primaryKey(),
+    path: varchar("path", { length: 500 }).notNull(),
+    /** página de ENTRADA da sessão, repetida em toda linha para facilitar o corte */
+    landingPage: varchar("landing_page", { length: 500 }),
+    /** só o host do referrer: o caminho completo pode conter dado de terceiro */
+    referrerHost: varchar("referrer_host", { length: 255 }),
+    utmSource: varchar("utm_source", { length: 255 }),
+    utmMedium: varchar("utm_medium", { length: 255 }),
+    utmCampaign: varchar("utm_campaign", { length: 255 }),
+    /** aleatório, por aba, sem vínculo com pessoa */
+    sessionId: varchar("session_id", { length: 64 }).notNull(),
+    device: varchar("device", { length: 20 }),
+    createdAt: timestamp("created_at").defaultNow().notNull(),
+  },
+  (t) => [
+    index("pageviews_created_at_idx").on(t.createdAt),
+    index("pageviews_path_idx").on(t.path),
+    index("pageviews_session_idx").on(t.sessionId),
+  ]
+);
+
+/**
+ * Eventos de CTA. Sem o denominador (visto) não dá para saber se a oferta não
+ * convence ou se ninguém chegou a ver o botão.
+ */
+export const ctaEvents = pgTable(
+  "cta_events",
+  {
+    id: serial("id").primaryKey(),
+    /** "visto" | "clicado" */
+    tipo: varchar("tipo", { length: 20 }).notNull(),
+    path: varchar("path", { length: 500 }).notNull(),
+    escopo: varchar("escopo", { length: 150 }),
+    sessionId: varchar("session_id", { length: 64 }).notNull(),
+    createdAt: timestamp("created_at").defaultNow().notNull(),
+  },
+  (t) => [
+    index("cta_events_created_at_idx").on(t.createdAt),
+    index("cta_events_tipo_idx").on(t.tipo),
+  ]
+);
+
+export type Pageview = typeof pageviews.$inferSelect;
+export type CtaEvent = typeof ctaEvents.$inferSelect;
 
 export type Lead = typeof leads.$inferSelect;
 export type NewLead = typeof leads.$inferInsert;

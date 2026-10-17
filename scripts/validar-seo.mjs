@@ -12,19 +12,18 @@ import { readdirSync, readFileSync, existsSync, statSync } from "node:fs";
 import { join } from "node:path";
 
 const RAIZ = ".next/server/app";
-const ALVOS = [join(RAIZ, "quanto-custa"), join(RAIZ, "sistema-para")];
-const HUBS = ["quanto-custa.html", "sistema-para.html"];
+const ALVOS = [
+  join(RAIZ, "quanto-custa"),
+  join(RAIZ, "sistema-para"),
+  join(RAIZ, "sites-e-sistemas"),
+];
+const HUBS = ["quanto-custa.html", "sistema-para.html", "sites-e-sistemas.html"];
 
 let falhas = 0;
-let avisos = 0;
 
 function falha(msg) {
   falhas++;
   console.log(`  FALHA  ${msg}`);
-}
-function aviso(msg) {
-  avisos++;
-  console.log(`  aviso  ${msg}`);
 }
 
 const ausentes = ALVOS.filter((a) => !existsSync(a));
@@ -132,7 +131,7 @@ for (const p of paginas) {
   if (!tipos.includes("BreadcrumbList")) erros.push("sem BreadcrumbList");
 
   // Páginas de entidade precisam de FAQPage e do carimbo de fonte
-  const ehEntidade = !["/quanto-custa", "/sistema-para"].includes(p.rel);
+  const ehEntidade = !["/quanto-custa", "/sistema-para", "/sites-e-sistemas"].includes(p.rel);
   if (ehEntidade) {
     if (!tipos.includes("FAQPage")) erros.push("sem FAQPage");
     if (!/Fonte:.*atualizado em/.test(p.html))
@@ -233,10 +232,10 @@ if (!indice) {
 } else {
   const filhos = [...indice.matchAll(/<loc>([^<]+)<\/loc>/g)].map((m) => m[1]);
   console.log(`  índice aponta para ${filhos.length} sitemaps filhos`);
-  if (filhos.length < 5) falha("índice com menos de 5 filhos");
+  if (filhos.length < 6) falha("índice com menos de 6 filhos");
 
   // Os dois sitemaps de conteúdo gerado.
-  const urlsSitemap = ["sitemap-custos.xml", "sitemap-setores.xml"].flatMap(
+  const urlsSitemap = ["sitemap-custos.xml", "sitemap-setores.xml", "sitemap-cidades.xml"].flatMap(
     (nome) => {
       const xml = lerSitemap(nome);
       if (!xml) {
@@ -274,7 +273,7 @@ if (!indice) {
 /* ----------------------------------------------------------------- saída */
 
 console.log("\n" + "=".repeat(66));
-if (avisos) console.log(`${avisos} aviso(s).`);
+
 if (falhas > 0) {
   console.error(`${falhas} falha(s) de SEO no HTML gerado.\n`);
   process.exit(1);

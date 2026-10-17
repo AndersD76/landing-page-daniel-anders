@@ -4,6 +4,10 @@ import { EadNavbar } from "@/components/ead/EadNavbar";
 import { PageFooter } from "@/components/layout/PageFooter";
 
 export const metadata: Metadata = {
+  // Fora do índice enquanto a listagem mostrar "Em breve". Página com
+  // placeholder no ar gasta orçamento de rastreio e não responde a busca
+  // nenhuma. Volta ao sitemap quando houver curso publicado.
+  robots: { index: false, follow: true },
   title: "Cursos Gratuitos de Desenvolvimento",
   description:
     "Cursos gratuitos de desenvolvimento web, apps e sistemas. Aprenda React, Next.js, TypeScript, Python e mais com quem constroi software de verdade.",

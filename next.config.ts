@@ -29,6 +29,17 @@ const nextConfig: NextConfig = {
   images: {
     formats: ["image/avif", "image/webp"],
   },
+  // Host canônico. Hoje o apex nem resolve no DNS, então isto é rede de
+  // segurança: se um dia apontar para o app, redireciona em vez de servir o
+  // site em dois hostnames e dividir o sinal entre eles.
+  redirects: async () => [
+    {
+      source: "/:path*",
+      has: [{ type: "host", value: "andersdev.com.br" }],
+      destination: "https://www.andersdev.com.br/:path*",
+      permanent: true,
+    },
+  ],
   headers: async () => [
     {
       source: "/(.*)",

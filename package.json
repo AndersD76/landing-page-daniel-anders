@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start -p ${PORT:-3000}",
-    "lint": "next lint",
+    "lint": "eslint src scripts",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push",
@@ -17,7 +17,8 @@
     "carregar:cempre": "node scripts/carregar-cempre.mjs",
     "verificar": "npm run test:contrato && npm run gate && npm run auditar:precos && npm run validar:seo",
     "auditar:precos": "node scripts/auditar-precos.mjs",
-    "avisar:indexnow": "node scripts/avisar-indexnow.mjs"
+    "avisar:indexnow": "node scripts/avisar-indexnow.mjs",
+    "carregar:cidades": "node scripts/carregar-cidades.mjs"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
@@ -33,6 +34,7 @@
     "zod": "^3.23.0"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.7",
     "@types/bcryptjs": "^2.4.6",
     "@types/jsonwebtoken": "^9.0.10",
     "@types/node": "^22.0.0",
@@ -40,6 +42,8 @@
     "@types/react-dom": "^18.3.0",
     "autoprefixer": "^10.4.20",
     "drizzle-kit": "^0.31.10",
+    "eslint": "^9.39.5",
+    "eslint-config-next": "^16.4.2",
     "postcss": "^8.4.49",
     "sharp": "^0.34.5",
     "tailwindcss": "^3.4.17",

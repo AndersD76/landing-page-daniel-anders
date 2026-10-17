@@ -31,6 +31,7 @@ export function PageFooter({ narrow }: PageFooterProps) {
           <Link href="/blog" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Blog</Link>
           <Link href="/quanto-custa" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Quanto custa</Link>
           <Link href="/sistema-para" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Por setor</Link>
+          <Link href="/sites-e-sistemas" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Por cidade</Link>
           <Link href="/calculadora-site" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Calculadora</Link>
           <Link href="/apps" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Apps</Link>
           <Link href="/privacidade" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Privacidade</Link>

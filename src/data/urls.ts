@@ -10,6 +10,7 @@ import { getServiceSlugs } from "./services";
 import { getAllPosts } from "./blog";
 import { BASE_URL, paginasIndexaveis } from "./custos";
 import { setoresIndexaveis } from "./setores-paginas";
+import { cidadesIndexaveis } from "./cidades";
 import type { UrlSitemap } from "@/lib/sitemap";
 
 export { BASE_URL };
@@ -27,6 +28,7 @@ const FIXAS: Array<{
   { path: "", priority: 1.0, changefreq: "weekly" },
   { path: "/quanto-custa", priority: 0.9, changefreq: "monthly" },
   { path: "/sistema-para", priority: 0.9, changefreq: "monthly" },
+  { path: "/sites-e-sistemas", priority: 0.9, changefreq: "monthly" },
   { path: "/calculadora-site", priority: 0.9, changefreq: "monthly" },
   { path: "/calculadora-app", priority: 0.9, changefreq: "monthly" },
   { path: "/apps", priority: 0.8, changefreq: "weekly" },
@@ -35,7 +37,6 @@ const FIXAS: Array<{
   { path: "/para-pmes-brasil", priority: 0.8, changefreq: "monthly" },
   { path: "/agencias-parceiras", priority: 0.8, changefreq: "monthly" },
   { path: "/trabalhar-comigo", priority: 0.8, changefreq: "monthly" },
-  { path: "/cursos", priority: 0.7, changefreq: "monthly" },
   { path: "/recursos/spec-app-startup", priority: 0.7, changefreq: "monthly" },
   { path: "/privacidade", priority: 0.3, changefreq: "yearly" },
 ];
@@ -90,6 +91,16 @@ export function urlsSetores(): UrlSitemap[] {
   }));
 }
 
+/** Só o que passou no quality gate do eixo geográfico. */
+export function urlsCidades(): UrlSitemap[] {
+  return cidadesIndexaveis.map((p) => ({
+    loc: p.url,
+    lastmod: p.preco.atualizadoEmISO,
+    changefreq: "monthly" as const,
+    priority: 0.7,
+  }));
+}
+
 export function todasUrlsIndexaveis(): string[] {
   return [
     ...urlsFixas(),
@@ -97,5 +108,6 @@ export function todasUrlsIndexaveis(): string[] {
     ...urlsBlog(),
     ...urlsCustos(),
     ...urlsSetores(),
+    ...urlsCidades(),
   ].map((u) => u.loc);
 }

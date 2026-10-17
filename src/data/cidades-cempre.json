@@ -1,0 +1,3691 @@
+{
+  "fonte": "IBGE — Cadastro Central de Empresas (CEMPRE)",
+  "fonteUrl": "https://sidra.ibge.gov.br/tabela/6449",
+  "fonteRegioes": "IBGE — Divisão territorial brasileira",
+  "agregado": 6449,
+  "anoReferencia": "2021",
+  "carregadoEm": "2026-10-17",
+  "uf": "RS",
+  "minEmpresas": 800,
+  "totalEmpresasUf": 453631,
+  "mediaUf": [
+    {
+      "nome": "Agropecuária",
+      "empresas": 3605,
+      "pctUf": 0.79
+    },
+    {
+      "nome": "Indústria de transformação",
+      "empresas": 44819,
+      "pctUf": 9.88
+    },
+    {
+      "nome": "Construção",
+      "empresas": 26105,
+      "pctUf": 5.75
+    },
+    {
+      "nome": "Comércio e reparação de veículos",
+      "empresas": 144558,
+      "pctUf": 31.87
+    },
+    {
+      "nome": "Transporte e armazenagem",
+      "empresas": 24734,
+      "pctUf": 5.45
+    },
+    {
+      "nome": "Alojamento e alimentação",
+      "empresas": 20316,
+      "pctUf": 4.48
+    },
+    {
+      "nome": "Informação e comunicação",
+      "empresas": 11594,
+      "pctUf": 2.56
+    },
+    {
+      "nome": "Atividades financeiras e seguros",
+      "empresas": 11642,
+      "pctUf": 2.57
+    },
+    {
+      "nome": "Atividades imobiliárias",
+      "empresas": 12036,
+      "pctUf": 2.65
+    },
+    {
+      "nome": "Atividades profissionais e técnicas",
+      "empresas": 37011,
+      "pctUf": 8.16
+    },
+    {
+      "nome": "Serviços administrativos",
+      "empresas": 46631,
+      "pctUf": 10.28
+    },
+    {
+      "nome": "Educação",
+      "empresas": 13439,
+      "pctUf": 2.96
+    },
+    {
+      "nome": "Saúde e serviços sociais",
+      "empresas": 22242,
+      "pctUf": 4.9
+    },
+    {
+      "nome": "Artes, cultura e esporte",
+      "empresas": 8239,
+      "pctUf": 1.82
+    },
+    {
+      "nome": "Outros serviços",
+      "empresas": 22107,
+      "pctUf": 4.87
+    }
+  ],
+  "totalMunicipiosUf": 497,
+  "cidades": [
+    {
+      "slug": "porto-alegre",
+      "nome": "Porto Alegre",
+      "ibgeId": "4314902",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Porto Alegre",
+      "empresas": 87899,
+      "pessoalOcupado": 825476,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 19037
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 17570
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 12095
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 5568
+        },
+        {
+          "nome": "Informação e comunicação",
+          "empresas": 4687
+        },
+        {
+          "nome": "Construção",
+          "empresas": 4545
+        }
+      ]
+    },
+    {
+      "slug": "caxias-do-sul",
+      "nome": "Caxias do Sul",
+      "ibgeId": "4305108",
+      "uf": "RS",
+      "mesorregiao": "Nordeste Rio-grandense",
+      "microrregiao": "Caxias do Sul",
+      "empresas": 28269,
+      "pessoalOcupado": 200651,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 7356
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 4429
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 3873
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 2312
+        },
+        {
+          "nome": "Construção",
+          "empresas": 1926
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 1333
+        }
+      ]
+    },
+    {
+      "slug": "novo-hamburgo",
+      "nome": "Novo Hamburgo",
+      "ibgeId": "4313409",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Porto Alegre",
+      "empresas": 14106,
+      "pessoalOcupado": 100695,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 4373
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 1992
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 1568
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 1374
+        },
+        {
+          "nome": "Atividades financeiras e seguros",
+          "empresas": 690
+        },
+        {
+          "nome": "Construção",
+          "empresas": 647
+        }
+      ]
+    },
+    {
+      "slug": "canoas",
+      "nome": "Canoas",
+      "ibgeId": "4304606",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Porto Alegre",
+      "empresas": 12555,
+      "pessoalOcupado": 83975,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 4301
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 1332
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 1061
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 976
+        },
+        {
+          "nome": "Construção",
+          "empresas": 847
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 828
+        }
+      ]
+    },
+    {
+      "slug": "passo-fundo",
+      "nome": "Passo Fundo",
+      "ibgeId": "4314100",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Passo Fundo",
+      "empresas": 10760,
+      "pessoalOcupado": 89145,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 3571
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 1063
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 1035
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 815
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 752
+        },
+        {
+          "nome": "Construção",
+          "empresas": 709
+        }
+      ]
+    },
+    {
+      "slug": "pelotas",
+      "nome": "Pelotas",
+      "ibgeId": "4314407",
+      "uf": "RS",
+      "mesorregiao": "Sudeste Rio-grandense",
+      "microrregiao": "Pelotas",
+      "empresas": 10691,
+      "pessoalOcupado": 73544,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 3764
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 1171
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 863
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 699
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 661
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 649
+        }
+      ]
+    },
+    {
+      "slug": "santa-maria",
+      "nome": "Santa Maria",
+      "ibgeId": "4316907",
+      "uf": "RS",
+      "mesorregiao": "Centro Ocidental Rio-grandense",
+      "microrregiao": "Santa Maria",
+      "empresas": 9251,
+      "pessoalOcupado": 75701,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 3048
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 1082
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 833
+        },
+        {
+          "nome": "Construção",
+          "empresas": 630
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 508
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 474
+        }
+      ]
+    },
+    {
+      "slug": "bento-goncalves",
+      "nome": "Bento Gonçalves",
+      "ibgeId": "4302105",
+      "uf": "RS",
+      "mesorregiao": "Nordeste Rio-grandense",
+      "microrregiao": "Caxias do Sul",
+      "empresas": 8066,
+      "pessoalOcupado": 53231,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 2160
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 1209
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 823
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 638
+        },
+        {
+          "nome": "Construção",
+          "empresas": 579
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 440
+        }
+      ]
+    },
+    {
+      "slug": "sao-leopoldo",
+      "nome": "São Leopoldo",
+      "ibgeId": "4318705",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Porto Alegre",
+      "empresas": 7635,
+      "pessoalOcupado": 62756,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 2261
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 1025
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 871
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 652
+        },
+        {
+          "nome": "Construção",
+          "empresas": 508
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 316
+        }
+      ]
+    },
+    {
+      "slug": "santa-cruz-do-sul",
+      "nome": "Santa Cruz do Sul",
+      "ibgeId": "4316808",
+      "uf": "RS",
+      "mesorregiao": "Centro Oriental Rio-grandense",
+      "microrregiao": "Santa Cruz do Sul",
+      "empresas": 7323,
+      "pessoalOcupado": 54878,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 2284
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 670
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 605
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 539
+        },
+        {
+          "nome": "Construção",
+          "empresas": 524
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 485
+        }
+      ]
+    },
+    {
+      "slug": "gravatai",
+      "nome": "Gravataí",
+      "ibgeId": "4309209",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Porto Alegre",
+      "empresas": 7161,
+      "pessoalOcupado": 50327,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 2686
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 910
+        },
+        {
+          "nome": "Construção",
+          "empresas": 610
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 603
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 446
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 390
+        }
+      ]
+    },
+    {
+      "slug": "lajeado",
+      "nome": "Lajeado",
+      "ibgeId": "4311403",
+      "uf": "RS",
+      "mesorregiao": "Centro Oriental Rio-grandense",
+      "microrregiao": "Lajeado-Estrela",
+      "empresas": 6405,
+      "pessoalOcupado": 51673,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 1865
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 784
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 600
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 559
+        },
+        {
+          "nome": "Construção",
+          "empresas": 539
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 353
+        }
+      ]
+    },
+    {
+      "slug": "erechim",
+      "nome": "Erechim",
+      "ibgeId": "4307005",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Erechim",
+      "empresas": 6309,
+      "pessoalOcupado": 43372,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 2080
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 669
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 565
+        },
+        {
+          "nome": "Construção",
+          "empresas": 513
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 455
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 391
+        }
+      ]
+    },
+    {
+      "slug": "cachoeirinha",
+      "nome": "Cachoeirinha",
+      "ibgeId": "4303103",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Porto Alegre",
+      "empresas": 4819,
+      "pessoalOcupado": 44370,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 1705
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 636
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 413
+        },
+        {
+          "nome": "Construção",
+          "empresas": 403
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 349
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 293
+        }
+      ]
+    },
+    {
+      "slug": "ijui",
+      "nome": "Ijuí",
+      "ibgeId": "4310207",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Ijuí",
+      "empresas": 4566,
+      "pessoalOcupado": 27680,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 1765
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 357
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 323
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 305
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 286
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 280
+        }
+      ]
+    },
+    {
+      "slug": "rio-grande",
+      "nome": "Rio Grande",
+      "ibgeId": "4315602",
+      "uf": "RS",
+      "mesorregiao": "Sudeste Rio-grandense",
+      "microrregiao": "Litoral Lagunar",
+      "empresas": 4338,
+      "pessoalOcupado": 36029,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 1645
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 387
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 340
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 315
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 305
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 259
+        }
+      ]
+    },
+    {
+      "slug": "farroupilha",
+      "nome": "Farroupilha",
+      "ibgeId": "4307906",
+      "uf": "RS",
+      "mesorregiao": "Nordeste Rio-grandense",
+      "microrregiao": "Caxias do Sul",
+      "empresas": 3840,
+      "pessoalOcupado": 33133,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 1094
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 636
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 357
+        },
+        {
+          "nome": "Construção",
+          "empresas": 273
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 243
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 216
+        }
+      ]
+    },
+    {
+      "slug": "gramado",
+      "nome": "Gramado",
+      "ibgeId": "4309100",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Gramado-Canela",
+      "empresas": 3584,
+      "pessoalOcupado": 23541,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 770
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 574
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 510
+        },
+        {
+          "nome": "Construção",
+          "empresas": 308
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 254
+        },
+        {
+          "nome": "Atividades imobiliárias",
+          "empresas": 252
+        }
+      ]
+    },
+    {
+      "slug": "viamao",
+      "nome": "Viamão",
+      "ibgeId": "4323002",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Porto Alegre",
+      "empresas": 3584,
+      "pessoalOcupado": 20997,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 1419
+        },
+        {
+          "nome": "Construção",
+          "empresas": 323
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 304
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 281
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 215
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 170
+        }
+      ]
+    },
+    {
+      "slug": "capao-da-canoa",
+      "nome": "Capão da Canoa",
+      "ibgeId": "4304630",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Osório",
+      "empresas": 3555,
+      "pessoalOcupado": 14907,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 999
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 957
+        },
+        {
+          "nome": "Construção",
+          "empresas": 453
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 244
+        },
+        {
+          "nome": "Atividades imobiliárias",
+          "empresas": 180
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 129
+        }
+      ]
+    },
+    {
+      "slug": "sapiranga",
+      "nome": "Sapiranga",
+      "ibgeId": "4319901",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Porto Alegre",
+      "empresas": 3469,
+      "pessoalOcupado": 23971,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 1098
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 756
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 255
+        },
+        {
+          "nome": "Construção",
+          "empresas": 224
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 190
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 127
+        }
+      ]
+    },
+    {
+      "slug": "campo-bom",
+      "nome": "Campo Bom",
+      "ibgeId": "4303905",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Porto Alegre",
+      "empresas": 3404,
+      "pessoalOcupado": 25075,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 1083
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 600
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 297
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 274
+        },
+        {
+          "nome": "Construção",
+          "empresas": 177
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 148
+        }
+      ]
+    },
+    {
+      "slug": "santa-rosa",
+      "nome": "Santa Rosa",
+      "ibgeId": "4317202",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Santa Rosa",
+      "empresas": 3248,
+      "pessoalOcupado": 25028,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 1198
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 329
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 266
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 193
+        },
+        {
+          "nome": "Construção",
+          "empresas": 192
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 189
+        }
+      ]
+    },
+    {
+      "slug": "venancio-aires",
+      "nome": "Venâncio Aires",
+      "ibgeId": "4322608",
+      "uf": "RS",
+      "mesorregiao": "Centro Oriental Rio-grandense",
+      "microrregiao": "Santa Cruz do Sul",
+      "empresas": 2960,
+      "pessoalOcupado": 20105,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 933
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 331
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 283
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 243
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 194
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 146
+        }
+      ]
+    },
+    {
+      "slug": "sapucaia-do-sul",
+      "nome": "Sapucaia do Sul",
+      "ibgeId": "4320008",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Porto Alegre",
+      "empresas": 2913,
+      "pessoalOcupado": 19669,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 1144
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 422
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 215
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 192
+        },
+        {
+          "nome": "Construção",
+          "empresas": 186
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 158
+        }
+      ]
+    },
+    {
+      "slug": "santo-angelo",
+      "nome": "Santo Ângelo",
+      "ibgeId": "4317509",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Santo Ângelo",
+      "empresas": 2883,
+      "pessoalOcupado": 19457,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 1121
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 234
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 217
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 212
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 198
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 164
+        }
+      ]
+    },
+    {
+      "slug": "alvorada",
+      "nome": "Alvorada",
+      "ibgeId": "4300604",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Porto Alegre",
+      "empresas": 2840,
+      "pessoalOcupado": 18893,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 1181
+        },
+        {
+          "nome": "Construção",
+          "empresas": 316
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 311
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 195
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 146
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 120
+        }
+      ]
+    },
+    {
+      "slug": "uruguaiana",
+      "nome": "Uruguaiana",
+      "ibgeId": "4322400",
+      "uf": "RS",
+      "mesorregiao": "Sudoeste Rio-grandense",
+      "microrregiao": "Campanha Ocidental",
+      "empresas": 2827,
+      "pessoalOcupado": 20591,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 1072
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 408
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 254
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 169
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 129
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 121
+        }
+      ]
+    },
+    {
+      "slug": "montenegro",
+      "nome": "Montenegro",
+      "ibgeId": "4312401",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Montenegro",
+      "empresas": 2657,
+      "pessoalOcupado": 21874,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 915
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 219
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 200
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 196
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 179
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 157
+        }
+      ]
+    },
+    {
+      "slug": "carazinho",
+      "nome": "Carazinho",
+      "ibgeId": "4304705",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Carazinho",
+      "empresas": 2571,
+      "pessoalOcupado": 15005,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 963
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 221
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 219
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 184
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 168
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 151
+        }
+      ]
+    },
+    {
+      "slug": "bage",
+      "nome": "Bagé",
+      "ibgeId": "4301602",
+      "uf": "RS",
+      "mesorregiao": "Sudoeste Rio-grandense",
+      "microrregiao": "Campanha Meridional",
+      "empresas": 2560,
+      "pessoalOcupado": 21737,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 1042
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 197
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 165
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 163
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 139
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 134
+        }
+      ]
+    },
+    {
+      "slug": "esteio",
+      "nome": "Esteio",
+      "ibgeId": "4307708",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Porto Alegre",
+      "empresas": 2519,
+      "pessoalOcupado": 25501,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 868
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 289
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 258
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 191
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 180
+        },
+        {
+          "nome": "Construção",
+          "empresas": 154
+        }
+      ]
+    },
+    {
+      "slug": "garibaldi",
+      "nome": "Garibaldi",
+      "ibgeId": "4308607",
+      "uf": "RS",
+      "mesorregiao": "Nordeste Rio-grandense",
+      "microrregiao": "Caxias do Sul",
+      "empresas": 2489,
+      "pessoalOcupado": 18618,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 660
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 498
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 256
+        },
+        {
+          "nome": "Construção",
+          "empresas": 175
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 169
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 165
+        }
+      ]
+    },
+    {
+      "slug": "flores-da-cunha",
+      "nome": "Flores da Cunha",
+      "ibgeId": "4308201",
+      "uf": "RS",
+      "mesorregiao": "Nordeste Rio-grandense",
+      "microrregiao": "Caxias do Sul",
+      "empresas": 2417,
+      "pessoalOcupado": 18259,
+      "setores": [
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 568
+        },
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 540
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 236
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 209
+        },
+        {
+          "nome": "Construção",
+          "empresas": 190
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 120
+        }
+      ]
+    },
+    {
+      "slug": "estancia-velha",
+      "nome": "Estância Velha",
+      "ibgeId": "4307609",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Porto Alegre",
+      "empresas": 2333,
+      "pessoalOcupado": 15453,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 753
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 425
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 201
+        },
+        {
+          "nome": "Construção",
+          "empresas": 178
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 161
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 105
+        }
+      ]
+    },
+    {
+      "slug": "sant-ana-do-livramento",
+      "nome": "Sant'Ana do Livramento",
+      "ibgeId": "4317103",
+      "uf": "RS",
+      "mesorregiao": "Sudoeste Rio-grandense",
+      "microrregiao": "Campanha Central",
+      "empresas": 2330,
+      "pessoalOcupado": 14101,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 1168
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 138
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 135
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 127
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 118
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 114
+        }
+      ]
+    },
+    {
+      "slug": "taquara",
+      "nome": "Taquara",
+      "ibgeId": "4321204",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Gramado-Canela",
+      "empresas": 2322,
+      "pessoalOcupado": 12313,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 768
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 276
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 168
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 163
+        },
+        {
+          "nome": "Construção",
+          "empresas": 136
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 132
+        }
+      ]
+    },
+    {
+      "slug": "canela",
+      "nome": "Canela",
+      "ibgeId": "4304408",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Gramado-Canela",
+      "empresas": 2291,
+      "pessoalOcupado": 11763,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 599
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 343
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 253
+        },
+        {
+          "nome": "Construção",
+          "empresas": 206
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 197
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 164
+        }
+      ]
+    },
+    {
+      "slug": "torres",
+      "nome": "Torres",
+      "ibgeId": "4321501",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Osório",
+      "empresas": 2281,
+      "pessoalOcupado": 10565,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 692
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 412
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 232
+        },
+        {
+          "nome": "Construção",
+          "empresas": 192
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 119
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 113
+        }
+      ]
+    },
+    {
+      "slug": "camaqua",
+      "nome": "Camaquã",
+      "ibgeId": "4303509",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Camaquã",
+      "empresas": 2273,
+      "pessoalOcupado": 15591,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 908
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 272
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 180
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 159
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 131
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 112
+        }
+      ]
+    },
+    {
+      "slug": "vacaria",
+      "nome": "Vacaria",
+      "ibgeId": "4322509",
+      "uf": "RS",
+      "mesorregiao": "Nordeste Rio-grandense",
+      "microrregiao": "Vacaria",
+      "empresas": 2268,
+      "pessoalOcupado": 17474,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 897
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 194
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 193
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 166
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 147
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 146
+        }
+      ]
+    },
+    {
+      "slug": "marau",
+      "nome": "Marau",
+      "ibgeId": "4311809",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Passo Fundo",
+      "empresas": 2213,
+      "pessoalOcupado": 15959,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 660
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 269
+        },
+        {
+          "nome": "Construção",
+          "empresas": 201
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 179
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 174
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 159
+        }
+      ]
+    },
+    {
+      "slug": "cachoeira-do-sul",
+      "nome": "Cachoeira do Sul",
+      "ibgeId": "4303004",
+      "uf": "RS",
+      "mesorregiao": "Centro Oriental Rio-grandense",
+      "microrregiao": "Cachoeira do Sul",
+      "empresas": 2145,
+      "pessoalOcupado": 14248,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 880
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 176
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 152
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 141
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 129
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 108
+        }
+      ]
+    },
+    {
+      "slug": "guaiba",
+      "nome": "Guaíba",
+      "ibgeId": "4309308",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Porto Alegre",
+      "empresas": 2055,
+      "pessoalOcupado": 21684,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 767
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 183
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 147
+        },
+        {
+          "nome": "Construção",
+          "empresas": 142
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 140
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 130
+        }
+      ]
+    },
+    {
+      "slug": "guapore",
+      "nome": "Guaporé",
+      "ibgeId": "4309407",
+      "uf": "RS",
+      "mesorregiao": "Nordeste Rio-grandense",
+      "microrregiao": "Guaporé",
+      "empresas": 1934,
+      "pessoalOcupado": 10723,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 596
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 530
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 98
+        },
+        {
+          "nome": "Construção",
+          "empresas": 94
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 91
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 89
+        }
+      ]
+    },
+    {
+      "slug": "nova-prata",
+      "nome": "Nova Prata",
+      "ibgeId": "4313300",
+      "uf": "RS",
+      "mesorregiao": "Nordeste Rio-grandense",
+      "microrregiao": "Guaporé",
+      "empresas": 1913,
+      "pessoalOcupado": 11297,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 558
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 254
+        },
+        {
+          "nome": "Construção",
+          "empresas": 150
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 136
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 131
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 118
+        }
+      ]
+    },
+    {
+      "slug": "estrela",
+      "nome": "Estrela",
+      "ibgeId": "4307807",
+      "uf": "RS",
+      "mesorregiao": "Centro Oriental Rio-grandense",
+      "microrregiao": "Lajeado-Estrela",
+      "empresas": 1908,
+      "pessoalOcupado": 11642,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 600
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 296
+        },
+        {
+          "nome": "Construção",
+          "empresas": 168
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 138
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 135
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 126
+        }
+      ]
+    },
+    {
+      "slug": "frederico-westphalen",
+      "nome": "Frederico Westphalen",
+      "ibgeId": "4308508",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Frederico Westphalen",
+      "empresas": 1908,
+      "pessoalOcupado": 10650,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 696
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 182
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 174
+        },
+        {
+          "nome": "Construção",
+          "empresas": 134
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 125
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 121
+        }
+      ]
+    },
+    {
+      "slug": "panambi",
+      "nome": "Panambi",
+      "ibgeId": "4313904",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Ijuí",
+      "empresas": 1864,
+      "pessoalOcupado": 17919,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 626
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 315
+        },
+        {
+          "nome": "Construção",
+          "empresas": 147
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 139
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 96
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 88
+        }
+      ]
+    },
+    {
+      "slug": "cruz-alta",
+      "nome": "Cruz Alta",
+      "ibgeId": "4306106",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Cruz Alta",
+      "empresas": 1819,
+      "pessoalOcupado": 13392,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 723
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 158
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 113
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 111
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 96
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 96
+        }
+      ]
+    },
+    {
+      "slug": "tramandai",
+      "nome": "Tramandaí",
+      "ibgeId": "4321600",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Osório",
+      "empresas": 1785,
+      "pessoalOcupado": 9093,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 694
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 259
+        },
+        {
+          "nome": "Construção",
+          "empresas": 172
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 160
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 90
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 81
+        }
+      ]
+    },
+    {
+      "slug": "osorio",
+      "nome": "Osório",
+      "ibgeId": "4313508",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Osório",
+      "empresas": 1784,
+      "pessoalOcupado": 10607,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 707
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 136
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 116
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 112
+        },
+        {
+          "nome": "Construção",
+          "empresas": 110
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 107
+        }
+      ]
+    },
+    {
+      "slug": "teutonia",
+      "nome": "Teutônia",
+      "ibgeId": "4321451",
+      "uf": "RS",
+      "mesorregiao": "Centro Oriental Rio-grandense",
+      "microrregiao": "Lajeado-Estrela",
+      "empresas": 1693,
+      "pessoalOcupado": 13777,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 524
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 244
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 145
+        },
+        {
+          "nome": "Construção",
+          "empresas": 115
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 105
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 105
+        }
+      ]
+    },
+    {
+      "slug": "igrejinha",
+      "nome": "Igrejinha",
+      "ibgeId": "4310108",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Gramado-Canela",
+      "empresas": 1662,
+      "pessoalOcupado": 16578,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 510
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 397
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 120
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 96
+        },
+        {
+          "nome": "Construção",
+          "empresas": 91
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 85
+        }
+      ]
+    },
+    {
+      "slug": "carlos-barbosa",
+      "nome": "Carlos Barbosa",
+      "ibgeId": "4304804",
+      "uf": "RS",
+      "mesorregiao": "Nordeste Rio-grandense",
+      "microrregiao": "Caxias do Sul",
+      "empresas": 1618,
+      "pessoalOcupado": 17538,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 442
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 270
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 166
+        },
+        {
+          "nome": "Construção",
+          "empresas": 137
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 93
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 87
+        }
+      ]
+    },
+    {
+      "slug": "veranopolis",
+      "nome": "Veranópolis",
+      "ibgeId": "4322806",
+      "uf": "RS",
+      "mesorregiao": "Nordeste Rio-grandense",
+      "microrregiao": "Caxias do Sul",
+      "empresas": 1585,
+      "pessoalOcupado": 9088,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 482
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 275
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 146
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 143
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 81
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 81
+        }
+      ]
+    },
+    {
+      "slug": "alegrete",
+      "nome": "Alegrete",
+      "ibgeId": "4300406",
+      "uf": "RS",
+      "mesorregiao": "Sudoeste Rio-grandense",
+      "microrregiao": "Campanha Ocidental",
+      "empresas": 1552,
+      "pessoalOcupado": 9869,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 701
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 132
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 102
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 96
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 79
+        },
+        {
+          "nome": "Construção",
+          "empresas": 71
+        }
+      ]
+    },
+    {
+      "slug": "nova-petropolis",
+      "nome": "Nova Petrópolis",
+      "ibgeId": "4313201",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Gramado-Canela",
+      "empresas": 1535,
+      "pessoalOcupado": 10160,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 374
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 190
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 139
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 138
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 106
+        },
+        {
+          "nome": "Construção",
+          "empresas": 101
+        }
+      ]
+    },
+    {
+      "slug": "dois-irmaos",
+      "nome": "Dois Irmãos",
+      "ibgeId": "4306403",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Gramado-Canela",
+      "empresas": 1501,
+      "pessoalOcupado": 18154,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 414
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 250
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 145
+        },
+        {
+          "nome": "Construção",
+          "empresas": 103
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 103
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 79
+        }
+      ]
+    },
+    {
+      "slug": "encantado",
+      "nome": "Encantado",
+      "ibgeId": "4306809",
+      "uf": "RS",
+      "mesorregiao": "Centro Oriental Rio-grandense",
+      "microrregiao": "Lajeado-Estrela",
+      "empresas": 1494,
+      "pessoalOcupado": 12884,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 444
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 170
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 110
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 107
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 106
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 105
+        }
+      ]
+    },
+    {
+      "slug": "santo-antonio-da-patrulha",
+      "nome": "Santo Antônio da Patrulha",
+      "ibgeId": "4317608",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Osório",
+      "empresas": 1493,
+      "pessoalOcupado": 11103,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 549
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 232
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 114
+        },
+        {
+          "nome": "Construção",
+          "empresas": 89
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 87
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 69
+        }
+      ]
+    },
+    {
+      "slug": "santiago",
+      "nome": "Santiago",
+      "ibgeId": "4317400",
+      "uf": "RS",
+      "mesorregiao": "Centro Ocidental Rio-grandense",
+      "microrregiao": "Santiago",
+      "empresas": 1473,
+      "pessoalOcupado": 9496,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 626
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 109
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 107
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 98
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 90
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 67
+        }
+      ]
+    },
+    {
+      "slug": "parobe",
+      "nome": "Parobé",
+      "ibgeId": "4314050",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Porto Alegre",
+      "empresas": 1454,
+      "pessoalOcupado": 14646,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 505
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 337
+        },
+        {
+          "nome": "Construção",
+          "empresas": 107
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 64
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 61
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 53
+        }
+      ]
+    },
+    {
+      "slug": "sao-borja",
+      "nome": "São Borja",
+      "ibgeId": "4318002",
+      "uf": "RS",
+      "mesorregiao": "Sudoeste Rio-grandense",
+      "microrregiao": "Campanha Ocidental",
+      "empresas": 1395,
+      "pessoalOcupado": 9935,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 569
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 133
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 103
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 86
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 74
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 64
+        }
+      ]
+    },
+    {
+      "slug": "ivoti",
+      "nome": "Ivoti",
+      "ibgeId": "4310801",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Gramado-Canela",
+      "empresas": 1358,
+      "pessoalOcupado": 9715,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 447
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 177
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 104
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 97
+        },
+        {
+          "nome": "Construção",
+          "empresas": 90
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 69
+        }
+      ]
+    },
+    {
+      "slug": "tapejara",
+      "nome": "Tapejara",
+      "ibgeId": "4320909",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Passo Fundo",
+      "empresas": 1325,
+      "pessoalOcupado": 8918,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 461
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 199
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 93
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 80
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 78
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 74
+        }
+      ]
+    },
+    {
+      "slug": "soledade",
+      "nome": "Soledade",
+      "ibgeId": "4320800",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Soledade",
+      "empresas": 1324,
+      "pessoalOcupado": 7096,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 542
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 197
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 80
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 77
+        },
+        {
+          "nome": "Construção",
+          "empresas": 73
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 59
+        }
+      ]
+    },
+    {
+      "slug": "sarandi",
+      "nome": "Sarandi",
+      "ibgeId": "4320107",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Carazinho",
+      "empresas": 1260,
+      "pessoalOcupado": 8777,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 403
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 142
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 107
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 101
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 88
+        },
+        {
+          "nome": "Construção",
+          "empresas": 77
+        }
+      ]
+    },
+    {
+      "slug": "portao",
+      "nome": "Portão",
+      "ibgeId": "4314803",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Montenegro",
+      "empresas": 1258,
+      "pessoalOcupado": 13357,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 430
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 219
+        },
+        {
+          "nome": "Construção",
+          "empresas": 101
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 99
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 69
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 66
+        }
+      ]
+    },
+    {
+      "slug": "sao-gabriel",
+      "nome": "São Gabriel",
+      "ibgeId": "4318309",
+      "uf": "RS",
+      "mesorregiao": "Sudoeste Rio-grandense",
+      "microrregiao": "Campanha Central",
+      "empresas": 1240,
+      "pessoalOcupado": 7525,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 564
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 76
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 73
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 73
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 70
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 64
+        }
+      ]
+    },
+    {
+      "slug": "arroio-do-meio",
+      "nome": "Arroio do Meio",
+      "ibgeId": "4301008",
+      "uf": "RS",
+      "mesorregiao": "Centro Oriental Rio-grandense",
+      "microrregiao": "Lajeado-Estrela",
+      "empresas": 1214,
+      "pessoalOcupado": 7757,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 394
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 200
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 100
+        },
+        {
+          "nome": "Construção",
+          "empresas": 89
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 79
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 70
+        }
+      ]
+    },
+    {
+      "slug": "palmeira-das-missoes",
+      "nome": "Palmeira das Missões",
+      "ibgeId": "4313706",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Carazinho",
+      "empresas": 1196,
+      "pessoalOcupado": 5456,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 492
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 97
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 88
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 86
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 76
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 58
+        }
+      ]
+    },
+    {
+      "slug": "tres-de-maio",
+      "nome": "Três de Maio",
+      "ibgeId": "4321808",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Santa Rosa",
+      "empresas": 1194,
+      "pessoalOcupado": 7068,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 426
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 138
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 92
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 91
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 89
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 79
+        }
+      ]
+    },
+    {
+      "slug": "sao-luiz-gonzaga",
+      "nome": "São Luiz Gonzaga",
+      "ibgeId": "4318903",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Santo Ângelo",
+      "empresas": 1192,
+      "pessoalOcupado": 6193,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 557
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 115
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 77
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 73
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 62
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 59
+        }
+      ]
+    },
+    {
+      "slug": "sao-marcos",
+      "nome": "São Marcos",
+      "ibgeId": "4319000",
+      "uf": "RS",
+      "mesorregiao": "Nordeste Rio-grandense",
+      "microrregiao": "Caxias do Sul",
+      "empresas": 1189,
+      "pessoalOcupado": 9227,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 348
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 288
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 129
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 64
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 51
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 46
+        }
+      ]
+    },
+    {
+      "slug": "cangucu",
+      "nome": "Canguçu",
+      "ibgeId": "4304507",
+      "uf": "RS",
+      "mesorregiao": "Sudeste Rio-grandense",
+      "microrregiao": "Pelotas",
+      "empresas": 1170,
+      "pessoalOcupado": 5410,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 558
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 141
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 68
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 56
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 52
+        },
+        {
+          "nome": "Educação",
+          "empresas": 50
+        }
+      ]
+    },
+    {
+      "slug": "lagoa-vermelha",
+      "nome": "Lagoa Vermelha",
+      "ibgeId": "4311304",
+      "uf": "RS",
+      "mesorregiao": "Nordeste Rio-grandense",
+      "microrregiao": "Vacaria",
+      "empresas": 1152,
+      "pessoalOcupado": 6449,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 441
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 141
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 75
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 73
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 70
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 66
+        }
+      ]
+    },
+    {
+      "slug": "xangri-la",
+      "nome": "Xangri-lá",
+      "ibgeId": "4323804",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Osório",
+      "empresas": 1150,
+      "pessoalOcupado": 5515,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 343
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 210
+        },
+        {
+          "nome": "Construção",
+          "empresas": 152
+        },
+        {
+          "nome": "Atividades imobiliárias",
+          "empresas": 95
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 83
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 56
+        }
+      ]
+    },
+    {
+      "slug": "tres-coroas",
+      "nome": "Três Coroas",
+      "ibgeId": "4321709",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Gramado-Canela",
+      "empresas": 1117,
+      "pessoalOcupado": 8753,
+      "setores": [
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 333
+        },
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 304
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 73
+        },
+        {
+          "nome": "Atividades financeiras e seguros",
+          "empresas": 67
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 63
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 53
+        }
+      ]
+    },
+    {
+      "slug": "tres-passos",
+      "nome": "Três Passos",
+      "ibgeId": "4321907",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Três Passos",
+      "empresas": 1099,
+      "pessoalOcupado": 6490,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 446
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 113
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 90
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 70
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 67
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 59
+        }
+      ]
+    },
+    {
+      "slug": "serafina-correa",
+      "nome": "Serafina Corrêa",
+      "ibgeId": "4320404",
+      "uf": "RS",
+      "mesorregiao": "Nordeste Rio-grandense",
+      "microrregiao": "Guaporé",
+      "empresas": 1049,
+      "pessoalOcupado": 6168,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 360
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 139
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 97
+        },
+        {
+          "nome": "Construção",
+          "empresas": 73
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 67
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 66
+        }
+      ]
+    },
+    {
+      "slug": "sao-lourenco-do-sul",
+      "nome": "São Lourenço do Sul",
+      "ibgeId": "4318804",
+      "uf": "RS",
+      "mesorregiao": "Sudeste Rio-grandense",
+      "microrregiao": "Pelotas",
+      "empresas": 1043,
+      "pessoalOcupado": 5858,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 487
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 101
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 88
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 72
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 48
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 42
+        }
+      ]
+    },
+    {
+      "slug": "rosario-do-sul",
+      "nome": "Rosário do Sul",
+      "ibgeId": "4316402",
+      "uf": "RS",
+      "mesorregiao": "Sudoeste Rio-grandense",
+      "microrregiao": "Campanha Central",
+      "empresas": 1039,
+      "pessoalOcupado": 5379,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 511
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 66
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 59
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 58
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 56
+        },
+        {
+          "nome": "Agropecuária",
+          "empresas": 53
+        }
+      ]
+    },
+    {
+      "slug": "sao-sebastiao-do-cai",
+      "nome": "São Sebastião do Caí",
+      "ibgeId": "4319505",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Montenegro",
+      "empresas": 1016,
+      "pessoalOcupado": 7813,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 348
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 143
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 98
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 63
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 55
+        },
+        {
+          "nome": "Construção",
+          "empresas": 51
+        }
+      ]
+    },
+    {
+      "slug": "ibiruba",
+      "nome": "Ibirubá",
+      "ibgeId": "4310009",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Cruz Alta",
+      "empresas": 984,
+      "pessoalOcupado": 8829,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 364
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 88
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 85
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 79
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 69
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 48
+        }
+      ]
+    },
+    {
+      "slug": "sananduva",
+      "nome": "Sananduva",
+      "ibgeId": "4316600",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Sananduva",
+      "empresas": 976,
+      "pessoalOcupado": 5696,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 369
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 103
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 95
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 74
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 68
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 52
+        }
+      ]
+    },
+    {
+      "slug": "getulio-vargas",
+      "nome": "Getúlio Vargas",
+      "ibgeId": "4308904",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Erechim",
+      "empresas": 939,
+      "pessoalOcupado": 5100,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 331
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 135
+        },
+        {
+          "nome": "Construção",
+          "empresas": 72
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 68
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 62
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 56
+        }
+      ]
+    },
+    {
+      "slug": "cacapava-do-sul",
+      "nome": "Caçapava do Sul",
+      "ibgeId": "4302808",
+      "uf": "RS",
+      "mesorregiao": "Sudeste Rio-grandense",
+      "microrregiao": "Serras de Sudeste",
+      "empresas": 931,
+      "pessoalOcupado": 5981,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 449
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 60
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 58
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 50
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 47
+        },
+        {
+          "nome": "Educação",
+          "empresas": 45
+        }
+      ]
+    },
+    {
+      "slug": "nao-me-toque",
+      "nome": "Não-Me-Toque",
+      "ibgeId": "4312658",
+      "uf": "RS",
+      "mesorregiao": "Noroeste Rio-grandense",
+      "microrregiao": "Não-Me-Toque",
+      "empresas": 903,
+      "pessoalOcupado": 11884,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 324
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 99
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 84
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 57
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 48
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 48
+        }
+      ]
+    },
+    {
+      "slug": "charqueadas",
+      "nome": "Charqueadas",
+      "ibgeId": "4305355",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "São Jerônimo",
+      "empresas": 890,
+      "pessoalOcupado": 5213,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 390
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 91
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 65
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 54
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 52
+        },
+        {
+          "nome": "Construção",
+          "empresas": 42
+        }
+      ]
+    },
+    {
+      "slug": "itaqui",
+      "nome": "Itaqui",
+      "ibgeId": "4310603",
+      "uf": "RS",
+      "mesorregiao": "Sudoeste Rio-grandense",
+      "microrregiao": "Campanha Ocidental",
+      "empresas": 884,
+      "pessoalOcupado": 5525,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 415
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 70
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 51
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 47
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 41
+        },
+        {
+          "nome": "Agropecuária",
+          "empresas": 40
+        }
+      ]
+    },
+    {
+      "slug": "dom-pedrito",
+      "nome": "Dom Pedrito",
+      "ibgeId": "4306601",
+      "uf": "RS",
+      "mesorregiao": "Sudoeste Rio-grandense",
+      "microrregiao": "Campanha Meridional",
+      "empresas": 880,
+      "pessoalOcupado": 5291,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 476
+        },
+        {
+          "nome": "Agropecuária",
+          "empresas": 57
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 50
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 41
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 41
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 32
+        }
+      ]
+    },
+    {
+      "slug": "bom-principio",
+      "nome": "Bom Princípio",
+      "ibgeId": "4302352",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Montenegro",
+      "empresas": 856,
+      "pessoalOcupado": 6854,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 236
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 221
+        },
+        {
+          "nome": "Construção",
+          "empresas": 80
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 60
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 44
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 42
+        }
+      ]
+    },
+    {
+      "slug": "candelaria",
+      "nome": "Candelária",
+      "ibgeId": "4304200",
+      "uf": "RS",
+      "mesorregiao": "Centro Oriental Rio-grandense",
+      "microrregiao": "Santa Cruz do Sul",
+      "empresas": 845,
+      "pessoalOcupado": 4876,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 353
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 107
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 64
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 55
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 41
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 38
+        }
+      ]
+    },
+    {
+      "slug": "antonio-prado",
+      "nome": "Antônio Prado",
+      "ibgeId": "4300802",
+      "uf": "RS",
+      "mesorregiao": "Nordeste Rio-grandense",
+      "microrregiao": "Caxias do Sul",
+      "empresas": 844,
+      "pessoalOcupado": 5013,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 271
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 180
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 87
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 44
+        },
+        {
+          "nome": "Construção",
+          "empresas": 43
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 41
+        }
+      ]
+    },
+    {
+      "slug": "eldorado-do-sul",
+      "nome": "Eldorado do Sul",
+      "ibgeId": "4306767",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Porto Alegre",
+      "empresas": 838,
+      "pessoalOcupado": 28614,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 267
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 87
+        },
+        {
+          "nome": "Construção",
+          "empresas": 74
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 56
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 55
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 53
+        }
+      ]
+    },
+    {
+      "slug": "vera-cruz",
+      "nome": "Vera Cruz",
+      "ibgeId": "4322707",
+      "uf": "RS",
+      "mesorregiao": "Centro Oriental Rio-grandense",
+      "microrregiao": "Santa Cruz do Sul",
+      "empresas": 835,
+      "pessoalOcupado": 5331,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 297
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 111
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 72
+        },
+        {
+          "nome": "Construção",
+          "empresas": 69
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 45
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 39
+        }
+      ]
+    },
+    {
+      "slug": "nova-santa-rita",
+      "nome": "Nova Santa Rita",
+      "ibgeId": "4313375",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Porto Alegre",
+      "empresas": 834,
+      "pessoalOcupado": 9098,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 238
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 113
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 108
+        },
+        {
+          "nome": "Construção",
+          "empresas": 67
+        },
+        {
+          "nome": "Serviços administrativos",
+          "empresas": 55
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 43
+        }
+      ]
+    },
+    {
+      "slug": "rolante",
+      "nome": "Rolante",
+      "ibgeId": "4316006",
+      "uf": "RS",
+      "mesorregiao": "Metropolitana de Porto Alegre",
+      "microrregiao": "Gramado-Canela",
+      "empresas": 821,
+      "pessoalOcupado": 8685,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 265
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 231
+        },
+        {
+          "nome": "Outros serviços",
+          "empresas": 49
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 44
+        },
+        {
+          "nome": "Saúde e serviços sociais",
+          "empresas": 34
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 33
+        }
+      ]
+    },
+    {
+      "slug": "taquari",
+      "nome": "Taquari",
+      "ibgeId": "4321303",
+      "uf": "RS",
+      "mesorregiao": "Centro Oriental Rio-grandense",
+      "microrregiao": "Lajeado-Estrela",
+      "empresas": 803,
+      "pessoalOcupado": 5333,
+      "setores": [
+        {
+          "nome": "Comércio e reparação de veículos",
+          "empresas": 298
+        },
+        {
+          "nome": "Indústria de transformação",
+          "empresas": 88
+        },
+        {
+          "nome": "Transporte e armazenagem",
+          "empresas": 56
+        },
+        {
+          "nome": "Construção",
+          "empresas": 53
+        },
+        {
+          "nome": "Atividades profissionais e técnicas",
+          "empresas": 53
+        },
+        {
+          "nome": "Alojamento e alimentação",
+          "empresas": 45
+        }
+      ]
+    }
+  ]
+}

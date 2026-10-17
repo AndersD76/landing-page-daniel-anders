@@ -17,6 +17,12 @@ import {
   setoresReprovados,
   fonteMercado,
 } from "../src/data/setores-paginas";
+import {
+  paginasCidade,
+  cidadesIndexaveis,
+  cidadesReprovadas,
+  fonteCidades,
+} from "../src/data/cidades";
 
 const linha = "=".repeat(66);
 
@@ -91,10 +97,43 @@ for (const p of paginasSetor.slice(0, 5)) {
   );
 }
 
+/* --------------------------------------------------------- eixo geográfico */
+
+console.log("\n\nQuality gate — eixo GEOGRÁFICO (município/RS)");
+console.log(linha);
+console.log(`Fonte do dado: ${fonteCidades.nome}`);
+console.log(
+  `Ano de referência: ${fonteCidades.anoReferencia} | carga em: ${fonteCidades.carregadoEm}`
+);
+console.log(
+  `Corte: >= ${fonteCidades.minEmpresas} empresas (de ${fonteCidades.totalMunicipiosUf} municípios do RS)\n`
+);
+
+console.log(`Geradas:     ${paginasCidade.length}`);
+console.log(`Indexáveis:  ${cidadesIndexaveis.length}`);
+console.log(`Reprovadas:  ${cidadesReprovadas.length}`);
+
+if (cidadesReprovadas.length) {
+  console.log("\nFora do índice e fora do sitemap:");
+  for (const p of cidadesReprovadas) {
+    console.log(`  ${p.cidade.nome}`);
+    for (const m of p.gate.reprovacoes) console.log(`     - ${m}`);
+  }
+}
+
+console.log("\nAmostra (a vocação é o que diferencia a página):");
+for (const p of cidadesIndexaveis.slice(0, 6)) {
+  console.log(
+    `  ${p.cidade.nome.padEnd(20)} ${p.cidade.empresas.toLocaleString("pt-BR").padStart(7)} empresas · ` +
+      `${p.vocacao?.nome ?? "—"} ${p.vocacao?.razao ?? "—"}x`
+  );
+}
+
 /* ------------------------------------------------------------------ total */
 
-const total = paginasIndexaveis.length + setoresIndexaveis.length;
-const geradas = paginasCusto.length + paginasSetor.length;
+const total =
+  paginasIndexaveis.length + setoresIndexaveis.length + cidadesIndexaveis.length;
+const geradas = paginasCusto.length + paginasSetor.length + paginasCidade.length;
 
 console.log("\n" + linha);
 console.log(`TOTAL: ${total} páginas indexáveis de ${geradas} geradas`);

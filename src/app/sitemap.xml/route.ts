@@ -9,6 +9,7 @@ const FILHOS = [
   "sitemap-blog.xml",
   "sitemap-custos.xml",
   "sitemap-setores.xml",
+  "sitemap-cidades.xml",
 ];
 
 export function GET() {

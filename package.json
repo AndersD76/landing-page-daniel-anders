@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && node scripts/validar-seo.mjs && node scripts/validar-seo-conteudo.mjs",
     "start": "next start -p ${PORT:-3000}",
     "lint": "eslint src scripts",
     "db:generate": "drizzle-kit generate",
@@ -18,7 +18,13 @@
     "verificar": "npm run test:contrato && npm run gate && npm run auditar:precos && npm run validar:seo",
     "auditar:precos": "node scripts/auditar-precos.mjs",
     "avisar:indexnow": "node scripts/avisar-indexnow.mjs",
-    "carregar:cidades": "node scripts/carregar-cidades.mjs"
+    "carregar:cidades": "node scripts/carregar-cidades.mjs",
+    "build:sem-teste": "next build",
+    "seo:pesquisar": "tsx scripts/seo/pesquisar-buscas.ts",
+    "conteudo:validar": "tsx scripts/conteudo/validar-lote.ts",
+    "conteudo:fontes": "tsx scripts/conteudo/verificar-fontes.ts",
+    "conteudo:gate": "tsx scripts/conteudo/relatorio-gate.ts",
+    "producao:gerar": "tsx scripts/producao/gerar-conteudo.ts"
   },
   "dependencies": {
     "@neondatabase/serverless": "^1.1.0",
@@ -34,6 +40,7 @@
     "zod": "^3.23.0"
   },
   "devDependencies": {
+    "@anthropic-ai/sdk": "^1.10.0",
     "@eslint/eslintrc": "^3.3.7",
     "@types/bcryptjs": "^2.4.6",
     "@types/jsonwebtoken": "^9.0.10",
@@ -49,5 +56,8 @@
     "tailwindcss": "^3.4.17",
     "tsx": "^4.23.15",
     "typescript": "^5.6.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }

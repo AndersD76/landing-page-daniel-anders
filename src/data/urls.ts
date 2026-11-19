@@ -13,12 +13,11 @@ import { setoresIndexaveis } from "./setores-paginas";
 import { cidadesIndexaveis } from "./cidades";
 import { alternativasIndexaveis } from "./alternativas-paginas";
 import type { UrlSitemap } from "@/lib/sitemap";
+import { paginasNoArDoTipo, type TipoConteudo } from "@/lib/conteudo";
+import { CLUSTERS } from "@/lib/seo/taxonomia";
+import { ISCAS } from "./iscas";
 
 export { BASE_URL };
-
-function hoje(): string {
-  return new Date().toISOString().slice(0, 10);
-}
 
 /** Páginas fixas — conteúdo gerado tem sitemap próprio. */
 const FIXAS: Array<{
@@ -46,7 +45,6 @@ const FIXAS: Array<{
 export function urlsFixas(): UrlSitemap[] {
   return FIXAS.map((p) => ({
     loc: `${BASE_URL}${p.path}`,
-    lastmod: hoje(),
     changefreq: p.changefreq,
     priority: p.priority,
   }));
@@ -55,7 +53,6 @@ export function urlsFixas(): UrlSitemap[] {
 export function urlsServicos(): UrlSitemap[] {
   return getServiceSlugs().map((slug) => ({
     loc: `${BASE_URL}/servicos/${slug}`,
-    lastmod: hoje(),
     changefreq: "monthly" as const,
     priority: 0.8,
   }));
@@ -113,8 +110,56 @@ export function urlsAlternativas(): UrlSitemap[] {
   }));
 }
 
+/** Conteúdo em escala: só o que está no ar (aprovado + onda liberada). lastmod = revisão real. */
+export function urlsConteudo(tipo: TipoConteudo, agora = new Date()): UrlSitemap[] {
+  return paginasNoArDoTipo(tipo, agora).map((p) => ({
+    loc: p.urlAbsoluta,
+    lastmod: p.revisadoEm,
+    changefreq: "monthly" as const,
+    priority: p.tipo === "pilar" ? 0.9 : 0.6,
+  }));
+}
+
+/** Ferramentas, hubs e páginas institucionais novas. */
+export function urlsFerramentasEHubs(): UrlSitemap[] {
+  const revisao = "2026-11-18";
+  const caminhos = [
+    "/ferramentas",
+    ...ISCAS.filter((i) => i.href.startsWith("/ferramentas/")).map((i) => i.href),
+    "/guias",
+    "/perguntas",
+    "/modelos",
+    "/glossario",
+    "/leis",
+    "/comparar",
+    ...CLUSTERS.map((c) => `/temas/${c.id}`),
+    "/sobre",
+    "/sobre/daniel-anders",
+    "/politica-editorial",
+    "/dados/empresas-por-setor",
+    "/dados/metodologia",
+  ];
+  return caminhos.map((p) => ({
+    loc: `${BASE_URL}${p}`,
+    lastmod: revisao,
+    changefreq: "monthly" as const,
+    priority: p.startsWith("/ferramentas") ? 0.8 : 0.6,
+  }));
+}
+
+export const TIPOS_SITEMAP: Array<{ arquivo: string; tipo: TipoConteudo }> = [
+  { arquivo: "sitemap-guias.xml", tipo: "pilar" },
+  { arquivo: "sitemap-perguntas.xml", tipo: "satelite" },
+  { arquivo: "sitemap-modelos.xml", tipo: "modelo" },
+  { arquivo: "sitemap-glossario.xml", tipo: "glossario" },
+  { arquivo: "sitemap-leis.xml", tipo: "norma" },
+  { arquivo: "sitemap-comparativos.xml", tipo: "comparativo" },
+];
+
 export function todasUrlsIndexaveis(): string[] {
   return [
+    ...urlsFerramentasEHubs(),
+    ...TIPOS_SITEMAP.flatMap((t) => urlsConteudo(t.tipo)),
     ...urlsFixas(),
     ...urlsServicos(),
     ...urlsBlog(),

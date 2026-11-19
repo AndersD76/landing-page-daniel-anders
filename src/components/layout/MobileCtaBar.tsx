@@ -5,9 +5,9 @@ export function MobileCtaBar() {
   return (
     <>
       {/* Espacador pra barra fixa nao cobrir o fim da pagina */}
-      <div className="h-16 md:hidden" aria-hidden="true" />
+      <div className="mobile-cta-global h-16 md:hidden" aria-hidden="true" />
 
-      <div className="fixed bottom-0 inset-x-0 z-[600] md:hidden bg-surface-black/95 backdrop-blur-md border-t border-white/10 px-3 py-2.5 flex items-center gap-2.5 pb-[calc(0.625rem+env(safe-area-inset-bottom))]">
+      <div className="mobile-cta-global fixed bottom-0 inset-x-0 z-[600] md:hidden bg-surface-black/95 backdrop-blur-md border-t border-white/10 px-3 py-2.5 flex items-center gap-2.5 pb-[calc(0.625rem+env(safe-area-inset-bottom))]">
         <a
           href="https://cal.com/daniel-anders-emx5kl"
           target="_blank"

@@ -1,0 +1,4084 @@
+[
+  {
+    "slug": "o-que-e-briefing",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é briefing",
+    "consultasSecundarias": [
+      "briefing de projeto",
+      "briefing para site",
+      "modelo de briefing"
+    ],
+    "title": "O que é briefing: definição e exemplo prático",
+    "description": "Veja o que é briefing, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é briefing",
+    "respostaDireta": "Briefing é o documento curto em que você conta ao desenvolvedor o que precisa, para quem e por quê. O briefing reúne objetivo do projeto, público, referências, prazo e orçamento, e serve de ponto de partida para a proposta. Quanto mais claro ele for, menos retrabalho e menos surpresa no preço.",
+    "secoes": [
+      {
+        "titulo": "O que entra em um briefing",
+        "paragrafos": [
+          "O briefing não precisa ser longo. Precisa responder às perguntas que o desenvolvedor faria na primeira conversa. Escrever antes economiza reuniões e deixa a proposta comparável entre fornecedores."
+        ],
+        "lista": [
+          "Objetivo do projeto em uma frase (vender mais, reduzir ligações, organizar pedidos)",
+          "Quem vai usar: cliente final, equipe interna ou os dois",
+          "Situação atual: site antigo, planilha, nada",
+          "Funcionalidades que você considera indispensáveis",
+          "Sites e sistemas que você admira, e o que gostou neles",
+          "Prazo desejado e o motivo dele",
+          "Faixa de investimento que você tem em mente",
+          "Quem aprova as decisões do seu lado"
+        ]
+      },
+      {
+        "titulo": "Briefing bom e briefing fraco",
+        "paragrafos": [
+          "A diferença está na especificidade. Frases vagas geram propostas vagas e preços que variam muito entre si."
+        ],
+        "tabela": {
+          "colunas": [
+            "Ponto",
+            "Briefing fraco",
+            "Briefing bom"
+          ],
+          "linhas": [
+            [
+              "Objetivo",
+              "Quero um site moderno",
+              "Quero receber pedidos de orçamento pelo site, hoje só vêm por telefone"
+            ],
+            [
+              "Público",
+              "Todo mundo",
+              "Donos de oficinas da região que compram peças toda semana"
+            ],
+            [
+              "Prazo",
+              "O quanto antes",
+              "Antes da feira de março, porque vamos divulgar o endereço lá"
+            ],
+            [
+              "Orçamento",
+              "A combinar",
+              "Até a faixa de um site institucional"
+            ]
+          ]
+        }
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando briefing ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Quem escreve o briefing, eu ou o desenvolvedor?",
+        "resposta": "Você escreve a primeira versão, porque conhece o negócio. O desenvolvedor faz perguntas e ajuda a completar. Se você não sabe por onde começar, uma conversa guiada de meia hora costuma render o documento."
+      },
+      {
+        "pergunta": "Briefing e escopo são a mesma coisa?",
+        "resposta": "Não. O briefing descreve a necessidade e o contexto, do seu ponto de vista. O escopo define o que será entregue, do ponto de vista do projeto. O briefing vem antes e alimenta o escopo."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "briefing",
+      "exemploPratico": "Uma distribuidora de materiais elétricos quer um catálogo online. Antes de procurar fornecedor, a sócia escreve meia página: objetivo (reduzir ligações de consulta de preço), usuários (eletricistas que compram por WhatsApp), prazo (antes da alta temporada) e três sites de referência. Manda o mesmo texto a três desenvolvedores e recebe propostas que dá para comparar linha a linha.",
+      "termosRelacionados": [
+        "escopo de projeto",
+        "levantamento de requisitos",
+        "proposta comercial"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-escopo-de-projeto",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é escopo de projeto",
+    "consultasSecundarias": [
+      "escopo de projeto de software",
+      "o que é escopo",
+      "como definir escopo de projeto"
+    ],
+    "title": "O que é escopo de projeto: definição e exemplo prático",
+    "description": "Veja o que é escopo de projeto, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é escopo de projeto",
+    "respostaDireta": "Escopo de projeto é a lista do que será e do que não será entregue. O escopo de projeto define funcionalidades, páginas, integrações, prazos e responsabilidades. É ele que sustenta o preço combinado: qualquer coisa fora dele é pedido novo, com custo e prazo à parte.",
+    "secoes": [
+      {
+        "titulo": "Por que o escopo protege os dois lados",
+        "paragrafos": [
+          "Sem escopo escrito, cada parte imagina uma entrega diferente. O cliente entende que o login por Google estava incluso, o desenvolvedor entende que não. A discussão aparece no fim, quando já ninguém quer ceder.",
+          "Um bom escopo diz também o que está de fora. Essa parte é a mais útil, porque evita suposições."
+        ],
+        "lista": [
+          "Entregas: telas, módulos, relatórios, integrações",
+          "Fora do escopo: o que foi conversado e ficou para depois",
+          "Premissas: conteúdo e imagens fornecidos pelo cliente, por exemplo",
+          "Critérios de aceite: como saber que cada entrega está pronta",
+          "Prazo e marcos de pagamento",
+          "Como mudanças serão tratadas"
+        ]
+      },
+      {
+        "titulo": "Escopo aberto, fechado e em fases",
+        "paragrafos": [
+          "Existem formas de organizar a entrega. A escolha depende de quão claro está o que você precisa."
+        ],
+        "tabela": {
+          "colunas": [
+            "Modelo",
+            "Quando serve",
+            "Risco principal"
+          ],
+          "linhas": [
+            [
+              "Fechado",
+              "Necessidade clara e estável",
+              "Mudar no meio custa caro"
+            ],
+            [
+              "Em fases",
+              "Projeto grande ou incerto",
+              "Exige acompanhamento constante"
+            ],
+            [
+              "Aberto (horas)",
+              "Evolução contínua",
+              "Custo final menos previsível"
+            ]
+          ]
+        }
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando escopo de projeto ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Escopo e proposta comercial são a mesma coisa?",
+        "resposta": "Não. A proposta traz preço, prazo e condições. O escopo é a parte dela que descreve o que será feito. Em projetos pequenos os dois podem ficar no mesmo documento, mas a descrição de entregas precisa estar nítida."
+      },
+      {
+        "pergunta": "Posso alterar o escopo depois de assinado?",
+        "resposta": "Pode, por pedido de mudança. O combinado é avaliar o impacto em prazo e custo, aprovar por escrito e só então executar. Mudar de palavra, sem registro, costuma gerar conflito."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "escopo de projeto",
+      "exemploPratico": "Uma clínica de fisioterapia contrata um sistema de agendamento. O escopo lista: cadastro de pacientes, agenda por profissional, lembrete por WhatsApp. Em \"fora do escopo\" ficam prontuário eletrônico e emissão de nota fiscal. Dois meses depois a dona pede prontuário. Como estava registrado como fora, vira uma segunda proposta, sem briga e sem atrasar a primeira entrega.",
+      "termosRelacionados": [
+        "escopo fechado",
+        "pedido de mudança (change request)",
+        "briefing"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-sao-requisitos-funcionais",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que são requisitos funcionais",
+    "consultasSecundarias": [
+      "requisito funcional",
+      "exemplos de requisitos funcionais",
+      "requisitos funcionais de sistema"
+    ],
+    "title": "O que são requisitos funcionais: definição e exemplo prático",
+    "description": "Veja o que são requisitos funcionais, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que são requisitos funcionais",
+    "respostaDireta": "Requisitos funcionais são as coisas que o sistema precisa fazer. Os requisitos funcionais descrevem ações e regras em linguagem de negócio: cadastrar cliente, emitir orçamento, enviar aviso quando o estoque acabar. Cada um deve ser claro o bastante para ser testado, com resultado esperado definido.",
+    "secoes": [
+      {
+        "titulo": "Como escrever um requisito funcional",
+        "paragrafos": [
+          "A forma mais simples é: o sistema deve permitir que [quem] faça [o quê], [com qual regra]. Evite palavras como \"fácil\", \"rápido\" e \"completo\", porque ninguém consegue testá-las.",
+          "Cada requisito vira uma pergunta de aceite: dá para demonstrar que funciona?"
+        ],
+        "tabela": {
+          "colunas": [
+            "Requisito vago",
+            "Requisito funcional claro"
+          ],
+          "linhas": [
+            [
+              "Controle de estoque",
+              "O sistema deve baixar o estoque a cada venda e avisar o gerente quando o item ficar abaixo do mínimo cadastrado"
+            ],
+            [
+              "Orçamento online",
+              "O vendedor deve gerar um orçamento em PDF a partir dos itens escolhidos, com validade de 7 dias"
+            ],
+            [
+              "Acesso por perfil",
+              "O financeiro vê valores; o almoxarifado vê apenas quantidades"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Quem participa da lista",
+        "paragrafos": [
+          "Quem usa o sistema no dia a dia conhece as regras que ninguém escreveu. Converse com quem emite o pedido, quem separa a mercadoria e quem cobra. Os requisitos nascem dessas conversas, não de um modelo pronto."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando requisitos funcionais ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Qual a diferença entre requisito funcional e não funcional?",
+        "resposta": "O funcional diz o que o sistema faz, como emitir nota. O não funcional diz como ele se comporta, como velocidade, segurança e disponibilidade. Os dois entram no escopo e influenciam o preço."
+      },
+      {
+        "pergunta": "Quantos requisitos um projeto pequeno tem?",
+        "resposta": "Depende. Um site institucional pode ter poucas dezenas de itens simples. Um sistema de gestão passa de uma centena. O importante é priorizar: o que é indispensável agora e o que pode esperar."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "requisitos funcionais",
+      "exemploPratico": "Uma transportadora regional quer sair da planilha de fretes. Na conversa, o financeiro diz que o frete depende da cidade e do peso, e que clientes antigos têm tabela própria. Isso vira requisito funcional: calcular frete por cidade e faixa de peso, com tabela específica por cliente. Sem essa conversa, o sistema entregaria um cálculo genérico que ninguém usaria.",
+      "termosRelacionados": [
+        "requisitos não funcionais",
+        "levantamento de requisitos",
+        "história de usuário (user story)"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-sao-requisitos-nao-funcionais",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que são requisitos não funcionais",
+    "consultasSecundarias": [
+      "requisito não funcional",
+      "exemplos de requisitos não funcionais",
+      "requisitos de qualidade de software"
+    ],
+    "title": "O que são requisitos não funcionais: definição e exemplo",
+    "description": "Veja o que são requisitos não funcionais, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que são requisitos não funcionais",
+    "respostaDireta": "Requisitos não funcionais são as qualidades que o sistema precisa ter, além das funções. Os requisitos não funcionais tratam de desempenho, segurança, disponibilidade, compatibilidade e facilidade de uso. Muita gente esquece de pedi-los, e é por isso que surgem sistemas que funcionam, mas são lentos ou inseguros.",
+    "secoes": [
+      {
+        "titulo": "Os tipos mais comuns",
+        "paragrafos": [
+          "Enquanto o requisito funcional diz \"o sistema emite nota\", o não funcional diz \"a nota sai em até alguns segundos, mesmo com muita gente usando\". Escreva com números que você consiga conferir, definidos junto com o desenvolvedor."
+        ],
+        "tabela": {
+          "colunas": [
+            "Qualidade",
+            "Pergunta que você faz",
+            "Exemplo de requisito"
+          ],
+          "linhas": [
+            [
+              "Desempenho",
+              "Quão rápido precisa ser?",
+              "A página de produtos abre em até 3 segundos no celular"
+            ],
+            [
+              "Segurança",
+              "Quem pode ver o quê?",
+              "Senha com hash e perfis de acesso por setor"
+            ],
+            [
+              "Disponibilidade",
+              "Pode ficar fora do ar?",
+              "Fora do horário comercial, tolera-se manutenção programada"
+            ],
+            [
+              "Compatibilidade",
+              "Em que aparelhos roda?",
+              "Funciona nos navegadores atuais e em celular"
+            ],
+            [
+              "Backup",
+              "Como recupero dados?",
+              "Cópia diária com teste de restauração"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Por que isso mexe no custo",
+        "paragrafos": [
+          "Exigir disponibilidade muito alta, ou suportar milhares de acessos simultâneos, muda a arquitetura e a hospedagem. Por isso vale decidir o necessário, sem querer o máximo em tudo."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando requisitos não funcionais ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso entender de tecnologia para definir esses requisitos?",
+        "resposta": "Não. Você informa a realidade do negócio: quantos usuários, em que horários, que dados são sensíveis. O desenvolvedor traduz isso em metas técnicas e explica o impacto em custo."
+      },
+      {
+        "pergunta": "Requisito não funcional pode virar bug se não for cumprido?",
+        "resposta": "Pode. Se está escrito e combinado, descumprir é falha de entrega. Se não foi escrito, vira discussão. Por isso o registro importa."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "requisitos não funcionais",
+      "exemploPratico": "Uma rede de três academias contrata um aplicativo de reserva de aulas. No lançamento, o sistema funcionava, mas às 18h, com todos reservando ao mesmo tempo, travava. Ninguém tinha escrito o requisito não funcional \"suportar a reserva simultânea de centenas de alunos no horário de pico\". Na revisão do escopo, ele entrou como item explícito, com teste de carga antes da entrega.",
+      "termosRelacionados": [
+        "requisitos funcionais",
+        "levantamento de requisitos",
+        "SLA"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-levantamento-de-requisitos",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é levantamento de requisitos",
+    "consultasSecundarias": [
+      "levantamento de requisitos de software",
+      "como fazer levantamento de requisitos",
+      "etapas do levantamento de requisitos"
+    ],
+    "title": "O que é levantamento de requisitos: definição e exemplo",
+    "description": "Veja o que é levantamento de requisitos, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é levantamento de requisitos",
+    "respostaDireta": "Levantamento de requisitos é a etapa em que o desenvolvedor descobre, junto com você, o que o sistema precisa fazer. O levantamento de requisitos usa entrevistas, observação do trabalho, análise das planilhas atuais e telas de exemplo, e termina com um documento que você revisa e aprova antes da programação.",
+    "secoes": [
+      {
+        "titulo": "Como o levantamento acontece",
+        "paragrafos": [
+          "Programar sem entender o processo é o caminho mais caro. O levantamento reduz esse risco e costuma seguir uma ordem previsível."
+        ],
+        "listaOrdenada": true,
+        "lista": [
+          "Reunião inicial para entender o negócio e o objetivo",
+          "Entrevistas curtas com quem usa o processo no dia a dia",
+          "Análise dos documentos atuais: planilhas, formulários, relatórios",
+          "Desenho dos fluxos: como o pedido anda do início ao fim",
+          "Lista de requisitos, com prioridade",
+          "Revisão com você e aprovação por escrito"
+        ]
+      },
+      {
+        "titulo": "O que você deve preparar",
+        "paragrafos": [
+          "Leve exemplos reais, não descrições de memória. Uma planilha com dados de verdade mostra exceções que a conversa esconde. Avise quem do seu time precisa participar e reserve horário, já que um levantamento com pessoas ausentes produz um sistema pela metade."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando levantamento de requisitos ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "O levantamento é cobrado à parte?",
+        "resposta": "Depende do fornecedor. Em projetos maiores é comum ser uma fase própria e paga, o que dá a você um documento que pode ser usado até para comparar outras propostas. Pergunte antes de começar."
+      },
+      {
+        "pergunta": "Quanto tempo dura o levantamento?",
+        "resposta": "Varia com a complexidade. Um site simples cabe em uma conversa. Um sistema de gestão pode pedir algumas semanas, com várias reuniões. O ritmo depende também da sua disponibilidade para responder."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "levantamento de requisitos",
+      "exemploPratico": "Uma oficina mecânica com doze funcionários pede um sistema de ordem de serviço. No levantamento, o desenvolvedor acompanha uma manhã na recepção e vê que o cliente deixa o carro, mas o orçamento só é aprovado por telefone, horas depois. Esse detalhe não estava no pedido original e muda o desenho: entra um estado \"aguardando aprovação\" e o envio do orçamento por mensagem.",
+      "termosRelacionados": [
+        "requisitos funcionais",
+        "discovery de produto",
+        "especificação de requisitos (SRS)"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-especificacao-de-requisitos-srs",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é especificação de requisitos (SRS)",
+    "consultasSecundarias": [
+      "SRS software",
+      "documento de requisitos de software",
+      "especificação de requisitos de software"
+    ],
+    "title": "O que é especificação de requisitos (SRS): exemplo prático",
+    "description": "Veja o que é especificação de requisitos (SRS), como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é especificação de requisitos (SRS)",
+    "respostaDireta": "Especificação de requisitos, ou SRS, é o documento que reúne tudo o que o sistema deve fazer e como deve se comportar. A especificação de requisitos descreve funções, regras, telas, restrições e critérios de aceite. Ela é o contrato técnico entre quem contrata e quem desenvolve.",
+    "secoes": [
+      {
+        "titulo": "O que vai dentro",
+        "paragrafos": [
+          "SRS vem do inglês Software Requirements Specification. Em projetos pequenos, uma versão enxuta basta. O importante é que alguém que não participou das reuniões consiga entender o que será entregue."
+        ],
+        "lista": [
+          "Objetivo e contexto do sistema",
+          "Perfis de usuário e o que cada um pode fazer",
+          "Requisitos funcionais, numerados",
+          "Requisitos não funcionais",
+          "Regras de negócio (como calcular desconto, quando bloquear cliente)",
+          "Integrações com outros sistemas",
+          "Fora de escopo",
+          "Critérios de aceite por funcionalidade"
+        ]
+      },
+      {
+        "titulo": "Quando vale a pena exigir",
+        "paragrafos": [
+          "Quanto maior o valor e a complexidade, mais vale o documento. Para uma landing page, ele pode ser uma página. Para um sistema que mexe com financeiro e estoque, é seguro ter uma especificação revisada por você. O efeito prático é medir a entrega contra algo escrito, em vez de contra a memória das partes."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando especificação de requisitos (SRS) ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "SRS e escopo são a mesma coisa?",
+        "resposta": "Não. O escopo é o resumo do que entra e não entra. A SRS é o detalhamento técnico e funcional de cada item do escopo. Um escopo cabe em uma ou duas páginas; uma SRS é mais longa."
+      },
+      {
+        "pergunta": "Eu preciso ler a especificação inteira?",
+        "resposta": "Sim, ao menos as partes sobre regras do negócio e telas. Você é quem sabe se a regra descrita bate com a realidade. Pedir uma reunião de revisão ajuda quando o texto é técnico."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "especificação de requisitos (SRS)",
+      "sigla": "SRS",
+      "exemploPratico": "Um atacadista de alimentos contrata um sistema de pedidos para os vendedores externos. A especificação traz 38 requisitos numerados, dois perfis (vendedor e gerente) e uma regra clara: desconto acima de um limite precisa de aprovação do gerente. Na entrega, o dono percorre a lista item por item e marca cada um como aceito ou pendente, sem precisar adivinhar o que \"estava combinado\".",
+      "termosRelacionados": [
+        "requisitos funcionais",
+        "escopo de projeto",
+        "homologação"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-historia-de-usuario-user-story",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é história de usuário (user story)",
+    "consultasSecundarias": [
+      "user story",
+      "user story exemplo",
+      "como escrever história de usuário"
+    ],
+    "title": "O que é história de usuário (user story): exemplo prático",
+    "description": "Veja o que é história de usuário (user story), como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é história de usuário (user story)",
+    "respostaDireta": "História de usuário, ou user story, é uma frase curta que descreve uma necessidade do ponto de vista de quem usa. A história de usuário segue o formato: como [perfil], quero [ação], para [benefício]. Ela organiza o trabalho em pedaços pequenos que podem ser entregues e testados um a um.",
+    "secoes": [
+      {
+        "titulo": "Formato e exemplos",
+        "paragrafos": [
+          "A história evita especificar a tela e foca no objetivo. Isso dá liberdade para o desenvolvedor propor a melhor solução. Cada história ganha critérios de aceite, que dizem quando está pronta."
+        ],
+        "tabela": {
+          "colunas": [
+            "História",
+            "Critério de aceite"
+          ],
+          "linhas": [
+            [
+              "Como vendedor, quero buscar um cliente pelo telefone, para abrir o pedido sem digitar tudo de novo",
+              "Ao digitar o número, os dados do cliente aparecem em menos de 2 segundos"
+            ],
+            [
+              "Como gerente, quero ver as vendas do dia, para acompanhar a meta",
+              "Painel mostra total, quantidade de pedidos e comparação com ontem"
+            ],
+            [
+              "Como cliente, quero pagar por Pix no carrinho, para finalizar sem sair do site",
+              "Após o pagamento, o pedido muda para pago sozinho"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como você usa isso na prática",
+        "paragrafos": [
+          "Você não precisa escrever em formato perfeito. Basta contar o que cada pessoa precisa fazer. O desenvolvedor reescreve em histórias, você aprova e elas entram no backlog, ordenadas por prioridade."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando história de usuário (user story) ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Toda história de usuário precisa de critério de aceite?",
+        "resposta": "Sim, é o que evita discordância na entrega. Sem critério, o desenvolvedor entrega uma versão e você espera outra. Dois ou três pontos objetivos por história costumam bastar."
+      },
+      {
+        "pergunta": "História de usuário substitui a especificação completa?",
+        "resposta": "Em equipes ágeis, em boa parte sim, porque o detalhe é conversado a cada entrega. Em contratos de preço fechado, costuma-se combinar histórias e uma lista de requisitos para fixar o escopo."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "história de usuário (user story)",
+      "exemploPratico": "Uma imobiliária pequena quer um site com cadastro de imóveis. A corretora descreve: \"quero cadastrar um imóvel pelo celular, na visita, com as fotos\". Vira a história: como corretora, quero cadastrar imóvel pelo celular durante a visita, para publicar no mesmo dia. O critério de aceite diz que o cadastro funciona com fotos tiradas na hora, o que orienta o desenvolvimento.",
+      "termosRelacionados": [
+        "backlog",
+        "metodologia ágil",
+        "requisitos funcionais"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-backlog",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é backlog",
+    "consultasSecundarias": [
+      "backlog de produto",
+      "backlog scrum",
+      "o que é backlog de projeto"
+    ],
+    "title": "O que é backlog: definição e exemplo prático",
+    "description": "Veja o que é backlog, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é backlog",
+    "respostaDireta": "Backlog é a lista priorizada de tudo o que ainda precisa ser feito em um projeto. O backlog reúne funcionalidades, melhorias e correções, ordenadas pelo que traz mais valor primeiro. Você, como dono do negócio, decide a ordem, e o desenvolvedor estima o esforço de cada item.",
+    "secoes": [
+      {
+        "titulo": "Como o backlog funciona",
+        "paragrafos": [
+          "O backlog nunca está \"fechado\". Itens entram quando surgem, saem quando perdem importância e sobem ou descem conforme a prioridade muda. A regra é simples: o que está no topo é o próximo a ser feito.",
+          "Isso dá a você controle: se uma necessidade urgente aparece, ela sobe na fila, e o que estava planejado desce."
+        ],
+        "lista": [
+          "Cada item tem título, descrição curta e critério de aceite",
+          "Cada item recebe uma estimativa de esforço",
+          "Itens do topo são detalhados; os de baixo, só descritos",
+          "A ordem é revista com você em intervalos regulares",
+          "Itens concluídos saem da lista e ficam registrados"
+        ]
+      },
+      {
+        "titulo": "Backlog de produto e backlog do ciclo",
+        "paragrafos": [
+          "O de produto guarda tudo o que se quer fazer no futuro. O do ciclo (sprint) guarda só o que foi escolhido para as próximas semanas. Para quem contrata, o primeiro é o seu mapa; o segundo é o compromisso de curto prazo."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando backlog ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Quem decide a ordem do backlog?",
+        "resposta": "Quem representa o negócio, ou seja, você ou alguém que você indique. O desenvolvedor aponta dependências técnicas, por exemplo, que um item precisa vir antes de outro, mas a prioridade de negócio é sua."
+      },
+      {
+        "pergunta": "Backlog longo é problema?",
+        "resposta": "Não necessariamente. É normal acumular ideias. O problema é não revisar. Vale podar de tempos em tempos o que perdeu sentido, para a lista continuar útil."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "backlog",
+      "exemploPratico": "Uma loja de roupas tem uma loja virtual em operação. A dona anota o que quer: filtro por tamanho, cupom de desconto, aviso de reposição e integração com a transportadora. O desenvolvedor estima cada um e a dona ordena pelo que vende mais. Cupom vai ao topo porque a campanha começa em duas semanas. O aviso de reposição fica para depois, sem ninguém se sentir esquecido.",
+      "termosRelacionados": [
+        "sprint",
+        "história de usuário (user story)",
+        "roadmap de produto"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-sprint",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é sprint",
+    "consultasSecundarias": [
+      "sprint scrum",
+      "o que é sprint em desenvolvimento de software",
+      "duração da sprint"
+    ],
+    "title": "O que é sprint: definição e exemplo prático",
+    "description": "Veja o que é sprint, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é sprint",
+    "respostaDireta": "Sprint é um ciclo curto de trabalho, em geral de uma a quatro semanas, que termina com uma parte do sistema pronta para ser vista. A sprint começa com a escolha do que será feito e acaba com uma demonstração para você. Isso permite ajustar a rota a cada ciclo.",
+    "secoes": [
+      {
+        "titulo": "O que acontece em uma sprint",
+        "paragrafos": [
+          "A sprint divide um projeto grande em entregas menores. Em vez de esperar meses para ver algo, você acompanha o resultado a cada ciclo e corrige o que não ficou como imaginava."
+        ],
+        "listaOrdenada": true,
+        "lista": [
+          "Planejamento: escolhe-se do backlog o que cabe no ciclo",
+          "Execução: o desenvolvedor trabalha nos itens escolhidos",
+          "Demonstração: você vê o que ficou pronto e dá retorno",
+          "Retrospectiva: o que melhorar no próximo ciclo"
+        ]
+      },
+      {
+        "titulo": "O que muda para quem contrata",
+        "paragrafos": [
+          "Você participa de duas conversas por ciclo: o planejamento e a demonstração. Em troca, ganha previsibilidade de entrega e chance de mudar de ideia sem refazer tudo. A contrapartida é que o preço total costuma ser definido por ciclos ou horas, e não por um escopo fechado desde o início."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando sprint ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Quanto dura uma sprint?",
+        "resposta": "Em equipes pequenas, de uma a duas semanas é comum. O Guia do Scrum fala em no máximo um mês. O ciclo deve ser curto o suficiente para corrigir erros cedo e longo o bastante para entregar algo visível."
+      },
+      {
+        "pergunta": "Preciso aprovar algo ao fim de cada sprint?",
+        "resposta": "Você vê a demonstração e diz se o que foi entregue atende ao combinado. Ajustes viram itens no backlog. Esse ritmo de aprovação é a principal vantagem do modelo."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Guia do Scrum",
+        "url": "https://scrumguides.org/scrum-guide.html",
+        "orgao": "Scrum.org / Scrum Guides",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "sprint",
+      "exemploPratico": "Uma empresa de dedetização quer um sistema para agendar visitas. Em duas semanas, a primeira sprint entrega o cadastro de clientes e a agenda básica. Na demonstração, a sócia nota que precisa registrar o produto aplicado em cada visita, algo que ninguém tinha mencionado. O item entra na sprint seguinte, antes de a agenda estar toda construída em cima de uma premissa errada.",
+      "termosRelacionados": [
+        "Scrum",
+        "backlog",
+        "metodologia ágil"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-metodologia-agil",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é metodologia ágil",
+    "consultasSecundarias": [
+      "metodologia ágil o que é",
+      "agile desenvolvimento de software",
+      "manifesto ágil"
+    ],
+    "title": "O que é metodologia ágil: definição e exemplo prático",
+    "description": "Veja o que é metodologia ágil, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é metodologia ágil",
+    "respostaDireta": "Metodologia ágil é um jeito de desenvolver software em ciclos curtos, com entregas frequentes e ajustes no caminho. A metodologia ágil prefere conversar com o cliente a seguir um plano rígido e aceita mudanças de prioridade. O manifesto ágil, de 2001, reúne os valores dessa abordagem.",
+    "secoes": [
+      {
+        "titulo": "Ágil na prática",
+        "paragrafos": [
+          "Ágil não é sinônimo de rápido nem de sem planejamento. É a escolha de planejar menos de uma vez e rever mais vezes. Você vê o sistema crescendo e orienta cada etapa com base no que viu."
+        ],
+        "lista": [
+          "Entregas pequenas e frequentes, em vez de uma entrega final grande",
+          "Cliente participa durante o projeto, e não só no início e no fim",
+          "Mudança de prioridade é tratada como parte normal",
+          "Software funcionando vale mais que documentação extensa",
+          "Equipe pequena, com comunicação direta"
+        ]
+      },
+      {
+        "titulo": "Quando o ágil não é a melhor escolha",
+        "paragrafos": [
+          "Se o escopo é pequeno, estável e bem conhecido, como um site institucional de dez páginas, um escopo fechado é mais simples. O ágil compensa quando há incerteza: um sistema novo, um processo ainda mal entendido, um produto que vai evoluir depois do lançamento."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando metodologia ágil ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Ágil é mais barato ou mais caro?",
+        "resposta": "Nenhum dos dois por definição. O custo total depende do que for construído. A diferença está no controle: você enxerga o gasto a cada ciclo e pode parar quando o valor entregue já bastou."
+      },
+      {
+        "pergunta": "Posso contratar um projeto ágil com preço fechado?",
+        "resposta": "É possível em partes: preço fechado por etapa ou por ciclo, com revisão a cada entrega. O contrato inteiro em preço fechado combina mal com o ágil, que pressupõe mudança. Alinhe isso antes de assinar."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Manifesto para o Desenvolvimento Ágil de Software",
+        "url": "https://agilemanifesto.org/iso/ptbr/manifesto.html",
+        "orgao": "Agile Manifesto",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "metodologia ágil",
+      "exemploPratico": "Uma indústria de embalagens quer um sistema para controlar a produção, mas o processo muda toda semana, conforme os pedidos. Em vez de fechar tudo no papel, o desenvolvedor entrega primeiro o registro de ordens de produção, em duas semanas. O supervisor testa, pede ajustes e só então a equipe parte para o controle de insumos. Quando o processo mudou, o sistema acompanhou sem recomeçar.",
+      "termosRelacionados": [
+        "Scrum",
+        "sprint",
+        "metodologia cascata"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-scrum",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é scrum",
+    "consultasSecundarias": [
+      "scrum o que é",
+      "scrum metodologia",
+      "framework scrum"
+    ],
+    "title": "O que é scrum: definição e exemplo prático",
+    "description": "Veja o que é Scrum, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é scrum",
+    "respostaDireta": "Scrum é uma forma de organizar o desenvolvimento de software em ciclos curtos chamados sprints, com papéis e reuniões definidos. O Scrum prevê um responsável pelo produto, uma equipe de desenvolvimento e uma lista de prioridades. Você, como cliente, decide o que vem primeiro e vê entregas a cada ciclo.",
+    "secoes": [
+      {
+        "titulo": "Os papéis e as reuniões",
+        "paragrafos": [
+          "O Scrum tem poucas regras, e a clareza delas é o motivo da fama. Em projetos de PME, com um desenvolvedor ou equipe pequena, usa-se uma versão enxuta."
+        ],
+        "tabela": {
+          "colunas": [
+            "Elemento",
+            "O que é",
+            "Quem participa"
+          ],
+          "linhas": [
+            [
+              "Product Owner",
+              "Quem decide prioridades e valor",
+              "Você ou alguém do seu negócio"
+            ],
+            [
+              "Time de desenvolvimento",
+              "Quem constrói",
+              "Desenvolvedores"
+            ],
+            [
+              "Sprint",
+              "Ciclo de trabalho de até um mês",
+              "Todos"
+            ],
+            [
+              "Planejamento",
+              "Escolha dos itens do ciclo",
+              "Você e o time"
+            ],
+            [
+              "Revisão",
+              "Demonstração do que ficou pronto",
+              "Você e o time"
+            ],
+            [
+              "Retrospectiva",
+              "Ajuste do jeito de trabalhar",
+              "Time"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que o Scrum exige de você",
+        "paragrafos": [
+          "Disponibilidade. O modelo funciona quando o responsável pelo produto responde rápido, define prioridades e vê as demonstrações. Se você não tem tempo para isso, o ciclo emperra, e outro formato, como escopo fechado, pode servir melhor."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando Scrum ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Scrum serve para projeto pequeno?",
+        "resposta": "Serve, em versão enxuta. Com uma pessoa desenvolvendo, as reuniões viram conversas curtas. O que se mantém é o ciclo curto, a lista priorizada e a demonstração periódica para você."
+      },
+      {
+        "pergunta": "Scrum é uma certificação ou um método?",
+        "resposta": "É um método, descrito em um guia público. Existem certificações oferecidas por entidades privadas, mas você não precisa que o desenvolvedor tenha uma para trabalhar de forma organizada."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Guia do Scrum",
+        "url": "https://scrumguides.org/scrum-guide.html",
+        "orgao": "Scrum.org / Scrum Guides",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "Scrum",
+      "exemploPratico": "Uma rede de lavanderias quer um aplicativo para clientes acompanharem o status das roupas. A gerente-geral assume o papel de responsável pelo produto e reserva uma hora por semana. A cada quinze dias, vê o aplicativo evoluindo e reordena a lista: primeiro o status do pedido, depois o aviso por mensagem, por último o pagamento. O que a rede considerava essencial mudou duas vezes durante o projeto, sem multa e sem recomeço.",
+      "termosRelacionados": [
+        "sprint",
+        "backlog",
+        "product owner"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-metodologia-cascata",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é metodologia cascata",
+    "consultasSecundarias": [
+      "modelo cascata",
+      "waterfall",
+      "cascata ou ágil"
+    ],
+    "title": "O que é metodologia cascata: definição e exemplo prático",
+    "description": "Veja o que é metodologia cascata, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é metodologia cascata",
+    "respostaDireta": "Metodologia cascata, também chamada de waterfall, é um modelo em que o projeto segue etapas em sequência: requisitos, projeto, programação, testes e entrega. A metodologia cascata só avança quando a etapa anterior termina. Funciona bem quando o escopo é conhecido e estável, e mal quando você ainda está descobrindo o que precisa.",
+    "secoes": [
+      {
+        "titulo": "As etapas em sequência",
+        "paragrafos": [
+          "No cascata, o planejamento pesa mais no início. Você define tudo antes de começar a programar, e o preço e o prazo ficam mais fáceis de prever."
+        ],
+        "listaOrdenada": true,
+        "lista": [
+          "Levantamento e aprovação dos requisitos",
+          "Desenho das telas e da estrutura",
+          "Programação",
+          "Testes e correções",
+          "Homologação e entrega",
+          "Suporte após a entrega"
+        ]
+      },
+      {
+        "titulo": "Cascata ou ágil: como escolher",
+        "paragrafos": [
+          "A escolha depende do grau de certeza que você tem sobre o que quer."
+        ],
+        "tabela": {
+          "colunas": [
+            "Situação",
+            "Tende a servir melhor"
+          ],
+          "linhas": [
+            [
+              "Site institucional com páginas e textos definidos",
+              "Cascata, com escopo fechado"
+            ],
+            [
+              "Processo da empresa ainda mal entendido",
+              "Ágil, em ciclos"
+            ],
+            [
+              "Exigência contratual de preço e prazo fixos",
+              "Cascata"
+            ],
+            [
+              "Produto novo, com mercado ainda a testar",
+              "Ágil, começando por um MVP"
+            ]
+          ]
+        }
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando metodologia cascata ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Cascata é um método ultrapassado?",
+        "resposta": "Não. É um modelo adequado quando o escopo é claro e estável. O problema aparece ao usá-lo em projetos incertos, em que descobrir o erro só no fim sai caro."
+      },
+      {
+        "pergunta": "No cascata posso mudar de ideia durante o projeto?",
+        "resposta": "Pode, mas cada mudança tende a ser tratada como pedido formal, com análise de custo e prazo. Mudar tarde costuma ser mais caro do que no modelo em ciclos curtos."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "metodologia cascata",
+      "exemploPratico": "Uma escola de idiomas com duas unidades quer um site novo, com páginas dos cursos, formulário de matrícula e blog. Tudo está claro: o texto já existe, as fotos também. O desenvolvedor propõe cascata: aprovação das telas, programação, revisão e publicação, em seis semanas e preço fechado. Como nada deve mudar no meio, o modelo sequencial dá previsibilidade de custo e de data para a direção da escola.",
+      "termosRelacionados": [
+        "metodologia ágil",
+        "escopo fechado",
+        "homologação"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-mvp",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é mvp",
+    "consultasSecundarias": [
+      "produto mínimo viável",
+      "mvp o que é",
+      "mvp de software exemplo"
+    ],
+    "title": "O que é mvp: definição e exemplo prático",
+    "description": "Veja o que é MVP (produto mínimo viável), como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é mvp",
+    "respostaDireta": "MVP, ou produto mínimo viável, é a primeira versão de um sistema ou aplicativo, com só o necessário para ser usada e testar a ideia no mundo real. O MVP resolve o problema principal do usuário e deixa o resto para depois. Assim você aprende com uso real antes de investir no produto completo.",
+    "secoes": [
+      {
+        "titulo": "O que entra e o que fica de fora",
+        "paragrafos": [
+          "Mínimo não quer dizer ruim. Quer dizer enxuto: a menor versão que entrega valor. A pergunta que guia o corte é: sem isso, o usuário ainda consegue resolver o problema?"
+        ],
+        "tabela": {
+          "colunas": [
+            "Funcionalidade",
+            "MVP",
+            "Versão completa"
+          ],
+          "linhas": [
+            [
+              "Cadastro e login",
+              "Sim",
+              "Sim, com login social"
+            ],
+            [
+              "Fluxo principal (ex.: pedir orçamento)",
+              "Sim",
+              "Sim, com acompanhamento"
+            ],
+            [
+              "Painel de relatórios",
+              "Não",
+              "Sim"
+            ],
+            [
+              "Integração com sistema de gestão",
+              "Não",
+              "Sim"
+            ],
+            [
+              "Notificações personalizadas",
+              "Não",
+              "Sim"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "MVP e orçamento",
+        "paragrafos": [
+          "A tabela pública da AndersDev traz uma faixa para MVP de SaaS ou sistema web de R$ 15.000 a R$ 40.000, enquanto um aplicativo completo com backend vai de R$ 30.000 a R$ 72.000. A diferença mostra o efeito de começar enxuto. O valor final depende do que você incluir."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando MVP (produto mínimo viável) ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "MVP é a mesma coisa que protótipo?",
+        "resposta": "Não. O protótipo é um modelo para mostrar e testar a ideia, sem funcionar de verdade. O MVP é um produto real, simples, que as pessoas usam de fato."
+      },
+      {
+        "pergunta": "Depois do MVP preciso refazer tudo?",
+        "resposta": "Não, se ele foi bem construído. O MVP deve ser a base do produto, que cresce por etapas. Combine com o desenvolvedor, desde o início, uma arquitetura que aguente as próximas funcionalidades."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "MVP (produto mínimo viável)",
+      "sigla": "MVP",
+      "exemploPratico": "Uma empresa de manutenção predial acha que seus clientes pagariam por um portal para abrir chamados e acompanhar visitas. Em vez de construir tudo, lança um MVP com apenas abertura de chamado e consulta de status. Em dois meses, vê quais clientes usam e o que pedem. Os relatórios e a integração com o financeiro só entram depois, e apenas se o uso justificar.",
+      "termosRelacionados": [
+        "prova de conceito (PoC)",
+        "protótipo navegável",
+        "roadmap de produto"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-prova-de-conceito-poc",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é prova de conceito (poc)",
+    "consultasSecundarias": [
+      "poc o que é",
+      "prova de conceito software",
+      "poc exemplo"
+    ],
+    "title": "O que é prova de conceito (poc): definição e exemplo prático",
+    "description": "Veja o que é prova de conceito (PoC), como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é prova de conceito (poc)",
+    "respostaDireta": "Prova de conceito, ou PoC, é um teste pequeno e rápido para descobrir se uma ideia técnica funciona antes de investir no projeto inteiro. A prova de conceito não é um produto: ela responde a uma pergunta específica, como \"dá para integrar o nosso sistema com esse serviço?\", e pode ser descartada depois.",
+    "secoes": [
+      {
+        "titulo": "Para que serve uma PoC",
+        "paragrafos": [
+          "A PoC é indicada quando há um risco técnico concreto. Em vez de apostar o orçamento inteiro, você paga por uma verificação curta e decide com mais segurança."
+        ],
+        "lista": [
+          "Verificar se uma integração com o sistema da empresa é possível",
+          "Testar se um cálculo ou regra complexa se comporta como esperado",
+          "Avaliar se uma tecnologia nova atende ao volume de dados",
+          "Conferir a qualidade de um recurso de inteligência artificial com dados reais",
+          "Mostrar à diretoria que a ideia é viável"
+        ]
+      },
+      {
+        "titulo": "PoC, protótipo e MVP",
+        "paragrafos": [
+          "Os três são confundidos, mas respondem a perguntas diferentes."
+        ],
+        "tabela": {
+          "colunas": [
+            "",
+            "PoC",
+            "Protótipo",
+            "MVP"
+          ],
+          "linhas": [
+            [
+              "Pergunta",
+              "Isso é tecnicamente possível?",
+              "As pessoas entendem e gostam?",
+              "As pessoas usam e valorizam?"
+            ],
+            [
+              "Funciona de verdade?",
+              "Só no ponto testado",
+              "Não, é simulação",
+              "Sim, de forma enxuta"
+            ],
+            [
+              "Destino",
+              "Costuma ser descartada",
+              "Guia o design",
+              "Vira a base do produto"
+            ]
+          ]
+        }
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando prova de conceito (PoC) ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Uma PoC é cobrada?",
+        "resposta": "Em geral sim, porque dá trabalho técnico. O ponto positivo é o valor ser pequeno perto do projeto e reduzir o risco de pagar por algo inviável. Combine o que será testado e o que conta como sucesso."
+      },
+      {
+        "pergunta": "A PoC pode virar o sistema final?",
+        "resposta": "Normalmente não, porque é feita para ser rápida, e não para durar. O aprendizado fica, o código costuma ser refeito com a qualidade necessária para produção."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "prova de conceito (PoC)",
+      "sigla": "PoC",
+      "exemploPratico": "Uma fábrica de móveis quer que o sistema novo leia automaticamente o arquivo de corte gerado pelo software de projeto, para evitar digitação. Ninguém sabe se o formato permite isso. O desenvolvedor faz uma PoC de poucos dias: lê três arquivos reais e mostra os dados extraídos. O resultado confirma a viabilidade e dá base para estimar o projeto com mais segurança, antes de assinar o contrato maior.",
+      "termosRelacionados": [
+        "MVP (produto mínimo viável)",
+        "protótipo navegável",
+        "discovery de produto"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-prototipo-navegavel",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é protótipo navegável",
+    "consultasSecundarias": [
+      "protótipo de app",
+      "protótipo clicável",
+      "protótipo de site"
+    ],
+    "title": "O que é protótipo navegável: definição e exemplo prático",
+    "description": "Veja o que é protótipo navegável, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é protótipo navegável",
+    "respostaDireta": "Protótipo navegável é uma simulação clicável das telas de um site ou aplicativo, feita antes da programação. O protótipo navegável permite que você e sua equipe passem de tela em tela, testem o fluxo e peçam mudanças. Corrigir uma tela desenhada é muito mais barato do que corrigir uma tela programada.",
+    "secoes": [
+      {
+        "titulo": "Como ele ajuda a evitar retrabalho",
+        "paragrafos": [
+          "O protótipo transforma uma descrição abstrata em algo que você vê. Muitos ajustes só aparecem quando alguém tenta usar: o botão está no lugar errado, falta um campo, o fluxo tem um passo a mais."
+        ],
+        "listaOrdenada": true,
+        "lista": [
+          "O desenvolvedor ou designer desenha as telas principais",
+          "As telas são ligadas por cliques, simulando o fluxo",
+          "Você e quem vai usar o sistema testam e comentam",
+          "As mudanças são aplicadas ainda no desenho",
+          "Com o protótipo aprovado, começa a programação"
+        ]
+      },
+      {
+        "titulo": "O que ele não é",
+        "paragrafos": [
+          "Não guarda dados, não calcula nada e não substitui a especificação das regras. Ele mostra como a pessoa interage, e não como o sistema pensa por dentro. Por isso, um bom projeto combina o protótipo com a lista de requisitos."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando protótipo navegável ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "O protótipo tem custo à parte?",
+        "resposta": "Depende do fornecedor. Muitos incluem na etapa de desenho. Em projetos maiores, pode ser uma fase cobrada separadamente, com benefício claro: reduz mudanças caras durante a programação."
+      },
+      {
+        "pergunta": "Preciso aprovar o protótipo por escrito?",
+        "resposta": "É recomendável. A aprovação registra o que foi visto e acordado. Mudanças depois dela passam a ser pedidos de mudança, com impacto em prazo e custo."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "protótipo navegável",
+      "exemploPratico": "Uma cooperativa de produtores quer um app para registrar entregas de leite. Antes de programar, o desenvolvedor monta um protótipo com cinco telas e o entrega para dois motoristas testarem no celular. Eles notam que o botão de confirmar está longe do polegar e que falta registrar a temperatura. Os dois ajustes são feitos em uma tarde, no desenho, antes de qualquer linha de código.",
+      "termosRelacionados": [
+        "MVP (produto mínimo viável)",
+        "prova de conceito (PoC)",
+        "levantamento de requisitos"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-discovery-de-produto",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é discovery de produto",
+    "consultasSecundarias": [
+      "discovery",
+      "discovery em desenvolvimento de software",
+      "fase de discovery"
+    ],
+    "title": "O que é discovery de produto: definição e exemplo prático",
+    "description": "Veja o que é discovery de produto, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é discovery de produto",
+    "respostaDireta": "Discovery de produto é a fase inicial em que se investiga o problema antes de construir a solução. O discovery de produto reúne entrevistas com usuários, mapeamento dos processos, definição de prioridades e uma proposta de primeiro passo. Ele reduz o risco de gastar o orçamento no sistema errado.",
+    "secoes": [
+      {
+        "titulo": "O que acontece no discovery",
+        "paragrafos": [
+          "Em vez de começar pela tela, começa-se pela pergunta: qual problema vale resolver primeiro? O resultado costuma ser um conjunto curto de documentos que você pode usar mesmo que decida não seguir com o mesmo desenvolvedor."
+        ],
+        "tabela": {
+          "colunas": [
+            "Atividade",
+            "Resultado entregue"
+          ],
+          "linhas": [
+            [
+              "Entrevistas com usuários e equipe",
+              "Lista de dores e prioridades"
+            ],
+            [
+              "Mapa do processo atual",
+              "Fluxo desenhado com os gargalos"
+            ],
+            [
+              "Definição do objetivo",
+              "Meta de negócio medível"
+            ],
+            [
+              "Desenho de alternativas",
+              "Opções com vantagens e custos"
+            ],
+            [
+              "Plano de primeiro passo",
+              "Escopo do MVP e roadmap"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Quando faz sentido contratar",
+        "paragrafos": [
+          "Quando o problema é conhecido, mas a solução não, ou quando o investimento é alto. Para uma landing page simples, é desnecessário. Para um sistema de gestão que vai mudar o trabalho de vinte pessoas, é um seguro barato contra o retrabalho."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando discovery de produto ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Discovery e levantamento de requisitos são a mesma coisa?",
+        "resposta": "São parentes. O levantamento detalha o que o sistema fará. O discovery vem antes e questiona se esse é o sistema certo, ouvindo usuários e estudando o problema."
+      },
+      {
+        "pergunta": "Posso contratar só o discovery?",
+        "resposta": "Pode, e é comum. Você recebe os documentos e decide depois como e com quem executar. Combine desde o início o que será entregue ao final da fase."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "discovery de produto",
+      "exemploPratico": "Uma empresa de logística acha que precisa de um sistema de rastreamento. No discovery de duas semanas, o desenvolvedor acompanha a expedição e descobre que o maior problema não é rastrear, e sim a conferência de romaneios feita à mão, que gera erros de entrega. A prioridade muda: primeiro um módulo de conferência por leitura de código de barras, depois o rastreamento. O orçamento é aplicado onde dói.",
+      "termosRelacionados": [
+        "levantamento de requisitos",
+        "MVP (produto mínimo viável)",
+        "roadmap de produto"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-roadmap-de-produto",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é roadmap de produto",
+    "consultasSecundarias": [
+      "roadmap",
+      "roadmap de software",
+      "exemplo de roadmap"
+    ],
+    "title": "O que é roadmap de produto: definição e exemplo prático",
+    "description": "Veja o que é roadmap de produto, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é roadmap de produto",
+    "respostaDireta": "Roadmap de produto é o mapa de evolução do sistema ao longo do tempo, mostrando o que será feito primeiro, depois e mais adiante. O roadmap de produto conecta funcionalidades a objetivos do negócio e serve para alinhar expectativas. Ele indica a direção, e não promete datas exatas para tudo.",
+    "secoes": [
+      {
+        "titulo": "Como ler um roadmap",
+        "paragrafos": [
+          "Um bom roadmap se organiza por horizontes. O que está próximo é detalhado; o que está longe é descrito em intenção, porque a vontade e o mercado mudam."
+        ],
+        "tabela": {
+          "colunas": [
+            "Horizonte",
+            "Nível de detalhe",
+            "Exemplo"
+          ],
+          "linhas": [
+            [
+              "Agora (1 a 2 meses)",
+              "Itens definidos, com estimativa",
+              "Cadastro de clientes e agenda"
+            ],
+            [
+              "Próximo (3 a 6 meses)",
+              "Itens descritos, ainda sem detalhe",
+              "Lembretes por mensagem"
+            ],
+            [
+              "Depois",
+              "Apenas objetivos",
+              "Emissão fiscal integrada"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Diferença para backlog e cronograma",
+        "paragrafos": [
+          "O backlog é a lista de itens por prioridade. O cronograma amarra tarefas a datas. O roadmap fica acima dos dois: mostra a estratégia em etapas. Se você está contratando, peça um roadmap simples, para saber o que cabe no primeiro investimento e o que fica para a evolução."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando roadmap de produto ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "O roadmap é um compromisso de data?",
+        "resposta": "Não. É uma intenção organizada. As datas só são firmes para o curto prazo. Itens distantes podem mudar conforme o uso real e os resultados."
+      },
+      {
+        "pergunta": "Quem faz o roadmap?",
+        "resposta": "É construído em conjunto. Você traz os objetivos do negócio, o desenvolvedor traz estimativas e dependências técnicas. A decisão de prioridade é sua."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "roadmap de produto",
+      "exemploPratico": "Um escritório de contabilidade quer um portal para clientes. O roadmap proposto tem três etapas: primeiro, envio e consulta de documentos; depois, avisos de vencimento por WhatsApp; por fim, assinatura digital. O sócio aprova só a primeira etapa. Já sabe que as outras existem e que a estrutura foi pensada para recebê-las, o que evita pagar por uma base que teria de ser descartada.",
+      "termosRelacionados": [
+        "backlog",
+        "MVP (produto mínimo viável)",
+        "cronograma de projeto"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-cronograma-de-projeto",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é cronograma de projeto",
+    "consultasSecundarias": [
+      "cronograma de desenvolvimento de software",
+      "cronograma de site",
+      "como fazer cronograma de projeto"
+    ],
+    "title": "O que é cronograma de projeto: definição e exemplo prático",
+    "description": "Veja o que é cronograma de projeto, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é cronograma de projeto",
+    "respostaDireta": "Cronograma de projeto é o calendário que distribui as tarefas e entregas no tempo, com datas de início e fim. O cronograma de projeto mostra quem faz o quê e quando, e indica em que ponto você precisa agir, como entregar textos, imagens ou aprovar telas. Atrasos do cliente também empurram as datas.",
+    "secoes": [
+      {
+        "titulo": "Exemplo de cronograma de um site",
+        "paragrafos": [
+          "Os prazos abaixo são ilustrativos, e não uma promessa. Cada projeto tem o seu ritmo, definido na proposta."
+        ],
+        "tabela": {
+          "colunas": [
+            "Semana",
+            "Etapa",
+            "Quem age"
+          ],
+          "linhas": [
+            [
+              "1",
+              "Briefing e levantamento",
+              "Você e o desenvolvedor"
+            ],
+            [
+              "2",
+              "Estrutura e desenho das telas",
+              "Desenvolvedor"
+            ],
+            [
+              "3",
+              "Aprovação do desenho",
+              "Você"
+            ],
+            [
+              "4 a 5",
+              "Programação",
+              "Desenvolvedor"
+            ],
+            [
+              "6",
+              "Conteúdo final e testes",
+              "Os dois"
+            ],
+            [
+              "7",
+              "Homologação e publicação",
+              "Você aprova"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que costuma atrasar",
+        "paragrafos": [
+          "O desenvolvimento em si raramente é a maior causa. Atrasam a demora em aprovar, a entrega incompleta de conteúdo e as mudanças fora do combinado. Por isso vale definir no cronograma os prazos de resposta do seu lado e o que acontece se forem perdidos."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando cronograma de projeto ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Cronograma e prazo de entrega são a mesma coisa?",
+        "resposta": "Não. O prazo é a data final. O cronograma detalha o caminho até ela, com etapas e responsáveis. Ele mostra onde um atraso vai pesar."
+      },
+      {
+        "pergunta": "Pedir urgência muda o preço?",
+        "resposta": "Pode. Na tabela pública da AndersDev, prazo urgente tem acréscimo de 25% (site em menos de 3 semanas; app em menos de 6). Encurtar o cronograma exige reorganizar o trabalho."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "cronograma de projeto",
+      "exemploPratico": "Uma rede de farmácias de bairro quer um site com pedido por WhatsApp antes do Dia das Mães. O desenvolvedor monta o cronograma voltando da data final: publicação na semana anterior, testes duas semanas antes, aprovação de telas no meio. Ao notar que o catálogo de produtos só chegará em duas semanas, a diretora avisa o impacto: sem o catálogo no prazo, a data de publicação muda.",
+      "termosRelacionados": [
+        "marco de projeto (milestone)",
+        "roadmap de produto",
+        "sprint"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-marco-de-projeto-milestone",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é marco de projeto (milestone)",
+    "consultasSecundarias": [
+      "milestone",
+      "milestone projeto",
+      "marcos de um projeto"
+    ],
+    "title": "O que é marco de projeto (milestone): definição e exemplo",
+    "description": "Veja o que é marco de projeto (milestone), como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é marco de projeto (milestone)",
+    "respostaDireta": "Marco de projeto, ou milestone, é um ponto de controle que marca a conclusão de uma etapa importante. O marco de projeto não é uma tarefa, e sim um resultado verificável, como \"telas aprovadas\" ou \"sistema em homologação\". Muitos contratos amarram os pagamentos a esses marcos.",
+    "secoes": [
+      {
+        "titulo": "Marcos e pagamentos",
+        "paragrafos": [
+          "Ligar o pagamento a marcos protege os dois lados. Você paga conforme vê resultado, e o desenvolvedor recebe conforme entrega. O ponto é cada marco ter um critério claro de que foi atingido."
+        ],
+        "tabela": {
+          "colunas": [
+            "Marco",
+            "Como saber que foi atingido",
+            "Parcela (exemplo hipotético)"
+          ],
+          "linhas": [
+            [
+              "Assinatura e início",
+              "Contrato assinado",
+              "Primeira parcela"
+            ],
+            [
+              "Desenho aprovado",
+              "Telas aprovadas por escrito",
+              "Segunda parcela"
+            ],
+            [
+              "Sistema em homologação",
+              "Versão disponível para testes",
+              "Terceira parcela"
+            ],
+            [
+              "Entrega",
+              "Aceite após correções",
+              "Parcela final"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Marcos mal definidos",
+        "paragrafos": [
+          "Um marco como \"quase tudo pronto\" não ajuda, porque ninguém consegue verificar. Prefira marcos que você consiga ver, testar ou assinar. Em caso de dúvida, pergunte: o que eu verei quando este marco for atingido?"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando marco de projeto (milestone) ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Marco e etapa são a mesma coisa?",
+        "resposta": "Não. A etapa dura um tempo e envolve trabalho. O marco é o ponto no tempo em que a etapa termina e algo pode ser verificado. Por isso ele serve de gatilho de aprovação e de pagamento."
+      },
+      {
+        "pergunta": "Posso negociar pagamento por marcos?",
+        "resposta": "Pode, e é prática comum em projetos maiores. A divisão exata, os percentuais e os critérios de aceite devem constar no contrato."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "marco de projeto (milestone)",
+      "exemploPratico": "Um fabricante de esquadrias contrata um sistema de orçamentos. O contrato prevê quatro marcos: protótipo aprovado, cadastro de produtos pronto, cálculo de orçamento em homologação e entrega com treinamento. Ao chegar ao terceiro, a dona percebe que o cálculo ignora a pintura. Como o pagamento do marco depende do aceite, o ajuste é feito antes da liberação da parcela, sem desgaste.",
+      "termosRelacionados": [
+        "cronograma de projeto",
+        "homologação",
+        "escopo de projeto"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-homologacao",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é homologação",
+    "consultasSecundarias": [
+      "homologação de sistema",
+      "homologação de software",
+      "o que é homologar um sistema"
+    ],
+    "title": "O que é homologação: definição e exemplo prático",
+    "description": "Veja o que é homologação, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é homologação",
+    "respostaDireta": "Homologação é a etapa em que você testa o sistema pronto, em um ambiente de ensaio, e aprova ou pede correções antes da publicação. A homologação serve para conferir se o que foi construído bate com o que foi combinado. Ao aprovar, você dá o aceite e o sistema pode ir para o ar.",
+    "secoes": [
+      {
+        "titulo": "Como fazer uma homologação que valha",
+        "paragrafos": [
+          "Muita gente abre o sistema, clica em três lugares e aprova. O resultado aparece depois, com o sistema já em uso. Faça com roteiro."
+        ],
+        "listaOrdenada": true,
+        "lista": [
+          "Peça o acesso ao ambiente de teste e uma lista do que será entregue",
+          "Monte um roteiro com os fluxos reais da empresa",
+          "Peça a quem usa o dia a dia que execute o roteiro",
+          "Registre cada problema com foto e o passo a passo",
+          "Reteste as correções antes de aprovar",
+          "Aprove por escrito, indicando o que ficou pendente"
+        ]
+      },
+      {
+        "titulo": "O que testar em um sistema de empresa",
+        "paragrafos": [
+          "Não teste só o caminho feliz. Tente erros: valor negativo, campo vazio, dois usuários editando a mesma coisa, o botão voltar do navegador. As falhas mais custosas moram nos casos que ninguém pensou."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando homologação ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Quanto tempo dura a homologação?",
+        "resposta": "De poucos dias a algumas semanas, conforme o tamanho do sistema. O tempo depende também da rapidez com que você e sua equipe testam e devolvem o retorno."
+      },
+      {
+        "pergunta": "O que acontece se eu aprovar e encontrar erro depois?",
+        "resposta": "Depende do contrato e da garantia. Erros de funcionamento do que foi combinado costumam ser cobertos pela garantia por um período. Pedidos novos são tratados como evolução."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "homologação",
+      "exemploPratico": "Uma oficina mecânica recebe o sistema de ordens de serviço para homologar. A recepcionista executa o roteiro com três ordens reais da semana anterior. Ao lançar uma peça com preço de custo maior que o de venda, o sistema deixa passar sem aviso. Ela anota o problema, o desenvolvedor corrige, ela refaz o teste e só então assina o aceite. Em produção, o erro custaria prejuízo sem ninguém perceber.",
+      "termosRelacionados": [
+        "ambiente de homologação (staging)",
+        "garantia de software",
+        "QA (garantia de qualidade)"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-ambiente-de-producao",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é ambiente de produção",
+    "consultasSecundarias": [
+      "ambiente de produção software",
+      "produção em desenvolvimento de software",
+      "o que é produção em TI"
+    ],
+    "title": "O que é ambiente de produção: definição e exemplo prático",
+    "description": "Veja o que é ambiente de produção, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é ambiente de produção",
+    "respostaDireta": "Ambiente de produção é a versão do sistema que está no ar e que clientes e equipe usam de verdade, com dados reais. O ambiente de produção é onde um erro custa dinheiro: pedido perdido, cobrança errada, site fora do ar. Por isso mudanças nele devem ser testadas antes, em outro ambiente.",
+    "secoes": [
+      {
+        "titulo": "O que caracteriza a produção",
+        "paragrafos": [
+          "Pense na produção como o salão de uma loja aberta ao público. O que acontece ali é visto por todos e afeta o caixa. Alterações pedem cuidado, horário combinado e um plano de volta atrás."
+        ],
+        "lista": [
+          "Dados reais de clientes, pedidos e pagamentos",
+          "Endereço público (o domínio do seu site ou sistema)",
+          "Backup automático e monitoramento ligados",
+          "Acesso restrito a poucas pessoas",
+          "Mudanças feitas só após teste em outro ambiente",
+          "Registro de quem alterou o quê"
+        ]
+      },
+      {
+        "titulo": "Quem é responsável por ela",
+        "paragrafos": [
+          "Pergunte ao desenvolvedor, antes de contratar, onde a produção ficará hospedada, em nome de quem estão as contas (domínio, hospedagem, banco de dados) e quem tem as senhas. O ideal é que a conta esteja no nome da sua empresa, com acesso compartilhado ao desenvolvedor. Assim você não fica refém."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando ambiente de produção ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Posso testar mudanças direto na produção?",
+        "resposta": "Não é recomendável. Qualquer erro afeta clientes reais e dados verdadeiros. Teste em um ambiente separado e só publique depois de aprovar."
+      },
+      {
+        "pergunta": "Produção e hospedagem são a mesma coisa?",
+        "resposta": "Quase. A hospedagem é o serviço onde o sistema fica armazenado. A produção é o papel que essa instalação cumpre: a versão em uso real. Você pode ter hospedagem de teste e hospedagem de produção."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "ambiente de produção",
+      "exemploPratico": "Uma distribuidora de bebidas usa um sistema de pedidos no ar todos os dias. Numa sexta, alguém sugere mexer direto na produção para trocar um texto na tela do vendedor. O desenvolvedor explica que a mexida pode derrubar o sistema na hora do fechamento semanal. A troca é feita em outro ambiente, aprovada na segunda-feira cedo e publicada às sete da manhã, antes de os vendedores começarem a lançar pedidos.",
+      "termosRelacionados": [
+        "ambiente de homologação (staging)",
+        "deploy",
+        "homologação"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-ambiente-de-homologacao-staging",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é ambiente de homologação (staging)",
+    "consultasSecundarias": [
+      "staging",
+      "ambiente de staging",
+      "ambiente de teste de software"
+    ],
+    "title": "O que é ambiente de homologação (staging): exemplo prático",
+    "description": "Veja o que é ambiente de homologação (staging), como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é ambiente de homologação (staging)",
+    "respostaDireta": "Ambiente de homologação, ou staging, é uma cópia do sistema, separada da versão no ar, usada para testar mudanças antes de publicá-las. O ambiente de homologação tem endereço próprio e dados fictícios. É nele que você aprova as novidades sem arriscar clientes nem pedidos reais.",
+    "secoes": [
+      {
+        "titulo": "Para que ele serve na prática",
+        "paragrafos": [
+          "Enquanto a produção é o salão aberto ao público, a homologação é o ensaio geral. Tudo é parecido, só que ninguém é prejudicado se algo der errado."
+        ],
+        "tabela": {
+          "colunas": [
+            "",
+            "Homologação",
+            "Produção"
+          ],
+          "linhas": [
+            [
+              "Quem usa",
+              "Você e o desenvolvedor, para testar",
+              "Clientes e equipe, no dia a dia"
+            ],
+            [
+              "Dados",
+              "Fictícios ou copiados e anonimizados",
+              "Reais"
+            ],
+            [
+              "Pagamentos",
+              "Modo de teste",
+              "Cobrança verdadeira"
+            ],
+            [
+              "Erro aqui causa",
+              "Correção antes de publicar",
+              "Prejuízo e reclamação"
+            ],
+            [
+              "Endereço",
+              "Próprio, normalmente restrito",
+              "Domínio oficial"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que perguntar ao contratar",
+        "paragrafos": [
+          "Verifique se o orçamento inclui um ambiente de homologação, ou se os testes serão feitos direto no que está no ar. Em sites muito simples pode ser dispensável, mas em lojas virtuais e sistemas com pagamento ele evita sustos. Pergunte também se a homologação fica protegida por senha, para ninguém de fora enxergar a versão em construção."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando ambiente de homologação (staging) ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Staging e homologação são a mesma coisa?",
+        "resposta": "Na prática, sim. Staging é o termo em inglês para o ambiente intermediário entre o desenvolvimento e a produção. No Brasil, homologação costuma nomear tanto o ambiente quanto a etapa de aprovação."
+      },
+      {
+        "pergunta": "O ambiente de homologação tem custo extra?",
+        "resposta": "Pode ter um pequeno custo de hospedagem, mas em muitos casos é leve. O custo é menor que o prejuízo de um erro em produção. Peça ao desenvolvedor para detalhar na proposta."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "ambiente de homologação (staging)",
+      "exemploPratico": "Uma loja de eletrônicos quer incluir parcelamento sem juros no checkout. O desenvolvedor publica a mudança no ambiente de homologação e o gerente faz compras de teste com o cartão em modo de simulação. Ele percebe que o valor da parcela aparece arredondado de forma estranha. A correção é feita ali, e só depois a novidade vai ao ar, sem nenhuma venda real afetada.",
+      "termosRelacionados": [
+        "ambiente de produção",
+        "homologação",
+        "deploy"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-deploy",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é deploy",
+    "consultasSecundarias": [
+      "deploy de software",
+      "fazer deploy",
+      "o que significa deploy"
+    ],
+    "title": "O que é deploy: definição e exemplo prático",
+    "description": "Veja o que é deploy, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é deploy",
+    "respostaDireta": "Deploy é o ato de publicar uma versão do sistema para que ela passe a funcionar no ambiente em uso. O deploy leva o código do computador do desenvolvedor, ou de um ambiente de teste, até o servidor onde clientes e equipe acessam. Pode ser manual ou automático, e deve ser planejado.",
+    "secoes": [
+      {
+        "titulo": "O que acontece em um deploy",
+        "paragrafos": [
+          "Um deploy bem feito é um procedimento repetível, não um improviso. Quanto mais automático, menor a chance de erro humano."
+        ],
+        "listaOrdenada": true,
+        "lista": [
+          "O código aprovado é preparado para publicação",
+          "O sistema é copiado para o servidor",
+          "Alterações no banco de dados são aplicadas, se houver",
+          "A nova versão entra no ar",
+          "O desenvolvedor confere se tudo funciona",
+          "Se algo falha, volta-se à versão anterior (rollback)"
+        ]
+      },
+      {
+        "titulo": "Boas práticas que você pode exigir",
+        "paragrafos": [
+          "Combine horário: evite o pico de vendas ou o fechamento do mês. Peça aviso antes de cada publicação relevante. Pergunte se existe plano de volta atrás e se há backup recente antes de mudanças grandes. Esses pedidos são simples, e quem trabalha com cuidado já os faz."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando deploy ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Deploy derruba o sistema?",
+        "resposta": "Não precisa. Com boas práticas, a troca é feita em segundos ou minutos, às vezes sem interrupção perceptível. Em sistemas simples, uma pequena indisponibilidade pode ocorrer, e deve ser combinada com antecedência."
+      },
+      {
+        "pergunta": "Quem faz o deploy, eu ou o desenvolvedor?",
+        "resposta": "Em geral o desenvolvedor. Você aprova a versão na homologação e autoriza a publicação. Garanta que o acesso ao servidor esteja em nome da sua empresa, para você não depender de uma única pessoa."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "deploy",
+      "exemploPratico": "Uma rede de clínicas odontológicas recebe uma nova função no sistema de agenda: confirmação de consulta por mensagem. O desenvolvedor agenda o deploy para um domingo à noite, quando as recepções estão fechadas, faz o backup antes e deixa o rollback pronto. Na segunda cedo, as recepcionistas já usam o recurso. Se algo tivesse falhado, a versão antiga voltaria em minutos, e a segunda-feira seguiria normal.",
+      "termosRelacionados": [
+        "CI/CD",
+        "ambiente de produção",
+        "versionamento de código (Git)"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-versionamento-de-codigo-git",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é versionamento de código (git)",
+    "consultasSecundarias": [
+      "git",
+      "controle de versão",
+      "o que é git"
+    ],
+    "title": "O que é versionamento de código (git): definição e exemplo",
+    "description": "Veja o que é versionamento de código (Git), como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é versionamento de código (git)",
+    "respostaDireta": "Versionamento de código é o registro de cada alteração feita no código-fonte, com autor, data e motivo. O Git é a ferramenta mais usada para isso. O versionamento de código permite voltar a uma versão anterior, trabalhar em várias pessoas sem sobrescrever o trabalho dos outros e entender a história do projeto.",
+    "secoes": [
+      {
+        "titulo": "Por que isso importa para o dono do projeto",
+        "paragrafos": [
+          "Você não precisa mexer no Git. Precisa saber que ele existe e que o código do seu sistema está guardado com histórico, em um local que você controla. Isso é seguro contra erros, perdas e saídas de profissionais."
+        ],
+        "tabela": {
+          "colunas": [
+            "Sem versionamento",
+            "Com Git"
+          ],
+          "linhas": [
+            [
+              "Código em pastas com nomes como \"final_v3_certo\"",
+              "Cada alteração registrada e datada"
+            ],
+            [
+              "Um erro novo pode quebrar o que funcionava, sem volta fácil",
+              "Volta-se à versão anterior em minutos"
+            ],
+            [
+              "Dois desenvolvedores sobrescrevem o trabalho um do outro",
+              "O trabalho de cada um é combinado com controle"
+            ],
+            [
+              "Só o autor sabe o que foi mexido",
+              "Histórico legível por quem assumir depois"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que pedir no contrato",
+        "paragrafos": [
+          "Peça que o código fique em um repositório em nome da empresa, em plataforma de uso comum, e que você tenha acesso. Ao fim do projeto, o código e o histórico fazem parte da entrega. Veja também repositório de código e handover de projeto."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando versionamento de código (Git) ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Git e GitHub são a mesma coisa?",
+        "resposta": "Não. Git é a ferramenta de versionamento. GitHub, GitLab e outros são serviços online que guardam repositórios Git e facilitam o trabalho em equipe. Você pode usar o Git sem eles, mas hospedar online ajuda."
+      },
+      {
+        "pergunta": "Preciso aprender Git para contratar?",
+        "resposta": "Não. Basta exigir que o código esteja versionado e que você possua acesso ao repositório. Quem for dar manutenção depois usará esse histórico."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Pro Git (livro oficial)",
+        "url": "https://git-scm.com/book/pt-br/v2",
+        "orgao": "Git",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "versionamento de código (Git)",
+      "sigla": "Git",
+      "exemploPratico": "Uma empresa de climatização contrata um sistema de visitas técnicas. Meses depois, uma mudança no cálculo de deslocamento gera valores errados nos orçamentos. Como o código tem histórico, o desenvolvedor identifica a alteração que causou o problema, desfaz apenas aquela parte e preserva o restante. Sem o versionamento, o conserto exigiria procurar o erro às cegas, com o sistema errando por mais tempo.",
+      "termosRelacionados": [
+        "repositório de código",
+        "código-fonte",
+        "handover de projeto"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-repositorio-de-codigo",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é repositório de código",
+    "consultasSecundarias": [
+      "repositório git",
+      "repositório de software",
+      "repositório github"
+    ],
+    "title": "O que é repositório de código: definição e exemplo prático",
+    "description": "Veja o que é repositório de código, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é repositório de código",
+    "respostaDireta": "Repositório de código é o local onde fica guardado o código-fonte de um projeto, com todo o seu histórico de alterações. O repositório de código funciona como o cofre e o arquivo do seu sistema. Quem tem acesso a ele consegue ver, copiar e continuar o trabalho, mesmo que troque de desenvolvedor.",
+    "secoes": [
+      {
+        "titulo": "De quem deve ser o repositório",
+        "paragrafos": [
+          "Aqui mora uma das decisões mais importantes de um projeto de software. Se o código está só no computador do desenvolvedor, você não tem como assumir o projeto se algo der errado. Combine, antes de assinar:"
+        ],
+        "lista": [
+          "O repositório fica em uma conta da sua empresa ou com você como proprietário",
+          "O desenvolvedor trabalha como colaborador, com acesso concedido",
+          "Você recebe uma cópia completa na entrega",
+          "Os dados de acesso (hospedagem, banco, domínio) também ficam documentados",
+          "O contrato diz de quem é a propriedade do código"
+        ]
+      },
+      {
+        "titulo": "O que há dentro",
+        "paragrafos": [
+          "Além dos arquivos do sistema, o repositório guarda o histórico de versões, instruções de instalação, configurações e, em bons projetos, testes automatizados. Chaves de acesso e senhas não devem estar no repositório, pois são guardadas à parte."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando repositório de código ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Repositório e servidor são a mesma coisa?",
+        "resposta": "Não. O repositório guarda o código-fonte e o histórico. O servidor executa o sistema para os usuários. O código sai do repositório, passa por um deploy e chega ao servidor."
+      },
+      {
+        "pergunta": "Posso pedir o código ao fim do projeto?",
+        "resposta": "Se o contrato prever a cessão ou a licença do código, sim. Deixe isso por escrito, pois sem cláusula clara pode haver dúvida sobre direitos e acesso. Um advogado pode revisar o texto."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "repositório de código",
+      "exemploPratico": "Uma imobiliária contratou um site com busca de imóveis, e o profissional parou de responder. Por sorte, o contrato previa que o repositório ficasse em uma conta da imobiliária. O novo desenvolvedor recebeu o acesso, leu as instruções do projeto e publicou uma correção em poucos dias. Sem o repositório, o trabalho precisaria ser refeito do zero ou dependeria da boa vontade de quem sumiu.",
+      "termosRelacionados": [
+        "versionamento de código (Git)",
+        "código-fonte",
+        "handover de projeto"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-manutencao-evolutiva",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é manutenção evolutiva",
+    "consultasSecundarias": [
+      "manutenção evolutiva de software",
+      "manutenção evolutiva exemplo",
+      "evolução de sistema"
+    ],
+    "title": "O que é manutenção evolutiva: definição e exemplo prático",
+    "description": "Veja o que é manutenção evolutiva, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é manutenção evolutiva",
+    "respostaDireta": "Manutenção evolutiva é o trabalho de acrescentar funcionalidades ou melhorar o que o sistema já faz, depois que ele está no ar. A manutenção evolutiva atende a novas necessidades do negócio, como um relatório novo, uma integração ou um perfil de acesso. Ela é diferente de consertar defeitos.",
+    "secoes": [
+      {
+        "titulo": "O que costuma entrar",
+        "paragrafos": [
+          "O negócio muda, e o sistema precisa acompanhar. Esse trabalho não é falha de quem entregou, e sim consequência do crescimento da empresa."
+        ],
+        "lista": [
+          "Novo relatório pedido pela diretoria",
+          "Integração com um novo meio de pagamento",
+          "Cadastro de uma nova filial ou unidade",
+          "Mudança de regra de desconto ou comissão",
+          "Adaptação a uma nova exigência fiscal",
+          "Nova tela para um setor que antes usava planilha"
+        ]
+      },
+      {
+        "titulo": "Como é cobrada",
+        "paragrafos": [
+          "Ao contrário da correção de defeitos, a evolutiva normalmente é orçada: por item, por pacote de horas ou por contrato mensal. Pergunte ao desenvolvedor como funciona e qual o prazo de resposta aos pedidos. Para um custo mais previsível, combine uma reserva mensal de horas, o banco de horas."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando manutenção evolutiva ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "A manutenção evolutiva está incluída no preço do projeto?",
+        "resposta": "Em geral não. O preço do projeto cobre o escopo combinado. Funções novas depois da entrega são orçadas à parte, ou cobertas por um contrato de manutenção, se houver."
+      },
+      {
+        "pergunta": "Como saber se algo é evolução ou defeito?",
+        "resposta": "Se o sistema deveria fazer aquilo e não faz, é defeito. Se é algo que nunca foi combinado, é evolução. O escopo escrito resolve a maior parte das dúvidas."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "manutenção evolutiva",
+      "exemploPratico": "Uma empresa de transporte escolar usa um sistema para controlar rotas e mensalidades. Ao abrir uma nova linha para outro bairro, o dono precisa de uma tabela de preços por distância, algo que o sistema original não tinha. Isso é manutenção evolutiva: o desenvolvedor estima, o dono aprova o valor e a função é entregue e testada, sem mexer no que já funcionava para as demais linhas.",
+      "termosRelacionados": [
+        "manutenção corretiva",
+        "banco de horas",
+        "pedido de mudança (change request)"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-manutencao-corretiva",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é manutenção corretiva",
+    "consultasSecundarias": [
+      "manutenção corretiva de software",
+      "manutenção corretiva exemplo",
+      "correção de bugs"
+    ],
+    "title": "O que é manutenção corretiva: definição e exemplo prático",
+    "description": "Veja o que é manutenção corretiva, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é manutenção corretiva",
+    "respostaDireta": "Manutenção corretiva é o conserto de falhas e defeitos de um sistema que já está em uso. A manutenção corretiva entra em ação quando algo não funciona como deveria, por exemplo um cálculo errado, uma tela que trava ou um e-mail que não sai. Dentro do período de garantia, costuma ser feita sem custo.",
+    "secoes": [
+      {
+        "titulo": "Como o chamado funciona",
+        "paragrafos": [
+          "O processo é simples quando está combinado. A confusão surge quando cada parte imagina um caminho diferente."
+        ],
+        "listaOrdenada": true,
+        "lista": [
+          "Você relata o problema por um canal combinado, com prints e o passo a passo",
+          "O desenvolvedor classifica a gravidade e confirma o recebimento",
+          "A causa é investigada e a correção, preparada",
+          "A correção é testada e publicada",
+          "Você confere que o problema sumiu e encerra o chamado"
+        ]
+      },
+      {
+        "titulo": "Gravidade e prazo",
+        "paragrafos": [
+          "Nem tudo tem a mesma urgência. Um sistema parado precisa de resposta imediata; um erro de grafia pode esperar. Esse nível de gravidade, com prazos de resposta, costuma ser descrito em um SLA."
+        ],
+        "tabela": {
+          "colunas": [
+            "Gravidade",
+            "Exemplo",
+            "Resposta esperada"
+          ],
+          "linhas": [
+            [
+              "Crítica",
+              "Ninguém consegue fazer pedidos",
+              "Imediata"
+            ],
+            [
+              "Alta",
+              "Relatório fiscal com valor errado",
+              "No mesmo dia útil"
+            ],
+            [
+              "Média",
+              "Filtro não funciona em uma tela",
+              "Alguns dias"
+            ],
+            [
+              "Baixa",
+              "Texto cortado em um botão",
+              "Próxima rodada de ajustes"
+            ]
+          ]
+        }
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando manutenção corretiva ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Manutenção corretiva é sempre gratuita?",
+        "resposta": "Não. É gratuita durante a garantia, se o defeito vem do que foi entregue. Depois dela, pode ser coberta por contrato mensal ou cobrada por hora. Defeito causado por mudança externa pode ser cobrado."
+      },
+      {
+        "pergunta": "Qual a diferença para suporte?",
+        "resposta": "Suporte é o atendimento: tirar dúvidas e orientar o uso. A corretiva é a correção do código quando há erro. Um contrato pode incluir os dois ou só um deles."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "manutenção corretiva",
+      "exemploPratico": "Uma loja de tintas percebe que, ao aplicar um cupom em pedido com frete grátis, o sistema cobra o frete duas vezes. A gerente abre o chamado com print do carrinho. O desenvolvedor reproduz o erro, corrige a regra e publica no mesmo dia. Como o sistema foi entregue há poucas semanas e está dentro da garantia, o conserto não gera cobrança, e os pedidos afetados são revisados.",
+      "termosRelacionados": [
+        "manutenção evolutiva",
+        "garantia de software",
+        "SLA"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-sla",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é sla",
+    "consultasSecundarias": [
+      "sla o que é",
+      "acordo de nível de serviço",
+      "sla software"
+    ],
+    "title": "O que é sla: definição e exemplo prático",
+    "description": "Veja o que é SLA (acordo de nível de serviço), como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é sla",
+    "respostaDireta": "SLA, ou acordo de nível de serviço, é o documento que diz que serviço será prestado, em que prazo e com qual qualidade mínima. O SLA define, por exemplo, em quanto tempo o desenvolvedor responde a um chamado crítico e quanto tempo o sistema deve ficar disponível. Também prevê o que acontece se a meta não for cumprida.",
+    "secoes": [
+      {
+        "titulo": "O que um SLA de software costuma ter",
+        "paragrafos": [
+          "Para uma PME, o SLA não precisa ser um contrato pesado. Precisa responder a perguntas práticas: quem eu aciono, por onde, e em quanto tempo alguém me responde."
+        ],
+        "tabela": {
+          "colunas": [
+            "Item",
+            "O que define",
+            "Exemplo hipotético"
+          ],
+          "linhas": [
+            [
+              "Canais de atendimento",
+              "Por onde abrir chamado",
+              "E-mail e WhatsApp, em horário comercial"
+            ],
+            [
+              "Tempo de resposta",
+              "Prazo para dar o primeiro retorno",
+              "Chamado crítico respondido em até algumas horas"
+            ],
+            [
+              "Tempo de solução",
+              "Prazo para resolver",
+              "Conforme a gravidade"
+            ],
+            [
+              "Disponibilidade",
+              "Quanto tempo o sistema fica no ar",
+              "Meta mensal acordada"
+            ],
+            [
+              "Janela de manutenção",
+              "Quando podem ocorrer paradas planejadas",
+              "Domingo à noite"
+            ],
+            [
+              "Penalidades",
+              "O que acontece ao descumprir",
+              "Desconto na mensalidade"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Cuidado com promessas grandes demais",
+        "paragrafos": [
+          "Um SLA de atendimento a qualquer hora, todos os dias, custa caro e exige equipe. Para um profissional solo, é mais honesto combinar horário comercial e uma regra clara para emergências. Prefira um prazo que será cumprido a um que impressiona no papel."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando SLA (acordo de nível de serviço) ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Todo contrato de software precisa de SLA?",
+        "resposta": "Não é obrigatório, mas é recomendável quando o sistema é crítico para a operação. Para um site simples, uma garantia e um canal de contato costumam bastar."
+      },
+      {
+        "pergunta": "O SLA garante que o sistema nunca vai parar?",
+        "resposta": "Não. Ele define metas e consequências, mas falhas podem ocorrer. O valor do SLA está em saber o que esperar e o que fazer quando algo falha."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "SLA (acordo de nível de serviço)",
+      "sigla": "SLA",
+      "exemploPratico": "Uma rede de padarias usa um sistema de pedidos para as entregas. No contrato de suporte, o SLA diz que falhas que impedem a venda são atendidas no mesmo dia, em horário comercial, e que erros menores entram em até alguns dias úteis. Num sábado de manhã, o sistema para. A dona sabe a quem escrever e o que esperar, e o combinado inclui um telefone para emergências, o que evita ficar sem vender o fim de semana.",
+      "termosRelacionados": [
+        "manutenção corretiva",
+        "garantia de software",
+        "requisitos não funcionais"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-garantia-de-software",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é garantia de software",
+    "consultasSecundarias": [
+      "garantia de sistema",
+      "garantia de desenvolvimento de software",
+      "garantia de site"
+    ],
+    "title": "O que é garantia de software: definição e exemplo prático",
+    "description": "Veja o que é garantia de software, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é garantia de software",
+    "respostaDireta": "Garantia de software é o período, após a entrega, em que o desenvolvedor corrige sem custo os defeitos do que foi combinado. A garantia de software cobre falhas de funcionamento, e não pedidos novos. Prazo e abrangência devem constar no contrato, e o prazo é negociado entre as partes.",
+    "secoes": [
+      {
+        "titulo": "O que a garantia costuma cobrir e o que não cobre",
+        "paragrafos": [
+          "Não existe um padrão único. Cada contrato define. O importante é que as condições estejam escritas e que você entenda onde termina a garantia e onde começa a manutenção paga."
+        ],
+        "tabela": {
+          "colunas": [
+            "Costuma estar coberto",
+            "Costuma ficar de fora"
+          ],
+          "linhas": [
+            [
+              "Erro em função combinada no escopo",
+              "Funcionalidade nova pedida depois"
+            ],
+            [
+              "Falha que impede o uso normal",
+              "Problema causado por mudança feita por outra pessoa"
+            ],
+            [
+              "Defeito de cálculo ou de regra entregue",
+              "Problema em serviço de terceiros que mudou (API, gateway)"
+            ],
+            [
+              "Erro de exibição em navegadores combinados",
+              "Treinamento adicional"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Perguntas para fazer antes de assinar",
+        "paragrafos": [
+          "Quanto tempo dura a garantia e quando ela começa a contar? Vale a partir da entrega ou da aprovação? Qual o prazo para atender? Há exclusões? Mexer no código por conta própria ou por outra pessoa anula a garantia? Essas respostas evitam disputas depois, e vale pedir que o contrato diga tudo com clareza."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando garantia de software ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Quanto tempo costuma durar a garantia?",
+        "resposta": "Não há prazo fixo. Cada fornecedor define no contrato, e é uma condição que você pode negociar. O mais importante é estar escrito e ter data de início clara."
+      },
+      {
+        "pergunta": "Garantia é o mesmo que manutenção?",
+        "resposta": "Não. A garantia cobre a correção de defeitos do que foi entregue, por tempo limitado. A manutenção é um serviço contínuo, geralmente pago, que inclui correções, ajustes e evoluções."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "garantia de software",
+      "exemploPratico": "Uma empresa de cursos online recebe a plataforma pronta e aprova a entrega. Duas semanas depois, o certificado em PDF sai sem o nome do aluno em certos casos. É falha de algo previsto no escopo, portanto coberta pela garantia: o desenvolvedor corrige sem cobrar. Quando a empresa pede, semanas depois, um novo tipo de certificado com assinatura digital, o trabalho é evolução e recebe orçamento separado.",
+      "termosRelacionados": [
+        "manutenção corretiva",
+        "SLA",
+        "homologação"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-debito-tecnico",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é débito técnico",
+    "consultasSecundarias": [
+      "dívida técnica",
+      "technical debt",
+      "débito técnico em software"
+    ],
+    "title": "O que é débito técnico: definição e exemplo prático",
+    "description": "Veja o que é débito técnico, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é débito técnico",
+    "respostaDireta": "Débito técnico é o custo futuro de ter feito um atalho no código para entregar mais rápido. O débito técnico funciona como uma dívida: o atalho economiza hoje, mas cobra juros depois, na forma de lentidão para mudar, mais erros e manutenção mais cara. Pode ser pago com refatoração.",
+    "secoes": [
+      {
+        "titulo": "De onde ele vem",
+        "paragrafos": [
+          "Nem todo débito é erro. Às vezes ele é uma escolha consciente: lançar rápido para validar uma ideia. O problema é acumular sem anotar nem pagar."
+        ],
+        "lista": [
+          "Prazo apertado que levou a pular testes",
+          "Funções copiadas e coladas, em vez de organizadas",
+          "Tecnologia antiga que ninguém atualizou",
+          "Código sem documentação, que só o autor entende",
+          "Mudanças de regra remendadas umas sobre as outras"
+        ]
+      },
+      {
+        "titulo": "Como você percebe sem saber programar",
+        "paragrafos": [
+          "Os sinais aparecem no seu dia a dia, e não no código."
+        ],
+        "tabela": {
+          "colunas": [
+            "Sinal",
+            "O que costuma indicar"
+          ],
+          "linhas": [
+            [
+              "Toda mudança simples vira orçamento grande",
+              "Código difícil de alterar"
+            ],
+            [
+              "Consertar um erro gera outro em outro lugar",
+              "Falta de testes e partes muito dependentes"
+            ],
+            [
+              "Só uma pessoa consegue mexer",
+              "Falta de documentação"
+            ],
+            [
+              "O sistema fica mais lento a cada mês",
+              "Estrutura que não acompanhou o crescimento"
+            ]
+          ]
+        }
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando débito técnico ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Débito técnico é sempre ruim?",
+        "resposta": "Não. Pode ser uma troca consciente de qualidade por velocidade, em um MVP, por exemplo. O erro é ignorá-lo. O bom desenvolvedor registra o que foi simplificado e propõe quando pagar."
+      },
+      {
+        "pergunta": "Como reduzir o débito técnico?",
+        "resposta": "Com refatoração periódica, testes automatizados, documentação e reserva de tempo, dentro da manutenção, para limpeza. Ignorar o assunto deixa a conta crescer."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "débito técnico",
+      "exemploPratico": "Uma empresa de assistência técnica pediu um sistema rápido, em poucas semanas, para controlar ordens de serviço. O desenvolvedor entregou no prazo, avisando que alguns trechos ficaram simplificados. Um ano depois, ao incluir o controle de garantia, a mudança que levaria dois dias exige uma semana, porque aquele trecho precisa ser reorganizado. O dono entende que parte do custo é a dívida do atalho de antes.",
+      "termosRelacionados": [
+        "refatoração",
+        "teste automatizado",
+        "manutenção evolutiva"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-refatoracao",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é refatoração",
+    "consultasSecundarias": [
+      "refatoração de código",
+      "refatorar sistema",
+      "refactoring"
+    ],
+    "title": "O que é refatoração: definição e exemplo prático",
+    "description": "Veja o que é refatoração, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é refatoração",
+    "respostaDireta": "Refatoração é reorganizar o código por dentro, sem mudar o que o sistema faz para o usuário. A refatoração deixa o código mais claro, simples e fácil de alterar, e costuma ser o jeito de pagar o débito técnico acumulado. Você não vê funcionalidade nova, mas as próximas mudanças ficam mais baratas e seguras.",
+    "secoes": [
+      {
+        "titulo": "Por que pagar por algo que não aparece",
+        "paragrafos": [
+          "É como reorganizar o estoque de uma loja: o cliente não vê diferença na vitrine, mas a equipe acha tudo mais rápido e erra menos. Em software, o ganho aparece em prazos menores e menos defeitos nas próximas entregas."
+        ],
+        "lista": [
+          "Quebrar funções enormes em partes pequenas e nomeadas",
+          "Remover código repetido e peças que ninguém mais usa",
+          "Atualizar bibliotecas e tecnologias antigas",
+          "Reorganizar pastas e responsabilidades do sistema",
+          "Escrever testes antes de mexer, para garantir que nada quebra"
+        ]
+      },
+      {
+        "titulo": "Quando faz sentido",
+        "paragrafos": [
+          "Faz sentido quando alterações simples começam a demorar demais, quando o mesmo erro reaparece ou quando um novo desenvolvedor leva muito tempo para entender o sistema. Não vale refatorar por vaidade: o objetivo é reduzir custo futuro. Peça ao profissional para explicar qual problema concreto a limpeza resolve."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando refatoração ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Refatoração muda alguma coisa para o usuário?",
+        "resposta": "Não deveria. Se tudo for bem feito, as telas e resultados continuam iguais. A diferença está na estrutura interna, que passa a aceitar mudanças com menos risco."
+      },
+      {
+        "pergunta": "Quem deve pagar a refatoração?",
+        "resposta": "Costuma ser tratada como parte da manutenção ou como um projeto à parte, conforme o acordo. Se o débito veio de atalhos que você pediu para ganhar prazo, é razoável que o custo seja seu."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "refatoração",
+      "exemploPratico": "Uma empresa de eventos tem um sistema de orçamentos criado ao longo de três anos por pessoas diferentes. Incluir um novo tipo de cobrança leva semanas e quebra o cálculo de outros orçamentos. O desenvolvedor propõe uma refatoração de duas semanas só no módulo de cálculo, com testes. Depois dela, a mesma classe de alteração passa a levar dias, e o dono consegue planejar novas campanhas sem medo de estragar o que já funciona.",
+      "termosRelacionados": [
+        "débito técnico",
+        "teste automatizado",
+        "code review"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-code-review",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é code review",
+    "consultasSecundarias": [
+      "revisão de código",
+      "code review exemplo",
+      "code review o que é"
+    ],
+    "title": "O que é code review: definição e exemplo prático",
+    "description": "Veja o que é code review, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é code review",
+    "respostaDireta": "Code review é a revisão do código de um desenvolvedor por outro antes de ele entrar no sistema. O code review procura erros, falhas de segurança e trechos difíceis de manter, além de espalhar conhecimento entre a equipe. Para você, é um sinal de que existe controle de qualidade por trás das entregas.",
+    "secoes": [
+      {
+        "titulo": "O que o revisor olha",
+        "paragrafos": [
+          "A revisão não é opinião sobre estilo. Segue critérios práticos e, em equipes bem organizadas, uma lista de verificação."
+        ],
+        "lista": [
+          "A mudança faz o que foi pedido, nem mais, nem menos",
+          "Há erros de lógica ou casos que ninguém testou",
+          "Dados de clientes estão protegidos",
+          "O código é legível por quem vier depois",
+          "Existem testes para o que foi alterado",
+          "Não foram incluídas senhas ou chaves de acesso no código"
+        ]
+      },
+      {
+        "titulo": "E quando o desenvolvedor trabalha sozinho?",
+        "paragrafos": [
+          "Muitos profissionais solo não têm quem revise. Há alternativas: ferramentas automáticas de análise, testes automatizados, revisão cruzada com um colega em projetos de maior risco e checklists próprios. Pergunte como a qualidade é conferida, pois a resposta mostra o nível de cuidado, mesmo que a estrutura seja pequena."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando code review ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Code review atrasa a entrega?",
+        "resposta": "Acrescenta um pouco de tempo, que costuma ser menor que o gasto para corrigir erros em produção. Em projetos de alto risco, é um custo bem investido."
+      },
+      {
+        "pergunta": "Posso pedir code review em um projeto contratado?",
+        "resposta": "Pode perguntar se o processo existe e como é feito. Em projetos críticos, pode contratar uma revisão independente do código, o que dá uma segunda opinião sobre a qualidade."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "code review",
+      "exemploPratico": "Uma fintech pequena de cobrança recorrente tem dois desenvolvedores. Antes de publicar uma mudança no cálculo de juros, um deles revisa o código do outro e nota que o arredondamento perde centavos em parcelas longas. O erro seria percebido apenas meses depois, quando clientes reclamassem. A revisão custou meia hora e evitou cobranças erradas e retrabalho de conciliação financeira.",
+      "termosRelacionados": [
+        "refatoração",
+        "teste automatizado",
+        "QA (garantia de qualidade)"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-teste-automatizado",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é teste automatizado",
+    "consultasSecundarias": [
+      "testes automatizados",
+      "teste automatizado de software",
+      "teste automatizado exemplo"
+    ],
+    "title": "O que é teste automatizado: definição e exemplo prático",
+    "description": "Veja o que é teste automatizado, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é teste automatizado",
+    "respostaDireta": "Teste automatizado é um código que verifica, sozinho, se partes do sistema continuam funcionando como deveriam. Cada vez que o desenvolvedor altera algo, os testes automatizados rodam em segundos e avisam se alguma função foi quebrada. Eles protegem o que já funcionava enquanto o sistema cresce.",
+    "secoes": [
+      {
+        "titulo": "Tipos de teste e o que cada um protege",
+        "paragrafos": [
+          "Você não precisa conhecer a técnica. Basta entender o que cada nível de teste garante."
+        ],
+        "tabela": {
+          "colunas": [
+            "Tipo",
+            "O que verifica",
+            "Exemplo"
+          ],
+          "linhas": [
+            [
+              "Unitário",
+              "Uma regra pequena e isolada",
+              "O desconto é aplicado corretamente no valor"
+            ],
+            [
+              "Integração",
+              "Peças funcionando juntas",
+              "O pedido pago baixa o estoque"
+            ],
+            [
+              "Ponta a ponta",
+              "O fluxo completo, como o usuário faria",
+              "Cliente escolhe produto, paga e recebe a confirmação"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que isso muda para o dono do sistema",
+        "paragrafos": [
+          "Sem testes, cada alteração exige que alguém confira tudo à mão, ou então corre-se o risco de quebrar algo sem perceber. Com testes, mudanças ficam mais rápidas e seguras. Em contrapartida, escrever testes aumenta o esforço inicial. Para um site simples, pode ser exagero; para pagamentos, estoque e cálculos, é uma proteção valiosa."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando teste automatizado ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso pagar à parte pelos testes?",
+        "resposta": "Depende de como o orçamento foi montado. Muitos desenvolvedores já incluem testes nas partes críticas. Pergunte o que será testado automaticamente e o que ficará por conta da sua homologação."
+      },
+      {
+        "pergunta": "Teste automatizado elimina todos os bugs?",
+        "resposta": "Não. Ele pega o que foi previsto. Falhas inesperadas ou de usabilidade ainda exigem testes manuais e olhar humano. Ele reduz o risco, e não o zera."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "teste automatizado",
+      "exemploPratico": "Uma loja virtual de suplementos altera a regra de frete grátis para pedidos acima de certo valor. O desenvolvedor mexe no cálculo e, ao rodar os testes, um deles falha: pedidos com cupom de desconto passavam a cobrar frete errado. O erro é corrigido antes da publicação. Sem os testes automatizados, os primeiros clientes teriam sido cobrados incorretamente, e a equipe perderia dias corrigindo pedidos.",
+      "termosRelacionados": [
+        "QA (garantia de qualidade)",
+        "CI/CD",
+        "bug"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-qa-garantia-de-qualidade",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é qa (garantia de qualidade)",
+    "consultasSecundarias": [
+      "QA software",
+      "garantia de qualidade de software",
+      "o que é qa"
+    ],
+    "title": "O que é qa (garantia de qualidade): definição e exemplo",
+    "description": "Veja o que é QA (garantia de qualidade), como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é qa (garantia de qualidade)",
+    "respostaDireta": "QA, ou garantia de qualidade, é o conjunto de práticas que busca encontrar problemas no software antes de ele chegar ao usuário. O QA inclui testes manuais, testes automatizados, revisão de requisitos e conferência de cada entrega. Em equipes maiores, existe um profissional dedicado; em equipes pequenas, a tarefa é compartilhada.",
+    "secoes": [
+      {
+        "titulo": "QA não é só testar no fim",
+        "paragrafos": [
+          "Qualidade se constrói ao longo do projeto. Quanto mais cedo um problema é encontrado, mais barato é corrigi-lo."
+        ],
+        "tabela": {
+          "colunas": [
+            "Momento",
+            "Prática de QA",
+            "Problema que evita"
+          ],
+          "linhas": [
+            [
+              "Antes de programar",
+              "Revisão dos requisitos",
+              "Pedido contraditório ou incompleto"
+            ],
+            [
+              "Durante",
+              "Testes automatizados e code review",
+              "Erros de lógica e regressões"
+            ],
+            [
+              "Antes da entrega",
+              "Testes manuais por fluxo e homologação",
+              "Falhas de uso, telas quebradas"
+            ],
+            [
+              "Depois",
+              "Monitoramento e canal de chamados",
+              "Erros que só aparecem em uso real"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como ver isso em um orçamento",
+        "paragrafos": [
+          "Procure na proposta menção a testes, homologação e correção de falhas antes da entrega. Uma proposta que não fala de qualidade deixa a conferência por sua conta. Pergunte: quem testa, o que é testado e o que acontece se eu encontrar erro?"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando QA (garantia de qualidade) ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "QA e homologação são a mesma coisa?",
+        "resposta": "Não. O QA é feito pela equipe de desenvolvimento durante o projeto. A homologação é a conferência final feita por você, antes do aceite. Os dois se complementam."
+      },
+      {
+        "pergunta": "Preciso de um profissional de QA no meu projeto?",
+        "resposta": "Em projetos pequenos, não necessariamente. O desenvolvedor faz as verificações essenciais e você homologa. Em sistemas grandes ou críticos, um responsável dedicado à qualidade compensa."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "QA (garantia de qualidade)",
+      "sigla": "QA",
+      "exemploPratico": "Uma empresa de aluguel de equipamentos contrata um portal de reservas. O desenvolvedor, antes de entregar, simula reservas em celulares diferentes, com datas no fim do mês e com estoque zerado. Descobre que, ao reservar o último equipamento disponível, dois clientes conseguem fechar o mesmo item. Corrige antes da homologação, e a empresa recebe um sistema sem aquela dor de cabeça no primeiro fim de semana de uso.",
+      "termosRelacionados": [
+        "teste automatizado",
+        "homologação",
+        "bug"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-bug",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é bug",
+    "consultasSecundarias": [
+      "o que é bug em software",
+      "bug de sistema",
+      "erro de software"
+    ],
+    "title": "O que é bug: definição e exemplo prático",
+    "description": "Veja o que é bug, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é bug",
+    "respostaDireta": "Bug é um erro no sistema que faz algo funcionar diferente do esperado, como um cálculo errado, um botão que não responde ou uma tela que trava. Todo software tem bugs, em maior ou menor grau. O que diferencia um bom trabalho é a rapidez para encontrar, corrigir e evitar que voltem.",
+    "secoes": [
+      {
+        "titulo": "Bug, melhoria e pedido novo",
+        "paragrafos": [
+          "Nem tudo o que incomoda é bug. Separar as categorias evita discussões sobre quem paga a correção."
+        ],
+        "tabela": {
+          "colunas": [
+            "Situação",
+            "É bug?",
+            "Tratamento"
+          ],
+          "linhas": [
+            [
+              "O sistema soma errado um valor que deveria somar certo",
+              "Sim",
+              "Correção, coberta pela garantia"
+            ],
+            [
+              "Você queria um relatório que nunca foi combinado",
+              "Não, é evolução",
+              "Orçamento novo"
+            ],
+            [
+              "A tela funciona, mas você a acha confusa",
+              "Não, é melhoria de uso",
+              "Ajuste a combinar"
+            ],
+            [
+              "O sistema trava com muitos usuários",
+              "Em geral sim, se havia requisito de desempenho",
+              "Verificar o escopo"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como relatar um bug do jeito certo",
+        "paragrafos": [
+          "Um bom relato acelera a correção. Informe o que você fez, o que esperava, o que aconteceu, em que aparelho e navegador, e anexe um print ou vídeo. Evite \"não funciona\": diga o que não funciona e em que momento. Quanto mais fácil reproduzir o erro, mais rápido ele some."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando bug ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Quem paga pela correção de um bug?",
+        "resposta": "Se é um erro do que foi combinado, e está dentro da garantia, o desenvolvedor corrige sem custo. Fora dela, depende do contrato de manutenção."
+      },
+      {
+        "pergunta": "Por que o mesmo bug volta?",
+        "resposta": "Em geral porque a causa original não foi tratada, ou porque faltam testes que o detectem. Peça que a correção venha acompanhada de um teste para impedir o retorno."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "bug",
+      "exemploPratico": "Uma distribuidora de cosméticos relata que o sistema não gera a segunda via do boleto. A atendente envia um print e escreve: \"cliente 4580, pedido de ontem, apareceu erro ao clicar em segunda via, no Chrome do computador da recepção\". Com esses dados, o desenvolvedor reproduz o erro em dez minutos, descobre que o boleto vencido não era tratado e corrige no mesmo dia, sem ficar perguntando detalhes.",
+      "termosRelacionados": [
+        "hotfix",
+        "manutenção corretiva",
+        "teste automatizado"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-hotfix",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é hotfix",
+    "consultasSecundarias": [
+      "hotfix software",
+      "hotfix significado",
+      "correção urgente de sistema"
+    ],
+    "title": "O que é hotfix: definição e exemplo prático",
+    "description": "Veja o que é hotfix, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é hotfix",
+    "respostaDireta": "Hotfix é uma correção urgente, publicada fora do calendário normal, para resolver um problema grave que está afetando o sistema no ar. O hotfix tem escopo mínimo: corrige só o defeito, com o menor risco possível, e entra em produção rapidamente. Depois, a solução definitiva é refinada com calma.",
+    "secoes": [
+      {
+        "titulo": "Quando um hotfix se justifica",
+        "paragrafos": [
+          "Publicar às pressas tem risco, então só se faz quando o dano de esperar é maior."
+        ],
+        "lista": [
+          "O sistema está fora do ar ou ninguém consegue vender",
+          "Cobranças ou valores estão saindo errados",
+          "Há vazamento ou risco de exposição de dados",
+          "Uma integração parou e trava os pedidos",
+          "Uma obrigação fiscal ou legal está sendo descumprida"
+        ]
+      },
+      {
+        "titulo": "Como um hotfix costuma acontecer",
+        "paragrafos": [
+          "O ritmo é diferente do dia a dia, mas segue passos."
+        ],
+        "listaOrdenada": true,
+        "lista": [
+          "Aviso do problema e confirmação da gravidade",
+          "Reprodução do erro e identificação da causa",
+          "Correção mínima, sem aproveitar para mexer em outras coisas",
+          "Teste rápido do ponto corrigido e do fluxo principal",
+          "Publicação e conferência em produção",
+          "Registro do ocorrido e correção definitiva depois"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando hotfix ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Hotfix tem custo diferente da manutenção normal?",
+        "resposta": "Pode ter. Atendimentos urgentes fora do horário normal costumam ter regras próprias, definidas no contrato ou no SLA. Combine antes que as emergências aconteçam."
+      },
+      {
+        "pergunta": "Hotfix e correção comum são a mesma coisa?",
+        "resposta": "Não. A correção comum entra no ciclo regular, com tempo para testar. O hotfix pula a fila porque o problema é grave, e por isso tem escopo reduzido."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "hotfix",
+      "exemploPratico": "Uma loja de peças automotivas aparece com todos os produtos fora de estoque às nove da manhã de uma segunda, após uma atualização de madrugada. O desenvolvedor identifica que a sincronização de estoque passou a ler a coluna errada. Em menos de uma hora, publica um hotfix que restaura a leitura correta. Mais tarde, ele refaz a sincronização de forma robusta e acrescenta um teste para impedir a repetição do erro.",
+      "termosRelacionados": [
+        "bug",
+        "manutenção corretiva",
+        "deploy"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-ci-cd",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é ci/cd",
+    "consultasSecundarias": [
+      "ci cd",
+      "integração contínua",
+      "entrega contínua"
+    ],
+    "title": "O que é ci/cd: definição e exemplo prático",
+    "description": "Veja o que é CI/CD, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é ci/cd",
+    "respostaDireta": "CI/CD é a sigla para integração contínua e entrega contínua: um conjunto de rotinas automáticas que testam e publicam o sistema a cada alteração. O CI/CD roda os testes sozinho, avisa se algo quebrou e, se tudo passa, leva a nova versão ao ar sem etapas manuais. Isso reduz erro humano e acelera as entregas.",
+    "secoes": [
+      {
+        "titulo": "As duas metades da sigla",
+        "paragrafos": [
+          "Pense em uma linha de montagem: cada peça nova passa por verificações automáticas e só segue adiante se estiver boa."
+        ],
+        "tabela": {
+          "colunas": [
+            "Parte",
+            "Significa",
+            "O que faz"
+          ],
+          "linhas": [
+            [
+              "CI",
+              "Integração contínua",
+              "A cada alteração, o código é reunido e testado automaticamente"
+            ],
+            [
+              "CD (entrega)",
+              "Entrega contínua",
+              "A versão aprovada fica pronta para publicar com um clique"
+            ],
+            [
+              "CD (implantação)",
+              "Implantação contínua",
+              "A versão aprovada vai ao ar sozinha"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Vale a pena em projeto pequeno?",
+        "paragrafos": [
+          "Costuma valer, porque ferramentas atuais deixam a configuração simples. Para você, o benefício é prático: menos chance de erro humano em cada publicação, histórico do que foi ao ar e quando, e correções mais rápidas. Pergunte ao desenvolvedor se a publicação é automatizada ou manual e quem tem acesso ao processo."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando CI/CD ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso entender de CI/CD para contratar?",
+        "resposta": "Não. Basta saber que o desenvolvedor usa publicação automatizada e testes. É um indicador de maturidade do trabalho, assim como o uso de Git."
+      },
+      {
+        "pergunta": "CI/CD elimina o deploy manual por completo?",
+        "resposta": "Na maior parte, sim. Em alguns projetos mantém-se uma aprovação manual antes de publicar, por segurança. O processo continua automatizado, mas você ou o desenvolvedor dá o sinal final."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "CI/CD",
+      "sigla": "CI/CD",
+      "exemploPratico": "Uma empresa de seguros tem um portal de corretores e publica ajustes quase toda semana. Antes, cada publicação era manual, feita à noite, e já houve esquecimento de uma etapa que derrubou a emissão de apólices. Com o CI/CD, cada alteração passa pelos testes e, se aprovada, é publicada em minutos. A equipe de corretores nota menos paradas, e o desenvolvedor deixa de depender de uma sequência de passos decorada.",
+      "termosRelacionados": [
+        "deploy",
+        "teste automatizado",
+        "versionamento de código (Git)"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-fabrica-de-software",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é fábrica de software",
+    "consultasSecundarias": [
+      "fábrica de software o que é",
+      "fábrica de software como funciona",
+      "empresa fábrica de software"
+    ],
+    "title": "O que é fábrica de software: definição e exemplo prático",
+    "description": "Veja o que é fábrica de software, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é fábrica de software",
+    "respostaDireta": "Fábrica de software é uma empresa que produz sistemas em escala, com processos padronizados, equipes divididas por função e foco em volume e previsibilidade. A fábrica de software organiza o trabalho como uma linha de produção: analistas, programadores e testadores especializados. Costuma atender clientes grandes e projetos com especificação detalhada.",
+    "secoes": [
+      {
+        "titulo": "Como a fábrica trabalha",
+        "paragrafos": [
+          "O ponto forte é o processo. A fábrica define etapas, papéis e métricas, o que dá previsibilidade em projetos amplos. O ponto fraco, para a PME, é a distância: você fala com um gerente de contas, e não com quem programa."
+        ],
+        "lista": [
+          "Especificação detalhada antes de começar",
+          "Equipes por especialidade (análise, código, testes)",
+          "Métricas de produtividade e relatórios de andamento",
+          "Contratos mais formais, com prazos e multas",
+          "Capacidade de aumentar a equipe quando o projeto cresce"
+        ]
+      },
+      {
+        "titulo": "Quando faz sentido para uma PME",
+        "paragrafos": [
+          "Faz sentido se você tem um projeto grande, escopo muito bem definido e orçamento que comporte um processo estruturado, por exemplo, integrar vários sistemas de uma operação extensa. Para sites, lojas e sistemas de porte pequeno ou médio, o custo do processo pode não compensar. O contraste com a software house está na página própria."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando fábrica de software ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Fábrica de software é melhor que freelancer?",
+        "resposta": "Depende do projeto. Para grandes escopos que exigem equipe e processo formal, sim. Para projetos menores e com necessidade de contato direto, um profissional independente costuma ser mais ágil e econômico."
+      },
+      {
+        "pergunta": "O que muda no contrato com uma fábrica?",
+        "resposta": "Em geral, contratos mais formais, com escopo descrito em detalhes, cronograma por marcos e regras para mudanças. Pedidos fora do escopo passam por processo próprio e costumam ser cobrados à parte."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "fábrica de software",
+      "exemploPratico": "Uma indústria de autopeças com muitos setores quer trocar todo o seu sistema de gestão, com módulos de produção, compras, estoque e financeiro, e um escopo de centenas de requisitos já documentado. Uma fábrica de software é indicada: divide o trabalho em equipes por módulo e entrega em etapas fixas. Para a mesma empresa pedir apenas um portal de clientes, um desenvolvedor independente já resolveria com menos custo.",
+      "termosRelacionados": [
+        "software house",
+        "escopo fechado",
+        "metodologia cascata"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-software-house",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é software house",
+    "consultasSecundarias": [
+      "software house o que é",
+      "software house significado",
+      "empresa software house"
+    ],
+    "title": "O que é software house: definição e exemplo prático",
+    "description": "Veja o que é software house, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é software house",
+    "respostaDireta": "Software house é uma empresa que desenvolve sistemas, sites e aplicativos sob encomenda para outras empresas. A software house reúne profissionais de áreas diferentes, como programação, design e gestão de projeto, e atende de pequenos a grandes clientes. É mais flexível que uma fábrica e mais estruturada que um profissional solo.",
+    "secoes": [
+      {
+        "titulo": "O que esperar de uma software house",
+        "paragrafos": [
+          "O formato varia muito: há software houses de duas pessoas e de centenas. Antes de fechar, entenda com quem você falará e quem de fato fará o trabalho."
+        ],
+        "tabela": {
+          "colunas": [
+            "Ponto",
+            "Software house",
+            "Desenvolvedor independente"
+          ],
+          "linhas": [
+            [
+              "Equipe",
+              "Várias pessoas, com papéis divididos",
+              "Uma pessoa, que faz tudo"
+            ],
+            [
+              "Contato",
+              "Muitas vezes via gerente comercial",
+              "Direto com quem programa"
+            ],
+            [
+              "Capacidade",
+              "Atende vários projetos ao mesmo tempo",
+              "Limitada, mas com foco"
+            ],
+            [
+              "Risco de saída",
+              "Menor, pois outros conhecem o projeto",
+              "Maior: depende de uma pessoa"
+            ],
+            [
+              "Preço",
+              "Costuma incluir custos de estrutura",
+              "Costuma ser mais enxuto"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Perguntas para fazer",
+        "paragrafos": [
+          "Quem vai trabalhar no meu projeto? Posso falar com essa pessoa? Como é a gestão de projeto? Quem fica com o código? Como é o suporte depois? As respostas ajudam a comparar propostas, além do preço. O blog traz um texto sobre freelancer, agência ou CTO, que ajuda nessa escolha."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando software house ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Qual a diferença entre software house e agência digital?",
+        "resposta": "A agência costuma focar em marketing, criação e campanhas, e muitas vezes terceiriza a programação. A software house foca em desenvolvimento de sistemas. Algumas fazem os dois, e vale perguntar quem programa."
+      },
+      {
+        "pergunta": "Software house cobra mais caro?",
+        "resposta": "Costuma incluir mais gente e estrutura, o que pesa no preço. Em compensação, oferece equipe e continuidade. Compare propostas com escopo igual para avaliar o custo-benefício."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "software house",
+      "exemploPratico": "Um grupo de restaurantes pede um aplicativo de pedidos com painel para a cozinha e integração ao caixa. Pede propostas de uma software house de seis pessoas e de um desenvolvedor independente. A software house ganha pontos por ter equipe, mas a dona repara que quem fará o projeto não é quem vendeu. Antes de assinar, exige uma reunião com o responsável técnico e registra no contrato quem lidera o trabalho.",
+      "termosRelacionados": [
+        "fábrica de software",
+        "stack tecnológica",
+        "handover de projeto"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-product-owner",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é product owner",
+    "consultasSecundarias": [
+      "po product owner",
+      "product owner o que faz",
+      "papel do product owner"
+    ],
+    "title": "O que é product owner: definição e exemplo prático",
+    "description": "Veja o que é product owner, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é product owner",
+    "respostaDireta": "Product owner, ou PO, é a pessoa responsável por decidir o que o produto deve fazer e em que ordem. O product owner representa o negócio no projeto: define prioridades, responde dúvidas dos desenvolvedores e aprova as entregas. Em projetos de PME, esse papel costuma ser do próprio dono ou de um gerente.",
+    "secoes": [
+      {
+        "titulo": "O que o PO faz no dia a dia",
+        "paragrafos": [
+          "O desenvolvedor sabe construir. O PO sabe o que vale construir. Sem um PO presente, o projeto tende a andar sem rumo ou a esperar respostas por semanas."
+        ],
+        "lista": [
+          "Mantém o backlog em ordem de prioridade",
+          "Esclarece regras de negócio quando surgem dúvidas",
+          "Participa do planejamento e das demonstrações",
+          "Aprova ou rejeita as entregas com base nos critérios combinados",
+          "Decide o que entra e o que fica de fora em cada etapa",
+          "Faz a ponte entre o desenvolvedor e as pessoas que vão usar o sistema"
+        ]
+      },
+      {
+        "titulo": "Como escolher o PO na sua empresa",
+        "paragrafos": [
+          "Escolha alguém que conheça o processo, tenha autoridade para decidir e disponha de tempo. Quando muitos sócios opinam sem coordenação, o projeto trava. Nomeie uma pessoa, e deixe os demais passarem as demandas por ela. Se o dono acumula o papel, reserve horários fixos na semana para o projeto."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando product owner ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "O PO precisa entender de tecnologia?",
+        "resposta": "Não. Precisa entender o negócio e saber priorizar. O desenvolvedor traduz as questões técnicas e explica o impacto das escolhas em prazo e custo."
+      },
+      {
+        "pergunta": "Posso ter mais de um product owner?",
+        "resposta": "Não é recomendável. Decisões ficam contraditórias. Se várias áreas têm necessidades, uma pessoa reúne e prioriza, com apoio dos demais."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "product owner",
+      "sigla": "PO",
+      "exemploPratico": "Uma rede de lojas de móveis planejados contrata um sistema de projetos e orçamentos. Três sócios dão opiniões diferentes por mensagem, e o desenvolvedor não sabe qual seguir. O trabalho avança apenas quando os sócios indicam a gerente comercial como product owner. Ela passa a receber as ideias dos três, ordena as prioridades e dá as respostas em até um dia, o que destrava o cronograma.",
+      "termosRelacionados": [
+        "stakeholder",
+        "backlog",
+        "Scrum"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-stakeholder",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é stakeholder",
+    "consultasSecundarias": [
+      "stakeholders de um projeto",
+      "stakeholder significado",
+      "o que são stakeholders"
+    ],
+    "title": "O que é stakeholder: definição e exemplo prático",
+    "description": "Veja o que é stakeholder, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é stakeholder",
+    "respostaDireta": "Stakeholder é qualquer pessoa ou grupo que é afetado pelo projeto ou pode influenciar o seu resultado. Em um projeto de sistema, os stakeholders incluem sócios, gerentes, funcionários que vão usar a ferramenta, clientes e até contador ou fornecedores. Ouvir os stakeholders certos cedo evita surpresas na entrega.",
+    "secoes": [
+      {
+        "titulo": "Quem costuma ser stakeholder em um projeto de PME",
+        "paragrafos": [
+          "Nem todos têm o mesmo peso nem precisam participar de todas as reuniões. O importante é saber quem são e o que cada um espera."
+        ],
+        "tabela": {
+          "colunas": [
+            "Stakeholder",
+            "O que importa para ele",
+            "Como envolver"
+          ],
+          "linhas": [
+            [
+              "Dono ou sócio",
+              "Retorno, custo, risco",
+              "Aprova escopo e orçamento"
+            ],
+            [
+              "Gerente da área",
+              "Eficiência da equipe",
+              "Define regras do processo"
+            ],
+            [
+              "Quem usa o sistema",
+              "Praticidade no dia a dia",
+              "Participa de entrevistas e testes"
+            ],
+            [
+              "Contador",
+              "Dados fiscais corretos",
+              "Valida relatórios e exportações"
+            ],
+            [
+              "Cliente final",
+              "Facilidade e rapidez",
+              "Testa o fluxo, se possível"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O erro mais comum",
+        "paragrafos": [
+          "É fazer o levantamento só com o dono e esquecer quem opera. O dono descreve como o processo deveria ser; quem opera conta como ele é. As diferenças entre os dois relatos são onde mora o retrabalho. Peça ao desenvolvedor para ouvir pelo menos uma pessoa de cada área afetada."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando stakeholder ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Stakeholder é o mesmo que cliente?",
+        "resposta": "Não. O cliente é quem contrata, e é um tipo de stakeholder. Mas também são stakeholders os usuários, a equipe e outros afetados pelo resultado, mesmo sem pagar nada."
+      },
+      {
+        "pergunta": "Preciso ouvir todos os stakeholders?",
+        "resposta": "Não todos, mas os principais de cada área. Mapeie quem decide, quem usa e quem é afetado, e dê a cada grupo o nível de participação adequado."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "stakeholder",
+      "exemploPratico": "Uma empresa de dedetização decide automatizar as ordens de serviço. O dono aprova o plano, mas os técnicos de campo, que preencheriam tudo pelo celular, não foram consultados. No teste, reclamam que a tela exige internet, e eles trabalham em locais sem sinal. A lição vira prática: no projeto seguinte, um técnico entra como stakeholder desde a primeira reunião, e o sistema já nasce com modo sem conexão.",
+      "termosRelacionados": [
+        "product owner",
+        "levantamento de requisitos",
+        "escopo de projeto"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-escopo-fechado",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é escopo fechado",
+    "consultasSecundarias": [
+      "projeto de escopo fechado",
+      "escopo fechado ou aberto",
+      "contrato de escopo fechado"
+    ],
+    "title": "O que é escopo fechado: definição e exemplo prático",
+    "description": "Veja o que é escopo fechado, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é escopo fechado",
+    "respostaDireta": "Escopo fechado é o modelo de contratação em que o que será entregue, o preço e o prazo ficam definidos antes de começar. No escopo fechado, você sabe quanto vai pagar pelo combinado, e mudanças viram pedidos à parte. Funciona bem quando a necessidade é clara e pouco sujeita a mudar.",
+    "secoes": [
+      {
+        "titulo": "Vantagens e limites",
+        "paragrafos": [
+          "A previsibilidade é o grande atrativo, mas ela depende de o escopo estar bem descrito. Escopo fechado com requisitos vagos é fonte de conflito."
+        ],
+        "tabela": {
+          "colunas": [
+            "A favor",
+            "Contra"
+          ],
+          "linhas": [
+            [
+              "Você sabe o preço total antes de começar",
+              "Mudar de ideia no meio custa e atrasa"
+            ],
+            [
+              "Facilita comparar propostas",
+              "Exige definição detalhada no início"
+            ],
+            [
+              "Prazo claro, com marcos de pagamento",
+              "O desenvolvedor pode embutir margem de segurança no valor"
+            ],
+            [
+              "Menos reuniões de decisão ao longo do projeto",
+              "Se algo foi esquecido, é preciso um aditivo"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como proteger o seu lado",
+        "paragrafos": [
+          "Descreva os itens com critério de aceite. Liste o que não está incluso. Combine como mudanças serão tratadas, com orçamento e aprovação por escrito. Peça marcos de entrega com pagamento parcelado, para acompanhar o andamento. Veja também o pedido de mudança e o banco de horas, que complementam esse modelo."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando escopo fechado ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Escopo fechado é mais barato?",
+        "resposta": "Nem sempre. Dá previsibilidade, não necessariamente economia. Quem arrisca com prazos e imprevistos costuma precificar uma margem. Compare com outras propostas de escopo equivalente."
+      },
+      {
+        "pergunta": "Posso mudar o escopo fechado depois de assinar?",
+        "resposta": "Pode, por pedido de mudança. A alteração é orçada e aprovada, com ajuste de prazo e valor. O combinado original permanece como está."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "escopo fechado",
+      "exemploPratico": "Uma empresa de contabilidade quer um site institucional com seis páginas, formulário de contato e blog. O conteúdo está pronto. Fecha escopo e preço com o desenvolvedor, com entrega em seis semanas. No meio do caminho, o sócio pede uma área de login para clientes. Isso não estava no escopo: vira um orçamento separado, aprovado por escrito, sem alterar o valor do que já havia sido combinado.",
+      "termosRelacionados": [
+        "escopo de projeto",
+        "pedido de mudança (change request)",
+        "banco de horas"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-banco-de-horas",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é banco de horas",
+    "consultasSecundarias": [
+      "banco de horas desenvolvimento",
+      "banco de horas software",
+      "banco de horas de programador"
+    ],
+    "title": "O que é banco de horas: definição e exemplo prático",
+    "description": "Veja o que é banco de horas, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é banco de horas",
+    "respostaDireta": "Banco de horas, no contexto de software, é um pacote de horas de trabalho do desenvolvedor contratado com antecedência e usado conforme a demanda. O banco de horas serve para pequenas melhorias, ajustes e dúvidas depois da entrega do projeto. Você paga um valor combinado e consome as horas ao longo dos meses.",
+    "secoes": [
+      {
+        "titulo": "Como funciona na prática",
+        "paragrafos": [
+          "O desenvolvedor registra o tempo gasto em cada pedido, e você acompanha o saldo. Quando as horas acabam, você renova o pacote ou encerra. É uma forma de ter disponibilidade sem contratar alguém fixo."
+        ],
+        "lista": [
+          "Pacote com quantidade de horas e validade definidas",
+          "Registro de cada atividade, com data e tempo",
+          "Estimativa avisada antes de pedidos grandes",
+          "Saldo informado periodicamente",
+          "Regra clara para horas não usadas (acumulam, expiram?)",
+          "Prioridade de atendimento, se prevista"
+        ]
+      },
+      {
+        "titulo": "Banco de horas e preço fechado",
+        "paragrafos": [
+          "O banco de horas dá flexibilidade, mas não dá preço fixo por entrega. Para algo bem definido, o orçamento por item pode ser mais claro. Para ajustes pequenos e imprevisíveis, o banco costuma ser mais prático. O que pesa é saber o valor da hora técnica e a transparência do registro."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando banco de horas ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "O que acontece com horas não usadas?",
+        "resposta": "Depende do contrato. Algumas expiram no fim do prazo; outras acumulam por um período. Descubra isso antes de contratar, para não pagar por horas perdidas."
+      },
+      {
+        "pergunta": "Banco de horas substitui o contrato de manutenção?",
+        "resposta": "Pode fazer o papel dele, se combinado. Um contrato de manutenção costuma incluir monitoramento e atendimento prioritário, além das horas. Veja o que cada proposta realmente cobre."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "banco de horas",
+      "exemploPratico": "Uma empresa de transporte rodoviário recebeu seu sistema de gestão de cargas e deseja manter um desenvolvedor de prontidão para pequenas alterações. Contrata um banco de horas semestral. Num mês pede um novo filtro no relatório; no outro, o ajuste de um campo na nota de entrega. A diretora acompanha pelo saldo informado e, ao fim do semestre, revê o consumo para decidir se renova.",
+      "termosRelacionados": [
+        "hora técnica",
+        "manutenção evolutiva",
+        "escopo fechado"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-pedido-de-mudanca-change-request",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é pedido de mudança (change request)",
+    "consultasSecundarias": [
+      "change request",
+      "solicitação de mudança em projeto",
+      "pedido de mudança de escopo"
+    ],
+    "title": "O que é pedido de mudança (change request): exemplo prático",
+    "description": "Veja o que é pedido de mudança (change request), como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é pedido de mudança (change request)",
+    "respostaDireta": "Pedido de mudança, ou change request, é o registro formal de uma alteração solicitada depois que o escopo foi combinado. O pedido de mudança descreve o que se quer mudar, o impacto no prazo e no custo e só vale após aprovação por escrito. Ele evita mudanças informais que estouram orçamento sem ninguém notar.",
+    "secoes": [
+      {
+        "titulo": "O fluxo de um pedido de mudança",
+        "paragrafos": [
+          "Mudar é normal. O problema é mudar sem registro. O fluxo abaixo é simples e cabe em e-mail ou em um formulário curto."
+        ],
+        "listaOrdenada": true,
+        "lista": [
+          "Você descreve a mudança e o motivo",
+          "O desenvolvedor avalia o impacto técnico",
+          "Recebe-se a estimativa de custo e de prazo",
+          "Você aprova ou desiste, por escrito",
+          "A alteração entra no cronograma",
+          "O escopo e o cronograma são atualizados"
+        ]
+      },
+      {
+        "titulo": "O que deve constar no pedido",
+        "paragrafos": [
+          "Quatro campos bastam para registrar o essencial."
+        ],
+        "tabela": {
+          "colunas": [
+            "Campo",
+            "Exemplo"
+          ],
+          "linhas": [
+            [
+              "Descrição",
+              "Adicionar desconto por quantidade no carrinho"
+            ],
+            [
+              "Motivo",
+              "Campanha de atacado prevista para o próximo mês"
+            ],
+            [
+              "Impacto",
+              "Dois dias a mais; valor adicional informado em proposta"
+            ],
+            [
+              "Aprovação",
+              "E-mail do responsável, com data"
+            ]
+          ]
+        }
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando pedido de mudança (change request) ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Todo pedido de mudança é cobrado?",
+        "resposta": "Pequenos ajustes de texto ou de aparência podem ser absorvidos, conforme o contrato. Mudanças que alteram regras, telas ou integrações costumam ser orçadas."
+      },
+      {
+        "pergunta": "O que acontece se eu pedir mudanças só por conversa?",
+        "resposta": "O risco é a divergência: você acha que foi combinado sem custo e o desenvolvedor, que foi um pedido novo. Registre por escrito e peça confirmação do impacto."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "pedido de mudança (change request)",
+      "exemploPratico": "Uma empresa de transporte de cargas contratou um sistema com cálculo de frete por faixa de peso. Na semana da homologação, o dono quer incluir um adicional para cargas refrigeradas. O desenvolvedor registra o pedido de mudança, informa dois dias adicionais e um valor extra. O dono aprova por e-mail. Resultado: a entrega original mantém o cronograma de aprovação, e o adicional entra em uma data nova, com tudo registrado.",
+      "termosRelacionados": [
+        "escopo fechado",
+        "escopo de projeto",
+        "banco de horas"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-handover-de-projeto",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é handover de projeto",
+    "consultasSecundarias": [
+      "handover",
+      "handover de software",
+      "entrega final de projeto de software"
+    ],
+    "title": "O que é handover de projeto: definição e exemplo prático",
+    "description": "Veja o que é handover de projeto, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é handover de projeto",
+    "respostaDireta": "Handover de projeto é a entrega organizada de tudo o que é necessário para você operar e dar continuidade ao sistema sem depender de quem o construiu. O handover de projeto inclui código, acessos, documentação, treinamento e explicação da arquitetura. É o fechamento profissional de um desenvolvimento.",
+    "secoes": [
+      {
+        "titulo": "Checklist de handover",
+        "paragrafos": [
+          "Peça este pacote por escrito, no contrato. Ele vale muito no dia em que você precisar trocar de fornecedor, ou quando o responsável original ficar indisponível."
+        ],
+        "lista": [
+          "Código-fonte e histórico no repositório da empresa",
+          "Acessos: hospedagem, domínio, banco de dados, e-mail, serviços de terceiros",
+          "Lista de serviços pagos e quem os contratou",
+          "Documentação técnica: como instalar, configurar e publicar",
+          "Manual de uso para a equipe",
+          "Treinamento gravado ou presencial",
+          "Contatos e regras de suporte após a entrega",
+          "Backups e como restaurá-los"
+        ]
+      },
+      {
+        "titulo": "Quando pedir",
+        "paragrafos": [
+          "Combine o handover antes de começar e vincule a última parcela à sua entrega completa. Se o pedido surge apenas no fim, a negociação fica mais difícil. Em projetos longos, vale fazer entregas parciais da documentação, em vez de deixar tudo para o último dia."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando handover de projeto ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Handover é cobrado à parte?",
+        "resposta": "Em geral não precisa ser, se previsto no escopo. Vale deixar claro na proposta o que será entregue ao final. Treinamentos extensos podem ter custo próprio."
+      },
+      {
+        "pergunta": "Quem deve ser dono das contas de hospedagem e domínio?",
+        "resposta": "O ideal é a sua empresa, com o desenvolvedor como colaborador. Assim a continuidade do negócio não depende de uma pessoa específica."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "handover de projeto",
+      "exemploPratico": "Uma rede de academias teve um aplicativo desenvolvido por um profissional que, depois de dois anos, mudou de cidade e parou de atender. Como o contrato previa handover, a rede possuía o código, os acessos e um passo a passo de publicação. Um novo desenvolvedor assumiu em poucos dias. Em outro caso, sem esses itens, a nova equipe passaria semanas tentando descobrir como o sistema era instalado.",
+      "termosRelacionados": [
+        "documentação técnica",
+        "repositório de código",
+        "código-fonte"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-documentacao-tecnica",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é documentação técnica",
+    "consultasSecundarias": [
+      "documentação de software",
+      "documentação técnica de sistema",
+      "documentação de projeto de software"
+    ],
+    "title": "O que é documentação técnica: definição e exemplo prático",
+    "description": "Veja o que é documentação técnica, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é documentação técnica",
+    "respostaDireta": "Documentação técnica é o conjunto de textos que explicam como o sistema foi construído e como mantê-lo funcionando. A documentação técnica descreve a estrutura, as instalações, as configurações, as integrações e os procedimentos de publicação. É o que permite a outro desenvolvedor assumir o projeto sem recomeçar do zero.",
+    "secoes": [
+      {
+        "titulo": "O que uma boa documentação traz",
+        "paragrafos": [
+          "Não precisa ser enorme. Precisa ser atual e responder às perguntas de quem chega ao projeto."
+        ],
+        "tabela": {
+          "colunas": [
+            "Documento",
+            "Para que serve",
+            "Quem usa"
+          ],
+          "linhas": [
+            [
+              "Visão geral",
+              "Explica o que o sistema faz e como se organiza",
+              "Novo desenvolvedor"
+            ],
+            [
+              "Guia de instalação",
+              "Passos para rodar o sistema do zero",
+              "Desenvolvedor, suporte"
+            ],
+            [
+              "Mapa de integrações",
+              "Quais serviços externos são usados e como",
+              "Desenvolvedor"
+            ],
+            [
+              "Procedimento de deploy",
+              "Como publicar uma nova versão",
+              "Desenvolvedor"
+            ],
+            [
+              "Manual do usuário",
+              "Como usar cada tela",
+              "Equipe da empresa"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Documentação desatualizada é pior que nenhuma",
+        "paragrafos": [
+          "Texto que não reflete o sistema real engana. Por isso, as melhores práticas pedem documentar perto do código e atualizar a cada mudança relevante. Na contratação, peça que a atualização da documentação faça parte da entrega de cada etapa, e não uma tarefa para o final."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando documentação técnica ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "A documentação técnica vem inclusa no projeto?",
+        "resposta": "Depende da proposta. Pergunte o que será entregue. Uma versão enxuta, com instalação, acessos e publicação, é o mínimo recomendável."
+      },
+      {
+        "pergunta": "Preciso ler a documentação técnica?",
+        "resposta": "Não precisa entendê-la por inteiro, mas é bom saber onde está guardada. Quem assumir o sistema depois vai usá-la, e você garante que ela existe e está acessível."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "documentação técnica",
+      "exemploPratico": "Uma empresa de assistência técnica troca de desenvolvedor depois de um ano. O novo profissional recebe a documentação: um guia que explica como instalar o sistema, onde ficam as chaves de integração com o gateway e como publicar versões. Em dois dias já corrige um defeito na emissão de recibos. Com a documentação incompleta, a tarefa exigiria muitos dias de investigação no código, cobrados da empresa por hora.",
+      "termosRelacionados": [
+        "handover de projeto",
+        "código-fonte",
+        "repositório de código"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-stack-tecnologica",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é stack tecnológica",
+    "consultasSecundarias": [
+      "stack de tecnologia",
+      "stack de desenvolvimento",
+      "o que é stack em programação"
+    ],
+    "title": "O que é stack tecnológica: definição e exemplo prático",
+    "description": "Veja o que é stack tecnológica, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é stack tecnológica",
+    "respostaDireta": "Stack tecnológica é o conjunto de linguagens, ferramentas e serviços usados para construir e rodar um sistema. A stack tecnológica inclui, por exemplo, a linguagem de programação, o framework, o banco de dados e a hospedagem. Ela influencia custo, desempenho e a facilidade de encontrar profissionais para dar manutenção.",
+    "secoes": [
+      {
+        "titulo": "As camadas de uma stack",
+        "paragrafos": [
+          "Você não precisa dominar cada nome, mas deve saber quais camadas existem e perguntar por que cada uma foi escolhida."
+        ],
+        "tabela": {
+          "colunas": [
+            "Camada",
+            "O que faz",
+            "Pergunta que você faz"
+          ],
+          "linhas": [
+            [
+              "Interface (front-end)",
+              "O que o usuário vê e toca",
+              "É responsivo e leve no celular?"
+            ],
+            [
+              "Servidor (back-end)",
+              "Regras e processamento",
+              "É uma tecnologia comum no mercado?"
+            ],
+            [
+              "Banco de dados",
+              "Guarda as informações",
+              "Onde ficam os dados e como é o backup?"
+            ],
+            [
+              "Hospedagem",
+              "Onde o sistema roda",
+              "Em nome de quem está a conta?"
+            ],
+            [
+              "Integrações",
+              "Pagamentos, e-mail, mensagens",
+              "Quais serviços externos serão usados?"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como avaliar a escolha",
+        "paragrafos": [
+          "Prefira tecnologias populares, com documentação e comunidade ativas, pois facilitam encontrar quem dê manutenção. Evite escolhas exóticas sem justificativa. Pergunte se a stack é aberta, se há custos de licença e se o código fica na sua posse. A decisão deve servir ao seu negócio, e não ao gosto do desenvolvedor."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando stack tecnológica ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Qual a melhor stack?",
+        "resposta": "Não existe uma melhor para tudo. Depende do tipo de projeto, do porte e do time. Uma boa escolha é a que atende ao seu caso, é bem conhecida e tem profissionais disponíveis."
+      },
+      {
+        "pergunta": "Mudar de stack depois é possível?",
+        "resposta": "É possível, mas costuma ser caro, quase um projeto novo. Por isso vale discutir a escolha no início, com atenção a custos futuros e à saída."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "stack tecnológica",
+      "exemploPratico": "Uma rede de clínicas de estética recebe duas propostas de aplicativo. Uma usa uma stack comum, com tecnologias abertas e fácil de encontrar profissionais; a outra, uma plataforma fechada de um fornecedor, que cobra mensalidade crescente e dificulta a saída. A dona pede para o desenvolvedor explicar, por escrito, o que acontece se ela decidir trocar de fornecedor, e a resposta orienta a escolha.",
+      "termosRelacionados": [
+        "framework",
+        "biblioteca de código",
+        "Next.js"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-framework",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é framework",
+    "consultasSecundarias": [
+      "framework o que é",
+      "framework de programação",
+      "framework de desenvolvimento web"
+    ],
+    "title": "O que é framework: definição e exemplo prático",
+    "description": "Veja o que é framework, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é framework",
+    "respostaDireta": "Framework é uma estrutura pronta de código que oferece a base e as regras para construir um sistema, de modo que o desenvolvedor não comece do zero. O framework traz soluções prontas para tarefas comuns, como rotas, segurança e acesso a dados. Isso acelera o trabalho, padroniza o projeto e facilita a manutenção.",
+    "secoes": [
+      {
+        "titulo": "Framework, biblioteca e plataforma",
+        "paragrafos": [
+          "Os termos se misturam, mas cada um tem um papel."
+        ],
+        "tabela": {
+          "colunas": [
+            "",
+            "Framework",
+            "Biblioteca",
+            "Plataforma pronta"
+          ],
+          "linhas": [
+            [
+              "Quem manda no fluxo",
+              "O framework define a estrutura",
+              "Você chama a biblioteca quando precisa",
+              "O fornecedor define quase tudo"
+            ],
+            [
+              "Liberdade",
+              "Média",
+              "Alta",
+              "Baixa"
+            ],
+            [
+              "Exemplo de uso",
+              "Estrutura de um site ou sistema",
+              "Um calendário ou um gráfico",
+              "Loja ou site em plataforma de terceiros"
+            ],
+            [
+              "Código seu",
+              "Sim",
+              "Sim",
+              "Limitado"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que o framework muda para você",
+        "paragrafos": [
+          "Frameworks populares reduzem o tempo de desenvolvimento e facilitam a troca de profissional, pois muita gente conhece a estrutura. Em contrapartida, o framework precisa de atualizações. Se ninguém cuida, surgem problemas de segurança e incompatibilidade. Pergunte qual será usado, por quê, e como as atualizações serão feitas."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando framework ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Usar framework deixa o sistema limitado?",
+        "resposta": "Um pouco, porque você segue as convenções dele. Mas, em geral, o ganho de velocidade e padronização compensa. Para casos muito específicos, é possível adaptar."
+      },
+      {
+        "pergunta": "Framework é pago?",
+        "resposta": "Os mais usados são abertos e gratuitos. O custo está na hora do profissional, na hospedagem e em serviços que o projeto use. Confira a licença antes de contratar."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "framework",
+      "exemploPratico": "Um fabricante de uniformes quer um sistema de pedidos para revendedores. O desenvolvedor propõe construir sobre um framework conhecido, que já traz login, controle de permissões e estrutura de rotas. Em vez de gastar semanas com essas partes, o tempo vai para a regra de negócio da empresa: tabela de preços por revendedor e prazo por grade de tamanhos. Isso reduz o orçamento e deixa o código no padrão do mercado.",
+      "termosRelacionados": [
+        "biblioteca de código",
+        "stack tecnológica",
+        "Next.js"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-biblioteca-de-codigo",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é biblioteca de código",
+    "consultasSecundarias": [
+      "biblioteca de programação",
+      "biblioteca de software",
+      "biblioteca de código aberto"
+    ],
+    "title": "O que é biblioteca de código: definição e exemplo prático",
+    "description": "Veja o que é biblioteca de código, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é biblioteca de código",
+    "respostaDireta": "Biblioteca de código é um conjunto de funções prontas, feito por terceiros, que o desenvolvedor incorpora ao projeto para resolver uma tarefa específica. A biblioteca de código evita reinventar a roda: gráficos, calendários, leitura de planilhas, envio de e-mail. É peça auxiliar, diferente do framework, que organiza o projeto inteiro.",
+    "secoes": [
+      {
+        "titulo": "Por que bibliotecas são úteis e exigem cuidado",
+        "paragrafos": [
+          "Quase todo sistema moderno usa dezenas ou centenas de bibliotecas. Isso economiza tempo, mas cria uma dependência: se uma delas deixa de ser mantida ou tem falha, o seu sistema é afetado."
+        ],
+        "lista": [
+          "Verifique se a biblioteca tem manutenção recente",
+          "Prefira as de uso comum e com boa documentação",
+          "Confira a licença, para saber se o uso comercial é permitido",
+          "Mantenha as versões atualizadas, para corrigir falhas conhecidas",
+          "Evite incluir uma biblioteca grande para uma tarefa pequena",
+          "Registre quais bibliotecas o projeto usa"
+        ]
+      },
+      {
+        "titulo": "O que isso significa na contratação",
+        "paragrafos": [
+          "Uma boa prática é pedir a lista de dependências do projeto e o plano de atualização. Falhas de segurança em bibliotecas antigas são uma causa comum de problemas. Inclua, no contrato de manutenção, a revisão periódica dessas peças, para o sistema não ficar defasado."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando biblioteca de código ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Biblioteca e framework são a mesma coisa?",
+        "resposta": "Não. A biblioteca é uma ferramenta que você chama quando precisa. O framework define a estrutura e chama o seu código. Muitos projetos usam um framework e várias bibliotecas."
+      },
+      {
+        "pergunta": "Biblioteca de terceiros é segura?",
+        "resposta": "Em geral sim, se for conhecida e mantida. O risco está nas abandonadas ou mal avaliadas. A atualização contínua é o principal cuidado."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "biblioteca de código",
+      "exemploPratico": "Uma empresa de eventos precisa que o sistema gere certificados em PDF. Em vez de escrever o gerador do zero, o desenvolvedor usa uma biblioteca de PDF amplamente utilizada, economizando alguns dias de trabalho. Ele registra a biblioteca na documentação e inclui sua atualização no calendário de manutenção. Um ano depois, uma falha de segurança é divulgada, e a atualização é feita rapidamente porque a dependência estava mapeada.",
+      "termosRelacionados": [
+        "framework",
+        "open source",
+        "stack tecnológica"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-codigo-fonte",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é código-fonte",
+    "consultasSecundarias": [
+      "código fonte",
+      "código-fonte de um sistema",
+      "source code"
+    ],
+    "title": "O que é código-fonte: definição e exemplo prático",
+    "description": "Veja o que é código-fonte, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é código-fonte",
+    "respostaDireta": "Código-fonte é o conjunto de arquivos escritos pelo programador que contém as instruções do sistema, em linguagem que humanos conseguem ler e alterar. O código-fonte é o que permite modificar, corrigir e evoluir o software. Quem o possui consegue continuar o projeto; quem não possui depende de quem o escreveu.",
+    "secoes": [
+      {
+        "titulo": "Código-fonte e sistema em uso são coisas diferentes",
+        "paragrafos": [
+          "O que roda no servidor é uma versão preparada para execução. O código-fonte é a receita original. Se você recebe só o sistema funcionando, mas não a receita, qualquer mudança futura depende do autor."
+        ],
+        "tabela": {
+          "colunas": [
+            "Situação",
+            "Consequência"
+          ],
+          "linhas": [
+            [
+              "Você possui o código-fonte e o histórico",
+              "Pode trocar de desenvolvedor quando quiser"
+            ],
+            [
+              "O código só está com o desenvolvedor",
+              "Você depende dele para qualquer mudança"
+            ],
+            [
+              "O sistema é uma plataforma de terceiros",
+              "Você usa, mas não tem o código"
+            ],
+            [
+              "Cessão de direitos prevista no contrato",
+              "O código é seu, com a regra descrita no texto"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que combinar no contrato",
+        "paragrafos": [
+          "Defina de quem é a propriedade do código, se há licença de uso ou cessão e se o desenvolvedor pode reutilizar partes em outros projetos. Direitos autorais sobre software têm regras próprias, e vale a revisão de um advogado. Exija também que o código seja entregue com o histórico, para facilitar a continuidade."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando código-fonte ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Se eu paguei pelo sistema, o código-fonte é meu?",
+        "resposta": "Não necessariamente. Depende do contrato. Pagar pelo desenvolvimento não transfere sozinho a propriedade; combine por escrito a cessão ou a licença de uso."
+      },
+      {
+        "pergunta": "Código-fonte e código aberto são a mesma coisa?",
+        "resposta": "Não. Código-fonte é o texto do programa, aberto ou não. Código aberto, ou open source, é quando esse texto é publicado com licença que permite uso e modificação por terceiros."
+      }
+    ],
+    "fontes": [],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "código-fonte",
+      "exemploPratico": "Uma rede de óticas pagou por um sistema de gestão que roda no servidor do desenvolvedor, sem receber o código-fonte. Quando ele aumenta o preço da mensalidade, a rede percebe que trocar de fornecedor significaria refazer tudo. No projeto seguinte, ela inclui uma cláusula de entrega do código e do histórico ao fim de cada etapa. A negociação com os fornecedores passa a ser mais equilibrada.",
+      "termosRelacionados": [
+        "repositório de código",
+        "open source",
+        "handover de projeto"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-open-source",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é open source",
+    "consultasSecundarias": [
+      "código aberto",
+      "open source significado",
+      "software open source"
+    ],
+    "title": "O que é open source: definição e exemplo prático",
+    "description": "Veja o que é open source, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é open source",
+    "respostaDireta": "Open source, ou código aberto, é o software cujo código-fonte é publicado com uma licença que permite usar, estudar, modificar e redistribuir. O open source é a base de grande parte da internet, de sistemas operacionais a frameworks. Não significa necessariamente sem custo ou sem regras: cada licença tem condições próprias.",
+    "secoes": [
+      {
+        "titulo": "Vantagens e cuidados para uma empresa",
+        "paragrafos": [
+          "Usar componentes abertos reduz custo de desenvolvimento e evita dependência de um único fornecedor. Mas exige atenção à licença e à manutenção."
+        ],
+        "tabela": {
+          "colunas": [
+            "Ponto",
+            "Vantagem",
+            "Cuidado"
+          ],
+          "linhas": [
+            [
+              "Custo de licença",
+              "Em geral não há",
+              "Há custo de hospedagem e mão de obra"
+            ],
+            [
+              "Transparência",
+              "Código pode ser auditado",
+              "Exige quem saiba revisá-lo"
+            ],
+            [
+              "Comunidade",
+              "Muitos usuários e documentação",
+              "Suporte não é garantido por contrato"
+            ],
+            [
+              "Licença",
+              "Define o que é permitido",
+              "Algumas exigem abrir o seu código ao distribuir"
+            ],
+            [
+              "Continuidade",
+              "Você não depende de um fornecedor",
+              "O projeto pode ser abandonado"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que perguntar ao desenvolvedor",
+        "paragrafos": [
+          "Quais componentes abertos serão usados? Qual a licença de cada um? Há alguma que imponha obrigações ao meu sistema? Quem cuida das atualizações? A Open Source Initiative mantém a definição oficial do termo, que ajuda a entender o que se qualifica como código aberto."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando open source ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Open source é gratuito?",
+        "resposta": "O uso costuma ser gratuito, mas o projeto tem outros custos: hospedagem, instalação, manutenção e atualizações. Alguns projetos abertos também oferecem versões pagas com suporte."
+      },
+      {
+        "pergunta": "Posso usar open source em um sistema comercial?",
+        "resposta": "Em geral sim, desde que respeite a licença. Algumas são permissivas; outras impõem condições. Peça ao desenvolvedor que informe as licenças usadas."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "The Open Source Definition",
+        "url": "https://opensource.org/osd",
+        "orgao": "Open Source Initiative",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "open source",
+      "exemploPratico": "Uma empresa de logística escolhe um sistema de gestão de entregas construído sobre componentes abertos. Antes de fechar, pergunta quais licenças estão envolvidas, e o desenvolvedor entrega uma lista. Nenhuma obriga a abrir o código do sistema da empresa. Na prática, ela economiza em licenças, mas combina um contrato de manutenção para acompanhar as atualizações, porque \"gratuito\" não significa \"sem cuidado\".",
+      "termosRelacionados": [
+        "código-fonte",
+        "biblioteca de código",
+        "framework"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-next-js",
+    "tipo": "glossario",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que é next.js",
+    "consultasSecundarias": [
+      "nextjs",
+      "next js o que é",
+      "next.js para que serve"
+    ],
+    "title": "O que é next.js: definição e exemplo prático",
+    "description": "Veja o que é Next.js, como funciona na prática e um exemplo de empresa pequena contratando um projeto de site ou sistema.",
+    "h1": "O que é next.js",
+    "respostaDireta": "Next.js é um framework de código aberto, baseado em React, para criar sites e aplicações web rápidas e bem posicionadas nos buscadores. O Next.js permite renderizar páginas no servidor, organizar rotas por pastas e construir tanto a parte visual quanto o back-end. É uma escolha comum para sites, lojas e sistemas web.",
+    "secoes": [
+      {
+        "titulo": "Por que ele aparece em tantos projetos",
+        "paragrafos": [
+          "O Next.js resolve problemas que costumam custar tempo em um projeto: carregamento rápido, estrutura de páginas, imagens otimizadas e suporte ao Google. Para o dono do negócio, o valor está no resultado, e não no nome."
+        ],
+        "lista": [
+          "Páginas que carregam rápido, bom para a experiência e para o SEO",
+          "Estrutura de rotas simples, baseada em pastas",
+          "Renderização no servidor, que ajuda o Google a ler o conteúdo",
+          "Possibilidade de ter site e back-end no mesmo projeto",
+          "Grande comunidade e documentação oficial",
+          "Facilidade de encontrar profissionais que o conhecem"
+        ]
+      },
+      {
+        "titulo": "Quando faz sentido perguntar sobre ele",
+        "paragrafos": [
+          "Se uma proposta cita Next.js, vale perguntar o motivo da escolha e como será a hospedagem. Ele serve bem para sites institucionais, lojas e sistemas web. Para um site simples de poucas páginas, outras opções também resolvem. O que importa é a tecnologia servir ao objetivo, e a documentação oficial é o lugar para confirmar o que ele oferece."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma PME aplicando Next.js ao contratar ou acompanhar um projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Next.js é uma linguagem de programação?",
+        "resposta": "Não. É um framework, construído sobre JavaScript e React. A linguagem é a base; o Next.js oferece a estrutura e recursos prontos para organizar o site."
+      },
+      {
+        "pergunta": "Next.js é gratuito?",
+        "resposta": "O framework é de código aberto e gratuito. Os custos do projeto estão em desenvolvimento, hospedagem e serviços de terceiros usados no sistema."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Next.js Docs",
+        "url": "https://nextjs.org/docs",
+        "orgao": "Vercel / Next.js",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 3,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "Next.js",
+      "exemploPratico": "Uma rede de clínicas veterinárias precisa de um site com páginas para cada unidade, agendamento online e boa posição no Google local. O desenvolvedor propõe Next.js: cada unidade ganha uma página própria que carrega rápido e é fácil de o Google ler, e o agendamento fica no mesmo projeto. A diretora pergunta onde ficará hospedado e quem terá acesso, e a resposta fecha a contratação com clareza.",
+      "termosRelacionados": [
+        "framework",
+        "stack tecnológica",
+        "biblioteca de código"
+      ]
+    }
+  }
+]

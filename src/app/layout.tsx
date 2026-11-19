@@ -10,7 +10,7 @@ import { CookieConsent } from "@/components/analytics/CookieConsent";
 import { EngagementTracker } from "@/components/analytics/EngagementTracker";
 import { MobileCtaBar } from "@/components/layout/MobileCtaBar";
 import { DesktopCtaBar } from "@/components/layout/DesktopCtaBar";
-import { faixaDoTipo } from "@/data/faixas";
+import { organizationJsonLd } from "@/data/autor";
 import "./globals.css";
 
 const inter = Inter({
@@ -83,153 +83,22 @@ export const metadata: Metadata = {
   },
 };
 
+/**
+ * JSON-LD global: só o que vale para TODAS as páginas — a organização e o
+ * site. FAQPage, Article, HowTo etc. ficam nas páginas onde o conteúdo está
+ * visível (antes havia FAQPage em todas as páginas sem FAQ na tela, o que
+ * contraria as diretrizes de dados estruturados do Google).
+ */
 const schemaOrg = [
+  { "@context": "https://schema.org", ...organizationJsonLd() },
   {
     "@context": "https://schema.org",
-    "@type": ["LocalBusiness", "ProfessionalService"],
-    name: "AndersDev — Desenvolvimento de Software",
-    description:
-      "Desenvolvimento de sites, aplicativos mobile, sistemas web, e-commerce e automação em Passo Fundo e região. +15 anos de experiência em tecnologia e negócios.",
+    "@type": "WebSite",
+    "@id": "https://www.andersdev.com.br/#site",
+    name: "AndersDev",
     url: "https://www.andersdev.com.br",
-    telephone: "+55-54-99964-8368",
-    email: "danielanders76@gmail.com",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "Rua Uruguai, 679 - Sala 201",
-      addressLocality: "Passo Fundo",
-      addressRegion: "RS",
-      postalCode: "99010-112",
-      addressCountry: "BR",
-    },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: -28.2625,
-      longitude: -52.4069,
-    },
-    areaServed: [
-      { "@type": "City", name: "Passo Fundo" },
-      { "@type": "State", name: "Rio Grande do Sul" },
-    ],
-    openingHoursSpecification: {
-      "@type": "OpeningHoursSpecification",
-      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-      opens: "09:00",
-      closes: "18:00",
-    },
-    founder: {
-      "@type": "Person",
-      name: "Daniel Anders",
-      jobTitle: "Desenvolvedor Full-Stack & Consultor de Negócios",
-      url: "https://www.andersdev.com.br",
-      sameAs: [
-        "https://github.com/AndersD76",
-        "https://linkedin.com/in/danielandersbrrs",
-      ],
-    },
-    serviceType: [
-      "Desenvolvimento de Sites",
-      "Aplicativos Mobile",
-      "Sistemas Web",
-      "E-commerce",
-      "Automação Empresarial",
-      "SaaS e MVP",
-      "Dashboards e Analytics",
-      "Integração de APIs",
-    ],
-    priceRange: "$$",
-    sameAs: [
-      "https://github.com/AndersD76",
-      "https://linkedin.com/in/danielandersbrrs",
-    ],
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Person",
-    name: "Daniel Anders",
-    jobTitle: "Desenvolvedor Full-Stack & Consultor de Negócios",
-    url: "https://www.andersdev.com.br",
-    email: "danielanders76@gmail.com",
-    telephone: "+55-54-99964-8368",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "Rua Uruguai, 679 - Sala 201",
-      addressLocality: "Passo Fundo",
-      addressRegion: "RS",
-      postalCode: "99010-112",
-      addressCountry: "BR",
-    },
-    alumniOf: "Engenharia Elétrica",
-    knowsAbout: [
-      "React",
-      "Next.js",
-      "TypeScript",
-      "Python",
-      "FastAPI",
-      "PostgreSQL",
-      "Desenvolvimento SaaS",
-      "Consultoria de Negócios",
-      "ISO 9001",
-    ],
-    sameAs: [
-      "https://github.com/AndersD76",
-      "https://linkedin.com/in/danielandersbrrs",
-    ],
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    mainEntity: [
-      {
-        "@type": "Question",
-        name: "Quanto custa criar um site profissional em Passo Fundo?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: `Site institucional fica entre ${faixaDoTipo("site-institucional")} e e-commerce entre ${faixaDoTipo("ecommerce")}, dependendo do escopo. A AndersDev oferece orçamento gratuito em uma conversa de 15 minutos para definir o que seu negócio precisa.`,
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Quanto tempo leva para desenvolver um aplicativo ou sistema?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Um MVP funcional fica pronto em 2 a 6 semanas. Sites institucionais levam 1 a 2 semanas. Sistemas mais complexos com integrações e dashboards levam de 4 a 12 semanas.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "A AndersDev atende empresas de outras cidades além de Passo Fundo?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Sim. Embora o escritório fique em Passo Fundo (RS), atendemos empresas de todo o Rio Grande do Sul e do Brasil com reuniões online, demos semanais e comunicação assíncrona.",
-        },
-      },
-      {
-        "@type": "Question",
-        name: "Quais serviços de desenvolvimento a AndersDev oferece?",
-        acceptedAnswer: {
-          "@type": "Answer",
-          text: "Sites institucionais, e-commerce, aplicativos mobile, sistemas web sob medida, SaaS/MVP, dashboards, automação empresarial e integração de APIs (Stripe, WhatsApp, ERPs). Tecnologias: React, Next.js, TypeScript, Python, FastAPI, PostgreSQL.",
-        },
-      },
-    ],
-  },
-  {
-    "@context": "https://schema.org",
-    "@type": "Service",
-    name: "AndersDev — Serviços de Desenvolvimento de Software",
-    description:
-      "Desenvolvimento de sites, aplicativos, sistemas web, e-commerce e automação para empresas em Passo Fundo e região.",
-    provider: {
-      "@type": "Person",
-      name: "Daniel Anders",
-      url: "https://www.andersdev.com.br",
-    },
-    areaServed: "BR",
-    serviceType: "Desenvolvimento de software sob medida",
-    // Sem aggregateRating e sem review: avaliação do próprio negócio, marcada
-    // no próprio site, não é elegível a rich result pelo Google e é caminho
-    // conhecido de ação manual. Depoimento de cliente continua na página, como
-    // texto — o que sai é só a marcação estruturada.
+    inLanguage: "pt-BR",
+    publisher: { "@id": "https://www.andersdev.com.br/#organizacao" },
   },
 ];
 

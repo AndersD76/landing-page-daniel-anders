@@ -13,8 +13,11 @@ import { setoresIndexaveis, fonteMercado } from "@/data/setores-paginas";
 import { BASE_URL } from "@/data/urls";
 import { configSite, formatDataCarga, FONTE_PRECIFICACAO } from "@/lib/calculadora";
 import { getAllPosts } from "@/data/blog";
+import { paginasNoArDoTipo } from "@/lib/conteudo";
+import { ISCAS } from "@/data/iscas";
 
-export const dynamic = "force-static";
+/** Revalida de hora em hora: as ondas de conteúdo entram sem novo deploy. */
+export const revalidate = 3600;
 
 export function GET() {
   const tipos = paginasIndexaveis.filter((p) => p.kind === "tipo");
@@ -84,6 +87,24 @@ React, Next.js, TypeScript, Tailwind CSS, Node.js, FastAPI, Python,
 PostgreSQL, NeonDB, Drizzle ORM, Stripe, Resend, Vercel, Railway, Docker,
 AWS, OpenAI, Claude
 
+## Guias completos
+${paginasNoArDoTipo("pilar").map((p) => `- ${p.h1}: ${p.urlAbsoluta}`).join("\n")}
+
+## Ferramentas gratuitas (resultado na tela, sem cadastro)
+${ISCAS.filter((i) => i.href.startsWith("/ferramentas/")).map((i) => `- ${i.nome}: ${BASE_URL}${i.href} — ${i.chamada}`).join("\n")}
+
+## Leis explicadas (um dispositivo por página, com link para o texto oficial)
+${paginasNoArDoTipo("norma").map((p) => `- ${p.h1}: ${p.urlAbsoluta}`).join("\n")}
+
+## Índices
+- Perguntas: ${BASE_URL}/perguntas
+- Glossário: ${BASE_URL}/glossario
+- Modelos e planilhas: ${BASE_URL}/modelos
+- Comparativos: ${BASE_URL}/comparar
+- Dados (IBGE/CEMPRE): ${BASE_URL}/dados/empresas-por-setor
+- Texto completo dos guias e leis: ${BASE_URL}/llms-full.txt
+- Política editorial: ${BASE_URL}/politica-editorial
+
 ## Artigos
 ${artigos}
 
@@ -99,7 +120,7 @@ ${artigos}
 ## Contato
 - Agendar conversa gratuita: https://cal.com/daniel-anders-emx5kl
 - WhatsApp: (54) 9.9964-8368
-- E-mail: danielanders76@gmail.com
+- E-mail: contato@andersdev.com.br
 - LinkedIn: https://linkedin.com/in/danielandersbrrs
 - GitHub: https://github.com/AndersD76
 

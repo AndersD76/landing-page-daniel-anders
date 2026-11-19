@@ -1,0 +1,22 @@
+{
+  "regra": "Uma onda por semana, até 500 páginas. Se um tipo ficar abaixo de 50% indexado 21 dias depois da onda, o tipo entra em tiposPausados até o template ser reforçado.",
+  "limiteIndexacao": 0.5,
+  "diasAvaliacao": 21,
+  "tamanhoMaximo": 500,
+  "tiposPausados": [],
+  "ondas": [
+    { "numero": 1, "liberaEm": "2026-11-18" },
+    { "numero": 2, "liberaEm": "2026-11-25" },
+    { "numero": 3, "liberaEm": "2026-12-02" },
+    { "numero": 4, "liberaEm": "2026-12-09" },
+    { "numero": 5, "liberaEm": "2026-12-16" },
+    { "numero": 6, "liberaEm": "2026-12-23" },
+    { "numero": 7, "liberaEm": "2026-12-30" },
+    { "numero": 8, "liberaEm": "2027-01-06" },
+    { "numero": 9, "liberaEm": "2027-01-13" },
+    { "numero": 10, "liberaEm": "2027-01-20" },
+    { "numero": 11, "liberaEm": "2027-01-27" },
+    { "numero": 12, "liberaEm": "2027-02-03" },
+    { "numero": 13, "liberaEm": "2027-02-10" }
+  ]
+}

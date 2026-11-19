@@ -1,0 +1,28 @@
+# CI: tipos, lint, build e teste de SEO sobre o HTML gerado.
+# O mesmo teste roda dentro do `npm run build` no Railway: página indexável
+# quebrada derruba o deploy.
+name: CI
+on:
+  push:
+    branches: [master]
+  pull_request:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      # Banco fictício: o build não consulta o banco; só exige a variável.
+      DATABASE_URL: postgresql://ci:ci@localhost/dummy
+      NEXT_TELEMETRY_DISABLED: "1"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npx tsc --noEmit
+      # Há erros de lint antigos (home, cursos, EAD) fora deste escopo: aviso, não bloqueio.
+      - run: npm run lint
+        continue-on-error: true
+      - run: npm run conteudo:gate
+      - run: npm run build

@@ -4,6 +4,7 @@ import { leads, leadEvents } from "@/lib/db/schema";
 import { leadFormSchema } from "@/lib/validations";
 import { sendLeadNotification, sendWebhookNotification } from "@/lib/email";
 import { rateLimit, getClientIp } from "@/lib/security";
+import { executar, temBanco } from "@/lib/ops/sql";
 
 export async function POST(req: NextRequest) {
   try {
@@ -62,6 +63,22 @@ export async function POST(req: NextRequest) {
         formPage: data.formPage,
       },
     });
+
+    // Conversão "cadastro" registrada no servidor, com a origem do lead.
+    if (temBanco()) {
+      await executar(
+        `INSERT INTO eventos (nome, path, canal, props, lt_landing, lt_utm_source, lt_utm_medium, lt_utm_campaign, origem_registro)
+         VALUES ('orcamento_solicitado', $1, $2, $3, $4, $5, $6, $7, 'servidor')`,
+        [data.formPage ?? null, body.canal ?? null, JSON.stringify({ lead_id: lead.id, escopo: data.scope ?? null }), data.landingPage ?? null, data.utmSource ?? null, data.utmMedium ?? null, data.utmCampaign ?? null]
+      ).catch(() => {});
+      if (body.atribuicao || body.canal) {
+        await executar(`UPDATE leads SET canal = $1, atribuicao = $2 WHERE id = $3`, [
+          typeof body.canal === "string" ? body.canal.slice(0, 20) : null,
+          body.atribuicao ? JSON.stringify(body.atribuicao).slice(0, 4000) : null,
+          lead.id,
+        ]).catch(() => {});
+      }
+    }
 
     sendLeadNotification({
       name: data.name,

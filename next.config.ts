@@ -13,11 +13,12 @@ const securityHeaders = [
     key: "Content-Security-Policy",
     value: [
       "default-src 'self'",
-      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com",
+      // Terceiros só carregam com consentimento (Analytics.tsx); aqui apenas se permite.
+      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://us-assets.i.posthog.com https://eu-assets.i.posthog.com https://plausible.io https://www.clarity.ms https://scripts.clarity.ms",
       "style-src 'self' 'unsafe-inline' https://fonts.googleapis.com",
       "font-src 'self' https://fonts.gstatic.com",
-      "img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com",
-      "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com",
+      "img-src 'self' data: https://www.google-analytics.com https://www.googletagmanager.com https://*.clarity.ms",
+      "connect-src 'self' https://www.google-analytics.com https://analytics.google.com https://region1.google-analytics.com https://us.i.posthog.com https://eu.i.posthog.com https://us-assets.i.posthog.com https://eu-assets.i.posthog.com https://plausible.io https://*.clarity.ms",
       "frame-ancestors 'none'",
       "base-uri 'self'",
       "form-action 'self'",
@@ -42,7 +43,9 @@ const nextConfig: NextConfig = {
   ],
   headers: async () => [
     {
-      source: "/(.*)",
+      // /embed/* é feito para ser embutido em outros sites (gráficos com
+      // atribuição): define o próprio CSP com frame-ancestors * na resposta.
+      source: "/((?!embed/).*)",
       headers: securityHeaders,
     },
   ],

@@ -1,0 +1,3359 @@
+[
+  {
+    "slug": "quanto-custa-manter-um-site-por-mes",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "quanto custa manter um site por mês",
+    "consultasSecundarias": [
+      "custo mensal de um site",
+      "quanto custa a mensalidade de um site",
+      "custo para manter site no ar"
+    ],
+    "title": "Quanto custa manter um site por mês: o que entra na conta",
+    "description": "Veja de quais itens é feita a mensalidade de um site e quem paga cada um. Confira a tabela e monte o seu custo mensal sem surpresa.",
+    "h1": "Quanto custa manter um site por mês",
+    "respostaDireta": "Quanto custa manter um site por mês depende de quatro itens: hospedagem, domínio, manutenção técnica e atualização de conteúdo. Os dois primeiros são cobrados por terceiros e mudam com o plano; os dois últimos dependem de quem cuida do site. Somar os quatro, um a um, evita a mensalidade que parece barata e cresce depois.",
+    "secoes": [
+      {
+        "titulo": "A mensalidade é a soma de quatro itens",
+        "paragrafos": [
+          "Quando alguém diz que manter um site custa \"tanto por mês\", quase sempre está juntando coisas diferentes. Separar os itens mostra onde dá para economizar e onde cortar custa caro depois.",
+          "Não existe um número único honesto, porque os valores de hospedagem e domínio são definidos por terceiros e mudam sem aviso. Por isso esta página mostra a composição, e não um preço de tabela de outra empresa."
+        ],
+        "tabela": {
+          "colunas": [
+            "Item",
+            "Quem cobra",
+            "Como é cobrado",
+            "O que acontece se faltar"
+          ],
+          "linhas": [
+            [
+              "Hospedagem",
+              "Empresa de hospedagem",
+              "Mensal ou anual, conforme o plano",
+              "O site sai do ar"
+            ],
+            [
+              "Domínio (.com.br)",
+              "Registro.br ou revendedor",
+              "Renovação periódica",
+              "Você perde o endereço e o e-mail dele"
+            ],
+            [
+              "Manutenção técnica",
+              "Quem desenvolveu ou outro profissional",
+              "Mensalidade fixa ou horas avulsas",
+              "Falhas, lentidão e brechas de segurança acumulam"
+            ],
+            [
+              "Atualização de conteúdo",
+              "Você ou terceiro",
+              "Por demanda ou pacote mensal",
+              "O site fica desatualizado e perde credibilidade"
+            ]
+          ],
+          "legenda": "Composição do custo mensal de um site"
+        }
+      },
+      {
+        "titulo": "Onde o custo costuma escapar",
+        "paragrafos": [
+          "O erro mais comum é considerar só a hospedagem. O site pode estar no ar e, mesmo assim, ficar meses sem atualização de segurança, sem cópia de backup e com formulário quebrado sem ninguém perceber.",
+          "Outro ponto é o domínio registrado em nome de terceiro. Se o titular for a agência ou o programador, a renovação depende dele. Registre sempre no CPF ou CNPJ da empresa e guarde o acesso ao painel."
+        ]
+      },
+      {
+        "titulo": "Como montar o seu número em 5 passos",
+        "paragrafos": [
+          "Peça um orçamento de cada item, em separado, e some. Assim você compara propostas de forma justa."
+        ],
+        "lista": [
+          "Peça ao provedor o valor do plano de hospedagem que o site realmente precisa",
+          "Confira no Registro.br a renovação do domínio e a data de vencimento",
+          "Defina com quem desenvolveu o site o que a manutenção técnica inclui e como é cobrada",
+          "Estime quantas alterações de conteúdo você faz por mês",
+          "Some os quatro itens e divida por 12 se algum for anual"
+        ],
+        "listaOrdenada": true
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Tabela de composição da mensalidade de um site com quem cobra cada item"
+    },
+    "faq": [
+      {
+        "pergunta": "Site pago de uma vez tem mensalidade?",
+        "resposta": "O desenvolvimento pode ser pago uma única vez, mas hospedagem e domínio continuam existindo. Manutenção técnica é opcional, porém sem ela o site tende a ficar vulnerável e desatualizado com o tempo."
+      },
+      {
+        "pergunta": "Posso hospedar o site no meu próprio computador?",
+        "resposta": "Não é recomendado. Um computador comum desliga, perde conexão e não tem proteção adequada. Hospedagem profissional garante o site no ar o tempo todo, com cópia de segurança e suporte."
+      },
+      {
+        "pergunta": "Quem deve ser o titular do domínio?",
+        "resposta": "A sua empresa, com CPF ou CNPJ dela. Assim você controla a renovação e pode trocar de desenvolvedor sem perder o endereço do site."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Registro.br — site oficial",
+        "url": "https://registro.br/",
+        "orgao": "Registro.br",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "quanto-custa-a-manutencao-de-um-site",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "quanto custa a manutenção de um site",
+    "consultasSecundarias": [
+      "preço de manutenção de site",
+      "valor da manutenção de site mensal",
+      "contrato de manutenção de site"
+    ],
+    "title": "Quanto custa a manutenção de um site: o que ela inclui",
+    "description": "Entenda o que a manutenção de site inclui, como ela é cobrada e o que perguntar antes de assinar. Confira o checklist de tarefas.",
+    "h1": "Quanto custa a manutenção de um site",
+    "respostaDireta": "Quanto custa a manutenção de um site depende do que o contrato inclui, não de um preço fixo de mercado. Pacote mensal cobre um conjunto de tarefas recorrentes; horas avulsas cobrem só o que você pedir. Compare o que cada proposta entrega, pois o mesmo valor pode comprar serviços muito diferentes.",
+    "secoes": [
+      {
+        "titulo": "O que a manutenção de um site realmente faz",
+        "paragrafos": [
+          "Manutenção não é fazer o site novo. É manter funcionando o que já existe: corrigir, atualizar e vigiar. Quem vende só a palavra \"manutenção\" sem listar tarefas vende uma promessa vaga.",
+          "Use a lista abaixo como régua. Se a proposta não cobrir pelo menos a maior parte dela, pergunte o que ficou de fora."
+        ],
+        "lista": [
+          "Atualização do sistema, dos plugins e das bibliotecas que o site usa",
+          "Cópia de segurança (backup) com teste de restauração",
+          "Monitoramento: aviso quando o site cai ou fica lento",
+          "Correção de erros e de links quebrados",
+          "Renovação do certificado de segurança (o cadeado do navegador)",
+          "Verificação do formulário de contato e dos e-mails que chegam",
+          "Relatório simples do que foi feito no mês",
+          "Prazo de resposta combinado para urgências"
+        ]
+      },
+      {
+        "titulo": "Dois jeitos de cobrar",
+        "paragrafos": [
+          "No pacote mensal você paga um valor recorrente e recebe o conjunto de tarefas acima, mais um número de horas para pequenas alterações. É mais previsível e costuma compensar para quem usa o site todo mês.",
+          "Nas horas avulsas você paga só quando precisa. Funciona para site simples que raramente muda, mas o problema aparece quando algo quebra: sem contrato, o atendimento depende da agenda de quem fez o site."
+        ]
+      },
+      {
+        "titulo": "Perguntas que definem o preço",
+        "paragrafos": [
+          "Quanto maior o site e mais integrações ele tiver, maior o trabalho de manutenção. Uma landing page tem pouca coisa para vigiar; uma loja virtual com pagamento exige mais atenção. Veja a faixa de preço de cada tipo em /quanto-custa/ecommerce e em /quanto-custa/landing-page.",
+          "Antes de contratar, responda: o site recebe pedidos ou só mostra informação? Quantas pessoas alteram conteúdo? Existe integração com sistema de gestão? As respostas dimensionam o pacote."
+        ]
+      },
+      {
+        "titulo": "Sinais de que a manutenção está fraca",
+        "paragrafos": [
+          "Mesmo com contrato, vale desconfiar quando o relatório mensal nunca chega, quando um erro simples leva dias para ser corrigido ou quando ninguém sabe dizer a data do último backup. Peça uma demonstração: solicite que restaurem uma cópia em ambiente de teste e confirme que o processo funciona de verdade."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "checklist",
+      "descricao": "Checklist de 8 tarefas que uma manutenção de site deve cobrir e dois modelos de cobrança"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso de manutenção se o site quase não muda?",
+        "resposta": "Sim, porém mais leve. Mesmo sem mudar conteúdo, o sistema por trás precisa de atualizações de segurança, o certificado precisa renovar e o backup precisa existir. Um pacote básico costuma bastar."
+      },
+      {
+        "pergunta": "Manutenção inclui criar páginas novas?",
+        "resposta": "Normalmente não. Criar páginas ou funções novas é desenvolvimento e é orçado à parte. Combine por escrito um limite de horas para pequenas alterações dentro da mensalidade."
+      },
+      {
+        "pergunta": "Posso cancelar a manutenção quando quiser?",
+        "resposta": "Depende do contrato. Prefira prazo curto de fidelidade e aviso prévio claro. Garanta também que você tem os acessos do site, para não ficar refém de quem presta o serviço."
+      }
+    ],
+    "fontes": [],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "quanto-custa-um-site-simples",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "quanto custa um site simples",
+    "consultasSecundarias": [
+      "preço de um site simples",
+      "valor de site simples para empresa",
+      "site simples para pequena empresa quanto custa"
+    ],
+    "title": "Quanto custa um site simples: faixas por tipo de site",
+    "description": "Veja a faixa de preço de uma landing page e de um site institucional simples, com cálculo de prazo urgente. Confira antes de pedir orçamento.",
+    "h1": "Quanto custa um site simples",
+    "respostaDireta": "Quanto custa um site simples na AndersDev: de R$ 1.500 a R$ 4.000 para uma landing page de uma página, e de R$ 3.400 a R$ 11.500 para um site institucional com várias páginas. A faixa varia com o número de páginas, o design e as integrações que você precisar.",
+    "secoes": [
+      {
+        "titulo": "Site simples tem dois formatos",
+        "paragrafos": [
+          "\"Site simples\" pode significar uma página única que vende uma coisa só, ou um site de poucas páginas que apresenta a empresa. O preço muda bastante entre os dois.",
+          "Os valores abaixo vêm da tabela pública de preços da AndersDev, que você mesmo pode simular na calculadora do site."
+        ],
+        "tabela": {
+          "colunas": [
+            "Formato",
+            "Faixa de preço",
+            "Para quem serve"
+          ],
+          "linhas": [
+            [
+              "Landing page",
+              "R$ 1.500 a R$ 4.000",
+              "Uma oferta, uma campanha, um serviço"
+            ],
+            [
+              "Site institucional",
+              "R$ 3.400 a R$ 11.500",
+              "Apresentar a empresa, serviços, contato e localização"
+            ]
+          ],
+          "legenda": "Faixas da tabela pública de preços da AndersDev"
+        }
+      },
+      {
+        "titulo": "Cálculo: o que pode subir o preço",
+        "paragrafos": [
+          "Dois acréscimos aparecem com frequência em site simples. Prazo urgente (site em menos de 3 semanas) soma 25%. Automação de marketing, como integrar formulário a uma ferramenta de e-mail, soma 15%.",
+          "Aplicados à faixa-base de cada formato, cada acréscimo isolado fica assim:"
+        ],
+        "tabela": {
+          "colunas": [
+            "Formato",
+            "Faixa-base",
+            "Com prazo urgente (+25%)",
+            "Com automação de marketing (+15%)"
+          ],
+          "linhas": [
+            [
+              "Landing page",
+              "R$ 1.500 a R$ 4.000",
+              "R$ 1.875 a R$ 5.000",
+              "R$ 1.725 a R$ 4.600"
+            ],
+            [
+              "Site institucional",
+              "R$ 3.400 a R$ 11.500",
+              "R$ 4.250 a R$ 14.375",
+              "R$ 3.910 a R$ 13.225"
+            ],
+            [
+              "Landing page com os dois acréscimos somados (+40%)",
+              "R$ 1.500 a R$ 4.000",
+              "Não se aplica",
+              "R$ 2.100 a R$ 5.600"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como escolher entre os dois",
+        "paragrafos": [
+          "Se você tem uma única oferta e quer medir quantos contatos ela gera, a landing page basta. Se clientes procuram a empresa no Google para conferir quem ela é, o institucional passa mais confiança.",
+          "Detalhes de cada um estão em /quanto-custa/landing-page e /quanto-custa/site-institucional. Lembre também dos custos que não entram no desenvolvimento: hospedagem e domínio, cobrados por terceiros."
+        ]
+      },
+      {
+        "titulo": "O que perguntar antes de fechar",
+        "paragrafos": [
+          "Peça que a proposta diga quantas páginas estão incluídas, quantas rodadas de ajuste você tem e quem fornece textos e imagens. Site simples atrasa ou estoura quando o material do cliente demora. Reunir logotipo, textos e fotos antes de começar é a maneira mais barata de proteger prazo e preço."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "calculo",
+      "descricao": "Cálculo das faixas de landing page e site institucional com acréscimo de urgência e de automação de marketing"
+    },
+    "faq": [
+      {
+        "pergunta": "Site simples inclui hospedagem e domínio?",
+        "resposta": "Os valores da tabela se referem ao desenvolvimento do site. Hospedagem e domínio são serviços de terceiros, com cobrança própria. Confirme na proposta se estão incluídos ou se você contrata direto."
+      },
+      {
+        "pergunta": "Posso começar com landing page e crescer depois?",
+        "resposta": "Sim, e é um caminho comum. Uma landing page bem feita valida a oferta. Depois você amplia para site institucional ou loja, aproveitando a identidade visual e o domínio já construídos."
+      },
+      {
+        "pergunta": "O que faz um site simples custar mais perto do teto?",
+        "resposta": "Número de páginas, design totalmente personalizado, textos e imagens produzidos para o projeto e integrações. Quanto mais itens fora do padrão, mais perto do limite superior da faixa."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "quanto-custa-um-site-profissional",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "quanto custa um site profissional",
+    "consultasSecundarias": [
+      "preço de site profissional para empresa",
+      "valor de um site profissional",
+      "quanto cobrar por site profissional"
+    ],
+    "title": "Quanto custa um site profissional para empresa em 2026",
+    "description": "Veja o que torna um site profissional e quanto cada tipo custa. Confira a tabela com acréscimos por integração e peça seu orçamento.",
+    "h1": "Quanto custa um site profissional",
+    "respostaDireta": "Quanto custa um site profissional começa em R$ 3.400 para um site institucional e chega a R$ 32.500 para uma loja virtual completa, segundo a tabela pública da AndersDev. O que torna o site profissional não é o preço, mas ter objetivo claro, carregar rápido, funcionar no celular e ser mantido.",
+    "secoes": [
+      {
+        "titulo": "Profissional é o que cumpre um objetivo",
+        "paragrafos": [
+          "Um site profissional tem uma função: gerar contato, vender ou dar informação confiável. Preço alto não garante isso, e preço baixo não impede. O que separa os dois é o planejamento por trás.",
+          "A tabela mostra as três faixas que mais atendem pequenas e médias empresas."
+        ],
+        "tabela": {
+          "colunas": [
+            "Tipo",
+            "Faixa de preço",
+            "Quando faz sentido"
+          ],
+          "linhas": [
+            [
+              "Landing page",
+              "R$ 1.500 a R$ 4.000",
+              "Campanha ou oferta única"
+            ],
+            [
+              "Site institucional",
+              "R$ 3.400 a R$ 11.500",
+              "Presença da empresa na internet"
+            ],
+            [
+              "E-commerce / loja virtual",
+              "R$ 10.400 a R$ 32.500",
+              "Vender produtos online"
+            ]
+          ],
+          "legenda": "Tabela pública de preços da AndersDev"
+        }
+      },
+      {
+        "titulo": "Sinais de um site profissional",
+        "paragrafos": [
+          "Antes de olhar o preço, confira se a proposta entrega o que realmente faz diferença. Use como lista de verificação."
+        ],
+        "lista": [
+          "Abre rápido no celular, sem rolagem lateral",
+          "Cada página tem um objetivo e um botão de ação claro",
+          "Título e descrição configurados para aparecer bem no Google",
+          "Formulário e WhatsApp testados e funcionando",
+          "Certificado de segurança ativo (endereço começa com https)",
+          "Você recebe acesso administrativo e o código ou os arquivos do site",
+          "Existe plano de manutenção ou, ao menos, orientação de quem cuida"
+        ]
+      },
+      {
+        "titulo": "Integrações mudam o valor",
+        "paragrafos": [
+          "Funções além do básico entram como acréscimo sobre a faixa-base: pagamento online soma 20%, inteligência artificial 25%, integração com ERP ou CRM 30% e automação de marketing 15%. Prazo urgente, abaixo de 3 semanas, soma 25%.",
+          "Exemplo: um site institucional com formulário ligado ao CRM sai de R$ 3.400 a R$ 11.500 para R$ 4.420 a R$ 14.950 (+30%). Para entender o caminho completo, veja também /alternativa-a/agencia."
+        ]
+      },
+      {
+        "titulo": "Onde investir primeiro",
+        "paragrafos": [
+          "Se o orçamento é limitado, priorize o que o visitante vê e faz: velocidade, texto claro, botão de contato e versão para celular. Itens como animações e recursos avançados podem esperar uma segunda fase, quando você já souber o que os visitantes realmente usam."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Tabela de faixas por tipo de site e checklist de 7 sinais de um site profissional"
+    },
+    "faq": [
+      {
+        "pergunta": "Site profissional precisa ser caro?",
+        "resposta": "Não. Precisa ser adequado ao objetivo. Uma landing page bem feita pode ser mais profissional e mais lucrativa que um site grande sem foco. O que pesa é o planejamento, não o tamanho."
+      },
+      {
+        "pergunta": "Vale usar construtor de sites para algo profissional?",
+        "resposta": "Depende do que você precisa. Para uma página simples pode servir. Se houver integração com seus sistemas ou necessidade de desempenho, o sob medida tende a compensar. Veja /alternativa-a/wix e /alternativa-a/wordpress."
+      },
+      {
+        "pergunta": "Quanto tempo leva para ficar pronto?",
+        "resposta": "Varia com o tamanho e com a rapidez das suas aprovações e do envio de textos e imagens. Pedir prazo menor que 3 semanas é tratado como urgente e soma 25% ao valor."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "quanto-custa-um-site-de-vendas",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "quanto custa um site de vendas",
+    "consultasSecundarias": [
+      "preço de site para vender online",
+      "quanto custa um site de vendas online",
+      "valor de loja virtual própria"
+    ],
+    "title": "Quanto custa um site de vendas: página ou loja virtual",
+    "description": "Compare o custo de uma página de vendas e de uma loja virtual completa, com cálculo de pagamento online. Confira e escolha o formato certo.",
+    "h1": "Quanto custa um site de vendas",
+    "respostaDireta": "Quanto custa um site de vendas varia conforme o que você vende. Uma página de vendas de um produto ou serviço custa de R$ 1.500 a R$ 4.000. Uma loja virtual completa, com catálogo, carrinho e pagamento, custa de R$ 10.400 a R$ 32.500, pela tabela pública da AndersDev.",
+    "secoes": [
+      {
+        "titulo": "Escolha pelo tamanho do catálogo",
+        "paragrafos": [
+          "A pergunta que decide o formato é simples: você vende uma coisa ou muitas? Para uma oferta única, como um curso, um serviço ou um produto principal, a página de vendas converte bem e custa menos. Para dezenas ou centenas de itens, o cliente espera ver categorias, buscar e finalizar pedido sozinho.",
+          "Em /quanto-custa/ecommerce você encontra o detalhamento da loja completa."
+        ],
+        "tabela": {
+          "colunas": [
+            "",
+            "Página de vendas (landing page)",
+            "Loja virtual (e-commerce)"
+          ],
+          "linhas": [
+            [
+              "Faixa de preço",
+              "R$ 1.500 a R$ 4.000",
+              "R$ 10.400 a R$ 32.500"
+            ],
+            [
+              "Catálogo",
+              "Um produto ou serviço",
+              "Muitos produtos com categorias"
+            ],
+            [
+              "Carrinho e pedido",
+              "Normalmente não",
+              "Sim"
+            ],
+            [
+              "Gestão de estoque",
+              "Não",
+              "Sim, com painel"
+            ],
+            [
+              "Melhor uso",
+              "Campanha, lançamento, serviço",
+              "Operação de venda contínua"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Cálculo: acrescentando pagamento online",
+        "paragrafos": [
+          "Receber pelo site pede integração com meio de pagamento. Na tabela da AndersDev, esse acréscimo é de 20% sobre a faixa-base.",
+          "Na página de vendas, o valor vai de R$ 1.800 a R$ 4.800. Na loja virtual, de R$ 12.480 a R$ 39.000. Se também integrar o ERP (+30% sobre a base), a loja passa a R$ 13.520 a R$ 42.250 considerando só esse acréscimo.",
+          "Prazo urgente é outro item. Abaixo de 3 semanas, soma 25%, e a loja ficaria entre R$ 13.000 e R$ 40.625."
+        ]
+      },
+      {
+        "titulo": "O que fica fora do orçamento do site",
+        "paragrafos": [
+          "Taxas de operadoras de pagamento, hospedagem e domínio são cobradas por terceiros e variam. Peça que o orçamento diga claramente o que está incluso, para você não descobrir a conta depois."
+        ]
+      },
+      {
+        "titulo": "Teste antes de investir na loja",
+        "paragrafos": [
+          "Uma forma prudente de começar é validar a venda com a página de vendas e o atendimento por WhatsApp. Se os pedidos aparecerem e o atendimento manual ficar pesado, a loja virtual passa a se justificar com dados reais da sua operação, e não com palpite."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "calculo",
+      "descricao": "Comparação de página de vendas e loja virtual com cálculo de acréscimos de pagamento, ERP e urgência"
+    },
+    "faq": [
+      {
+        "pergunta": "Dá para vender só pelo WhatsApp com a página?",
+        "resposta": "Dá. A página apresenta a oferta e o botão leva ao atendimento no WhatsApp, onde você fecha a venda. É uma boa etapa inicial antes de investir em loja com carrinho e pagamento automático."
+      },
+      {
+        "pergunta": "Loja virtual já vem com pagamento?",
+        "resposta": "Não necessariamente. A integração com meio de pagamento é um acréscimo de 20% na tabela da AndersDev. Confirme na proposta se está incluída e qual provedor será usado."
+      },
+      {
+        "pergunta": "Vale mais a pena plataforma pronta ou loja sob medida?",
+        "resposta": "Depende do volume e das integrações. A comparação está em /alternativa-a/shopify. Em geral, plataforma pronta ajuda a começar; sob medida compensa quando você tem regras próprias."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "quanto-custa-sistema-de-gestao-sob-medida",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "quanto custa um sistema de gestão sob medida",
+    "consultasSecundarias": [
+      "preço de sistema de gestão personalizado",
+      "valor de um sistema web sob medida",
+      "quanto custa desenvolver um sistema para empresa"
+    ],
+    "title": "Quanto custa um sistema de gestão sob medida: faixas",
+    "description": "Veja a faixa de preço de um sistema de gestão sob medida e como integração com ERP e pagamento altera o valor. Simule o seu caso.",
+    "h1": "Quanto custa um sistema de gestão sob medida",
+    "respostaDireta": "Quanto custa um sistema de gestão sob medida fica, na tabela da AndersDev, entre R$ 15.000 e R$ 40.000 para uma primeira versão (MVP) de sistema web. Sistemas maiores, com app e backend próprio, vão de R$ 30.000 a R$ 72.000. O que define o valor é a quantidade de rotinas e integrações.",
+    "secoes": [
+      {
+        "titulo": "O que está dentro de cada faixa",
+        "paragrafos": [
+          "Sistema de gestão é o programa que substitui planilhas e controles soltos: cadastro de clientes, pedidos, estoque, financeiro, relatórios. Ninguém precisa construir tudo de uma vez. A prática segura é começar pelo módulo que mais dói e crescer.",
+          "Por isso a primeira versão, o MVP, é a porta de entrada. Quando o escopo cresce para aplicativo mobile e regras complexas, entra a faixa de app completo."
+        ],
+        "tabela": {
+          "colunas": [
+            "Escopo",
+            "Faixa de preço",
+            "Exemplo de entrega"
+          ],
+          "linhas": [
+            [
+              "MVP de sistema web",
+              "R$ 15.000 a R$ 40.000",
+              "Cadastros, um fluxo principal, usuários e relatório básico"
+            ],
+            [
+              "App completo com backend",
+              "R$ 30.000 a R$ 72.000",
+              "Sistema web e aplicativo, várias telas, regras e painel administrativo"
+            ]
+          ],
+          "legenda": "Tabela pública de preços da AndersDev"
+        }
+      },
+      {
+        "titulo": "Cálculo: acréscimos por integração",
+        "paragrafos": [
+          "Cada integração soma ao valor-base: pagamento +20%, inteligência artificial +25%, ERP +30%, push ou WhatsApp +15%. Prazo urgente (abaixo de 6 semanas) soma 25%.",
+          "Aplicados a um MVP de R$ 15.000 a R$ 40.000, isoladamente:"
+        ],
+        "tabela": {
+          "colunas": [
+            "Acréscimo",
+            "Percentual",
+            "MVP resultante"
+          ],
+          "linhas": [
+            [
+              "Pagamento",
+              "+20%",
+              "R$ 18.000 a R$ 48.000"
+            ],
+            [
+              "Inteligência artificial",
+              "+25%",
+              "R$ 18.750 a R$ 50.000"
+            ],
+            [
+              "ERP",
+              "+30%",
+              "R$ 19.500 a R$ 52.000"
+            ],
+            [
+              "Push ou WhatsApp",
+              "+15%",
+              "R$ 17.250 a R$ 46.000"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como reduzir o risco de pagar demais",
+        "paragrafos": [
+          "Descreva as três tarefas que o time repete todo dia e que consomem mais tempo. Esse é o escopo da primeira versão. O resto entra em fases seguintes, com valor e prazo próprios.",
+          "Veja também o blog sobre como sair da planilha na empresa e a página /sistema-para para exemplos por setor."
+        ]
+      },
+      {
+        "titulo": "O que mais encarece um sistema",
+        "paragrafos": [
+          "Regras de negócio complicadas, muitos tipos de usuário com permissões diferentes e migração de dados antigos pesam mais que o número de telas. Levante isso antes de pedir orçamento, pois cada exceção vira trabalho de desenvolvimento e de teste. Quem já tem um fluxo desenhado, mesmo que em planilha, chega ao orçamento com muito mais precisão."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "calculo",
+      "descricao": "Faixas de MVP e app completo e cálculo de 4 acréscimos de integração sobre o MVP"
+    },
+    "faq": [
+      {
+        "pergunta": "Sistema sob medida custa mais que sistema pronto?",
+        "resposta": "O investimento inicial costuma ser maior. Em troca, o sistema segue o seu processo, sem mensalidade por usuário de terceiros e sem adaptar a empresa ao software. Avalie pelo custo de alguns anos."
+      },
+      {
+        "pergunta": "Dá para pagar por etapas?",
+        "resposta": "Sim. Dividir em fases é comum: primeiro o módulo principal, depois os demais. Cada fase tem escopo, valor e prazo combinados, o que facilita o fluxo de caixa."
+      },
+      {
+        "pergunta": "Quem fica com o código do sistema?",
+        "resposta": "Salvo estipulação em contrário, pertence ao contratante, nos termos da lei. Mesmo assim, deixe isso escrito no contrato. Veja a página sobre quem é o dono do código-fonte."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "quanto-custa-aplicativo-de-delivery-proprio",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "quanto custa um aplicativo de delivery próprio",
+    "consultasSecundarias": [
+      "preço de app de delivery próprio",
+      "quanto custa criar um app de delivery",
+      "valor para desenvolver aplicativo de delivery"
+    ],
+    "title": "Quanto custa um aplicativo de delivery próprio: faixas",
+    "description": "Veja o custo de um aplicativo de delivery próprio, com pagamento, push e prazo urgente calculados. Simule antes de pedir orçamento.",
+    "h1": "Quanto custa um aplicativo de delivery próprio",
+    "respostaDireta": "Quanto custa um aplicativo de delivery próprio costuma cair na faixa de app completo com backend: de R$ 30.000 a R$ 72.000 na tabela da AndersDev. Delivery precisa de cardápio, pedido, pagamento, painel da loja e avisos ao cliente, e cada uma dessas partes pesa no valor final.",
+    "secoes": [
+      {
+        "titulo": "Por que delivery cai na faixa de app completo",
+        "paragrafos": [
+          "Um app de delivery não é só um catálogo. Existe o lado do cliente, que vê o cardápio e faz o pedido, e o lado da loja, que recebe, aceita e acompanha cada pedido. Os dois conversam por um servidor (o backend), e isso é o que diferencia o app completo do app simples.",
+          "Se a ideia é só mostrar cardápio e levar ao WhatsApp, um app simples (R$ 10.800 a R$ 27.000) resolve. Para receber pedido e pagamento dentro do app, a faixa é a de app completo."
+        ]
+      },
+      {
+        "titulo": "Cálculo com os acréscimos mais comuns",
+        "paragrafos": [
+          "Pagamento dentro do app soma 20%. Notificação push, para avisar que o pedido saiu, soma 15%. Prazo urgente, abaixo de 6 semanas, soma 25%. Cada um aplicado à faixa de R$ 30.000 a R$ 72.000:"
+        ],
+        "tabela": {
+          "colunas": [
+            "Item",
+            "Acréscimo",
+            "Faixa resultante"
+          ],
+          "linhas": [
+            [
+              "Base de app completo",
+              "—",
+              "R$ 30.000 a R$ 72.000"
+            ],
+            [
+              "Com pagamento",
+              "+20%",
+              "R$ 36.000 a R$ 86.400"
+            ],
+            [
+              "Com push",
+              "+15%",
+              "R$ 34.500 a R$ 82.800"
+            ],
+            [
+              "Com prazo urgente",
+              "+25%",
+              "R$ 37.500 a R$ 90.000"
+            ]
+          ],
+          "legenda": "Cada acréscimo aplicado isoladamente sobre a base"
+        }
+      },
+      {
+        "titulo": "Custos que não entram no desenvolvimento",
+        "paragrafos": [
+          "Publicar nas lojas de aplicativos, hospedar o servidor e usar serviços de pagamento e de mapas geram cobranças de terceiros, que variam e mudam. Peça para o orçamento listar cada uma e quem paga.",
+          "Compare ainda com o modelo de plataformas de entrega, em que há comissão sobre cada pedido. Um app próprio troca comissão por investimento fixo, mas você assume a divulgação para os clientes baixarem."
+        ]
+      },
+      {
+        "titulo": "Como começar com risco menor",
+        "paragrafos": [
+          "Antes de contratar o app completo, teste a demanda com um cardápio digital e pedidos pelo WhatsApp. Se o volume de pedidos recorrentes justificar, o investimento no app passa a ter base concreta para ser comparado com a comissão que você paga hoje."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "calculo",
+      "descricao": "Cálculo da faixa de app completo para delivery com acréscimos de pagamento, push e urgência"
+    },
+    "faq": [
+      {
+        "pergunta": "Dá para fazer um app de delivery mais barato?",
+        "resposta": "Dá, reduzindo o escopo. Um app que só mostra o cardápio e envia o pedido ao WhatsApp cabe na faixa de app simples. Pedido com pagamento e painel da loja exige a faixa de app completo."
+      },
+      {
+        "pergunta": "Preciso de app ou um site de pedidos resolve?",
+        "resposta": "Muitos negócios começam com site de pedidos, que não exige instalação. O app compensa quando o cliente pede com frequência e você quer ficar presente no celular dele. Veja /quanto-custa/app-completo."
+      },
+      {
+        "pergunta": "O app precisa de equipe para operar?",
+        "resposta": "Precisa de alguém para aceitar os pedidos no painel e manter o cardápio atualizado. O desenvolvimento entrega a ferramenta; a rotina de operação continua sendo da sua loja."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "quanto-custa-um-aplicativo-de-agendamento",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "quanto custa um aplicativo de agendamento",
+    "consultasSecundarias": [
+      "preço de app de agendamento",
+      "quanto custa criar app de agendamento",
+      "valor de sistema de agendamento online"
+    ],
+    "title": "Quanto custa um aplicativo de agendamento: faixa e cálculo",
+    "description": "Veja a faixa de preço de um aplicativo de agendamento e o efeito de lembretes por WhatsApp e push. Confira o cálculo e simule o seu.",
+    "h1": "Quanto custa um aplicativo de agendamento",
+    "respostaDireta": "Quanto custa um aplicativo de agendamento de horários, na tabela da AndersDev, vai de R$ 10.800 a R$ 27.000 quando é um app mobile simples. Lembretes por WhatsApp ou notificação push somam 15% à faixa. Se o app precisar de painel, financeiro e várias agendas, o projeto sobe de faixa.",
+    "secoes": [
+      {
+        "titulo": "O que um app de agendamento precisa ter",
+        "paragrafos": [
+          "No núcleo, o app mostra horários livres, deixa o cliente escolher e confirma a reserva. Para o dono do negócio, entra uma agenda organizada por profissional e por serviço.",
+          "Esse conjunto cabe em um app simples. A faixa muda conforme você acrescenta recursos, e é por eles que o orçamento deve começar."
+        ],
+        "tabela": {
+          "colunas": [
+            "Recurso",
+            "Impacto no orçamento"
+          ],
+          "linhas": [
+            [
+              "Escolha de serviço, data e hora",
+              "Incluído na base do app simples"
+            ],
+            [
+              "Cadastro e login do cliente",
+              "Incluído na base do app simples"
+            ],
+            [
+              "Lembrete por WhatsApp ou push",
+              "Acréscimo de 15% sobre a base"
+            ],
+            [
+              "Cobrança antecipada no app",
+              "Acréscimo de 20% (pagamento)"
+            ],
+            [
+              "Painel completo com backend",
+              "Faixa de app completo, R$ 30.000 a R$ 72.000"
+            ]
+          ],
+          "legenda": "Como cada recurso afeta o valor, pela tabela da AndersDev"
+        }
+      },
+      {
+        "titulo": "Cálculo para uma clínica ou salão",
+        "paragrafos": [
+          "Partindo de R$ 10.800 a R$ 27.000, o lembrete automático (+15%) leva a faixa para R$ 12.420 a R$ 31.050. Se também cobrar sinal pelo app (+20% sobre a base), o valor isolado seria R$ 12.960 a R$ 32.400.",
+          "Faltar ao horário é a dor mais cara de quem vive de agenda. O lembrete é o recurso com resposta mais direta nesse problema."
+        ]
+      },
+      {
+        "titulo": "Aplicativo ou agendamento pelo site?",
+        "paragrafos": [
+          "Se seus clientes marcam uma vez e não voltam com frequência, um agendamento embutido no site pode atender sem pedir instalação. Para quem retorna toda semana, o app ganha espaço. A dúvida é parecida com a do blog \"site ou aplicativo: qual a empresa precisa\"."
+        ]
+      },
+      {
+        "titulo": "Perguntas para fechar o escopo",
+        "paragrafos": [
+          "Defina quantos profissionais existem, se cada serviço tem duração diferente, se o cliente pode remarcar sozinho e qual é o prazo mínimo para cancelar. Essas respostas determinam as regras da agenda e evitam que o orçamento aumente no meio do projeto. Leve também exemplos reais de agenda: uma semana típica e um dia de pico mostram os casos que o app precisa suportar."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "calculo",
+      "descricao": "Tabela de recursos com impacto no preço e cálculo de lembrete e cobrança sobre a faixa de app simples"
+    },
+    "faq": [
+      {
+        "pergunta": "O app envia lembrete automático ao cliente?",
+        "resposta": "Pode enviar, por notificação push ou WhatsApp, com horário configurável antes da consulta. Esse recurso soma 15% à faixa do app, segundo a tabela da AndersDev."
+      },
+      {
+        "pergunta": "Funciona para vários profissionais?",
+        "resposta": "Sim, com agenda por profissional. Quanto mais regras (folgas, durações diferentes, comissão), maior o escopo. Descreva a sua rotina no orçamento para que o valor reflita o caso real."
+      },
+      {
+        "pergunta": "Preciso publicar na loja de aplicativos?",
+        "resposta": "Para o cliente baixar o app, sim. A publicação segue as regras da Apple e do Google, com cobranças próprias delas. Veja a página sobre custo de publicar na Play Store e na App Store."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "quanto-custa-sistema-de-ordem-de-servico",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "quanto custa um sistema de ordem de serviço",
+    "consultasSecundarias": [
+      "preço de sistema de ordem de serviço",
+      "valor de sistema de os para oficina",
+      "quanto custa desenvolver sistema de os"
+    ],
+    "title": "Quanto custa um sistema de ordem de serviço sob medida",
+    "description": "Veja a faixa de preço de um sistema de ordem de serviço sob medida e os acréscimos de pagamento e WhatsApp. Confira e simule o seu.",
+    "h1": "Quanto custa um sistema de ordem de serviço",
+    "respostaDireta": "Quanto custa um sistema de ordem de serviço sob medida começa, na tabela da AndersDev, em R$ 15.000 e vai até R$ 40.000 na versão MVP de sistema web. O valor depende de quantos tipos de serviço, técnicos e etapas a ordem precisa controlar, e de integrações como WhatsApp e pagamento.",
+    "secoes": [
+      {
+        "titulo": "O que a ordem de serviço precisa registrar",
+        "paragrafos": [
+          "Ordem de serviço (OS) é o documento que registra o que o cliente pediu, o que foi feito, as peças usadas, o valor e a aprovação. Em papel ou planilha, ela se perde, e o cliente liga perguntando o andamento.",
+          "Um sistema organiza esse caminho do começo ao fim. Veja os módulos que costumam entrar na primeira versão e o peso de cada um no escopo."
+        ],
+        "tabela": {
+          "colunas": [
+            "Módulo",
+            "O que faz",
+            "Peso no escopo"
+          ],
+          "linhas": [
+            [
+              "Cadastro de clientes e equipamentos",
+              "Guarda histórico de cada cliente e item atendido",
+              "Baixo"
+            ],
+            [
+              "Abertura e andamento da OS",
+              "Status, responsável, prazos e anotações",
+              "Médio"
+            ],
+            [
+              "Orçamento e aprovação",
+              "Valores, peças e aceite do cliente",
+              "Médio"
+            ],
+            [
+              "Estoque de peças",
+              "Baixa automática ao usar peça na OS",
+              "Alto"
+            ],
+            [
+              "Aviso ao cliente",
+              "Mensagem quando o status muda",
+              "Baixo, com acréscimo de 15%"
+            ],
+            [
+              "Relatórios",
+              "Faturamento, tempo médio, serviços mais pedidos",
+              "Médio"
+            ]
+          ],
+          "legenda": "Módulos típicos de um sistema de OS"
+        }
+      },
+      {
+        "titulo": "Cálculo: da primeira versão ao sistema completo",
+        "paragrafos": [
+          "A versão enxuta, com cadastro, abertura de OS, andamento e relatório simples, cabe no MVP de R$ 15.000 a R$ 40.000. Avisos automáticos por WhatsApp somam 15%, levando a faixa para R$ 17.250 a R$ 46.000. Cobrança integrada, com 20% de acréscimo, chega a R$ 18.000 a R$ 48.000.",
+          "Se a empresa quiser também um aplicativo para o técnico preencher a OS em campo, com servidor próprio, o projeto entra na faixa de app completo, de R$ 30.000 a R$ 72.000. Veja os exemplos por setor em /sistema-para."
+        ]
+      },
+      {
+        "titulo": "Como encurtar o escopo sem perder o essencial",
+        "paragrafos": [
+          "Comece pelo fluxo que mais gera ligação de cliente: abrir a OS, mudar o status e avisar. O estoque de peças, que costuma ser o módulo mais pesado, pode entrar na segunda fase.",
+          "Leve para a conversa três ordens reais, já concluídas, com todas as informações que apareceram. Elas mostram os campos de que você precisa e os que sobram."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "calculo",
+      "descricao": "Tabela de módulos de uma OS e cálculo da faixa de MVP com WhatsApp e pagamento"
+    },
+    "faq": [
+      {
+        "pergunta": "Vale a pena um sistema de OS sob medida ou um pronto?",
+        "resposta": "Pronto serve quando seu processo é padrão. Sob medida compensa quando você tem campos, etapas e regras próprias e não quer pagar por usuário todo mês. Compare o seu fluxo com o de uma ferramenta pronta antes."
+      },
+      {
+        "pergunta": "O técnico consegue usar no celular?",
+        "resposta": "Pode, com sistema web que abre bem no celular ou com aplicativo próprio. O app é indicado quando o técnico trabalha sem internet constante e precisa tirar fotos e coletar assinatura no local."
+      },
+      {
+        "pergunta": "O cliente consegue acompanhar a ordem?",
+        "resposta": "Consegue, por mensagem a cada mudança de status ou por um link de consulta. O aviso por WhatsApp soma 15% ao valor, segundo a tabela da AndersDev, e reduz muito as ligações."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "quanto-custa-integrar-site-com-whatsapp",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "quanto custa integrar o site com o whatsapp",
+    "consultasSecundarias": [
+      "preço de integração de site com whatsapp",
+      "botão de whatsapp no site quanto custa",
+      "integrar whatsapp api ao site custo"
+    ],
+    "title": "Quanto custa integrar o site com o WhatsApp: 3 níveis",
+    "description": "Veja os três níveis de integração do site com o WhatsApp, do botão simples à API oficial, e o que muda no custo. Confira antes de contratar.",
+    "h1": "Quanto custa integrar o site com o WhatsApp",
+    "respostaDireta": "Quanto custa integrar o site com o WhatsApp depende do nível: um botão que abre a conversa é trabalho pequeno, e a integração com a API oficial, que envia e recebe mensagens automáticas, é um projeto. Em app, a tabela da AndersDev soma 15% quando entra WhatsApp. As tarifas da plataforma são da Meta.",
+    "secoes": [
+      {
+        "titulo": "Três níveis de integração",
+        "paragrafos": [
+          "A palavra \"integrar\" cobre coisas muito diferentes. Antes de pedir preço, descubra em qual nível você está. Isso evita pagar por uma API quando um botão resolvia, e o inverso.",
+          "Os preços de mensagens enviadas pela API oficial são definidos pela Meta e mudam. Por isso não aparecem aqui; consulte a documentação oficial da plataforma."
+        ],
+        "tabela": {
+          "colunas": [
+            "Nível",
+            "O que faz",
+            "Esforço de desenvolvimento"
+          ],
+          "linhas": [
+            [
+              "1. Botão ou link",
+              "Abre uma conversa com mensagem pronta",
+              "Muito baixo"
+            ],
+            [
+              "2. Formulário que avisa o WhatsApp",
+              "O contato preenchido no site chega ao atendente",
+              "Médio"
+            ],
+            [
+              "3. API oficial (Cloud API)",
+              "Envia e recebe mensagens, com modelos aprovados e automação",
+              "Alto"
+            ]
+          ],
+          "legenda": "Níveis de integração site e WhatsApp"
+        }
+      },
+      {
+        "titulo": "Passo a passo para decidir",
+        "paragrafos": [
+          "Percorra as etapas na ordem e pare no nível que resolve o seu problema."
+        ],
+        "lista": [
+          "Liste o que você quer que aconteça: só receber conversas, ou também enviar avisos e cobranças",
+          "Conte quantas conversas por dia o atendimento aguenta sem sistema",
+          "Decida se precisa de resposta automática fora do horário",
+          "Verifique se o número usado será exclusivo da empresa",
+          "Peça ao desenvolvedor o escopo separado por nível e o que depende de cobrança da plataforma"
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Onde o custo pesa",
+        "paragrafos": [
+          "O nível 3 exige criar a conta na plataforma, aprovar modelos de mensagem e hospedar o serviço que recebe as respostas. Cada mensagem enviada fora de conversa ativa pode ter tarifa da Meta, definida na documentação oficial.",
+          "Na tabela da AndersDev, a integração de WhatsApp em app soma 15% ao valor-base. Para sites, a tabela não tem item específico de WhatsApp: confirme na proposta como será orçado."
+        ]
+      },
+      {
+        "titulo": "Cuidados com os dados dos contatos",
+        "paragrafos": [
+          "Ao receber o número de telefone de alguém pelo site, você passa a tratar dado pessoal. Informe no formulário para que o número será usado e não envie mensagens promocionais a quem não aceitou receber. Isso protege a empresa e melhora a reputação do número no WhatsApp."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "passo-a-passo",
+      "descricao": "Três níveis de integração com WhatsApp e passo a passo para escolher o nível certo"
+    },
+    "faq": [
+      {
+        "pergunta": "Botão de WhatsApp no site custa muito?",
+        "resposta": "Não. É uma das alterações mais simples de um site e pode ser feita em pouco tempo. O ponto de atenção é registrar de onde vêm os cliques, para medir se o botão realmente gera contatos."
+      },
+      {
+        "pergunta": "Preciso da API oficial para atender clientes?",
+        "resposta": "Só se quiser automação, envio em massa autorizado ou integração com sistema próprio. Para atendimento humano, o aplicativo comum já cumpre o papel. A API oficial exige conta e regras da Meta."
+      },
+      {
+        "pergunta": "Quem define as tarifas de mensagem?",
+        "resposta": "A Meta, dona da plataforma. Os valores e as categorias de mensagem mudam, então consulte a documentação oficial da WhatsApp Business Platform antes de calcular um custo mensal."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "WhatsApp Business Platform — Cloud API",
+        "url": "https://developers.facebook.com/docs/whatsapp/cloud-api",
+        "orgao": "Meta",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "quanto-custa-um-chatbot-para-empresa",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "quanto custa um chatbot para empresa",
+    "consultasSecundarias": [
+      "preço de chatbot para empresa",
+      "valor de chatbot com inteligência artificial",
+      "quanto custa desenvolver um chatbot"
+    ],
+    "title": "Quanto custa um chatbot para empresa: regra e IA",
+    "description": "Entenda a diferença de custo entre chatbot de regras e chatbot com IA, com o acréscimo da tabela pública. Confira e peça orçamento.",
+    "h1": "Quanto custa um chatbot para empresa",
+    "respostaDireta": "Quanto custa um chatbot para empresa depende do tipo. O chatbot de regras segue um roteiro de perguntas e respostas fixas e cabe como parte de um site ou app. O chatbot com inteligência artificial entende texto livre e soma 25% ao valor do projeto, segundo a tabela pública da AndersDev.",
+    "secoes": [
+      {
+        "titulo": "Dois tipos de chatbot, dois custos",
+        "paragrafos": [
+          "O primeiro tipo funciona como um menu: o cliente escolhe uma opção e recebe a resposta programada. É previsível e barato de manter. O segundo conversa em linguagem natural e consulta informações da empresa para responder.",
+          "Os custos de uso das plataformas de inteligência artificial são cobrados por terceiros e mudam. Por isso peça que o orçamento separe o desenvolvimento e o uso mensal."
+        ],
+        "tabela": {
+          "colunas": [
+            "",
+            "Chatbot de regras",
+            "Chatbot com IA"
+          ],
+          "linhas": [
+            [
+              "Como responde",
+              "Roteiro fixo por opções",
+              "Interpreta texto livre"
+            ],
+            [
+              "Acréscimo na tabela",
+              "Parte do escopo comum",
+              "+25% sobre o projeto"
+            ],
+            [
+              "Risco de resposta errada",
+              "Baixo",
+              "Maior, exige limites e revisão"
+            ],
+            [
+              "Manutenção",
+              "Atualizar o roteiro",
+              "Atualizar a base de conhecimento e monitorar conversas"
+            ],
+            [
+              "Indicado para",
+              "Triagem, horários, segunda via",
+              "Dúvidas variadas sobre produtos e serviços"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Cálculo sobre um site ou app",
+        "paragrafos": [
+          "Em um site institucional (R$ 3.400 a R$ 11.500), a IA soma 25% e leva a faixa para R$ 4.250 a R$ 14.375. Em um app simples (R$ 10.800 a R$ 27.000), vai a R$ 13.500 a R$ 33.750. Em um MVP de sistema web (R$ 15.000 a R$ 40.000), a R$ 18.750 a R$ 50.000.",
+          "Esses valores consideram só o acréscimo isolado de IA sobre a base de cada tipo de projeto."
+        ]
+      },
+      {
+        "titulo": "Perguntas antes de contratar",
+        "paragrafos": [
+          "O que o robô pode responder sozinho e quando deve passar para uma pessoa? Quem revisa as conversas? Onde ficam guardados os dados dos clientes? Com a LGPD, tratar dados pessoais exige cuidado e base legal, então defina isso no escopo.",
+          "Um chatbot ruim afasta cliente. Comece com poucas perguntas frequentes, meça o que ele resolve e amplie aos poucos."
+        ]
+      },
+      {
+        "titulo": "Como medir se o chatbot compensa",
+        "paragrafos": [
+          "Antes de ligar o robô, anote quantas conversas o atendimento recebe e quantas são perguntas repetidas. Depois de algumas semanas, compare. Se o tempo de resposta caiu e a equipe ganhou horas para casos que importam, o investimento se justifica. Se não, ajuste o roteiro antes de ampliar."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "calculo",
+      "descricao": "Comparativo de chatbot de regras e com IA e cálculo do acréscimo de 25% sobre três tipos de projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Chatbot substitui o atendente?",
+        "resposta": "Não totalmente. Ele resolve perguntas repetitivas e organiza o primeiro contato. Casos complexos, reclamações e negociação seguem melhor com uma pessoa. O ideal é o robô passar a conversa ao atendente quando necessário."
+      },
+      {
+        "pergunta": "O chatbot funciona no WhatsApp?",
+        "resposta": "Pode funcionar, usando a API oficial da plataforma, com regras e tarifas da Meta. A integração com WhatsApp soma 15% em app, segundo a tabela pública. Confirme o escopo na proposta."
+      },
+      {
+        "pergunta": "É preciso treinar o chatbot com IA?",
+        "resposta": "É preciso alimentá-lo com informações da empresa: preços, prazos, política de troca e perguntas frequentes. Quanto melhor e mais atualizada a base, menos respostas erradas."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "quanto-custa-hospedar-sistema-web-por-mes",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "quanto custa hospedar um sistema web por mês",
+    "consultasSecundarias": [
+      "custo de hospedagem de sistema web",
+      "quanto custa servidor para sistema",
+      "hospedagem de sistema web mensal"
+    ],
+    "title": "Quanto custa hospedar um sistema web por mês: o que pesa",
+    "description": "Entenda de que é feito o custo mensal de hospedar um sistema web e quais fatores o aumentam. Use o checklist e peça uma estimativa.",
+    "h1": "Quanto custa hospedar um sistema web por mês",
+    "respostaDireta": "Quanto custa hospedar um sistema web por mês depende de quatro fatores: processamento, memória, armazenamento e tráfego. Cada provedor cobra de um jeito e muda os valores, por isso um número fixo sairia desatualizado. O caminho seguro é estimar o uso do seu sistema e pedir o preço direto ao provedor.",
+    "secoes": [
+      {
+        "titulo": "Por que um sistema web custa diferente de um site",
+        "paragrafos": [
+          "Um site institucional quase só entrega páginas. Um sistema web executa regras, grava dados em um banco e atende vários usuários ao mesmo tempo. Isso exige mais processamento e uma estrutura que não pode cair no meio do expediente.",
+          "Por isso hospedagem compartilhada comum raramente serve para sistema de gestão. Costuma-se usar servidor virtual ou serviço em nuvem com recursos dedicados."
+        ],
+        "tabela": {
+          "colunas": [
+            "Fator",
+            "O que representa",
+            "Como aumenta"
+          ],
+          "linhas": [
+            [
+              "Processamento",
+              "Capacidade de executar as regras do sistema",
+              "Mais usuários ao mesmo tempo, relatórios pesados"
+            ],
+            [
+              "Memória",
+              "Espaço de trabalho do servidor",
+              "Mais funcionalidades rodando em paralelo"
+            ],
+            [
+              "Armazenamento",
+              "Banco de dados e arquivos enviados",
+              "Fotos, documentos e histórico acumulado"
+            ],
+            [
+              "Tráfego",
+              "Volume de dados enviados aos usuários",
+              "Mais acessos, arquivos grandes"
+            ],
+            [
+              "Backup",
+              "Cópias de segurança",
+              "Mais frequência e mais tempo de retenção"
+            ]
+          ],
+          "legenda": "Fatores que formam o custo de hospedagem"
+        }
+      },
+      {
+        "titulo": "Checklist para estimar o seu uso",
+        "paragrafos": [
+          "Responda antes de pedir proposta ao provedor ou ao desenvolvedor."
+        ],
+        "lista": [
+          "Quantas pessoas usam o sistema ao mesmo tempo no horário de pico",
+          "O sistema guarda fotos, notas fiscais ou outros arquivos pesados",
+          "Há relatórios que cruzam muitos dados de uma vez",
+          "Os clientes da empresa também acessam, ou só a equipe interna",
+          "Qual tempo de queda a empresa suporta sem prejuízo",
+          "Os backups precisam ficar guardados por quanto tempo",
+          "Existe integração que roda de madrugada, como envio de notas"
+        ]
+      },
+      {
+        "titulo": "O que perguntar sobre o custo",
+        "paragrafos": [
+          "Pergunte quem contrata o servidor, em nome de quem fica a conta e se o desenvolvedor cobra uma taxa pelo cuidado técnico (atualizações, monitoramento e backup). Assim a mensalidade final não depende de itens escondidos.",
+          "Prefira que a conta do provedor esteja no nome da sua empresa, com acesso compartilhado. Isso evita ficar refém se você trocar de desenvolvedor. Lembre-se de que o valor também muda com o crescimento da base de usuários."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "checklist",
+      "descricao": "Tabela de fatores de custo de hospedagem e checklist de 7 perguntas para estimar o uso"
+    },
+    "faq": [
+      {
+        "pergunta": "Hospedagem compartilhada serve para um sistema?",
+        "resposta": "Para sistemas pequenos e de pouco uso, às vezes. Em geral não: o desempenho oscila e há limites de processamento. Sistemas de gestão com vários usuários costumam pedir servidor próprio ou serviço em nuvem."
+      },
+      {
+        "pergunta": "O custo de hospedagem está incluso no desenvolvimento?",
+        "resposta": "Normalmente não. Desenvolvimento é um projeto; hospedagem é um serviço recorrente de terceiros. Confirme na proposta quem contrata, quem paga e quem cuida da manutenção do servidor."
+      },
+      {
+        "pergunta": "O custo cresce conforme o sistema cresce?",
+        "resposta": "Sim, em geral. Mais usuários, mais dados e mais arquivos pedem mais recursos. Bons provedores permitem aumentar o plano por etapas, sem trocar de sistema."
+      }
+    ],
+    "fontes": [],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "quanto-custa-publicar-app-play-store-app-store",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "quanto custa publicar um app na play store e na app store",
+    "consultasSecundarias": [
+      "taxa para publicar app na play store",
+      "custo para publicar app na app store",
+      "conta de desenvolvedor apple e google"
+    ],
+    "title": "Quanto custa publicar um app na Play Store e na App Store",
+    "description": "Entenda quais cobranças existem para publicar um app nas duas lojas e como conferir o valor atual. Use o checklist e evite surpresas.",
+    "h1": "Quanto custa publicar um app na Play Store e na App Store",
+    "respostaDireta": "Quanto custa publicar um app na Play Store e na App Store depende das contas de desenvolvedor que Google e Apple exigem. As duas lojas definem os próprios valores e condições, e podem alterá-los. Consulte as páginas oficiais do Google Play Console e do Apple Developer Program para ver o valor vigente antes de planejar.",
+    "secoes": [
+      {
+        "titulo": "O que existe de cobrança nas lojas",
+        "paragrafos": [
+          "Para colocar um aplicativo nas lojas, a empresa precisa de uma conta de desenvolvedor em cada uma. É o primeiro custo, e ele é pago diretamente ao Google e à Apple, não ao desenvolvedor do app.",
+          "Os valores e as regras mudam, então confirme sempre nas páginas oficiais. O que não muda é a lógica da composição, mostrada abaixo."
+        ],
+        "tabela": {
+          "colunas": [
+            "Item",
+            "Quem cobra",
+            "Observação"
+          ],
+          "linhas": [
+            [
+              "Conta na Google Play",
+              "Google",
+              "Exigida para publicar na Play Store"
+            ],
+            [
+              "Conta no Apple Developer Program",
+              "Apple",
+              "Exigida para publicar na App Store"
+            ],
+            [
+              "Comissão sobre vendas dentro do app",
+              "Google e Apple",
+              "Existe quando o app vende produtos digitais ou assinaturas"
+            ],
+            [
+              "Preparação da publicação",
+              "Quem desenvolve o app",
+              "Textos, imagens, políticas e envio para revisão"
+            ]
+          ],
+          "legenda": "Composição do custo de publicar nas lojas"
+        }
+      },
+      {
+        "titulo": "Checklist antes de publicar",
+        "paragrafos": [
+          "A revisão das lojas pode recusar o app por falhas simples. Prepare esses itens antes de enviar."
+        ],
+        "lista": [
+          "Conta de desenvolvedor aberta em nome da empresa, não do desenvolvedor",
+          "Política de privacidade publicada em um endereço acessível",
+          "Ícone, capturas de tela e descrição nos formatos pedidos pela loja",
+          "Informação sobre os dados que o app coleta",
+          "Conta de teste para o revisor entrar no app",
+          "Classificação indicativa preenchida",
+          "Plano para responder a pedidos de ajuste da revisão"
+        ]
+      },
+      {
+        "titulo": "Conta no seu nome, não no de terceiros",
+        "paragrafos": [
+          "Abra as contas com os dados da sua empresa e dê acesso ao desenvolvedor. Se o app for publicado na conta dele, trocar de profissional depois pode exigir transferência complicada.",
+          "O projeto do app, orçado na calculadora da AndersDev, cobre o desenvolvimento; as contas das lojas são custos separados. Veja a faixa de preço de cada tipo de app em /quanto-custa/app-mobile."
+        ]
+      },
+      {
+        "titulo": "Prazo e responsabilidade",
+        "paragrafos": [
+          "Inclua no cronograma o tempo de revisão das lojas, que não depende do desenvolvedor. Combine também quem responde às mensagens da revisão e quem atualiza o app quando o sistema do celular mudar. Sem essa definição, o app fica parado na primeira exigência nova."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "checklist",
+      "descricao": "Tabela de cobranças das lojas e checklist de 7 itens antes de publicar um app"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso pagar para publicar nas duas lojas?",
+        "resposta": "Cada loja tem a sua conta de desenvolvedor, com regras e cobranças próprias. Consulte as páginas oficiais para os valores atuais. Se só um sistema operacional importa para você, publique primeiro nele."
+      },
+      {
+        "pergunta": "A conta pode ficar no nome do desenvolvedor?",
+        "resposta": "Pode, mas não é recomendado. O ideal é a conta ficar com a sua empresa, com o desenvolvedor como colaborador. Assim o app e a conta continuam seus se você trocar de profissional."
+      },
+      {
+        "pergunta": "O app pode ser recusado pela loja?",
+        "resposta": "Pode. As lojas revisam o app e exigem política de privacidade, informações de dados e funcionamento correto. Se for recusado, ajusta-se o ponto indicado e reenvia-se. Prepare tempo para isso no cronograma."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Google Play Console",
+        "url": "https://play.google.com/console/about/",
+        "orgao": "Google",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Apple Developer Program",
+        "url": "https://developer.apple.com/programs/",
+        "orgao": "Apple",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "quanto-custa-dominio-com-br",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "quanto custa um domínio com.br",
+    "consultasSecundarias": [
+      "preço de domínio com.br",
+      "como registrar domínio com.br",
+      "registro de domínio brasil custo"
+    ],
+    "title": "Quanto custa um domínio com.br: como registrar e renovar",
+    "description": "Veja como registrar um domínio com.br, onde conferir o valor vigente e como evitar perder o endereço. Siga o passo a passo.",
+    "h1": "Quanto custa um domínio com.br",
+    "respostaDireta": "Quanto custa um domínio com.br é definido pelo Registro.br, que cobra o registro e as renovações periódicas, e pode mudar. Revendedores e provedores também vendem o serviço com valores próprios. Confira o preço vigente na página oficial do Registro.br e registre o domínio no nome da sua empresa.",
+    "secoes": [
+      {
+        "titulo": "De quem é cobrado o domínio",
+        "paragrafos": [
+          "O domínio é o endereço do seu site, como suaempresa.com.br. Ele é registrado por tempo determinado e precisa ser renovado. Se a renovação falha, o endereço pode ficar disponível para outra pessoa.",
+          "O valor não faz parte do desenvolvimento do site. É uma cobrança do registro, paga ao Registro.br ou a um revendedor. Por isso o número muda e não deve ser fixado em orçamento de terceiros."
+        ]
+      },
+      {
+        "titulo": "Passo a passo para registrar",
+        "paragrafos": [
+          "Siga a ordem abaixo para registrar com segurança."
+        ],
+        "lista": [
+          "Escolha um nome curto, fácil de digitar e de falar por telefone",
+          "Verifique no Registro.br se o endereço está disponível",
+          "Prepare os dados do titular: o CPF ou CNPJ da própria empresa",
+          "Faça o cadastro e o registro no Registro.br ou em um revendedor de sua confiança",
+          "Anote a data de vencimento e ative a renovação automática ou o lembrete",
+          "Guarde o login e a senha em local seguro e informe ao desenvolvedor só o necessário"
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Direto no Registro.br ou por revendedor",
+        "paragrafos": [
+          "No registro direto, você é o titular e trata com o órgão responsável. Na compra por revendedor, o preço e as condições podem mudar e o suporte é do revendedor. Compare o que está incluso, como e-mail e hospedagem.",
+          "Em qualquer caso, confira que o titular é a sua empresa. Se o desenvolvedor registrar em nome dele, a posse do endereço fica com ele, e você depende de uma transferência para mudar de profissional."
+        ]
+      },
+      {
+        "titulo": "Quanto custa em comparação com o site",
+        "paragrafos": [
+          "Frente ao desenvolvimento, o domínio é um custo pequeno, mas o prejuízo de perdê-lo é grande: site fora do ar e e-mails que deixam de funcionar. O site institucional da tabela da AndersDev custa de R$ 3.400 a R$ 11.500; veja /quanto-custa/site-institucional."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "passo-a-passo",
+      "descricao": "Passo a passo de 6 etapas para registrar e manter um domínio com.br"
+    },
+    "faq": [
+      {
+        "pergunta": "O domínio com.br é pago uma vez só?",
+        "resposta": "Não. O registro vale por um período e depois precisa de renovação. Consulte no Registro.br as condições vigentes e anote a data de vencimento para não perder o endereço."
+      },
+      {
+        "pergunta": "Posso mudar de revendedor depois?",
+        "resposta": "Em geral sim, desde que você seja o titular e tenha acesso. Se o domínio estiver no nome de terceiros, a troca depende dele. Por isso registre sempre em nome da empresa."
+      },
+      {
+        "pergunta": "O domínio vem incluso no preço do site?",
+        "resposta": "Depende da proposta. Pergunte se o domínio está incluso e em nome de quem será registrado. O ideal é você pagar direto e ser o titular, mesmo que o desenvolvedor faça a configuração."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Registro.br — site oficial",
+        "url": "https://registro.br/",
+        "orgao": "Registro.br",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "como-fazer-orcamento-de-site",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "como fazer orçamento de site",
+    "consultasSecundarias": [
+      "como pedir orçamento de site",
+      "como solicitar orçamento de um site",
+      "passo a passo para orçamento de site"
+    ],
+    "title": "Como fazer orçamento de site: passo a passo para pedir",
+    "description": "Aprenda a pedir orçamento de site que dá para comparar: 6 passos, informações que você precisa levar e erros a evitar. Veja e peça.",
+    "h1": "Como fazer orçamento de site",
+    "respostaDireta": "Para fazer orçamento de site, descreva o objetivo do site, as páginas, as funções e o prazo, e envie o mesmo texto para três profissionais. Orçamentos baseados no mesmo pedido são comparáveis. Quem recebe só a frase \"quanto custa um site\" responde com um preço genérico que pouco diz sobre o seu caso.",
+    "secoes": [
+      {
+        "titulo": "Peça do jeito que dá para comparar",
+        "paragrafos": [
+          "O preço de um site depende de decisões que só você sabe: quantas páginas, que funções, quem escreve os textos. Se você não informa, cada profissional supõe uma coisa e os valores não se comparam.",
+          "O passo a passo abaixo leva uns 30 minutos e melhora muito a qualidade das propostas."
+        ],
+        "lista": [
+          "Escreva em uma frase o objetivo do site: gerar contato, vender ou informar",
+          "Liste as páginas que você imagina: início, serviços, sobre, contato e outras",
+          "Aponte funções especiais: formulário, WhatsApp, pagamento, área do cliente, blog",
+          "Reúna três sites que você admira e diga o que gostou em cada um",
+          "Diga quem fornecerá textos e imagens e quando",
+          "Informe o prazo desejado e o motivo, como uma campanha ou feira",
+          "Envie o mesmo material a três profissionais e peça o escopo por escrito"
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Use a faixa pública como referência",
+        "paragrafos": [
+          "Antes de receber as propostas, saiba o território de preços. Na tabela pública da AndersDev, landing page vai de R$ 1.500 a R$ 4.000, site institucional de R$ 3.400 a R$ 11.500 e loja virtual de R$ 10.400 a R$ 32.500. Funções como pagamento (+20%) e prazo urgente (+25%) alteram o valor.",
+          "Se uma proposta ficar muito abaixo da faixa do seu tipo de site, descubra o que foi deixado de fora. Se ficar muito acima, pergunte o que justifica."
+        ]
+      },
+      {
+        "titulo": "Erros que estragam o orçamento",
+        "paragrafos": [
+          "Pedir preço antes de ter objetivo, comparar só o valor final e aceitar proposta sem lista de entregas são os mais frequentes. Outro é não perguntar o que não está incluso: hospedagem, domínio, textos, fotos e manutenção costumam ficar de fora.",
+          "Para saber o que cobrar de cada proposta, veja também a página sobre o que deve constar no orçamento de um site."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "passo-a-passo",
+      "descricao": "Passo a passo de 7 etapas para pedir orçamento de site comparável, com faixa pública de preços como referência"
+    },
+    "faq": [
+      {
+        "pergunta": "Quanto tempo leva para receber um orçamento?",
+        "resposta": "Depende de quão completo é o seu pedido e da agenda do profissional. Quando há objetivo, páginas e funções descritos, a resposta tende a ser mais rápida e a proposta mais precisa."
+      },
+      {
+        "pergunta": "Preciso pagar para receber orçamento?",
+        "resposta": "Em projetos simples, em geral não. Para escopos grandes, alguns profissionais cobram uma etapa de levantamento. Pergunte antes e veja se o valor é abatido do projeto se você fechar."
+      },
+      {
+        "pergunta": "Quantos orçamentos devo pedir?",
+        "resposta": "Três costuma ser suficiente para ter uma referência sem se perder. O importante é enviar o mesmo pedido a todos e comparar entregas, prazos e condições, não apenas o preço."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "o-que-deve-constar-no-orcamento-de-um-site",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "o que deve constar no orçamento de um site",
+    "consultasSecundarias": [
+      "itens de um orçamento de site",
+      "modelo de orçamento de site o que incluir",
+      "o que um orçamento de site precisa ter"
+    ],
+    "title": "O que deve constar no orçamento de um site: checklist",
+    "description": "Confira os 10 itens que um orçamento de site deve trazer para você comparar propostas e evitar custo escondido. Use o checklist antes de fechar.",
+    "h1": "O que deve constar no orçamento de um site",
+    "respostaDireta": "O que deve constar no orçamento de um site: escopo detalhado, valor total, forma de pagamento, prazo, número de revisões, o que está incluso e o que não está, e a titularidade do domínio e dos arquivos. Orçamento que traz só um valor e a palavra \"site\" não protege você de custo extra.",
+    "secoes": [
+      {
+        "titulo": "Checklist de 10 itens",
+        "paragrafos": [
+          "Confira cada item na proposta que você recebeu. Se algum faltar, peça por escrito. O que está combinado só por conversa costuma ser esquecido quando surge a primeira divergência."
+        ],
+        "lista": [
+          "Descrição do escopo: páginas, funções e integrações previstas",
+          "Valor total e o que cada parte custa, quando for por etapa",
+          "Forma e datas de pagamento, com o que dispara cada parcela",
+          "Prazo de entrega e o que depende de você (textos, imagens, aprovações)",
+          "Número de rodadas de ajuste incluídas",
+          "Quem cria textos e imagens",
+          "O que não está incluso: hospedagem, domínio, manutenção, conteúdo extra",
+          "Quem será o titular do domínio e da hospedagem",
+          "Entrega dos arquivos e dos acessos ao final",
+          "Validade da proposta e como é tratada uma mudança de escopo"
+        ]
+      },
+      {
+        "titulo": "Por que cada item importa",
+        "paragrafos": [
+          "O escopo é o contrato real. Sem ele, \"site institucional\" pode significar cinco ou quinze páginas. As rodadas de ajuste evitam a discussão do tipo \"mais uma mudança\". A titularidade decide quem manda no site se a parceria acabar.",
+          "Veja como o escopo muda o valor na tabela pública: pagamento online soma 20%, integração com ERP ou CRM soma 30% e prazo urgente soma 25% sobre a faixa-base do site."
+        ]
+      },
+      {
+        "titulo": "Alertas na proposta",
+        "paragrafos": [
+          "Desconfie de proposta que não diz o prazo, que só informa um valor mensal sem explicar para quê, ou que se recusa a entregar os acessos. Também é sinal de alerta a pressão por fechar hoje com desconto que some amanhã.",
+          "Se algo não estiver claro, pergunte. Um profissional sério responde sem rodeios e aceita registrar a resposta na proposta."
+        ]
+      },
+      {
+        "titulo": "Como usar o checklist na prática",
+        "paragrafos": [
+          "Imprima ou copie a lista e marque cada item em cada proposta recebida, usando a cor verde para o que está claro e vermelha para o que falta. Ao final, você enxerga qual proposta é mais completa, e não só qual é mais barata."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "checklist",
+      "descricao": "Checklist de 10 itens que um orçamento de site deve conter, com explicação do motivo de cada um"
+    },
+    "faq": [
+      {
+        "pergunta": "Orçamento e contrato são a mesma coisa?",
+        "resposta": "Não. O orçamento é a proposta de preço e escopo. O contrato formaliza o acordo, com obrigações e responsabilidades das duas partes. O ideal é o orçamento aprovado ser anexado ao contrato."
+      },
+      {
+        "pergunta": "O que fazer se o orçamento não detalhar o escopo?",
+        "resposta": "Peça a versão detalhada antes de aceitar. Sem lista de páginas, funções e entregas, qualquer discussão futura vira opinião. Um bom profissional não se incomoda de detalhar."
+      },
+      {
+        "pergunta": "O orçamento pode mudar durante o projeto?",
+        "resposta": "Se o escopo mudar, sim. Se você pedir mais páginas ou funções, o valor se ajusta. Combine desde o início como as mudanças são pedidas, aprovadas e cobradas."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "por-que-o-preco-de-site-varia-tanto",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "por que o preço de site varia tanto",
+    "consultasSecundarias": [
+      "por que orçamento de site é tão diferente",
+      "motivos da variação de preço de site",
+      "por que um site custa mais que outro"
+    ],
+    "title": "Por que o preço de site varia tanto: 7 fatores explicados",
+    "description": "Entenda os 7 fatores que explicam a diferença entre orçamentos de site e veja a faixa pública por tipo. Confira antes de comparar propostas.",
+    "h1": "Por que o preço de site varia tanto",
+    "respostaDireta": "O preço de site varia tanto porque \"site\" é um nome para produtos muito diferentes. Uma página de uma tela e uma loja virtual com pagamento e estoque levam trabalhos distintos. A diferença vem do tipo de site, do design, das integrações, do prazo, do conteúdo e de quem executa.",
+    "secoes": [
+      {
+        "titulo": "O mesmo nome para coisas diferentes",
+        "paragrafos": [
+          "Quando duas propostas diferem muito, a primeira pergunta deve ser: elas entregam a mesma coisa? Na maioria das vezes não. Uma inclui textos e fotos, a outra não. Uma tem painel de edição, a outra é um arquivo fixo.",
+          "A própria tabela pública da AndersDev mostra a amplitude: uma landing page vai de R$ 1.500 a R$ 4.000, um site institucional de R$ 3.400 a R$ 11.500 e uma loja virtual de R$ 10.400 a R$ 32.500. Dentro de cada tipo, há ainda uma faixa larga."
+        ],
+        "tabela": {
+          "colunas": [
+            "Fator",
+            "Como puxa o preço para baixo",
+            "Como puxa o preço para cima"
+          ],
+          "linhas": [
+            [
+              "Tipo de site",
+              "Página única",
+              "Loja com catálogo e pagamento"
+            ],
+            [
+              "Design",
+              "Modelo adaptado",
+              "Layout feito do zero"
+            ],
+            [
+              "Integrações",
+              "Nenhuma",
+              "Pagamento (+20%), ERP ou CRM (+30%), IA (+25%)"
+            ],
+            [
+              "Prazo",
+              "Combinado com folga",
+              "Urgente: abaixo de 3 semanas (+25%)"
+            ],
+            [
+              "Conteúdo",
+              "Você entrega pronto",
+              "O profissional escreve e produz imagens"
+            ],
+            [
+              "Quem executa",
+              "Iniciante ou ferramenta pronta",
+              "Profissional ou equipe com experiência"
+            ],
+            [
+              "Pós-entrega",
+              "Sem suporte",
+              "Manutenção e garantia combinadas"
+            ]
+          ],
+          "legenda": "Sete fatores que explicam a variação"
+        }
+      },
+      {
+        "titulo": "Cálculo: o mesmo site, duas propostas",
+        "paragrafos": [
+          "Imagine um site institucional na faixa de R$ 3.400 a R$ 11.500. Se o cliente pede integração com o CRM (+30%) e entrega em menos de 3 semanas (+25%), cada acréscimo aplicado isolado resulta em R$ 4.420 a R$ 14.950 e em R$ 4.250 a R$ 14.375. Ou seja, o mesmo pedido pode variar bastante só por prazo e integração.",
+          "Por isso peça que as propostas listem o que entregam. Sem lista, você compara preço de coisas diferentes."
+        ]
+      },
+      {
+        "titulo": "O que fazer para comparar de verdade",
+        "paragrafos": [
+          "Envie o mesmo escopo a todos, peça a lista de entregas e pergunte o que não está incluso. Depois compare prazo, suporte e acesso aos arquivos, e não só o valor.",
+          "Veja também a página sobre como comparar orçamentos de desenvolvimento de software, que aplica o mesmo raciocínio a sistemas."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Tabela de 7 fatores que explicam a variação de preço de site, com faixas públicas e cálculo de acréscimos"
+    },
+    "faq": [
+      {
+        "pergunta": "Site mais caro é sempre melhor?",
+        "resposta": "Não. Preço alto pode refletir escopo maior, e não qualidade. O que conta é o site cumprir o seu objetivo. Avalie as entregas, as referências do profissional e o suporte, além do valor."
+      },
+      {
+        "pergunta": "Por que um orçamento veio muito abaixo dos outros?",
+        "resposta": "Pode ter escopo menor, usar modelo pronto, não incluir conteúdo ou suporte, ou ser de quem está começando. Peça a lista de entregas e compare item a item antes de decidir."
+      },
+      {
+        "pergunta": "O que mais pesa no preço final?",
+        "resposta": "O tipo de site e as integrações. Uma loja virtual custa bem mais que uma landing page, e cada integração soma um percentual. Prazo urgente também aumenta o valor."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "site-barato-vale-a-pena",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "site barato vale a pena",
+    "consultasSecundarias": [
+      "vale a pena pagar barato por um site",
+      "site muito barato é bom",
+      "riscos de site barato"
+    ],
+    "title": "Site barato vale a pena? Quando sim e quando não",
+    "description": "Descubra quando um site barato funciona e quando sai caro. Veja a tabela de riscos e o checklist para avaliar a oferta antes de pagar.",
+    "h1": "Site barato vale a pena",
+    "respostaDireta": "Site barato vale a pena quando o objetivo é simples, o prazo não é crítico e você sabe o que está abrindo mão. Não vale quando o preço baixo esconde escopo cortado, ausência de suporte ou falta de acesso aos arquivos. Nesses casos, o que se economiza na compra se paga depois.",
+    "secoes": [
+      {
+        "titulo": "Barato nem sempre é problema",
+        "paragrafos": [
+          "Uma landing page simples para testar uma oferta não precisa de grande investimento. A faixa da tabela pública da AndersDev para esse tipo, de R$ 1.500 a R$ 4.000, já mostra que existe projeto pequeno e adequado.",
+          "O problema surge quando o preço é muito inferior ao do tipo de site que você quer e ninguém explica por quê. Aí vale descobrir o que foi cortado."
+        ],
+        "tabela": {
+          "colunas": [
+            "Onde o barato corta",
+            "Consequência provável",
+            "Como perceber na proposta"
+          ],
+          "linhas": [
+            [
+              "Escopo",
+              "Poucas páginas ou funções, e tudo o mais é cobrado à parte",
+              "Lista de entregas vaga ou ausente"
+            ],
+            [
+              "Design",
+              "Modelo igual ao de outros sites",
+              "Não há prévia nem layout aprovado"
+            ],
+            [
+              "Desempenho e segurança",
+              "Site lento e vulnerável",
+              "Ninguém menciona velocidade, certificado ou backup"
+            ],
+            [
+              "Suporte",
+              "Ninguém responde depois da entrega",
+              "Sem prazo de atendimento combinado"
+            ],
+            [
+              "Propriedade",
+              "Domínio ou arquivos ficam com quem fez",
+              "Titularidade não aparece na proposta"
+            ]
+          ],
+          "legenda": "Onde o preço baixo costuma cortar"
+        }
+      },
+      {
+        "titulo": "Checklist para avaliar uma oferta barata",
+        "paragrafos": [
+          "Antes de pagar, responda a cada item. Se mais de dois ficarem sem resposta, o barato tem risco de sair caro."
+        ],
+        "lista": [
+          "Você viu exemplos de sites feitos pelo profissional, abertos no celular",
+          "A proposta lista as páginas e as funções incluídas",
+          "Está claro o que não está incluso",
+          "O domínio ficará no nome da sua empresa",
+          "Você receberá os acessos e os arquivos ao final",
+          "Existe prazo e número de ajustes combinados",
+          "Há alguém que responda se algo quebrar depois"
+        ]
+      },
+      {
+        "titulo": "Quando refazer custa mais que fazer certo",
+        "paragrafos": [
+          "Um site que não carrega bem no celular, não aparece no Google ou não pode ser editado precisa ser refeito. E aí você paga duas vezes. Compare esse custo com o de fazer um site institucional de R$ 3.400 a R$ 11.500 com planejamento desde o início.",
+          "Se o orçamento é curto, a saída mais segura é reduzir o escopo, e não a qualidade: faça uma página bem feita agora e amplie depois."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "checklist",
+      "descricao": "Tabela de onde o site barato corta custo e checklist de 7 perguntas para avaliar a oferta"
+    },
+    "faq": [
+      {
+        "pergunta": "Construtor de sites é uma boa opção barata?",
+        "resposta": "Pode ser, para páginas simples. As limitações aparecem em integrações e personalização. A comparação está em /alternativa-a/wix. Leve em conta que mensalidades e regras são da plataforma."
+      },
+      {
+        "pergunta": "Como saber se o preço está baixo demais?",
+        "resposta": "Compare com a faixa do tipo de site pedido e com outras propostas. Se está muito abaixo, peça a lista de entregas e descubra o que foi cortado: escopo, design, suporte ou propriedade."
+      },
+      {
+        "pergunta": "Posso começar barato e melhorar depois?",
+        "resposta": "Sim, se a base for bem feita. Uma landing page profissional pode virar site institucional depois. O risco está em começar com algo que precisa ser descartado para crescer."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "quanto-custa-refazer-um-site-antigo",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "quanto custa refazer um site antigo",
+    "consultasSecundarias": [
+      "preço para refazer site",
+      "quanto custa redesign de site",
+      "vale a pena refazer o site da empresa"
+    ],
+    "title": "Quanto custa refazer um site antigo: decisão e valores",
+    "description": "Veja quando refazer o site antigo compensa mais que ajustar, as faixas de preço por tipo e o passo a passo para decidir. Confira e planeje.",
+    "h1": "Quanto custa refazer um site antigo",
+    "respostaDireta": "Quanto custa refazer um site antigo segue a mesma tabela de um site novo, porque o trabalho é praticamente o mesmo: de R$ 3.400 a R$ 11.500 para um institucional e de R$ 10.400 a R$ 32.500 para uma loja. Em alguns casos basta ajustar e o custo é menor.",
+    "secoes": [
+      {
+        "titulo": "Refazer ou ajustar",
+        "paragrafos": [
+          "Nem todo site antigo precisa ser jogado fora. Se o problema é visual ou de conteúdo, uma reforma pode bastar. Se a base técnica está obsoleta, refazer costuma sair mais barato do que remendar.",
+          "Use a tabela como guia da decisão. Responda a cada linha com sim ou não."
+        ],
+        "tabela": {
+          "colunas": [
+            "Sintoma",
+            "Provável caminho",
+            "Por quê"
+          ],
+          "linhas": [
+            [
+              "Layout velho, mas site funciona e é editável",
+              "Ajustar",
+              "A base técnica serve"
+            ],
+            [
+              "Não abre bem no celular",
+              "Refazer",
+              "Corrigir costuma custar quase o mesmo que reconstruir"
+            ],
+            [
+              "Ninguém tem o acesso ou o código",
+              "Refazer",
+              "Sem acesso, qualquer mudança é impossível"
+            ],
+            [
+              "Lento, com erros frequentes",
+              "Refazer",
+              "Remendos acumulados"
+            ],
+            [
+              "Conteúdo desatualizado só",
+              "Ajustar",
+              "Basta atualizar textos e imagens"
+            ],
+            [
+              "Precisa de pagamento ou integração nova",
+              "Avaliar",
+              "Depende de a base aceitar a integração"
+            ]
+          ],
+          "legenda": "Refazer ou ajustar o site antigo"
+        }
+      },
+      {
+        "titulo": "Cálculo: o que pesa em um redesenho",
+        "paragrafos": [
+          "Refazer um site institucional custa entre R$ 3.400 e R$ 11.500. Se for aproveitada a base de conteúdo, o trabalho de escrita diminui. Se houver integração com sistema de gestão (+30%), o valor isolado vai a R$ 4.420 a R$ 14.950. Prazo urgente, abaixo de 3 semanas, soma 25%.",
+          "Uma loja virtual refeita fica entre R$ 10.400 e R$ 32.500, mais os acréscimos que você precisar, como pagamento (+20%)."
+        ]
+      },
+      {
+        "titulo": "Cuidado com o Google na troca",
+        "paragrafos": [
+          "Ao refazer, as páginas antigas que aparecem no Google precisam ser redirecionadas para as novas. Sem isso, você perde as visitas que já tinha. Peça no escopo a lista de endereços antigos e o plano de redirecionamento.",
+          "Se o seu site já não aparece nas buscas, o blog \"meu site não aparece no Google\" ajuda a entender as causas antes de investir."
+        ]
+      },
+      {
+        "titulo": "Antes de pedir orçamento",
+        "paragrafos": [
+          "Reúna os acessos do domínio e da hospedagem, a lista das páginas que mais recebem visitas e dois ou três exemplos de sites de que você gosta. Com esse material, a proposta de refazer o site sai mais precisa e sem sustos de última hora."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Tabela de sintomas para decidir entre refazer ou ajustar e cálculo de faixas de preço de redesenho"
+    },
+    "faq": [
+      {
+        "pergunta": "Dá para aproveitar o conteúdo do site antigo?",
+        "resposta": "Em boa parte, sim. Textos, imagens e endereços podem ser revisados e reaproveitados. Isso reduz trabalho de produção, mas o conteúdo precisa ser atualizado e adequado ao novo layout."
+      },
+      {
+        "pergunta": "E se eu perdi o acesso ao site antigo?",
+        "resposta": "Comece recuperando o acesso ao domínio e à hospedagem. Sem eles, publicar o site novo no mesmo endereço fica difícil. Se o domínio está em nome de terceiros, a regularização vem antes de tudo."
+      },
+      {
+        "pergunta": "Quanto tempo o site fica fora durante a troca?",
+        "resposta": "Nenhum, se o novo site for construído em ambiente à parte e publicado só depois de aprovado. Combine a data de troca e o plano de retorno ao antigo se algo falhar."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "quanto-custa-manter-um-aplicativo-por-mes",
+    "tipo": "satelite",
+    "cluster": "custo-projeto",
+    "consulta": "quanto custa manter um aplicativo por mês",
+    "consultasSecundarias": [
+      "custo mensal de um aplicativo",
+      "manutenção de aplicativo mensal",
+      "quanto custa manter um app no ar"
+    ],
+    "title": "Quanto custa manter um aplicativo por mês: o que entra",
+    "description": "Veja os itens que formam o custo mensal de manter um aplicativo e quem paga cada um. Use a tabela e o checklist para planejar o orçamento.",
+    "h1": "Quanto custa manter um aplicativo por mês",
+    "respostaDireta": "Quanto custa manter um aplicativo por mês é a soma do servidor, dos serviços de terceiros, das contas das lojas e da manutenção técnica. Os valores variam conforme o uso e mudam sem aviso, por isso o caminho é listar os itens, estimar o seu volume e pedir o número de cada um.",
+    "secoes": [
+      {
+        "titulo": "O app não termina quando é publicado",
+        "paragrafos": [
+          "Depois de publicado, o aplicativo continua custando. O servidor precisa ficar ligado, os celulares recebem novas versões do sistema e as lojas mudam suas exigências. Quem não prevê isso é surpreendido meses depois.",
+          "A tabela abaixo mostra os itens e quem cobra cada um. Os números dependem do tamanho do seu app e dos fornecedores."
+        ],
+        "tabela": {
+          "colunas": [
+            "Item",
+            "Quem cobra",
+            "Cresce com o quê"
+          ],
+          "linhas": [
+            [
+              "Servidor e banco de dados",
+              "Provedor de hospedagem ou nuvem",
+              "Número de usuários e volume de dados"
+            ],
+            [
+              "Conta de desenvolvedor nas lojas",
+              "Google e Apple",
+              "Manter a publicação ativa"
+            ],
+            [
+              "Serviços de terceiros",
+              "Pagamento, mapas, mensagens, IA",
+              "Uso: transações, consultas, mensagens"
+            ],
+            [
+              "Notificações push e WhatsApp",
+              "Plataformas",
+              "Quantidade de avisos enviados"
+            ],
+            [
+              "Manutenção técnica",
+              "Quem desenvolve",
+              "Atualizações de sistema e correção de erros"
+            ],
+            [
+              "Suporte ao usuário",
+              "Equipe da empresa ou terceiro",
+              "Número de usuários"
+            ]
+          ],
+          "legenda": "Composição do custo mensal de um aplicativo"
+        }
+      },
+      {
+        "titulo": "Checklist para o orçamento de manutenção",
+        "paragrafos": [
+          "Antes de assinar, confirme que a proposta responde a cada ponto."
+        ],
+        "lista": [
+          "Quem paga o servidor e em nome de quem fica a conta",
+          "Quais serviços de terceiros o app usa e como são cobrados",
+          "Quem atualiza o app quando o Android ou o iOS muda",
+          "Qual o prazo para corrigir um erro crítico",
+          "Quantas horas de pequenas alterações a mensalidade inclui",
+          "Como é feito e testado o backup do banco de dados",
+          "O que acontece se você quiser encerrar o contrato"
+        ]
+      },
+      {
+        "titulo": "Quanto reservar além do desenvolvimento",
+        "paragrafos": [
+          "Em vez de um valor genérico, trate a manutenção como parte do projeto. Pergunte ao desenvolvedor a composição e, se possível, a estimativa para o seu volume de usuários.",
+          "O desenvolvimento está na tabela pública da AndersDev: app simples de R$ 10.800 a R$ 27.000 e app completo de R$ 30.000 a R$ 72.000. A manutenção é um custo recorrente à parte, definido por acordo."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "checklist",
+      "descricao": "Tabela de composição do custo mensal de app e checklist de 7 perguntas para o orçamento de manutenção"
+    },
+    "faq": [
+      {
+        "pergunta": "Aplicativo sem manutenção funciona por quanto tempo?",
+        "resposta": "Pode funcionar por um tempo, mas as atualizações dos celulares e das lojas podem quebrá-lo. Sem manutenção, o risco de falhas e de remoção da loja aumenta. O ideal é prever um plano contínuo."
+      },
+      {
+        "pergunta": "Custo do servidor cresce com o número de usuários?",
+        "resposta": "Em geral sim. Mais usuários significam mais processamento e dados. Um bom provedor permite ampliar o plano por etapas, e o desenvolvedor pode otimizar o app para gastar menos recursos."
+      },
+      {
+        "pergunta": "Quem paga os serviços de terceiros do app?",
+        "resposta": "Em regra, a empresa dona do app, com contas em seu nome. Combine isso no contrato e peça o acesso. Evita que serviços críticos parem se o desenvolvedor sair."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "como-contratar-uma-empresa-para-fazer-um-site",
+    "tipo": "satelite",
+    "cluster": "contratacao-projeto",
+    "consulta": "como contratar uma empresa para fazer um site",
+    "consultasSecundarias": [
+      "como contratar agência de sites",
+      "como escolher quem vai fazer o meu site",
+      "contratar empresa de desenvolvimento de sites"
+    ],
+    "title": "Como contratar uma empresa para fazer um site: 8 passos",
+    "description": "Veja o passo a passo para contratar uma empresa que faça seu site, do briefing ao contrato, e os pontos que evitam dor de cabeça. Confira.",
+    "h1": "Como contratar uma empresa para fazer um site",
+    "respostaDireta": "Para contratar uma empresa para fazer um site, defina o objetivo e o orçamento, peça propostas detalhadas a três empresas, confira trabalhos anteriores, converse com quem executará e formalize tudo em contrato. Escolha pela clareza da proposta e pelo suporte, e não só pelo menor preço.",
+    "secoes": [
+      {
+        "titulo": "Passo a passo da contratação",
+        "paragrafos": [
+          "O processo não precisa ser longo. Oito passos bastam para chegar a uma escolha segura."
+        ],
+        "lista": [
+          "Defina o objetivo do site e como saberá que deu certo",
+          "Estime o orçamento usando faixas públicas por tipo de site",
+          "Escreva um briefing curto e envie o mesmo a três empresas",
+          "Peça propostas com escopo, prazo, valor e o que não está incluso",
+          "Abra os sites que elas fizeram, no celular, e teste formulários",
+          "Fale com quem vai de fato executar o trabalho",
+          "Confira condições: titularidade do domínio, acessos e suporte",
+          "Formalize em contrato e anexe a proposta aprovada"
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Referência de preço para a conversa",
+        "paragrafos": [
+          "Para não negociar às cegas, tenha a faixa em mente. Na tabela pública da AndersDev: landing page de R$ 1.500 a R$ 4.000, site institucional de R$ 3.400 a R$ 11.500 e loja virtual de R$ 10.400 a R$ 32.500. Pagamento online soma 20% e prazo urgente soma 25%.",
+          "Para entender o formato de cada tipo de prestador, veja o blog \"freelancer, agência ou CTO\" e a página /alternativa-a/agencia."
+        ]
+      },
+      {
+        "titulo": "Perguntas que separam bons de maus fornecedores",
+        "paragrafos": [
+          "Quem vai desenvolver, e quanto tempo isso leva? Como as mudanças são pedidas? O que acontece se o prazo atrasar? Quem cuida do site depois da entrega?",
+          "Um fornecedor confiável responde com exemplos e detalhes. Respostas evasivas, pressa em fechar e recusa de formalizar são sinais para sair da conversa."
+        ]
+      },
+      {
+        "titulo": "O contrato mínimo",
+        "paragrafos": [
+          "Ele deve conter escopo, preço, prazo, forma de pagamento, número de ajustes, titularidade do domínio e dos arquivos, e como o acordo é encerrado. Se não houver jurídico na empresa, peça a revisão de alguém de confiança antes de assinar."
+        ]
+      },
+      {
+        "titulo": "Depois de contratar",
+        "paragrafos": [
+          "Peça um cronograma com datas de entrega parcial e reserve uma pessoa da sua equipe para responder rápido. A maior causa de atraso em site é a demora do cliente em enviar textos e aprovar etapas, e não o trabalho técnico em si."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "passo-a-passo",
+      "descricao": "Passo a passo de 8 etapas para contratar uma empresa de sites, com faixa de preço como referência"
+    },
+    "faq": [
+      {
+        "pergunta": "Contrato com freelancer é diferente do de agência?",
+        "resposta": "A estrutura é a mesma: escopo, prazo, preço e propriedade. Com freelancer, pergunte como fica o suporte se ele ficar indisponível. Com agência, confirme quem executa o trabalho no dia a dia."
+      },
+      {
+        "pergunta": "Quanto pagar de entrada?",
+        "resposta": "É comum dividir em parcelas ligadas a entregas, como entrada, aprovação do layout e publicação. Evite pagar tudo antes de ver algo funcionando, e combine o que dispara cada parcela."
+      },
+      {
+        "pergunta": "Devo pedir um teste grátis?",
+        "resposta": "Em geral não, pois o trabalho tem custo. Em vez disso, peça exemplos de projetos feitos e converse com quem já contratou o profissional, se ele tiver referências disponíveis."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "como-contratar-um-desenvolvedor-de-sistemas",
+    "tipo": "satelite",
+    "cluster": "contratacao-projeto",
+    "consulta": "como contratar um desenvolvedor de sistemas",
+    "consultasSecundarias": [
+      "como escolher um desenvolvedor de software",
+      "como contratar programador para sistema",
+      "contratar desenvolvedor para sistema da empresa"
+    ],
+    "title": "Como contratar um desenvolvedor de sistemas: guia prático",
+    "description": "Aprenda a avaliar e contratar um desenvolvedor de sistemas: formatos de contratação, perguntas-chave e sinais de alerta. Veja o guia antes de fechar.",
+    "h1": "Como contratar um desenvolvedor de sistemas",
+    "respostaDireta": "Para contratar um desenvolvedor de sistemas, descreva o problema que o sistema vai resolver, escolha o formato de contratação, avalie projetos anteriores e peça um plano por etapas com prazo e valor. Contrate quem entende do seu negócio e explica sem jargão, e formalize propriedade do código e suporte.",
+    "secoes": [
+      {
+        "titulo": "Três formatos de contratação",
+        "paragrafos": [
+          "O formato muda o custo, o risco e o nível de controle que você tem sobre o projeto. Escolha pelo tamanho do sistema e pela sua capacidade de acompanhar.",
+          "Veja o resumo no quadro abaixo."
+        ],
+        "tabela": {
+          "colunas": [
+            "Formato",
+            "Vantagem",
+            "Atenção"
+          ],
+          "linhas": [
+            [
+              "Freelancer ou desenvolvedor solo",
+              "Contato direto, custo menor",
+              "Dependência de uma só pessoa; combine documentação e acesso ao código"
+            ],
+            [
+              "Agência ou software house",
+              "Equipe com várias funções",
+              "Pergunte quem executa e como é o suporte pós-entrega"
+            ],
+            [
+              "Contratar CLT ou equipe própria",
+              "Dedicação total",
+              "Custo fixo alto e necessidade de gestão técnica"
+            ]
+          ],
+          "legenda": "Formatos de contratação de desenvolvimento"
+        }
+      },
+      {
+        "titulo": "O que avaliar antes de decidir",
+        "paragrafos": [
+          "Peça para ver sistemas que a pessoa construiu e converse sobre as decisões tomadas. Quem sabe explicar por que escolheu uma solução demonstra domínio.",
+          "Verifique se existe interesse em entender o seu processo. Um bom desenvolvedor faz perguntas sobre a rotina, não só sobre a tecnologia. Descreva o dia a dia de um funcionário e veja se ele pergunta pelas exceções."
+        ],
+        "lista": [
+          "Entende o seu negócio e faz perguntas sobre a operação",
+          "Propõe entregar em etapas, com algo funcionando cedo",
+          "Explica custos e prazos sem jargão",
+          "Combina por escrito a titularidade do código",
+          "Informa como será o suporte depois da entrega",
+          "Mostra como testa e como faz backup",
+          "Aceita que você contrate a hospedagem em nome da sua empresa"
+        ]
+      },
+      {
+        "titulo": "Faixas de preço como ponto de partida",
+        "paragrafos": [
+          "Na tabela da AndersDev, um MVP de sistema web vai de R$ 15.000 a R$ 40.000 e um app completo com backend, de R$ 30.000 a R$ 72.000. Integrações somam: pagamento +20%, inteligência artificial +25%, ERP +30%.",
+          "Se a proposta fugir muito desse território, peça que o desenvolvedor explique a diferença do escopo."
+        ]
+      },
+      {
+        "titulo": "Primeira conversa",
+        "paragrafos": [
+          "Leve para a reunião três tarefas que a equipe repete todo dia e uma situação em que o processo atual falha. Com esses exemplos, você testa se o desenvolvedor realmente entende o problema antes de falar de preço e de tecnologia."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Tabela de formatos de contratação e checklist de 7 pontos para avaliar um desenvolvedor"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso entender de tecnologia para contratar?",
+        "resposta": "Não. Precisa entender do seu negócio e saber descrever o problema. O desenvolvedor traduz isso para o sistema. Peça explicações simples e desconfie de respostas cheias de termos técnicos sem sentido."
+      },
+      {
+        "pergunta": "É arriscado depender de um único desenvolvedor?",
+        "resposta": "Há risco, sim, mas controlável. Exija documentação, acesso ao código e à hospedagem em seu nome, e entregas por etapa. Assim outro profissional consegue assumir se for preciso."
+      },
+      {
+        "pergunta": "Como saber se o desenvolvedor é bom?",
+        "resposta": "Veja projetos entregues, converse sobre as decisões tomadas e confira como ele trata prazo e mudanças. A clareza da proposta e a qualidade das perguntas dizem muito."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "como-fazer-um-briefing-de-site",
+    "tipo": "satelite",
+    "cluster": "contratacao-projeto",
+    "consulta": "como fazer um briefing de site",
+    "consultasSecundarias": [
+      "modelo de briefing de site",
+      "o que colocar no briefing de um site",
+      "briefing para criação de site"
+    ],
+    "title": "Como fazer um briefing de site: roteiro com 10 perguntas",
+    "description": "Aprenda a fazer um briefing de site com 10 perguntas que o desenvolvedor precisa ouvir. Veja o roteiro, o exemplo e economize rodadas de ajuste.",
+    "h1": "Como fazer um briefing de site",
+    "respostaDireta": "Para fazer um briefing de site, responda por escrito a dez perguntas: quem é a empresa, quem é o público, qual o objetivo do site, quais páginas, que funções, que referências, quem fornece o conteúdo, qual o prazo, qual o orçamento e como será medido o resultado. Uma a duas páginas bastam.",
+    "secoes": [
+      {
+        "titulo": "Briefing é o pedido por escrito",
+        "paragrafos": [
+          "O briefing é um documento curto que explica ao desenvolvedor o que você quer e por quê. Sem ele, o profissional preenche as lacunas com suposições, e o primeiro layout não agrada.",
+          "Escreva com as suas palavras. Não precisa de termo técnico. Precisa de clareza sobre o negócio."
+        ],
+        "tabela": {
+          "colunas": [
+            "Pergunta",
+            "Exemplo de resposta (fictício)"
+          ],
+          "linhas": [
+            [
+              "Quem somos",
+              "Transportadora regional com 30 funcionários e frota própria"
+            ],
+            [
+              "Quem é o público",
+              "Compradores de empresas que precisam de frete frequente"
+            ],
+            [
+              "Objetivo do site",
+              "Receber pedidos de cotação"
+            ],
+            [
+              "Páginas previstas",
+              "Início, serviços, regiões atendidas, sobre, contato"
+            ],
+            [
+              "Funções",
+              "Formulário de cotação e botão de WhatsApp"
+            ],
+            [
+              "Referências",
+              "Dois sites de concorrentes e o que gostou em cada"
+            ],
+            [
+              "Conteúdo",
+              "A empresa entrega fotos da frota e textos revisados"
+            ],
+            [
+              "Prazo",
+              "Antes de uma feira em dois meses"
+            ],
+            [
+              "Orçamento",
+              "Faixa compatível com site institucional"
+            ],
+            [
+              "Como medir",
+              "Número de cotações recebidas por mês"
+            ]
+          ],
+          "legenda": "Roteiro de 10 perguntas com respostas de exemplo"
+        }
+      },
+      {
+        "titulo": "Dicas para um briefing que funciona",
+        "paragrafos": [
+          "Seja específico no objetivo: \"mais clientes\" é vago, \"receber pedidos de cotação\" é claro. Inclua o que você não quer, como cores ou estilos que a empresa rejeita.",
+          "Mostre exemplos. Três sites de referência dizem mais do que um parágrafo de adjetivos. Explique o que gostou em cada um: o menu, as fotos, a cor.",
+          "Diga quem aprova o trabalho. Se duas pessoas decidem e discordam, o projeto atrasa. Defina uma pessoa responsável pela aprovação final."
+        ]
+      },
+      {
+        "titulo": "O que fazer com o briefing",
+        "paragrafos": [
+          "Envie o mesmo briefing a todos os profissionais que for orçar. As propostas ficam comparáveis e você percebe quem leu com atenção. Guarde também uma cópia: ela serve de referência quando surgir dúvida sobre o que foi combinado.",
+          "Para a faixa de preço de cada tipo, veja /quanto-custa/site-institucional e /quanto-custa/landing-page."
+        ]
+      },
+      {
+        "titulo": "Revise antes de enviar",
+        "paragrafos": [
+          "Peça a uma pessoa de fora da empresa que leia o briefing e diga o que entendeu. Se ela não souber explicar o que vocês vendem e para quem, o texto ainda está vago. Ajuste e só então envie aos profissionais."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Roteiro de 10 perguntas de briefing com um exemplo fictício de respostas para uma transportadora"
+    },
+    "faq": [
+      {
+        "pergunta": "O briefing precisa ser longo?",
+        "resposta": "Não. Uma ou duas páginas bem escritas valem mais que um documento extenso e vago. O importante é cobrir objetivo, público, páginas, funções, conteúdo, prazo e forma de medir resultado."
+      },
+      {
+        "pergunta": "E se eu não souber responder alguma pergunta?",
+        "resposta": "Escreva que não sabe e peça ajuda ao desenvolvedor. Um bom profissional ajuda a definir público e objetivos, mas precisa de você para falar do negócio e dos clientes."
+      },
+      {
+        "pergunta": "Quem deve preencher o briefing?",
+        "resposta": "Quem conhece o negócio e decide: dono, sócio ou gerente. Ouça também quem atende o cliente, pois essa pessoa sabe as dúvidas que o site precisa responder."
+      }
+    ],
+    "fontes": [],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "como-escrever-o-escopo-de-um-sistema",
+    "tipo": "satelite",
+    "cluster": "contratacao-projeto",
+    "consulta": "como escrever o escopo de um sistema",
+    "consultasSecundarias": [
+      "como definir o escopo de um software",
+      "exemplo de escopo de sistema",
+      "o que é escopo de projeto de software"
+    ],
+    "title": "Como escrever o escopo de um sistema: passo a passo",
+    "description": "Aprenda a escrever o escopo de um sistema em 6 passos, com tabela de módulos e exemplo. Evite aditivos e discussões na entrega. Veja o guia.",
+    "h1": "Como escrever o escopo de um sistema",
+    "respostaDireta": "Para escrever o escopo de um sistema, liste quem usa, o que cada pessoa precisa fazer, as telas, as regras, as integrações e o que fica de fora. Depois divida em módulos e dê a cada um um critério de aceite. Escopo claro é o que impede o orçamento de crescer no meio do projeto.",
+    "secoes": [
+      {
+        "titulo": "Escopo é o que entra e o que não entra",
+        "paragrafos": [
+          "O escopo descreve o que será entregue. Metade da sua utilidade está na lista do que não entra. Sem ela, qualquer pedido novo parece \"óbvio\" e ninguém concorda sobre o que estava combinado.",
+          "Siga os passos abaixo. Você não precisa de linguagem técnica."
+        ],
+        "lista": [
+          "Liste os tipos de usuário e o que cada um faz no sistema",
+          "Para cada tipo, escreva as tarefas em frases: \"o atendente abre uma ordem de serviço\"",
+          "Agrupe as tarefas em módulos, como cadastros, pedidos e relatórios",
+          "Defina as regras de cada tarefa, incluindo as exceções",
+          "Aponte integrações com outros sistemas, como pagamento ou ERP",
+          "Escreva o que fica de fora desta versão, e quando poderá entrar"
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Exemplo de escopo organizado por módulo",
+        "paragrafos": [
+          "Cada módulo deve ter um critério de aceite: como você saberá que está pronto. Veja um quadro fictício para um sistema de controle de pedidos."
+        ],
+        "tabela": {
+          "colunas": [
+            "Módulo",
+            "O que inclui",
+            "Critério de aceite",
+            "Fica de fora"
+          ],
+          "linhas": [
+            [
+              "Cadastros",
+              "Clientes, produtos e usuários",
+              "Cadastrar e editar sem erro, com busca",
+              "Importação de planilhas antigas"
+            ],
+            [
+              "Pedidos",
+              "Criar, alterar e cancelar pedido",
+              "Pedido muda de status e fica registrado",
+              "Emissão de nota fiscal"
+            ],
+            [
+              "Relatórios",
+              "Vendas por período e por cliente",
+              "Totais conferem com os pedidos",
+              "Gráficos personalizados"
+            ]
+          ],
+          "legenda": "Exemplo fictício de escopo por módulo"
+        }
+      },
+      {
+        "titulo": "Como o escopo se liga ao preço",
+        "paragrafos": [
+          "Cada módulo, regra e integração pesa no valor. Na tabela pública da AndersDev, um MVP de sistema web vai de R$ 15.000 a R$ 40.000, e integrações somam: pagamento +20%, ERP +30%, IA +25%. Um escopo detalhado permite ao desenvolvedor dar o número com mais segurança.",
+          "Se o escopo ficar grande demais, corte para a primeira versão e deixe o resto em fases. Veja o blog sobre como sair da planilha na empresa para pensar por onde começar."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "passo-a-passo",
+      "descricao": "Passo a passo de 6 etapas para escrever escopo de sistema e quadro de exemplo com critério de aceite por módulo"
+    },
+    "faq": [
+      {
+        "pergunta": "Escopo e contrato são a mesma coisa?",
+        "resposta": "Não. O escopo descreve o que será feito; o contrato fixa preço, prazo e responsabilidades. O ideal é o escopo ser anexo do contrato, de modo que o combinado fique registrado."
+      },
+      {
+        "pergunta": "Posso mudar o escopo depois de começar?",
+        "resposta": "Pode, mas a mudança tem efeito em prazo e valor. Combine antes como as mudanças são pedidas e aprovadas. Veja a página sobre como pedir mudança no escopo sem estourar o orçamento."
+      },
+      {
+        "pergunta": "O desenvolvedor pode me ajudar a escrever?",
+        "resposta": "Pode e deve. A fase de levantamento serve a isso. O seu papel é explicar a operação; o dele é transformar em módulos, regras e critérios de aceite claros."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "como-comparar-orcamentos-de-desenvolvimento-de-software",
+    "tipo": "satelite",
+    "cluster": "contratacao-projeto",
+    "consulta": "como comparar orçamentos de desenvolvimento de software",
+    "consultasSecundarias": [
+      "como comparar propostas de software",
+      "comparar orçamentos de sistema",
+      "como analisar proposta de desenvolvimento"
+    ],
+    "title": "Como comparar orçamentos de desenvolvimento de software",
+    "description": "Compare propostas de desenvolvimento de software por escopo, prazo, suporte e propriedade, não só pelo preço. Use a planilha de critérios.",
+    "h1": "Como comparar orçamentos de desenvolvimento de software",
+    "respostaDireta": "Para comparar orçamentos de desenvolvimento de software, coloque as propostas lado a lado em uma tabela de critérios: escopo, prazo, forma de pagamento, suporte, propriedade do código e o que não está incluso. O menor preço só é o melhor se as entregas forem as mesmas. Compare entregas, e não valores soltos.",
+    "secoes": [
+      {
+        "titulo": "Monte a tabela de comparação",
+        "paragrafos": [
+          "Crie uma planilha com uma coluna por proposta e uma linha por critério. Preencha com o que está escrito, não com o que foi dito em conversa. O que estiver em branco vira pergunta ao fornecedor.",
+          "O quadro abaixo mostra os critérios que mais diferenciam propostas na prática."
+        ],
+        "tabela": {
+          "colunas": [
+            "Critério",
+            "Proposta A",
+            "Proposta B",
+            "Proposta C"
+          ],
+          "linhas": [
+            [
+              "Escopo descrito por módulo",
+              "Sim ou não",
+              "Sim ou não",
+              "Sim ou não"
+            ],
+            [
+              "Valor total e forma de pagamento",
+              "R$ e parcelas",
+              "R$ e parcelas",
+              "R$ e parcelas"
+            ],
+            [
+              "Prazo e marcos de entrega",
+              "Datas",
+              "Datas",
+              "Datas"
+            ],
+            [
+              "Integrações incluídas",
+              "Quais",
+              "Quais",
+              "Quais"
+            ],
+            [
+              "Testes e correção de erros após a entrega",
+              "Prazo e condição",
+              "Prazo e condição",
+              "Prazo e condição"
+            ],
+            [
+              "Propriedade do código",
+              "Quem fica",
+              "Quem fica",
+              "Quem fica"
+            ],
+            [
+              "Hospedagem e custos de terceiros",
+              "Quem paga",
+              "Quem paga",
+              "Quem paga"
+            ],
+            [
+              "Suporte e manutenção",
+              "Inclui ou não",
+              "Inclui ou não",
+              "Inclui ou não"
+            ]
+          ],
+          "legenda": "Modelo de tabela para preencher com as três propostas"
+        }
+      },
+      {
+        "titulo": "Como ler as diferenças",
+        "paragrafos": [
+          "Se uma proposta é muito mais barata, procure o que ela não inclui: testes, integrações, suporte, ou propriedade do código. Se é muito mais cara, veja se há entregas a mais ou margem para risco.",
+          "Use as faixas públicas como termômetro. Na tabela da AndersDev, um MVP de sistema web fica entre R$ 15.000 e R$ 40.000 e um app completo entre R$ 30.000 e R$ 72.000. Propostas fora do território merecem explicação."
+        ]
+      },
+      {
+        "titulo": "Perguntas para o desempate",
+        "paragrafos": [
+          "Quem vai executar? Como será o acompanhamento semanal? O que acontece se o prazo estourar por culpa do fornecedor? E se o escopo mudar? As respostas revelam maturidade de processo.",
+          "Considere ainda o custo total de dois ou três anos, somando hospedagem, manutenção e evolução, e não apenas o valor do desenvolvimento inicial."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Modelo de tabela com 8 critérios para comparar três propostas de desenvolvimento lado a lado"
+    },
+    "faq": [
+      {
+        "pergunta": "Devo escolher o orçamento mais barato?",
+        "resposta": "Só se as entregas, o prazo e o suporte forem equivalentes aos das outras propostas. Preço baixo com escopo cortado ou sem suporte costuma custar mais adiante. Compare o conjunto, não o número."
+      },
+      {
+        "pergunta": "Quantas propostas devo pedir?",
+        "resposta": "Três costumam bastar para ter referência. Com mais que isso, o trabalho de comparar cresce sem ganho real. Envie o mesmo pedido a todos para que as respostas sejam comparáveis."
+      },
+      {
+        "pergunta": "Posso negociar o valor?",
+        "resposta": "Pode. Em vez de pedir só desconto, proponha ajustar o escopo ou dividir em fases. Assim o preço cabe no orçamento sem tirar o que é essencial."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "o-que-perguntar-antes-de-contratar-um-desenvolvedor",
+    "tipo": "satelite",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que perguntar antes de contratar um desenvolvedor",
+    "consultasSecundarias": [
+      "perguntas para fazer a um desenvolvedor",
+      "perguntas para entrevistar desenvolvedor freelancer",
+      "o que perguntar a uma empresa de software"
+    ],
+    "title": "O que perguntar antes de contratar um desenvolvedor",
+    "description": "Confira 12 perguntas para fazer antes de contratar um desenvolvedor e como interpretar cada resposta. Imprima o checklist e leve à conversa.",
+    "h1": "O que perguntar antes de contratar um desenvolvedor",
+    "respostaDireta": "Antes de contratar um desenvolvedor, pergunte sobre projetos parecidos, quem executa, como será o acompanhamento, o que não está incluído, como são tratadas mudanças, quem fica com o código e como funciona o suporte depois da entrega. As respostas mostram se o profissional trabalha com método ou improvisa.",
+    "secoes": [
+      {
+        "titulo": "Checklist de 12 perguntas",
+        "paragrafos": [
+          "Leve a lista impressa e anote as respostas. Compare as respostas de cada candidato com calma depois da conversa."
+        ],
+        "lista": [
+          "Você já fez algo parecido com o meu caso? Posso ver ou conversar com quem usa?",
+          "Quem exatamente vai desenvolver o meu projeto?",
+          "Como será o plano de entregas: em quais etapas e datas?",
+          "Como vou acompanhar o andamento, e com que frequência?",
+          "O que está incluído no preço e o que não está?",
+          "Como funcionam as mudanças de escopo e como são cobradas?",
+          "De quem é o código-fonte ao final do projeto?",
+          "Em nome de quem ficam o domínio, a hospedagem e as contas de serviços?",
+          "Como o sistema será testado antes da entrega?",
+          "Que documentação vou receber?",
+          "Como é o suporte depois da entrega, e por quanto tempo?",
+          "O que acontece se um de nós quiser encerrar o contrato antes do fim?"
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Como interpretar as respostas",
+        "paragrafos": [
+          "Boas respostas trazem exemplos e números concretos de prazo, sem prometer o impossível. Sinais de alerta: pressa em fechar, recusa de colocar combinado no papel, resposta evasiva sobre código e acessos, e promessa de entrega em prazo que não considera a validação com você.",
+          "Pergunte também sobre como ele lida com atrasos. Quem já passou por isso responde com um processo claro. Quem nunca passou tende a prometer que não acontece."
+        ]
+      },
+      {
+        "titulo": "Perguntas que você deve responder",
+        "paragrafos": [
+          "O profissional também vai perguntar. Esteja pronto para dizer qual problema quer resolver, quem usará o sistema, quanto pode investir e quem decide do seu lado.",
+          "Para ter uma noção de preço antes, consulte a tabela pública: MVP de sistema web de R$ 15.000 a R$ 40.000 e app mobile simples de R$ 10.800 a R$ 27.000."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "checklist",
+      "descricao": "Checklist de 12 perguntas para entrevistar um desenvolvedor, com como interpretar as respostas"
+    },
+    "faq": [
+      {
+        "pergunta": "Posso pedir referências de clientes anteriores?",
+        "resposta": "Pode e deve. Um profissional com histórico costuma ter quem fale bem do trabalho. Se não houver referências, peça ao menos para ver um projeto funcionando e entender o que foi feito."
+      },
+      {
+        "pergunta": "O que fazer se ele não souber responder alguma pergunta?",
+        "resposta": "Observe se admite e promete verificar, ou se inventa. Admitir dúvida é sinal de honestidade. Inventar resposta, principalmente sobre prazo e propriedade, é sinal de alerta."
+      },
+      {
+        "pergunta": "Preciso de advogado para contratar?",
+        "resposta": "Para projetos pequenos, um contrato claro costuma bastar. Em projetos grandes ou com dados sensíveis, vale a revisão de um advogado, principalmente nas cláusulas de propriedade e de proteção de dados."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "como-acompanhar-o-andamento-de-um-projeto-de-software",
+    "tipo": "satelite",
+    "cluster": "contratacao-projeto",
+    "consulta": "como acompanhar o andamento de um projeto de software",
+    "consultasSecundarias": [
+      "como acompanhar desenvolvimento de sistema",
+      "acompanhamento de projeto de software",
+      "como saber se o projeto está no prazo"
+    ],
+    "title": "Como acompanhar o andamento de um projeto de software",
+    "description": "Aprenda a acompanhar um projeto de software sem ser técnico: rotina semanal, o que pedir ao desenvolvedor e sinais de problema. Veja o passo a passo.",
+    "h1": "Como acompanhar o andamento de um projeto de software",
+    "respostaDireta": "Para acompanhar o andamento de um projeto de software, combine marcos de entrega por escrito, faça uma reunião curta toda semana, peça uma versão funcionando a cada etapa e registre as decisões. Você não precisa ler código: precisa ver o sistema rodando e comparar com a lista do que foi combinado.",
+    "secoes": [
+      {
+        "titulo": "Rotina semanal em 5 passos",
+        "paragrafos": [
+          "Acompanhar não é vigiar. É ter um ritmo que revela problemas cedo, quando ainda custam pouco para corrigir."
+        ],
+        "lista": [
+          "Reserve 20 a 30 minutos fixos por semana com o desenvolvedor",
+          "Peça que ele mostre o que ficou pronto, funcionando, e não só relate",
+          "Teste você mesmo o que foi entregue, com um caso real da empresa",
+          "Anote o que precisa mudar e confirme o que entra agora e o que fica para depois",
+          "Registre por escrito as decisões e a data do próximo marco"
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "O que olhar em cada reunião",
+        "paragrafos": [
+          "Compare o que foi entregue com o escopo. Veja se o próximo marco continua no prazo. Pergunte sobre riscos: algo depende de você, de terceiros ou de uma informação que falta?",
+          "Um bom sinal é o desenvolvedor trazer problemas antes de você perguntar. Mau sinal é semanas sem nada para mostrar, com a promessa de que \"está quase\"."
+        ],
+        "tabela": {
+          "colunas": [
+            "Sinal",
+            "Leitura",
+            "O que fazer"
+          ],
+          "linhas": [
+            [
+              "Entrega funcionando toda semana",
+              "Projeto saudável",
+              "Seguir e testar com cuidado"
+            ],
+            [
+              "Relatório sem nada para demonstrar",
+              "Pode haver atraso escondido",
+              "Pedir demonstração na próxima reunião"
+            ],
+            [
+              "Decisões só em conversa",
+              "Risco de divergência futura",
+              "Resumir por escrito após cada encontro"
+            ],
+            [
+              "Cliente demora a responder",
+              "Atraso causado do seu lado",
+              "Definir prazo máximo para aprovações"
+            ]
+          ],
+          "legenda": "Sinais de acompanhamento e ação sugerida"
+        }
+      },
+      {
+        "titulo": "Ferramentas simples bastam",
+        "paragrafos": [
+          "Uma planilha com as tarefas, o status e a data de cada marco é suficiente em projeto pequeno. Em projeto maior, use um quadro de tarefas compartilhado, onde você vê o que está em andamento e o que está pronto.",
+          "O mais importante é ter um único lugar onde o combinado está registrado e acesso a uma versão de testes do sistema desde cedo."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "passo-a-passo",
+      "descricao": "Rotina semanal de acompanhamento em 5 passos e quadro de sinais com a ação sugerida"
+    },
+    "faq": [
+      {
+        "pergunta": "Com que frequência devo pedir atualização?",
+        "resposta": "Uma reunião curta por semana funciona bem para a maioria dos projetos. Mais que isso atrapalha o trabalho; menos que isso deixa problemas crescerem sem você ver. O essencial é a regularidade."
+      },
+      {
+        "pergunta": "Preciso de acesso ao ambiente de testes?",
+        "resposta": "Sim. Poder abrir o sistema em andamento é a melhor forma de acompanhar. Peça um endereço de teste desde as primeiras etapas, para validar telas e fluxos com a equipe que vai usar."
+      },
+      {
+        "pergunta": "O que fazer se o projeto parecer parado?",
+        "resposta": "Peça uma demonstração do que foi feito e uma data realista para o próximo marco. Se não houver o que mostrar, registre por escrito a preocupação e renegocie o cronograma antes de pagar novas parcelas."
+      }
+    ],
+    "fontes": [],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "como-evitar-atraso-em-projeto-de-software",
+    "tipo": "satelite",
+    "cluster": "contratacao-projeto",
+    "consulta": "como evitar atraso em projeto de software",
+    "consultasSecundarias": [
+      "como evitar atrasos em desenvolvimento de sistema",
+      "por que projeto de software atrasa",
+      "como cumprir prazo em projeto de software"
+    ],
+    "title": "Como evitar atraso em projeto de software: 9 práticas",
+    "description": "Veja as 9 práticas que reduzem atraso em projeto de software, do escopo fechado às aprovações rápidas. Aplique o checklist antes de começar.",
+    "h1": "Como evitar atraso em projeto de software",
+    "respostaDireta": "Para evitar atraso em projeto de software, feche o escopo antes de começar, divida a entrega em etapas curtas, aprove rápido o que o desenvolvedor mostrar e controle os pedidos de mudança. A maior parte dos atrasos nasce de escopo vago e de decisões que demoram, e não de dificuldade técnica.",
+    "secoes": [
+      {
+        "titulo": "Atraso quase sempre é previsível",
+        "paragrafos": [
+          "Raramente um projeto atrasa por surpresa. As causas se repetem: pedido pouco claro, mudanças no meio do caminho, aprovação lenta e dependência de terceiros. Cada uma pode ser tratada antes de começar.",
+          "O quadro abaixo liga cada causa à prática que a evita."
+        ],
+        "tabela": {
+          "colunas": [
+            "Causa comum",
+            "Prática que evita",
+            "Quem faz"
+          ],
+          "linhas": [
+            [
+              "Escopo vago",
+              "Escrever módulos e critérios de aceite antes de começar",
+              "Você e o desenvolvedor"
+            ],
+            [
+              "Mudanças soltas",
+              "Combinar um fluxo formal de pedido de mudança",
+              "Os dois"
+            ],
+            [
+              "Aprovação lenta",
+              "Definir um responsável e um prazo máximo de resposta",
+              "Você"
+            ],
+            [
+              "Conteúdo atrasado",
+              "Entregar textos, imagens e dados antes da etapa que os usa",
+              "Você"
+            ],
+            [
+              "Integração com terceiros",
+              "Pedir acesso e documentação já no início",
+              "Os dois"
+            ],
+            [
+              "Entrega só no fim",
+              "Dividir em etapas com algo funcionando",
+              "Desenvolvedor"
+            ]
+          ],
+          "legenda": "Causas de atraso e como evitá-las"
+        }
+      },
+      {
+        "titulo": "Checklist de 9 práticas",
+        "paragrafos": [
+          "Antes de assinar, marque o que já está combinado. O que sobrar em branco é onde o atraso se esconde."
+        ],
+        "lista": [
+          "Escopo escrito, com o que fica de fora",
+          "Entregas parciais com datas",
+          "Responsável único por aprovações do seu lado",
+          "Prazo máximo de resposta às dúvidas do desenvolvedor",
+          "Material de conteúdo reunido antes de começar",
+          "Acessos a sistemas e contas de terceiros liberados",
+          "Regra clara para pedidos de mudança",
+          "Reunião semanal curta",
+          "Cláusula de revisão do cronograma se algo mudar"
+        ]
+      },
+      {
+        "titulo": "Prazo realista, não otimista",
+        "paragrafos": [
+          "Prazo apertado demais é fonte de atraso. Na tabela da AndersDev, pedir site em menos de 3 semanas ou app em menos de 6 semanas é tratado como urgente e soma 25% ao valor, justamente porque exige concentrar o trabalho.",
+          "Se o prazo é inegociável, reduza o escopo. Entregar menos, no prazo, vale mais do que prometer tudo e atrasar."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "checklist",
+      "descricao": "Quadro de causas de atraso e checklist de 9 práticas preventivas"
+    },
+    "faq": [
+      {
+        "pergunta": "Quem costuma ser responsável pelo atraso?",
+        "resposta": "Pode ser qualquer um dos dois lados. Demora em aprovar, mudança de ideia e material atrasado partem do cliente; subestimar o trabalho e não avisar problemas partem do desenvolvedor. Por isso o combinado deve cobrir as duas partes."
+      },
+      {
+        "pergunta": "Dá para incluir multa por atraso no contrato?",
+        "resposta": "Dá, mas só funciona se as responsabilidades estiverem claras e se o cliente também cumprir as suas. Muitos preferem cláusulas de revisão de cronograma, em vez de multa. Peça orientação jurídica."
+      },
+      {
+        "pergunta": "Reduzir o escopo ajuda mesmo?",
+        "resposta": "Ajuda muito. Entregar uma primeira versão menor, em operação, dá resultado cedo e reduz o risco. Os demais módulos entram em fases seguintes, com novo prazo e valor combinados."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "como-validar-um-mvp",
+    "tipo": "satelite",
+    "cluster": "contratacao-projeto",
+    "consulta": "como validar um mvp",
+    "consultasSecundarias": [
+      "como validar uma ideia de software",
+      "validação de mvp passo a passo",
+      "como testar um mvp com clientes"
+    ],
+    "title": "Como validar um MVP: passo a passo para testar a ideia",
+    "description": "Aprenda a validar um MVP em 6 passos: hipótese, teste com usuários reais, métricas e decisão. Evite construir o sistema errado. Veja o roteiro.",
+    "h1": "Como validar um MVP",
+    "respostaDireta": "Para validar um MVP, escreva a hipótese que quer testar, entregue a versão mínima a poucos usuários reais, observe o que eles fazem e decida com base no uso, e não em opinião. Validar é descobrir se as pessoas usam e voltam a usar, antes de investir no sistema completo.",
+    "secoes": [
+      {
+        "titulo": "MVP é uma pergunta, não um produto pequeno",
+        "paragrafos": [
+          "MVP significa produto mínimo viável: a menor versão que permite aprender se a ideia funciona. O foco é o aprendizado, não o acabamento.",
+          "Para empresas, o MVP é a forma mais segura de investir. Na tabela pública da AndersDev, um MVP de sistema web fica entre R$ 15.000 e R$ 40.000, bem abaixo de um app completo, de R$ 30.000 a R$ 72.000."
+        ],
+        "lista": [
+          "Escreva a hipótese: \"se o vendedor registrar pedidos pelo celular, o erro de digitação cai\"",
+          "Defina o que será medido e a meta, antes de começar",
+          "Escolha de cinco a dez usuários reais para testar",
+          "Entregue a versão mínima com apenas o fluxo principal",
+          "Observe o uso por duas a quatro semanas e converse com os usuários",
+          "Decida: seguir, ajustar ou abandonar, com base no que mediu"
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "O que medir em cada tipo de ideia",
+        "paragrafos": [
+          "A métrica depende da hipótese. Escolha uma só por teste, para não se perder em números.",
+          "Veja exemplos de como transformar uma hipótese em medida."
+        ],
+        "tabela": {
+          "colunas": [
+            "Hipótese",
+            "O que medir",
+            "Sinal de que validou"
+          ],
+          "linhas": [
+            [
+              "Clientes marcarão horário pelo app",
+              "Número de agendamentos feitos sem ajuda",
+              "Parte relevante dos clientes agenda sozinha"
+            ],
+            [
+              "Equipe abandona a planilha",
+              "Quantos registros ainda vão para a planilha",
+              "Planilha deixa de ser usada"
+            ],
+            [
+              "Clientes pagarão pelo serviço online",
+              "Pedidos pagos no período de teste",
+              "Pedidos se repetem sem estímulo"
+            ]
+          ],
+          "legenda": "Exemplos fictícios de hipótese e métrica"
+        }
+      },
+      {
+        "titulo": "Erros comuns na validação",
+        "paragrafos": [
+          "Testar só com amigos, que elogiam por educação. Medir opinião em vez de uso. Acrescentar funções no meio do teste e perder a comparação. E decidir ampliar o sistema sem ter olhado os números.",
+          "Se o teste mostrar que a ideia não funciona, o MVP cumpriu o papel: custou pouco e evitou um gasto maior. Veja a página /quanto-custa/mvp-saas para entender o investimento."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "passo-a-passo",
+      "descricao": "Roteiro de 6 passos para validar um MVP e quadro de hipóteses com métricas de exemplo"
+    },
+    "faq": [
+      {
+        "pergunta": "Quanto tempo leva para validar um MVP?",
+        "resposta": "Depende da hipótese e do volume de uso. Em muitos casos, algumas semanas de uso real já dão sinais. O importante é definir a meta antes e não encerrar o teste só porque os primeiros dias foram bons."
+      },
+      {
+        "pergunta": "Preciso de MVP se já conheço o mercado?",
+        "resposta": "Conhecer o mercado ajuda, mas não elimina o risco de o sistema não encaixar na rotina. O MVP reduz esse risco com um investimento menor que o do sistema completo."
+      },
+      {
+        "pergunta": "O MVP pode virar o sistema final?",
+        "resposta": "Pode, se foi bem construído. Combine com o desenvolvedor desde o início que a base será reaproveitada, para evoluir em fases sem refazer tudo do zero."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "como-fazer-levantamento-de-requisitos",
+    "tipo": "satelite",
+    "cluster": "contratacao-projeto",
+    "consulta": "como fazer levantamento de requisitos",
+    "consultasSecundarias": [
+      "levantamento de requisitos de software",
+      "como levantar requisitos de um sistema",
+      "técnicas de levantamento de requisitos"
+    ],
+    "title": "Como fazer levantamento de requisitos: passo a passo prático",
+    "description": "Aprenda a fazer levantamento de requisitos de um sistema com entrevistas e observação, sem jargão. Veja os 6 passos e o roteiro de perguntas.",
+    "h1": "Como fazer levantamento de requisitos",
+    "respostaDireta": "Para fazer levantamento de requisitos, converse com quem usa o processo, observe o trabalho real, registre o que cada pessoa precisa fazer e separe o essencial do desejável. O resultado é uma lista do que o sistema deve fazer, validada com quem vai usar, antes de qualquer linha de código.",
+    "secoes": [
+      {
+        "titulo": "Requisito é uma necessidade escrita",
+        "paragrafos": [
+          "Requisito é aquilo que o sistema precisa fazer ou respeitar. \"Emitir o orçamento em PDF\" é um requisito. \"Ser rápido\" é vago, até virar \"abrir a lista de pedidos em até três segundos\".",
+          "O levantamento é a conversa que descobre esses itens. Ele costuma ser a etapa mais barata do projeto e a que mais evita retrabalho."
+        ],
+        "lista": [
+          "Liste as pessoas que usarão o sistema e as que dependem dos resultados",
+          "Entreviste cada uma sobre o que faz no dia, o que atrasa e o que dá erro",
+          "Observe o trabalho acontecendo, de preferência por um expediente inteiro",
+          "Colete os documentos e planilhas usados hoje",
+          "Transforme o que ouviu em frases curtas de necessidade",
+          "Valide a lista com os usuários e marque o que é essencial e o que é desejável"
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Roteiro de perguntas para a entrevista",
+        "paragrafos": [
+          "Perguntas abertas revelam mais que perguntas de sim ou não. Use estas e anote as respostas com as palavras da pessoa."
+        ],
+        "tabela": {
+          "colunas": [
+            "Pergunta",
+            "O que revela"
+          ],
+          "linhas": [
+            [
+              "Conte como foi o último pedido que você atendeu",
+              "O fluxo real, com exceções"
+            ],
+            [
+              "O que você faz hoje que seria desnecessário se existisse um sistema",
+              "Tarefas repetitivas e gargalos"
+            ],
+            [
+              "Qual erro mais custa dinheiro ou tempo",
+              "Prioridades do sistema"
+            ],
+            [
+              "De que informação você precisa e não encontra rápido",
+              "Relatórios e buscas"
+            ],
+            [
+              "Quem aprova o quê, e em que ponto",
+              "Permissões e etapas"
+            ]
+          ],
+          "legenda": "Perguntas abertas para o levantamento"
+        }
+      },
+      {
+        "titulo": "Do levantamento ao orçamento",
+        "paragrafos": [
+          "Com os requisitos em mãos, o desenvolvedor consegue dimensionar módulos e integrações e dar um valor mais seguro. Na tabela da AndersDev, o MVP de sistema web vai de R$ 15.000 a R$ 40.000, e cada integração soma um percentual, como ERP (+30%) e pagamento (+20%).",
+          "Guarde o documento: ele é a base do escopo do contrato e a régua para testar a entrega. Veja também a página sobre como escrever o escopo de um sistema."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "passo-a-passo",
+      "descricao": "Passo a passo de 6 etapas e roteiro de 5 perguntas abertas para levantamento de requisitos"
+    },
+    "faq": [
+      {
+        "pergunta": "Quem deve participar do levantamento?",
+        "resposta": "Quem usa o processo no dia a dia e quem decide. O dono costuma conhecer o objetivo, mas quem opera conhece as exceções. Ouvir só a gerência deixa o sistema longe da rotina real."
+      },
+      {
+        "pergunta": "Quanto tempo leva o levantamento?",
+        "resposta": "Depende do tamanho da operação e da disponibilidade das pessoas. Para um sistema pequeno, pode caber em poucas conversas e observações. O importante é não pular a etapa para ganhar prazo."
+      },
+      {
+        "pergunta": "Levantamento é cobrado à parte?",
+        "resposta": "Pode ser, principalmente em sistemas maiores, e é comum o valor ser abatido do projeto. Pergunte antes de começar. Fazer o levantamento sem pressa costuma reduzir o custo total."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "o-que-receber-ao-final-de-um-projeto-de-software",
+    "tipo": "satelite",
+    "cluster": "contratacao-projeto",
+    "consulta": "o que receber ao final de um projeto de software",
+    "consultasSecundarias": [
+      "o que o desenvolvedor deve entregar no fim do projeto",
+      "entregáveis de projeto de software",
+      "o que exigir na entrega de um sistema"
+    ],
+    "title": "O que receber ao final de um projeto de software: checklist",
+    "description": "Confira o que o desenvolvedor deve entregar ao final do projeto: código, acessos, documentação e treinamento. Use o checklist de 10 itens.",
+    "h1": "O que receber ao final de um projeto de software",
+    "respostaDireta": "Ao final de um projeto de software você deve receber o sistema funcionando, o código-fonte, os acessos às contas e à hospedagem, a documentação, as credenciais de administrador, o treinamento da equipe e um termo de aceite. Sem esses itens, a empresa fica dependente de quem desenvolveu.",
+    "secoes": [
+      {
+        "titulo": "Checklist de entrega",
+        "paragrafos": [
+          "Combine esta lista no contrato, não no fim. Na hora da entrega, o que não estiver escrito vira pedido de favor."
+        ],
+        "lista": [
+          "Sistema em produção, funcionando com dados reais",
+          "Código-fonte completo, em repositório em nome da empresa",
+          "Acesso de administrador ao sistema",
+          "Acesso às contas de hospedagem, domínio e serviços de terceiros",
+          "Banco de dados com backup e instruções de restauração",
+          "Documentação de como instalar, configurar e atualizar",
+          "Manual de uso para a equipe",
+          "Treinamento de quem vai operar",
+          "Lista de senhas, chaves e integrações, entregue de forma segura",
+          "Termo de aceite assinado e período de garantia definido"
+        ]
+      },
+      {
+        "titulo": "Por que cada item protege você",
+        "paragrafos": [
+          "O código e os acessos são o que permitem trocar de desenvolvedor sem recomeçar. A documentação reduz o custo de outro profissional assumir. O termo de aceite registra que o combinado foi entregue e inicia a contagem da garantia.",
+          "Leia também a página sobre quem é o dono do código-fonte do sistema contratado."
+        ],
+        "tabela": {
+          "colunas": [
+            "Entrega",
+            "Se faltar",
+            "Consequência"
+          ],
+          "linhas": [
+            [
+              "Código-fonte",
+              "Você não consegue mudar o sistema",
+              "Dependência total do desenvolvedor"
+            ],
+            [
+              "Acessos às contas",
+              "Serviços podem parar sem aviso",
+              "Risco de interrupção"
+            ],
+            [
+              "Documentação",
+              "Outro profissional precisa descobrir tudo",
+              "Custo maior para evoluir"
+            ],
+            [
+              "Backup",
+              "Dados podem se perder",
+              "Prejuízo irreversível"
+            ],
+            [
+              "Garantia por escrito",
+              "Correções viram novo orçamento",
+              "Custo inesperado"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Na hora de receber",
+        "paragrafos": [
+          "Teste o sistema com um caso real antes de assinar o aceite. Confira se os acessos funcionam sem a presença do desenvolvedor e se o backup restaura. Só então pague a última parcela.",
+          "Se algo estiver incompleto, registre em uma lista com prazo para correção e assine o aceite somente depois, ou com ressalvas. Veja também como testar o sistema antes de aceitar a entrega."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "checklist",
+      "descricao": "Checklist de 10 itens de entrega final e quadro de consequências quando algum falta"
+    },
+    "faq": [
+      {
+        "pergunta": "Documentação é obrigatória?",
+        "resposta": "Não é obrigatória por lei, mas deve ser exigida em contrato. Sem ela, trocar de desenvolvedor custa mais. Combine o nível: manual de uso para a equipe e documentação técnica para outro profissional."
+      },
+      {
+        "pergunta": "O que é garantia de projeto de software?",
+        "resposta": "É o período em que erros do que foi entregue são corrigidos sem novo custo. Defina a duração e o que cobre. Funções novas e mudanças de escopo ficam fora e são orçadas à parte."
+      },
+      {
+        "pergunta": "Posso reter a última parcela até receber tudo?",
+        "resposta": "É prática comum atrelar a última parcela ao aceite e à entrega dos itens combinados. Deixe isso escrito no contrato para evitar discussão no final."
+      }
+    ],
+    "fontes": [],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "como-pedir-mudanca-no-escopo-sem-estourar-o-orcamento",
+    "tipo": "satelite",
+    "cluster": "contratacao-projeto",
+    "consulta": "como pedir mudança no escopo sem estourar o orçamento",
+    "consultasSecundarias": [
+      "como pedir alteração em projeto de software",
+      "mudança de escopo sem aumentar custo",
+      "como lidar com mudanças durante o desenvolvimento"
+    ],
+    "title": "Como pedir mudança no escopo sem estourar o orçamento",
+    "description": "Veja como pedir mudança no escopo de um projeto de software sem estourar o orçamento: 5 passos e exemplo de troca. Use antes de fazer o pedido.",
+    "h1": "Como pedir mudança no escopo sem estourar o orçamento",
+    "respostaDireta": "Para pedir mudança no escopo sem estourar o orçamento, descreva a mudança por escrito, peça o impacto em prazo e valor antes de aprovar e, se o dinheiro for fixo, troque: algo entra e algo de valor parecido sai. Mudança combinada com antecedência custa muito menos do que a pedida no fim.",
+    "secoes": [
+      {
+        "titulo": "Mudar é normal, mudar sem registro é o problema",
+        "paragrafos": [
+          "Ninguém acerta tudo no papel. Ao ver o sistema funcionando, você percebe o que faltou. O problema não é a mudança, é o pedido informal, sem saber quanto custa e quando fica pronto.",
+          "Combine desde o início como as mudanças serão tratadas. Esse acordo evita brigas e surpresas na fatura."
+        ],
+        "lista": [
+          "Escreva o pedido: o que muda, por que e que resultado você espera",
+          "Envie ao desenvolvedor e peça a estimativa de impacto em prazo e valor",
+          "Compare o custo com o benefício e decida se vale agora",
+          "Se o orçamento é fixo, proponha trocar por algo do escopo que perde prioridade",
+          "Aprove por escrito e atualize o escopo e o cronograma"
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Exemplo de troca em um sistema de pedidos",
+        "paragrafos": [
+          "Digamos que o escopo previa relatório de vendas por vendedor e você percebe que precisa de aviso por WhatsApp quando o pedido sai. Em vez de somar valor, proponha trocar."
+        ],
+        "tabela": {
+          "colunas": [
+            "Item",
+            "Situação",
+            "Decisão"
+          ],
+          "linhas": [
+            [
+              "Relatório por vendedor",
+              "Previsto, de pouco uso no começo",
+              "Passa para a fase 2"
+            ],
+            [
+              "Aviso de pedido por WhatsApp",
+              "Novo, urgente para o cliente",
+              "Entra agora"
+            ],
+            [
+              "Ajuste de prazo",
+              "Estimado pelo desenvolvedor",
+              "Aprovado por escrito"
+            ]
+          ],
+          "legenda": "Troca de escopo com orçamento fixo (exemplo fictício)"
+        }
+      },
+      {
+        "titulo": "Quando a mudança soma valor",
+        "paragrafos": [
+          "Algumas mudanças não têm troca possível. Integrações novas, por exemplo, pesam no valor: na tabela da AndersDev, pagamento soma 20%, ERP 30% e push ou WhatsApp em app soma 15% sobre o valor-base.",
+          "Quanto mais cedo a mudança for pedida, mais barata ela fica. No fim do projeto, o que parece pequeno pode exigir refazer partes já prontas. Veja também a página sobre como evitar atraso em projeto de software."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "passo-a-passo",
+      "descricao": "Passo a passo de 5 etapas para pedir mudança de escopo e exemplo de troca com orçamento fixo"
+    },
+    "faq": [
+      {
+        "pergunta": "Toda mudança deve ser cobrada?",
+        "resposta": "Depende do que foi combinado. Ajustes pequenos podem caber em horas já previstas. Funções novas ou refazer o que foi aprovado costumam ter custo. O acordo inicial deve dizer onde fica a linha."
+      },
+      {
+        "pergunta": "E se eu só descobrir a necessidade depois de pronto?",
+        "resposta": "Trate como evolução: peça orçamento da nova função e planeje uma fase seguinte. Para reduzir isso, teste versões parciais com a equipe durante o projeto, não apenas no fim."
+      },
+      {
+        "pergunta": "Como evitar que o desenvolvedor cobre demais pela mudança?",
+        "resposta": "Peça a estimativa por escrito, com horas ou valor por item, e compare com o preço do escopo original. Se a diferença parecer grande, pergunte o que justifica antes de aprovar."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  }
+]

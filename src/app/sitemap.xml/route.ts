@@ -1,23 +1,44 @@
-import { construirIndice, respostaXml } from "@/lib/sitemap";
+import { construirIndice, respostaXml, type UrlSitemap } from "@/lib/sitemap";
 import { BASE_URL } from "@/data/custos";
+import {
+  TIPOS_SITEMAP,
+  urlsAlternativas,
+  urlsBlog,
+  urlsCidades,
+  urlsConteudo,
+  urlsCustos,
+  urlsFerramentasEHubs,
+  urlsFixas,
+  urlsServicos,
+  urlsSetores,
+} from "@/data/urls";
 
-export const dynamic = "force-static";
+/**
+ * Índice de sitemaps, um filho por tipo de página. lastmod do filho = a maior
+ * data real de revisão das URLs dele (omitido quando nenhuma tem data).
+ */
+export const revalidate = 3600;
 
-const FILHOS = [
-  "sitemap-paginas.xml",
-  "sitemap-servicos.xml",
-  "sitemap-blog.xml",
-  "sitemap-custos.xml",
-  "sitemap-setores.xml",
-  "sitemap-cidades.xml",
-  "sitemap-alternativas.xml",
-];
+function maisRecente(urls: UrlSitemap[]): string | undefined {
+  const datas = urls.map((u) => u.lastmod).filter((d): d is string => !!d).sort();
+  return datas.at(-1);
+}
 
 export function GET() {
-  const hoje = new Date().toISOString().slice(0, 10);
+  const filhos: Array<[string, UrlSitemap[]]> = [
+    ["sitemap-paginas.xml", urlsFixas()],
+    ["sitemap-servicos.xml", urlsServicos()],
+    ["sitemap-blog.xml", urlsBlog()],
+    ["sitemap-custos.xml", urlsCustos()],
+    ["sitemap-setores.xml", urlsSetores()],
+    ["sitemap-cidades.xml", urlsCidades()],
+    ["sitemap-alternativas.xml", urlsAlternativas()],
+    ["sitemap-ferramentas.xml", urlsFerramentasEHubs()],
+    ...TIPOS_SITEMAP.map((t) => [t.arquivo, urlsConteudo(t.tipo)] as [string, UrlSitemap[]]),
+  ];
   return respostaXml(
     construirIndice(
-      FILHOS.map((f) => ({ loc: `${BASE_URL}/${f}`, lastmod: hoje }))
+      filhos.filter(([, urls]) => urls.length > 0).map(([f, urls]) => ({ loc: `${BASE_URL}/${f}`, lastmod: maisRecente(urls) }))
     )
   );
 }

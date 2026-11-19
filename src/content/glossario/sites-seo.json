@@ -1,0 +1,3826 @@
+[
+  {
+    "slug": "o-que-e-site-institucional",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é site institucional",
+    "consultasSecundarias": [
+      "site institucional para empresa",
+      "para que serve um site institucional",
+      "site institucional exemplo"
+    ],
+    "title": "O que é site institucional: para que serve e o que ter",
+    "description": "Veja o que é um site institucional, quais páginas ele precisa ter e a faixa de preço de referência para uma pequena ou média empresa.",
+    "h1": "O que é site institucional",
+    "respostaDireta": "Site institucional é o site que apresenta a empresa: quem ela é, o que vende, onde fica e como falar com ela. O que é um site institucional, na prática? É o cartão de visitas permanente na internet, com poucas páginas, que passa confiança e leva o visitante ao contato.",
+    "secoes": [
+      {
+        "titulo": "O que um site institucional costuma ter",
+        "paragrafos": [
+          "Ele não precisa de muitas páginas. O que importa é que um cliente novo, que nunca ouviu falar da empresa, encontre rápido as respostas que busca antes de ligar ou mandar mensagem."
+        ],
+        "tabela": {
+          "colunas": [
+            "Página",
+            "Pergunta que responde",
+            "Elemento essencial"
+          ],
+          "linhas": [
+            [
+              "Início",
+              "O que essa empresa faz?",
+              "Frase clara + botão de contato"
+            ],
+            [
+              "Sobre",
+              "Posso confiar nela?",
+              "História, equipe, cidade de atuação"
+            ],
+            [
+              "Serviços ou produtos",
+              "Eles resolvem o meu problema?",
+              "Uma descrição curta por item"
+            ],
+            [
+              "Contato",
+              "Como falo com eles?",
+              "WhatsApp, telefone, endereço e mapa"
+            ],
+            [
+              "Política de privacidade",
+              "O que fazem com meus dados?",
+              "Texto exigido se houver formulário"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Site institucional, landing page e loja virtual",
+        "paragrafos": [
+          "A landing page tem uma única meta (por exemplo, pedir orçamento). O site institucional cobre a empresa inteira. A loja virtual vende pela internet, com carrinho e pagamento. Na tabela pública da AndersDev, o site institucional fica na faixa de R$ 3.400 a R$ 11.500, conforme o número de páginas e integrações."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Quais páginas um site institucional de pequena empresa precisa ter, e que pergunta cada uma responde"
+    },
+    "faq": [
+      {
+        "pergunta": "Toda empresa precisa de um site institucional?",
+        "resposta": "Se clientes pesquisam seu nome ou seu tipo de serviço no Google, sim: sem site, a empresa depende só de rede social e indicação. Um site próprio também sustenta anúncios e dá endereço fixo para o seu e-mail profissional."
+      },
+      {
+        "pergunta": "Quantas páginas um site institucional deve ter?",
+        "resposta": "Comece com poucas: início, sobre, serviços, contato e privacidade. Cada serviço importante pode ganhar página própria depois. Mais páginas só ajudam se tiverem conteúdo útil e atualizado."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Páginas, sites, servidores e mecanismos de busca",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "site institucional",
+      "exemploPratico": "Uma transportadora de médio porte atende indústrias da região, mas só aparece em indicações. O dono manda construir um site institucional com cinco páginas: início, sobre a frota, serviços por tipo de carga, contato com formulário e política de privacidade. Quando uma indústria nova pesquisa o nome da empresa, encontra rotas, telefone e um botão de orçamento, em vez de apenas um perfil de rede social.",
+      "termosRelacionados": [
+        "landing page",
+        "domínio",
+        "hospedagem de site",
+        "site responsivo"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-landing-page",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é landing page",
+    "consultasSecundarias": [
+      "landing page significado",
+      "para que serve uma landing page",
+      "landing page exemplo"
+    ],
+    "title": "O que é landing page: definição e quando usar",
+    "description": "Entenda o que é landing page, como ela difere de um site completo e quais elementos fazem uma página de captura de contatos funcionar.",
+    "h1": "O que é landing page",
+    "respostaDireta": "Landing page é uma página criada para uma única ação, como pedir orçamento, baixar um material ou agendar uma visita. O que é uma landing page, então? É uma página de destino, sem menu cheio de saídas, para onde você leva quem clicou no anúncio ou no link.",
+    "secoes": [
+      {
+        "titulo": "Landing page ou site institucional?",
+        "paragrafos": [
+          "A diferença está no objetivo. O site institucional apresenta a empresa inteira e deixa o visitante explorar. A landing page conduz a uma decisão só, por isso tem menos links e mais foco."
+        ],
+        "tabela": {
+          "colunas": [
+            "",
+            "Landing page",
+            "Site institucional"
+          ],
+          "linhas": [
+            [
+              "Objetivo",
+              "Uma ação (orçamento, cadastro)",
+              "Apresentar a empresa toda"
+            ],
+            [
+              "Quantidade de páginas",
+              "Uma",
+              "Várias"
+            ],
+            [
+              "Menu de navegação",
+              "Mínimo ou nenhum",
+              "Completo"
+            ],
+            [
+              "Tráfego típico",
+              "Anúncio, e-mail, QR code",
+              "Busca do Google e indicação"
+            ],
+            [
+              "Faixa na tabela AndersDev",
+              "R$ 1.500 a R$ 4.000",
+              "R$ 3.400 a R$ 11.500"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que não pode faltar",
+        "paragrafos": [
+          "Uma boa página de captura repete a promessa do anúncio logo no alto, mostra a prova de confiança e tem um único botão claro."
+        ],
+        "lista": [
+          "Título que repete a promessa do anúncio",
+          "Explicação curta do que a pessoa recebe",
+          "Prova de confiança real: endereço, tempo de atuação, certificações",
+          "Formulário com poucos campos",
+          "Botão de ação visível no celular",
+          "Aviso de privacidade perto do formulário"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Comparação lado a lado entre landing page e site institucional, com a faixa de preço pública"
+    },
+    "faq": [
+      {
+        "pergunta": "Landing page serve para aparecer no Google?",
+        "resposta": "Serve melhor para campanhas pagas e divulgação direta. Como tem pouco conteúdo, rankear no Google para muitas buscas é difícil. Para ser encontrado nas buscas, o caminho é um site com várias páginas úteis."
+      },
+      {
+        "pergunta": "Quanto tempo leva para fazer uma landing page?",
+        "resposta": "Depende do material pronto. Com texto, fotos e objetivo definidos, é um projeto curto. Pedir urgência (menos de três semanas) tem acréscimo de 25% na tabela pública da AndersDev."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "landing page",
+      "exemploPratico": "Uma clínica de estética quer encher a agenda de uma avaliação gratuita em março. Em vez de apontar o anúncio para o site inteiro, cria uma landing page só dessa avaliação: foto da sala de atendimento, três perguntas frequentes, horários e um botão de WhatsApp. Quem clica no anúncio vê só o que precisa para decidir e agenda. Terminada a campanha, a página sai do ar.",
+      "termosRelacionados": [
+        "site institucional",
+        "CTR",
+        "domínio",
+        "UX"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-dominio",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é domínio",
+    "consultasSecundarias": [
+      "o que é domínio de site",
+      "o que é um domínio na internet",
+      "domínio significado"
+    ],
+    "title": "O que é domínio: o endereço do seu site",
+    "description": "Veja o que é um domínio, como ele funciona, o que muda entre .com.br e .com e por que registrar no nome da sua empresa.",
+    "h1": "O que é domínio",
+    "respostaDireta": "Domínio é o nome que identifica o seu site na internet, como empresa.com.br. O que é um domínio, afinal? É o endereço que as pessoas digitam no navegador e que também forma o seu e-mail profissional, no lugar de números técnicos difíceis de lembrar.",
+    "secoes": [
+      {
+        "titulo": "Como é formado um domínio",
+        "paragrafos": [
+          "Um domínio tem partes lidas da direita para a esquerda. Na ponta fica o sufixo (.br), depois a categoria (.com), depois o nome que você escolheu."
+        ],
+        "tabela": {
+          "colunas": [
+            "Parte",
+            "Exemplo",
+            "Quem define"
+          ],
+          "linhas": [
+            [
+              "Sufixo do país",
+              ".br",
+              "Registro.br, para o Brasil"
+            ],
+            [
+              "Categoria",
+              ".com, .net, .ind",
+              "Regras do Registro.br"
+            ],
+            [
+              "Nome",
+              "padariaestrela",
+              "Você, se estiver livre"
+            ],
+            [
+              "Subdomínio (opcional)",
+              "loja.",
+              "Você, depois de ter o domínio"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Cuidados ao registrar",
+        "paragrafos": [
+          "O registro é anual e fica vinculado a um CPF ou CNPJ. O ponto crítico é registrar no nome da empresa, e não no de quem montou o site, para que o endereço não fique refém de terceiros."
+        ],
+        "lista": [
+          "Registre com o CNPJ ou o CPF do dono do negócio",
+          "Use e-mail do dono como contato, não o do fornecedor",
+          "Ative a renovação automática ou anote a data de vencimento",
+          "Prefira nome curto, sem hífen e fácil de ditar por telefone",
+          "Confira se não infringe marca de outra empresa"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Partes de um domínio e checklist de cuidados no registro"
+    },
+    "faq": [
+      {
+        "pergunta": "Domínio e hospedagem são a mesma coisa?",
+        "resposta": "Não. O domínio é o endereço; a hospedagem é o lugar onde os arquivos do site ficam guardados. Você pode registrar o domínio em um lugar e hospedar em outro, apontando um para o outro pelo DNS."
+      },
+      {
+        "pergunta": "O que acontece se o domínio vencer?",
+        "resposta": "O site e os e-mails deixam de funcionar. Depois de um período de carência, o nome pode ser liberado para qualquer pessoa registrar. Por isso vale a renovação automática e um contato válido cadastrado."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Registro de domínios .br",
+        "url": "https://registro.br/dominio/como-registrar/",
+        "orgao": "Registro.br",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "O que é um nome de domínio?",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "domínio",
+      "exemploPratico": "Uma loja de materiais de construção pede ao rapaz que fez o site para registrar o domínio. Ele registra no próprio CPF. Dois anos depois, a relação acaba e a loja descobre que não consegue renovar nem transferir o endereço sem a ajuda dele. A forma certa teria sido registrar no CNPJ da loja, com e-mail do dono, e só dar ao fornecedor acesso para configurar o DNS.",
+      "termosRelacionados": [
+        "DNS",
+        "hospedagem de site",
+        "subdomínio",
+        "e-mail com domínio próprio"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-hospedagem-de-site",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é hospedagem de site",
+    "consultasSecundarias": [
+      "o que é hospedagem",
+      "hospedagem de site para que serve",
+      "como funciona hospedagem de sites"
+    ],
+    "title": "O que é hospedagem de site: como funciona e tipos",
+    "description": "Entenda o que é hospedagem de site, para que serve e quais tipos existem. Compare compartilhada, VPS e servidor dedicado antes de contratar.",
+    "h1": "O que é hospedagem de site",
+    "respostaDireta": "Hospedagem de site é o serviço que guarda os arquivos do seu site num computador sempre ligado à internet, chamado servidor. O que é hospedagem de site? É o espaço que a empresa aluga para o site ficar disponível 24 horas e abrir quando alguém digitar o domínio.",
+    "secoes": [
+      {
+        "titulo": "Tipos de hospedagem",
+        "paragrafos": [
+          "A escolha depende do tamanho do site e do volume de visitas. Para a maioria das empresas pequenas, o plano compartilhado resolve; lojas e sistemas costumam pedir mais."
+        ],
+        "tabela": {
+          "colunas": [
+            "Tipo",
+            "Como funciona",
+            "Indicado para"
+          ],
+          "linhas": [
+            [
+              "Compartilhada",
+              "Vários sites dividem o mesmo servidor",
+              "Site institucional simples"
+            ],
+            [
+              "VPS",
+              "Parte reservada de um servidor, com recursos garantidos",
+              "Loja virtual e sistemas"
+            ],
+            [
+              "Dedicada",
+              "Servidor inteiro só para você",
+              "Alto volume e exigências especiais"
+            ],
+            [
+              "Nuvem/plataforma",
+              "Recursos que crescem conforme a demanda",
+              "Sites e aplicações modernos"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que olhar antes de contratar",
+        "paragrafos": [
+          "Compare o que importa para o seu uso, não só o preço mensal."
+        ],
+        "lista": [
+          "Suporte em português e canal de atendimento claro",
+          "Política de backup: frequência e como restaurar",
+          "Certificado SSL incluído",
+          "Localização do servidor e velocidade de resposta",
+          "Compromisso de disponibilidade (uptime) por escrito",
+          "Facilidade de migrar para outro provedor depois"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela comparando os tipos de hospedagem e checklist de contratação"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso de hospedagem se uso rede social?",
+        "resposta": "Não para a rede social, mas ela não substitui o site próprio. Se você quer um endereço seu, com e-mail profissional e presença no Google, precisa de domínio e hospedagem."
+      },
+      {
+        "pergunta": "Posso trocar de hospedagem depois?",
+        "resposta": "Pode. Os arquivos e o banco de dados são copiados para o novo servidor e o DNS passa a apontar para ele. Se bem planejado, o site não sai do ar. Guarde sempre uma cópia de backup antes."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Hospedagem — Registro.br",
+        "url": "https://registro.br/tecnologia/hospedagem/",
+        "orgao": "Registro.br",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Páginas, sites, servidores e mecanismos de busca",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "hospedagem de site",
+      "exemploPratico": "Uma clínica odontológica contrata hospedagem compartilhada para o site institucional de oito páginas, que recebe poucas visitas por dia. O plano básico basta. Dois anos depois, a clínica lança agendamento online com cadastro de pacientes. O sistema exige mais memória e um banco de dados próprio, então a clínica migra para um VPS, sem trocar de domínio nem perder o endereço.",
+      "termosRelacionados": [
+        "domínio",
+        "servidor web",
+        "VPS",
+        "uptime"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-dns",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é dns",
+    "consultasSecundarias": [
+      "dns o que significa",
+      "para que serve o dns",
+      "como funciona o dns"
+    ],
+    "title": "O que é DNS: o que faz e como funciona",
+    "description": "Veja o que é DNS, como ele traduz o nome do seu site em endereço de servidor e quais registros importam para quem tem site e e-mail.",
+    "h1": "O que é DNS",
+    "respostaDireta": "DNS é o sistema que traduz o nome de um site, como empresa.com.br, no endereço numérico do servidor onde ele está. O que é DNS? Pense numa lista telefônica da internet: você digita o nome, e o DNS descobre para onde levar o visitante.",
+    "secoes": [
+      {
+        "titulo": "Registros mais comuns",
+        "paragrafos": [
+          "No painel de DNS do seu domínio você cria registros. Cada um diz a um serviço onde procurar algo. Um registro errado pode derrubar o site ou o e-mail."
+        ],
+        "tabela": {
+          "colunas": [
+            "Registro",
+            "O que faz",
+            "Exemplo de uso"
+          ],
+          "linhas": [
+            [
+              "A",
+              "Aponta o nome para um endereço IPv4",
+              "Site na hospedagem"
+            ],
+            [
+              "CNAME",
+              "Faz um nome apontar para outro nome",
+              "www apontando para o domínio"
+            ],
+            [
+              "MX",
+              "Indica onde ficam os e-mails",
+              "E-mail corporativo"
+            ],
+            [
+              "TXT",
+              "Guarda textos de verificação e autenticação",
+              "Verificação do Search Console, SPF"
+            ],
+            [
+              "NS",
+              "Define quais servidores respondem pelo domínio",
+              "Trocar de provedor de DNS"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Onde mexer e com que cuidado",
+        "paragrafos": [
+          "Quem controla o DNS controla para onde vão o site e os e-mails. Antes de alterar qualquer registro, anote o valor atual. Se algo der errado, basta voltar ao que estava."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela dos registros de DNS mais usados e para que cada um serve"
+    },
+    "faq": [
+      {
+        "pergunta": "DNS e hospedagem são a mesma coisa?",
+        "resposta": "Não. A hospedagem guarda o site. O DNS apenas diz onde ele está. Você pode ter o DNS em um lugar e a hospedagem em outro, desde que os registros apontem para o servidor certo."
+      },
+      {
+        "pergunta": "Por que o e-mail parou depois de mexer no DNS?",
+        "resposta": "Provavelmente o registro MX foi apagado ou alterado ao trocar o endereço do site. Ao mudar a hospedagem, copie também os registros de e-mail para a nova configuração de DNS."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "DNS — Registro.br",
+        "url": "https://registro.br/tecnologia/dns/",
+        "orgao": "Registro.br",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "DNS — Glossário",
+        "url": "https://developer.mozilla.org/en-US/docs/Glossary/DNS",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "DNS",
+      "sigla": "DNS",
+      "exemploPratico": "Uma distribuidora de peças muda o site para um servidor novo. O técnico troca o registro A do domínio para o novo endereço, mas, sem perceber, apaga o registro MX junto. O site funciona, mas os e-mails da equipe de vendas deixam de chegar por horas. A correção foi recriar o MX apontando para o serviço de e-mail e passar a anotar todos os registros antes de qualquer mudança.",
+      "termosRelacionados": [
+        "domínio",
+        "propagação de DNS",
+        "subdomínio",
+        "e-mail com domínio próprio"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-certificado-ssl",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é certificado ssl",
+    "consultasSecundarias": [
+      "para que serve certificado ssl",
+      "certificado ssl o que é e como funciona",
+      "site seguro certificado ssl"
+    ],
+    "title": "O que é certificado SSL: para que serve e como ter",
+    "description": "Veja o que é certificado SSL, como ele protege os dados de quem acessa seu site e como emitir ou renovar sem dor de cabeça.",
+    "h1": "O que é certificado SSL",
+    "respostaDireta": "Certificado SSL é um arquivo digital que confirma a identidade do seu site e permite que a conexão com o visitante seja criptografada. O que é um certificado SSL na prática? É o que faz o cadeado aparecer no navegador e o endereço começar com https.",
+    "secoes": [
+      {
+        "titulo": "O que ele protege",
+        "paragrafos": [
+          "Sem o certificado, os dados trafegam em texto aberto: quem estiver na mesma rede pode ler o que o visitante digita. Com ele, a conversa entre navegador e servidor fica embaralhada, e o navegador confere se o site é quem diz ser."
+        ],
+        "lista": [
+          "Formulários de contato e cadastro",
+          "Senhas de área restrita",
+          "Dados de pagamento em loja virtual",
+          "Identidade do site, evitando cópias falsas",
+          "Confiança do visitante, que vê o cadeado e não o aviso de site inseguro"
+        ]
+      },
+      {
+        "titulo": "Como obter e manter",
+        "paragrafos": [
+          "Muitas hospedagens emitem o certificado sem custo adicional, usando autoridades como a Let's Encrypt, e o renovam automaticamente. Certificados pagos oferecem validação da empresa e garantias extras, úteis em casos específicos.",
+          "O erro mais comum é deixar o certificado vencer. Quando isso acontece, o navegador bloqueia o acesso com um aviso assustador e o site perde visitas até a renovação."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Lista do que o certificado protege e cuidados na renovação"
+    },
+    "faq": [
+      {
+        "pergunta": "SSL e HTTPS são a mesma coisa?",
+        "resposta": "Quase. O certificado SSL (hoje, tecnicamente, TLS) é o arquivo que prova a identidade do site. HTTPS é o protocolo que usa esse certificado para criptografar a conexão. Na conversa do dia a dia, as pessoas usam os dois termos para o mesmo cadeado."
+      },
+      {
+        "pergunta": "Site sem formulário precisa de SSL?",
+        "resposta": "Precisa. Os navegadores marcam como \"não seguro\" qualquer site sem HTTPS, e o Google considera o HTTPS ao avaliar páginas. Mesmo um site só de apresentação ganha em confiança com o cadeado."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Como funciona o Let's Encrypt",
+        "url": "https://letsencrypt.org/pt-br/how-it-works/",
+        "orgao": "Let's Encrypt",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "SSL — Glossário",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Glossary/SSL",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "certificado SSL",
+      "sigla": "SSL",
+      "exemploPratico": "Uma loja de móveis tem site institucional com formulário de orçamento. Um dia, clientes reclamam que o navegador mostra \"Sua conexão não é particular\". O certificado venceu e ninguém foi avisado. A empresa liga para a hospedagem, que emite um novo em minutos, e passa a usar renovação automática. O prejuízo foram horas de visitas perdidas e dúvida sobre a segurança da loja.",
+      "termosRelacionados": [
+        "HTTPS",
+        "hospedagem de site",
+        "domínio",
+        "SEO técnico"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-https",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é https",
+    "consultasSecundarias": [
+      "https o que significa",
+      "diferença entre http e https",
+      "para que serve https"
+    ],
+    "title": "O que é HTTPS: diferença para HTTP",
+    "description": "Confira o que é HTTPS, a diferença para o HTTP comum e por que ter o cadeado no site importa para os visitantes e para o Google.",
+    "h1": "O que é HTTPS",
+    "respostaDireta": "HTTPS é a versão segura do protocolo que leva páginas da internet até o seu navegador. O que é HTTPS? É o HTTP com criptografia: os dados trocados entre o visitante e o seu site viajam embaralhados, e o endereço aparece com cadeado.",
+    "secoes": [
+      {
+        "titulo": "HTTP e HTTPS lado a lado",
+        "paragrafos": [
+          "A diferença é o S de \"secure\". Na prática, ele muda o que um estranho consegue ver."
+        ],
+        "tabela": {
+          "colunas": [
+            "",
+            "HTTP",
+            "HTTPS"
+          ],
+          "linhas": [
+            [
+              "Conexão",
+              "Texto aberto",
+              "Criptografada"
+            ],
+            [
+              "Cadeado no navegador",
+              "Não, aparece \"não seguro\"",
+              "Sim"
+            ],
+            [
+              "Exige certificado",
+              "Não",
+              "Sim"
+            ],
+            [
+              "Dados de formulário",
+              "Podem ser lidos na rede",
+              "Protegidos no caminho"
+            ],
+            [
+              "Preferido pelo Google",
+              "Não",
+              "Sim"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Passar o site para HTTPS",
+        "paragrafos": [
+          "Depois de instalar o certificado, é preciso garantir que todo acesso por HTTP seja redirecionado para HTTPS com um redirecionamento permanente. Verifique também se imagens e arquivos não estão sendo chamados por endereços antigos em HTTP, o que gera avisos de conteúdo misto."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Comparação entre HTTP e HTTPS e cuidados ao migrar"
+    },
+    "faq": [
+      {
+        "pergunta": "Ter HTTPS melhora meu posicionamento no Google?",
+        "resposta": "O Google usa o HTTPS como um dos sinais de experiência de página, de peso pequeno. O ganho maior é a confiança do visitante e a ausência do aviso de site inseguro, que afasta clientes."
+      },
+      {
+        "pergunta": "HTTPS deixa o site mais lento?",
+        "resposta": "A diferença hoje é mínima e, com protocolos modernos, o site costuma ficar tão rápido quanto antes. Servidor bem configurado e CDN reduzem qualquer custo adicional."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "HTTPS — Glossário",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Glossary/HTTPS",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Guia de otimização para mecanismos de pesquisa (SEO)",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "HTTPS",
+      "sigla": "HTTPS",
+      "exemploPratico": "Uma academia tem site com formulário de matrícula experimental e ainda abre em http. Clientes novos recebem o aviso \"não seguro\" ao preencher o nome e o telefone, e vários desistem. A academia instala o certificado, ativa o redirecionamento de http para https e corrige as imagens do banner que ainda chamavam o endereço antigo. O aviso some e o formulário volta a ser preenchido sem receio.",
+      "termosRelacionados": [
+        "certificado SSL",
+        "redirecionamento 301",
+        "SEO técnico",
+        "hospedagem de site"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-site-responsivo",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é site responsivo",
+    "consultasSecundarias": [
+      "o que é design responsivo",
+      "site responsivo significado",
+      "site adaptado para celular"
+    ],
+    "title": "O que é site responsivo: como funciona e por que importa",
+    "description": "Entenda o que é site responsivo, como ele se adapta a celular, tablet e computador e como testar se o seu site já funciona assim.",
+    "h1": "O que é site responsivo",
+    "respostaDireta": "Site responsivo é aquele que se ajusta automaticamente ao tamanho da tela, seja celular, tablet ou computador. O que é um site responsivo? É um único site com layout flexível: o texto, as imagens e os botões se reorganizam para continuar legíveis em qualquer aparelho.",
+    "secoes": [
+      {
+        "titulo": "Sinais de que o seu site não é responsivo",
+        "paragrafos": [
+          "Abra o site no celular e observe. Se algum destes problemas aparecer, ele precisa de ajuste."
+        ],
+        "lista": [
+          "É preciso dar zoom com os dedos para ler o texto",
+          "A página rola para o lado",
+          "Botões e links ficam muito pequenos ou muito juntos",
+          "Imagens cortadas ou maiores que a tela",
+          "Menu que não abre ou cobre o conteúdo",
+          "Formulário difícil de preencher com o polegar"
+        ]
+      },
+      {
+        "titulo": "Como ele funciona por baixo",
+        "paragrafos": [
+          "O site declara que deve usar a largura real da tela e aplica regras de estilo (CSS) que mudam conforme o tamanho disponível. Colunas viram uma só no celular, o menu vira um ícone e as imagens encolhem junto com a tela.",
+          "Isso importa também para o Google, que usa a versão para celular do seu site como base para indexar e posicionar as páginas."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Checklist de sinais de que um site não está adaptado ao celular"
+    },
+    "faq": [
+      {
+        "pergunta": "Site responsivo é o mesmo que aplicativo?",
+        "resposta": "Não. O site responsivo abre no navegador e se adapta à tela. O aplicativo é instalado no aparelho. Para a maioria das empresas pequenas, um bom site responsivo basta antes de pensar em app."
+      },
+      {
+        "pergunta": "Posso transformar meu site antigo em responsivo?",
+        "resposta": "Muitas vezes sim, ajustando o estilo e o layout. Em sites muito antigos, refazer sai mais barato e dá resultado melhor do que remendar. Um diagnóstico das páginas mais importantes mostra qual caminho vale a pena."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Fundamentos do design web responsivo",
+        "url": "https://web.dev/articles/responsive-web-design-basics",
+        "orgao": "web.dev",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Indexação mobile-first",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "site responsivo",
+      "exemploPratico": "Uma oficina mecânica tem um site feito há muitos anos para computador. No celular, o telefone está num cabeçalho minúsculo e o mapa é cortado. Quase todos os clientes chegam pelo celular, então a oficina refaz o layout: botão grande de ligar, endereço com link para o mapa e lista de serviços em uma coluna. As pessoas passam a encontrar o telefone sem esforço e a ligar direto da página.",
+      "termosRelacionados": [
+        "UX",
+        "UI",
+        "Core Web Vitals",
+        "site institucional"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-wordpress",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é wordpress",
+    "consultasSecundarias": [
+      "wordpress o que é e para que serve",
+      "o que é wordpress para iniciantes",
+      "wordpress é bom para empresas"
+    ],
+    "title": "O que é WordPress: para que serve e limitações",
+    "description": "Veja o que é WordPress, como funciona o sistema de páginas e plugins e quando ele atende bem uma empresa — e quando um site sob medida compensa.",
+    "h1": "O que é WordPress",
+    "respostaDireta": "WordPress é um sistema de gerenciamento de conteúdo (CMS) de código aberto, usado para criar e editar sites sem programar cada página. O que é WordPress? É um painel onde você escreve textos, troca imagens e instala recursos extras chamados plugins, enquanto o sistema monta as páginas.",
+    "secoes": [
+      {
+        "titulo": "Pontos fortes e pontos de atenção",
+        "paragrafos": [
+          "O WordPress é popular porque é flexível e tem muitos temas e plugins. A mesma flexibilidade traz responsabilidades: o sistema, os temas e os plugins precisam ser atualizados e protegidos."
+        ],
+        "tabela": {
+          "colunas": [
+            "Ponto forte",
+            "Ponto de atenção"
+          ],
+          "linhas": [
+            [
+              "Painel simples para editar textos",
+              "Atualizações constantes de núcleo, temas e plugins"
+            ],
+            [
+              "Muitos temas e plugins prontos",
+              "Plugins demais deixam o site lento e vulnerável"
+            ],
+            [
+              "Código aberto, sem licença do sistema",
+              "Segurança depende de quem mantém o site"
+            ],
+            [
+              "Fácil trocar de profissional",
+              "Tema pronto limita layouts muito específicos"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Quando vale a pena",
+        "paragrafos": [
+          "Para site institucional e blog com conteúdo que a equipe edita, costuma atender bem. Para sistemas com regras de negócio próprias, integrações pesadas ou desempenho crítico, uma solução sob medida tende a dar menos dor de cabeça. Veja também a página de alternativa ao WordPress aqui no site."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela de pontos fortes e pontos de atenção do WordPress para quem não é programador"
+    },
+    "faq": [
+      {
+        "pergunta": "WordPress é gratuito?",
+        "resposta": "O software em si é gratuito e de código aberto. Você paga pelo domínio, pela hospedagem e, às vezes, por temas, plugins premium e manutenção feita por um profissional."
+      },
+      {
+        "pergunta": "O site em WordPress é seguro?",
+        "resposta": "Pode ser, com atualizações em dia, senhas fortes, poucos plugins confiáveis e backup. Os ataques geralmente exploram plugins desatualizados, não o sistema em si. Manutenção regular é parte do custo."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Sobre o WordPress",
+        "url": "https://wordpress.org/about/",
+        "orgao": "WordPress.org",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Documentação do WordPress",
+        "url": "https://wordpress.org/documentation/",
+        "orgao": "WordPress.org",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "WordPress",
+      "exemploPratico": "Uma escola de idiomas quer um site com blog e agenda de turmas que a secretária atualize sozinha. Contrata um site em WordPress com tema simples, três plugins escolhidos e backup semanal. A secretária publica avisos e muda os horários pelo painel, sem chamar o técnico. A escola combina uma manutenção mensal para atualizar o sistema, porque plugins desatualizados são a porta de entrada de invasões.",
+      "termosRelacionados": [
+        "CMS",
+        "hospedagem de site",
+        "back-end",
+        "site institucional"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-cms",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é cms",
+    "consultasSecundarias": [
+      "cms significado",
+      "o que é um cms de site",
+      "cms exemplos"
+    ],
+    "title": "O que é CMS: gerenciador de conteúdo explicado",
+    "description": "Entenda o que é CMS, como ele separa o conteúdo do código e quais tipos existem. Veja quando um gerenciador de conteúdo ajuda a sua empresa.",
+    "h1": "O que é CMS",
+    "respostaDireta": "CMS é a sigla de Content Management System, um sistema para criar, editar e publicar o conteúdo de um site sem mexer no código. O que é um CMS? É o painel que deixa a equipe trocar textos, fotos e páginas por conta própria, enquanto o sistema cuida do layout.",
+    "secoes": [
+      {
+        "titulo": "Tipos de CMS",
+        "paragrafos": [
+          "Nem todo CMS funciona do mesmo jeito. A diferença está em onde o conteúdo fica e em quem monta a página."
+        ],
+        "tabela": {
+          "colunas": [
+            "Tipo",
+            "Como funciona",
+            "Quando considerar"
+          ],
+          "linhas": [
+            [
+              "Tradicional (ex.: WordPress)",
+              "Painel e site vivem no mesmo sistema",
+              "Site institucional e blog editados pela equipe"
+            ],
+            [
+              "Headless",
+              "Painel guarda o conteúdo; o site é outro programa",
+              "Sites rápidos e vários canais usando o mesmo conteúdo"
+            ],
+            [
+              "Em plataforma fechada",
+              "Hospedagem e editor vêm juntos",
+              "Quem quer começar rápido, aceitando limites"
+            ],
+            [
+              "Sob medida",
+              "Painel feito para as regras da empresa",
+              "Conteúdo com fluxo próprio, como catálogo técnico"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Perguntas antes de escolher",
+        "paragrafos": [
+          "Quem vai editar o site? Com que frequência? O conteúdo precisa de aprovação antes de ir ao ar? As respostas pesam mais do que a moda do momento. Um CMS complexo para quem muda uma foto por ano é exagero; um site estático com ajuda de profissional pode bastar."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela dos tipos de CMS com o cenário em que cada um faz sentido"
+    },
+    "faq": [
+      {
+        "pergunta": "Todo site precisa de CMS?",
+        "resposta": "Não. Um site que muda raramente pode ser entregue pronto, com alterações feitas por quem o desenvolveu. O CMS compensa quando a própria equipe publica conteúdo com frequência."
+      },
+      {
+        "pergunta": "CMS e sistema de gestão são a mesma coisa?",
+        "resposta": "Não. O CMS gerencia o conteúdo de um site. O sistema de gestão (ERP, CRM) controla processos internos, como vendas, estoque e financeiro. Os dois podem se conectar, mas têm objetivos diferentes."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "CMS — Glossário",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Glossary/CMS",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Sobre o WordPress",
+        "url": "https://wordpress.org/about/",
+        "orgao": "WordPress.org",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "CMS",
+      "sigla": "CMS",
+      "exemploPratico": "Uma imobiliária pequena publica novos imóveis toda semana. Com um site feito à mão, cada anúncio dependia do programador. Ao adotar um CMS com campos para preço, bairro, metragem e fotos, a corretora cadastra o imóvel em minutos e ele aparece na vitrine e na busca interna. O programador agora só cuida da estrutura, e a equipe do negócio cuida do conteúdo.",
+      "termosRelacionados": [
+        "WordPress",
+        "site estático",
+        "back-end",
+        "front-end"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-html",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é html",
+    "consultasSecundarias": [
+      "html significado",
+      "para que serve o html",
+      "o que é html e css"
+    ],
+    "title": "O que é HTML: a base de todo site",
+    "description": "Veja o que é HTML, como essa linguagem estrutura títulos, textos e links de um site e por que ela importa para o Google e para a acessibilidade.",
+    "h1": "O que é HTML",
+    "respostaDireta": "HTML é a linguagem que define a estrutura de uma página web: títulos, parágrafos, imagens, links e formulários. O que é HTML? É o esqueleto de qualquer site. O navegador lê o HTML e monta a página, e os buscadores o usam para entender do que ela trata.",
+    "secoes": [
+      {
+        "titulo": "Elementos que você já viu",
+        "paragrafos": [
+          "O HTML usa marcações chamadas tags. Cada uma descreve o papel de um pedaço do conteúdo, e não a aparência, que fica por conta do CSS."
+        ],
+        "tabela": {
+          "colunas": [
+            "Tag",
+            "Função",
+            "Por que importa"
+          ],
+          "linhas": [
+            [
+              "h1, h2, h3",
+              "Títulos e subtítulos",
+              "Organizam o assunto e ajudam leitores de tela"
+            ],
+            [
+              "p",
+              "Parágrafo de texto",
+              "Base do conteúdo"
+            ],
+            [
+              "a",
+              "Link para outra página",
+              "Permite navegar e ligar páginas do mesmo site"
+            ],
+            [
+              "img com alt",
+              "Imagem com texto alternativo",
+              "Acessibilidade e busca por imagens"
+            ],
+            [
+              "title",
+              "Título da página na aba",
+              "Aparece nos resultados do Google"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "HTML bem escrito ajuda o negócio",
+        "paragrafos": [
+          "Usar o título certo no lugar certo, descrever imagens e não depender só de cor para passar informação melhora a leitura para todos. É um dos pilares da acessibilidade e do SEO técnico, e não custa mais caro quando é feito desde o início."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela de tags HTML comuns com a função e o benefício de cada uma"
+    },
+    "faq": [
+      {
+        "pergunta": "HTML é linguagem de programação?",
+        "resposta": "Não exatamente. É uma linguagem de marcação: descreve a estrutura do conteúdo, mas não toma decisões nem faz cálculos. Para comportamento, usa-se JavaScript; para aparência, CSS."
+      },
+      {
+        "pergunta": "Preciso saber HTML para ter um site?",
+        "resposta": "Não. Quem edita pelo painel de um CMS raramente vê o HTML. Mas saber que ele existe ajuda a conversar com o desenvolvedor e a perceber quando algo básico, como o título da página, está errado."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Começando com HTML",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Getting_started",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "HTML e CSS — padrões web",
+        "url": "https://www.w3.org/standards/webdesign/htmlcss",
+        "orgao": "W3C",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "HTML",
+      "sigla": "HTML",
+      "exemploPratico": "Uma floricultura tem um site em que o nome de cada produto está numa imagem, e não em texto. Nem o Google nem um leitor de tela conseguem ler. Ao refazer a página com títulos reais (h2 para cada categoria), texto em parágrafos e descrição nas fotos, o site passa a ser entendido pelos buscadores e fica utilizável para quem tem deficiência visual, sem mudar o visual para o cliente.",
+      "termosRelacionados": [
+        "CSS",
+        "JavaScript",
+        "acessibilidade web (WCAG)",
+        "SEO on-page"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-css",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é css",
+    "consultasSecundarias": [
+      "css significado",
+      "para que serve css",
+      "diferença entre html e css"
+    ],
+    "title": "O que é CSS: o visual do site explicado",
+    "description": "Entenda o que é CSS, como ele define cores, fontes e layout de um site e qual a diferença para HTML. Veja um exemplo do dia a dia de empresa.",
+    "h1": "O que é CSS",
+    "respostaDireta": "CSS é a linguagem que define a aparência de um site: cores, fontes, espaçamentos e posição dos elementos. O que é CSS? Enquanto o HTML monta a estrutura da página, o CSS é o acabamento, e é ele quem faz o mesmo site parecer diferente no celular e no computador.",
+    "secoes": [
+      {
+        "titulo": "O que o CSS controla",
+        "paragrafos": [
+          "Um único arquivo de estilos pode mudar a aparência de centenas de páginas de uma vez. Por isso, trocar a cor da marca no CSS atualiza o site inteiro."
+        ],
+        "lista": [
+          "Cores de fundo, textos e botões",
+          "Tipo e tamanho de letra",
+          "Espaço entre elementos e margens",
+          "Disposição em colunas e grades",
+          "Adaptação a telas diferentes (site responsivo)",
+          "Animações discretas, como o efeito ao passar o mouse"
+        ]
+      },
+      {
+        "titulo": "HTML, CSS e JavaScript juntos",
+        "paragrafos": [
+          "Os três trabalham em equipe. O HTML diz o que é cada coisa, o CSS diz como parece e o JavaScript diz como se comporta. Um site que mistura tudo no mesmo lugar fica difícil de manter, e é aí que um desenvolvedor organizado faz diferença."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário em que a troca de uma cor no CSS atualiza o site inteiro"
+    },
+    "faq": [
+      {
+        "pergunta": "Posso mudar o visual do site sem mexer no CSS?",
+        "resposta": "Em muitos CMS sim, pelo personalizador de tema. Ele altera o CSS por trás, de forma guiada. Mudanças mais profundas de layout normalmente exigem editar o CSS diretamente."
+      },
+      {
+        "pergunta": "CSS influencia a velocidade do site?",
+        "resposta": "Influencia. Arquivos de estilo pesados ou carregados de forma bloqueante atrasam a exibição da página. Um desenvolvedor cuida disso ao reduzir e organizar o CSS enviado ao visitante."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "O que é CSS?",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/What_is_CSS",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "HTML e CSS — padrões web",
+        "url": "https://www.w3.org/standards/webdesign/htmlcss",
+        "orgao": "W3C",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "CSS",
+      "sigla": "CSS",
+      "exemploPratico": "Uma rede de três lojas de calçados decide mudar o tom de verde do logotipo. Com o site bem estruturado, o desenvolvedor altera a cor numa única linha do CSS, e botões, títulos e rodapé de todas as páginas passam ao novo tom no mesmo dia. Num site em que a cor foi colocada manualmente em cada página, a mesma troca levaria dias e deixaria páginas esquecidas na cor antiga.",
+      "termosRelacionados": [
+        "HTML",
+        "JavaScript",
+        "front-end",
+        "UI"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-javascript",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é javascript",
+    "consultasSecundarias": [
+      "javascript para que serve",
+      "o que é javascript em site",
+      "diferença entre java e javascript"
+    ],
+    "title": "O que é JavaScript: o que faz num site",
+    "description": "Veja o que é JavaScript, como ele dá interação ao site e o cuidado que o Google exige para ler páginas que dependem dele. Confira um exemplo.",
+    "h1": "O que é JavaScript",
+    "respostaDireta": "JavaScript é a linguagem de programação que deixa um site interativo: menus que abrem, formulários que validam, mapas, carrinhos e atualizações sem recarregar a página. O que é JavaScript? É a parte do site que reage ao que o visitante faz, e roda no próprio navegador.",
+    "secoes": [
+      {
+        "titulo": "O que ele faz no site",
+        "paragrafos": [
+          "O JavaScript executa no aparelho do visitante e muda a página depois que ela carregou."
+        ],
+        "tabela": {
+          "colunas": [
+            "Recurso",
+            "Exemplo no dia a dia"
+          ],
+          "linhas": [
+            [
+              "Validação de formulário",
+              "Avisa que o e-mail está incompleto antes de enviar"
+            ],
+            [
+              "Interface dinâmica",
+              "Menu que abre, galeria de fotos que passa sozinha"
+            ],
+            [
+              "Carregar dados",
+              "Mostrar o frete sem recarregar a página"
+            ],
+            [
+              "Medição",
+              "Código do Google Analytics registrando eventos"
+            ],
+            [
+              "Integrações",
+              "Botão que abre o WhatsApp com mensagem pronta"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "JavaScript e Google",
+        "paragrafos": [
+          "O Google consegue executar JavaScript, mas o processo é mais lento e pode falhar. Se o conteúdo principal só aparece depois de um script rodar, a indexação fica mais frágil. A regra prática é entregar o texto essencial já no HTML e usar o JavaScript para melhorar a experiência."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela de recursos que o JavaScript entrega num site e um cuidado de SEO"
+    },
+    "faq": [
+      {
+        "pergunta": "JavaScript é a mesma coisa que Java?",
+        "resposta": "Não. Apesar do nome parecido, são linguagens diferentes, com usos diferentes. O JavaScript roda principalmente no navegador; o Java aparece mais em sistemas corporativos e aplicativos Android."
+      },
+      {
+        "pergunta": "Um site pode funcionar sem JavaScript?",
+        "resposta": "Pode, se for simples: páginas de texto e imagens abrem normalmente. Mas formulários melhores, menus móveis, carrinhos e quase todo recurso interativo dependem dele."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "O que é JavaScript?",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Noções básicas de SEO para JavaScript",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "JavaScript",
+      "exemploPratico": "Uma loja de colchões coloca no site um calculador de frete. O cliente digita o CEP e o valor aparece na hora, sem recarregar a página, graças a um script que consulta o serviço da transportadora. Mas o texto descritivo dos produtos também só era montado por script, e o Google demorava a enxergá-lo. A loja passou a enviar essa descrição já pronta no HTML, e manteve o script só para o frete.",
+      "termosRelacionados": [
+        "HTML",
+        "CSS",
+        "front-end",
+        "SEO técnico"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-front-end",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é front-end",
+    "consultasSecundarias": [
+      "o que é front end",
+      "front-end significado",
+      "front-end e back-end diferença"
+    ],
+    "title": "O que é front-end: a parte do site que o cliente vê",
+    "description": "Entenda o que é front-end, quais tecnologias ele usa e como se diferencia do back-end. Veja por que ele afeta velocidade e conversão do site.",
+    "h1": "O que é front-end",
+    "respostaDireta": "Front-end é a parte de um site ou aplicativo que o visitante vê e usa: layout, botões, textos, menus e formulários. O que é front-end? É tudo o que roda no navegador, construído com HTML, CSS e JavaScript, e que define a primeira impressão e a facilidade de uso.",
+    "secoes": [
+      {
+        "titulo": "Front-end na prática",
+        "paragrafos": [
+          "Quando você abre o site de uma empresa e clica em um botão, quem responde é o front-end. Ele recebe os dados do back-end, deixa tudo apresentável e envia de volta o que a pessoa digitou."
+        ],
+        "tabela": {
+          "colunas": [
+            "Responsabilidade do front-end",
+            "Efeito para o negócio"
+          ],
+          "linhas": [
+            [
+              "Layout e identidade visual",
+              "Passa confiança logo de cara"
+            ],
+            [
+              "Adaptação ao celular",
+              "Mais gente consegue usar o site"
+            ],
+            [
+              "Velocidade de carregamento",
+              "Menos desistência antes de ver a página"
+            ],
+            [
+              "Formulários e botões claros",
+              "Mais contatos e vendas"
+            ],
+            [
+              "Acessibilidade",
+              "Inclui quem usa leitor de tela ou teclado"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Quem faz",
+        "paragrafos": [
+          "Pode ser um profissional especializado em interface ou um desenvolvedor full-stack, que cuida do front-end e do back-end. Em projetos de pequena empresa, uma só pessoa costuma cobrir os dois lados, o que simplifica a comunicação."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela relacionando cada tarefa do front-end ao efeito para o negócio"
+    },
+    "faq": [
+      {
+        "pergunta": "Front-end é só design?",
+        "resposta": "Não. O design define como o site deve parecer; o front-end o transforma em código que funciona de verdade no navegador, com interação, adaptação a telas e desempenho. Os dois trabalhos se complementam."
+      },
+      {
+        "pergunta": "Preciso de um profissional só para front-end?",
+        "resposta": "Para projetos pequenos, normalmente não. Um desenvolvedor que domina front-end e back-end atende bem. Equipes especializadas aparecem em produtos maiores, com muito foco em interface."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Programação server-side: introdução",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/First_steps/Introduction",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "HTML e CSS — padrões web",
+        "url": "https://www.w3.org/standards/webdesign/htmlcss",
+        "orgao": "W3C",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "front-end",
+      "exemploPratico": "Uma empresa de manutenção de elevadores tem um formulário de chamado técnico que não funciona direito no celular: os campos saem da tela e o botão de enviar fica escondido. O problema é de front-end, e não do sistema que recebe os chamados. Ajustando o layout e os campos, o formulário passa a caber na tela do técnico que abre o chamado dentro do prédio do cliente.",
+      "termosRelacionados": [
+        "back-end",
+        "HTML",
+        "CSS",
+        "UX"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-back-end",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é back-end",
+    "consultasSecundarias": [
+      "o que é back end",
+      "back-end significado",
+      "o que faz um desenvolvedor back-end"
+    ],
+    "title": "O que é back-end: os bastidores do site e do sistema",
+    "description": "Veja o que é back-end, o que acontece nos bastidores de um site ou sistema e como ele guarda dados, calcula preços e conversa com outros serviços.",
+    "h1": "O que é back-end",
+    "respostaDireta": "Back-end é a parte de um site ou sistema que o usuário não vê: o servidor, o banco de dados e as regras de negócio. O que é back-end? É o que guarda e processa as informações, como pedidos, cadastros e preços, e as entrega ao front-end quando ele pede.",
+    "secoes": [
+      {
+        "titulo": "O que roda no back-end",
+        "paragrafos": [
+          "Sempre que o visitante faz algo que precisa de memória ou de uma decisão, o front-end envia um pedido ao back-end, que responde com o resultado."
+        ],
+        "lista": [
+          "Banco de dados com clientes, produtos e pedidos",
+          "Regras de negócio, como desconto por quantidade",
+          "Login e controle de quem pode ver o quê",
+          "Integração com meios de pagamento, ERP e WhatsApp",
+          "Envio de e-mails e notificações automáticas",
+          "Rotinas agendadas, como relatórios noturnos"
+        ]
+      },
+      {
+        "titulo": "Quando o site não precisa de back-end próprio",
+        "paragrafos": [
+          "Um site institucional simples pode funcionar só com arquivos prontos, sem back-end próprio, ou usar o de um CMS. O back-end passa a ser indispensável quando há login, cadastro, painel interno, pagamento ou qualquer dado que muda a cada acesso."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Lista do que roda no back-end e quando o site precisa dele"
+    },
+    "faq": [
+      {
+        "pergunta": "Back-end e servidor são a mesma coisa?",
+        "resposta": "Não. O servidor é o computador, a máquina. O back-end é o programa que roda nele e executa as regras do negócio. Um mesmo servidor pode abrigar vários back-ends."
+      },
+      {
+        "pergunta": "Um site de apresentação precisa de back-end?",
+        "resposta": "Em geral, não. Páginas fixas dispensam. Se tiver um formulário que envia e-mail, ele pode usar um serviço pronto. Back-end próprio passa a valer a pena com cadastros, painel, pedidos ou integrações."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Programação server-side: introdução",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/First_steps/Introduction",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Segurança de sites",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/First_steps/Website_security",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "back-end",
+      "exemploPratico": "Uma distribuidora de bebidas recebe pedidos por um portal. O cliente vê no front-end a lista de produtos e monta o pedido. O back-end confere o limite de crédito, aplica a tabela de preço daquele cliente, baixa o estoque e envia o pedido ao ERP. Se o cliente tem título vencido, o back-end bloqueia o pedido e avisa o vendedor, tudo sem ninguém abrir planilha.",
+      "termosRelacionados": [
+        "front-end",
+        "servidor web",
+        "hospedagem de site",
+        "CMS"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-servidor-web",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é servidor web",
+    "consultasSecundarias": [
+      "o que é um servidor web",
+      "servidor de site o que é",
+      "como funciona um servidor web"
+    ],
+    "title": "O que é servidor web: como entrega o seu site",
+    "description": "Entenda o que é servidor web, como ele entrega páginas ao navegador e como isso se relaciona com hospedagem, VPS e disponibilidade do seu site.",
+    "h1": "O que é servidor web",
+    "respostaDireta": "Servidor web é um computador, ou um programa nele, que guarda os arquivos de um site e os entrega ao navegador quando alguém pede. O que é um servidor web? É quem responde ao visitante: o navegador pergunta, e o servidor devolve a página.",
+    "secoes": [
+      {
+        "titulo": "O caminho de uma visita",
+        "paragrafos": [
+          "Em poucos instantes acontece uma sequência que o visitante nem percebe."
+        ],
+        "lista": [
+          "O visitante digita o endereço do site no navegador",
+          "O DNS informa em que servidor o site está",
+          "O navegador faz o pedido ao servidor web",
+          "O servidor localiza a página, ou pede ao back-end para montá-la",
+          "O servidor devolve o conteúdo e o navegador o exibe"
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Servidor físico, VPS e nuvem",
+        "paragrafos": [
+          "A empresa raramente tem servidor próprio no escritório. O comum é alugar espaço de um provedor, em plano compartilhado, VPS ou nuvem. O que muda é quanta capacidade você tem garantida e quem cuida da manutenção. Para o dono do negócio, a pergunta útil é quanto tempo o site fica no ar e quem resolve quando cai."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Passo a passo de uma visita ao site, do navegador ao servidor"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso comprar um servidor para ter site?",
+        "resposta": "Não. Basta contratar hospedagem, que já inclui o servidor. Servidor próprio só faz sentido em casos específicos, como sistemas internos com exigências de segurança, e exige equipe para cuidar dele."
+      },
+      {
+        "pergunta": "O que significa o servidor estar fora do ar?",
+        "resposta": "Significa que o computador que entrega o site não está respondendo, por falha, manutenção ou excesso de acessos. Enquanto isso, o visitante vê erro ou lentidão. Por isso se contrata hospedagem com compromisso de disponibilidade."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "O que é um servidor web?",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Como a web funciona",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/How_the_Web_works",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "servidor web",
+      "exemploPratico": "Uma loja de ração anuncia uma promoção num sábado e o site fica lento. Muitos visitantes chegam ao mesmo tempo e o servidor, que está num plano compartilhado, não dá conta. A loja migra para um plano com recursos reservados e passa a monitorar o tempo de resposta. Na promoção seguinte, as páginas continuam abrindo rápido, e o pedido chega mesmo com mais gente acessando.",
+      "termosRelacionados": [
+        "hospedagem de site",
+        "VPS",
+        "uptime",
+        "back-end"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-cdn",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é cdn",
+    "consultasSecundarias": [
+      "cdn significado",
+      "para que serve cdn",
+      "cdn site mais rápido"
+    ],
+    "title": "O que é CDN: rede que acelera o seu site",
+    "description": "Veja o que é CDN, como essa rede de servidores aproxima o site do visitante e quando ela ajuda a acelerar páginas, imagens e vídeos.",
+    "h1": "O que é CDN",
+    "respostaDireta": "CDN é uma rede de servidores espalhados pelo mundo que guarda cópias do seu site e entrega cada visita pelo ponto mais próximo. O que é CDN? Sigla de Content Delivery Network, é o recurso que reduz a distância entre o visitante e os arquivos, deixando as páginas mais rápidas.",
+    "secoes": [
+      {
+        "titulo": "Com e sem CDN",
+        "paragrafos": [
+          "Sem CDN, todo visitante busca os arquivos no mesmo servidor, onde quer que esteja. Com CDN, os arquivos que mudam pouco ficam copiados em vários pontos."
+        ],
+        "tabela": {
+          "colunas": [
+            "",
+            "Sem CDN",
+            "Com CDN"
+          ],
+          "linhas": [
+            [
+              "De onde vêm as imagens",
+              "Sempre do servidor principal",
+              "Do ponto mais próximo do visitante"
+            ],
+            [
+              "Carga no servidor principal",
+              "Alta",
+              "Menor, pois a CDN responde por parte dos pedidos"
+            ],
+            [
+              "Pico de visitas",
+              "Pode derrubar o site",
+              "Absorvido pela rede"
+            ],
+            [
+              "Configuração",
+              "Nenhuma",
+              "Ajuste de DNS e regras de cache"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Quando vale a pena",
+        "paragrafos": [
+          "Sites com muitas imagens, vídeos ou público espalhado pelo país se beneficiam mais. Para um site local, de poucas páginas, o ganho existe, mas costuma ser pequeno. Muitas hospedagens já incluem uma CDN no plano, então vale perguntar antes de contratar outra."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela comparando o site com e sem CDN"
+    },
+    "faq": [
+      {
+        "pergunta": "CDN substitui a hospedagem?",
+        "resposta": "Não. A hospedagem guarda a versão original do site. A CDN guarda cópias para entregar mais rápido. Os dois trabalham juntos, e o site continua precisando de um servidor de origem."
+      },
+      {
+        "pergunta": "CDN ajuda no Google?",
+        "resposta": "Indiretamente. Um site mais rápido melhora a experiência e as métricas de carregamento que o Google observa. Ela não é um fator mágico de posicionamento, mas ajuda onde a lentidão vem da distância."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Redes de entrega de conteúdo (CDN)",
+        "url": "https://web.dev/articles/content-delivery-networks",
+        "orgao": "web.dev",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "CDN — Glossário",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Glossary/CDN",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "CDN",
+      "sigla": "CDN",
+      "exemploPratico": "Uma fábrica de móveis do interior do Rio Grande do Sul vende para todo o Brasil, e o catálogo tem muitas fotos grandes. Para quem acessa do Nordeste, o site carregava devagar. Ao ativar uma CDN, as imagens passaram a ser entregues por pontos mais próximos de cada região. O servidor de origem continuou o mesmo, mas a página do catálogo passou a abrir mais rápido para quem estava longe.",
+      "termosRelacionados": [
+        "cache",
+        "hospedagem de site",
+        "Core Web Vitals",
+        "servidor web"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-cache",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é cache",
+    "consultasSecundarias": [
+      "cache o que é",
+      "limpar cache do site",
+      "para que serve o cache"
+    ],
+    "title": "O que é cache: memória que acelera o site",
+    "description": "Veja o que é cache, como ele guarda cópias para o site abrir mais rápido e quando limpar para que uma alteração apareça na hora para o cliente.",
+    "h1": "O que é cache",
+    "respostaDireta": "Cache é uma cópia guardada de algo já carregado, para que da próxima vez o site abra mais rápido. O que é cache? É uma memória de curto prazo: em vez de buscar a imagem ou a página de novo no servidor, o navegador ou a CDN reaproveita a cópia que já tem.",
+    "secoes": [
+      {
+        "titulo": "Onde o cache mora",
+        "paragrafos": [
+          "Pode haver cache em vários pontos do caminho entre o servidor e o visitante, e cada um tem seu prazo de validade."
+        ],
+        "tabela": {
+          "colunas": [
+            "Onde",
+            "O que guarda",
+            "Quem controla"
+          ],
+          "linhas": [
+            [
+              "Navegador do visitante",
+              "Imagens, estilos e scripts",
+              "Cabeçalhos enviados pelo site"
+            ],
+            [
+              "CDN",
+              "Cópias do site em vários pontos",
+              "Regras da CDN"
+            ],
+            [
+              "Servidor",
+              "Páginas já montadas",
+              "Plugin ou configuração do servidor"
+            ],
+            [
+              "Banco de dados",
+              "Resultados de consultas repetidas",
+              "Back-end do sistema"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Por que a mudança às vezes não aparece",
+        "paragrafos": [
+          "Você troca o preço no painel, mas o site continua mostrando o antigo. Quase sempre é cache: uma cópia antiga ainda está valendo. A solução é limpar o cache do plugin, da CDN e, se preciso, do navegador. Quem mantém o site deve saber em que pontos ele existe."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela dos pontos de cache entre o servidor e o visitante, útil para entender por que uma alteração não aparece"
+    },
+    "faq": [
+      {
+        "pergunta": "Limpar o cache apaga o meu site?",
+        "resposta": "Não. Limpar o cache só descarta as cópias temporárias. Na próxima visita, o site é carregado de novo a partir do servidor, ficando atualizado. Nenhum conteúdo seu é perdido."
+      },
+      {
+        "pergunta": "Devo usar cache em todos os sites?",
+        "resposta": "Quase sempre vale. Páginas que mudam a cada visita, como carrinho e área do cliente, precisam de regras próprias para não mostrar dados desatualizados. O desenvolvedor define o que pode e o que não pode ser guardado."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Cache HTTP",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Guides/Caching",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Prevenir requisições de rede desnecessárias com o cache HTTP",
+        "url": "https://web.dev/articles/http-cache",
+        "orgao": "web.dev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "cache",
+      "exemploPratico": "Uma loja de cosméticos reduz o preço de um produto no painel, mas as clientes continuam vendo o valor antigo por horas, porque a página estava guardada em cache pelo plugin e pela CDN. A equipe aprende a limpar o cache depois de mudanças de preço e passa a configurar o prazo curto para páginas de produto. O valor novo passa a aparecer logo após a alteração.",
+      "termosRelacionados": [
+        "CDN",
+        "servidor web",
+        "Core Web Vitals",
+        "WordPress"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-sitemap",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é sitemap",
+    "consultasSecundarias": [
+      "sitemap xml o que é",
+      "para que serve o sitemap",
+      "como criar sitemap do site"
+    ],
+    "title": "O que é sitemap: o mapa do site para o Google",
+    "description": "Veja o que é sitemap, como esse arquivo lista as páginas do seu site para o Google e como enviá-lo pelo Search Console em poucos passos.",
+    "h1": "O que é sitemap",
+    "respostaDireta": "Sitemap é um arquivo que lista as páginas e os arquivos importantes de um site para os buscadores. O que é sitemap? É um mapa que você entrega ao Google para ajudá-lo a encontrar e rastrear as suas páginas, especialmente as novas ou mal ligadas por links.",
+    "secoes": [
+      {
+        "titulo": "Para que ele serve de verdade",
+        "paragrafos": [
+          "O sitemap não garante a indexação nem melhora sozinho o posicionamento. Ele ajuda o Google a descobrir páginas, sobretudo em sites grandes, novos ou com poucos links entre as páginas."
+        ],
+        "tabela": {
+          "colunas": [
+            "Situação",
+            "O sitemap ajuda?"
+          ],
+          "linhas": [
+            [
+              "Site novo, com poucos links externos",
+              "Sim, acelera a descoberta"
+            ],
+            [
+              "Site grande, com muitas páginas",
+              "Sim, aponta o que é importante"
+            ],
+            [
+              "Site pequeno, bem ligado entre si",
+              "Pouco, mas não atrapalha"
+            ],
+            [
+              "Página bloqueada ou com noindex",
+              "Não, e ela nem deveria estar no mapa"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como enviar",
+        "paragrafos": [
+          "Um site feito em CMS costuma gerar o sitemap sozinho, num endereço como /sitemap.xml. Depois de conferir que ele abre, envie-o no Google Search Console, na seção de sitemaps. Mantenha só páginas que devem aparecer no Google e atualize quando criar conteúdo novo."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela de situações em que o sitemap faz diferença e quando é dispensável"
+    },
+    "faq": [
+      {
+        "pergunta": "Sitemap e robots.txt são a mesma coisa?",
+        "resposta": "Não. O sitemap diz ao Google quais páginas existem e merecem ser rastreadas. O robots.txt diz quais áreas os rastreadores não devem acessar. O robots.txt pode, inclusive, indicar o endereço do sitemap."
+      },
+      {
+        "pergunta": "Todo site precisa de sitemap?",
+        "resposta": "Não é obrigatório. O Google consegue achar páginas seguindo links. Mas para um site de empresa que cria conteúdo novo, é uma ajuda barata e fácil de manter."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Visão geral de sitemaps",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Sobre o Google Search Console",
+        "url": "https://support.google.com/webmasters/answer/9128668?hl=pt-BR",
+        "orgao": "Google",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "sitemap",
+      "exemploPratico": "Uma clínica de fisioterapia publica um artigo novo por semana, mas as páginas demoram a aparecer no Google. A recepcionista descobre que o site tem um arquivo sitemap.xml gerado automaticamente, mas ele nunca foi enviado ao Search Console. Ao cadastrar o endereço lá, o Google passa a ler a lista, e a equipe acompanha quais páginas foram encontradas e quais ficaram de fora e por quê.",
+      "termosRelacionados": [
+        "robots.txt",
+        "indexação",
+        "Google Search Console",
+        "rastreador (crawler)"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-robots-txt",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é robots.txt",
+    "consultasSecundarias": [
+      "para que serve o robots.txt",
+      "robots txt como criar",
+      "robots.txt bloqueia o google"
+    ],
+    "title": "O que é robots.txt: o que faz e o que não faz",
+    "description": "Veja o que é robots.txt, como ele orienta rastreadores e por que não serve para esconder páginas do Google. Confira exemplos de regras.",
+    "h1": "O que é robots.txt",
+    "respostaDireta": "Robots.txt é um arquivo de texto na raiz do site que diz aos rastreadores quais áreas eles podem ou não acessar. O que é robots.txt? É o aviso na porta: serve para controlar o rastreamento, e não para tirar uma página do Google, o que exige a marcação noindex.",
+    "secoes": [
+      {
+        "titulo": "Regras básicas",
+        "paragrafos": [
+          "O arquivo fica em empresa.com.br/robots.txt e usa poucas diretivas."
+        ],
+        "tabela": {
+          "colunas": [
+            "Diretiva",
+            "Significado",
+            "Exemplo"
+          ],
+          "linhas": [
+            [
+              "User-agent",
+              "A quem a regra se aplica",
+              "User-agent: * (todos)"
+            ],
+            [
+              "Disallow",
+              "Caminho que não deve ser rastreado",
+              "Disallow: /admin/"
+            ],
+            [
+              "Allow",
+              "Exceção dentro de uma área bloqueada",
+              "Allow: /admin/ajuda/"
+            ],
+            [
+              "Sitemap",
+              "Endereço do mapa do site",
+              "Sitemap: https://empresa.com.br/sitemap.xml"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O erro que derruba sites",
+        "paragrafos": [
+          "Uma única linha mal escrita, como Disallow: /, bloqueia o site inteiro. Isso acontece quando o site de testes, que costuma ser bloqueado, vai para produção com o mesmo arquivo. Depois de qualquer mudança, teste no Search Console. E lembre: se uma página bloqueada tiver links vindos de fora, o endereço ainda pode aparecer no Google, sem descrição."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela das diretivas do robots.txt com exemplos e o erro mais comum"
+    },
+    "faq": [
+      {
+        "pergunta": "Robots.txt esconde a página do Google?",
+        "resposta": "Não de forma confiável. Ele impede o rastreamento, mas a URL ainda pode ser indexada se houver links para ela. Para tirar uma página dos resultados, use a marcação noindex e deixe o rastreador acessá-la."
+      },
+      {
+        "pergunta": "Todo site precisa de robots.txt?",
+        "resposta": "Não. Sem o arquivo, os rastreadores podem acessar tudo. Ele é útil para bloquear áreas sem valor para a busca, como painéis e resultados de busca interna, e para apontar o sitemap."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Introdução ao robots.txt",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/robots/intro",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Bloquear a indexação com noindex",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/block-indexing",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "robots.txt",
+      "exemploPratico": "Uma construtora lança uma versão nova do site e, de repente, desaparece do Google. A equipe descobre que o arquivo robots.txt do ambiente de testes, com a regra que bloqueia tudo, foi copiado para o site publicado. O desenvolvedor corrige a linha, confere o arquivo no Search Console e pede nova leitura. Os rastreadores voltam a acessar as páginas e o site retorna aos resultados.",
+      "termosRelacionados": [
+        "sitemap",
+        "rastreador (crawler)",
+        "indexação",
+        "SEO técnico"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-erro-404",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é erro 404",
+    "consultasSecundarias": [
+      "erro 404 o que significa",
+      "página não encontrada 404",
+      "como corrigir erro 404 no site"
+    ],
+    "title": "O que é erro 404: página não encontrada",
+    "description": "Veja o que é erro 404, por que ele aparece, se prejudica o Google e como montar uma página de erro útil que mantém o visitante no seu site.",
+    "h1": "O que é erro 404",
+    "respostaDireta": "Erro 404 é a resposta que o servidor dá quando a página pedida não existe no endereço informado. O que é erro 404? É o aviso de página não encontrada, causado por link quebrado, endereço digitado errado ou página apagada, e que deve ser tratado com um redirecionamento ou uma página de erro útil.",
+    "secoes": [
+      {
+        "titulo": "De onde vem o 404",
+        "paragrafos": [
+          "Quase sempre é consequência de uma mudança no site que ninguém acompanhou."
+        ],
+        "lista": [
+          "Página apagada ou com o endereço alterado",
+          "Link interno com erro de digitação",
+          "Link de outro site apontando para um endereço antigo",
+          "Site refeito sem redirecionar as URLs antigas",
+          "Visitante que digitou o endereço errado"
+        ]
+      },
+      {
+        "titulo": "Prejudica o Google?",
+        "paragrafos": [
+          "Alguns erros 404 são normais e não penalizam o site: o Google entende que a página deixou de existir. O problema aparece quando páginas importantes, com links e visitas, passam a dar 404. Nesse caso, o correto é redirecionar para a página equivalente, com um redirecionamento permanente."
+        ],
+        "tabela": {
+          "colunas": [
+            "Situação",
+            "O que fazer"
+          ],
+          "linhas": [
+            [
+              "Página realmente excluída, sem substituta",
+              "Deixar o 404 (ou 410) e montar uma página de erro útil"
+            ],
+            [
+              "Página mudou de endereço",
+              "Redirecionamento 301 para o novo endereço"
+            ],
+            [
+              "Link interno quebrado",
+              "Corrigir o link na origem"
+            ],
+            [
+              "Muitos 404 depois de refazer o site",
+              "Mapear URLs antigas e redirecionar uma a uma"
+            ]
+          ]
+        }
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela de decisão para cada tipo de erro 404 e checklist de causas"
+    },
+    "faq": [
+      {
+        "pergunta": "Erro 404 derruba meu posicionamento no Google?",
+        "resposta": "Não por si só. Páginas inexistentes dando 404 é um comportamento esperado. O estrago ocorre quando páginas que traziam visitas e links viram 404 sem redirecionamento. Acompanhe o relatório de indexação do Search Console."
+      },
+      {
+        "pergunta": "O que colocar numa página 404 boa?",
+        "resposta": "Uma mensagem clara, um campo de busca, links para as páginas principais e o contato da empresa. O objetivo é que o visitante perdido encontre o que procurava e continue no site, em vez de sair."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Códigos de status HTTP e erros de rede",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/http-network-errors",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Códigos de resposta HTTP",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "erro 404",
+      "exemploPratico": "Uma loja de ferramentas refaz o site e muda todos os endereços dos produtos. Os links antigos, que estavam no Google e em um catálogo em PDF, passam a dar 404. As vendas caem. A loja lista as URLs antigas, redireciona cada uma para o produto correspondente com 301 e cria uma página de erro com busca e botão de WhatsApp. O tráfego volta a chegar nas páginas certas.",
+      "termosRelacionados": [
+        "redirecionamento 301",
+        "URL amigável",
+        "Google Search Console",
+        "indexação"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-redirecionamento-301",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é redirecionamento 301",
+    "consultasSecundarias": [
+      "301 redirect o que é",
+      "como fazer redirecionamento 301",
+      "redirect 301 e 302 diferença"
+    ],
+    "title": "O que é redirecionamento 301: como e quando usar",
+    "description": "Entenda o que é redirecionamento 301, quando usá-lo ao mudar endereços do site e qual a diferença para o 302. Evite perder visitas e posição no Google.",
+    "h1": "O que é redirecionamento 301",
+    "respostaDireta": "Redirecionamento 301 é a instrução que avisa ao navegador e ao Google que uma página mudou de endereço de forma permanente. O que é um redirecionamento 301? É o encaminhamento automático do endereço antigo para o novo, que preserva os visitantes e ajuda o Google a trocar o endereço nos resultados.",
+    "secoes": [
+      {
+        "titulo": "301, 302 e outros",
+        "paragrafos": [
+          "O número indica o tipo de mudança. Escolher o errado confunde os buscadores."
+        ],
+        "tabela": {
+          "colunas": [
+            "Código",
+            "Significa",
+            "Quando usar"
+          ],
+          "linhas": [
+            [
+              "301",
+              "Movido permanentemente",
+              "Mudança definitiva de endereço"
+            ],
+            [
+              "302",
+              "Movido temporariamente",
+              "Desvio por pouco tempo, como uma promoção"
+            ],
+            [
+              "307 e 308",
+              "Versões modernas de temporário e permanente",
+              "Casos técnicos com métodos HTTP específicos"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Quando você precisa dele",
+        "paragrafos": [
+          "Planeje redirecionamentos sempre que algo muda de endereço, para que links antigos, favoritos e resultados do Google não levem ao erro."
+        ],
+        "lista": [
+          "Mudou de domínio",
+          "Passou o site de http para https",
+          "Refez o site e as URLs mudaram",
+          "Juntou duas páginas parecidas em uma",
+          "Quer unificar com e sem www"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela 301 x 302 e checklist de momentos em que o redirecionamento é necessário"
+    },
+    "faq": [
+      {
+        "pergunta": "O 301 faz perder posição no Google?",
+        "resposta": "Bem feito, não. O Google segue o redirecionamento e passa a mostrar o novo endereço. Pode haver oscilação durante a transição. Redirecionar para páginas sem relação com a original, ou deixar cadeias longas, aí sim prejudica."
+      },
+      {
+        "pergunta": "Quanto tempo mantenho o redirecionamento?",
+        "resposta": "Pelo menos um ano, de acordo com a orientação do Google, e idealmente enquanto houver links ou visitas no endereço antigo. Manter indefinidamente não causa problemas."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Redirecionamentos e a Pesquisa Google",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/301-redirects",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Mudança de site com alteração de URLs",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "redirecionamento 301",
+      "exemploPratico": "Uma contabilidade troca o domínio de um nome longo para um mais curto. Em vez de simplesmente publicar o site no endereço novo, configura no servidor um 301 de cada página antiga para a equivalente no domínio novo, inclusive o blog. Em seguida avisa o Google pela ferramenta de mudança de endereço. Os clientes que clicam em links antigos chegam sem perceber que mudou, e o histórico das páginas acompanha.",
+      "termosRelacionados": [
+        "erro 404",
+        "URL amigável",
+        "domínio",
+        "tag canonical"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-url-amigavel",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é url amigável",
+    "consultasSecundarias": [
+      "url amigável o que é",
+      "como criar url amigável",
+      "url amigável seo"
+    ],
+    "title": "O que é URL amigável: endereços limpos e legíveis",
+    "description": "Veja o que é URL amigável, como criar endereços curtos e legíveis para as páginas do seu site e o que o Google recomenda sobre a estrutura.",
+    "h1": "O que é URL amigável",
+    "respostaDireta": "URL amigável é um endereço de página legível por pessoas, que descreve o conteúdo em palavras. O que é uma URL amigável? É, por exemplo, empresa.com.br/servicos/manutencao-de-ar-condicionado em vez de empresa.com.br/?p=4521, mais fácil de entender, lembrar e compartilhar.",
+    "secoes": [
+      {
+        "titulo": "Antes e depois",
+        "paragrafos": [
+          "Uma URL boa diz ao visitante, e ao Google, do que a página trata antes mesmo de abri-la."
+        ],
+        "tabela": {
+          "colunas": [
+            "Característica",
+            "URL ruim",
+            "URL amigável"
+          ],
+          "linhas": [
+            [
+              "Exemplo",
+              "site.com.br/?p=4521&cat=7",
+              "site.com.br/servicos/pintura-predial"
+            ],
+            [
+              "Legível por pessoas",
+              "Não",
+              "Sim"
+            ],
+            [
+              "Palavras do assunto",
+              "Nenhuma",
+              "Presentes, separadas por hífen"
+            ],
+            [
+              "Para compartilhar",
+              "Confusa",
+              "Clara e confiável"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Boas práticas",
+        "paragrafos": [
+          "Use palavras simples da língua do público, separadas por hífen, sem acentos nem espaços. Mantenha o endereço curto e evite trocar depois de publicado, pois cada mudança exige redirecionamento."
+        ],
+        "lista": [
+          "Letras minúsculas, sem acento e sem caracteres especiais",
+          "Hífen entre palavras, não sublinhado",
+          "Reflita a hierarquia do site, como /servicos/ e /blog/",
+          "Evite datas e números de versão que ficam velhos",
+          "Uma página, uma URL: evite endereços duplicados"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela de URL ruim versus URL amigável e checklist de boas práticas"
+    },
+    "faq": [
+      {
+        "pergunta": "URL amigável melhora o posicionamento?",
+        "resposta": "Ajuda de forma indireta. O Google lê as palavras da URL como um sinal pequeno, e endereços claros aumentam a confiança de quem vê o resultado. O ganho grande é de usabilidade e organização do site."
+      },
+      {
+        "pergunta": "Posso mudar as URLs de um site que já está no ar?",
+        "resposta": "Pode, mas com cuidado: cada endereço antigo precisa de um redirecionamento 301 para o novo. Sem isso, links e resultados do Google passam a dar erro 404 e você perde visitas."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Estrutura de URL recomendada",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/url-structure",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Guia de otimização para mecanismos de pesquisa (SEO)",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "URL amigável",
+      "exemploPratico": "Uma distribuidora de produtos de limpeza tem um site em que cada produto abre num endereço com números, como /produto.php?id=382. Ao reorganizar o catálogo, adota endereços como /produtos/desinfetante-concentrado. O vendedor passa a mandar o link por WhatsApp sem medo de o cliente achar estranho, e o título que aparece na pré-visualização do link já mostra o nome do produto, e não um código.",
+      "termosRelacionados": [
+        "redirecionamento 301",
+        "SEO on-page",
+        "sitemap",
+        "erro 404"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-hospedagem-compartilhada",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é hospedagem compartilhada",
+    "consultasSecundarias": [
+      "hospedagem compartilhada vantagens e desvantagens",
+      "o que significa hospedagem compartilhada",
+      "hospedagem compartilhada é boa"
+    ],
+    "title": "O que é hospedagem compartilhada: vantagens e limites",
+    "description": "Veja o que é hospedagem compartilhada, quais as vantagens e os limites e quando ela basta para o site da sua empresa ou pede um plano melhor.",
+    "h1": "O que é hospedagem compartilhada",
+    "respostaDireta": "Hospedagem compartilhada é o plano em que vários sites usam o mesmo servidor, dividindo memória, processador e espaço. O que é hospedagem compartilhada? É a opção de entrada mais acessível, adequada a sites simples, mas sujeita à lentidão se outro site do servidor consumir muito.",
+    "secoes": [
+      {
+        "titulo": "Vantagens e limites",
+        "paragrafos": [
+          "É como morar em apartamento: o custo é dividido, mas você depende do condomínio."
+        ],
+        "tabela": {
+          "colunas": [
+            "Vantagem",
+            "Limite"
+          ],
+          "linhas": [
+            [
+              "Custo mensal baixo",
+              "Recursos divididos com outros sites"
+            ],
+            [
+              "Painel pronto, sem configurar servidor",
+              "Pouco controle sobre a configuração"
+            ],
+            [
+              "Suporte e manutenção do servidor pelo provedor",
+              "Lentidão se um vizinho consumir muito"
+            ],
+            [
+              "Certificado SSL e e-mails costumam vir no plano",
+              "Pouco espaço para crescer em acessos e funções"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Quando basta e quando trocar",
+        "paragrafos": [
+          "Para site institucional, landing page e blog com poucos acessos, costuma bastar. Considere trocar para VPS ou nuvem quando o site começar a ficar lento nos horários de pico, quando houver loja virtual com muitos pedidos ou quando o sistema precisar de programas específicos instalados."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela de vantagens e limites da hospedagem compartilhada com o sinal de quando trocar"
+    },
+    "faq": [
+      {
+        "pergunta": "Hospedagem compartilhada é segura?",
+        "resposta": "Os provedores isolam as contas, mas a segurança também depende do que você instala. Mantenha o sistema atualizado, use senhas fortes e faça backup. Para dados sensíveis ou muito tráfego, um plano com recursos reservados é mais indicado."
+      },
+      {
+        "pergunta": "Posso colocar loja virtual em hospedagem compartilhada?",
+        "resposta": "Dá para começar uma loja pequena, mas ela costuma ficar lenta com mais pedidos e catálogo. Como o site precisa abrir rápido no momento da compra, lojas em crescimento tendem a migrar para VPS ou nuvem."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Hospedagem — Registro.br",
+        "url": "https://registro.br/tecnologia/hospedagem/",
+        "orgao": "Registro.br",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Páginas, sites, servidores e mecanismos de busca",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "hospedagem compartilhada",
+      "exemploPratico": "Uma pequena empresa de advocacia tem um site com dez páginas e recebe algumas dezenas de visitas por dia. Um plano compartilhado atende bem e o custo é baixo. Quando a banca lança um blog que passa a ter muitas visitas e uma área do cliente com login, o site começa a ficar lento à tarde. Ela migra o mesmo site para um plano de VPS, mantendo o domínio e o endereço do site.",
+      "termosRelacionados": [
+        "hospedagem de site",
+        "VPS",
+        "uptime",
+        "servidor web"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-vps",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é vps",
+    "consultasSecundarias": [
+      "vps significado",
+      "o que é um servidor vps",
+      "vps ou hospedagem compartilhada"
+    ],
+    "title": "O que é VPS: servidor virtual privado",
+    "description": "Entenda o que é VPS, como funciona um servidor virtual privado, em que difere da hospedagem compartilhada e quando uma empresa precisa dele.",
+    "h1": "O que é VPS",
+    "respostaDireta": "VPS é a sigla de Virtual Private Server, um servidor virtual privado. O que é VPS? É uma parte reservada de um servidor físico, com memória e processador garantidos só para você, que funciona como um servidor próprio e permite instalar o que o seu sistema precisa.",
+    "secoes": [
+      {
+        "titulo": "Compartilhada, VPS e dedicado",
+        "paragrafos": [
+          "O VPS fica no meio do caminho: mais controle e desempenho previsível que a compartilhada, sem o custo de um servidor inteiro."
+        ],
+        "tabela": {
+          "colunas": [
+            "",
+            "Compartilhada",
+            "VPS",
+            "Dedicado"
+          ],
+          "linhas": [
+            [
+              "Recursos",
+              "Divididos sem garantia",
+              "Reservados para você",
+              "Máquina inteira"
+            ],
+            [
+              "Controle do sistema",
+              "Baixo",
+              "Alto",
+              "Total"
+            ],
+            [
+              "Quem administra",
+              "Provedor",
+              "Você ou um técnico",
+              "Você ou um técnico"
+            ],
+            [
+              "Indicado para",
+              "Site simples",
+              "Loja, sistema, API",
+              "Grande volume"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O ponto que muita gente esquece",
+        "paragrafos": [
+          "Em um VPS comum, a administração é sua: atualizar o sistema, configurar firewall, fazer backup e monitorar. Sem isso, o servidor fica exposto. Algumas empresas contratam um VPS gerenciado, ou um desenvolvedor que cuide do ambiente, para não depender de conhecimento técnico interno."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela comparando hospedagem compartilhada, VPS e servidor dedicado"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso de VPS para ter uma loja virtual?",
+        "resposta": "Nem sempre. Plataformas de loja já incluem a infraestrutura. Mas uma loja própria, feita sob medida e com muitos acessos, costuma rodar melhor num VPS ou na nuvem, onde há recursos garantidos."
+      },
+      {
+        "pergunta": "VPS e nuvem são a mesma coisa?",
+        "resposta": "São parecidos. Ambos usam virtualização. Os serviços de nuvem acrescentam recursos que aumentam e diminuem conforme a demanda, com cobrança por uso, enquanto o VPS tradicional costuma ter um plano fixo."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Hospedagem — Registro.br",
+        "url": "https://registro.br/tecnologia/hospedagem/",
+        "orgao": "Registro.br",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "O que é um servidor web?",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "VPS",
+      "sigla": "VPS",
+      "exemploPratico": "Uma empresa de aluguel de equipamentos usa um sistema web de reservas feito sob medida. Na hospedagem compartilhada, o sistema travava nos fins de mês, quando todas as locações são lançadas. Migrado para um VPS com memória reservada, o sistema passa a responder com a mesma velocidade o mês todo. O desenvolvedor também configura backup diário e atualizações, para que o servidor não dependa de ninguém lembrar.",
+      "termosRelacionados": [
+        "hospedagem compartilhada",
+        "servidor web",
+        "back-end",
+        "uptime"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-uptime",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é uptime",
+    "consultasSecundarias": [
+      "uptime significado",
+      "uptime de 99,9 o que significa",
+      "o que é uptime de hospedagem"
+    ],
+    "title": "O que é uptime: disponibilidade do site",
+    "description": "Veja o que é uptime, como converter 99% e 99,9% em minutos fora do ar por mês e o que exigir da hospedagem para proteger as vendas da empresa.",
+    "h1": "O que é uptime",
+    "respostaDireta": "Uptime é o percentual de tempo em que um site ou sistema fica no ar e funcionando. O que é uptime? É a medida de disponibilidade: um uptime de 99,9% ao mês significa que o site só pode ficar fora do ar por cerca de 43 minutos no período.",
+    "secoes": [
+      {
+        "titulo": "Do percentual para os minutos",
+        "paragrafos": [
+          "Os números parecem próximos, mas a diferença em tempo parado é grande. Considerando um mês de 30 dias, que tem 43.200 minutos:"
+        ],
+        "tabela": {
+          "colunas": [
+            "Uptime",
+            "Tempo fora do ar por mês",
+            "Tempo fora do ar por ano"
+          ],
+          "linhas": [
+            [
+              "99%",
+              "cerca de 7 horas e 12 minutos",
+              "cerca de 3 dias e 15 horas"
+            ],
+            [
+              "99,9%",
+              "cerca de 43 minutos",
+              "cerca de 8 horas e 46 minutos"
+            ],
+            [
+              "99,99%",
+              "cerca de 4 minutos",
+              "cerca de 53 minutos"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que perguntar ao provedor",
+        "paragrafos": [
+          "Uptime prometido em contrato não é uptime entregue. Procure saber como é medido, o que conta como falha e o que o provedor faz se não cumprir. Monitore o seu próprio site com um serviço externo que avise por e-mail ou mensagem quando ele cair. Interrupções programadas costumam ficar de fora da conta."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela convertendo 99%, 99,9% e 99,99% de uptime em tempo real fora do ar"
+    },
+    "faq": [
+      {
+        "pergunta": "Qual uptime devo exigir da hospedagem?",
+        "resposta": "Para site institucional, 99,9% é um compromisso comum e razoável. Para loja virtual ou sistema que para a operação quando cai, vale exigir mais e avaliar o custo da hora parada contra o valor do plano."
+      },
+      {
+        "pergunta": "Como sei se meu site caiu?",
+        "resposta": "Sem monitoramento, só quando um cliente avisa. Serviços de monitoramento testam o site em intervalos curtos e mandam alerta quando ele não responde. É um jeito barato de descobrir o problema antes do cliente."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "O que é um servidor web?",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "uptime",
+      "exemploPratico": "Uma loja virtual de suplementos vende bastante entre 19h e 22h. A hospedagem promete 99% de disponibilidade, o que permite quase sete horas fora do ar por mês, e uma das paradas cai justamente numa noite de promoção. A loja passa a exigir 99,9% por escrito, contrata um monitor externo que avisa por mensagem em caso de queda e define quem aciona o suporte, reduzindo o risco nos horários de pico.",
+      "termosRelacionados": [
+        "hospedagem de site",
+        "VPS",
+        "servidor web",
+        "CDN"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-subdominio",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é subdomínio",
+    "consultasSecundarias": [
+      "subdomínio o que é",
+      "como criar subdomínio",
+      "subdomínio ou pasta seo"
+    ],
+    "title": "O que é subdomínio: como funciona e quando usar",
+    "description": "Entenda o que é subdomínio, como criar um como loja.empresa.com.br e quando usar subdomínio ou pasta para organizar o seu site ou sistema.",
+    "h1": "O que é subdomínio",
+    "respostaDireta": "Subdomínio é uma extensão do seu domínio principal, colocada antes dele, como loja.empresa.com.br. O que é um subdomínio? É um endereço próprio dentro do seu domínio, criado sem custo extra de registro, usado para separar áreas como loja, blog ou sistema interno.",
+    "secoes": [
+      {
+        "titulo": "Subdomínio ou pasta",
+        "paragrafos": [
+          "Há dois jeitos de organizar uma área nova do site: em um subdomínio (blog.empresa.com.br) ou em uma pasta (empresa.com.br/blog)."
+        ],
+        "tabela": {
+          "colunas": [
+            "",
+            "Subdomínio",
+            "Pasta"
+          ],
+          "linhas": [
+            [
+              "Exemplo",
+              "blog.empresa.com.br",
+              "empresa.com.br/blog"
+            ],
+            [
+              "Pode ficar em outro servidor",
+              "Sim, com facilidade",
+              "Não, normalmente"
+            ],
+            [
+              "Tratado pelo Google",
+              "Como um site separado, em alguns aspectos",
+              "Como parte do mesmo site"
+            ],
+            [
+              "Indicado para",
+              "Sistema, loja ou ferramenta externa",
+              "Conteúdo que reforça o site principal"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como criar",
+        "paragrafos": [
+          "Você cria no painel de DNS do domínio, com um registro do tipo A ou CNAME apontando para onde a área está hospedada. O endereço passa a funcionar depois que o DNS é propagado. Muitas empresas usam subdomínios para colocar o sistema interno ou a área do cliente em um servidor diferente do site."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela comparando subdomínio e pasta, com a indicação de uso de cada um"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso pagar para criar um subdomínio?",
+        "resposta": "Em geral, não. O registro do domínio principal já dá o direito de criar subdomínios. Pode haver custo apenas se o subdomínio apontar para um serviço de hospedagem ou de terceiros que cobre por isso."
+      },
+      {
+        "pergunta": "Para o Google é melhor subdomínio ou pasta?",
+        "resposta": "Para um blog que apoia o site, a pasta costuma ser mais simples. O Google consegue lidar com ambos. Escolha pelo critério técnico: onde a área será hospedada e quem vai mantê-la."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "O que é um nome de domínio?",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "DNS — Registro.br",
+        "url": "https://registro.br/tecnologia/dns/",
+        "orgao": "Registro.br",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "subdomínio",
+      "exemploPratico": "Uma fábrica de embalagens mantém o site institucional na hospedagem do provedor e quer colocar um portal de pedidos para clientes num servidor próprio. Em vez de registrar um domínio novo, cria o subdomínio pedidos.empresa.com.br e aponta o DNS para o servidor do portal. O site institucional continua intacto e o cliente acessa o portal por um endereço que reconhece como da fábrica.",
+      "termosRelacionados": [
+        "domínio",
+        "DNS",
+        "propagação de DNS",
+        "hospedagem de site"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-propagacao-de-dns",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é propagação de dns",
+    "consultasSecundarias": [
+      "quanto tempo demora a propagação do dns",
+      "propagação dns o que é",
+      "dns propagando"
+    ],
+    "title": "O que é propagação de DNS: por que o site demora a mudar",
+    "description": "Entenda o que é propagação de DNS, por que o site leva um tempo para aparecer após trocar hospedagem e como reduzir a espera na mudança.",
+    "h1": "O que é propagação de DNS",
+    "respostaDireta": "Propagação de DNS é o tempo que leva para uma alteração de DNS chegar a todos os servidores e provedores de internet. O que é a propagação de DNS? É a demora para que o novo endereço do seu site seja reconhecido em toda parte, e por isso ele pode abrir diferente em lugares diferentes.",
+    "secoes": [
+      {
+        "titulo": "Por que demora",
+        "paragrafos": [
+          "Quando alguém acessa o site, o provedor guarda a resposta do DNS por um tempo, chamado TTL, para não perguntar de novo a cada visita. Enquanto esse prazo não termina, parte das pessoas ainda é levada ao endereço antigo."
+        ],
+        "lista": [
+          "Cada provedor guarda a resposta pelo prazo definido no registro (TTL)",
+          "Navegadores e computadores guardam uma cópia própria",
+          "Quem acessa por rede diferente pode ver o site antigo ou o novo",
+          "A mudança do servidor de nomes (NS) costuma levar mais tempo",
+          "Há quem veja o site novo enquanto outros ainda veem o antigo"
+        ]
+      },
+      {
+        "titulo": "Como fazer uma troca sem susto",
+        "paragrafos": [
+          "Antes da mudança, reduza o TTL dos registros para um valor baixo e espere o prazo antigo passar. Prepare o site novo completo no servidor de destino e só então altere o DNS. Mantenha o servidor antigo no ar durante a transição, para atender quem ainda cair nele, e não troque e-mail e site no mesmo momento, se puder evitar."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Lista dos motivos da demora e um roteiro de troca de DNS sem tirar o site do ar"
+    },
+    "faq": [
+      {
+        "pergunta": "Quanto tempo leva a propagação do DNS?",
+        "resposta": "Depende do TTL e do tipo de alteração. Mudanças de registro com TTL baixo costumam aparecer em minutos a poucas horas; mudanças de servidor de nomes podem levar mais tempo. Não existe prazo único garantido."
+      },
+      {
+        "pergunta": "Como testar se o DNS já mudou?",
+        "resposta": "Use ferramentas de consulta de DNS, como as do Registro.br ou serviços de verificação pública, que mostram o que cada servidor responde. Testar em rede de celular também ajuda, pois evita o cache do seu computador."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Propagação de DNS — Registro.br",
+        "url": "https://registro.br/dominio/propagacao/",
+        "orgao": "Registro.br",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "DNS — Registro.br",
+        "url": "https://registro.br/tecnologia/dns/",
+        "orgao": "Registro.br",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "propagação de DNS",
+      "exemploPratico": "Uma distribuidora troca o site de hospedagem numa sexta à tarde. O dono acessa e vê o site novo, mas o gerente, em outra cidade, ainda vê o antigo. É a propagação em andamento. Como o técnico reduziu o TTL dois dias antes e manteve o servidor antigo no ar, ninguém ficou sem site. Na segunda cedo, todos já viam a versão nova, e só então o servidor antigo foi desligado.",
+      "termosRelacionados": [
+        "DNS",
+        "domínio",
+        "hospedagem de site",
+        "subdomínio"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-site-estatico",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é site estático",
+    "consultasSecundarias": [
+      "site estático x dinâmico",
+      "o que é um site estático",
+      "vantagens de site estático"
+    ],
+    "title": "O que é site estático: diferença para site dinâmico",
+    "description": "Veja o que é site estático, como ele se diferencia do dinâmico e por que é rápido, barato de hospedar e seguro para empresas com pouco conteúdo novo.",
+    "h1": "O que é site estático",
+    "respostaDireta": "Site estático é um site feito de arquivos prontos, em que cada página é entregue exatamente como foi salva, sem montar nada na hora. O que é um site estático? É o oposto do dinâmico: não depende de banco de dados a cada visita, o que o torna rápido, barato de hospedar e difícil de invadir.",
+    "secoes": [
+      {
+        "titulo": "Estático e dinâmico lado a lado",
+        "paragrafos": [
+          "A diferença está em quando a página é montada. No estático, ela já está pronta. No dinâmico, o servidor monta cada página no momento do acesso, consultando o banco de dados."
+        ],
+        "tabela": {
+          "colunas": [
+            "",
+            "Estático",
+            "Dinâmico"
+          ],
+          "linhas": [
+            [
+              "Página montada",
+              "Antes de publicar",
+              "A cada visita"
+            ],
+            [
+              "Velocidade",
+              "Muito alta",
+              "Depende do servidor e do cache"
+            ],
+            [
+              "Segurança",
+              "Menos pontos de ataque",
+              "Mais pontos a proteger"
+            ],
+            [
+              "Custo de hospedagem",
+              "Baixo",
+              "Maior"
+            ],
+            [
+              "Conteúdo que muda toda hora",
+              "Pouco adequado sem recursos extras",
+              "Adequado"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Quando escolher",
+        "paragrafos": [
+          "Sites institucionais, páginas de campanha, portfólios e blogs com atualização moderada se encaixam bem. Para cadastro de clientes, carrinho de compras e painel, é preciso um back-end, que pode conviver com um front-end estático. Quem edita o conteúdo sem o desenvolvedor pode adicionar um CMS à solução."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela comparando site estático e dinâmico em velocidade, segurança e custo"
+    },
+    "faq": [
+      {
+        "pergunta": "Site estático aparece no Google?",
+        "resposta": "Sim. Como o conteúdo já vem pronto no HTML, o Google lê com facilidade. Páginas estáticas bem feitas costumam ser rápidas, o que ajuda nas métricas de experiência de página."
+      },
+      {
+        "pergunta": "Dá para ter formulário num site estático?",
+        "resposta": "Dá. O formulário envia os dados para um serviço de terceiros ou para uma pequena função de back-end, que manda o e-mail ou registra o contato. Não é preciso um servidor completo para isso."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Páginas, sites, servidores e mecanismos de busca",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Noções básicas de SEO para JavaScript",
+        "url": "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "site estático",
+      "exemploPratico": "Uma empresa de engenharia tem site institucional com doze páginas e um portfólio de obras que muda poucas vezes ao ano. Em vez de manter um sistema com banco de dados e plugins, adota um site estático. A hospedagem sai bem mais barata, as páginas abrem quase instantaneamente e, sem painel exposto, há menos como atacar. Quando precisam atualizar uma obra, o desenvolvedor republica o site em minutos.",
+      "termosRelacionados": [
+        "CMS",
+        "WordPress",
+        "front-end",
+        "hospedagem de site"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-acessibilidade-web",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é acessibilidade web",
+    "consultasSecundarias": [
+      "o que é wcag",
+      "acessibilidade em sites o que é",
+      "wcag acessibilidade web"
+    ],
+    "title": "O que é acessibilidade web: o que é WCAG e como aplicar",
+    "description": "Entenda o que é acessibilidade web e o que são as diretrizes WCAG, com um checklist de ajustes básicos para que mais clientes usem o seu site.",
+    "h1": "O que é acessibilidade web",
+    "respostaDireta": "Acessibilidade web é a prática de fazer sites que pessoas com deficiência, ou com limitações temporárias, consigam usar. O que é acessibilidade web? É seguir regras como as diretrizes WCAG, do W3C, que cobrem contraste, texto alternativo, uso por teclado e leitura por leitores de tela.",
+    "secoes": [
+      {
+        "titulo": "Os quatro princípios das WCAG",
+        "paragrafos": [
+          "As Diretrizes de Acessibilidade para Conteúdo Web (WCAG) se organizam em quatro princípios, conhecidos pela sigla POUR."
+        ],
+        "tabela": {
+          "colunas": [
+            "Princípio",
+            "Significa",
+            "Exemplo prático"
+          ],
+          "linhas": [
+            [
+              "Perceptível",
+              "A informação pode ser percebida",
+              "Texto alternativo em imagens, legendas em vídeos"
+            ],
+            [
+              "Operável",
+              "Dá para usar sem mouse",
+              "Menu que funciona com o teclado"
+            ],
+            [
+              "Compreensível",
+              "Linguagem e comportamento claros",
+              "Mensagens de erro que explicam o que corrigir"
+            ],
+            [
+              "Robusto",
+              "Funciona em tecnologias assistivas",
+              "HTML bem estruturado"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Por onde começar",
+        "paragrafos": [
+          "Você não precisa resolver tudo de uma vez. Alguns ajustes simples já ampliam muito o público do site."
+        ],
+        "lista": [
+          "Contraste suficiente entre texto e fundo",
+          "Descrição (alt) nas imagens que carregam informação",
+          "Todos os botões e links acessíveis pelo teclado",
+          "Campos de formulário com rótulo visível",
+          "Títulos em ordem lógica, sem pular níveis",
+          "Não usar só a cor para indicar erro ou status"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela dos quatro princípios da WCAG e checklist dos primeiros ajustes"
+    },
+    "faq": [
+      {
+        "pergunta": "Acessibilidade é obrigatória para o site de empresa?",
+        "resposta": "A obrigação legal varia conforme o tipo de organização e o setor, ; vale consultar um advogado para o seu caso. Em qualquer situação, é boa prática: amplia o público, melhora a usabilidade e costuma ajudar o SEO."
+      },
+      {
+        "pergunta": "Existe nível de conformidade nas WCAG?",
+        "resposta": "Sim. As WCAG definem os níveis A, AA e AAA. O nível AA é o mais usado como meta realista para sites de empresas. Um desenvolvedor pode auditar e indicar o que falta."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Diretrizes de Acessibilidade para Conteúdo Web (WCAG)",
+        "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+        "orgao": "W3C",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Introdução à acessibilidade na web",
+        "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/",
+        "orgao": "W3C",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "acessibilidade web",
+      "sigla": "WCAG",
+      "exemploPratico": "Uma clínica de fisioterapia recebe pacientes idosos e alguns com baixa visão. O site tinha letras cinza claras sobre fundo branco, botões só com ícone e formulário sem rótulos. A clínica contrata uma revisão: aumenta o contraste, coloca nome em cada botão, rotula os campos e testa a navegação só pelo teclado. O resultado é um site que mais pacientes conseguem usar sozinhos para pedir um horário.",
+      "termosRelacionados": [
+        "UX",
+        "HTML",
+        "site responsivo",
+        "SEO on-page"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-ux",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é ux",
+    "consultasSecundarias": [
+      "ux significado",
+      "o que é ux design",
+      "experiência do usuário o que é"
+    ],
+    "title": "O que é UX: experiência do usuário",
+    "description": "Entenda o que é UX, a experiência do usuário, como ela afeta vendas e contatos do seu site e como identificar atritos com testes simples.",
+    "h1": "O que é UX",
+    "respostaDireta": "UX é a sigla de User Experience, a experiência do usuário. O que é UX? É a soma de tudo o que a pessoa sente ao usar o seu site: se encontra o que procura, se entende o que fazer e se consegue concluir a tarefa, como pedir um orçamento, sem esforço nem frustração.",
+    "secoes": [
+      {
+        "titulo": "O que entra na experiência",
+        "paragrafos": [
+          "UX não é enfeite. É facilidade de uso medida pelo que o visitante consegue fazer."
+        ],
+        "tabela": {
+          "colunas": [
+            "Aspecto",
+            "Pergunta de UX",
+            "Sintoma quando falha"
+          ],
+          "linhas": [
+            [
+              "Clareza",
+              "Dá para entender o que a empresa faz em poucos segundos?",
+              "Visitante sai logo"
+            ],
+            [
+              "Navegação",
+              "Encontro o que quero em até três cliques?",
+              "Ligações para perguntar o que está no site"
+            ],
+            [
+              "Velocidade",
+              "A página abre sem espera?",
+              "Desistência antes de carregar"
+            ],
+            [
+              "Formulários",
+              "Preencher é rápido?",
+              "Formulário abandonado"
+            ],
+            [
+              "Celular",
+              "Funciona bem com um polegar?",
+              "Cliques errados, zoom"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como melhorar sem grande investimento",
+        "paragrafos": [
+          "Peça a três pessoas que não conhecem a empresa para executar uma tarefa no site, como achar o horário de funcionamento, e observe sem ajudar. Os pontos em que hesitam mostram onde está o problema. Depois, corrija o que mais atrapalha e teste de novo."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela de aspectos de UX com a pergunta de teste e o sintoma de cada falha"
+    },
+    "faq": [
+      {
+        "pergunta": "UX e UI são a mesma coisa?",
+        "resposta": "Não. UX cuida da experiência completa de uso, incluindo o caminho do usuário e a facilidade de cumprir tarefas. UI é a interface visual, as telas, as cores e os botões. UX é o percurso; UI é a aparência do percurso."
+      },
+      {
+        "pergunta": "Como medir a UX do meu site?",
+        "resposta": "Observe o comportamento: taxa de saída das páginas, formulários iniciados e concluídos, cliques em botões. Ferramentas como o Google Analytics ajudam, e o teste com pessoas reais explica o motivo dos números."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Aprenda design",
+        "url": "https://web.dev/learn/design",
+        "orgao": "web.dev",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Introdução ao Google Analytics 4",
+        "url": "https://support.google.com/analytics/answer/11583528?hl=pt-BR",
+        "orgao": "Google",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "UX",
+      "sigla": "UX",
+      "exemploPratico": "Uma loja de peças automotivas recebe visitas, mas poucos pedidos de orçamento. Ao observar três pessoas usando o site, percebe que ninguém acha o campo para informar o modelo do carro: ele está no rodapé. A loja move o campo para o topo da página inicial, com um texto claro. A equipe passa a receber mais pedidos já com a informação de que precisa para cotar, sem voltar a perguntar.",
+      "termosRelacionados": [
+        "UI",
+        "wireframe",
+        "site responsivo",
+        "acessibilidade web"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-ui",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é ui",
+    "consultasSecundarias": [
+      "ui significado",
+      "ui design o que é",
+      "diferença entre ux e ui"
+    ],
+    "title": "O que é UI: interface do usuário",
+    "description": "Veja o que é UI, a interface do usuário, quais elementos a compõem e qual a diferença para UX. Confira como ela influencia a confiança no seu site.",
+    "h1": "O que é UI",
+    "respostaDireta": "UI é a sigla de User Interface, a interface do usuário. O que é UI? É a parte visual com que a pessoa interage: botões, cores, tipografia, ícones, formulários e menus. Uma boa UI deixa claro o que é clicável, o que é importante e o que fazer em seguida.",
+    "secoes": [
+      {
+        "titulo": "Elementos de uma interface",
+        "paragrafos": [
+          "A UI traduz a identidade da empresa em componentes que o visitante entende sem explicação."
+        ],
+        "lista": [
+          "Cores e contraste entre texto e fundo",
+          "Tipografia: tamanhos e fontes legíveis",
+          "Botões com aparência de botão e texto de ação claro",
+          "Ícones com significado reconhecível",
+          "Espaçamento que separa os blocos de conteúdo",
+          "Estados visuais, como destaque ao passar o mouse e mensagens de erro"
+        ]
+      },
+      {
+        "titulo": "UX e UI trabalhando juntas",
+        "paragrafos": [
+          "Uma interface bonita pode ser ruim de usar, e uma interface feia pode ser eficiente. O ideal é combinar: UX decide o caminho, UI o deixa claro e agradável.",
+          "Na prática, empresas de pequeno porte ganham ao manter poucos estilos consistentes: um conjunto de cores, duas fontes e botões sempre iguais. Isso transmite profissionalismo e reduz o custo de manutenção."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Lista de elementos da UI e a relação com UX"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso de um designer de UI para o meu site?",
+        "resposta": "Para projetos pequenos, o desenvolvedor pode adaptar um padrão visual coerente com a marca. Um designer faz diferença quando a identidade visual ainda não existe ou o site precisa de um diferencial forte."
+      },
+      {
+        "pergunta": "Por que a interface precisa ter contraste?",
+        "resposta": "Para que o texto seja legível, inclusive para quem tem baixa visão ou está sob o sol, no celular. O contraste insuficiente é um dos problemas de acessibilidade mais comuns e fáceis de corrigir."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Aprenda design",
+        "url": "https://web.dev/learn/design",
+        "orgao": "web.dev",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Diretrizes de Acessibilidade para Conteúdo Web (WCAG)",
+        "url": "https://www.w3.org/WAI/standards-guidelines/wcag/",
+        "orgao": "W3C",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "UI",
+      "sigla": "UI",
+      "exemploPratico": "Uma empresa de dedetização tem um site com três tipos de botão de cores diferentes, cada um com um texto: Enviar, Solicitar, Fale conosco. O visitante não sabe qual é o principal. A empresa padroniza: um botão verde, grande, com o texto Pedir orçamento, repetido em todas as páginas, e botões secundários mais discretos. A interface fica coerente e o contato principal deixa de se perder entre as opções.",
+      "termosRelacionados": [
+        "UX",
+        "wireframe",
+        "CSS",
+        "front-end"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-wireframe",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é wireframe",
+    "consultasSecundarias": [
+      "wireframe significado",
+      "wireframe de site exemplo",
+      "wireframe e protótipo diferença"
+    ],
+    "title": "O que é wireframe: o rascunho do layout do site",
+    "description": "Veja o que é wireframe, o rascunho que mostra onde cada elemento vai ficar no site, e como ele evita retrabalho e discussão no desenvolvimento.",
+    "h1": "O que é wireframe",
+    "respostaDireta": "Wireframe é um rascunho simples, em traços e blocos, que mostra onde cada elemento ficará numa página, sem cores nem fotos. O que é um wireframe? É a planta baixa do site: define estrutura e prioridades para que todos concordem com o desenho antes de começar a construir.",
+    "secoes": [
+      {
+        "titulo": "O que o wireframe define",
+        "paragrafos": [
+          "Como não tem acabamento visual, o foco da conversa fica na organização do conteúdo."
+        ],
+        "tabela": {
+          "colunas": [
+            "O que mostra",
+            "O que não mostra"
+          ],
+          "linhas": [
+            [
+              "Posição de menu, títulos e botões",
+              "Cores e identidade final"
+            ],
+            [
+              "Ordem das seções da página",
+              "Fotos definitivas"
+            ],
+            [
+              "Hierarquia: o que vem primeiro",
+              "Textos finais, apenas indicações"
+            ],
+            [
+              "Caminho entre páginas",
+              "Animações e interações detalhadas"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Por que fazer antes de programar",
+        "paragrafos": [
+          "Mudar um bloco de lugar num rascunho leva minutos. Mudar o mesmo bloco depois de o site programado pode levar horas. O wireframe expõe divergências cedo, como a empresa que queria o telefone em destaque e o desenvolvedor que o colocou no rodapé.",
+          "Pode ser desenhado à mão, em papel, ou em uma ferramenta de design. O formato importa menos que a aprovação do cliente sobre a estrutura."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela do que o wireframe mostra e do que deixa de fora de propósito"
+    },
+    "faq": [
+      {
+        "pergunta": "Wireframe e protótipo são a mesma coisa?",
+        "resposta": "Não. O wireframe é a estrutura estática, em baixa fidelidade. O protótipo é navegável e mais próximo do final: dá para clicar nos botões e simular o fluxo. O wireframe costuma vir primeiro."
+      },
+      {
+        "pergunta": "Todo site precisa de wireframe?",
+        "resposta": "Sites muito simples podem dispensar. Para projetos com várias páginas, loja ou sistema, vale a pena: ele reduz mal-entendidos e evita retrabalho caro depois de o desenvolvimento começar."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Aprenda design",
+        "url": "https://web.dev/learn/design",
+        "orgao": "web.dev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "wireframe",
+      "exemploPratico": "Uma empresa de climatização pede um site novo. Antes de qualquer código, o desenvolvedor desenha em papel a página inicial: faixa com o telefone no topo, três blocos de serviço, depoimentos de clientes reais da empresa, mapa e formulário. O dono aprova a ordem e pede para subir o formulário. A mudança custou cinco minutos de borracha, e não horas de trabalho depois de o site estar pronto.",
+      "termosRelacionados": [
+        "protótipo de site",
+        "UX",
+        "UI",
+        "site institucional"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-prototipo-de-site",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é protótipo de site",
+    "consultasSecundarias": [
+      "protótipo de site o que é",
+      "o que é prototipação de site",
+      "protótipo de site figma"
+    ],
+    "title": "O que é protótipo de site: para que serve antes de programar",
+    "description": "Entenda o que é um protótipo de site, como ele simula a navegação antes de programar e por que é a forma mais barata de validar o projeto.",
+    "h1": "O que é protótipo de site",
+    "respostaDireta": "Protótipo de site é uma versão navegável, mas ainda sem programação, que simula como o site vai parecer e funcionar. O que é um protótipo de site? É o ensaio antes da estreia: você clica nos botões, percorre as telas e aprova o visual e o fluxo antes de gastar com o desenvolvimento.",
+    "secoes": [
+      {
+        "titulo": "Níveis de fidelidade",
+        "paragrafos": [
+          "Nem todo protótipo precisa ser perfeito. O nível depende do que se quer validar."
+        ],
+        "tabela": {
+          "colunas": [
+            "Nível",
+            "Aparência",
+            "Quando usar"
+          ],
+          "linhas": [
+            [
+              "Baixa fidelidade",
+              "Blocos e traços, como um wireframe clicável",
+              "Validar estrutura e caminho"
+            ],
+            [
+              "Média fidelidade",
+              "Layout com textos reais e imagens provisórias",
+              "Alinhar conteúdo com a equipe"
+            ],
+            [
+              "Alta fidelidade",
+              "Visual quase final, com cores e fotos",
+              "Aprovar a identidade antes de programar"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que se ganha",
+        "paragrafos": [
+          "A aprovação do protótipo reduz surpresas e mudanças de escopo no meio do projeto. Também permite mostrar a ideia a sócios e equipe, que reagem a algo concreto, e não a uma descrição. Teste com um ou dois clientes reais, se possível: eles mostram em minutos o que não ficou claro."
+        ],
+        "lista": [
+          "Aprovar o visual antes de gastar com programação",
+          "Testar o caminho do visitante até o contato",
+          "Alinhar sócios e equipe em torno de uma imagem concreta",
+          "Estimar o prazo com mais segurança",
+          "Reduzir pedidos de mudança depois do site pronto"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela de níveis de fidelidade do protótipo e lista dos ganhos de validar antes"
+    },
+    "faq": [
+      {
+        "pergunta": "Protótipo de site é cobrado à parte?",
+        "resposta": "Depende do desenvolvedor. Em projetos pequenos, costuma estar embutido. Em projetos maiores, pode ser uma etapa separada. Vale perguntar na proposta o que está incluído e quantas rodadas de ajuste são permitidas."
+      },
+      {
+        "pergunta": "O protótipo já é o site pronto?",
+        "resposta": "Não. Ele simula a aparência e a navegação, mas sem programação por trás: formulários não enviam, páginas não carregam dados reais. Depois de aprovado, é transformado em site funcional."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Aprenda design",
+        "url": "https://web.dev/learn/design",
+        "orgao": "web.dev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "protótipo de site",
+      "exemploPratico": "Uma rede de clínicas veterinárias quer um site com agendamento. Antes de programar, o desenvolvedor monta um protótipo clicável com as telas de escolha da unidade, do serviço e do horário. A recepcionista percebe que falta um campo para informar o animal, e o dono pede para mostrar o telefone em cada tela. As duas correções entram no protótipo em uma tarde, e não no sistema já programado.",
+      "termosRelacionados": [
+        "wireframe",
+        "UX",
+        "UI",
+        "site institucional"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-e-mail-com-dominio-proprio",
+    "tipo": "glossario",
+    "cluster": "sites",
+    "consulta": "o que é e-mail com domínio próprio",
+    "consultasSecundarias": [
+      "email profissional com domínio próprio",
+      "como criar email com domínio da empresa",
+      "email com domínio próprio vale a pena"
+    ],
+    "title": "O que é e-mail com domínio próprio: por que usar",
+    "description": "Veja o que é e-mail com domínio próprio, como contato@suaempresa.com.br passa mais confiança que Gmail e quais registros de DNS configurar.",
+    "h1": "O que é e-mail com domínio próprio",
+    "respostaDireta": "E-mail com domínio próprio é o endereço de e-mail que usa o nome da sua empresa, como contato@suaempresa.com.br, em vez de um provedor gratuito genérico. O que é e-mail com domínio próprio? É o e-mail profissional, ligado ao seu domínio, que transmite confiança e fica sob o controle da empresa.",
+    "secoes": [
+      {
+        "titulo": "Vantagens para a empresa",
+        "paragrafos": [
+          "Quem recebe uma proposta de nome@gmail.com tem mais dúvida do que de nome@empresa.com.br. Além da imagem, há ganhos práticos."
+        ],
+        "tabela": {
+          "colunas": [
+            "Aspecto",
+            "E-mail genérico gratuito",
+            "E-mail com domínio próprio"
+          ],
+          "linhas": [
+            [
+              "Imagem",
+              "Pessoal",
+              "Profissional e identificável"
+            ],
+            [
+              "Controle",
+              "Conta pertence a quem criou",
+              "Empresa administra as caixas e acessos"
+            ],
+            [
+              "Saída de funcionário",
+              "Perde-se o histórico",
+              "Caixa fica na empresa"
+            ],
+            [
+              "Endereços por função",
+              "Difícil",
+              "vendas@, financeiro@, suporte@"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que configurar no DNS",
+        "paragrafos": [
+          "Para o e-mail funcionar e não cair em spam, o domínio precisa de alguns registros: MX, que indica onde as mensagens são entregues, e registros TXT de autenticação, como SPF, DKIM e DMARC. O provedor do serviço de e-mail informa os valores exatos. Sem isso, as mensagens podem ser rejeitadas ou marcadas como suspeitas."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela comparando e-mail genérico e e-mail com domínio próprio, e os registros de DNS necessários"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso de hospedagem para ter e-mail com meu domínio?",
+        "resposta": "Precisa de um serviço de e-mail, que pode vir junto com a hospedagem ou ser contratado à parte. O importante é que o domínio exista e que os registros de DNS apontem para o serviço escolhido."
+      },
+      {
+        "pergunta": "Posso continuar usando o Gmail para ler os e-mails da empresa?",
+        "resposta": "Pode. Muitos serviços permitem encaminhar ou ler as mensagens do endereço profissional dentro do aplicativo que você já usa. O endereço visível para o cliente continua sendo o da empresa."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "DNS — Registro.br",
+        "url": "https://registro.br/tecnologia/dns/",
+        "orgao": "Registro.br",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "O que é um nome de domínio?",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "e-mail com domínio próprio",
+      "exemploPratico": "Uma construtora pequena enviava orçamentos de uma conta gratuita pessoal do engenheiro. Quando ele saiu da empresa, levou consigo todo o histórico de conversas com clientes. A construtora passa a usar e-mails com o próprio domínio, como orcamentos@ e obras@, com caixas administradas pela empresa. Cada novo funcionário recebe uma conta, e o histórico fica guardado quando alguém sai.",
+      "termosRelacionados": [
+        "domínio",
+        "DNS",
+        "hospedagem de site",
+        "certificado SSL"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-seo",
+    "tipo": "glossario",
+    "cluster": "seo-google",
+    "consulta": "o que é seo",
+    "consultasSecundarias": [
+      "seo significado",
+      "o que é seo e como funciona",
+      "para que serve o seo"
+    ],
+    "title": "O que é SEO: como aparecer no Google",
+    "description": "Entenda o que é SEO, como a otimização para buscadores funciona e por onde uma pequena empresa deve começar para ser encontrada no Google.",
+    "h1": "O que é SEO",
+    "respostaDireta": "SEO é a sigla de Search Engine Optimization, otimização para mecanismos de busca. O que é SEO? É o conjunto de práticas que ajuda o Google a entender o seu site e a mostrá-lo a quem procura o que você oferece, sem pagar por clique, com conteúdo útil e site tecnicamente saudável.",
+    "secoes": [
+      {
+        "titulo": "As frentes do SEO",
+        "paragrafos": [
+          "SEO não é um truque, é um trabalho contínuo dividido em frentes que se complementam."
+        ],
+        "tabela": {
+          "colunas": [
+            "Frente",
+            "O que cuida",
+            "Exemplo"
+          ],
+          "linhas": [
+            [
+              "Conteúdo",
+              "Responder ao que as pessoas buscam",
+              "Página para cada serviço, com texto útil"
+            ],
+            [
+              "On-page",
+              "Elementos de cada página",
+              "Título, descrição, títulos internos"
+            ],
+            [
+              "Técnico",
+              "Que o Google consiga acessar e entender o site",
+              "Velocidade, sitemap, HTTPS"
+            ],
+            [
+              "Autoridade",
+              "Reputação do site",
+              "Links de outros sites confiáveis"
+            ],
+            [
+              "Local",
+              "Busca por empresas na sua região",
+              "Perfil da Empresa no Google"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que esperar",
+        "paragrafos": [
+          "O resultado não é imediato. O Google precisa descobrir, avaliar e comparar o seu conteúdo com o dos concorrentes. Ninguém pode prometer a primeira posição, e o próprio Google avisa que não dá garantias nem vende melhor classificação. Veja também a nossa página sobre por que o site não aparece no Google."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela das frentes de SEO com um exemplo prático em cada uma"
+    },
+    "faq": [
+      {
+        "pergunta": "SEO e anúncio pago são a mesma coisa?",
+        "resposta": "Não. O SEO busca resultados orgânicos, sem pagar por clique, e leva tempo. O anúncio aparece enquanto você paga, com resultado imediato. Muitas empresas usam os dois, com papéis diferentes."
+      },
+      {
+        "pergunta": "Preciso de um profissional de SEO?",
+        "resposta": "Para o básico, o desenvolvedor do site e quem escreve o conteúdo podem cuidar. Uma consultoria ajuda em mercados concorridos. Desconfie de quem garante primeira página ou posições específicas."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Guia de otimização para mecanismos de pesquisa (SEO)",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Como funciona a Pesquisa Google",
+        "url": "https://developers.google.com/search/docs/fundamentals/how-search-works",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "SEO",
+      "sigla": "SEO",
+      "exemploPratico": "Uma empresa de instalação de câmeras de segurança em Passo Fundo não aparece quando alguém busca por instalação de câmeras na cidade. Ela cria uma página para cada serviço, com texto claro, endereço e telefone, ajusta o título e a descrição de cada uma, mantém o site rápido e cadastra o Perfil da Empresa no Google. Meses depois, as páginas começam a aparecer para buscas locais e geram contatos sem anúncio.",
+      "termosRelacionados": [
+        "SEO local",
+        "SEO on-page",
+        "SEO técnico",
+        "palavra-chave"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-seo-local",
+    "tipo": "glossario",
+    "cluster": "seo-google",
+    "consulta": "o que é seo local",
+    "consultasSecundarias": [
+      "seo local o que é",
+      "como aparecer no google maps",
+      "seo local para pequenas empresas"
+    ],
+    "title": "O que é SEO local: como aparecer na sua cidade",
+    "description": "Veja o que é SEO local, os três fatores que o Google usa (relevância, distância e destaque) e como aparecer no mapa para buscas da sua cidade.",
+    "h1": "O que é SEO local",
+    "respostaDireta": "SEO local é a otimização para aparecer em buscas de quem procura uma empresa perto de si, como dentista em Passo Fundo. O que é SEO local? É trabalhar o Perfil da Empresa no Google e o site para ganhar espaço no mapa e nos resultados locais.",
+    "secoes": [
+      {
+        "titulo": "Como o Google ordena resultados locais",
+        "paragrafos": [
+          "Segundo o Google, a classificação local se baseia principalmente em três fatores."
+        ],
+        "tabela": {
+          "colunas": [
+            "Fator",
+            "Significa",
+            "Como você ajuda"
+          ],
+          "linhas": [
+            [
+              "Relevância",
+              "O quanto o perfil corresponde à busca",
+              "Categoria correta, serviços e descrição completos"
+            ],
+            [
+              "Distância",
+              "Quão perto você está de quem busca",
+              "Endereço certo; não é possível \"comprar\" proximidade"
+            ],
+            [
+              "Destaque",
+              "O quanto a empresa é conhecida",
+              "Avaliações, informações completas, presença na web"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Lista de ação para uma empresa local",
+        "paragrafos": [
+          "Comece pelo que depende só de você."
+        ],
+        "lista": [
+          "Reivindicar e verificar o Perfil da Empresa no Google",
+          "Preencher nome, endereço, telefone, horário e categoria sem divergência",
+          "Manter as mesmas informações no site e em diretórios",
+          "Pedir avaliações a clientes reais e responder a todas",
+          "Publicar fotos reais do local e dos serviços",
+          "Ter no site uma página por serviço e por cidade atendida"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela dos três fatores locais do Google e checklist de ação para a empresa"
+    },
+    "faq": [
+      {
+        "pergunta": "SEO local serve para quem atende só por internet?",
+        "resposta": "Menos. O SEO local favorece negócios com endereço ou área de atendimento definida. Quem vende para o Brasil todo ganha mais com o SEO tradicional do site, embora possa manter perfil por região atendida."
+      },
+      {
+        "pergunta": "Avaliações influenciam no resultado local?",
+        "resposta": "Sim. O Google informa que avaliações e informações completas contribuem para o destaque do perfil. Peça avaliações a clientes reais, nunca compre nem invente, e responda com educação, inclusive às negativas."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Melhorar a classificação local no Google",
+        "url": "https://support.google.com/business/answer/7091?hl=pt-BR",
+        "orgao": "Google",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Dados estruturados de negócio local",
+        "url": "https://developers.google.com/search/docs/appearance/structured-data/local-business",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "SEO local",
+      "exemploPratico": "Uma clínica odontológica de bairro quer aparecer quando alguém procura dentista perto de mim. Verifica o Perfil da Empresa, escolhe a categoria correta, informa os horários e os procedimentos, acrescenta fotos da recepção e pede aos pacientes satisfeitos que avaliem o atendimento. No site, cria uma página para cada tratamento citando o bairro e a cidade. Em algumas semanas, passa a aparecer no mapa para buscas da região.",
+      "termosRelacionados": [
+        "Perfil da Empresa no Google",
+        "SEO",
+        "palavra-chave",
+        "dados estruturados"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-seo-on-page",
+    "tipo": "glossario",
+    "cluster": "seo-google",
+    "consulta": "o que é seo on-page",
+    "consultasSecundarias": [
+      "seo on page o que é",
+      "on-page seo checklist",
+      "otimização on page"
+    ],
+    "title": "O que é SEO on-page: o que ajustar em cada página",
+    "description": "Confira o que é SEO on-page, quais elementos de cada página otimizar (título, descrição, títulos, imagens) e use o checklist para revisar o seu site.",
+    "h1": "O que é SEO on-page",
+    "respostaDireta": "SEO on-page é a otimização dos elementos dentro de cada página do site para que o Google e o leitor entendam do que ela trata. O que é SEO on-page? É cuidar do título, da descrição, dos subtítulos, do texto, das imagens e dos links internos de cada página.",
+    "secoes": [
+      {
+        "titulo": "Elementos que contam",
+        "paragrafos": [
+          "São ajustes de baixo custo, que a própria equipe consegue aplicar."
+        ],
+        "tabela": {
+          "colunas": [
+            "Elemento",
+            "Boa prática",
+            "Erro comum"
+          ],
+          "linhas": [
+            [
+              "Title tag",
+              "Único por página, com o assunto no início",
+              "Todas as páginas com o mesmo título"
+            ],
+            [
+              "Meta description",
+              "Resume a página e convida ao clique",
+              "Vazia ou copiada"
+            ],
+            [
+              "H1 e subtítulos",
+              "Um H1 claro e H2 para as seções",
+              "Vários H1 ou nenhum"
+            ],
+            [
+              "Texto",
+              "Responde à dúvida do visitante",
+              "Texto raso, só para encher"
+            ],
+            [
+              "Imagens",
+              "Texto alternativo descritivo e arquivo leve",
+              "Foto sem descrição, peso excessivo"
+            ],
+            [
+              "Links internos",
+              "Ligam páginas relacionadas",
+              "Página órfã, sem link nenhum"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Escreva para pessoas, não para robôs",
+        "paragrafos": [
+          "Repetir a palavra-chave dezenas de vezes não ajuda e é tratado como spam pelo Google. O foco é responder à pergunta do visitante de forma clara, com as palavras que ele usa, e organizar a página de modo que fique fácil de ler."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela dos elementos on-page com a boa prática e o erro mais frequente"
+    },
+    "faq": [
+      {
+        "pergunta": "SEO on-page e SEO técnico são diferentes?",
+        "resposta": "São. O on-page trata do conteúdo e da marcação de cada página. O técnico trata do site como um todo: velocidade, rastreamento, indexação, HTTPS. Os dois são necessários e se complementam."
+      },
+      {
+        "pergunta": "Quantas palavras-chave devo colocar numa página?",
+        "resposta": "Não existe um número mágico. Foque num assunto principal por página e use as palavras de forma natural, com variações. Se o texto soa repetitivo ou forçado, está passando do ponto."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Guia de otimização para mecanismos de pesquisa (SEO)",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Links de título na Pesquisa Google",
+        "url": "https://developers.google.com/search/docs/appearance/title-link",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "SEO on-page",
+      "exemploPratico": "Uma loja de brinquedos educativos tem 40 páginas de produto com o mesmo título, Loja Alegria, e sem descrição. O Google não distingue uma página da outra. A equipe reescreve o título de cada produto com o nome e a faixa etária, escreve uma descrição curta e adiciona texto alternativo às fotos. Depois de alguns meses, as páginas de produto passam a aparecer nas buscas pelos nomes dos brinquedos.",
+      "termosRelacionados": [
+        "title tag",
+        "meta description",
+        "palavra-chave",
+        "SEO técnico"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-seo-tecnico",
+    "tipo": "glossario",
+    "cluster": "seo-google",
+    "consulta": "o que é seo técnico",
+    "consultasSecundarias": [
+      "seo técnico o que é",
+      "seo técnico checklist",
+      "técnico de seo o que fazer"
+    ],
+    "title": "O que é SEO técnico: a base para o Google ler o site",
+    "description": "Entenda o que é SEO técnico, como garantir que o Google rastreie e indexe o site e quais itens de velocidade, HTTPS e mobile verificar.",
+    "h1": "O que é SEO técnico",
+    "respostaDireta": "SEO técnico é o conjunto de ajustes de infraestrutura que permite ao Google rastrear, entender e indexar o seu site sem obstáculos. O que é SEO técnico? É a base: velocidade, HTTPS, versão para celular, sitemap, links e estrutura corretos, sem os quais o melhor conteúdo não aparece.",
+    "secoes": [
+      {
+        "titulo": "Itens de verificação",
+        "paragrafos": [
+          "Um diagnóstico técnico costuma seguir uma sequência do mais básico ao mais refinado."
+        ],
+        "lista": [
+          "O site abre em HTTPS, sem avisos",
+          "O robots.txt não bloqueia páginas importantes",
+          "Existe um sitemap enviado ao Search Console",
+          "As páginas funcionam bem no celular",
+          "As principais páginas carregam rápido (Core Web Vitals)",
+          "Não há muitos erros 404 nem cadeias de redirecionamento",
+          "Cada página tem uma versão canônica clara",
+          "O conteúdo importante está no HTML, e não só em scripts"
+        ]
+      },
+      {
+        "titulo": "Como diagnosticar",
+        "paragrafos": [
+          "O Google Search Console mostra o que o Google conseguiu rastrear, o que foi indexado e o que deu erro. Comece por ele. Depois, ferramentas de medição de velocidade apontam os problemas de desempenho. Os resultados indicam por onde começar, sem precisar mexer em tudo ao mesmo tempo."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Checklist de oito verificações técnicas de SEO para o site da empresa"
+    },
+    "faq": [
+      {
+        "pergunta": "SEO técnico exige programador?",
+        "resposta": "Em boa parte, sim. Itens como velocidade, redirecionamentos e dados estruturados passam pelo código. A equipe de conteúdo cuida do on-page, mas a base técnica costuma ser trabalho de desenvolvedor."
+      },
+      {
+        "pergunta": "Com que frequência revisar o SEO técnico?",
+        "resposta": "Depois de qualquer mudança grande no site, como troca de hospedagem, de layout ou de endereços, e de forma periódica, olhando o Search Console. Problemas técnicos aparecem de repente após atualizações."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Guia de otimização para mecanismos de pesquisa (SEO)",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Sobre o Google Search Console",
+        "url": "https://support.google.com/webmasters/answer/9128668?hl=pt-BR",
+        "orgao": "Google",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "SEO técnico",
+      "exemploPratico": "Uma loja online começa a perder visitas sem motivo aparente. Ao abrir o Search Console, o gerente vê que centenas de páginas de produto saíram do índice. O desenvolvedor descobre que, numa atualização, a marcação noindex foi aplicada a todo o catálogo. Corrige, envia o sitemap de novo e pede a nova leitura. Em semanas, as páginas voltam a ser indexadas e o tráfego se recupera.",
+      "termosRelacionados": [
+        "SEO",
+        "indexação",
+        "Core Web Vitals",
+        "sitemap"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-backlink",
+    "tipo": "glossario",
+    "cluster": "seo-google",
+    "consulta": "o que é backlink",
+    "consultasSecundarias": [
+      "backlink significado",
+      "o que são backlinks",
+      "como conseguir backlinks"
+    ],
+    "title": "O que é backlink: links que apontam para o seu site",
+    "description": "Veja o que é backlink, por que links de sites confiáveis ajudam no Google, como conseguir de forma legítima e quais práticas são consideradas spam.",
+    "h1": "O que é backlink",
+    "respostaDireta": "Backlink é um link de outro site que aponta para o seu. O que é backlink? É uma indicação: quando um site relevante cita o seu, o Google entende que sua página merece ser conhecida. Mas o que conta é a qualidade e a naturalidade dos links, não a quantidade.",
+    "secoes": [
+      {
+        "titulo": "Bom link e link problemático",
+        "paragrafos": [
+          "O Google considera links como sinal, mas combate a manipulação deles. Comprar links para influenciar a classificação viola as políticas."
+        ],
+        "tabela": {
+          "colunas": [
+            "Tipo de link",
+            "Exemplo",
+            "Avaliação"
+          ],
+          "linhas": [
+            [
+              "Citação natural",
+              "Portal do setor cita seu estudo",
+              "Valioso"
+            ],
+            [
+              "Parceria legítima",
+              "Fornecedor lista sua empresa como cliente",
+              "Bom, se houver relação real"
+            ],
+            [
+              "Diretório local sério",
+              "Associação comercial da cidade",
+              "Bom para SEO local"
+            ],
+            [
+              "Link comprado",
+              "Pacote de links pago",
+              "Viola as políticas de spam"
+            ],
+            [
+              "Troca em massa",
+              "Rede de sites que se linkam entre si",
+              "Arriscado"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como conquistar links de forma honesta",
+        "paragrafos": [
+          "Crie conteúdo que valha ser citado: um guia, uma pesquisa de preços do setor, uma ferramenta. Cadastre a empresa em associações, câmaras de comércio e portais do seu segmento. Pergunte a fornecedores e parceiros se podem mencionar o seu site. Esses links chegam devagar, mas duram."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Tabela de tipos de backlink com a avaliação de cada um perante as políticas do Google"
+    },
+    "faq": [
+      {
+        "pergunta": "Vale a pena comprar backlinks?",
+        "resposta": "Não. O Google tem política contra links comprados e usados para manipular a classificação, e o site pode ser rebaixado. É mais seguro construir presença legítima, ainda que mais devagar."
+      },
+      {
+        "pergunta": "Como saber quem faz links para o meu site?",
+        "resposta": "O Google Search Console mostra os sites que mais apontam para o seu, no relatório de links. É um bom ponto de partida para entender de onde vêm as citações e se há algo estranho."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Políticas de spam da Pesquisa Google",
+        "url": "https://developers.google.com/search/docs/essentials/spam-policies",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Guia de otimização para mecanismos de pesquisa (SEO)",
+        "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide",
+        "orgao": "Google Search Central",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "backlink",
+      "exemploPratico": "Uma fabricante de portas de madeira quer ganhar visibilidade. Uma agência oferece um pacote de 500 links por um preço baixo, mas ela recusa, ciente do risco de punição. Em vez disso, publica um guia de como escolher portas, cadastra a empresa na associação de marceneiros e pede que arquitetos parceiros citem o catálogo. Poucos links, mas de fontes reais, que o Google tende a valorizar mais.",
+      "termosRelacionados": [
+        "SEO",
+        "E-E-A-T",
+        "palavra-chave",
+        "Google Search Console"
+      ]
+    }
+  }
+]

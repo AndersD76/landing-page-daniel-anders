@@ -1,14 +1,20 @@
 /**
- * Atribuição de sessão.
+ * Atribuição de sessão (last-touch) e de primeira visita (first-touch).
  *
- * Grava a PÁGINA DE ENTRADA da sessão (a primeira que o visitante abriu) e os
- * UTMs dessa entrada. Todo formulário anexa esses campos no envio, para que o
- * lead carregue a origem no próprio registro — não só no evento.
+ * Grava a PÁGINA DE ENTRADA da sessão, os UTMs e o CANAL dessa entrada. Todo
+ * formulário e toda isca anexam esses campos no envio, para que o lead
+ * carregue a origem no próprio registro — não só no evento.
  *
- * Sem isso não dá para saber qual página gera dinheiro.
+ * First-touch entre visitas só existe com consentimento de analytics (fica no
+ * localStorage); sem ele, o first-touch é a própria sessão.
  */
 
+import { classificarCanal, type Canal } from "@/lib/seo/taxonomia";
+import { temAnalytics } from "@/lib/telemetria/consentimento";
+
 const KEY = "ad_attrib_v1";
+const KEY_FT = "ad_ft_v1";
+const HOST_PROPRIO = "www.andersdev.com.br";
 
 /**
  * Identificador de sessão: aleatório, sem vínculo com pessoa, sem persistir
@@ -31,6 +37,10 @@ export interface Attribution {
   utmSource?: string;
   utmMedium?: string;
   utmCampaign?: string;
+  /** canal da entrada: organico, ia, social, email, pago, referencia, direto */
+  canal?: Canal;
+  /** host do referrer ou utm_source da entrada */
+  origem?: string;
   startedAt: string;
 }
 
@@ -44,54 +54,6 @@ function read(): Attribution | null {
   }
 }
 
-/**
- * Chamada uma vez por sessão, no primeiro carregamento. Não sobrescreve:
- * a página de entrada é a primeira, não a última.
- */
-export function captureAttribution(): Attribution | null {
-  if (typeof window === "undefined") return null;
-  const existing = read();
-  if (existing) return existing;
-
-  const params = new URLSearchParams(window.location.search);
-  const attrib: Attribution = {
-    landingPage: window.location.pathname + window.location.search,
-    sessionId: novoSessionId(),
-    utmSource: params.get("utm_source") || undefined,
-    utmMedium: params.get("utm_medium") || undefined,
-    utmCampaign: params.get("utm_campaign") || undefined,
-    startedAt: new Date().toISOString(),
-  };
-
-  try {
-    window.sessionStorage.setItem(KEY, JSON.stringify(attrib));
-  } catch {
-    // sessionStorage bloqueado (janela anônima, cookies off): seguimos sem
-    // persistir — o envio ainda leva a atribuição desta pageview.
-  }
-  return attrib;
-}
-
-/** Campos prontos para anexar ao corpo de um POST de lead. */
-export function attributionPayload(): {
-  landingPage?: string;
-  formPage?: string;
-  utmSource?: string;
-  utmMedium?: string;
-  utmCampaign?: string;
-} {
-  if (typeof window === "undefined") return {};
-  const a = read() || captureAttribution();
-  return {
-    landingPage: a?.landingPage,
-    formPage: window.location.pathname,
-    utmSource: a?.utmSource,
-    utmMedium: a?.utmMedium,
-    utmCampaign: a?.utmCampaign,
-  };
-}
-
-
 /** Host do referrer apenas — o caminho completo pode carregar dado de terceiro. */
 function referrerHost(): string | undefined {
   try {
@@ -104,7 +66,109 @@ function referrerHost(): string | undefined {
   }
 }
 
-function tipoDispositivo(): "mobile" | "desktop" {
+function gravarFirstTouch(a: Attribution) {
+  if (!temAnalytics()) return;
+  try {
+    if (!window.localStorage.getItem(KEY_FT)) {
+      window.localStorage.setItem(KEY_FT, JSON.stringify({ ...a, sessionId: "" }));
+    }
+  } catch {
+    /* storage bloqueado */
+  }
+}
+
+/**
+ * Chamada uma vez por sessão, no primeiro carregamento. Não sobrescreve:
+ * a página de entrada é a primeira, não a última.
+ */
+export function captureAttribution(): Attribution | null {
+  if (typeof window === "undefined") return null;
+  const existing = read();
+  if (existing) return existing;
+
+  const params = new URLSearchParams(window.location.search);
+  const ref = referrerHost();
+  const utmSource = params.get("utm_source") || undefined;
+  const utmMedium = params.get("utm_medium") || undefined;
+  const attrib: Attribution = {
+    landingPage: window.location.pathname + window.location.search,
+    sessionId: novoSessionId(),
+    utmSource,
+    utmMedium,
+    utmCampaign: params.get("utm_campaign") || undefined,
+    canal: classificarCanal({ referrerHost: ref, utmSource, utmMedium, hostProprio: HOST_PROPRIO }),
+    origem: utmSource || ref,
+    startedAt: new Date().toISOString(),
+  };
+
+  gravarFirstTouch(attrib);
+  try {
+    window.sessionStorage.setItem(KEY, JSON.stringify(attrib));
+  } catch {
+    // sessionStorage bloqueado (janela anônima, cookies off): seguimos sem
+    // persistir — o envio ainda leva a atribuição desta pageview.
+  }
+  return attrib;
+}
+
+/** Atribuição da sessão atual (last-touch). */
+export function lerSessao(): Attribution | null {
+  return read() || captureAttribution();
+}
+
+/** First-touch persistido entre visitas (só com consentimento de analytics). */
+export function lerFirstTouch(): Attribution | null {
+  if (typeof window === "undefined" || !temAnalytics()) return null;
+  try {
+    const raw = window.localStorage.getItem(KEY_FT);
+    if (raw) return JSON.parse(raw) as Attribution;
+  } catch {
+    return null;
+  }
+  const atual = read();
+  if (atual) gravarFirstTouch(atual);
+  return atual;
+}
+
+function resumo(x: Attribution | null) {
+  return x
+    ? {
+        canal: x.canal,
+        origem: x.origem,
+        landingPage: x.landingPage,
+        utmSource: x.utmSource,
+        utmMedium: x.utmMedium,
+        utmCampaign: x.utmCampaign,
+        startedAt: x.startedAt,
+      }
+    : null;
+}
+
+/** Campos prontos para anexar ao corpo de um POST de lead. */
+export function attributionPayload(): {
+  landingPage?: string;
+  formPage?: string;
+  utmSource?: string;
+  utmMedium?: string;
+  utmCampaign?: string;
+  canal?: string;
+  atribuicao?: { ft: ReturnType<typeof resumo>; lt: ReturnType<typeof resumo> };
+} {
+  if (typeof window === "undefined") return {};
+  const a = lerSessao();
+  const ft = lerFirstTouch() ?? a;
+  return {
+    landingPage: a?.landingPage,
+    formPage: window.location.pathname,
+    utmSource: a?.utmSource,
+    utmMedium: a?.utmMedium,
+    utmCampaign: a?.utmCampaign,
+    canal: a?.canal,
+    atribuicao: { ft: resumo(ft), lt: resumo(a) },
+  };
+}
+
+export function tipoDispositivo(): "mobile" | "desktop" {
   return window.matchMedia?.("(max-width: 767px)").matches ? "mobile" : "desktop";
 }
 
@@ -114,7 +178,7 @@ function tipoDispositivo(): "mobile" | "desktop" {
  */
 export function enviarTrack(payload: Record<string, unknown>): void {
   if (typeof window === "undefined") return;
-  const a = read() || captureAttribution();
+  const a = lerSessao();
   if (!a) return;
 
   const corpo = JSON.stringify({ ...payload, sessionId: a.sessionId });
@@ -122,10 +186,7 @@ export function enviarTrack(payload: Record<string, unknown>): void {
   try {
     // sendBeacon sobrevive à navegação; fetch é o plano B.
     if (navigator.sendBeacon) {
-      const ok = navigator.sendBeacon(
-        "/api/track",
-        new Blob([corpo], { type: "application/json" })
-      );
+      const ok = navigator.sendBeacon("/api/track", new Blob([corpo], { type: "application/json" }));
       if (ok) return;
     }
     void fetch("/api/track", {
@@ -142,7 +203,8 @@ export function enviarTrack(payload: Record<string, unknown>): void {
 /** Pageview da rota atual. */
 export function enviarPageview(path: string): void {
   if (typeof window === "undefined") return;
-  const a = read() || captureAttribution();
+  const a = lerSessao();
+  const ctx = document.querySelector<HTMLElement>("[data-page-type]")?.dataset;
   enviarTrack({
     tipo: "pageview",
     path,
@@ -151,6 +213,9 @@ export function enviarPageview(path: string): void {
     utmSource: a?.utmSource,
     utmMedium: a?.utmMedium,
     utmCampaign: a?.utmCampaign,
+    canal: a?.canal,
+    pageType: ctx?.pageType,
+    cluster: ctx?.cluster,
     device: tipoDispositivo(),
   });
 }

@@ -255,6 +255,8 @@ export default function AdminDashboardPage() {
           <div className="glass-card">
             <h2 className="font-heading text-lg font-bold mb-4">Links</h2>
             <div className="space-y-3">
+              <QuickLink href="/admin/crescimento" label="Crescimento orgânico (SEO, GEO, iscas, filas)" />
+              <QuickLink href="/admin/trafego" label="Tráfego" />
               <QuickLink href="/admin/leads" label="Ver Todos os Leads" />
               <QuickLink href="/" label="Ver Site" />
               <div className="pt-2 border-t border-white/[0.06]">

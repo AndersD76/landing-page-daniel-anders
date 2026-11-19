@@ -23,3 +23,6 @@ drizzle/meta/
 _ul
 _ul-*
 .streamlit/
+
+# cache de coleta (autocomplete, SERP)
+.cache/

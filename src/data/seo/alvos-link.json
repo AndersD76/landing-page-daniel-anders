@@ -1,0 +1,1322 @@
+[
+  {
+    "nome": "CDL Passo Fundo",
+    "url": "https://www.cdlpassofundo.com.br/",
+    "tipo": "associacao",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/sites-e-sistemas/passo-fundo",
+    "ativo": "Perfil econômico de Passo Fundo com dado do IBGE (CEMPRE) e palestra gratuita de 40 minutos sobre quanto a planilha custa para o lojista",
+    "mensagem": "Olá, equipe da CDL Passo Fundo. Sou o Daniel Anders, desenvolvedor aqui de Passo Fundo. Montei uma página pública com o perfil econômico da cidade puxado do Cadastro Central de Empresas do IBGE: quantas empresas existem, em que setores e como Passo Fundo se compara a cidades vizinhas. É de uso livre. Se servir para o informativo aos associados, fiquem à vontade para usar com a fonte. Também posso fazer uma conversa gratuita de 40 minutos com lojistas sobre como medir o tempo que a planilha consome. Sem venda no palco. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "ACISA Passo Fundo — Associação Comercial, Industrial, de Serviços e Agronegócio",
+    "url": null,
+    "tipo": "associacao",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Relatório de empresas por setor (IBGE CEMPRE) com gráficos que podem ser embutidos no site ou na revista da associação",
+    "mensagem": "Olá, pessoal da ACISA. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Publiquei um relatório aberto com o número de empresas por setor, tirado do Cadastro Central de Empresas do IBGE, com gráficos que podem ser embutidos em qualquer site com a fonte citada. Passo Fundo, Marau, Carazinho e Erechim aparecem lado a lado. Se fizer sentido para algum material da associação ou para um café empresarial, posso apresentar os números em 20 minutos, sem custo e sem apresentação comercial. Daniel Anders — andersdev.com.br",
+    "verificado": false
+  },
+  {
+    "nome": "Sebrae RS",
+    "url": "https://sebraers.com.br/",
+    "tipo": "sebrae",
+    "regiao": "RS",
+    "paginaAlvo": "/ferramentas/custo-da-planilha",
+    "ativo": "Calculadoras gratuitas (custo da planilha, taxa de marketplace) que consultores podem usar em atendimento, sem cadastro para ver o resultado",
+    "mensagem": "Olá, equipe do Sebrae RS. Sou o Daniel Anders, desenvolvedor em Passo Fundo. Mantenho ferramentas gratuitas pensadas para o dono de pequena empresa: uma calculadora que mostra quanto um processo manual em planilha custa por ano e em quantos meses um sistema se pagaria, e outra que calcula quanto a comissão de marketplace leva por ano. O resultado aparece na tela sem cadastro. Se forem úteis para consultores em atendimento ou para algum conteúdo do portal, estão à disposição. Também posso conversar sobre credenciamento como fornecedor. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Sebraetec (Sebrae)",
+    "url": "https://sebrae.com.br/subsites/sebraetec",
+    "tipo": "sebrae",
+    "regiao": "Brasil",
+    "paginaAlvo": "/quanto-custa",
+    "ativo": "Tabela pública de preços de site, loja e sistema, útil como referência para o empresário que vai contratar um serviço subsidiado",
+    "mensagem": "Olá, equipe do Sebraetec. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Publico no site uma tabela aberta de preços por tipo de projeto (landing page, site institucional, loja virtual, sistema web, aplicativo), com o que entra em cada faixa e quanto cada integração acrescenta. A ideia é o empresário chegar ao orçamento sabendo comparar propostas. Gostaria de entender como funciona o credenciamento de prestadores na área de transformação digital no RS e, se for útil, a tabela fica disponível como material de apoio. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "FIERGS — Federação das Indústrias do RS",
+    "url": "https://www.fiergs.org.br/",
+    "tipo": "entidade",
+    "regiao": "RS",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Dado aberto de empresas e pessoal ocupado por município (IBGE CEMPRE) com gráficos embutíveis, e artigo sobre custo de processo manual na indústria pequena",
+    "mensagem": "Olá, equipe da FIERGS. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Organizei em páginas abertas os dados do Cadastro Central de Empresas do IBGE para 100 municípios gaúchos, com empresas e pessoal ocupado por setor, incluindo a indústria de transformação. Os gráficos podem ser embutidos com a fonte. Se interessar à área de inovação ou à regional do Planalto, posso escrever um artigo prático sobre como a indústria pequena mede o custo de processos que ainda rodam em planilha. Sem conteúdo comercial. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Federasul",
+    "url": "https://federasul.com.br/",
+    "tipo": "entidade",
+    "regiao": "RS",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Relatório aberto de empresas por setor e por município (IBGE CEMPRE) para uso em materiais das associações comerciais filiadas",
+    "mensagem": "Olá, equipe da Federasul. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Publiquei páginas abertas com o perfil de 100 municípios do RS a partir do Cadastro Central de Empresas do IBGE: quantas empresas existem, quantas pessoas trabalham nelas e quais setores pesam mais em cada cidade. Como a Federasul reúne associações comerciais do interior, achei que o material poderia ser útil para elas. É livre para uso com citação da fonte. Se quiserem, preparo um resumo por região. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Fecomércio-RS",
+    "url": "https://www.fecomercio-rs.org.br/",
+    "tipo": "entidade",
+    "regiao": "RS",
+    "paginaAlvo": "/ferramentas/taxa-de-marketplace",
+    "ativo": "Calculadora gratuita de comissão de marketplace e prazo de retorno de um canal próprio, e artigo para lojistas sobre loja própria x marketplace",
+    "mensagem": "Olá, equipe da Fecomércio-RS. Sou o Daniel Anders, desenvolvedor em Passo Fundo. Fiz uma calculadora gratuita que mostra ao lojista quanto a comissão do marketplace leva por ano e em quantos meses uma loja própria se pagaria, levando para ela parte dos pedidos. O lojista usa os próprios números e a porcentagem do contrato, sem cadastro para ver o resultado. Se fizer sentido para algum conteúdo voltado ao varejo gaúcho, também tenho um artigo pronto explicando a conta passo a passo, sem citar preço de plataforma. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "SETCERGS — Sindicato das Empresas de Transporte de Cargas e Logística no RS",
+    "url": "https://www.setcergs.com.br/",
+    "tipo": "sindicato-patronal",
+    "regiao": "RS",
+    "paginaAlvo": "/sistema-para/transportadoras",
+    "ativo": "Artigo prático sobre comprovante de entrega digital e tempo entre entrega e faturamento, com fórmula para a transportadora medir",
+    "mensagem": "Olá, equipe do SETCERGS. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Escrevi um artigo para transportadoras sobre um ponto que pouca gente mede: quantos dias passam entre a entrega feita e o canhoto chegar à matriz para faturar, e quanto dinheiro fica parado nesse intervalo. Tem uma fórmula simples e uma lista do que um comprovante digital precisa ter. Se servir para o portal ou o informativo dos associados, envio o texto completo. Não há menção comercial no corpo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "FETRANSUL — Federação das Empresas de Logística e Transporte de Cargas no RS",
+    "url": "https://www.fetransul.com.br/",
+    "tipo": "sindicato-patronal",
+    "regiao": "RS",
+    "paginaAlvo": "/sistema-para/transportadoras",
+    "ativo": "Mesmo artigo sobre canhoto digital adaptado aos sindicatos filiados do interior, e palestra curta em encontro regional",
+    "mensagem": "Olá, equipe da FETRANSUL. Sou o Daniel Anders, desenvolvedor em Passo Fundo. Tenho um artigo pronto para transportadoras pequenas e médias sobre o intervalo entre a entrega e o faturamento: como medir em uma semana, quanto capital fica parado e o que observar antes de comprar um aplicativo de comprovante de entrega. Como a federação fala com sindicatos do interior, talvez o texto sirva para algum boletim. Também posso apresentar o tema em 20 minutos em encontro regional, sem custo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Sescon-RS — Sindicato das Empresas de Serviços Contábeis do RS",
+    "url": "https://sesconrs.com.br/",
+    "tipo": "sindicato-patronal",
+    "regiao": "RS",
+    "paginaAlvo": "/sistema-para/escritorios-de-contabilidade",
+    "ativo": "Artigo sobre como o escritório contábil organiza o recebimento de documentos que chegam pelo WhatsApp, com checklist de LGPD",
+    "mensagem": "Olá, equipe do Sescon-RS. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Escrevi um artigo para escritórios contábeis sobre um problema comum: documento de cliente chegando por WhatsApp, e-mail e papel ao mesmo tempo. O texto mostra como medir as horas gastas para encontrar arquivos, como organizar a entrada antes de comprar qualquer ferramenta e o que a LGPD pede sobre a segurança desses dados, com o artigo da lei. Se for útil para o informativo dos associados, envio a versão completa. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "CRCRS — Conselho Regional de Contabilidade do RS",
+    "url": "https://www.crcrs.org.br/",
+    "tipo": "entidade",
+    "regiao": "RS",
+    "paginaAlvo": "/ferramentas/checklist-lgpd",
+    "ativo": "Checklist gratuito de LGPD para site e sistema, que o contador pode indicar ao cliente pequeno",
+    "mensagem": "Olá, equipe do CRCRS. Sou o Daniel Anders, desenvolvedor em Passo Fundo. Muitos donos de pequena empresa perguntam ao contador se o site deles cumpre a LGPD. Montei um checklist gratuito com 20 perguntas, baseado nos artigos da Lei 13.709/2018 e na resolução da ANPD para agentes de pequeno porte, que mostra a pontuação na tela sem cadastro. Se for útil como material de apoio aos profissionais registrados, fica à disposição. Também tenho um artigo explicativo pronto para publicação, sem conteúdo comercial. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "AGAS — Associação Gaúcha de Supermercados",
+    "url": "https://www.agas.com.br/site/",
+    "tipo": "associacao",
+    "regiao": "RS",
+    "paginaAlvo": "/ferramentas/custo-da-planilha",
+    "ativo": "Calculadora gratuita do custo de processo manual (pedido, cotação, conferência) e artigo para supermercado pequeno do interior",
+    "mensagem": "Olá, equipe da AGAS. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Fiz uma calculadora gratuita que mostra quanto um processo manual custa por ano — cotação com fornecedor, conferência de nota, controle de validade em planilha — e em quantos meses um sistema se pagaria. O resultado aparece na tela sem cadastro. Para o supermercado pequeno do interior, é um jeito de decidir com número e não com intuição. Se servir para a revista ou o portal da associação, posso escrever um artigo explicando a conta. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "SIMECS — Sindicato das Indústrias Metalúrgicas, Mecânicas e de Material Elétrico de Caxias do Sul",
+    "url": "https://simecs.com.br/",
+    "tipo": "sindicato-patronal",
+    "regiao": "Serra",
+    "paginaAlvo": "/ferramentas/custo-da-planilha",
+    "ativo": "Artigo sobre ordem de produção em planilha na indústria pequena e calculadora gratuita de retorno de sistema",
+    "mensagem": "Olá, equipe do SIMECS. Sou o Daniel Anders, desenvolvedor em Passo Fundo e atendo empresas da Serra. Escrevi um artigo para a indústria metalmecânica pequena sobre ordem de produção que ainda vive em planilha: como medir em duas semanas quanto tempo ela consome, onde costuma gerar retrabalho e quando faz sentido trocar por sistema. Junto vai uma calculadora gratuita que mostra o prazo de retorno. Se o conteúdo for útil para os associados, envio o texto completo, sem menção comercial no corpo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Sinduscon-RS",
+    "url": "https://www.sinduscon-rs.com.br/",
+    "tipo": "sindicato-patronal",
+    "regiao": "RS",
+    "paginaAlvo": "/sistema-para/empresas-de-engenharia",
+    "ativo": "Artigo sobre medição de obra com dado do canteiro em vez de anotação transcrita, com lista do que um sistema simples precisa ter",
+    "mensagem": "Olá, equipe do Sinduscon-RS. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Tenho um artigo prático para construtoras pequenas e médias sobre medição de obra: a diferença entre registrar no canteiro e transcrever depois, como estimar o tempo gasto nessa transcrição e o que um sistema simples precisa ter para resolver isso sem virar um ERP caro. Se servir para o portal ou o boletim dos associados, envio a versão completa. Também posso falar sobre o tema em evento técnico. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Sinduscon Passo Fundo — Sindicato das Indústrias da Construção e do Mobiliário",
+    "url": "https://www.sindusconpf.com.br/",
+    "tipo": "sindicato-patronal",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/sistema-para/empresas-de-engenharia",
+    "ativo": "Palestra gratuita local sobre medição de obra e controle de material, e dado do IBGE sobre o setor de construção em Passo Fundo",
+    "mensagem": "Olá, equipe do Sinduscon Passo Fundo. Sou o Daniel Anders, desenvolvedor de software aqui da cidade. Pelos dados do Cadastro Central de Empresas do IBGE, a construção aparece entre os seis maiores setores em número de empresas em Passo Fundo. Preparei um material curto sobre controle de medição e de material em obra para empresas pequenas e médias, e posso apresentar em 30 minutos numa reunião de associados, sem custo e sem venda. Se preferirem, envio como artigo para o site do sindicato. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Sindirepa-RS — Sindicato da Indústria de Reparação de Veículos do RS",
+    "url": "https://www.sindirepa-rs.com.br/",
+    "tipo": "sindicato-patronal",
+    "regiao": "RS",
+    "paginaAlvo": "/sistema-para/oficinas-mecanicas",
+    "ativo": "Artigo sobre ordem de serviço em papel e onde a oficina perde dinheiro, com lista para conferir em uma semana",
+    "mensagem": "Olá, equipe do Sindirepa-RS. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Escrevi um artigo para oficinas sobre os pontos onde a ordem de serviço em papel deixa dinheiro para trás: peça que sai do estoque e não entra na nota, orçamento aprovado por telefone sem registro, carro parado esperando resposta. O texto traz um teste de uma semana que o dono faz sem comprar nada. Se for útil para o portal ou o informativo do sindicato, envio a versão completa. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Sindilojas Porto Alegre",
+    "url": "https://sindilojaspoa.com.br/",
+    "tipo": "sindicato-patronal",
+    "regiao": "Grande Porto Alegre",
+    "paginaAlvo": "/ferramentas/taxa-de-marketplace",
+    "ativo": "Calculadora gratuita de comissão de marketplace e artigo sobre loja própria x marketplace para o lojista",
+    "mensagem": "Olá, equipe do Sindilojas Porto Alegre. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Muitos lojistas vendem em marketplace e nunca somaram quanto a comissão leva no ano. Fiz uma calculadora gratuita em que o lojista coloca pedidos, ticket médio e a porcentagem do próprio contrato e vê o total anual e em quantos meses um canal próprio se pagaria. Também tenho um artigo pronto explicando a conta. Se fizer sentido para a comunicação com os associados, fica à disposição. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Sindilojas Passo Fundo",
+    "url": null,
+    "tipo": "sindicato-patronal",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/ferramentas/taxa-de-marketplace",
+    "ativo": "Palestra gratuita para lojistas locais sobre a conta do marketplace e calculadora de uso livre",
+    "mensagem": "Olá, equipe do Sindilojas. Sou o Daniel Anders, desenvolvedor de software aqui em Passo Fundo. Preparei uma conversa de 30 minutos para lojistas sobre a conta que pouca gente faz: quanto a comissão do marketplace leva por ano e quando uma loja própria começa a compensar. Uso uma calculadora gratuita em que cada lojista coloca a porcentagem do próprio contrato, sem cadastro. Se houver espaço em algum encontro com associados, faço sem custo e sem apresentação comercial. Também posso enviar o conteúdo como artigo. Daniel Anders — andersdev.com.br",
+    "verificado": false
+  },
+  {
+    "nome": "CDL Porto Alegre",
+    "url": "https://cdlpoa.com.br/",
+    "tipo": "associacao",
+    "regiao": "Grande Porto Alegre",
+    "paginaAlvo": "/ferramentas/checklist-lgpd",
+    "ativo": "Checklist gratuito de LGPD para o site do lojista e artigo explicando o que a lei pede, com artigos citados",
+    "mensagem": "Olá, equipe da CDL Porto Alegre. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Fiz um checklist gratuito com 20 perguntas para o lojista conferir se o site e o formulário de contato cumprem a LGPD. A pontuação aparece na tela sem cadastro, e cada item cita o artigo da Lei 13.709/2018 correspondente. Também tenho um artigo pronto, em linguagem simples, sobre o que a lei pede do site de uma pequena empresa. Se for útil para os associados, os dois ficam à disposição. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Secovi-RS / Agademi",
+    "url": "https://www.secovirs.com.br/site/",
+    "tipo": "sindicato-patronal",
+    "regiao": "RS",
+    "paginaAlvo": "/sistema-para/imobiliarias",
+    "ativo": "Artigo sobre atualização de preço e disponibilidade de imóvel em vários canais, e checklist de LGPD para formulário de interessado",
+    "mensagem": "Olá, equipe do Secovi-RS. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Tenho um artigo para imobiliárias pequenas e médias sobre um retrabalho comum: quando o preço ou a disponibilidade de um imóvel muda, quantos lugares alguém precisa atualizar à mão, e como integrar isso. O texto também cobre o que a LGPD pede do formulário de interessado no site, com os artigos da lei. Se servir para o portal ou o boletim da entidade, envio a versão completa, sem menção comercial. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "SINDIHOSPA — Sindicato dos Hospitais e Clínicas de Porto Alegre",
+    "url": "https://sindihospa.com.br/",
+    "tipo": "sindicato-patronal",
+    "regiao": "Grande Porto Alegre",
+    "paginaAlvo": "/sistema-para/clinicas-e-consultorios",
+    "ativo": "Artigo sobre como a clínica mede e reduz faltas em consulta, com cuidados de LGPD para dado de saúde",
+    "mensagem": "Olá, equipe do SINDIHOSPA. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Escrevi um artigo para clínicas e consultórios sobre falta em consulta: como calcular a taxa por dia da semana e por profissional, o que muda com confirmação ativa e lista de espera, e que cuidado ter com a mensagem de confirmação, já que dado de saúde é dado sensível pela LGPD (art. 5º, II). Se for útil para algum informativo das clínicas associadas, envio o texto completo, sem conteúdo comercial. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Abrasel — Associação Brasileira de Bares e Restaurantes",
+    "url": "https://abrasel.com.br/",
+    "tipo": "associacao",
+    "regiao": "Brasil",
+    "paginaAlvo": "/sistema-para/restaurantes-e-bares",
+    "ativo": "Calculadora gratuita de comissão de aplicativo de pedido/marketplace e artigo sobre canal próprio de pedidos",
+    "mensagem": "Olá, equipe da Abrasel. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Fiz uma calculadora gratuita que mostra quanto a comissão de marketplace leva por ano a partir dos pedidos, do ticket médio e da porcentagem do contrato de cada estabelecimento, e em quantos meses um canal próprio de pedidos se pagaria. A porcentagem é a do contrato de cada um. Se for útil para conteúdo da seccional gaúcha ou do portal nacional, também tenho um artigo explicando a conta. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "ACCIE — Associação Comercial, Cultural e Industrial de Erechim",
+    "url": "https://www.accie.com.br/",
+    "tipo": "associacao",
+    "regiao": "Erechim",
+    "paginaAlvo": "/sites-e-sistemas/erechim",
+    "ativo": "Perfil econômico de Erechim com dado do IBGE (CEMPRE), comparado a Passo Fundo e região, e palestra gratuita",
+    "mensagem": "Olá, equipe da ACCIE. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Publiquei uma página aberta com o perfil de Erechim a partir do Cadastro Central de Empresas do IBGE: número de empresas, pessoal ocupado e setores com mais empresas. Pelos dados, a indústria de transformação é o segundo setor da cidade em número de empresas, à frente de Passo Fundo nessa proporção. Se o material servir para associados ou para um café empresarial, posso apresentar os números em 20 minutos, sem custo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "CDL Erechim",
+    "url": "https://www.cdlerechim.com.br/",
+    "tipo": "associacao",
+    "regiao": "Erechim",
+    "paginaAlvo": "/sites-e-sistemas/erechim",
+    "ativo": "Dados de Erechim do IBGE e calculadora gratuita de comissão de marketplace para lojistas",
+    "mensagem": "Olá, equipe da CDL Erechim. Sou o Daniel Anders, desenvolvedor em Passo Fundo. Montei uma página pública com o perfil econômico de Erechim, tirado do Cadastro Central de Empresas do IBGE, e uma calculadora gratuita que mostra ao lojista quanto a comissão de marketplace leva por ano. Os dois são de uso livre e não pedem cadastro para mostrar o resultado. Se fizer sentido para a comunicação com os associados, fiquem à vontade para usar com a fonte. Também posso conversar com lojistas sobre o tema, sem custo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "CDL Carazinho",
+    "url": "https://cdlcarazinho.com.br/",
+    "tipo": "associacao",
+    "regiao": "Carazinho",
+    "paginaAlvo": "/sites-e-sistemas/carazinho",
+    "ativo": "Perfil de Carazinho com dado do IBGE e palestra gratuita sobre o custo da planilha no comércio",
+    "mensagem": "Olá, equipe da CDL Carazinho. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Publiquei uma página aberta com o perfil econômico de Carazinho, a partir do Cadastro Central de Empresas do IBGE. Pelos dados, o comércio responde por mais de um terço das empresas da cidade. Se for útil para os associados, o material é livre para uso com a fonte. Também posso fazer uma conversa de 30 minutos sobre como o lojista mede o tempo que a planilha consome, sem custo e sem venda. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "ACI Carazinho — Associação Comercial e Industrial de Carazinho",
+    "url": null,
+    "tipo": "associacao",
+    "regiao": "Carazinho",
+    "paginaAlvo": "/sites-e-sistemas/carazinho",
+    "ativo": "Dado do IBGE sobre indústria e transporte em Carazinho e artigo para empresas do polo logístico",
+    "mensagem": "Olá, equipe da ACI Carazinho. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Organizei em uma página aberta os dados de Carazinho do Cadastro Central de Empresas do IBGE, com indústria e transporte entre os principais setores em número de empresas. Também tenho um artigo para transportadoras sobre o intervalo entre a entrega e o faturamento, que pode interessar às empresas de logística associadas. Se for útil, os dois ficam à disposição, e posso apresentar os números em reunião, sem custo. Daniel Anders — andersdev.com.br",
+    "verificado": false
+  },
+  {
+    "nome": "CIC Bento Gonçalves — Centro da Indústria, Comércio e Serviços",
+    "url": "https://cicbg.com.br/",
+    "tipo": "associacao",
+    "regiao": "Serra",
+    "paginaAlvo": "/sites-e-sistemas/bento-goncalves",
+    "ativo": "Perfil econômico de Bento Gonçalves com dado do IBGE e artigo sobre custo de processo manual na indústria",
+    "mensagem": "Olá, equipe do CIC Bento Gonçalves. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo e atendo empresas da Serra. Publiquei uma página aberta com o perfil de Bento Gonçalves a partir do Cadastro Central de Empresas do IBGE: empresas, pessoal ocupado e setores principais. Também tenho um artigo sobre como a indústria pequena mede o custo de processos que ainda rodam em planilha. Se algum dos dois servir para a comunicação com os associados, fica à disposição, sem conteúdo comercial. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "CIC Caxias do Sul — Câmara de Indústria, Comércio e Serviços",
+    "url": null,
+    "tipo": "associacao",
+    "regiao": "Serra",
+    "paginaAlvo": "/sites-e-sistemas/caxias-do-sul",
+    "ativo": "Perfil econômico de Caxias do Sul (IBGE CEMPRE) e artigo sobre ordem de produção em planilha",
+    "mensagem": "Olá, equipe da CIC Caxias. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo e atendo empresas da Serra. Organizei em uma página aberta os dados de Caxias do Sul do Cadastro Central de Empresas do IBGE, com a indústria de transformação como segundo setor em número de empresas. Também tenho um artigo prático sobre ordem de produção em planilha na indústria pequena. Se forem úteis para a diretoria de inovação ou para os associados, ficam à disposição, sem custo e sem apresentação comercial. Daniel Anders — andersdev.com.br",
+    "verificado": false
+  },
+  {
+    "nome": "ACISA Santo Ângelo — Associação Comercial e Industrial",
+    "url": "https://www.acisamissoes.com.br/",
+    "tipo": "associacao",
+    "regiao": "Missões",
+    "paginaAlvo": "/sites-e-sistemas/santo-angelo",
+    "ativo": "Perfil de Santo Ângelo com dado do IBGE e palestra gratuita on-line para associados das Missões",
+    "mensagem": "Olá, equipe da ACISA Santo Ângelo. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Publiquei uma página aberta com o perfil econômico de Santo Ângelo, a partir do Cadastro Central de Empresas do IBGE. Pelos dados, saúde e serviços sociais aparecem entre os três maiores setores da cidade em número de empresas. Se o material for útil para os associados, é livre para uso com a fonte. Posso também fazer uma conversa on-line de 30 minutos sobre como medir o custo da planilha, sem custo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "ACI Novo Hamburgo, Campo Bom e Estância Velha",
+    "url": "https://www.acinh.com.br/",
+    "tipo": "associacao",
+    "regiao": "Grande Porto Alegre",
+    "paginaAlvo": "/sites-e-sistemas/novo-hamburgo",
+    "ativo": "Perfis econômicos de Novo Hamburgo, Campo Bom e Estância Velha (IBGE CEMPRE) com gráficos embutíveis",
+    "mensagem": "Olá, equipe da ACI. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Publiquei páginas abertas com o perfil econômico de Novo Hamburgo, Campo Bom e Estância Velha, a partir do Cadastro Central de Empresas do IBGE: número de empresas, pessoal ocupado e setores principais de cada cidade. Os gráficos podem ser embutidos com a fonte citada. Se for útil para algum material da associação, fica à disposição. Também tenho artigos práticos para indústria e comércio, sem conteúdo comercial. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Associação comercial e industrial de Marau",
+    "url": null,
+    "tipo": "associacao",
+    "regiao": "Planalto Médio",
+    "paginaAlvo": "/sites-e-sistemas/marau",
+    "ativo": "Perfil de Marau com dado do IBGE (indústria em segundo lugar em número de empresas) e conversa gratuita com associados",
+    "mensagem": "Olá, equipe da associação comercial de Marau. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Montei uma página aberta com o perfil de Marau a partir do Cadastro Central de Empresas do IBGE. Pelos dados, a indústria de transformação é o segundo setor da cidade em número de empresas, com proporção maior que a de Passo Fundo. Se o material for útil para os associados, é livre para uso com a fonte. Posso apresentar os números em 20 minutos numa reunião, sem custo e sem venda. Daniel Anders — andersdev.com.br",
+    "verificado": false
+  },
+  {
+    "nome": "ABIACOM — Associação Brasileira de Inteligência Artificial e E-commerce (antiga ABComm)",
+    "url": "https://abiacom.org/",
+    "tipo": "associacao",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/taxa-de-marketplace",
+    "ativo": "Calculadora gratuita de comissão de marketplace e prazo de retorno de uma loja própria, e artigo para varejista pequeno",
+    "mensagem": "Olá, equipe da ABIACOM. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Fiz uma calculadora gratuita para o varejista pequeno que vende em marketplace: ele coloca pedidos, ticket médio e a porcentagem do próprio contrato e vê quanto a comissão leva por ano e em quantos meses uma loja própria se pagaria. Não cito taxa de nenhuma plataforma. Se for útil para conteúdo educativo da associação, também tenho um artigo pronto explicando a conta, sem menção comercial no corpo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Fenacon — Federação Nacional das Empresas de Serviços Contábeis",
+    "url": "https://fenacon.org.br/",
+    "tipo": "entidade",
+    "regiao": "Brasil",
+    "paginaAlvo": "/sistema-para/escritorios-de-contabilidade",
+    "ativo": "Artigo para a rede de notícias sobre entrada de documentos via WhatsApp no escritório contábil, com LGPD",
+    "mensagem": "Olá, equipe da Fenacon. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Escrevi um artigo para escritórios contábeis pequenos sobre documento de cliente que chega por WhatsApp, e-mail e papel: como medir as horas perdidas procurando arquivo, como padronizar a entrada antes de comprar ferramenta e o que a LGPD pede sobre a segurança desses dados (art. 46). Se for útil para a rede de notícias ou para os sindicatos filiados, envio a versão completa. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Assespro-RS — Associação das Empresas Brasileiras de TI, Regional RS",
+    "url": "https://www.assespro-rs.org.br/",
+    "tipo": "entidade",
+    "regiao": "RS",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Dados abertos de empresas por setor e município do RS e participação em eventos sobre TI no interior",
+    "mensagem": "Olá, equipe da Assespro-RS. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Organizei dados do Cadastro Central de Empresas do IBGE para 100 municípios gaúchos, com empresas e pessoal ocupado por setor, em páginas abertas e com gráficos embutíveis. Pode ser útil para quem estuda o mercado de TI no interior. Gostaria também de saber como funciona a participação de empresas pequenas do Planalto na associação e se há espaço para contribuir com conteúdo sobre transformação digital em PME. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Softsul — Associação Sul-rio-grandense de Apoio ao Desenvolvimento de Software",
+    "url": "https://www.softsul.org.br/",
+    "tipo": "entidade",
+    "regiao": "RS",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Dado aberto do IBGE por município e palestra sobre venda de software para PME do interior",
+    "mensagem": "Olá, equipe da Softsul. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Publiquei páginas abertas com dados do Cadastro Central de Empresas do IBGE para 100 municípios do RS, que ajudam a dimensionar o mercado de PME no interior. Também mantenho uma tabela pública de preços de software por tipo de projeto. Se houver interesse em conteúdo sobre venda de software para pequenas empresas fora da capital, posso contribuir com artigo ou com uma conversa em evento, sem custo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Abradi — Associação Brasileira dos Agentes Digitais",
+    "url": "https://abradi.com.br/",
+    "tipo": "associacao",
+    "regiao": "Brasil",
+    "paginaAlvo": "/agencias-parceiras",
+    "ativo": "Parceria de desenvolvimento white-label para agências associadas e checklist gratuito de lançamento de site",
+    "mensagem": "Olá, equipe da Abradi. Sou o Daniel Anders, desenvolvedor full-stack em Passo Fundo (RS). Trabalho também como parceiro técnico de agências que vendem site e sistema mas não têm desenvolvedor na equipe, no modelo white-label. Mantenho ainda um checklist gratuito de lançamento de site, com 30 itens, que agências podem usar com clientes. Gostaria de entender como funciona a participação de fornecedores técnicos na regional gaúcha e se o checklist pode servir como material para associados. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "UPF — Universidade de Passo Fundo",
+    "url": "https://www.upf.br/",
+    "tipo": "universidade",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Dados abertos do IBGE por setor e município para trabalhos acadêmicos, e palestra gratuita para cursos de Administração e Computação",
+    "mensagem": "Olá, equipe da UPF. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Organizei em páginas abertas os dados do Cadastro Central de Empresas do IBGE para 100 municípios do RS, com empresas e pessoal ocupado por setor e gráficos que podem ser citados em trabalhos acadêmicos. Se for útil para os cursos de Administração, Ciências Contábeis ou Computação, fica à disposição. Posso também fazer uma conversa gratuita com estudantes sobre como pequenas empresas da região decidem comprar software. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "UPF Parque — Parque Científico e Tecnológico",
+    "url": "https://www.upf.br/upfparque",
+    "tipo": "universidade",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/ferramentas/checklist-lancamento-de-site",
+    "ativo": "Checklist gratuito de lançamento de site e mentoria técnica pontual para empresas incubadas",
+    "mensagem": "Olá, equipe do UPF Parque. Sou o Daniel Anders, desenvolvedor full-stack em Passo Fundo. Mantenho ferramentas gratuitas que podem ajudar empresas incubadas: um checklist de lançamento de site com 30 itens e um priorizador de escopo para a primeira versão de um produto. Gostaria de me colocar à disposição para uma conversa técnica com as empresas do parque, sem custo, sobre escolha de tecnologia e o que entra no primeiro lançamento. Se houver um calendário de mentorias, adoraria participar. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "IFSul — Câmpus Passo Fundo",
+    "url": "https://passofundo.ifsul.edu.br/",
+    "tipo": "universidade",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/glossario",
+    "ativo": "Glossário gratuito de termos de software para negócio e conversa com estudantes de informática sobre mercado local",
+    "mensagem": "Olá, equipe do IFSul Passo Fundo. Sou o Daniel Anders, desenvolvedor de software aqui na cidade. Mantenho um glossário aberto que explica termos técnicos (API, webhook, hospedagem, deploy) em linguagem de dono de empresa, que pode ajudar estudantes a conversar com clientes. Gostaria de me colocar à disposição para uma conversa gratuita com as turmas da área de informática sobre como é trabalhar com software para pequenas empresas da região. Se houver semana acadêmica ou evento, fico feliz em participar. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "IFRS — Câmpus Sertão",
+    "url": "https://ifrs.edu.br/sertao/",
+    "tipo": "universidade",
+    "regiao": "Planalto Médio",
+    "paginaAlvo": "/modelos",
+    "ativo": "Modelos prontos (planilhas e checklists) de gestão para PME rural e agroindústria, para uso em aula",
+    "mensagem": "Olá, equipe do IFRS Câmpus Sertão. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Publico modelos gratuitos de planilha e checklist para gestão de pequenas empresas, que podem ser usados em aula de gestão ou em projetos de extensão com produtores e agroindústrias da região. Se forem úteis para algum curso, ficam à disposição. Também posso fazer uma conversa com estudantes sobre como um processo sai da planilha e vira sistema, sem custo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "IFRS — Câmpus Erechim",
+    "url": "https://ifrs.edu.br/erechim/",
+    "tipo": "universidade",
+    "regiao": "Erechim",
+    "paginaAlvo": "/guias",
+    "ativo": "Guias práticos sobre contratação de site e sistema para projetos de extensão com empresas locais",
+    "mensagem": "Olá, equipe do IFRS Câmpus Erechim. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Escrevo guias práticos para o dono de pequena empresa sobre contratar site, loja virtual e sistema, em linguagem sem jargão. Se houver projetos de extensão com empresas de Erechim, os guias podem servir como material de apoio. Posso também conversar com estudantes da área de informática e de gestão sobre o mercado de software para PME na região, sem custo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Atitus Educação",
+    "url": "https://www.atitus.edu.br/",
+    "tipo": "universidade",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Dados abertos do IBGE para trabalhos de curso e palestra para cursos de tecnologia e negócios",
+    "mensagem": "Olá, equipe da Atitus. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Publiquei um relatório aberto com o número de empresas por setor em 100 municípios gaúchos, a partir do Cadastro Central de Empresas do IBGE, com gráficos que podem ser citados em trabalhos. Pode ser útil para cursos de tecnologia, administração e direito. Também posso fazer uma conversa gratuita com estudantes sobre como funciona, na prática, construir software sob medida para pequenas e médias empresas da região. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "URI Erechim — Universidade Regional Integrada",
+    "url": "https://www.uricer.edu.br/site/",
+    "tipo": "universidade",
+    "regiao": "Erechim",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Dados do IBGE de Erechim e região para pesquisa e palestra gratuita para cursos de computação e administração",
+    "mensagem": "Olá, equipe da URI Erechim. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Organizei dados do Cadastro Central de Empresas do IBGE para Erechim e outros 99 municípios do RS, em páginas abertas e com gráficos citáveis. Pode ser útil para pesquisas e trabalhos de curso sobre a economia do Alto Uruguai. Também me coloco à disposição para conversar com estudantes de computação e administração sobre o mercado de software para pequenas empresas, sem custo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "URI Frederico Westphalen",
+    "url": "https://www.fw.uri.br/pt",
+    "tipo": "universidade",
+    "regiao": "Médio Alto Uruguai",
+    "paginaAlvo": "/sites-e-sistemas/frederico-westphalen",
+    "ativo": "Perfil econômico de Frederico Westphalen (IBGE) e conversa on-line com estudantes",
+    "mensagem": "Olá, equipe da URI Frederico Westphalen. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Publiquei uma página aberta com o perfil econômico de Frederico Westphalen a partir do Cadastro Central de Empresas do IBGE, com setores e pessoal ocupado. Se for útil para disciplinas de gestão ou pesquisa regional, fica à disposição. Posso também fazer uma conversa on-line gratuita com estudantes de computação sobre como pequenas empresas do interior contratam software. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "UFFS — Universidade Federal da Fronteira Sul",
+    "url": "https://www.uffs.edu.br/uffs/home/",
+    "tipo": "universidade",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Dados abertos por município e setor (IBGE CEMPRE) para pesquisa sobre desenvolvimento regional",
+    "mensagem": "Olá, equipe da UFFS. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Organizei em páginas abertas os dados do Cadastro Central de Empresas do IBGE para 100 municípios do RS, com empresas e pessoal ocupado por setor e comparação entre cidades vizinhas. Como a universidade tem campi em Passo Fundo, Erechim e Cerro Largo e pesquisa desenvolvimento regional, achei que o material poderia ser útil. É livre para uso com citação da fonte original. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "UCS — Universidade de Caxias do Sul",
+    "url": "https://www.ucs.br/site",
+    "tipo": "universidade",
+    "regiao": "Serra",
+    "paginaAlvo": "/sites-e-sistemas/caxias-do-sul",
+    "ativo": "Perfis econômicos das cidades da Serra (IBGE) e conversa com estudantes sobre software para PME",
+    "mensagem": "Olá, equipe da UCS. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo e atendo empresas da Serra. Publiquei páginas abertas com o perfil econômico de Caxias do Sul, Bento Gonçalves, Farroupilha e outras cidades da região, a partir do Cadastro Central de Empresas do IBGE. Podem servir para trabalhos de curso e pesquisas sobre a economia regional. Também me coloco à disposição para uma conversa gratuita com estudantes de computação sobre software para pequenas indústrias. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Unijuí — Universidade Regional do Noroeste do RS",
+    "url": "https://www.unijui.edu.br/",
+    "tipo": "universidade",
+    "regiao": "Missões",
+    "paginaAlvo": "/sites-e-sistemas/ijui",
+    "ativo": "Perfil econômico de Ijuí e região (IBGE) para pesquisa e conversa com estudantes",
+    "mensagem": "Olá, equipe da Unijuí. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Publiquei uma página aberta com o perfil econômico de Ijuí e de outras cidades do Noroeste, a partir do Cadastro Central de Empresas do IBGE. Pelos dados, o comércio responde por quase 40% das empresas de Ijuí. O material é livre para uso com a fonte e pode ajudar em trabalhos de curso. Também posso conversar com estudantes sobre software para pequenas empresas da região, sem custo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Unicruz — Universidade de Cruz Alta",
+    "url": "https://home.unicruz.edu.br/",
+    "tipo": "universidade",
+    "regiao": "Planalto Médio",
+    "paginaAlvo": "/sites-e-sistemas/cruz-alta",
+    "ativo": "Perfil econômico de Cruz Alta (IBGE) e conversa gratuita com cursos de gestão",
+    "mensagem": "Olá, equipe da Unicruz. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Publiquei uma página aberta com o perfil econômico de Cruz Alta a partir do Cadastro Central de Empresas do IBGE, com setores, número de empresas e pessoal ocupado. Pode ser útil em disciplinas de gestão e em projetos com empresas locais. Também posso fazer uma conversa gratuita com estudantes sobre como pequenas empresas decidem quando sair da planilha para um sistema. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "IFFar — Instituto Federal Farroupilha",
+    "url": "https://www.iffarroupilha.edu.br/",
+    "tipo": "universidade",
+    "regiao": "Missões",
+    "paginaAlvo": "/glossario",
+    "ativo": "Glossário aberto de termos de software para negócio e conversa com turmas de informática dos campi do Noroeste",
+    "mensagem": "Olá, equipe do IFFar. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Mantenho um glossário aberto que explica termos técnicos em linguagem de dono de empresa, útil para estudantes que vão atender clientes. Como o instituto tem campi em Santo Ângelo, Panambi, Frederico Westphalen e outras cidades da região, gostaria de me colocar à disposição para conversas on-line com turmas de informática sobre o mercado de software para PME, sem custo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Tecnopuc — Parque Científico e Tecnológico da PUCRS",
+    "url": "https://tecnopuc.pucrs.br/",
+    "tipo": "universidade",
+    "regiao": "Grande Porto Alegre",
+    "paginaAlvo": "/ferramentas/checklist-lancamento-de-site",
+    "ativo": "Ferramentas gratuitas para startups (checklist de lançamento, priorizador de MVP) e mentoria técnica pontual",
+    "mensagem": "Olá, equipe do Tecnopuc. Sou o Daniel Anders, desenvolvedor full-stack em Passo Fundo. Mantenho ferramentas gratuitas úteis para startups em fase inicial: um checklist de lançamento de site com 30 itens e um priorizador de escopo que ajuda a decidir o que entra na primeira versão do produto. Se forem úteis para empresas residentes ou para programas de pré-incubação, ficam à disposição. Também posso participar de mentorias técnicas pontuais, sem custo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Tecnosinos — Parque Tecnológico de São Leopoldo",
+    "url": "https://www.tecnosinos.com.br/",
+    "tipo": "universidade",
+    "regiao": "Grande Porto Alegre",
+    "paginaAlvo": "/ferramentas/checklist-lancamento-de-site",
+    "ativo": "Checklist de lançamento e priorizador de MVP gratuitos para empresas incubadas",
+    "mensagem": "Olá, equipe do Tecnosinos. Sou o Daniel Anders, desenvolvedor full-stack em Passo Fundo. Tenho ferramentas gratuitas para quem está lançando produto: checklist de lançamento de site e priorizador de escopo de MVP, com resultado na tela sem cadastro. Se fizer sentido indicar às empresas incubadas ou usar em alguma trilha de capacitação, ficam à disposição. Também me ofereço para mentorias técnicas pontuais sobre escolha de tecnologia e escopo da primeira versão, sem custo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "REGINP — Rede Gaúcha de Ambientes de Inovação",
+    "url": "https://www.reginp.com.br/",
+    "tipo": "universidade",
+    "regiao": "RS",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Dados abertos do IBGE por município para ambientes de inovação do interior e ferramentas gratuitas para incubadas",
+    "mensagem": "Olá, equipe da REGINP. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Organizei dados do Cadastro Central de Empresas do IBGE para 100 municípios gaúchos, com empresas e pessoal ocupado por setor, em páginas abertas e com gráficos embutíveis. Como a rede reúne parques e incubadoras do interior, achei que o material poderia ajudar no diagnóstico regional. Também mantenho ferramentas gratuitas para empresas incubadas. Fica tudo à disposição, sem custo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Senac RS",
+    "url": "https://www.senacrs.com.br/",
+    "tipo": "universidade",
+    "regiao": "RS",
+    "paginaAlvo": "/modelos",
+    "ativo": "Modelos prontos de planilha e checklist para cursos de gestão de pequeno negócio",
+    "mensagem": "Olá, equipe do Senac RS. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Publico modelos gratuitos de planilha e checklist para gestão de pequenas empresas — controle de pedidos, orçamento, ordem de serviço — com instruções de uso. Podem servir como material complementar em cursos de gestão e de varejo. Se forem úteis, ficam à disposição para uso com a fonte. Também posso fazer uma conversa com turmas sobre quando a planilha deixa de dar conta, sem custo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Senai RS",
+    "url": "https://www.senairs.org.br/",
+    "tipo": "universidade",
+    "regiao": "RS",
+    "paginaAlvo": "/ferramentas/custo-da-planilha",
+    "ativo": "Calculadora gratuita de retorno de sistema para processos industriais manuais e conversa com turmas técnicas",
+    "mensagem": "Olá, equipe do Senai RS. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Fiz uma calculadora gratuita que mostra quanto um processo manual custa por ano e em quantos meses um sistema se pagaria, pensada para a indústria pequena que ainda controla produção em planilha. Pode servir como exercício em cursos de gestão industrial ou de automação. Também posso conversar com turmas técnicas sobre integração entre chão de fábrica e sistema de gestão, sem custo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "GZH — GaúchaZH",
+    "url": "https://gauchazh.clicrbs.com.br/",
+    "tipo": "veiculo-regional",
+    "regiao": "RS",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Dado organizado do IBGE CEMPRE por município do RS, com gráficos embutíveis, como pauta de economia regional",
+    "mensagem": "Olá, equipe de economia da GZH. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Organizei os dados do Cadastro Central de Empresas do IBGE para 100 municípios gaúchos em páginas abertas, com gráficos que podem ser embutidos. Alguns contrastes podem render pauta: Marau e Erechim têm proporção de indústria acima de Passo Fundo, e Ijuí tem quase 40% das empresas no comércio. Os números são do IBGE (ano de referência 2021); posso enviar a planilha e a metodologia. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Rádio Uirapuru",
+    "url": "https://rduirapuru.com.br/",
+    "tipo": "veiculo-regional",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/sites-e-sistemas/passo-fundo",
+    "ativo": "Entrevista sobre o perfil econômico de Passo Fundo com dados do IBGE e dicas práticas para o pequeno empresário",
+    "mensagem": "Olá, equipe da Rádio Uirapuru. Sou o Daniel Anders, desenvolvedor de software aqui de Passo Fundo. Organizei os dados do IBGE sobre as empresas da cidade: são 10.760 empresas, com o comércio respondendo por cerca de um terço delas, segundo o Cadastro Central de Empresas (ano de referência 2021). Se interessar como pauta de economia local, posso comentar os números e comparar com Marau, Carazinho e Erechim, em entrevista ou por escrito. A fonte é pública e a página com os dados é aberta. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "O Nacional",
+    "url": "https://www.onacional.com.br/",
+    "tipo": "veiculo-regional",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/sites-e-sistemas/passo-fundo",
+    "ativo": "Artigo de opinião/serviço com dados do IBGE sobre as empresas de Passo Fundo e região",
+    "mensagem": "Olá, redação do O Nacional. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Escrevi um artigo com os dados do IBGE sobre as empresas da cidade e da região: quantas são, em que setores e onde Passo Fundo difere de Marau, Carazinho, Erechim e Ijuí. Por exemplo, saúde e serviços sociais aparecem entre os quatro maiores setores de Passo Fundo, o que não acontece nas vizinhas. Se houver espaço para artigo de colaborador, envio o texto completo com as fontes. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Rádio Planalto",
+    "url": "https://rdplanalto.com/",
+    "tipo": "veiculo-regional",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Entrevista ou boletim com dados do IBGE sobre empresas da região e dica prática para o empresário",
+    "mensagem": "Olá, equipe da Rádio Planalto. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Organizei dados do IBGE sobre as empresas de Passo Fundo e das cidades vizinhas: número de empresas, pessoas ocupadas e setores mais fortes. Dá para comparar, por exemplo, quantas pessoas trabalham em média por empresa em cada cidade. Se a pauta interessar para um programa de economia ou de negócios, posso comentar os números ao vivo ou gravado. As fontes são públicas e a página é aberta. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Diário da Manhã (Passo Fundo)",
+    "url": null,
+    "tipo": "veiculo-regional",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/sites-e-sistemas/passo-fundo",
+    "ativo": "Artigo de colaborador com dados do IBGE sobre a economia de Passo Fundo e região",
+    "mensagem": "Olá, redação do Diário da Manhã. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Preparei um artigo com os dados do Cadastro Central de Empresas do IBGE sobre Passo Fundo e as cidades do entorno: número de empresas, pessoal ocupado e setores com mais empresas em cada uma. O texto mostra contrastes que ajudam o empresário a entender o próprio mercado. Se houver espaço para colaboração, envio com todas as fontes. Também posso comentar os dados em entrevista. Daniel Anders — andersdev.com.br",
+    "verificado": false
+  },
+  {
+    "nome": "Jornal do Comércio",
+    "url": "https://www.jornaldocomercio.com/",
+    "tipo": "veiculo-regional",
+    "regiao": "RS",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Dados do IBGE por município do interior para a editoria Jornal Cidades e artigo sobre custo de processo manual",
+    "mensagem": "Olá, equipe do Jornal do Comércio. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Organizei os dados do Cadastro Central de Empresas do IBGE para 100 municípios do RS, com empresas e pessoal ocupado por setor. Para o Jornal Cidades, os contrastes entre cidades vizinhas do Planalto podem render pauta. Também tenho um artigo de serviço para empresários sobre como medir quanto um processo em planilha custa por ano. Posso enviar dados, metodologia e texto. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Correio do Povo",
+    "url": "https://www.correiodopovo.com.br/",
+    "tipo": "veiculo-regional",
+    "regiao": "RS",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Pauta com dados do IBGE sobre o perfil empresarial das cidades do interior gaúcho",
+    "mensagem": "Olá, equipe de economia do Correio do Povo. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Reuni os dados do Cadastro Central de Empresas do IBGE para 100 municípios gaúchos e comparei cidades vizinhas do interior. Há contrastes que podem interessar: proporção de indústria, peso do comércio e média de pessoas por empresa variam bastante entre cidades vizinhas do Planalto, como Passo Fundo, Marau, Carazinho e Erechim. Posso enviar a planilha, a metodologia e comentar os números. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Grupo Amanhã",
+    "url": "https://amanha.com.br/",
+    "tipo": "veiculo-regional",
+    "regiao": "Sul",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Artigo para líderes de empresas médias sobre medir o custo da planilha antes de investir em sistema",
+    "mensagem": "Olá, equipe do Grupo Amanhã. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Tenho um artigo pronto para gestores de empresas médias do Sul sobre um custo que não aparece no balanço: as horas que a equipe gasta mantendo planilhas, conferindo dados e refazendo trabalho. O texto mostra como medir em duas semanas e como comparar com o investimento em sistema, sem estatística genérica. Também posso oferecer dados do IBGE por município. Se houver espaço, envio o texto completo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Jornal Bom Dia (Erechim)",
+    "url": "https://www.jornalbomdia.com.br/",
+    "tipo": "veiculo-regional",
+    "regiao": "Erechim",
+    "paginaAlvo": "/sites-e-sistemas/erechim",
+    "ativo": "Pauta com o perfil econômico de Erechim pelo IBGE e comparação com Passo Fundo",
+    "mensagem": "Olá, redação do Jornal Bom Dia. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Organizei os dados do Cadastro Central de Empresas do IBGE sobre Erechim: são 6.309 empresas e 43.372 pessoas ocupadas (ano de referência 2021), com a indústria de transformação em segundo lugar em número de empresas. Comparado a Passo Fundo, Erechim tem proporção maior de indústria. Se a pauta interessar, envio a tabela completa e posso comentar os dados. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Jornal Boa Vista e Rádio Cultura 105.9 (Erechim)",
+    "url": "https://jornalboavista.com.br/",
+    "tipo": "veiculo-regional",
+    "regiao": "Erechim",
+    "paginaAlvo": "/sites-e-sistemas/erechim",
+    "ativo": "Entrevista sobre dados do IBGE de Erechim e dicas para o empresário local",
+    "mensagem": "Olá, equipe do Jornal Boa Vista e da Rádio Cultura. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Reuni os dados do IBGE sobre as empresas de Erechim e das cidades vizinhas: número de empresas, pessoas ocupadas e setores principais. Erechim se destaca pelo peso da indústria em relação a outras cidades do norte do estado. Se interessar como pauta, posso conversar ao vivo ou enviar um texto curto com os números e as fontes. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Rádio Progresso de Ijuí",
+    "url": "https://radioprogresso.com.br/",
+    "tipo": "veiculo-regional",
+    "regiao": "Missões",
+    "paginaAlvo": "/sites-e-sistemas/ijui",
+    "ativo": "Entrevista sobre o perfil econômico de Ijuí pelo IBGE",
+    "mensagem": "Olá, equipe da Rádio Progresso. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Organizei os dados do Cadastro Central de Empresas do IBGE sobre Ijuí: 4.566 empresas e 27.680 pessoas ocupadas (ano de referência 2021), com o comércio respondendo por quase 40% das empresas. Se a pauta servir para um programa de economia, posso comentar os números e comparar Ijuí com Santo Ângelo, Cruz Alta e Passo Fundo, ao vivo ou gravado. A página com os dados é aberta. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Gazeta do Sul (Santa Cruz do Sul)",
+    "url": "https://www.gaz.com.br/",
+    "tipo": "veiculo-regional",
+    "regiao": "Vale do Rio Pardo",
+    "paginaAlvo": "/sites-e-sistemas/santa-cruz-do-sul",
+    "ativo": "Perfil econômico de Santa Cruz do Sul e Venâncio Aires (IBGE) como pauta",
+    "mensagem": "Olá, redação da Gazeta do Sul. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Publiquei páginas abertas com o perfil econômico de Santa Cruz do Sul, Venâncio Aires e outras cidades gaúchas a partir do Cadastro Central de Empresas do IBGE: número de empresas, pessoal ocupado e setores principais. Se a comparação entre cidades da região render pauta, envio a tabela e a metodologia e posso comentar os dados. As fontes são públicas. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Baguete",
+    "url": "https://www.baguete.com.br/",
+    "tipo": "veiculo-regional",
+    "regiao": "RS",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Pauta sobre dados abertos do IBGE organizados por município e sobre tabela pública de preços de software",
+    "mensagem": "Olá, equipe do Baguete. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Duas coisas que talvez rendam pauta: organizei os dados do Cadastro Central de Empresas do IBGE para 100 municípios gaúchos em páginas abertas, com gráficos embutíveis; e publico uma tabela aberta de preços de software por tipo de projeto, algo pouco comum no mercado. Posso explicar a metodologia dos dados e o motivo de publicar preço. Fico à disposição para conversa ou artigo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Coletiva.net",
+    "url": "https://coletiva.net/",
+    "tipo": "veiculo-setorial",
+    "regiao": "RS",
+    "paginaAlvo": "/ferramentas/checklist-lancamento-de-site",
+    "ativo": "Artigo para agências gaúchas sobre o que conferir antes de colocar o site do cliente no ar",
+    "mensagem": "Olá, equipe do Coletiva.net. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Escrevi um artigo para agências e profissionais de comunicação sobre o que conferir antes de colocar o site de um cliente no ar: domínio no nome certo, formulário testado, Search Console, política de privacidade e redirecionamento do site antigo. As referências técnicas são da documentação oficial do Google e da LGPD. Se houver espaço para artigo de colaborador, envio o texto completo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "E-Commerce Brasil — artigos",
+    "url": "https://www.ecommercebrasil.com.br/artigos",
+    "tipo": "veiculo-setorial",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/taxa-de-marketplace",
+    "ativo": "Artigo de colunista sobre a conta loja própria x marketplace, com calculadora gratuita",
+    "mensagem": "Olá, equipe do E-Commerce Brasil. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Gostaria de propor um artigo para a seção de artigos: \"Loja própria ou marketplace: a conta que ninguém faz\". O texto mostra como o varejista pequeno calcula quanto a comissão leva por ano, quando uma loja própria passa a compensar e o que muda em responsabilidade legal (Decreto 7.962/2013). Não cito taxa de plataforma nem caso inventado. Posso enviar o texto completo para avaliação. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "E-commerce na Prática",
+    "url": "https://ecommercenapratica.com/",
+    "tipo": "veiculo-setorial",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/taxa-de-marketplace",
+    "ativo": "Calculadora gratuita de comissão de marketplace e prazo de retorno da loja própria, e artigo convidado",
+    "mensagem": "Olá, equipe do E-commerce na Prática. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Fiz uma calculadora gratuita que mostra ao lojista quanto a comissão do marketplace leva por ano e em quantos meses uma loja própria se pagaria, usando os números e a porcentagem do contrato dele. Se fizer sentido para o blog ou para a comunidade de alunos, tenho um artigo pronto explicando a conta passo a passo, sem citar taxa de plataforma. Posso enviar para avaliação. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Novarejo",
+    "url": "https://novarejo.com.br/",
+    "tipo": "veiculo-setorial",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/taxa-de-marketplace",
+    "ativo": "Artigo sobre canal próprio para o varejo pequeno e médio do interior",
+    "mensagem": "Olá, equipe do Novarejo. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Proponho um artigo para varejistas pequenos e médios sobre a decisão entre vender só em marketplace ou abrir canal próprio, com a conta feita por variáveis (faturamento, comissão do contrato, custo da loja) e sem estatística genérica. Também cito o que a legislação de comércio eletrônico pede de quem tem loja própria. Se houver espaço para colaborador, envio o texto completo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Mercado & Consumo",
+    "url": "https://mercadoeconsumo.com.br/",
+    "tipo": "veiculo-setorial",
+    "regiao": "Brasil",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Dados do IBGE sobre comércio por município do RS e artigo sobre canal próprio",
+    "mensagem": "Olá, equipe do Mercado & Consumo. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Organizei os dados do Cadastro Central de Empresas do IBGE para 100 municípios gaúchos e o peso do comércio varia bastante entre cidades vizinhas do interior, de menos de 30% a quase 40% das empresas. Se o recorte interessar para alguma matéria sobre varejo regional, envio os dados e a metodologia. Também tenho artigo sobre loja própria x marketplace. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "SuperVarejo",
+    "url": "https://www.supervarejo.com.br/",
+    "tipo": "veiculo-setorial",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/custo-da-planilha",
+    "ativo": "Artigo para supermercado pequeno sobre medir o custo de processos manuais",
+    "mensagem": "Olá, equipe da SuperVarejo. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Tenho um artigo pronto para o supermercado pequeno e médio sobre processos que ainda rodam em planilha — cotação, conferência de nota, controle de validade — e como medir em duas semanas quanto eles custam por ano. O texto traz a fórmula e um exemplo com números redondos, sem estatística sem fonte. Junto vai uma calculadora gratuita. Se houver espaço, envio para avaliação. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Tecnologística",
+    "url": "https://www.tecnologistica.com.br/",
+    "tipo": "veiculo-setorial",
+    "regiao": "Brasil",
+    "paginaAlvo": "/sistema-para/transportadoras",
+    "ativo": "Artigo sobre comprovante de entrega digital e ciclo entrega-faturamento na transportadora média",
+    "mensagem": "Olá, equipe da Tecnologística. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Proponho um artigo para transportadoras pequenas e médias sobre o intervalo entre a entrega e o faturamento: como medir, quanto capital fica parado e o que um comprovante de entrega digital precisa ter para funcionar na estrada, inclusive sem sinal. Sem estatística genérica nem caso inventado; a conta é feita com os números da própria empresa. Posso enviar o texto completo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Portal NTC&Logística",
+    "url": "https://www.portalntc.org.br/",
+    "tipo": "veiculo-setorial",
+    "regiao": "Brasil",
+    "paginaAlvo": "/sistema-para/transportadoras",
+    "ativo": "Artigo técnico sobre canhoto digital para empresas associadas",
+    "mensagem": "Olá, equipe do Portal NTC&Logística. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Escrevi um artigo para transportadoras sobre o canhoto em papel e o tempo que ele leva para chegar à matriz: como medir esse intervalo em uma semana, como calcular o capital parado e o que observar antes de contratar um aplicativo de comprovante de entrega. Se for útil para o portal, envio o texto completo, sem menção comercial no corpo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Portal Contábeis",
+    "url": "https://www.contabeis.com.br/",
+    "tipo": "veiculo-setorial",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/checklist-lgpd",
+    "ativo": "Artigo sobre o que a LGPD pede do site de pequena empresa, para o contador orientar clientes, e checklist gratuito",
+    "mensagem": "Olá, equipe do Contábeis. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Proponho um artigo para contadores que recebem a pergunta \"meu site cumpre a LGPD?\": o que a Lei 13.709/2018 pede do site de uma pequena empresa (arts. 9º, 18, 41 e 46) e o que a Resolução CD/ANPD nº 2/2022 muda para agentes de pequeno porte. Junto vai um checklist gratuito de 20 perguntas. Posso enviar o texto completo para avaliação. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Jornal Contábil",
+    "url": "https://jornalcontabil.com.br/",
+    "tipo": "veiculo-setorial",
+    "regiao": "Brasil",
+    "paginaAlvo": "/sistema-para/escritorios-de-contabilidade",
+    "ativo": "Artigo sobre organização da entrada de documentos no escritório contábil",
+    "mensagem": "Olá, equipe do Jornal Contábil. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Tenho um artigo pronto para escritórios contábeis sobre documento de cliente que chega por WhatsApp: como medir as horas gastas procurando arquivo, como padronizar a entrada por competência antes de comprar ferramenta e que cuidados de segurança a LGPD pede (art. 46). Não há estatística sem fonte nem menção comercial no corpo. Se houver espaço, envio para avaliação. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Medicina S/A",
+    "url": "https://medicinasa.com.br/",
+    "tipo": "veiculo-setorial",
+    "regiao": "Brasil",
+    "paginaAlvo": "/sistema-para/clinicas-e-consultorios",
+    "ativo": "Artigo para gestores de clínica sobre medir e reduzir faltas, com cuidados de LGPD para dado de saúde",
+    "mensagem": "Olá, equipe da Medicina S/A. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Proponho um artigo para gestores de clínicas pequenas e médias sobre falta em consulta: como calcular a taxa por dia, horário e profissional, o que muda com confirmação ativa e lista de espera, e por que a mensagem de confirmação precisa de cuidado, já que dado de saúde é dado sensível pela LGPD. Sem estatística genérica. Posso enviar o texto completo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Saúde Business",
+    "url": "https://www.saudebusiness.com/",
+    "tipo": "veiculo-setorial",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/checklist-lgpd",
+    "ativo": "Artigo sobre LGPD no site e no agendamento on-line de clínicas, com checklist gratuito",
+    "mensagem": "Olá, equipe do Saúde Business. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Tenho um artigo para clínicas sobre o que a LGPD pede do site e do agendamento on-line quando o dado envolvido é de saúde, que a lei classifica como sensível (art. 5º, II, e art. 11). O texto é prático: o que o formulário deve pedir, quem acessa e onde fica guardado. Junto vai um checklist gratuito. Se houver espaço para colaborador, envio para avaliação. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Oficina Brasil",
+    "url": "https://oficinabrasil.com.br/",
+    "tipo": "veiculo-setorial",
+    "regiao": "Brasil",
+    "paginaAlvo": "/sistema-para/oficinas-mecanicas",
+    "ativo": "Artigo sobre ordem de serviço em papel e pontos de perda de dinheiro na oficina",
+    "mensagem": "Olá, equipe da Oficina Brasil. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Escrevi um artigo para donos de oficina sobre onde a ordem de serviço em papel deixa dinheiro para trás: peça que sai e não é cobrada, hora de mão de obra que não entra na nota, orçamento aprovado por telefone sem registro. O texto traz um teste de uma semana, sem comprar nada, e o que um sistema de OS precisa ter. Se houver espaço, envio o texto completo. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Pequenas Empresas & Grandes Negócios (PEGN)",
+    "url": "https://revistapegn.globo.com/",
+    "tipo": "veiculo-setorial",
+    "regiao": "Brasil",
+    "paginaAlvo": "/quanto-custa",
+    "ativo": "Artigo de serviço sobre como pedir orçamento de site e comparar propostas, com tabela pública de preços",
+    "mensagem": "Olá, equipe da PEGN. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Proponho um artigo de serviço para o pequeno empresário: como pedir orçamento de site e comparar propostas que parecem incomparáveis. O texto traz um briefing de uma página, as perguntas que todo fornecedor deve responder (domínio, código, manutenção) e faixas de preço de uma tabela pública, com a fonte. Sem caso inventado nem estatística genérica. Posso enviar o texto para avaliação. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Administradores.com",
+    "url": "https://www.administradores.com.br/",
+    "tipo": "portal-nicho",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/custo-da-planilha",
+    "ativo": "Artigo sobre medir o custo da planilha numa empresa de 30 pessoas, com calculadora gratuita",
+    "mensagem": "Olá, equipe do Administradores.com. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Gostaria de publicar um artigo para gestores: \"Quanto a planilha custa para uma empresa de 30 pessoas — e como medir\". Mostro um método de duas semanas para levantar horas gastas em planilha, como converter isso em custo anual e como comparar com o investimento em sistema. Os números do exemplo são hipotéticos e declarados como tal. Junto vai uma calculadora gratuita. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Endeavor Brasil — conteúdo",
+    "url": "https://brasil.endeavor.org/",
+    "tipo": "portal-nicho",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/custo-da-planilha",
+    "ativo": "Ferramenta gratuita de decisão (custo da planilha x sistema) como recurso para empreendedores em crescimento",
+    "mensagem": "Olá, equipe de conteúdo da Endeavor. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Fiz uma calculadora gratuita que ajuda o empreendedor a decidir quando trocar planilha por sistema: ela estima o custo anual do processo manual e em quantos meses o investimento se paga. O resultado aparece sem cadastro. Se for útil como recurso em algum conteúdo sobre gestão de empresas em crescimento, fica à disposição. Também posso escrever sobre o tema. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Google Perfil da Empresa",
+    "url": "https://business.google.com/create",
+    "tipo": "diretorio-software",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/",
+    "ativo": "Perfil local com categoria Desenvolvedor de software, fotos reais e link para a home sem UTM",
+    "mensagem": "Texto de apresentação para o perfil: AndersDev é a marca de desenvolvimento de software de Daniel Anders, em Passo Fundo (RS). Faz sites, lojas virtuais, aplicativos, sistemas sob medida e automações para pequenas e médias empresas. Os preços são publicados no site, com calculadora gratuita para estimar o investimento em cerca de 2 minutos. O código e as contas ficam em nome do cliente desde o primeiro dia. Atendimento presencial em Passo Fundo e região e on-line em todo o Brasil. Consulta inicial gratuita de 15 minutos.",
+    "verificado": true
+  },
+  {
+    "nome": "Bing Places",
+    "url": "https://www.bingplaces.com/",
+    "tipo": "diretorio-software",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/",
+    "ativo": "Importação do perfil do Google, mesmo nome, endereço e telefone",
+    "mensagem": "Texto para o Bing Places (importar do Google e conferir): AndersDev — Daniel Anders. Desenvolvimento de sites, lojas virtuais, aplicativos e sistemas sob medida para pequenas e médias empresas, com sede em Passo Fundo (RS) e atendimento em todo o Brasil. Preços publicados no site e calculadora gratuita para estimar o investimento. Código e contas no nome do cliente. Endereço: Rua Uruguai, 679, Sala 201, Passo Fundo (RS). Use o mesmo nome, endereço e telefone do Google, sem variação.",
+    "verificado": true
+  },
+  {
+    "nome": "Apple Business Connect",
+    "url": "https://businessconnect.apple.com/",
+    "tipo": "diretorio-software",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/",
+    "ativo": "Ficha no Apple Maps com os mesmos dados do Google",
+    "mensagem": "Texto para o Apple Business Connect: AndersDev — Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Sites, lojas virtuais, aplicativos, sistemas sob medida e automação para pequenas e médias empresas. Preços publicados no site, com calculadora gratuita para estimar o investimento sem falar com vendedor. O código, o domínio e as contas de hospedagem ficam em nome do cliente. Atendimento presencial em Passo Fundo e região e on-line em todo o Brasil. Consulta inicial gratuita de 15 minutos. Mantenha nome, endereço e telefone idênticos aos do Google.",
+    "verificado": true
+  },
+  {
+    "nome": "LinkedIn — página da empresa",
+    "url": "https://www.linkedin.com/company/setup/new/",
+    "tipo": "diretorio-software",
+    "regiao": "Brasil",
+    "paginaAlvo": "/",
+    "ativo": "Página da empresa com descrição, serviços e republicação dos artigos",
+    "mensagem": "Texto para o \"Sobre\" da página no LinkedIn: A AndersDev é a marca de desenvolvimento de software de Daniel Anders, em Passo Fundo (RS). A AndersDev constrói sites, lojas virtuais, aplicativos, sistemas sob medida e automações para empresas de 10 a 200 pessoas que esbarraram no limite da planilha, do WhatsApp ou da plataforma pronta. Preço publicado por tipo de projeto, calculadora gratuita, código e contas em nome do cliente e demonstração semanal do que está pronto. Nesta página saem guias práticos e ferramentas gratuitas para donos de PME.",
+    "verificado": true
+  },
+  {
+    "nome": "GitHub — perfil AndersD76",
+    "url": "https://github.com/AndersD76",
+    "tipo": "diretorio-software",
+    "regiao": "Brasil",
+    "paginaAlvo": "/",
+    "ativo": "README do perfil com link para o site e repositórios públicos fixados como prova técnica",
+    "mensagem": "Texto para o README do perfil: Daniel Anders — desenvolvedor full-stack em Passo Fundo (RS). Construo sites, sistemas web, aplicativos e integrações para pequenas e médias empresas com React, Next.js, TypeScript, Node.js, Python (FastAPI) e PostgreSQL. No site andersdev.com.br mantenho ferramentas gratuitas — diagnóstico de site, calculadora do custo da planilha, checklist de LGPD — e uma tabela pública de preços por tipo de projeto. Os repositórios fixados abaixo mostram exemplos de código; para conversar sobre um projeto, o contato está no site.",
+    "verificado": true
+  },
+  {
+    "nome": "Clutch",
+    "url": "https://clutch.co/",
+    "tipo": "diretorio-software",
+    "regiao": "Brasil",
+    "paginaAlvo": "/",
+    "ativo": "Perfil de fornecedor com portfólio real e avaliações pedidas só a clientes reais",
+    "mensagem": "Resumo para o perfil no Clutch: AndersDev is the software development practice of Daniel Anders, a full-stack developer based in Passo Fundo, Brazil. It builds websites, e-commerce stores, mobile apps, custom business systems and integrations for small and mid-sized companies. Pricing ranges are published on the website, clients own the code, repositories and hosting accounts from day one, and progress is shown in weekly demos. Initial 15-minute consultation is free. Reviews on this profile come only from real clients, requested directly.",
+    "verificado": true
+  },
+  {
+    "nome": "GoodFirms",
+    "url": "https://www.goodfirms.co/get-listed",
+    "tipo": "diretorio-software",
+    "regiao": "Brasil",
+    "paginaAlvo": "/",
+    "ativo": "Listagem gratuita como empresa de desenvolvimento web e de software",
+    "mensagem": "Resumo para o GoodFirms: AndersDev, the software practice of Daniel Anders in Passo Fundo, Rio Grande do Sul, Brazil, develops websites, online stores, mobile apps, custom web systems and automations for small and mid-sized businesses. Stack: React, Next.js, TypeScript, Node.js, Python and PostgreSQL, with integrations for payments, WhatsApp and ERPs. Public price ranges by project type are available on the website, along with free tools such as a website audit and a spreadsheet cost calculator. Clients own the code and accounts.",
+    "verificado": true
+  },
+  {
+    "nome": "DesignRush",
+    "url": "https://www.designrush.com/",
+    "tipo": "diretorio-software",
+    "regiao": "Brasil",
+    "paginaAlvo": "/",
+    "ativo": "Perfil de agência/fornecedor de desenvolvimento web",
+    "mensagem": "Resumo para o DesignRush: AndersDev is a solo full-stack development practice led by Daniel Anders in Passo Fundo, Brazil. Services include website development, e-commerce, mobile apps, custom software and business automation for small and mid-sized companies. What sets it apart: published price ranges, a free cost calculator, client ownership of code and accounts, and weekly working demos instead of status reports. Portuguese and Brazilian market focus, with remote work available nationwide. No awards or client counts are listed because none are claimed.",
+    "verificado": true
+  },
+  {
+    "nome": "The Manifest",
+    "url": "https://themanifest.com/",
+    "tipo": "diretorio-software",
+    "regiao": "Brasil",
+    "paginaAlvo": "/",
+    "ativo": "Perfil sincronizado com o Clutch (mesmo grupo), com os mesmos dados",
+    "mensagem": "Resumo para o The Manifest (mesmo grupo do Clutch, use os mesmos dados): AndersDev is the software development practice of Daniel Anders, based in Passo Fundo, Brazil. It builds websites, online stores, mobile apps and custom systems for small and mid-sized businesses, with integrations for payments, WhatsApp and ERPs. Price ranges are published, clients own their code and accounts, and work is shown in weekly demos. Keep name, address and phone identical to every other listing.",
+    "verificado": true
+  },
+  {
+    "nome": "TopDevelopers.co",
+    "url": "https://www.topdevelopers.co/",
+    "tipo": "diretorio-software",
+    "regiao": "Brasil",
+    "paginaAlvo": "/",
+    "ativo": "Listagem como empresa de desenvolvimento web e de aplicativos",
+    "mensagem": "Resumo para o TopDevelopers.co: AndersDev is a web and mobile development practice run by full-stack developer Daniel Anders in Passo Fundo, Brazil. It serves small and mid-sized companies in retail, light industry, logistics, professional services and healthcare with websites, e-commerce, apps, custom systems and integrations. Public pricing, free planning tools on the website, and client ownership of code, repositories and hosting accounts are part of every project. Free 15-minute initial consultation.",
+    "verificado": true
+  },
+  {
+    "nome": "Sortlist",
+    "url": "https://www.sortlist.com/",
+    "tipo": "diretorio-software",
+    "regiao": "Brasil",
+    "paginaAlvo": "/",
+    "ativo": "Perfil de fornecedor para receber briefings de empresas",
+    "mensagem": "Resumo para o Sortlist: AndersDev — Daniel Anders, desenvolvedor full-stack em Passo Fundo (RS). Atende pequenas e médias empresas com sites institucionais, lojas virtuais, aplicativos, sistemas web sob medida e automação de processos. Os preços por tipo de projeto são públicos no site, com calculadora gratuita. O código, o domínio e as contas ficam em nome do cliente desde o início, e o andamento é mostrado em demonstrações semanais. Briefings em português, atendimento em todo o Brasil.",
+    "verificado": true
+  },
+  {
+    "nome": "Crunchbase",
+    "url": "https://www.crunchbase.com/",
+    "tipo": "diretorio-software",
+    "regiao": "Brasil",
+    "paginaAlvo": "/",
+    "ativo": "Perfil de organização com descrição, localização e site",
+    "mensagem": "Descrição para o Crunchbase: AndersDev is the software development brand of Daniel Anders, based in Passo Fundo, Rio Grande do Sul, Brazil. It builds websites, e-commerce, mobile apps, custom business systems and automations for small and mid-sized companies, and publishes free tools for business owners, including a website audit, a spreadsheet cost calculator, a marketplace fee calculator and an LGPD checklist. Price ranges are public on the website. Founder: Daniel Anders.",
+    "verificado": true
+  },
+  {
+    "nome": "Product Hunt",
+    "url": "https://www.producthunt.com/",
+    "tipo": "diretorio-software",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/custo-da-planilha",
+    "ativo": "Lançamento das ferramentas gratuitas (custo da planilha, taxa de marketplace) como produto",
+    "mensagem": "Texto de lançamento no Product Hunt: Spreadsheet Cost Calculator — a free tool that shows how much a manual, spreadsheet-based process costs a small business per year, and how many months a custom system would take to pay for itself. Enter the number of people, weekly hours, monthly cost per person and the expected time reduction; the result appears on screen with no sign-up. Built by Daniel Anders, a full-stack developer in Brazil, as part of a set of free tools for small business owners. Interface in Portuguese. Feedback on the method is welcome.",
+    "verificado": true
+  },
+  {
+    "nome": "99Freelas",
+    "url": "https://www.99freelas.com.br/",
+    "tipo": "diretorio-software",
+    "regiao": "Brasil",
+    "paginaAlvo": "/",
+    "ativo": "Perfil de freelancer com portfólio real e link para a tabela de preços",
+    "mensagem": "Apresentação para o perfil no 99Freelas: Sou Daniel Anders, desenvolvedor full-stack em Passo Fundo (RS), formado em Engenharia Elétrica e com mais de 15 anos entre tecnologia e gestão. Faço sites, lojas virtuais, sistemas web, aplicativos e integrações (pagamento, WhatsApp, ERP) para empresas. Trabalho com escopo escrito, demonstração semanal e entrega do código e das contas no nome do cliente. Minhas faixas de preço estão publicadas no site, então a proposta não tem surpresa.",
+    "verificado": true
+  },
+  {
+    "nome": "Workana",
+    "url": "https://www.workana.com/",
+    "tipo": "diretorio-software",
+    "regiao": "Brasil",
+    "paginaAlvo": "/",
+    "ativo": "Perfil de freelancer para preencher capacidade ociosa",
+    "mensagem": "Apresentação para o perfil na Workana: Daniel Anders, desenvolvedor full-stack em Passo Fundo (RS). React, Next.js, TypeScript, Node.js, Python e PostgreSQL. Sites institucionais, lojas virtuais, sistemas web sob medida, aplicativos e integrações com pagamento, WhatsApp e ERPs. Trabalho com escopo fechado por escrito, demonstração semanal do que está pronto e entrega do repositório e das contas em nome do cliente. Engenheiro eletricista de formação, com mais de 15 anos entre tecnologia e gestão empresarial.",
+    "verificado": true
+  },
+  {
+    "nome": "GetNinjas",
+    "url": "https://www.getninjas.com.br/",
+    "tipo": "diretorio-software",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/",
+    "ativo": "Perfil profissional para pedidos de site e sistema na região (avaliar custo por contato antes)",
+    "mensagem": "Apresentação para o perfil no GetNinjas: Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Crio sites, lojas virtuais, sistemas e aplicativos para empresas, com preço publicado e calculadora gratuita no site para você estimar o investimento antes de conversar. O domínio, o código e as contas ficam no nome da sua empresa. Atendo presencialmente em Passo Fundo e região e on-line em todo o Brasil. Primeira conversa de 15 minutos sem custo.",
+    "verificado": true
+  },
+  {
+    "nome": "Apontador",
+    "url": "https://www.apontador.com.br/",
+    "tipo": "diretorio-software",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/",
+    "ativo": "Listagem local com NAP idêntico ao Google",
+    "mensagem": "Texto para o Apontador: AndersDev — Daniel Anders. Desenvolvimento de sites, lojas virtuais, aplicativos e sistemas sob medida para empresas. Rua Uruguai, 679, Sala 201, Passo Fundo (RS), CEP 99010-112. Atendimento presencial em Passo Fundo e região e on-line em todo o Brasil. Preços publicados no site, com calculadora gratuita para estimar o investimento. Use exatamente o mesmo nome, endereço e telefone cadastrados no Google para não diluir o sinal local.",
+    "verificado": true
+  },
+  {
+    "nome": "Solutudo",
+    "url": "https://www.solutudo.com.br/",
+    "tipo": "diretorio-software",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/",
+    "ativo": "Listagem local gratuita com categoria de desenvolvimento de software",
+    "mensagem": "Texto para o Solutudo: AndersDev — Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Faz sites institucionais, lojas virtuais, aplicativos e sistemas sob medida para pequenas e médias empresas da região e de todo o Brasil. O site traz a tabela de preços aberta e ferramentas gratuitas, como diagnóstico de site e checklist de LGPD. Endereço: Rua Uruguai, 679, Sala 201, Passo Fundo (RS). Mantenha nome, endereço e telefone idênticos aos das outras listagens.",
+    "verificado": true
+  },
+  {
+    "nome": "Telelistas",
+    "url": null,
+    "tipo": "diretorio-software",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/",
+    "ativo": "Listagem local gratuita (conferir se o cadastro gratuito ainda existe)",
+    "mensagem": "Texto para o Telelistas: AndersDev — Daniel Anders. Desenvolvimento de sites, lojas virtuais, aplicativos e sistemas sob medida para empresas. Rua Uruguai, 679, Sala 201, Passo Fundo (RS), CEP 99010-112. Atendimento em Passo Fundo e região e on-line em todo o Brasil. Preços publicados no site, com calculadora gratuita. Antes de cadastrar, confira se a listagem é gratuita; diretório que cobra por link não vale o risco. Mantenha o mesmo nome, endereço e telefone do Google.",
+    "verificado": false
+  },
+  {
+    "nome": "AlternativeTo",
+    "url": "https://alternativeto.net/",
+    "tipo": "diretorio-software",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/taxa-de-marketplace",
+    "ativo": "Cadastro das ferramentas gratuitas como alternativa a planilhas de cálculo pagas",
+    "mensagem": "Descrição para o AlternativeTo: Marketplace Fee Calculator (Calculadora de taxa de marketplace) — free web tool, in Portuguese, that shows how much marketplace commission a seller pays per year and how many months an own online store would take to pay for itself if part of the orders moved there. The seller enters monthly orders, average ticket and the commission percentage from their own contract. Results appear on screen without sign-up. Made by Daniel Anders, a developer in Brazil, alongside other free tools for small businesses.",
+    "verificado": true
+  },
+  {
+    "nome": "Facebook — página da empresa",
+    "url": "https://www.facebook.com/pages/create",
+    "tipo": "diretorio-software",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/",
+    "ativo": "Página com link na seção Sobre e republicação dos guias",
+    "mensagem": "Texto para o \"Sobre\" da página no Facebook: AndersDev — Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Sites, lojas virtuais, aplicativos, sistemas sob medida e automação para pequenas e médias empresas. No site você encontra a tabela de preços aberta e ferramentas gratuitas: diagnóstico de site, calculadora do custo da planilha, calculadora de taxa de marketplace e checklist de LGPD. Atendimento em Passo Fundo e região e on-line em todo o Brasil.",
+    "verificado": true
+  },
+  {
+    "nome": "Instagram profissional",
+    "url": "https://www.instagram.com/",
+    "tipo": "diretorio-software",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/ferramentas/diagnostico-de-site",
+    "ativo": "Bio com link para o diagnóstico de site gratuito e Reels com os roteiros já prontos",
+    "mensagem": "Bio para o Instagram (até 150 caracteres): Sites, apps e sistemas sob medida para PME | Passo Fundo/RS | Preço aberto no site | Diagnóstico de site grátis no link. Legenda fixa sugerida: no link da bio há um diagnóstico gratuito que dá nota de 0 a 100 para o seu site e mostra o que falta para aparecer no Google. A nota sai na tela, sem cadastro. Se quiser o relatório completo, ele vai por e-mail.",
+    "verificado": true
+  },
+  {
+    "nome": "YouTube — canal",
+    "url": "https://www.youtube.com/",
+    "tipo": "diretorio-software",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/custo-da-planilha",
+    "ativo": "Canal com os roteiros de Shorts e links na descrição para as ferramentas",
+    "mensagem": "Descrição do canal no YouTube: Vídeos curtos e práticos para dono de pequena e média empresa que quer sair da planilha, ter um site que aparece no Google e saber quanto custa um sistema antes de pedir orçamento. Apresentado por Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Nos links do canal estão as ferramentas gratuitas: calculadora do custo da planilha, diagnóstico de site e checklist de LGPD. Sem promessa milagrosa, só a conta feita.",
+    "verificado": true
+  },
+  {
+    "nome": "TabNews",
+    "url": "https://www.tabnews.com.br/",
+    "tipo": "comunidade",
+    "regiao": "Brasil",
+    "paginaAlvo": "/dados/empresas-por-setor",
+    "ativo": "Post técnico sobre como os dados do SIDRA/IBGE foram organizados por município e setor",
+    "mensagem": "Rascunho de post para o TabNews: \"Como organizei os dados do CEMPRE/IBGE para 100 municípios gaúchos\". O post explica a tabela 6449 do SIDRA, como foi feita a extração por município e por seção da CNAE, os cuidados com dado sigiloso e com ano de referência, e como os gráficos ficaram embutíveis. Termina com o link para o relatório aberto, para quem quiser conferir os números. Sem venda; só o caminho técnico e o que daria para fazer diferente.",
+    "verificado": true
+  },
+  {
+    "nome": "DEV Community",
+    "url": "https://dev.to/",
+    "tipo": "comunidade",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/custo-da-planilha",
+    "ativo": "Artigo técnico sobre como construir calculadoras que entregam resultado sem cadastro",
+    "mensagem": "Rascunho de post para o DEV: \"Building lead tools that show the result before asking for an email\". O texto explica a decisão de mostrar parte do resultado na tela sem cadastro, mandar o completo por e-mail com opt-in separado e desmarcado, e medir a conversão com analytics próprio. Usa como exemplo a calculadora do custo da planilha. Inclui trechos de código em Next.js e TypeScript e os erros cometidos no caminho. Link para a ferramenta no fim.",
+    "verificado": true
+  },
+  {
+    "nome": "Indie Hackers",
+    "url": "https://www.indiehackers.com/",
+    "tipo": "comunidade",
+    "regiao": "Brasil",
+    "paginaAlvo": "/quanto-custa",
+    "ativo": "Post sobre publicar preço de serviço de software e o que isso muda no funil",
+    "mensagem": "Rascunho de post para o Indie Hackers: \"Publishing my prices as a solo dev agency in Brazil\". O post conta a decisão de abrir a tabela de preços por tipo de projeto, com o que entra em cada faixa e quanto cada integração acrescenta, e o raciocínio por trás (filtrar contato sem orçamento, encurtar a negociação). Sem números de resultado inventados: só a lógica, a estrutura da tabela e o que ainda está sendo medido. Link para a página de preços no fim.",
+    "verificado": true
+  },
+  {
+    "nome": "Reddit — r/empreendedorismo",
+    "url": "https://www.reddit.com/r/empreendedorismo/",
+    "tipo": "comunidade",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/custo-da-planilha",
+    "ativo": "Resposta útil em discussões sobre planilha x sistema, com o método de medição (link só quando pertinente)",
+    "mensagem": "Modelo de resposta para discussões sobre \"vale a pena trocar a planilha por sistema?\": Antes de decidir, mede por duas semanas quanto tempo cada pessoa gasta alimentando e conferindo a planilha. Multiplica pelas pessoas, pelo custo-hora e por 52 semanas. Esse é o custo anual do processo manual. Compara com o preço do sistema e vê em quantos meses ele se paga se cortar metade dessas horas. Fiz uma calculadora gratuita que faz essa conta, se ajudar. Sou desenvolvedor, então considere o viés.",
+    "verificado": true
+  },
+  {
+    "nome": "Reddit — r/brdev",
+    "url": "https://www.reddit.com/r/brdev/",
+    "tipo": "comunidade",
+    "regiao": "Brasil",
+    "paginaAlvo": "/quanto-custa",
+    "ativo": "Discussão sobre precificação de projeto para PME e publicação de tabela de preços",
+    "mensagem": "Rascunho de post para o r/brdev: \"Publiquei minha tabela de preços de freela/consultoria — o que aprendi montando\". O post mostra como as faixas foram estruturadas por tipo de projeto (landing page, site institucional, loja, app, sistema web), como os acréscimos por integração e por prazo urgente foram definidos e por que não usar \"a partir de\". Pede críticas da comunidade. Sem números de faturamento ou de clientes; só o método e a tabela.",
+    "verificado": true
+  },
+  {
+    "nome": "Reddit — r/contabilidade",
+    "url": "https://www.reddit.com/r/contabilidade/",
+    "tipo": "comunidade",
+    "regiao": "Brasil",
+    "paginaAlvo": "/sistema-para/escritorios-de-contabilidade",
+    "ativo": "Resposta em discussões sobre organização de documentos de clientes, com método sem ferramenta paga",
+    "mensagem": "Modelo de resposta para discussões sobre documentos de cliente chegando por WhatsApp: Antes de comprar portal, padroniza três coisas: um canal único por cliente, um nome de arquivo fixo (CNPJ-competência-tipo) e uma lista do que cada cliente manda por mês. Com isso dá para cobrar pendência com antecedência. Mede também quantas horas por semana alguém gasta procurando arquivo; esse número é que decide se um sistema vale. Sou desenvolvedor, escrevi sobre isso aqui, se ajudar.",
+    "verificado": true
+  },
+  {
+    "nome": "Fórum Contábeis",
+    "url": "https://www.contabeis.com.br/forum",
+    "tipo": "comunidade",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/checklist-lgpd",
+    "ativo": "Respostas técnicas em tópicos sobre LGPD em site de cliente, citando o artigo da lei",
+    "mensagem": "Modelo de resposta para tópicos sobre LGPD no site de cliente pequeno: A LGPD não pede um texto padrão, pede que a informação sobre o tratamento seja clara e acessível (art. 9º da Lei 13.709/2018): finalidade, forma e duração, quem é o controlador e como contatá-lo, e com quem os dados são compartilhados. Para micro e pequena empresa, a Resolução CD/ANPD nº 2/2022 dispensa o encarregado, mas exige um canal de contato (art. 11). Tenho um checklist gratuito que ajuda a conferir.",
+    "verificado": true
+  },
+  {
+    "nome": "Medium",
+    "url": "https://medium.com/",
+    "tipo": "comunidade",
+    "regiao": "Brasil",
+    "paginaAlvo": "/guias",
+    "ativo": "Republicação dos artigos convidados com link canônico para o original",
+    "mensagem": "Nota de republicação para o Medium: Este texto foi publicado originalmente em andersdev.com.br e é republicado aqui com link canônico para a versão original. Daniel Anders é desenvolvedor de software em Passo Fundo (RS) e escreve guias práticos para donos de pequenas e médias empresas sobre site, sistema, LGPD e custo de processo manual. Os números usados nos exemplos são hipotéticos e declarados como tal; dados de mercado sempre vêm com a fonte. Os guias completos estão no site.",
+    "verificado": true
+  },
+  {
+    "nome": "Quora em Português",
+    "url": "https://pt.quora.com/",
+    "tipo": "comunidade",
+    "regiao": "Brasil",
+    "paginaAlvo": "/quanto-custa",
+    "ativo": "Respostas a perguntas sobre preço de site e sistema, citando a tabela pública como fonte",
+    "mensagem": "Modelo de resposta para \"quanto custa um site para empresa?\": Depende do tipo. Na tabela pública que mantenho, uma landing page fica entre R$ 1.500 e R$ 4.000, um site institucional entre R$ 3.400 e R$ 11.500 e uma loja virtual entre R$ 10.400 e R$ 32.500. Integração com pagamento soma 20% e prazo urgente soma 25%. O que mais muda o preço é o número de páginas, quem escreve o conteúdo e as integrações. Sou desenvolvedor; a tabela completa está no site.",
+    "verificado": true
+  },
+  {
+    "nome": "Meetup",
+    "url": "https://www.meetup.com/",
+    "tipo": "comunidade",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/ferramentas/custo-da-planilha",
+    "ativo": "Encontro presencial gratuito em Passo Fundo: da planilha ao sistema, para donos de PME",
+    "mensagem": "Descrição do encontro no Meetup: \"Da planilha ao sistema — conversa para donos de pequena empresa em Passo Fundo\". Em uma hora, vamos medir juntos quanto um processo manual custa por ano, com a calculadora gratuita aberta na tela, e discutir quando vale trocar a planilha por um sistema e quando não vale. Gratuito, sem venda, vagas limitadas pelo espaço. Traga um processo da sua empresa que hoje vive em planilha ou no WhatsApp. Conduzido por Daniel Anders, desenvolvedor de software.",
+    "verificado": true
+  },
+  {
+    "nome": "Sympla",
+    "url": "https://www.sympla.com.br/",
+    "tipo": "comunidade",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/ferramentas/checklist-lgpd",
+    "ativo": "Oficina gratuita on-line: o site da sua empresa cumpre a LGPD?",
+    "mensagem": "Descrição do evento no Sympla: \"O site da sua empresa cumpre a LGPD? Oficina gratuita de 45 minutos\". Vamos passar pelo que a Lei 13.709/2018 pede de um site de pequena empresa — informação clara sobre o tratamento (art. 9º), direitos do titular (art. 18), segurança (art. 46) — e pelo que a Resolução CD/ANPD nº 2/2022 muda para micro e pequenas empresas. Cada participante preenche o checklist gratuito durante a oficina. Não é consultoria jurídica.",
+    "verificado": true
+  },
+  {
+    "nome": "Instituto Caldeira",
+    "url": "https://institutocaldeira.org/",
+    "tipo": "comunidade",
+    "regiao": "Grande Porto Alegre",
+    "paginaAlvo": "/guias",
+    "ativo": "Conteúdo e conversa sobre transformação digital em PME do interior para a comunidade do hub",
+    "mensagem": "Olá, equipe do Instituto Caldeira. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Escrevo guias práticos para pequenas e médias empresas do interior sobre sair da planilha, contratar site e sistema e cumprir a LGPD, e mantenho ferramentas gratuitas de apoio à decisão. Gostaria de saber se há espaço na programação do hub para uma conversa sobre transformação digital fora da capital, com foco em empresas de 10 a 200 pessoas. Sem conteúdo comercial. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Conta Azul — diretório de contadores parceiros em Passo Fundo",
+    "url": "https://contaazul.com/encontre-contador/contabilidade/rs/passo-fundo/",
+    "tipo": "parceiro",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/sistema-para/escritorios-de-contabilidade",
+    "ativo": "Lista pública de escritórios contábeis de Passo Fundo que já usam ferramenta digital — ponto de partida para parceria de indicação",
+    "mensagem": "Uso interno: este diretório lista escritórios contábeis de Passo Fundo certificados pela Conta Azul, ou seja, que já trabalham com ferramenta digital e conversam com clientes sobre gestão. São parceiros naturais: quando o cliente do escritório precisa de site, integração com o sistema financeiro ou de sair da planilha, o contador é quem ouve primeiro. Abordagem: oferecer o checklist de LGPD e a calculadora do custo da planilha como material para os clientes do escritório, sem comissão envolvida.",
+    "verificado": true
+  },
+  {
+    "nome": "Excelência Contábil (Passo Fundo)",
+    "url": "https://contaazul.com/encontre-contador/contadores/excelencia-contabil-ltda/",
+    "tipo": "parceiro",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/ferramentas/checklist-lgpd",
+    "ativo": "Checklist de LGPD e calculadora do custo da planilha como material para os clientes do escritório",
+    "mensagem": "Olá, equipe da Excelência Contábil. Sou o Daniel Anders, desenvolvedor de software aqui em Passo Fundo. Imagino que clientes perguntem a vocês sobre site, LGPD e sistemas de gestão. Mantenho ferramentas gratuitas que podem ajudar nessa conversa: um checklist de LGPD com 20 perguntas e uma calculadora que mostra quanto um processo em planilha custa por ano. Ficam à disposição para indicar aos clientes, sem custo e sem compromisso. Se fizer sentido, um café para nos conhecermos. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Rottini Soluções Contábeis (Passo Fundo)",
+    "url": "https://contaazul.com/encontre-contador/contadores/rottini-solucoes-contabeis-ltda/",
+    "tipo": "parceiro",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/sistema-para/escritorios-de-contabilidade",
+    "ativo": "Conversa sobre organização da entrada de documentos no próprio escritório e ferramentas gratuitas para clientes",
+    "mensagem": "Olá, equipe da Rottini Soluções Contábeis. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Escrevi um material sobre um problema comum em escritório contábil: documento de cliente chegando por WhatsApp, e-mail e papel ao mesmo tempo. Tem um método para medir as horas gastas e organizar a entrada antes de comprar ferramenta. Se for útil para vocês, envio. Também mantenho ferramentas gratuitas que podem ser indicadas a clientes. Sem compromisso. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Tellus Contabilidade e Assessoria Tributária (Passo Fundo)",
+    "url": "https://contaazul.com/encontre-contador/contadores/tellus-contabilidade-e-assessoria-tributaria-ltda/",
+    "tipo": "parceiro",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/ferramentas/custo-da-planilha",
+    "ativo": "Calculadora gratuita do custo da planilha para o contador usar com clientes que pedem orientação sobre sistema",
+    "mensagem": "Olá, equipe da Tellus. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Quando um cliente pergunta ao contador se vale trocar a planilha por um sistema, falta um número para a conversa. Fiz uma calculadora gratuita que mostra o custo anual do processo manual e em quantos meses um sistema se pagaria. O resultado aparece sem cadastro. Se servir para os atendimentos de vocês, fica à disposição. Gostaria também de conhecer o escritório, se houver interesse. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Consulenza Assessoria Empresarial (Passo Fundo)",
+    "url": "https://contaazul.com/encontre-contador/contadores/consulenza-assessoria-empresarial/",
+    "tipo": "parceiro",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/ferramentas/custo-da-planilha",
+    "ativo": "Parceria de indicação mútua: assessoria empresarial identifica o processo, desenvolvimento resolve com sistema",
+    "mensagem": "Olá, equipe da Consulenza. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo, com formação em engenharia e passagem por consultoria empresarial. Assessoria muitas vezes encontra o processo que trava a empresa, mas a solução depende de sistema ou integração. Gostaria de conversar sobre como podemos indicar um ao outro quando fizer sentido para o cliente, sem comissão e sem exclusividade. Também deixo à disposição ferramentas gratuitas para os atendimentos. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Emout — agência de branding e estratégia (Passo Fundo)",
+    "url": "https://emout.com.br/",
+    "tipo": "parceiro",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/agencias-parceiras",
+    "ativo": "Desenvolvimento white-label para projetos de site e sistema dos clientes da agência",
+    "mensagem": "Olá, equipe da Emout. Sou o Daniel Anders, desenvolvedor full-stack aqui em Passo Fundo. Agências de marca e estratégia muitas vezes chegam ao ponto em que o cliente precisa de site, loja ou sistema e a execução técnica sai do escopo. Trabalho como parceiro técnico white-label nesses casos: vocês mantêm a relação e a marca, eu desenvolvo com escopo escrito e demonstração semanal. Se fizer sentido, adoraria tomar um café e entender como vocês trabalham. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "MGDR Marketing (Passo Fundo)",
+    "url": null,
+    "tipo": "parceiro",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/agencias-parceiras",
+    "ativo": "Parceria técnica white-label para agência de marketing sem desenvolvedor na equipe",
+    "mensagem": "Olá, equipe da MGDR Marketing. Sou o Daniel Anders, desenvolvedor full-stack em Passo Fundo. Agências de marketing frequentemente precisam entregar site rápido, landing page que converte ou integração com CRM, e nem sempre há desenvolvedor na equipe. Trabalho como parceiro técnico white-label: a agência mantém o cliente e a marca, eu cuido do código com escopo escrito e prazo combinado. Se houver interesse, gostaria de conversar sobre como funciona na prática. Daniel Anders — andersdev.com.br",
+    "verificado": false
+  },
+  {
+    "nome": "Plugin Coworking (Passo Fundo)",
+    "url": null,
+    "tipo": "parceiro",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/ferramentas/custo-da-planilha",
+    "ativo": "Oficina gratuita para os residentes do coworking sobre custo da planilha e site que aparece no Google",
+    "mensagem": "Olá, equipe do Plugin Coworking. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Gostaria de oferecer aos residentes do coworking uma oficina gratuita de uma hora sobre dois temas práticos para pequenas empresas: quanto um processo em planilha custa por ano e o que o site precisa ter para aparecer no Google. Uso ferramentas gratuitas abertas na tela, sem venda no final. Se fizer sentido para a programação do espaço, combinamos uma data. Daniel Anders — andersdev.com.br",
+    "verificado": false
+  },
+  {
+    "nome": "Elevenwork (coworking em Passo Fundo)",
+    "url": null,
+    "tipo": "parceiro",
+    "regiao": "Passo Fundo",
+    "paginaAlvo": "/ferramentas/diagnostico-de-site",
+    "ativo": "Diagnóstico gratuito de site para as empresas residentes e oficina curta",
+    "mensagem": "Olá, equipe da Elevenwork. Sou o Daniel Anders, desenvolvedor de software em Passo Fundo. Mantenho um diagnóstico gratuito que dá nota de 0 a 100 para o site de uma empresa e mostra o que falta para aparecer no Google, com o resultado na tela sem cadastro. Gostaria de oferecê-lo às empresas que usam o espaço e, se houver interesse, conduzir uma oficina curta sobre o tema, sem custo e sem venda. Fico à disposição para combinar. Daniel Anders — andersdev.com.br",
+    "verificado": false
+  },
+  {
+    "nome": "Nuvemshop — programa de parceiros",
+    "url": "https://www.nuvemshop.com.br/parceiros",
+    "tipo": "parceiro",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/taxa-de-marketplace",
+    "ativo": "Cadastro como parceiro técnico para integrações e lojas de clientes que saem do marketplace",
+    "mensagem": "Texto para o cadastro de parceiro na Nuvemshop: Daniel Anders, desenvolvedor full-stack em Passo Fundo (RS). Atende pequenas e médias empresas que querem um canal próprio de vendas, com integrações com ERP, meios de pagamento e WhatsApp. Mantém uma calculadora gratuita que ajuda o lojista a ver quando a loja própria compensa em relação ao marketplace, e uma tabela pública de preços. Trabalha com escopo escrito, demonstração semanal e contas em nome do cliente.",
+    "verificado": true
+  },
+  {
+    "nome": "Tray — parceiros certificados",
+    "url": "https://tray.com.br/parceiros",
+    "tipo": "parceiro",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/taxa-de-marketplace",
+    "ativo": "Cadastro como especialista técnico em integrações para lojistas",
+    "mensagem": "Texto para a candidatura a parceiro da Tray: Daniel Anders, desenvolvedor full-stack em Passo Fundo (RS), com foco em pequenas e médias empresas do Sul. Faz integrações entre loja virtual, ERP, meios de pagamento e WhatsApp, e desenvolvimento sob medida quando a plataforma não cobre o processo. Publica preços e uma calculadora gratuita de comissão de marketplace para ajudar o lojista a decidir pelo canal próprio com número na mão.",
+    "verificado": true
+  },
+  {
+    "nome": "Bling — programa de parceiros",
+    "url": "https://www.bling.com.br/programa-de-parceiros",
+    "tipo": "parceiro",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/custo-da-planilha",
+    "ativo": "Cadastro como parceiro de integração para empresas que saem da planilha para o ERP",
+    "mensagem": "Texto para o programa de parceiros do Bling: Daniel Anders, desenvolvedor de software em Passo Fundo (RS). Ajuda pequenas e médias empresas a sair da planilha: integra loja virtual, sistema próprio e WhatsApp ao ERP e desenvolve o que o ERP não cobre. Mantém uma calculadora gratuita que mostra quanto o processo manual custa por ano, útil para o empresário decidir a implantação com número. Atendimento presencial no norte do RS e on-line em todo o Brasil.",
+    "verificado": true
+  },
+  {
+    "nome": "RD Station — agências parceiras",
+    "url": "https://www.rdstation.com/parceiros/agencias-parceiras/",
+    "tipo": "parceiro",
+    "regiao": "Brasil",
+    "paginaAlvo": "/agencias-parceiras",
+    "ativo": "Parceria técnica com agências da rede para integrações de site e CRM",
+    "mensagem": "Mensagem para agências da rede RD Station: Olá, sou o Daniel Anders, desenvolvedor full-stack em Passo Fundo (RS). Vejo que vocês implementam automação de marketing e CRM para clientes. Quando o projeto precisa de site rápido, landing page com integração ou conexão do CRM com sistema próprio do cliente, posso atuar como parceiro técnico white-label: a agência mantém o cliente e a marca, eu desenvolvo com escopo escrito e demonstração semanal. Se fizer sentido, conversamos. Daniel Anders — andersdev.com.br",
+    "verificado": true
+  },
+  {
+    "nome": "Olist — Shopping de Serviços",
+    "url": "https://olist.com/shopping-de-servicos/",
+    "tipo": "parceiro",
+    "regiao": "Brasil",
+    "paginaAlvo": "/ferramentas/taxa-de-marketplace",
+    "ativo": "Cadastro como especialista em integração e loja própria para lojistas do ecossistema",
+    "mensagem": "Texto para o cadastro no Shopping de Serviços da Olist: Daniel Anders, desenvolvedor full-stack em Passo Fundo (RS). Atende lojistas que vendem em marketplace e querem integrar estoque, pedidos e atendimento, ou abrir um canal próprio. Mantém uma calculadora gratuita que mostra quanto a comissão leva por ano e em quantos meses a loja própria se pagaria, com a porcentagem do contrato do próprio lojista. Preços publicados, escopo escrito e contas em nome do cliente.",
+    "verificado": true
+  }
+]

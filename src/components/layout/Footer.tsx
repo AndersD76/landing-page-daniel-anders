@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import { BotaoPreferencias } from "@/components/analytics/BotaoPreferencias";
 import { useI18n } from "@/lib/i18n/context";
 
 export function Footer() {
@@ -28,6 +29,12 @@ export function Footer() {
               { href: "/blog", label: t("nav_blog") },
               { href: "/recursos/spec-app-startup", label: t("nav_resources") },
               { href: "/calculadora-site", label: t("nav_calculator") },
+              { href: "/guias", label: "Guias" },
+              { href: "/ferramentas", label: "Ferramentas grátis" },
+              { href: "/modelos", label: "Modelos e planilhas" },
+              { href: "/glossario", label: "Glossário" },
+              { href: "/sobre", label: "Sobre" },
+              { href: "/politica-editorial", label: "Política editorial" },
               { href: "/privacidade", label: "Privacidade" },
               { href: "#contact", label: "Contato" },
             ].map((link) => (
@@ -39,6 +46,7 @@ export function Footer() {
                 {link.label}
               </Link>
             ))}
+            <BotaoPreferencias className="text-xs font-semibold text-gray-600 tracking-[2px] uppercase hover:text-brand transition-colors bg-transparent border-0 p-0 cursor-pointer" />
           </nav>
         </div>
         <div className="mb-8">

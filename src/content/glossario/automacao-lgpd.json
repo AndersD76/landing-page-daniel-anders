@@ -1,0 +1,3203 @@
+[
+  {
+    "slug": "o-que-e-webhook",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é webhook",
+    "consultasSecundarias": [
+      "webhook o que é",
+      "para que serve webhook"
+    ],
+    "title": "O que é webhook: definição e exemplo prático",
+    "description": "Webhook é o aviso automático que um sistema manda para outro quando algo acontece. Veja um exemplo com pedido pago e quando usar.",
+    "h1": "O que é webhook",
+    "respostaDireta": "Webhook é um aviso automático que um sistema envia para outro, pela internet, no instante em que algo acontece — um pagamento aprovado, um pedido criado, um formulário enviado. Em vez de o seu sistema perguntar de minuto em minuto se há novidade, quem tem a novidade avisa sozinho, com os dados do evento.",
+    "secoes": [
+      {
+        "titulo": "Como um webhook funciona",
+        "paragrafos": [
+          "Você cadastra um endereço (uma URL do seu sistema) no serviço que gera o evento. Quando o evento acontece, esse serviço faz uma requisição HTTP para a URL com os dados em JSON. O seu sistema recebe, confere a assinatura e executa a ação combinada.",
+          "A diferença para uma API comum está em quem toma a iniciativa. Na API, o seu sistema pergunta. No webhook, o outro sistema avisa. Por isso o webhook é a forma natural de reagir a acontecimentos sem atraso e sem consultas desnecessárias."
+        ],
+        "tabela": {
+          "colunas": [
+            "",
+            "Consulta periódica (polling)",
+            "Webhook"
+          ],
+          "linhas": [
+            [
+              "Quem inicia",
+              "O seu sistema, a cada intervalo",
+              "O sistema que tem o evento"
+            ],
+            [
+              "Atraso",
+              "Até o próximo intervalo",
+              "Segundos"
+            ],
+            [
+              "Requisições inúteis",
+              "Muitas (a maioria volta vazia)",
+              "Nenhuma"
+            ],
+            [
+              "O que exige do seu lado",
+              "Agendador de tarefas",
+              "Uma URL pública e segura"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Cuidados que evitam dor de cabeça",
+        "paragrafos": [
+          "Webhook chega pela internet, então qualquer um pode tentar imitar o aviso. O básico de segurança é pequeno e não deve ser pulado."
+        ],
+        "lista": [
+          "Validar a assinatura enviada no cabeçalho antes de processar o conteúdo",
+          "Responder rápido (status 2xx) e processar em segundo plano",
+          "Tratar avisos repetidos: o mesmo evento pode chegar duas vezes",
+          "Registrar cada aviso recebido para conseguir auditar depois",
+          "Ter um caminho de reprocessamento para quando o seu sistema estava fora do ar",
+          "Nunca confiar no valor que veio no aviso sem conferir na API de origem quando envolve dinheiro"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Fluxo completo de um pedido pago avisado por webhook, do gateway ao estoque"
+    },
+    "faq": [
+      {
+        "pergunta": "Webhook e API são a mesma coisa?",
+        "resposta": "Não. A API é o conjunto de endereços que um sistema oferece para ser consultado. O webhook é o aviso que um sistema dispara para o endereço de outro quando algo acontece. Muitos serviços oferecem os dois."
+      },
+      {
+        "pergunta": "Preciso de programador para usar webhook?",
+        "resposta": "Para receber e tratar com segurança, sim, ou uma ferramenta de automação que faça esse papel. O cadastro do endereço costuma ser uma tela simples no painel do serviço."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Webhooks — documentação",
+        "url": "https://docs.stripe.com/webhooks",
+        "orgao": "Stripe",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "glossario": {
+      "termo": "webhook",
+      "exemploPratico": "Uma loja virtual recebe um Pix. O gateway de pagamento dispara um webhook para o endereço do sistema da loja com o número do pedido e o status \"pago\". O sistema confere a assinatura, consulta o gateway para confirmar o valor, marca o pedido como pago, baixa o estoque e manda a mensagem de confirmação ao cliente. Ninguém da equipe precisou abrir o painel do banco para conferir o pagamento.",
+      "termosRelacionados": [
+        "api",
+        "integração de sistemas",
+        "gateway de pagamento"
+      ]
+    },
+    "onda": 2
+  },
+  {
+    "slug": "o-que-e-api",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é api",
+    "consultasSecundarias": [
+      "api o que é",
+      "para que serve uma api",
+      "o que significa api"
+    ],
+    "title": "O que é API: definição e exemplo prático",
+    "description": "API é a porta pela qual um sistema conversa com outro. Veja como funciona, para que serve e um exemplo de loja virtual consultando o frete.",
+    "h1": "O que é API",
+    "respostaDireta": "API é a interface que permite um programa pedir dados ou ações a outro programa, seguindo regras combinadas. Funciona como o cardápio de um restaurante: você escolhe o que quer, a cozinha entrega, e você não precisa saber como ela funciona por dentro. É assim que sua loja consulta frete ou pagamento.",
+    "secoes": [
+      {
+        "titulo": "Como uma API funciona na prática",
+        "paragrafos": [
+          "Toda API define quais pedidos aceita, que informações cada pedido precisa e o formato da resposta. Quem usa a API envia uma requisição, geralmente pela internet, e recebe de volta uma resposta com os dados ou a confirmação da ação.",
+          "Isso separa as responsabilidades. O banco cuida do dinheiro, a transportadora cuida do frete, e o seu sistema apenas pede o que precisa. Se a transportadora mudar o programa por dentro, o seu sistema continua funcionando enquanto a API for a mesma."
+        ]
+      },
+      {
+        "titulo": "O que uma API costuma oferecer",
+        "paragrafos": [
+          "Os pedidos de uma API são chamados de endpoints. Cada um faz uma coisa específica, e a documentação do serviço lista todos eles."
+        ],
+        "tabela": {
+          "colunas": [
+            "Pedido (endpoint)",
+            "O que faz",
+            "Exemplo no dia a dia"
+          ],
+          "linhas": [
+            [
+              "Consultar",
+              "Lê informações sem alterar nada",
+              "Ver o status de um pedido de compra"
+            ],
+            [
+              "Criar",
+              "Cadastra um novo registro",
+              "Emitir uma cobrança Pix"
+            ],
+            [
+              "Atualizar",
+              "Altera um registro existente",
+              "Corrigir o endereço de entrega"
+            ],
+            [
+              "Excluir",
+              "Remove um registro",
+              "Cancelar um agendamento"
+            ]
+          ]
+        }
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de loja virtual consultando o frete na API da transportadora"
+    },
+    "faq": [
+      {
+        "pergunta": "API é a mesma coisa que integração?",
+        "resposta": "Não. A API é a porta que um sistema oferece. A integração é o trabalho de conectar dois sistemas usando essas portas. Sem API a integração fica difícil e costuma depender de arquivos trocados à mão."
+      },
+      {
+        "pergunta": "Usar uma API custa dinheiro?",
+        "resposta": "Depende de quem oferece. Algumas são gratuitas, outras cobram por uso ou por plano. Veja sempre a página de preços do fornecedor, porque os valores mudam sem aviso."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Glossário MDN: API",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Glossary/API",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "O que é uma API",
+        "url": "https://aws.amazon.com/what-is/api/",
+        "orgao": "AWS",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "API",
+      "sigla": "API",
+      "exemploPratico": "Uma loja virtual de peças precisa mostrar o frete antes de fechar a compra. Quando o cliente digita o CEP, o sistema da loja envia à API da transportadora o CEP de destino e o peso do pacote. Em poucos segundos a API devolve o valor e o prazo, e a loja exibe as opções na tela. Ninguém digitou tabela de frete à mão, e o valor mostrado é sempre o atual.",
+      "termosRelacionados": [
+        "API REST",
+        "webhook",
+        "integração de sistemas"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-api-rest",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é api rest",
+    "consultasSecundarias": [
+      "api rest o que é",
+      "o que é restful",
+      "diferença entre api e api rest"
+    ],
+    "title": "O que é API REST: definição e exemplo prático",
+    "description": "API REST é o estilo de API mais usado na web. Veja como funciona, quais verbos usa e um exemplo com cadastro de clientes entre sistema e site.",
+    "h1": "O que é API REST",
+    "respostaDireta": "API REST é um estilo de API que usa os recursos da própria web: cada coisa do sistema, como cliente ou pedido, tem um endereço, e verbos HTTP como GET e POST dizem a ação. É o formato mais comum entre sistemas modernos, por ser simples de entender e de integrar com qualquer linguagem.",
+    "secoes": [
+      {
+        "titulo": "Os verbos de uma API REST",
+        "paragrafos": [
+          "Em uma API REST, o endereço aponta para um recurso e o verbo HTTP indica o que fazer com ele. Por isso quem já entendeu um serviço consegue deduzir boa parte de outro.",
+          "As respostas vêm com um código de status. Códigos que começam com 2 indicam sucesso, os que começam com 4 indicam erro de quem pediu e os que começam com 5 indicam falha do lado do servidor."
+        ],
+        "tabela": {
+          "colunas": [
+            "Verbo",
+            "Ação",
+            "Exemplo de pedido"
+          ],
+          "linhas": [
+            [
+              "GET",
+              "Ler",
+              "GET /clientes/15 devolve os dados do cliente 15"
+            ],
+            [
+              "POST",
+              "Criar",
+              "POST /clientes cadastra um cliente novo"
+            ],
+            [
+              "PUT ou PATCH",
+              "Alterar",
+              "PATCH /clientes/15 muda só o telefone"
+            ],
+            [
+              "DELETE",
+              "Remover",
+              "DELETE /clientes/15 apaga o cadastro"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Características que definem o estilo",
+        "paragrafos": [
+          "Um serviço é chamado de REST quando segue algumas regras de projeto. Nem toda API que usa HTTP cumpre todas, e na conversa do dia a dia o termo é usado de forma mais solta."
+        ],
+        "lista": [
+          "Cada recurso tem um endereço próprio e estável",
+          "Cada pedido leva tudo que o servidor precisa, sem depender de memória de pedidos anteriores",
+          "Usa os verbos padrão do HTTP em vez de inventar comandos",
+          "Devolve dados em formato conhecido, quase sempre JSON",
+          "Usa códigos de status para dizer se deu certo"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cadastro de comprador passando do site para o sistema via POST em JSON"
+    },
+    "faq": [
+      {
+        "pergunta": "Toda API é REST?",
+        "resposta": "Não. Existem outros estilos, como SOAP, que usa XML, e GraphQL, em que quem consome escolhe os campos. A REST é a mais popular, mas o estilo certo depende do que o sistema precisa."
+      },
+      {
+        "pergunta": "REST é mais seguro que outros estilos?",
+        "resposta": "O estilo em si não dá segurança. Ela vem de autenticação, de HTTPS e de limites de uso. Uma API REST mal protegida é tão vulnerável quanto qualquer outra."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Glossário MDN: REST",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Glossary/REST",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "O que é uma API RESTful",
+        "url": "https://aws.amazon.com/what-is/restful-api/",
+        "orgao": "AWS",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "API REST",
+      "exemploPratico": "Uma distribuidora tem um sistema de gestão e um site de pedidos. Quando um comprador se cadastra no site, o site envia um POST para o endereço de clientes do sistema com nome, CNPJ e e-mail em JSON. O sistema grava, responde com o código 201 e o número do cadastro. Na semana seguinte, o site faz um GET nesse número para exibir o histórico do comprador.",
+      "termosRelacionados": [
+        "API",
+        "JSON",
+        "chave de API"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-integracao-de-sistemas",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é integração de sistemas",
+    "consultasSecundarias": [
+      "integração de sistemas o que é",
+      "o que é integrar sistemas",
+      "para que serve integração entre sistemas"
+    ],
+    "title": "O que é integração de sistemas: guia prático para PME",
+    "description": "Integração de sistemas faz programas trocarem dados sozinhos. Veja os tipos, quando vale a pena e um exemplo com ERP, loja virtual e emissor de nota.",
+    "h1": "O que é integração de sistemas",
+    "respostaDireta": "Integração de sistemas é conectar dois ou mais programas para que troquem dados sozinhos, sem ninguém copiar e colar. Quando um pedido entra na loja, por exemplo, ele aparece no estoque, no financeiro e na nota fiscal. O objetivo é acabar com o retrabalho e com o erro de digitação.",
+    "secoes": [
+      {
+        "titulo": "Formas de integrar",
+        "paragrafos": [
+          "Não existe um jeito único. A escolha depende do que os sistemas oferecem e do quanto você precisa que a troca seja rápida."
+        ],
+        "tabela": {
+          "colunas": [
+            "Forma",
+            "Como funciona",
+            "Quando serve"
+          ],
+          "linhas": [
+            [
+              "Por API",
+              "Um sistema chama o outro em tempo real",
+              "Preço, estoque e status que mudam o tempo todo"
+            ],
+            [
+              "Por webhook",
+              "Um sistema avisa o outro quando algo acontece",
+              "Pagamento aprovado, pedido criado"
+            ],
+            [
+              "Por arquivo",
+              "Um sistema exporta CSV ou XML e o outro importa",
+              "Sistemas antigos sem API"
+            ],
+            [
+              "Por ferramenta de automação",
+              "Uma plataforma liga os dois com regras",
+              "Fluxos simples entre sistemas populares"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Sinais de que você precisa integrar",
+        "paragrafos": [
+          "A integração se paga quando o mesmo dado é digitado em mais de um lugar. Se você se reconhece em alguns itens abaixo, vale mapear o que conectar primeiro."
+        ],
+        "lista": [
+          "O mesmo pedido é digitado na loja e no sistema de gestão",
+          "O estoque da loja virtual diverge do estoque real",
+          "O financeiro concilia pagamentos olhando extrato linha a linha",
+          "A equipe exporta planilha todo dia para alimentar outro sistema",
+          "Atualizar um preço exige entrar em três telas",
+          "Clientes recebem informação diferente conforme o canal"
+        ]
+      },
+      {
+        "titulo": "Quanto custa integrar",
+        "paragrafos": [
+          "Na tabela pública da AndersDev, uma integração com ERP ou CRM acrescenta 30% ao valor de um projeto de site, e a de pagamento acrescenta 20%. Esses percentuais são faixas de referência e o escopo real é definido em orçamento."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Fluxo de pedido da loja virtual ao estoque e à nota fiscal, antes e depois da integração"
+    },
+    "faq": [
+      {
+        "pergunta": "Integração é o mesmo que automação?",
+        "resposta": "São parentes. A integração conecta sistemas para que os dados circulem. A automação executa tarefas sem pessoa, e muitas vezes usa uma integração. Você pode ter uma sem a outra."
+      },
+      {
+        "pergunta": "Dá para integrar sistemas que não têm API?",
+        "resposta": "Dá, mas é mais frágil. As opções são trocar arquivos, ler o banco de dados com autorização do fornecedor ou usar robôs que operam a tela. Antes de decidir, pergunte ao fornecedor se existe API."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Glossário MDN: API",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Glossary/API",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "integração de sistemas",
+      "exemploPratico": "Uma loja de materiais elétricos vende pelo site e tem um sistema de gestão no balcão. Sem integração, o vendedor digita no sistema cada pedido que chega do site e esquece de baixar o estoque duas vezes por semana. Com a integração, o pedido pago no site cria a venda no sistema, baixa o estoque e dispara a nota fiscal. O vendedor só confere as exceções.",
+      "termosRelacionados": [
+        "API",
+        "webhook",
+        "middleware",
+        "ETL"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-middleware",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é middleware",
+    "consultasSecundarias": [
+      "middleware o que é",
+      "para que serve um middleware",
+      "middleware em integração de sistemas"
+    ],
+    "title": "O que é middleware: definição e exemplo prático",
+    "description": "Middleware é o programa que fica no meio e faz dois sistemas se entenderem. Veja o que faz, quando usar e um exemplo de ERP e loja virtual.",
+    "h1": "O que é middleware",
+    "respostaDireta": "Middleware é um programa que fica entre dois sistemas e faz a ponte entre eles: recebe os dados de um, traduz para o formato do outro e entrega. Em vez de ligar cada sistema a todos os demais, você liga cada um ao middleware, e as trocas passam a ter um ponto central de controle.",
+    "secoes": [
+      {
+        "titulo": "O que o middleware faz no meio do caminho",
+        "paragrafos": [
+          "Cada sistema fala do seu jeito: nomes de campo diferentes, formatos diferentes, horários diferentes. O middleware resolve essas diferenças em um lugar só, em vez de espalhar o conserto pelos sistemas."
+        ],
+        "lista": [
+          "Traduz formatos, por exemplo de XML para JSON",
+          "Converte nomes de campo, como razão social para nome do cliente",
+          "Guarda o pedido numa fila se o destino estiver fora do ar",
+          "Tenta de novo quando uma entrega falha",
+          "Registra cada troca para consulta e auditoria",
+          "Concentra as senhas e chaves de acesso em um lugar protegido"
+        ]
+      },
+      {
+        "titulo": "Com e sem middleware",
+        "paragrafos": [
+          "A diferença aparece quando o número de sistemas cresce."
+        ],
+        "tabela": {
+          "colunas": [
+            "Situação",
+            "Sem middleware",
+            "Com middleware"
+          ],
+          "linhas": [
+            [
+              "Ligações para conectar 4 sistemas",
+              "Cada um com cada um, até 6 ligações",
+              "4 ligações, todas no middleware"
+            ],
+            [
+              "Troca de um sistema",
+              "Refaz as ligações dele com todos os outros",
+              "Refaz só a ligação com o middleware"
+            ],
+            [
+              "Falha no meio da troca",
+              "Dado se perde ou fica pela metade",
+              "Fica na fila e é reenviado"
+            ],
+            [
+              "Onde olhar quando algo dá errado",
+              "Em cada sistema",
+              "No registro central"
+            ]
+          ]
+        }
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "ERP que só exporta arquivo conversando com a loja virtual por meio de um middleware"
+    },
+    "faq": [
+      {
+        "pergunta": "Middleware é o mesmo que uma ferramenta de automação?",
+        "resposta": "Têm papéis parecidos. A ferramenta de automação é um produto pronto que faz o papel de middleware com telas e regras prontas. Um middleware sob medida é um programa feito para o seu caso específico."
+      },
+      {
+        "pergunta": "Toda empresa precisa de middleware?",
+        "resposta": "Não. Com dois sistemas que têm API e poucas trocas, uma ligação direta basta. O middleware compensa quando há vários sistemas, formatos diferentes ou necessidade de fila e registro."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "O que é middleware",
+        "url": "https://aws.amazon.com/what-is/middleware/",
+        "orgao": "AWS",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "middleware",
+      "exemploPratico": "Uma indústria leve usa um ERP antigo que só exporta arquivos e uma loja virtual que fala por API. Um middleware lê o arquivo de produtos que o ERP gera toda hora, converte para JSON e envia à loja. Quando a loja recebe um pedido, o middleware converte de volta para o formato do ERP. Se a internet cair, os pedidos aguardam na fila e seguem quando ela voltar.",
+      "termosRelacionados": [
+        "integração de sistemas",
+        "API",
+        "ETL",
+        "iPaaS"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-etl",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é etl",
+    "consultasSecundarias": [
+      "etl o que é",
+      "o que significa etl",
+      "etl extract transform load"
+    ],
+    "title": "O que é ETL: definição e exemplo prático",
+    "description": "ETL é o processo de extrair dados, transformá-los e carregá-los em outro lugar. Veja as três etapas e um exemplo de relatório de vendas.",
+    "h1": "O que é ETL",
+    "respostaDireta": "ETL é a sigla em inglês para extrair, transformar e carregar: o processo de pegar dados de uma ou mais origens, limpá-los e organizá-los, e gravá-los em outro lugar, como um banco de relatórios. É o que alimenta painéis e planilhas gerenciais sem digitação manual.",
+    "secoes": [
+      {
+        "titulo": "As três etapas do ETL",
+        "paragrafos": [
+          "O nome descreve a ordem do trabalho. Cada etapa tem um tipo de problema próprio."
+        ],
+        "tabela": {
+          "colunas": [
+            "Etapa",
+            "O que acontece",
+            "Problema que resolve"
+          ],
+          "linhas": [
+            [
+              "Extrair (Extract)",
+              "Lê os dados do sistema de origem",
+              "Dados espalhados em sistemas e planilhas"
+            ],
+            [
+              "Transformar (Transform)",
+              "Limpa, padroniza e junta os dados",
+              "Datas em formatos diferentes, nomes duplicados"
+            ],
+            [
+              "Carregar (Load)",
+              "Grava o resultado no destino",
+              "Relatório rápido sem pesar no sistema de origem"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Quando uma empresa precisa de ETL",
+        "paragrafos": [
+          "O ETL costuma rodar em horário marcado, como toda madrugada, e não em tempo real. Para avisos imediatos o caminho é webhook ou API."
+        ],
+        "lista": [
+          "Você junta vendas de loja física, site e marketplace em um só relatório",
+          "O sistema de gestão fica lento quando alguém roda relatório pesado",
+          "Cada setor tem a sua planilha e os números nunca batem",
+          "Você precisa de histórico que o sistema de origem apaga",
+          "Você quer um painel que atualize sozinho toda manhã"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Rotina noturna que consolida vendas de loja física e e-commerce em um painel único"
+    },
+    "faq": [
+      {
+        "pergunta": "ETL e integração de sistemas são a mesma coisa?",
+        "resposta": "Não. A integração costuma mover dados quase em tempo real para que os sistemas operem juntos. O ETL move dados em lote, geralmente para análise e relatório, e quase sempre muda o formato no caminho."
+      },
+      {
+        "pergunta": "Preciso de ETL se uso só planilhas?",
+        "resposta": "Em geral não. O ETL passa a fazer sentido quando os dados vêm de vários sistemas e a consolidação manual consome horas ou gera divergência. Antes disso, uma planilha bem organizada resolve."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "O que é ETL",
+        "url": "https://cloud.google.com/learn/what-is-etl",
+        "orgao": "Google Cloud",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Extrair, transformar e carregar (ETL)",
+        "url": "https://learn.microsoft.com/pt-br/azure/architecture/data-guide/relational-data/etl",
+        "orgao": "Microsoft",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "ETL",
+      "sigla": "ETL",
+      "exemploPratico": "Uma rede de três lojas de roupas registra vendas em um sistema de caixa, e o e-commerce tem outro painel. Toda madrugada um processo ETL lê as vendas do dia nos dois lugares, padroniza os códigos de produto, soma por loja e grava em uma tabela de relatórios. De manhã, o dono abre um painel único e vê o faturamento de ontem sem pedir nada a ninguém.",
+      "termosRelacionados": [
+        "integração de sistemas",
+        "tarefa agendada (cron)",
+        "CSV",
+        "middleware"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-json",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é json",
+    "consultasSecundarias": [
+      "json o que é",
+      "para que serve json",
+      "o que significa json"
+    ],
+    "title": "O que é JSON: definição e exemplo prático",
+    "description": "JSON é o formato de texto que sistemas usam para trocar dados pela internet. Veja a estrutura, um exemplo de pedido e as diferenças para CSV e XML.",
+    "h1": "O que é JSON",
+    "respostaDireta": "JSON é um formato de texto simples para representar dados de forma organizada, com pares de nome e valor. É o idioma mais usado por APIs e webhooks para trocar informação entre sistemas, porque é leve, fácil de ler por uma pessoa e entendido por qualquer linguagem de programação.",
+    "secoes": [
+      {
+        "titulo": "Como é um JSON",
+        "paragrafos": [
+          "Um JSON é feito de chaves, nomes entre aspas e valores. Os valores podem ser texto, número, verdadeiro ou falso, lista ou outro conjunto de dados. Veja a leitura de um pedido simples."
+        ],
+        "tabela": {
+          "colunas": [
+            "Trecho",
+            "O que significa"
+          ],
+          "linhas": [
+            [
+              "\"cliente\": \"Padaria Central\"",
+              "Texto: o nome do cliente"
+            ],
+            [
+              "\"total\": 189.90",
+              "Número: o valor, com ponto decimal"
+            ],
+            [
+              "\"pago\": true",
+              "Verdadeiro ou falso: se já foi pago"
+            ],
+            [
+              "\"itens\": [ ... ]",
+              "Lista: os produtos do pedido"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Erros comuns ao lidar com JSON",
+        "paragrafos": [
+          "O formato é rígido: uma vírgula fora do lugar e o sistema que recebe rejeita o conteúdo inteiro."
+        ],
+        "lista": [
+          "Esquecer a vírgula entre dois campos",
+          "Usar aspas simples em vez de aspas duplas",
+          "Deixar vírgula sobrando depois do último item",
+          "Enviar a data em formato diferente do combinado",
+          "Tratar o número como texto, ou o contrário"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Ordem de serviço de oficina enviada do sistema ao aplicativo em JSON"
+    },
+    "faq": [
+      {
+        "pergunta": "JSON é uma linguagem de programação?",
+        "resposta": "Não. É apenas um formato para guardar e enviar dados, como uma planilha escrita em texto. A origem é a linguagem JavaScript, mas hoje praticamente toda linguagem lê e escreve JSON."
+      },
+      {
+        "pergunta": "Qual a diferença entre JSON e XML?",
+        "resposta": "Os dois organizam dados em texto. O JSON é mais enxuto e mais comum em APIs novas. O XML usa etiquetas, é mais verboso e aparece muito em sistemas antigos e em notas fiscais eletrônicas."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "RFC 8259 — formato JSON",
+        "url": "https://www.rfc-editor.org/rfc/rfc8259",
+        "orgao": "IETF",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Objeto JSON",
+        "url": "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+        "orgao": "MDN Web Docs",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "JSON",
+      "sigla": "JSON",
+      "exemploPratico": "Uma oficina mecânica envia ordens de serviço do sistema para o aplicativo do cliente. O sistema monta um JSON com o nome do cliente, a placa, a lista de serviços e o valor total e o envia ao aplicativo. O aplicativo lê cada campo e desenha a tela com o status do conserto. Se a oficina acrescentar um campo novo, o aplicativo antigo simplesmente o ignora.",
+      "termosRelacionados": [
+        "API",
+        "XML",
+        "CSV",
+        "webhook"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-xml",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é xml",
+    "consultasSecundarias": [
+      "xml o que é",
+      "para que serve xml",
+      "o que significa xml"
+    ],
+    "title": "O que é XML: definição e exemplo prático",
+    "description": "XML é um formato de texto com etiquetas para organizar dados, muito usado em notas fiscais. Veja a estrutura, um exemplo e a diferença para JSON.",
+    "h1": "O que é XML",
+    "respostaDireta": "XML é um formato de texto que organiza dados dentro de etiquetas, parecidas com as do HTML, mas criadas para descrever informação e não aparência. É muito usado em sistemas mais antigos e em documentos fiscais eletrônicos, como a nota fiscal, e pode ser lido por pessoas e por programas.",
+    "secoes": [
+      {
+        "titulo": "Como o XML organiza a informação",
+        "paragrafos": [
+          "Cada dado fica entre uma etiqueta de abertura e uma de fechamento, e as etiquetas podem ficar uma dentro da outra, formando uma hierarquia. Isso permite descrever coisas complexas, como uma nota com vários itens, cada um com seus impostos."
+        ],
+        "tabela": {
+          "colunas": [
+            "Elemento",
+            "Papel",
+            "Exemplo"
+          ],
+          "linhas": [
+            [
+              "Etiqueta",
+              "Dá nome ao dado",
+              "<produto>"
+            ],
+            [
+              "Conteúdo",
+              "É o próprio dado",
+              "Parafuso sextavado"
+            ],
+            [
+              "Atributo",
+              "Detalha a etiqueta",
+              "<item numero=\"1\">"
+            ],
+            [
+              "Aninhamento",
+              "Agrupa dados relacionados",
+              "<nota> com vários <item> dentro"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "XML na rotina da empresa",
+        "paragrafos": [
+          "Você provavelmente já lida com XML mesmo sem perceber."
+        ],
+        "lista": [
+          "O arquivo da nota fiscal eletrônica enviado ao contador",
+          "Importação de catálogo de produtos de um fornecedor",
+          "Integração com sistemas legados de bancos e órgãos públicos",
+          "Feeds de produtos para comparadores de preço",
+          "Arquivos de configuração de programas"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Entrada de estoque a partir do XML da nota de compra de fornecedor"
+    },
+    "faq": [
+      {
+        "pergunta": "XML ainda é usado ou foi substituído pelo JSON?",
+        "resposta": "Ainda é muito usado. APIs novas preferem JSON, mas o XML segue firme em documentos fiscais, em integrações com sistemas antigos e em formatos que exigem estrutura rígida e validação."
+      },
+      {
+        "pergunta": "Posso abrir um arquivo XML sem programa especial?",
+        "resposta": "Pode. É texto puro, e qualquer editor de texto ou navegador abre. Para trabalhar com ele em massa, o ideal é um sistema que leia as etiquetas e extraia os campos que você precisa."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Extensible Markup Language (XML) 1.0",
+        "url": "https://www.w3.org/TR/xml/",
+        "orgao": "W3C",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "XML",
+      "sigla": "XML",
+      "exemploPratico": "Uma distribuidora de bebidas recebe de cada fornecedor um arquivo XML da nota de compra. O sistema de estoque lê esse arquivo, encontra a etiqueta de cada produto, soma as quantidades e dá entrada no estoque. Antes, o estoquista digitava item por item, e uma nota com cinquenta itens tomava boa parte da manhã. Agora o arquivo é importado em segundos e o estoquista só confere divergências.",
+      "termosRelacionados": [
+        "JSON",
+        "CSV",
+        "API",
+        "integração de sistemas"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-csv",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é csv",
+    "consultasSecundarias": [
+      "csv o que é",
+      "arquivo csv o que é",
+      "como abrir arquivo csv"
+    ],
+    "title": "O que é CSV: definição e exemplo prático",
+    "description": "CSV é um arquivo de texto simples que guarda uma tabela, com valores separados por vírgula ou ponto e vírgula. Veja como abrir e cuidados comuns.",
+    "h1": "O que é CSV",
+    "respostaDireta": "CSV é um arquivo de texto simples que guarda uma tabela: cada linha é um registro e os valores de cada coluna ficam separados por um caractere, como vírgula ou ponto e vírgula. É o formato mais comum para exportar e importar dados entre sistemas, e o Excel abre sem problema.",
+    "secoes": [
+      {
+        "titulo": "Como é um arquivo CSV por dentro",
+        "paragrafos": [
+          "Se você abrir um CSV em um editor de texto, vai ver uma linha por registro, e a primeira costuma trazer os nomes das colunas. No Brasil, muitos programas usam ponto e vírgula como separador, porque a vírgula já é o separador decimal."
+        ],
+        "tabela": {
+          "colunas": [
+            "Parte",
+            "Como aparece",
+            "Observação"
+          ],
+          "linhas": [
+            [
+              "Cabeçalho",
+              "nome;cidade;valor",
+              "Primeira linha, com o nome das colunas"
+            ],
+            [
+              "Registro",
+              "Mercado Sol;Passo Fundo;1250,00",
+              "Uma linha por registro"
+            ],
+            [
+              "Separador",
+              "Ponto e vírgula ou vírgula",
+              "Precisa ser o mesmo do arquivo ao outro"
+            ],
+            [
+              "Texto com separador dentro",
+              "\"Silva; Souza Ltda\"",
+              "Vai entre aspas para não quebrar a coluna"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Problemas frequentes ao importar CSV",
+        "paragrafos": [
+          "Quase todo erro de importação vem de combinação mal feita entre quem exporta e quem importa."
+        ],
+        "lista": [
+          "Acentos que viram símbolos estranhos por causa da codificação do arquivo",
+          "Zeros à esquerda perdidos, como em CEP ou código de produto, quando o Excel trata como número",
+          "Datas lidas no formato errado, trocando dia e mês",
+          "Separador diferente do esperado, e tudo cai em uma coluna só",
+          "Valores com vírgula decimal lidos como texto",
+          "Linhas em branco no final do arquivo"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Importação mensal de vendas em CSV por escritório de contabilidade, com os erros típicos"
+    },
+    "faq": [
+      {
+        "pergunta": "CSV e Excel são a mesma coisa?",
+        "resposta": "Não. O CSV é texto puro, sem formatação, fórmulas ou várias abas. O Excel abre um CSV, mas o arquivo .xlsx guarda muito mais. Ao salvar como CSV, tudo que não for dado é perdido."
+      },
+      {
+        "pergunta": "Por que meu CSV abre bagunçado no Excel?",
+        "resposta": "Geralmente é separador ou codificação. Em vez de dar dois cliques, use a opção de importar dados de texto e escolha o separador e a codificação UTF-8 para os acentos aparecerem certos."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "RFC 4180 — formato CSV",
+        "url": "https://www.rfc-editor.org/rfc/rfc4180",
+        "orgao": "IETF",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "CSV",
+      "sigla": "CSV",
+      "exemploPratico": "Um escritório de contabilidade recebe de um cliente do comércio o extrato de vendas do mês em CSV. O sistema do escritório importa o arquivo e lança cada venda na escrituração. Na primeira vez, o CEP perdeu o zero à esquerda e as datas vieram trocadas. Depois de combinar o separador, a codificação e o formato de data, o cliente passou a exportar o arquivo certo todo mês.",
+      "termosRelacionados": [
+        "JSON",
+        "XML",
+        "ETL",
+        "integração de sistemas"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-rpa",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é rpa",
+    "consultasSecundarias": [
+      "rpa o que é",
+      "robotic process automation",
+      "o que é rpa automação"
+    ],
+    "title": "O que é RPA: definição e exemplo prático",
+    "description": "RPA são robôs de software que repetem cliques e digitações em telas como uma pessoa faria. Veja quando usar, limites e um exemplo de lançamento de notas.",
+    "h1": "O que é RPA",
+    "respostaDireta": "RPA, sigla de automação robótica de processos, é o uso de robôs de software que operam telas e sistemas como uma pessoa faria: abrem programas, clicam, copiam e digitam. Serve para automatizar tarefas repetitivas quando o sistema não oferece API, mas é mais frágil que uma integração direta.",
+    "secoes": [
+      {
+        "titulo": "RPA ou integração por API",
+        "paragrafos": [
+          "O robô trabalha pela tela, então basta ele enxergar o botão certo. A desvantagem é que qualquer mudança no layout pode quebrar o fluxo. Quando existe API, ela costuma ser a escolha mais estável."
+        ],
+        "tabela": {
+          "colunas": [
+            "Critério",
+            "RPA",
+            "Integração por API"
+          ],
+          "linhas": [
+            [
+              "Como acessa o sistema",
+              "Pela tela, imitando uma pessoa",
+              "Por um canal feito para programas"
+            ],
+            [
+              "Quando muda o layout",
+              "Pode parar de funcionar",
+              "Continua funcionando"
+            ],
+            [
+              "Velocidade",
+              "Limitada pela tela",
+              "Muito mais rápida"
+            ],
+            [
+              "Sistema sem API",
+              "Funciona",
+              "Não se aplica"
+            ],
+            [
+              "Manutenção",
+              "Frequente",
+              "Menor"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Boas candidatas a RPA",
+        "paragrafos": [
+          "O RPA rende mais em tarefas com regra clara e volume alto."
+        ],
+        "lista": [
+          "Digitar dados de uma planilha em um sistema que não importa arquivo",
+          "Baixar relatórios de um portal toda manhã",
+          "Conferir o status de pedidos em sites de fornecedores",
+          "Copiar dados entre dois sistemas sem integração",
+          "Preencher formulários repetitivos de órgãos públicos"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Robô que lança conhecimentos de frete em portal de seguradora sem API"
+    },
+    "faq": [
+      {
+        "pergunta": "RPA substitui funcionários?",
+        "resposta": "O RPA assume tarefas repetitivas e por regra, não decisões. O que costuma mudar é como a equipe usa o tempo: menos digitação, mais conferência de exceções, atendimento e análise."
+      },
+      {
+        "pergunta": "RPA é seguro?",
+        "resposta": "Depende de como é montado. O robô usa um acesso ao sistema, então precisa de usuário próprio, senha guardada em local protegido e registro do que fez. Evite compartilhar o login de uma pessoa."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "O que é RPA",
+        "url": "https://cloud.google.com/discover/what-is-rpa",
+        "orgao": "Google Cloud",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Documentação do Power Automate",
+        "url": "https://learn.microsoft.com/pt-br/power-automate/",
+        "orgao": "Microsoft",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "RPA",
+      "sigla": "RPA",
+      "exemploPratico": "Um transportador recebe dezenas de conhecimentos de frete por dia e precisa lançar cada um no portal de uma seguradora, que não tem API. Um robô abre o portal com o login da empresa, lê a planilha do dia, digita os dados de cada carga e anota o número do protocolo. A equipe só revisa os casos em que o portal recusou o lançamento, e antes isso consumia a tarde de uma pessoa.",
+      "termosRelacionados": [
+        "automação de processos",
+        "integração de sistemas",
+        "API",
+        "workflow"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-automacao-de-processos",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é automação de processos",
+    "consultasSecundarias": [
+      "automação de processos o que é",
+      "o que é automatizar processos",
+      "automação de processos empresariais"
+    ],
+    "title": "O que é automação de processos: guia para PME",
+    "description": "Automação de processos faz o sistema executar sozinho tarefas repetitivas da empresa. Veja o que automatizar primeiro e um exemplo de cobrança.",
+    "h1": "O que é automação de processos",
+    "respostaDireta": "Automação de processos é fazer um sistema executar sozinho as etapas repetitivas de uma rotina da empresa, seguindo regras definidas, sem depender de alguém para lembrar, digitar ou copiar. Cobrança, emissão de nota e avisos ao cliente são exemplos comuns. A pessoa passa a cuidar só das exceções.",
+    "secoes": [
+      {
+        "titulo": "O que vale automatizar primeiro",
+        "paragrafos": [
+          "Nem toda tarefa compensa. Comece pelo que acontece muito, segue sempre a mesma regra e causa dor quando esquecido."
+        ],
+        "tabela": {
+          "colunas": [
+            "Critério",
+            "Boa candidata",
+            "Candidata ruim"
+          ],
+          "linhas": [
+            [
+              "Frequência",
+              "Todo dia ou toda semana",
+              "Uma vez por ano"
+            ],
+            [
+              "Regra",
+              "Sempre igual",
+              "Depende de julgamento caso a caso"
+            ],
+            [
+              "Dado",
+              "Já está em sistema",
+              "Está só na cabeça de alguém"
+            ],
+            [
+              "Custo do erro",
+              "Cliente reclama, dinheiro se perde",
+              "Quase nenhum impacto"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Rotinas comuns de PME que dão para automatizar",
+        "paragrafos": [
+          "Se você já faz alguma dessas à mão, há bom caminho para tirar o trabalho das pessoas."
+        ],
+        "lista": [
+          "Enviar lembrete de pagamento antes e depois do vencimento",
+          "Mandar confirmação de agendamento por WhatsApp",
+          "Gerar a nota fiscal quando o pedido é pago",
+          "Avisar o estoque quando um produto chega ao mínimo",
+          "Montar o relatório semanal de vendas",
+          "Cobrar do cliente o documento que falta no cadastro"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Confirmação automática de consultas em uma clínica, com lista de exceções para a recepção"
+    },
+    "faq": [
+      {
+        "pergunta": "Automatizar é o mesmo que ter um sistema de gestão?",
+        "resposta": "Não. O sistema de gestão guarda e organiza os dados. A automação faz algo com esses dados no momento certo, como enviar um aviso ou gerar um documento. As duas coisas se complementam."
+      },
+      {
+        "pergunta": "Automação de processos exige programar?",
+        "resposta": "Depende. Fluxos simples entre ferramentas populares podem ser montados em plataformas visuais. Regras específicas do seu negócio, ou ligação com sistemas sem conectores prontos, pedem desenvolvimento."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Documentação do Power Automate",
+        "url": "https://learn.microsoft.com/pt-br/power-automate/",
+        "orgao": "Microsoft",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "O que é RPA",
+        "url": "https://cloud.google.com/discover/what-is-rpa",
+        "orgao": "Google Cloud",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "automação de processos",
+      "exemploPratico": "Uma clínica de fisioterapia perdia consultas por falta de aviso. Sem automação, a recepcionista ligava para cada paciente do dia seguinte. Agora o sistema, toda tarde, lista os agendamentos de amanhã e envia uma mensagem com horário e endereço, pedindo confirmação. Quem não responde aparece numa lista para a recepção ligar. A equipe passou a gastar tempo só com quem de fato precisa de contato.",
+      "termosRelacionados": [
+        "workflow",
+        "RPA",
+        "integração de sistemas",
+        "tarefa agendada (cron)"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-workflow",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é workflow",
+    "consultasSecundarias": [
+      "workflow o que é",
+      "fluxo de trabalho o que é",
+      "o que é workflow em sistemas"
+    ],
+    "title": "O que é workflow: definição e exemplo prático",
+    "description": "Workflow é o fluxo de etapas que uma tarefa percorre até ficar pronta, com responsáveis e regras. Veja como montar e um exemplo de aprovação de compra.",
+    "h1": "O que é workflow",
+    "respostaDireta": "Workflow é o fluxo de trabalho: a sequência de etapas que uma tarefa percorre até ficar pronta, com quem faz cada uma, em que ordem e sob quais regras. Quando o workflow está dentro de um sistema, o pedido anda sozinho de uma etapa para a próxima e cada pessoa vê só o que é dela.",
+    "secoes": [
+      {
+        "titulo": "Peças de um workflow",
+        "paragrafos": [
+          "Um fluxo bem desenhado responde a quatro perguntas: quem começa, o que acontece em cada passo, quem decide nos pontos de escolha e quando termina."
+        ],
+        "tabela": {
+          "colunas": [
+            "Peça",
+            "Pergunta que responde",
+            "Exemplo em compras"
+          ],
+          "linhas": [
+            [
+              "Gatilho",
+              "O que inicia o fluxo?",
+              "Funcionário pede material"
+            ],
+            [
+              "Etapa",
+              "O que é feito?",
+              "Gestor aprova o pedido"
+            ],
+            [
+              "Condição",
+              "Que caminho seguir?",
+              "Se passar do limite, vai para a diretoria"
+            ],
+            [
+              "Responsável",
+              "Quem faz?",
+              "Setor de compras"
+            ],
+            [
+              "Fim",
+              "Quando termina?",
+              "Material recebido e conferido"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Sinais de que seu fluxo precisa sair do e-mail",
+        "paragrafos": [
+          "Fluxos que vivem em conversas e planilhas dão problema em escala."
+        ],
+        "lista": [
+          "Ninguém sabe em que etapa o pedido está sem perguntar",
+          "Aprovações ficam paradas na caixa de entrada de alguém",
+          "O mesmo pedido volta várias vezes por falta de informação",
+          "Não há registro de quem aprovou o quê",
+          "Quando o responsável sai de férias, tudo trava"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Fluxo de aprovação de compras em empresa de 40 pessoas, antes e depois do sistema"
+    },
+    "faq": [
+      {
+        "pergunta": "Workflow e automação são a mesma coisa?",
+        "resposta": "Estão próximos. O workflow descreve o caminho e as regras de uma tarefa. A automação faz as etapas acontecerem sem pessoa. Um workflow pode ter etapas manuais, automáticas ou as duas."
+      },
+      {
+        "pergunta": "Preciso desenhar o fluxo antes de contratar um sistema?",
+        "resposta": "Ajuda muito. Um desenho simples, com etapas e responsáveis, evita retrabalho. Se não existe fluxo definido, comece observando como a tarefa acontece hoje, inclusive os desvios."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Visão geral do Azure Logic Apps",
+        "url": "https://learn.microsoft.com/pt-br/azure/logic-apps/logic-apps-overview",
+        "orgao": "Microsoft",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Business Process Model and Notation (BPMN)",
+        "url": "https://www.omg.org/spec/BPMN/",
+        "orgao": "OMG",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "workflow",
+      "exemploPratico": "Em uma empresa de 40 pessoas, qualquer compra acima de certo valor precisa de aprovação do gestor. Antes, o pedido ia por e-mail e se perdia. Com um workflow no sistema, o funcionário preenche o pedido, o gestor recebe um aviso, aprova ou recusa com um clique, e o setor de compras vê só os aprovados. Cada passo fica registrado com data e responsável.",
+      "termosRelacionados": [
+        "BPM",
+        "automação de processos",
+        "low-code"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-bpm",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é bpm",
+    "consultasSecundarias": [
+      "bpm o que é",
+      "business process management",
+      "gestão de processos de negócio"
+    ],
+    "title": "O que é BPM: definição e exemplo prático",
+    "description": "BPM é a gestão de processos de negócio: mapear, medir e melhorar como o trabalho acontece. Veja as etapas e um exemplo no pós-venda de uma loja.",
+    "h1": "O que é BPM",
+    "respostaDireta": "BPM, sigla de gestão de processos de negócio, é a prática de mapear como o trabalho acontece, medir onde ele trava e melhorar em ciclos. A ideia é tratar cada rotina, como vender ou entregar, como um processo com começo, fim e responsáveis claros, e não como hábito de cada pessoa.",
+    "secoes": [
+      {
+        "titulo": "O ciclo do BPM",
+        "paragrafos": [
+          "O BPM não é um software, é um jeito de trabalhar. Os sistemas entram para apoiar o ciclo, e a notação BPMN, mantida pela OMG, é uma forma padronizada de desenhar os processos."
+        ],
+        "tabela": {
+          "colunas": [
+            "Etapa",
+            "O que se faz",
+            "Resultado"
+          ],
+          "linhas": [
+            [
+              "Mapear",
+              "Desenhar o processo como ele é hoje",
+              "Visão compartilhada das etapas"
+            ],
+            [
+              "Medir",
+              "Registrar tempo, retrabalho e gargalos",
+              "Números para decidir"
+            ],
+            [
+              "Redesenhar",
+              "Cortar etapas inúteis e definir regras",
+              "Processo novo, mais simples"
+            ],
+            [
+              "Automatizar",
+              "Passar para sistema o que for repetitivo",
+              "Menos trabalho manual"
+            ],
+            [
+              "Acompanhar",
+              "Medir de novo e ajustar",
+              "Melhoria contínua"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Por onde começar sem burocracia",
+        "paragrafos": [
+          "Uma empresa pequena não precisa de projeto grande. Escolha um processo que incomode e siga um roteiro curto."
+        ],
+        "lista": [
+          "Escolha uma rotina que gere reclamação ou atraso",
+          "Escreva as etapas como são feitas hoje, com quem faz cada uma",
+          "Marque onde o trabalho espera ou volta",
+          "Corte o que não agrega valor ao cliente",
+          "Defina um responsável pelo processo",
+          "Meça de novo depois de um mês"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Mapeamento de um processo de troca de produtos que revela etapas desnecessárias"
+    },
+    "faq": [
+      {
+        "pergunta": "BPM é só para empresa grande?",
+        "resposta": "Não. Empresas grandes usam ferramentas completas, mas a lógica de mapear, medir e melhorar serve para qualquer porte. Em empresa pequena, um papel e uma conversa com a equipe já fazem o primeiro ciclo."
+      },
+      {
+        "pergunta": "BPM e workflow são a mesma coisa?",
+        "resposta": "Não. O BPM é a disciplina de gerir processos. O workflow é a execução de um fluxo, geralmente dentro de um sistema. O BPM decide como o processo deve ser, e o workflow o faz andar."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Business Process Model and Notation (BPMN)",
+        "url": "https://www.omg.org/spec/BPMN/",
+        "orgao": "OMG",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "BPM",
+      "sigla": "BPM",
+      "exemploPratico": "Uma loja de eletrodomésticos recebia reclamações de demora na troca de produtos. Ao mapear o processo, a dona descobriu que o pedido passava por quatro pessoas, e duas só repassavam a informação. Ela redesenhou o fluxo para o atendente registrar a troca já com foto e motivo, e o estoque decidir direto. O mapa simples mostrou o gargalo antes de qualquer sistema ser comprado.",
+      "termosRelacionados": [
+        "workflow",
+        "automação de processos",
+        "low-code"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-low-code",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é low-code",
+    "consultasSecundarias": [
+      "low-code o que é",
+      "plataforma low-code",
+      "low code significa o que"
+    ],
+    "title": "O que é low-code: definição, limites e exemplo",
+    "description": "Low-code é criar sistemas com telas visuais e pouco código. Veja o que dá para fazer, onde ele limita e um exemplo de controle de pedidos.",
+    "h1": "O que é low-code",
+    "respostaDireta": "Low-code é um jeito de criar sistemas montando telas e regras com blocos visuais, escrevendo pouco código só nos pontos que precisam de lógica própria. Acelera aplicativos internos simples, como cadastros e aprovações, mas pode limitar o crescimento quando o sistema vira o centro da operação.",
+    "secoes": [
+      {
+        "titulo": "Onde o low-code ajuda e onde limita",
+        "paragrafos": [
+          "A promessa é velocidade. O preço costuma aparecer depois, quando surgem regras fora do padrão da plataforma ou quando o número de usuários cresce."
+        ],
+        "tabela": {
+          "colunas": [
+            "Ponto",
+            "Vantagem",
+            "Cuidado"
+          ],
+          "linhas": [
+            [
+              "Prazo",
+              "Protótipo em dias",
+              "Ajustes finos podem travar"
+            ],
+            [
+              "Custo inicial",
+              "Menor que sistema sob medida",
+              "Mensalidade por usuário ou por app"
+            ],
+            [
+              "Quem monta",
+              "Pessoa da área com algum treino",
+              "Sem padrão, vira bagunça"
+            ],
+            [
+              "Dados",
+              "Ficam na plataforma",
+              "Sair dela pode ser difícil"
+            ],
+            [
+              "Regras próprias",
+              "Possíveis com código pontual",
+              "Limites da plataforma"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Perguntas para fazer antes de escolher uma plataforma",
+        "paragrafos": [
+          "Essas perguntas evitam a surpresa de descobrir o limite quando o sistema já está em uso."
+        ],
+        "lista": [
+          "Posso exportar meus dados completos quando quiser?",
+          "Quanto custa quando o número de usuários dobrar?",
+          "A plataforma se conecta ao que minha empresa já usa?",
+          "Quem mantém o sistema se a pessoa que montou sair?",
+          "Existe ambiente de teste separado do que a equipe usa?",
+          "O que acontece se a plataforma mudar o plano ou fechar?"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cadastro de chamados feito em plataforma low-code e o ponto em que ela deixou de bastar"
+    },
+    "faq": [
+      {
+        "pergunta": "Low-code e no-code são a mesma coisa?",
+        "resposta": "Parecidos, mas não iguais. No no-code não se escreve código nenhum e tudo é feito por blocos. No low-code há blocos e também espaço para código quando a regra é específica."
+      },
+      {
+        "pergunta": "Low-code serve para o sistema principal da empresa?",
+        "resposta": "Pode servir para apoio e aplicativos internos. Para o sistema que concentra vendas, estoque e financeiro, avalie limites de dados, custo por usuário e dependência da plataforma antes de decidir."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Low-code e no-code",
+        "url": "https://cloud.google.com/use-cases/low-code-no-code",
+        "orgao": "Google Cloud",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Documentação do Power Apps",
+        "url": "https://learn.microsoft.com/pt-br/power-apps/maker/",
+        "orgao": "Microsoft",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "low-code",
+      "exemploPratico": "Uma empresa de manutenção de elevadores controlava chamados em planilha. Um técnico administrativo montou em uma plataforma low-code um cadastro de chamados com formulário de abertura, status e aviso ao supervisor. Em duas semanas o time passou a usar. Meses depois, ao querer integrar com o sistema fiscal e emitir cobrança automática, a empresa viu que precisava de um sistema próprio.",
+      "termosRelacionados": [
+        "no-code",
+        "workflow",
+        "iPaaS"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-no-code",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é no-code",
+    "consultasSecundarias": [
+      "no-code o que é",
+      "o que são ferramentas no-code",
+      "no code significa"
+    ],
+    "title": "O que é no-code: definição, usos e limites",
+    "description": "No-code é criar sites, apps e automações sem escrever código, só com blocos e telas. Veja quando serve para a empresa e quando não serve.",
+    "h1": "O que é no-code",
+    "respostaDireta": "No-code é criar sites, aplicativos e automações sem escrever nenhuma linha de código, usando blocos, formulários e conexões prontas em uma plataforma visual. Serve bem para testar ideias e resolver rotinas simples, mas tende a ficar caro ou limitado quando a empresa precisa de regras próprias ou muito volume.",
+    "secoes": [
+      {
+        "titulo": "Para que o no-code é uma boa escolha",
+        "paragrafos": [
+          "O no-code derruba a barreira de entrada. A pessoa do negócio monta e testa sozinha, sem fila de desenvolvimento."
+        ],
+        "lista": [
+          "Validar uma ideia antes de investir em sistema próprio",
+          "Formulários que gravam em planilha e avisam a equipe",
+          "Automações simples entre ferramentas populares",
+          "Páginas de captação e eventos de curta duração",
+          "Painéis internos para poucos usuários"
+        ]
+      },
+      {
+        "titulo": "No-code, low-code ou sistema sob medida",
+        "paragrafos": [
+          "Cada opção tem um ponto em que deixa de ser a melhor. Compare pelo que sua empresa precisa em um ano, e não só pelo primeiro mês."
+        ],
+        "tabela": {
+          "colunas": [
+            "Critério",
+            "No-code",
+            "Low-code",
+            "Sob medida"
+          ],
+          "linhas": [
+            [
+              "Quem constrói",
+              "Pessoa da área",
+              "Área com apoio técnico",
+              "Desenvolvedor"
+            ],
+            [
+              "Prazo para o primeiro uso",
+              "Dias",
+              "Dias a semanas",
+              "Semanas a meses"
+            ],
+            [
+              "Flexibilidade de regras",
+              "Baixa",
+              "Média",
+              "Total"
+            ],
+            [
+              "Dependência de fornecedor",
+              "Alta",
+              "Média",
+              "Baixa"
+            ],
+            [
+              "Custo ao crescer",
+              "Sobe com usuários e volume",
+              "Sobe com usuários",
+              "Tende a ficar estável"
+            ]
+          ]
+        }
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Formulário de aula experimental feito em no-code e o momento em que a escola o superou"
+    },
+    "faq": [
+      {
+        "pergunta": "No-code é mais barato que contratar um desenvolvedor?",
+        "resposta": "No começo, quase sempre. Com o tempo, mensalidades por usuário, por automação ou por registro podem passar o custo de um sistema próprio. Faça a conta para dois ou três anos, e não só para o primeiro mês."
+      },
+      {
+        "pergunta": "Posso migrar do no-code para um sistema próprio depois?",
+        "resposta": "Pode, e é um caminho comum. O que pesa é conseguir exportar os dados e ter documentadas as regras que a equipe criou. Peça esses dados completos desde o início, para não ficar preso."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Low-code e no-code",
+        "url": "https://cloud.google.com/use-cases/low-code-no-code",
+        "orgao": "Google Cloud",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "no-code",
+      "exemploPratico": "Uma escola de idiomas queria agendar aulas experimentais. A coordenadora montou, em uma ferramenta no-code, um formulário que grava o interessado em uma tabela e envia e-mail de confirmação. Funcionou bem por seis meses. Quando começou a precisar de agenda por professor, sala e pacote de aulas, a ferramenta já não acompanhava e a escola passou a avaliar um sistema próprio.",
+      "termosRelacionados": [
+        "low-code",
+        "iPaaS",
+        "automação de processos"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-ipaas",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é ipaas",
+    "consultasSecundarias": [
+      "ipaas o que é",
+      "plataforma de integração o que é",
+      "integration platform as a service"
+    ],
+    "title": "O que é iPaaS: definição, usos e exemplo",
+    "description": "iPaaS é a plataforma na nuvem que conecta sistemas com conectores prontos e regras visuais. Veja como funciona e quando compensa para uma PME.",
+    "h1": "O que é iPaaS (plataforma de integração)",
+    "respostaDireta": "iPaaS é uma plataforma de integração na nuvem: um serviço que conecta seus sistemas usando conectores prontos e regras montadas em telas, sem você manter servidores. Funciona como uma central de ligações entre loja, ERP, e-mail e planilhas, e costuma ser cobrada por uso ou por plano.",
+    "secoes": [
+      {
+        "titulo": "O que uma iPaaS entrega",
+        "paragrafos": [
+          "A sigla vem de integration platform as a service, ou plataforma de integração como serviço. Em vez de programar cada ligação, você escolhe um sistema de origem, um de destino e define o que fazer entre eles."
+        ],
+        "tabela": {
+          "colunas": [
+            "Recurso",
+            "Para que serve"
+          ],
+          "linhas": [
+            [
+              "Conectores prontos",
+              "Ligar sistemas populares sem programar a autenticação"
+            ],
+            [
+              "Gatilhos",
+              "Iniciar um fluxo quando algo acontece"
+            ],
+            [
+              "Mapeamento de campos",
+              "Dizer qual campo de um sistema vai para qual campo do outro"
+            ],
+            [
+              "Tratamento de erros",
+              "Repetir ou avisar quando uma etapa falha"
+            ],
+            [
+              "Histórico de execuções",
+              "Ver o que rodou, quando e com que resultado"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Quando uma iPaaS compensa e quando não",
+        "paragrafos": [
+          "Para fluxos simples entre ferramentas conhecidas, ela costuma ser rápida e econômica. Os pontos de atenção aparecem com volume alto e regras complexas."
+        ],
+        "lista": [
+          "Compensa: poucos fluxos, sistemas populares, sem equipe técnica",
+          "Compensa: protótipo para testar se a integração vale a pena",
+          "Atenção: o custo cresce com o número de execuções",
+          "Atenção: sistemas sem conector pronto exigem desenvolvimento",
+          "Atenção: dados de clientes passam por um terceiro, e isso entra na LGPD",
+          "Atenção: se a plataforma sair do ar, seus fluxos param"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Entrada de contatos de portais e WhatsApp no CRM de uma imobiliária por meio de iPaaS"
+    },
+    "faq": [
+      {
+        "pergunta": "iPaaS substitui um desenvolvedor?",
+        "resposta": "Para fluxos simples entre sistemas com conectores prontos, pode dispensar. Para regras próprias, sistemas sem conector ou grande volume, o desenvolvedor continua necessário, e pode ser contratado só para a parte difícil."
+      },
+      {
+        "pergunta": "Qual a diferença entre iPaaS e middleware?",
+        "resposta": "O middleware é o conceito de uma camada no meio dos sistemas, que pode ser programada sob medida. A iPaaS é um produto de nuvem pronto que cumpre esse papel, com conectores e telas."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "O que é iPaaS",
+        "url": "https://cloud.google.com/learn/what-is-ipaas",
+        "orgao": "Google Cloud",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Visão geral do Azure Logic Apps",
+        "url": "https://learn.microsoft.com/pt-br/azure/logic-apps/logic-apps-overview",
+        "orgao": "Microsoft",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "iPaaS",
+      "sigla": "iPaaS",
+      "exemploPratico": "Uma imobiliária recebe contatos de portais de anúncio, do site e do WhatsApp. Com uma iPaaS, cada novo contato vira um cadastro no CRM, uma linha na planilha da gerente e um aviso ao corretor da região. A montagem foi feita com conectores prontos, sem programar. Quando a imobiliária passou a precisar de regras de distribuição por carteira, parte do fluxo foi migrada para código próprio.",
+      "termosRelacionados": [
+        "middleware",
+        "integração de sistemas",
+        "no-code",
+        "webhook"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-chatbot",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é chatbot",
+    "consultasSecundarias": [
+      "chatbot o que é",
+      "o que é um robô de atendimento",
+      "chatbot para whatsapp o que é"
+    ],
+    "title": "O que é chatbot: definição e exemplo prático",
+    "description": "Chatbot é o programa que conversa com o cliente por texto e resolve pedidos simples. Veja os tipos, o que ele faz bem e um exemplo de atendimento.",
+    "h1": "O que é chatbot",
+    "respostaDireta": "Chatbot é um programa que conversa com pessoas por texto, no site, no WhatsApp ou em outro canal, e responde dúvidas ou executa pedidos simples. Pode seguir um roteiro de opções ou usar inteligência artificial para entender frases livres. O ideal é resolver o repetitivo e passar o resto para uma pessoa.",
+    "secoes": [
+      {
+        "titulo": "Dois tipos de chatbot",
+        "paragrafos": [
+          "A escolha entre os tipos depende de quanta variação existe nas perguntas e de quanto risco há em responder errado."
+        ],
+        "tabela": {
+          "colunas": [
+            "Característica",
+            "Chatbot de regras (menu)",
+            "Chatbot com IA"
+          ],
+          "linhas": [
+            [
+              "Como responde",
+              "Segue um roteiro de opções",
+              "Entende frase livre e gera resposta"
+            ],
+            [
+              "Previsibilidade",
+              "Alta",
+              "Menor, precisa de limites"
+            ],
+            [
+              "Montagem",
+              "Desenhar o fluxo",
+              "Base de conteúdo e instruções"
+            ],
+            [
+              "Melhor para",
+              "Horário, 2ª via, status de pedido",
+              "Dúvidas variadas sobre produtos e serviços"
+            ],
+            [
+              "Risco",
+              "Cliente se frustra com menu longo",
+              "Resposta errada dita com segurança"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como não frustrar o cliente",
+        "paragrafos": [
+          "O chatbot ruim afasta. Algumas regras simples evitam isso."
+        ],
+        "lista": [
+          "Avise logo que é um robô",
+          "Ofereça sempre uma saída para falar com uma pessoa",
+          "Limite o escopo ao que o bot realmente resolve",
+          "Registre as conversas para melhorar as respostas",
+          "Teste com perguntas reais dos clientes antes de lançar",
+          "Em dados pessoais, pergunte só o necessário"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Atendimento de status de pedido e boleto no WhatsApp de uma distribuidora, com passagem para humano"
+    },
+    "faq": [
+      {
+        "pergunta": "Chatbot funciona no WhatsApp?",
+        "resposta": "Funciona, mas pela API oficial do WhatsApp, que exige provedor e regras de mensagem. Robôs que operam o WhatsApp comum por programas não oficiais correm o risco de bloqueio do número."
+      },
+      {
+        "pergunta": "Chatbot com IA responde qualquer coisa?",
+        "resposta": "Não deveria. Com bom projeto, ele responde só com base em conteúdo que você aprovou e passa para uma pessoa quando não sabe. Sem esses limites, pode inventar informação sobre preços e prazos."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "O que é um chatbot",
+        "url": "https://cloud.google.com/discover/what-is-a-chatbot",
+        "orgao": "Google Cloud",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "WhatsApp Business Platform — documentação",
+        "url": "https://developers.facebook.com/docs/whatsapp",
+        "orgao": "Meta for Developers",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "chatbot",
+      "exemploPratico": "Uma distribuidora de peças recebia no WhatsApp centenas de perguntas sobre status de pedido e segunda via de boleto. Um chatbot passou a pedir o número do pedido, consultar o sistema e responder com a situação e o link do boleto. Quando o cliente pergunta algo fora do roteiro ou escreve “falar com atendente”, a conversa vai para a equipe com o histórico, e ninguém precisa repetir nada.",
+      "termosRelacionados": [
+        "API oficial do WhatsApp",
+        "inteligência artificial",
+        "agente de IA",
+        "RAG"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-api-oficial-do-whatsapp",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é api oficial do whatsapp",
+    "consultasSecundarias": [
+      "api oficial do whatsapp o que é",
+      "whatsapp business platform",
+      "api do whatsapp business o que é"
+    ],
+    "title": "O que é API oficial do WhatsApp: guia para empresas",
+    "description": "A API oficial do WhatsApp conecta o número da empresa a sistemas, para atender em equipe e enviar avisos. Veja regras, diferenças e um exemplo.",
+    "h1": "O que é API oficial do WhatsApp",
+    "respostaDireta": "API oficial do WhatsApp é o nome comum da WhatsApp Business Platform, a interface da Meta que liga o número da empresa a sistemas, chatbots e CRMs. Ela permite atender com vários atendentes, automatizar respostas e enviar avisos por modelos aprovados, sempre dentro das regras da plataforma.",
+    "secoes": [
+      {
+        "titulo": "API oficial, aplicativo e programas não oficiais",
+        "paragrafos": [
+          "O aplicativo WhatsApp Business é feito para uma pessoa ou poucos aparelhos. A API é feita para sistemas. Já os programas que operam o WhatsApp comum por fora das regras da Meta não são oficiais e podem levar ao bloqueio do número."
+        ],
+        "tabela": {
+          "colunas": [
+            "Ponto",
+            "Aplicativo WhatsApp Business",
+            "API oficial (Business Platform)"
+          ],
+          "linhas": [
+            [
+              "Uso típico",
+              "Pequeno comércio, atendimento direto",
+              "Empresa com equipe, sistema ou volume"
+            ],
+            [
+              "Vários atendentes",
+              "Limitado",
+              "Sim, por meio de um sistema de atendimento"
+            ],
+            [
+              "Integração com sistemas",
+              "Não",
+              "Sim"
+            ],
+            [
+              "Avisos fora da janela de conversa",
+              "Mensagem manual",
+              "Modelos de mensagem aprovados"
+            ],
+            [
+              "Acesso",
+              "Instalar o aplicativo",
+              "Provedor ou desenvolvedor, conta da Meta"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Regras que quem usa precisa conhecer",
+        "paragrafos": [
+          "A plataforma é aberta a integrações, mas com regras. Elas protegem o usuário e valem para todas as empresas."
+        ],
+        "lista": [
+          "O cliente precisa ter aceitado receber mensagens da empresa",
+          "A empresa só responde livremente por um período depois da última mensagem do cliente",
+          "Fora desse período, só é possível enviar modelos de mensagem aprovados",
+          "Há cobrança por mensagem, segundo a página de preços da Meta, que muda com o tempo",
+          "A conta passa por verificação e o uso pode ser limitado se houver denúncias",
+          "Os dados dos contatos entram na LGPD"
+        ]
+      },
+      {
+        "titulo": "Quanto isso pesa no projeto",
+        "paragrafos": [
+          "Na tabela pública da AndersDev, o acréscimo de push e WhatsApp em um aplicativo é de 15% sobre o valor do projeto. É uma referência: o escopo real define o orçamento."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Rede de óticas centralizando três lojas em um número na API oficial"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso pagar para usar a API oficial?",
+        "resposta": "A API tem cobrança por mensagem, definida pela Meta, mais o custo do provedor ou do desenvolvimento. Os valores mudam, então consulte a página de preços oficial antes de montar o orçamento."
+      },
+      {
+        "pergunta": "Posso usar o mesmo número no aplicativo e na API?",
+        "resposta": "Tradicionalmente, ao migrar um número para a API ele deixava de funcionar no aplicativo. A Meta tem oferecido, em alguns casos, formas de usar os dois, mas as condições mudam. Confira na documentação oficial antes de planejar a migração."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "WhatsApp Business Platform — documentação",
+        "url": "https://developers.facebook.com/docs/whatsapp",
+        "orgao": "Meta for Developers",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "API de Nuvem do WhatsApp",
+        "url": "https://developers.facebook.com/docs/whatsapp/cloud-api",
+        "orgao": "Meta for Developers",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "API oficial do WhatsApp (WhatsApp Business Platform)",
+      "exemploPratico": "Uma rede de óticas usava um único celular para atender clientes em três lojas, e as mensagens se perdiam. Migrou o número para a API oficial, ligada a um sistema de atendimento com fila. Agora vários atendentes respondem pelo mesmo número, e o sistema envia, por modelo aprovado, o aviso de que os óculos ficaram prontos. O histórico fica no cadastro do cliente.",
+      "termosRelacionados": [
+        "modelo de mensagem do WhatsApp",
+        "WhatsApp Business",
+        "chatbot",
+        "opt-in"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-whatsapp-business",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é whatsapp business",
+    "consultasSecundarias": [
+      "whatsapp business o que é",
+      "aplicativo whatsapp business",
+      "diferença entre whatsapp e whatsapp business"
+    ],
+    "title": "O que é WhatsApp Business: aplicativo e recursos",
+    "description": "WhatsApp Business é o aplicativo gratuito para pequenas empresas atenderem clientes. Veja os recursos, os limites e quando migrar para a API.",
+    "h1": "O que é WhatsApp Business",
+    "respostaDireta": "WhatsApp Business é um aplicativo do WhatsApp feito para pequenas empresas, com perfil comercial, catálogo, respostas rápidas, etiquetas e mensagem de ausência. Ele se instala no celular como o WhatsApp comum e ajuda a organizar o atendimento, mas não foi pensado para equipes grandes nem para integração com sistemas.",
+    "secoes": [
+      {
+        "titulo": "Recursos do aplicativo",
+        "paragrafos": [
+          "O aplicativo reúne ferramentas para quem atende pelo celular. Os recursos disponíveis podem variar conforme a versão, então confira no próprio aplicativo."
+        ],
+        "tabela": {
+          "colunas": [
+            "Recurso",
+            "Para que serve"
+          ],
+          "linhas": [
+            [
+              "Perfil comercial",
+              "Mostrar endereço, horário, site e descrição da empresa"
+            ],
+            [
+              "Catálogo",
+              "Exibir produtos e serviços com foto e descrição"
+            ],
+            [
+              "Respostas rápidas",
+              "Atalhos para perguntas que se repetem"
+            ],
+            [
+              "Etiquetas",
+              "Organizar conversas, como novo cliente ou pago"
+            ],
+            [
+              "Mensagem de ausência e saudação",
+              "Responder fora do horário e na primeira conversa"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Quando o aplicativo deixa de bastar",
+        "paragrafos": [
+          "O aplicativo resolve bem a fase inicial. Alguns sinais indicam que é hora de olhar a API oficial."
+        ],
+        "lista": [
+          "Mais de uma pessoa precisa atender o mesmo número",
+          "As mensagens se perdem quando o celular é trocado ou desligado",
+          "Você quer ligar o atendimento ao sistema de pedidos",
+          "Precisa enviar avisos automáticos, como status de entrega",
+          "Quer um chatbot que resolva o repetitivo",
+          "Precisa de relatório de atendimento por pessoa"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Doceria organizando encomendas com catálogo, respostas rápidas e etiquetas no aplicativo"
+    },
+    "faq": [
+      {
+        "pergunta": "WhatsApp Business é pago?",
+        "resposta": "O aplicativo é gratuito para baixar e usar. Os custos aparecem se você migrar para a API oficial, que tem cobrança por mensagem e normalmente um provedor. Veja as condições na página oficial do WhatsApp."
+      },
+      {
+        "pergunta": "Posso usar WhatsApp comum e Business no mesmo celular?",
+        "resposta": "Pode, desde que cada um use um número diferente. Muitos celulares aceitam os dois aplicativos instalados. Um mesmo número só funciona em uma conta de cada vez."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "WhatsApp Business (aplicativo)",
+        "url": "https://business.whatsapp.com/products/business-app",
+        "orgao": "WhatsApp",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Sobre o aplicativo WhatsApp Business",
+        "url": "https://faq.whatsapp.com/general/about-the-whatsapp-business-app",
+        "orgao": "WhatsApp",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "WhatsApp Business (aplicativo)",
+      "exemploPratico": "Uma doceria artesanal começou a vender por WhatsApp comum, e as encomendas se misturavam às conversas pessoais. A dona migrou para o WhatsApp Business, colocou o catálogo com os bolos e preços, criou respostas rápidas para horário e retirada e etiquetou cada encomenda por status. Sem gastar com sistema, ela passou a enxergar quem já pagou e quem aguarda confirmação.",
+      "termosRelacionados": [
+        "API oficial do WhatsApp",
+        "modelo de mensagem do WhatsApp",
+        "chatbot"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-modelo-de-mensagem-do-whatsapp",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é modelo de mensagem do whatsapp",
+    "consultasSecundarias": [
+      "template whatsapp o que é",
+      "modelo de mensagem whatsapp business",
+      "mensagem template whatsapp"
+    ],
+    "title": "O que é modelo de mensagem do WhatsApp (template)",
+    "description": "Modelo de mensagem do WhatsApp é o texto pré-aprovado que a empresa envia por API fora da janela de conversa. Veja categorias, regras e exemplo.",
+    "h1": "O que é modelo de mensagem do WhatsApp",
+    "respostaDireta": "Modelo de mensagem do WhatsApp, ou template, é um texto pré-aprovado pelo WhatsApp que a empresa usa para iniciar conversa ou avisar o cliente fora do período de resposta livre. Tem partes fixas e campos variáveis, como nome e data, e só vale na API oficial.",
+    "secoes": [
+      {
+        "titulo": "Como é um modelo e para que serve",
+        "paragrafos": [
+          "O modelo é cadastrado e enviado para aprovação antes do uso. Depois de aprovado, o sistema da empresa o dispara preenchendo os campos variáveis de cada cliente."
+        ],
+        "tabela": {
+          "colunas": [
+            "Parte",
+            "Exemplo"
+          ],
+          "linhas": [
+            [
+              "Texto fixo",
+              "Olá, {{1}}! Seu pedido {{2}} saiu para entrega."
+            ],
+            [
+              "Variável {{1}}",
+              "Nome do cliente"
+            ],
+            [
+              "Variável {{2}}",
+              "Número do pedido"
+            ],
+            [
+              "Botão opcional",
+              "Acompanhar entrega, com link"
+            ],
+            [
+              "Categoria",
+              "Utilidade, marketing ou autenticação"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como evitar recusa e problemas",
+        "paragrafos": [
+          "O WhatsApp analisa o conteúdo e a categoria do modelo. Os cuidados abaixo reduzem as recusas."
+        ],
+        "lista": [
+          "Escolha a categoria que corresponde de fato ao conteúdo",
+          "Escreva texto claro, sem promessas enganosas",
+          "Evite variáveis no começo ou no fim sem texto em volta",
+          "Envie só a quem aceitou receber mensagens",
+          "Dê ao cliente um jeito fácil de parar de receber",
+          "Acompanhe a qualidade: reclamações podem restringir o envio"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Aviso de roupa pronta em lavanderia usando um modelo com duas variáveis"
+    },
+    "faq": [
+      {
+        "pergunta": "Quanto tempo leva para aprovar um modelo?",
+        "resposta": "Costuma ser rápido, mas o prazo é definido pelo WhatsApp e pode variar. Cadastre com antecedência e tenha uma alternativa pronta para campanhas com data marcada."
+      },
+      {
+        "pergunta": "Posso mudar o texto de um modelo aprovado?",
+        "resposta": "Não livremente. Mudanças relevantes exigem um novo envio para análise, e o modelo editado passa por aprovação outra vez. Por isso convém planejar bem o texto antes de cadastrar."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Modelos de mensagem do WhatsApp",
+        "url": "https://developers.facebook.com/docs/whatsapp/message-templates",
+        "orgao": "Meta for Developers",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "WhatsApp Business Platform — documentação",
+        "url": "https://developers.facebook.com/docs/whatsapp",
+        "orgao": "Meta for Developers",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "modelo de mensagem do WhatsApp (template)",
+      "exemploPratico": "Uma lavanderia quer avisar que as roupas estão prontas, mas muitos clientes não falaram com ela nas últimas horas. Ela cadastra o modelo “Olá, {{1}}! Suas peças do pedido {{2}} estão prontas para retirada até sexta.” e, depois da aprovação, o sistema o envia a cada cliente assim que a peça é baixada na produção. A resposta do cliente reabre a conversa livre.",
+      "termosRelacionados": [
+        "API oficial do WhatsApp",
+        "opt-in",
+        "opt-out",
+        "chatbot"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-inteligencia-artificial",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é inteligência artificial",
+    "consultasSecundarias": [
+      "inteligência artificial o que é",
+      "o que é ia",
+      "ia para empresas o que é"
+    ],
+    "title": "O que é inteligência artificial: guia para empresas",
+    "description": "Inteligência artificial são programas que executam tarefas que pareciam exigir inteligência humana. Veja usos reais em PME, limites e um exemplo.",
+    "h1": "O que é inteligência artificial",
+    "respostaDireta": "Inteligência artificial é a área da computação que cria programas capazes de executar tarefas que costumavam exigir inteligência humana, como entender texto, reconhecer imagem, classificar pedidos ou escrever respostas. Para uma empresa, é uma ferramenta para ganhar tempo em tarefas de linguagem e análise, não um substituto do julgamento da equipe.",
+    "secoes": [
+      {
+        "titulo": "Onde a IA ajuda uma PME e onde exige cuidado",
+        "paragrafos": [
+          "A IA vai bem em tarefas com muito texto ou muito padrão. Vai mal quando a resposta precisa ser exata e ninguém confere."
+        ],
+        "tabela": {
+          "colunas": [
+            "Tarefa",
+            "Como a IA ajuda",
+            "Cuidado"
+          ],
+          "linhas": [
+            [
+              "Atendimento",
+              "Responde dúvidas frequentes",
+              "Não deixar inventar preço ou prazo"
+            ],
+            [
+              "Documentos",
+              "Lê notas e contratos e extrai campos",
+              "Conferir os campos críticos"
+            ],
+            [
+              "Textos",
+              "Rascunha e-mails e descrições",
+              "Revisar antes de enviar"
+            ],
+            [
+              "Classificação",
+              "Separa e-mails e chamados por assunto",
+              "Revisar casos duvidosos"
+            ],
+            [
+              "Previsão",
+              "Estima demanda a partir do histórico",
+              "Depende da qualidade do histórico"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Perguntas antes de colocar IA no processo",
+        "paragrafos": [
+          "Antes de contratar, responda com clareza o que a IA deve fazer e o que acontece quando ela erra."
+        ],
+        "lista": [
+          "Que tarefa exata será entregue à IA?",
+          "Quem confere o resultado e em que momento?",
+          "Quais dados da empresa ou de clientes ela vai ver?",
+          "O fornecedor usa esses dados para treinar o modelo dele?",
+          "Qual o custo por uso quando o volume crescer?",
+          "Existe um plano para quando o serviço estiver fora do ar?"
+        ]
+      },
+      {
+        "titulo": "Quanto a IA pesa no orçamento",
+        "paragrafos": [
+          "Na tabela pública da AndersDev, uma integração com IA acrescenta 25% ao valor de um projeto de site ou de aplicativo. É uma referência de faixa, e o orçamento depende do escopo."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Triagem e sugestão de resposta a e-mails em uma administradora de condomínios"
+    },
+    "faq": [
+      {
+        "pergunta": "IA e automação são a mesma coisa?",
+        "resposta": "Não. A automação segue regras fixas definidas por alguém. A IA lida com situações menos previsíveis, como entender uma frase escrita de jeito livre. Muitos sistemas combinam as duas."
+      },
+      {
+        "pergunta": "Posso confiar no que a IA responde?",
+        "resposta": "Com ressalvas. Ela pode errar e dizer com segurança algo falso. Por isso, em preço, prazo, saúde e questões jurídicas, a resposta deve vir de dados confiáveis ou ser conferida por uma pessoa."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "O que é inteligência artificial",
+        "url": "https://cloud.google.com/learn/what-is-artificial-intelligence",
+        "orgao": "Google Cloud",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "inteligência artificial",
+      "exemploPratico": "Uma administradora de condomínios recebe centenas de e-mails com dúvidas sobre boleto, reserva de salão e obras. Uma IA lê cada mensagem, classifica o assunto e sugere uma resposta com base nas regras do condomínio. A atendente revisa e envia com um clique, e só escreve do zero os casos fora do comum. O tempo gasto por mensagem caiu, e as respostas ficaram mais padronizadas.",
+      "termosRelacionados": [
+        "machine learning",
+        "LLM",
+        "agente de IA",
+        "RAG"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-llm",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é llm",
+    "consultasSecundarias": [
+      "llm o que é",
+      "large language model",
+      "o que é um modelo de linguagem"
+    ],
+    "title": "O que é LLM: definição e exemplo prático",
+    "description": "LLM é o modelo de inteligência artificial treinado em grande volume de texto para entender e gerar linguagem. Veja como funciona e o que não faz bem.",
+    "h1": "O que é LLM",
+    "respostaDireta": "LLM, sigla de modelo de linguagem de grande escala, é um tipo de inteligência artificial treinado com enorme volume de texto para entender e gerar linguagem. É a tecnologia por trás dos assistentes de conversa. Ele escreve respostas prevendo palavra por palavra o que faz sentido, o que explica tanto a fluência quanto os erros.",
+    "secoes": [
+      {
+        "titulo": "O que um LLM faz bem e o que faz mal",
+        "paragrafos": [
+          "O LLM não consulta uma base de fatos: ele gera texto provável com base no que aprendeu e no que você escreve no pedido. Isso dá versatilidade, mas pede cuidado."
+        ],
+        "tabela": {
+          "colunas": [
+            "Faz bem",
+            "Faz mal ou precisa de apoio"
+          ],
+          "linhas": [
+            [
+              "Resumir um texto longo",
+              "Dar dado exato sem fonte, como preço e prazo"
+            ],
+            [
+              "Reescrever em outro tom",
+              "Contas e cálculos longos sem ferramenta"
+            ],
+            [
+              "Extrair campos de um documento",
+              "Saber de fatos recentes sem acesso a eles"
+            ],
+            [
+              "Classificar mensagens",
+              "Conhecer dados internos da sua empresa"
+            ],
+            [
+              "Explicar um assunto",
+              "Reconhecer quando não sabe"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como a empresa usa um LLM na prática",
+        "paragrafos": [
+          "Raramente a empresa treina um modelo. O mais comum é contratar o acesso a um modelo pronto por API e construir ao redor dele."
+        ],
+        "lista": [
+          "Enviar o texto e as instruções por API e receber a resposta",
+          "Complementar com documentos da empresa usando RAG",
+          "Limitar o que o modelo pode responder",
+          "Registrar cada resposta para auditoria",
+          "Controlar o custo, que costuma ser por volume de texto",
+          "Conferir os termos do fornecedor sobre uso dos dados enviados"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Extração de dados de cotações em texto livre por um LLM em empresa de transporte"
+    },
+    "faq": [
+      {
+        "pergunta": "LLM é o mesmo que ChatGPT?",
+        "resposta": "Não. LLM é o tipo de tecnologia. ChatGPT é um produto que usa modelos desse tipo. Existem outros produtos e modelos, de vários fornecedores, com características e custos diferentes."
+      },
+      {
+        "pergunta": "Um LLM aprende com o que eu digito?",
+        "resposta": "Depende do fornecedor e do plano. Alguns usam as conversas para melhorar o modelo, outros não. Antes de enviar dados de clientes ou da empresa, leia os termos de uso e a política de privacidade do serviço."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "O que são grandes modelos de linguagem",
+        "url": "https://cloud.google.com/discover/what-are-large-language-models",
+        "orgao": "Google Cloud",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Visão geral dos modelos",
+        "url": "https://docs.anthropic.com/en/docs/about-claude/models/overview",
+        "orgao": "Anthropic",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "LLM (modelo de linguagem de grande escala)",
+      "sigla": "LLM",
+      "exemploPratico": "Uma empresa de transporte recebe pedidos de cotação por e-mail em texto livre: origem, destino, peso e prazo, cada cliente escrevendo de um jeito. Um LLM lê a mensagem e devolve os campos organizados, que o sistema usa para calcular o frete. Quando um dado essencial falta, o sistema pede ao cliente que complete. O cálculo em si segue a tabela da empresa, não o modelo.",
+      "termosRelacionados": [
+        "inteligência artificial",
+        "prompt",
+        "RAG",
+        "agente de IA"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-prompt",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é prompt",
+    "consultasSecundarias": [
+      "prompt o que é",
+      "o que é prompt de ia",
+      "engenharia de prompt o que é"
+    ],
+    "title": "O que é prompt: definição e exemplo prático",
+    "description": "Prompt é a instrução que você dá a uma inteligência artificial para obter a resposta. Veja como escrever bem, com exemplo antes e depois.",
+    "h1": "O que é prompt",
+    "respostaDireta": "Prompt é a instrução, em texto, que você envia a uma inteligência artificial para pedir uma resposta. Quanto mais claro o pedido, com contexto, objetivo e formato esperado, melhor o resultado. Escrever bons prompts é uma habilidade prática, chamada de engenharia de prompt, e faz diferença no uso diário.",
+    "secoes": [
+      {
+        "titulo": "Os ingredientes de um bom prompt",
+        "paragrafos": [
+          "Pense no prompt como o briefing para um estagiário muito rápido que não conhece sua empresa. Quanto menos ele precisa adivinhar, melhor sai o trabalho."
+        ],
+        "tabela": {
+          "colunas": [
+            "Ingrediente",
+            "O que informar",
+            "Exemplo"
+          ],
+          "linhas": [
+            [
+              "Papel",
+              "Quem a IA deve ser",
+              "Atendente de uma oficina mecânica"
+            ],
+            [
+              "Contexto",
+              "O que ela precisa saber",
+              "Horário de segunda a sexta, das 8h às 18h"
+            ],
+            [
+              "Tarefa",
+              "O que fazer",
+              "Responder a dúvida do cliente"
+            ],
+            [
+              "Formato",
+              "Como entregar",
+              "Até três frases, tom cordial"
+            ],
+            [
+              "Limites",
+              "O que não fazer",
+              "Não informar preço sem consultar a tabela"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Erros que derrubam a qualidade",
+        "paragrafos": [
+          "A maior parte dos prompts fracos peca por falta de informação, e não por falta de técnica."
+        ],
+        "lista": [
+          "Pedir algo vago, como “escreva um texto bom”",
+          "Não dizer para quem é o texto",
+          "Misturar vários pedidos em uma frase só",
+          "Não dar exemplo do resultado desejado",
+          "Colar dados sensíveis de clientes sem necessidade",
+          "Aceitar a primeira resposta sem conferir"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Resposta de loja de pneus antes e depois de reescrever o prompt com contexto e limites"
+    },
+    "faq": [
+      {
+        "pergunta": "Prompt precisa ser em inglês?",
+        "resposta": "Não. Os modelos atuais entendem bem o português. Escreva no idioma em que a resposta deve vir e use termos claros. Em casos técnicos, vale testar os dois e comparar."
+      },
+      {
+        "pergunta": "Existe prompt mágico que funciona sempre?",
+        "resposta": "Não. O que funciona é testar, ajustar e guardar as versões que dão bom resultado. Em uso profissional, o prompt é tratado como parte do sistema, com versão e teste."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Visão geral de engenharia de prompts",
+        "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+        "orgao": "Anthropic",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Prompt engineering",
+        "url": "https://platform.openai.com/docs/guides/prompt-engineering",
+        "orgao": "OpenAI",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "prompt",
+      "exemploPratico": "Uma loja de pneus pediu a uma IA: “responda esse cliente”. A resposta saiu longa e genérica. Depois, ela reescreveu o pedido: “Você é atendente da loja, fale em tom cordial, no máximo três frases. O cliente pergunta se fazemos alinhamento aos sábados. Atendemos de segunda a sábado, das 8h às 12h. Não informe valores.” A resposta saiu curta, correta e pronta para enviar.",
+      "termosRelacionados": [
+        "LLM",
+        "inteligência artificial",
+        "agente de IA",
+        "RAG"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-rag",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é rag",
+    "consultasSecundarias": [
+      "rag o que é",
+      "retrieval augmented generation",
+      "rag em inteligência artificial"
+    ],
+    "title": "O que é RAG: definição e exemplo prático",
+    "description": "RAG faz a IA responder com base nos documentos da sua empresa, buscando o trecho certo antes de escrever. Veja como funciona e um exemplo.",
+    "h1": "O que é RAG",
+    "respostaDireta": "RAG, ou geração aumentada por recuperação, é a técnica que faz uma inteligência artificial buscar trechos nos documentos da sua empresa antes de responder, e então escrever com base neles. Assim a resposta usa dados reais e atuais, como manuais e políticas, em vez de depender só do que o modelo aprendeu.",
+    "secoes": [
+      {
+        "titulo": "As etapas de um RAG",
+        "paragrafos": [
+          "O RAG junta uma busca com um modelo de linguagem. A qualidade da resposta depende principalmente da qualidade dos documentos e da busca."
+        ],
+        "tabela": {
+          "colunas": [
+            "Etapa",
+            "O que acontece",
+            "Ponto de atenção"
+          ],
+          "linhas": [
+            [
+              "1. Preparar",
+              "Os documentos são divididos em trechos e indexados",
+              "Documento desatualizado gera resposta desatualizada"
+            ],
+            [
+              "2. Buscar",
+              "A pergunta localiza os trechos mais parecidos",
+              "Busca ruim traz trecho errado"
+            ],
+            [
+              "3. Montar",
+              "Os trechos são enviados ao modelo junto com a pergunta",
+              "Pouco contexto, resposta fraca"
+            ],
+            [
+              "4. Responder",
+              "O modelo escreve usando só esse material",
+              "Exigir que cite a fonte"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Quando RAG é a escolha certa",
+        "paragrafos": [
+          "O RAG compensa quando a resposta está em documentos que mudam e você precisa confiar nela."
+        ],
+        "lista": [
+          "Perguntas sobre manual, catálogo ou política interna",
+          "Suporte a clientes com base de conhecimento própria",
+          "Consulta a contratos e normas da empresa",
+          "Respostas que precisam indicar de qual documento vieram",
+          "Conteúdo que muda com frequência e não pode ser decorado pelo modelo"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Suporte técnico consultando manuais em PDF por RAG com indicação da página"
+    },
+    "faq": [
+      {
+        "pergunta": "RAG elimina os erros da IA?",
+        "resposta": "Reduz bastante, mas não zera. O modelo ainda pode interpretar mal um trecho. Por isso a boa prática é mostrar a fonte, limitar a resposta ao material encontrado e permitir conferência."
+      },
+      {
+        "pergunta": "Preciso treinar um modelo para usar meus documentos?",
+        "resposta": "Em geral não. O RAG evita treinamento: os documentos ficam em uma base de busca, e o modelo os lê na hora da pergunta. Isso facilita atualizar o conteúdo e controlar quem pode ver o quê."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "O que é geração aumentada por recuperação (RAG)",
+        "url": "https://cloud.google.com/discover/what-is-retrieval-augmented-generation",
+        "orgao": "Google Cloud",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Geração aumentada por recuperação no Azure AI Search",
+        "url": "https://learn.microsoft.com/pt-br/azure/search/retrieval-augmented-generation-overview",
+        "orgao": "Microsoft",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "RAG (geração aumentada por recuperação)",
+      "sigla": "RAG",
+      "exemploPratico": "Uma fabricante de equipamentos agrícolas tem manuais em PDF, e o suporte gasta tempo procurando o procedimento certo. Com RAG, o técnico pergunta no chat qual é o intervalo de troca de filtro de um modelo. O sistema acha o trecho do manual daquele modelo, a IA escreve a resposta e mostra o documento e a página de origem. Se não achar nada, avisa que não encontrou.",
+      "termosRelacionados": [
+        "LLM",
+        "agente de IA",
+        "prompt",
+        "chatbot"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-agente-de-ia",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é agente de ia",
+    "consultasSecundarias": [
+      "agente de ia o que é",
+      "ai agent o que é",
+      "agentes de inteligência artificial"
+    ],
+    "title": "O que é agente de IA: definição e exemplo prático",
+    "description": "Agente de IA é o programa que usa inteligência artificial para decidir passos e executar ações em sistemas. Veja o que faz, riscos e um exemplo.",
+    "h1": "O que é agente de IA",
+    "respostaDireta": "Agente de IA é um programa que usa inteligência artificial para alcançar um objetivo por conta própria: ele decide os passos, consulta sistemas, executa ações e ajusta o caminho conforme o resultado. Diferente de um chatbot, que só responde, o agente age, e por isso precisa de limites claros e de supervisão.",
+    "secoes": [
+      {
+        "titulo": "Chatbot, automação e agente",
+        "paragrafos": [
+          "As três coisas se confundem na conversa, mas fazem trabalhos diferentes."
+        ],
+        "tabela": {
+          "colunas": [
+            "Característica",
+            "Chatbot",
+            "Automação por regras",
+            "Agente de IA"
+          ],
+          "linhas": [
+            [
+              "Segue",
+              "Um roteiro ou responde perguntas",
+              "Regras fixas",
+              "Um objetivo, escolhendo os passos"
+            ],
+            [
+              "Executa ações",
+              "Poucas",
+              "Sim, as previstas",
+              "Sim, inclusive não previstas"
+            ],
+            [
+              "Previsibilidade",
+              "Alta",
+              "Total",
+              "Menor"
+            ],
+            [
+              "Melhor para",
+              "Atendimento",
+              "Rotina estável",
+              "Tarefas variadas com várias consultas"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Limites que um agente precisa ter",
+        "paragrafos": [
+          "Quanto mais liberdade o agente tem, maior o estrago possível. Projete as proteções antes de liberar o acesso."
+        ],
+        "lista": [
+          "Permissões mínimas: só os sistemas e ações necessários",
+          "Aprovação humana para ações irreversíveis ou de dinheiro",
+          "Registro de cada passo e de cada decisão",
+          "Limite de gasto e de tentativas por tarefa",
+          "Teste em ambiente separado antes de ir ao ar",
+          "Plano para desligar rapidamente se algo sair do esperado"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Agente que prepara proposta de veículo e a entrega ao vendedor para aprovação"
+    },
+    "faq": [
+      {
+        "pergunta": "Um agente de IA pode tomar decisões sozinho?",
+        "resposta": "Tecnicamente, sim, mas em empresa a prática segura é limitar o que ele decide. Decisões com dinheiro, contrato ou dados sensíveis devem ter aprovação humana, ao menos no início."
+      },
+      {
+        "pergunta": "Agente de IA serve para PME?",
+        "resposta": "Pode servir em tarefas bem delimitadas, como triagem, preparo de propostas e consultas a vários sistemas. Comece pequeno, meça os erros e aumente a autonomia aos poucos."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "O que são agentes de IA",
+        "url": "https://cloud.google.com/discover/what-are-ai-agents",
+        "orgao": "Google Cloud",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Visão geral do Azure AI Agent Service",
+        "url": "https://learn.microsoft.com/pt-br/azure/ai-services/agents/overview",
+        "orgao": "Microsoft",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "agente de IA",
+      "exemploPratico": "Uma revenda de veículos recebe uma consulta de cliente interessado em um modelo. Um agente consulta o estoque, verifica as condições de financiamento cadastradas, monta uma proposta e a envia ao vendedor para aprovação. O agente não fecha venda nem altera preço. O vendedor revisa, ajusta se quiser e só então a proposta segue ao cliente, com tudo que o agente consultou anotado.",
+      "termosRelacionados": [
+        "chatbot",
+        "LLM",
+        "RAG",
+        "automação de processos"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-ocr",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é ocr",
+    "consultasSecundarias": [
+      "ocr o que é",
+      "reconhecimento óptico de caracteres",
+      "como funciona ocr"
+    ],
+    "title": "O que é OCR: definição e exemplo prático",
+    "description": "OCR transforma texto de foto ou PDF digitalizado em texto digitável por programa. Veja como funciona, limites e um exemplo com notas fiscais.",
+    "h1": "O que é OCR",
+    "respostaDireta": "OCR, ou reconhecimento óptico de caracteres, é a tecnologia que lê o texto de uma imagem, foto ou PDF digitalizado e o transforma em texto que o computador consegue copiar, buscar e processar. Serve para tirar digitação de documentos em papel, como notas, boletos e fichas.",
+    "secoes": [
+      {
+        "titulo": "O que influencia a qualidade da leitura",
+        "paragrafos": [
+          "O OCR errará mais quanto pior for a imagem. Antes de culpar a ferramenta, veja o documento de origem."
+        ],
+        "tabela": {
+          "colunas": [
+            "Fator",
+            "Melhora a leitura",
+            "Piora a leitura"
+          ],
+          "linhas": [
+            [
+              "Resolução",
+              "Digitalização nítida",
+              "Foto tremida"
+            ],
+            [
+              "Iluminação",
+              "Luz uniforme",
+              "Sombra e reflexo"
+            ],
+            [
+              "Alinhamento",
+              "Documento reto",
+              "Folha torta ou dobrada"
+            ],
+            [
+              "Tipo de letra",
+              "Impressa",
+              "Manuscrita"
+            ],
+            [
+              "Fundo",
+              "Branco e liso",
+              "Carimbo sobre o texto"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Onde o OCR economiza digitação",
+        "paragrafos": [
+          "O melhor uso é quando o documento tem estrutura repetida, em que a ferramenta sabe onde procurar cada campo."
+        ],
+        "lista": [
+          "Ler nota fiscal ou recibo e lançar valor e fornecedor",
+          "Extrair dados de boleto e comprovante",
+          "Digitalizar fichas de cadastro antigas",
+          "Ler documentos de identificação em um cadastro",
+          "Tornar PDFs escaneados pesquisáveis"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Leitura de recibos enviados por foto em escritório de contabilidade, com fila de conferência"
+    },
+    "faq": [
+      {
+        "pergunta": "OCR lê letra manuscrita?",
+        "resposta": "Lê com mais erro. Letra de forma bem escrita pode funcionar, mas a escrita corrida varia muito de pessoa para pessoa. Se o documento é manuscrito, planeje uma etapa de conferência humana."
+      },
+      {
+        "pergunta": "OCR é a mesma coisa que inteligência artificial?",
+        "resposta": "Hoje, o OCR moderno usa técnicas de IA para reconhecer as letras, mas o termo descreve a função: transformar imagem em texto. A leitura de campos, como valor e data, costuma somar outra camada de IA."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "O que é OCR",
+        "url": "https://cloud.google.com/discover/what-is-ocr",
+        "orgao": "Google Cloud",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Visão geral do OCR",
+        "url": "https://learn.microsoft.com/pt-br/azure/ai-services/computer-vision/overview-ocr",
+        "orgao": "Microsoft",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "OCR (reconhecimento óptico de caracteres)",
+      "sigla": "OCR",
+      "exemploPratico": "Um escritório de contabilidade recebe fotos de recibos dos clientes pelo WhatsApp. Um sistema com OCR lê cada imagem, identifica data, valor e fornecedor e preenche o lançamento. Quando a leitura tem baixa confiança, por causa de uma foto escura, o item vai para uma fila de conferência. A equipe digita só o que o sistema não conseguiu ler com segurança.",
+      "termosRelacionados": [
+        "inteligência artificial",
+        "machine learning",
+        "XML",
+        "integração de sistemas"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-machine-learning",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é machine learning",
+    "consultasSecundarias": [
+      "machine learning o que é",
+      "aprendizado de máquina",
+      "o que é aprendizado de máquina"
+    ],
+    "title": "O que é machine learning: definição e exemplo",
+    "description": "Machine learning é o tipo de IA em que o programa aprende padrões com dados, sem regras escritas à mão. Veja como funciona e um exemplo de previsão.",
+    "h1": "O que é machine learning",
+    "respostaDireta": "Machine learning, ou aprendizado de máquina, é um ramo da inteligência artificial em que o programa aprende padrões a partir de dados, em vez de seguir regras escritas uma a uma. Com histórico suficiente, ele passa a prever, classificar ou recomendar, como estimar a demanda do próximo mês.",
+    "secoes": [
+      {
+        "titulo": "Como o aprendizado acontece",
+        "paragrafos": [
+          "O programa recebe exemplos com a resposta conhecida, ajusta seus parâmetros até acertar a maioria e depois é testado em casos que não viu. A qualidade do resultado depende da qualidade dos dados."
+        ],
+        "tabela": {
+          "colunas": [
+            "Etapa",
+            "O que se faz",
+            "Exemplo em uma loja"
+          ],
+          "linhas": [
+            [
+              "Juntar dados",
+              "Reunir o histórico",
+              "Vendas dos últimos anos por produto"
+            ],
+            [
+              "Treinar",
+              "Deixar o modelo achar padrões",
+              "Relação entre mês, promoção e venda"
+            ],
+            [
+              "Testar",
+              "Verificar em dados separados",
+              "Comparar previsão e venda real de um mês"
+            ],
+            [
+              "Usar",
+              "Aplicar a casos novos",
+              "Prever a demanda do próximo mês"
+            ],
+            [
+              "Acompanhar",
+              "Medir se continua acertando",
+              "Retreinar quando o mercado mudar"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Quando faz sentido usar machine learning",
+        "paragrafos": [
+          "Nem todo problema pede aprendizado de máquina. Se uma regra simples resolve, use a regra."
+        ],
+        "lista": [
+          "Existe histórico com volume e qualidade suficientes",
+          "O padrão é complexo demais para virar regra",
+          "A decisão se repete muitas vezes",
+          "Um erro eventual é tolerável e conferível",
+          "Você consegue medir se a previsão acertou"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Sugestão semanal de compras por produto a partir de três anos de histórico"
+    },
+    "faq": [
+      {
+        "pergunta": "Machine learning e inteligência artificial são a mesma coisa?",
+        "resposta": "O machine learning é uma parte da inteligência artificial. A IA é o campo amplo. O aprendizado de máquina é a técnica de aprender com dados, que sustenta muitos sistemas de IA atuais."
+      },
+      {
+        "pergunta": "Minha empresa tem dados suficientes?",
+        "resposta": "Depende do problema. Em geral, é preciso um histórico organizado e consistente, de preferência de anos. Dados espalhados em planilhas, com erros e lacunas, costumam exigir uma limpeza antes."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "O que é machine learning",
+        "url": "https://cloud.google.com/learn/what-is-machine-learning",
+        "orgao": "Google Cloud",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "O que é o Azure Machine Learning",
+        "url": "https://learn.microsoft.com/pt-br/azure/machine-learning/overview-what-is-azure-machine-learning",
+        "orgao": "Microsoft",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "machine learning",
+      "exemploPratico": "Uma distribuidora de produtos de limpeza sofria com ruptura de uns itens e excesso de outros. Com três anos de histórico de vendas, um modelo de machine learning passou a sugerir toda semana a quantidade de compra de cada produto, considerando sazonalidade e promoções. O comprador analisa as sugestões, ajusta o que conhece do mercado e fecha o pedido. A decisão continua dele, com um ponto de partida melhor.",
+      "termosRelacionados": [
+        "inteligência artificial",
+        "LLM",
+        "ETL",
+        "OCR"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-cron",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é cron",
+    "consultasSecundarias": [
+      "cron o que é",
+      "tarefa agendada o que é",
+      "como funciona o cron job"
+    ],
+    "title": "O que é cron: tarefa agendada, exemplo e sintaxe",
+    "description": "Cron é o agendador que roda tarefas automaticamente em dia e hora marcados. Veja a sintaxe dos cinco campos e um exemplo de relatório diário.",
+    "h1": "O que é tarefa agendada (cron)",
+    "respostaDireta": "Cron é o agendador de tarefas dos sistemas Linux que executa um programa automaticamente em dias e horários definidos. Uma tarefa agendada, ou cron job, serve para rotinas como gerar relatório toda manhã, limpar arquivos antigos ou enviar lembretes. Hoje há serviços equivalentes em quase toda hospedagem na nuvem.",
+    "secoes": [
+      {
+        "titulo": "Como ler uma expressão cron",
+        "paragrafos": [
+          "A programação é escrita em cinco campos, separados por espaço: minuto, hora, dia do mês, mês e dia da semana. O asterisco significa qualquer valor."
+        ],
+        "tabela": {
+          "colunas": [
+            "Expressão",
+            "Quando roda"
+          ],
+          "linhas": [
+            [
+              "0 8 * * *",
+              "Todo dia às 8h"
+            ],
+            [
+              "30 18 * * 1-5",
+              "Às 18h30, de segunda a sexta"
+            ],
+            [
+              "0 */2 * * *",
+              "A cada 2 horas, no minuto zero"
+            ],
+            [
+              "0 6 1 * *",
+              "Às 6h do primeiro dia de cada mês"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Cuidados com tarefas agendadas",
+        "paragrafos": [
+          "Uma tarefa que roda sozinha também falha sozinha. O problema só aparece quando alguém reclama, a não ser que você monte o aviso."
+        ],
+        "lista": [
+          "Registrar quando a tarefa começou, terminou e se deu erro",
+          "Avisar a equipe quando uma execução falha",
+          "Evitar que duas execuções rodem ao mesmo tempo",
+          "Conferir o fuso horário do servidor",
+          "Garantir que repetir a tarefa não duplique dados",
+          "Revisar de tempos em tempos se ainda faz sentido"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Lista diária de estoque mínimo enviada por tarefa agendada, com aviso quando falha"
+    },
+    "faq": [
+      {
+        "pergunta": "Cron é só para servidor Linux?",
+        "resposta": "O nome vem do Linux, mas a ideia existe em todo lugar. O Windows tem o agendador de tarefas, e plataformas de nuvem têm serviços de agendamento. A sintaxe cron é usada em muitos deles."
+      },
+      {
+        "pergunta": "Qual a diferença entre cron e webhook?",
+        "resposta": "O cron age por horário: roda quando o relógio manda. O webhook age por evento: roda quando algo acontece em outro sistema. Para reagir a um pagamento, prefira webhook. Para relatório diário, cron."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "crontab(5) — manual",
+        "url": "https://man7.org/linux/man-pages/man5/crontab.5.html",
+        "orgao": "Linux man-pages",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Cloud Scheduler — documentação",
+        "url": "https://cloud.google.com/scheduler/docs",
+        "orgao": "Google Cloud",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "tarefa agendada (cron)",
+      "exemploPratico": "Uma loja de cosméticos quer saber toda manhã quais produtos estão abaixo do estoque mínimo. Uma tarefa agendada roda às 7h, consulta o sistema, monta a lista e envia por e-mail ao comprador antes de ele chegar. Em uma segunda-feira o servidor ficou fora do ar, e o registro mostrou que a tarefa falhou. O comprador recebeu o aviso de falha e pediu a lista manualmente.",
+      "termosRelacionados": [
+        "webhook",
+        "automação de processos",
+        "ETL"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-e-mail-transacional",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é e-mail transacional",
+    "consultasSecundarias": [
+      "e-mail transacional o que é",
+      "email transacional o que é",
+      "diferença entre e-mail transacional e marketing"
+    ],
+    "title": "O que é e-mail transacional: definição e exemplo",
+    "description": "E-mail transacional é a mensagem disparada por uma ação do cliente, como compra ou senha. Veja a diferença para marketing e como chegar à caixa de entrada.",
+    "h1": "O que é e-mail transacional",
+    "respostaDireta": "E-mail transacional é a mensagem automática enviada porque o cliente fez alguma coisa, como comprar, criar conta ou pedir nova senha. Diferente do e-mail de marketing, ele é esperado e tem informação essencial. Por isso precisa chegar à caixa de entrada, e isso depende de configuração correta do domínio.",
+    "secoes": [
+      {
+        "titulo": "Transacional e marketing",
+        "paragrafos": [
+          "Os dois usam e-mail, mas têm objetivos, regras e cuidados diferentes."
+        ],
+        "tabela": {
+          "colunas": [
+            "Ponto",
+            "Transacional",
+            "Marketing"
+          ],
+          "linhas": [
+            [
+              "Gatilho",
+              "Ação do cliente",
+              "Decisão da empresa"
+            ],
+            [
+              "Exemplo",
+              "Confirmação de pedido, recuperação de senha",
+              "Promoção, novidade"
+            ],
+            [
+              "Expectativa do cliente",
+              "Espera receber",
+              "Pode ignorar"
+            ],
+            [
+              "Quando enviar",
+              "Na hora",
+              "Em campanha"
+            ],
+            [
+              "Descadastro",
+              "Não se aplica ao conteúdo essencial",
+              "Deve oferecer sempre"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Para o e-mail chegar à caixa de entrada",
+        "paragrafos": [
+          "Provedores como o Gmail checam se o remetente é legítimo. Sem a configuração do domínio, mensagens importantes vão para o spam. Veja as diretrizes do Google para remetentes."
+        ],
+        "lista": [
+          "Configurar a autenticação do domínio, com SPF e DKIM",
+          "Configurar também o DMARC",
+          "Enviar de um endereço do seu domínio, não de um e-mail gratuito",
+          "Usar um serviço de envio próprio para isso, não o e-mail da caixa pessoal",
+          "Manter o conteúdo objetivo, sem excesso de imagem",
+          "Acompanhar devoluções e reclamações"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Confirmação de pedido que caía no spam e a correção com autenticação do domínio"
+    },
+    "faq": [
+      {
+        "pergunta": "Posso misturar promoção no e-mail transacional?",
+        "resposta": "Convém evitar. Misturar conteúdo promocional no que deveria ser aviso essencial pode prejudicar a entrega e confundir o cliente. Se quiser divulgar algo, faça em campanha própria e com permissão."
+      },
+      {
+        "pergunta": "Preciso de um serviço de envio ou posso usar meu e-mail normal?",
+        "resposta": "Para poucas mensagens manuais, o e-mail comum basta. Para envio automático em volume, use um serviço próprio de e-mail transacional, que oferece controle de entrega e relatórios."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Diretrizes para remetentes de e-mail",
+        "url": "https://support.google.com/mail/answer/81126",
+        "orgao": "Google",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "e-mail transacional",
+      "exemploPratico": "Uma loja virtual de utensílios percebeu que clientes ligavam dizendo que não receberam a confirmação do pedido. Os e-mails de confirmação saíam do servidor da hospedagem, sem autenticação do domínio, e caíam no spam. A loja passou a usar um serviço de envio e configurou os registros do domínio. A partir daí, a confirmação chegava na caixa de entrada e as ligações pararam.",
+      "termosRelacionados": [
+        "opt-in",
+        "opt-out",
+        "webhook",
+        "API"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-oauth",
+    "tipo": "glossario",
+    "cluster": "automacao-integracao",
+    "consulta": "o que é oauth",
+    "consultasSecundarias": [
+      "oauth o que é",
+      "oauth 2.0 o que é",
+      "login com google como funciona"
+    ],
+    "title": "O que é OAuth: definição e exemplo prático",
+    "description": "OAuth é o padrão que deixa um aplicativo acessar seus dados em outro serviço sem pedir sua senha. Veja como funciona e um exemplo de login com Google.",
+    "h1": "O que é OAuth",
+    "respostaDireta": "OAuth é um padrão de autorização que permite um aplicativo acessar dados seus em outro serviço, com a sua permissão, sem nunca receber a sua senha. É o que acontece no botão entrar com o Google. Você aprova o acesso, e o serviço entrega ao aplicativo uma credencial limitada e que pode ser revogada.",
+    "secoes": [
+      {
+        "titulo": "Como o OAuth funciona, em passos",
+        "paragrafos": [
+          "O OAuth separa quem autoriza de quem pede o acesso. O usuário nunca digita a senha dentro do aplicativo que pede a permissão. Os detalhes técnicos estão no padrão publicado pela IETF."
+        ],
+        "lista": [
+          "O aplicativo envia você à página do serviço, como o Google",
+          "Você faz login nessa página, e não no aplicativo",
+          "O serviço mostra o que o aplicativo quer acessar",
+          "Você aprova ou recusa",
+          "O serviço entrega ao aplicativo um código temporário",
+          "O aplicativo troca o código por uma credencial de acesso, com prazo e alcance limitados"
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Vantagens para a empresa",
+        "paragrafos": [
+          "O OAuth resolve problemas de segurança e de experiência ao mesmo tempo."
+        ],
+        "tabela": {
+          "colunas": [
+            "Ponto",
+            "Sem OAuth",
+            "Com OAuth"
+          ],
+          "linhas": [
+            [
+              "Senha",
+              "Guardada pelo aplicativo",
+              "Fica só no serviço de origem"
+            ],
+            [
+              "Alcance do acesso",
+              "Total",
+              "Só o que foi autorizado"
+            ],
+            [
+              "Revogar acesso",
+              "Trocar a senha",
+              "Cancelar a autorização do aplicativo"
+            ],
+            [
+              "Cadastro do usuário",
+              "Criar mais uma senha",
+              "Entrar com conta que já existe"
+            ]
+          ]
+        }
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Sistema de agenda de clínica acessando a agenda do Google do médico sem receber a senha"
+    },
+    "faq": [
+      {
+        "pergunta": "OAuth e login são a mesma coisa?",
+        "resposta": "Não exatamente. O OAuth trata de autorização: o que o aplicativo pode acessar. Para identificar quem é a pessoa, usa-se uma camada sobre ele, o OpenID Connect, base do entrar com o Google."
+      },
+      {
+        "pergunta": "OAuth é seguro?",
+        "resposta": "É um padrão robusto, mas depende de implementação correta. Erros comuns são guardar credenciais em lugar exposto e pedir mais permissões do que o necessário. Peça só o alcance de que o sistema precisa."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "OAuth 2.0",
+        "url": "https://oauth.net/2/",
+        "orgao": "OAuth.net",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "RFC 6749 — OAuth 2.0",
+        "url": "https://www.rfc-editor.org/rfc/rfc6749",
+        "orgao": "IETF",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 2,
+    "glossario": {
+      "termo": "OAuth",
+      "exemploPratico": "Uma clínica contratou um sistema de agenda que precisa ler e gravar eventos na agenda do Google de cada médico. Em vez de pedir a senha, o sistema abre a página do Google com o pedido de permissão para acessar só a agenda. O médico aprova, e o sistema passa a sincronizar as consultas. Se o médico deixar a clínica, ele cancela a autorização em sua conta, sem trocar a senha.",
+      "termosRelacionados": [
+        "SSO",
+        "chave de API",
+        "API",
+        "rate limit"
+      ]
+    }
+  }
+]

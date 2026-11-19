@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { BotaoPreferencias } from "@/components/analytics/BotaoPreferencias";
 
 interface PageFooterProps {
   narrow?: boolean;
@@ -35,7 +36,16 @@ export function PageFooter({ narrow }: PageFooterProps) {
           <Link href="/alternativa-a" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Alternativas</Link>
           <Link href="/calculadora-site" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Calculadora</Link>
           <Link href="/apps" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Apps</Link>
+          <Link href="/guias" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Guias</Link>
+          <Link href="/ferramentas" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Ferramentas</Link>
+          <Link href="/modelos" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Modelos</Link>
+          <Link href="/glossario" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Glossário</Link>
+          <Link href="/leis" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Leis</Link>
+          <Link href="/dados/empresas-por-setor" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Dados</Link>
+          <Link href="/sobre" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Sobre</Link>
+          <Link href="/politica-editorial" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Política editorial</Link>
           <Link href="/privacidade" className="text-xs text-gray-600 no-underline hover:text-brand transition-colors">Privacidade</Link>
+          <BotaoPreferencias className="text-xs text-gray-600 hover:text-brand transition-colors bg-transparent border-0 p-0 cursor-pointer" />
         </nav>
         <p className="text-xs text-gray-700">
           Rua Uruguai, 679 - Sala 201 · Passo Fundo, RS · (54) 9.9964-8368

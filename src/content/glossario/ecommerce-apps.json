@@ -1,0 +1,3212 @@
+[
+  {
+    "slug": "o-que-e-e-commerce",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é e-commerce",
+    "consultasSecundarias": [
+      "e-commerce o que é",
+      "para que serve e-commerce",
+      "e-commerce significado"
+    ],
+    "title": "O que é e-commerce: definição e exemplo",
+    "description": "Veja o que é e-commerce: vender pela internet, com pedido, pagamento e entrega. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é e-commerce",
+    "respostaDireta": "E-commerce é o comércio feito pela internet: o cliente escolhe o produto, paga e recebe sem ir até a loja. O e-commerce reúne vitrine online, carrinho, meio de pagamento, cálculo de frete e emissão de nota fiscal. Pode ser loja própria, marketplace ou os dois ao mesmo tempo.",
+    "secoes": [
+      {
+        "titulo": "O que compõe um e-commerce",
+        "paragrafos": [
+          "Um e-commerce não é só um site bonito. Ele é uma operação completa, com partes visíveis para o cliente e partes internas que a equipe usa todos os dias.",
+          "A tabela abaixo separa o que o cliente vê do que a empresa precisa ter por trás."
+        ],
+        "tabela": {
+          "colunas": [
+            "Parte",
+            "O que o cliente vê",
+            "O que a empresa precisa"
+          ],
+          "linhas": [
+            [
+              "Vitrine",
+              "Fotos, descrição, preço",
+              "Cadastro de produtos e estoque"
+            ],
+            [
+              "Compra",
+              "Carrinho e checkout",
+              "Meio de pagamento e antifraude"
+            ],
+            [
+              "Entrega",
+              "Prazo e valor do frete",
+              "Contrato com transportadora ou Correios e etiqueta"
+            ],
+            [
+              "Fiscal",
+              "Nota fiscal no e-mail",
+              "Emissão de NF-e e controle de impostos"
+            ],
+            [
+              "Pós-venda",
+              "Rastreio e troca",
+              "Atendimento e logística reversa"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Loja própria ou marketplace",
+        "paragrafos": [
+          "Na loja própria, o domínio, a marca e a base de clientes são seus. No marketplace, você vende dentro da vitrine de outra empresa e segue as regras dela. Muitas empresas começam em um e depois montam o outro.",
+          "Para uma faixa de investimento em loja virtual sob medida, consulte a tabela pública de preços da AndersDev, em /quanto-custa/ecommerce."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja de ferragens que passa a vender pela internet"
+    },
+    "faq": [
+      {
+        "pergunta": "E-commerce precisa de CNPJ?",
+        "resposta": "Para vender como empresa e emitir nota fiscal, sim. Quem vende de forma recorrente precisa estar formalizado. Converse com seu contador sobre o enquadramento certo antes de abrir a loja."
+      },
+      {
+        "pergunta": "Qual a diferença entre e-commerce e loja virtual?",
+        "resposta": "Na prática, são usados como sinônimos. E-commerce é o conceito de comércio eletrônico; loja virtual é o site onde você vende seus produtos."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "e-commerce",
+      "exemploPratico": "Uma loja de ferragens com balcão em Passo Fundo cadastra 300 produtos mais vendidos no site, integra o pagamento por Pix e cartão e combina entrega por transportadora para o interior. O estoque do site passa a ser o mesmo do balcão, então o produto vendido online some da prateleira digital e o pedido cai na tela do separador.",
+      "termosRelacionados": [
+        "loja virtual",
+        "marketplace",
+        "checkout",
+        "omnichannel"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-loja-virtual",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é loja virtual",
+    "consultasSecundarias": [
+      "loja virtual o que é",
+      "para que serve loja virtual",
+      "loja virtual significado"
+    ],
+    "title": "O que é loja virtual: definição e exemplo",
+    "description": "Veja o que é loja virtual: o site próprio onde você vende com sua marca. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é loja virtual",
+    "respostaDireta": "Loja virtual é o site onde a empresa expõe seus produtos e vende pela internet com marca, domínio e regras próprias. A loja virtual tem catálogo, carrinho, pagamento e cálculo de frete. É a versão digital da loja física, aberta a qualquer hora e para qualquer cidade.",
+    "secoes": [
+      {
+        "titulo": "O que uma loja virtual precisa ter",
+        "paragrafos": [
+          "Antes de pensar em design, garanta o essencial. Sem estes itens, a loja até aparece no ar, mas não consegue vender com segurança."
+        ],
+        "lista": [
+          "Catálogo com foto, descrição e preço de cada produto",
+          "Controle de estoque atualizado a cada venda",
+          "Carrinho e checkout simples, que funcionem bem no celular",
+          "Pelo menos Pix e cartão como formas de pagamento",
+          "Cálculo de frete por CEP",
+          "Emissão de nota fiscal integrada ao pedido",
+          "Página de política de troca e privacidade",
+          "Painel para a equipe acompanhar pedidos"
+        ]
+      },
+      {
+        "titulo": "Quanto custa e quem faz",
+        "paragrafos": [
+          "O valor varia com o número de produtos, integrações e prazo. A faixa pública da AndersDev para e-commerce sob medida vai de R$ 10.400 a R$ 32.500, e cada integração de pagamento soma 20% ao valor. Os detalhes estão em /quanto-custa/ecommerce.",
+          "Existe também o caminho de alugar uma plataforma pronta. A comparação entre as opções está em /alternativa-a/shopify."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma papelaria que abre a loja virtual com estoque único"
+    },
+    "faq": [
+      {
+        "pergunta": "Loja virtual e site institucional são a mesma coisa?",
+        "resposta": "Não. O site institucional apresenta a empresa. A loja virtual vende: tem carrinho, pagamento, frete e controle de pedidos. Muitas empresas têm os dois."
+      },
+      {
+        "pergunta": "Preciso ter loja física para ter loja virtual?",
+        "resposta": "Não. Muitos negócios nascem só online. Mas quem já tem loja física costuma ganhar tempo ligando o estoque das duas pontas."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-site",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "loja virtual",
+      "exemploPratico": "Uma papelaria com duas unidades monta uma loja virtual com kits escolares. O cliente monta a lista da escola no site, paga no Pix e escolhe retirar na unidade mais próxima ou receber em casa. A equipe vê no painel quais kits precisam ser separados no dia e o estoque de cada unidade é baixado automaticamente.",
+      "termosRelacionados": [
+        "e-commerce",
+        "plataforma de e-commerce",
+        "checkout",
+        "catálogo digital"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-marketplace",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é marketplace",
+    "consultasSecundarias": [
+      "marketplace o que é",
+      "para que serve marketplace",
+      "marketplace significado"
+    ],
+    "title": "O que é marketplace: definição e exemplo",
+    "description": "Veja o que é marketplace: vender dentro da vitrine de uma grande plataforma. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é marketplace",
+    "respostaDireta": "Marketplace é um site que reúne vários vendedores em uma única vitrine, como um shopping virtual. O marketplace cuida da visibilidade e do pagamento; você cadastra produtos, envia o pedido e paga uma comissão à plataforma. Cada marketplace tem regras próprias de preço, prazo e atendimento.",
+    "secoes": [
+      {
+        "titulo": "Marketplace x loja própria",
+        "paragrafos": [
+          "Vender em marketplace dá acesso rápido a quem já compra ali. Em troca, você depende das regras da plataforma e o cliente fica sendo dela, não seu. Na loja própria é o oposto: mais controle, mas você precisa atrair o visitante."
+        ],
+        "tabela": {
+          "colunas": [
+            "Critério",
+            "Marketplace",
+            "Loja própria"
+          ],
+          "linhas": [
+            [
+              "Tráfego inicial",
+              "Já existe na plataforma",
+              "Você precisa construir"
+            ],
+            [
+              "Marca",
+              "Aparece junto de concorrentes",
+              "Só a sua"
+            ],
+            [
+              "Dados do cliente",
+              "Limitados pela plataforma",
+              "Completos, com sua base"
+            ],
+            [
+              "Regras",
+              "Ditadas pela plataforma",
+              "Suas"
+            ],
+            [
+              "Dependência",
+              "Alta",
+              "Baixa"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como combinar os dois",
+        "paragrafos": [
+          "Uma estratégia comum é usar o marketplace para ganhar alcance e a loja própria para fidelizar. O desafio operacional é manter estoque e preço sincronizados nos dois canais, o que pede integração ou um sistema de gestão central."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de um fabricante de móveis que vende em marketplace e no site"
+    },
+    "faq": [
+      {
+        "pergunta": "Vale a pena vender em marketplace?",
+        "resposta": "Depende da margem. Some a comissão, o frete e o custo de atendimento antes de definir preço. Se a conta fecha, o marketplace serve como vitrine extra, sem substituir a loja própria."
+      },
+      {
+        "pergunta": "Como evitar vender o mesmo item duas vezes?",
+        "resposta": "Com estoque centralizado: um sistema que baixa a quantidade em todos os canais a cada venda. Sem isso, planilha manual acaba gerando venda sem produto."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "marketplace",
+      "exemploPratico": "Uma fábrica de cadeiras de escritório com 12 funcionários lista seus modelos em um marketplace para ganhar alcance e mantém um site próprio para clientes recorrentes. Um sistema de estoque central recebe os pedidos dos dois canais, baixa a quantidade em ambos e gera a nota fiscal, evitando vender uma cadeira que já saiu.",
+      "termosRelacionados": [
+        "e-commerce",
+        "dropshipping",
+        "omnichannel",
+        "plataforma de e-commerce"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-plataforma-de-e-commerce",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é plataforma de e-commerce",
+    "consultasSecundarias": [
+      "plataforma de e-commerce o que é",
+      "para que serve plataforma de e-commerce",
+      "plataforma de e-commerce significado"
+    ],
+    "title": "O que é plataforma de e-commerce: definição e exemplo",
+    "description": "Veja o que é plataforma de e-commerce: o sistema que sustenta a loja virtual. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é plataforma de e-commerce",
+    "respostaDireta": "Plataforma de e-commerce é o software que roda a loja virtual: cadastro de produtos, carrinho, pagamento, frete e pedidos. A plataforma de e-commerce pode ser alugada pronta, instalada em servidor próprio ou desenvolvida sob medida. A escolha define custo, liberdade de mudança e dependência de terceiros.",
+    "secoes": [
+      {
+        "titulo": "Três caminhos para ter a plataforma",
+        "paragrafos": [
+          "Não existe caminho certo para todos. A decisão depende do tamanho do catálogo, da necessidade de regras específicas e do orçamento mensal."
+        ],
+        "tabela": {
+          "colunas": [
+            "Caminho",
+            "Como funciona",
+            "Ponto forte",
+            "Ponto de atenção"
+          ],
+          "linhas": [
+            [
+              "Plataforma alugada",
+              "Você assina e configura no painel",
+              "Entrada rápida",
+              "Mensalidade e regras do fornecedor"
+            ],
+            [
+              "Código aberto hospedado por você",
+              "Instala e mantém num servidor",
+              "Liberdade de ajustes",
+              "Manutenção e segurança por sua conta"
+            ],
+            [
+              "Sob medida",
+              "Desenvolvida para o seu processo",
+              "Encaixa na operação e integra ao ERP",
+              "Investimento inicial maior"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Perguntas para fazer antes de escolher",
+        "paragrafos": [
+          "Você precisa de regra de preço por cliente? Vai integrar com ERP ou com o emissor de nota? O catálogo tem variações complexas, como cor e tamanho? Se a resposta for sim para duas ou mais, vale avaliar o sob medida. As comparações estão em /alternativa-a/wordpress e /alternativa-a/shopify."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma distribuidora que compara três caminhos de plataforma"
+    },
+    "faq": [
+      {
+        "pergunta": "Posso trocar de plataforma depois?",
+        "resposta": "Pode, mas dá trabalho: é preciso migrar produtos, clientes e pedidos, e cuidar das URLs para não perder posição no Google. Planeje o formato dos dados desde o começo."
+      },
+      {
+        "pergunta": "Plataforma pronta serve para qualquer loja?",
+        "resposta": "Serve para a maioria dos casos simples. Quando a venda tem regras próprias, como tabela de preço por cliente ou pedido mínimo, costuma ser necessário customizar ou partir para o sob medida."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "plataforma de e-commerce",
+      "exemploPratico": "Uma distribuidora de material elétrico tem tabela de preço diferente para cada cliente CNPJ e pedido mínimo por linha. Ao testar plataformas prontas, percebe que precisaria de várias adaptações. Ela decide por uma loja sob medida, com login do cliente, preço calculado por tabela e integração com o ERP que já usa para o faturamento.",
+      "termosRelacionados": [
+        "loja virtual",
+        "e-commerce",
+        "checkout",
+        "SKU"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-gateway-de-pagamento",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é gateway de pagamento",
+    "consultasSecundarias": [
+      "gateway de pagamento o que é",
+      "para que serve gateway de pagamento",
+      "gateway de pagamento significado"
+    ],
+    "title": "O que é gateway de pagamento: definição e exemplo",
+    "description": "Veja o que é gateway de pagamento: a ponte segura entre sua loja e o meio de pagamento. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é gateway de pagamento",
+    "respostaDireta": "Gateway de pagamento é o serviço que conecta a loja virtual às operadoras de cartão e aos bancos para processar a cobrança. O gateway de pagamento transmite os dados da compra de forma criptografada e devolve a resposta: aprovado ou recusado. Ele não costuma repassar o dinheiro; isso fica a cargo de quem adquire a transação.",
+    "secoes": [
+      {
+        "titulo": "O caminho de uma compra no cartão",
+        "paragrafos": [
+          "O cliente digita os dados no checkout. A loja envia ao gateway, que repassa à adquirente e à bandeira. O banco emissor decide e a resposta volta pelo mesmo caminho em segundos."
+        ],
+        "lista": [
+          "Cliente informa os dados no checkout",
+          "A loja entrega os dados ao gateway por conexão segura",
+          "O gateway encaminha à adquirente",
+          "A bandeira consulta o banco emissor do cartão",
+          "A resposta (aprovado ou recusado) volta à loja",
+          "O pedido muda de status e o cliente é avisado"
+        ]
+      },
+      {
+        "titulo": "Gateway não é o mesmo que intermediador",
+        "paragrafos": [
+          "No gateway puro, você precisa ter contrato com uma adquirente. No intermediador, a empresa cuida da cobrança e do repasse de ponta a ponta. A diferença está explicada na página sobre intermediador de pagamento."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja que contrata um gateway e testa a recusa do cartão"
+    },
+    "faq": [
+      {
+        "pergunta": "Gateway de pagamento guarda o dinheiro?",
+        "resposta": "Em geral, não. O gateway processa e transmite a transação. Quem liquida o valor para a sua conta é a adquirente ou o intermediador, conforme o contrato."
+      },
+      {
+        "pergunta": "Preciso de um gateway para vender com Pix?",
+        "resposta": "Depende. Pix pode ser recebido direto pelo banco ou por um provedor que gera a cobrança e avisa a loja via webhook. O gateway costuma oferecer isso integrado."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "gateway de pagamento",
+      "exemploPratico": "Uma loja de cosméticos com vendas em cartão decide separar as peças: contrata um gateway para a conexão com o site e fecha contrato com uma adquirente. Ao fazer um pedido de teste com cartão recusado, a equipe confere se o site mostra uma mensagem clara e mantém o carrinho, para o cliente tentar outro cartão sem recomeçar.",
+      "termosRelacionados": [
+        "intermediador de pagamento",
+        "adquirente",
+        "antifraude",
+        "checkout transparente"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-intermediador-de-pagamento",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é intermediador de pagamento",
+    "consultasSecundarias": [
+      "intermediador de pagamento o que é",
+      "para que serve intermediador de pagamento",
+      "intermediador de pagamento significado"
+    ],
+    "title": "O que é intermediador de pagamento: definição e exemplo",
+    "description": "Veja o que é intermediador de pagamento: quem cobra e repassa o valor por você. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é intermediador de pagamento",
+    "respostaDireta": "Intermediador de pagamento é a empresa que recebe a cobrança do cliente em nome da loja e repassa o valor depois, descontadas as taxas. O intermediador de pagamento reúne gateway, adquirência e antifraude num só contrato. É o caminho mais simples para começar a vender online.",
+    "secoes": [
+      {
+        "titulo": "O que o intermediador resolve",
+        "paragrafos": [
+          "Em vez de negociar com adquirente, gateway e antifraude separadamente, a loja assina com uma única empresa. Isso reduz a burocracia inicial e concentra o suporte em um só lugar."
+        ],
+        "tabela": {
+          "colunas": [
+            "Tema",
+            "Intermediador",
+            "Gateway + adquirente separados"
+          ],
+          "linhas": [
+            [
+              "Contratos",
+              "Um",
+              "Dois ou mais"
+            ],
+            [
+              "Integração técnica",
+              "Uma só",
+              "Mais de uma"
+            ],
+            [
+              "Controle das taxas",
+              "Definidas por ele",
+              "Negociadas com cada parte"
+            ],
+            [
+              "Repasse",
+              "Feito pelo intermediador",
+              "Feito pela adquirente"
+            ],
+            [
+              "Troca de fornecedor",
+              "Mexe em tudo",
+              "Troca peça por peça"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que conferir no contrato",
+        "paragrafos": [
+          "Leia o prazo de repasse, o que acontece em chargeback e quais meios de pagamento estão incluídos. Compare as condições direto no site de cada fornecedor, porque taxas mudam com frequência e por isso não são citadas aqui."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja iniciante que usa um intermediador para começar"
+    },
+    "faq": [
+      {
+        "pergunta": "Intermediador e subadquirente são a mesma coisa?",
+        "resposta": "São parecidos. O subadquirente é um tipo de intermediador que opera sob uma adquirente. Para a loja, o efeito prático é semelhante: um contrato único e o repasse feito por ele."
+      },
+      {
+        "pergunta": "Quando faz sentido sair do intermediador?",
+        "resposta": "Quando o volume cresce e vale negociar taxas diretamente com a adquirente, montando um conjunto de gateway e adquirência próprio."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "intermediador de pagamento",
+      "exemploPratico": "Uma loja de roupas infantis abre o site em duas semanas. Para não perder tempo com contratos, usa um intermediador que já oferece cartão, Pix e boleto na mesma integração. Meses depois, com vendas estáveis, o dono pede ao desenvolvedor um relatório de taxa efetiva por meio de pagamento para decidir se compensa negociar de outro jeito.",
+      "termosRelacionados": [
+        "gateway de pagamento",
+        "subadquirente",
+        "adquirente",
+        "chargeback"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-adquirente",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é adquirente",
+    "consultasSecundarias": [
+      "adquirente o que é",
+      "para que serve adquirente",
+      "adquirente significado"
+    ],
+    "title": "O que é adquirente: definição e exemplo",
+    "description": "Veja o que é adquirente: a empresa que credencia a loja para receber cartão. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é adquirente",
+    "respostaDireta": "Adquirente é a empresa credenciada pelas bandeiras que habilita a loja a aceitar cartão e liquida o valor das vendas na conta dela. A adquirente cobra uma taxa por transação e repassa o dinheiro conforme o prazo contratado. Máquinas de cartão e gateways dependem de uma adquirente por trás.",
+    "secoes": [
+      {
+        "titulo": "Papel de cada participante",
+        "paragrafos": [
+          "Uma venda no cartão envolve várias empresas. Entender quem faz o quê ajuda a saber para quem ligar quando algo dá errado."
+        ],
+        "tabela": {
+          "colunas": [
+            "Participante",
+            "Função"
+          ],
+          "linhas": [
+            [
+              "Portador",
+              "Quem paga com o cartão"
+            ],
+            [
+              "Loja",
+              "Quem vende e recebe"
+            ],
+            [
+              "Adquirente",
+              "Credencia a loja e liquida o valor"
+            ],
+            [
+              "Bandeira",
+              "Define regras e liga os bancos"
+            ],
+            [
+              "Emissor",
+              "Banco que emitiu o cartão e aprova a compra"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que perguntar ao contratar",
+        "paragrafos": [
+          "Peça por escrito o prazo para o dinheiro cair, as condições de cancelamento e o tratamento de contestações. Se a empresa tem várias lojas, confirme se o contrato cobre todos os CNPJs."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma rede de lojas que concentra a adquirência"
+    },
+    "faq": [
+      {
+        "pergunta": "Adquirente e gateway são a mesma coisa?",
+        "resposta": "Não. O gateway leva os dados da compra até a rede de cartões. A adquirente é quem tem o credenciamento nas bandeiras e liquida o dinheiro para a loja."
+      },
+      {
+        "pergunta": "Posso ter mais de uma adquirente?",
+        "resposta": "Pode. Algumas lojas usam mais de uma para ter alternativa caso uma recuse ou fique fora do ar, mas isso exige que o gateway ou o sistema distribua as transações."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "adquirente",
+      "exemploPratico": "Uma rede de três lojas de calçados usa máquinas de cartões de empresas diferentes em cada unidade e não sabe quanto recebe de cada uma. Ao unificar a adquirência e conectar o e-commerce ao mesmo contrato, o financeiro passa a ter um único extrato de repasses para conciliar com as vendas do sistema.",
+      "termosRelacionados": [
+        "gateway de pagamento",
+        "subadquirente",
+        "MDR (taxa de desconto)",
+        "conciliação de vendas"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-subadquirente",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é subadquirente",
+    "consultasSecundarias": [
+      "subadquirente o que é",
+      "para que serve subadquirente",
+      "subadquirente significado"
+    ],
+    "title": "O que é subadquirente: definição e exemplo",
+    "description": "Veja o que é subadquirente: o caminho mais curto para aceitar cartão. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é subadquirente",
+    "respostaDireta": "Subadquirente é a empresa que opera sob o credenciamento de uma adquirente para oferecer cartão a lojas menores, sem que cada uma precise de contrato próprio. O subadquirente faz o cadastro, cobra e repassa o valor. Para o lojista, funciona como um atalho com contrato simples.",
+    "secoes": [
+      {
+        "titulo": "Como o subadquirente se encaixa",
+        "paragrafos": [
+          "Ele fica entre a adquirente e a loja. Quem tem contrato com as bandeiras é a adquirente; o subadquirente cadastra os lojistas dele sob esse guarda-chuva, cuida do atendimento e muitas vezes oferece conta digital e link de pagamento."
+        ],
+        "lista": [
+          "Cadastro rápido, geralmente online",
+          "Contrato único para cartão, Pix e boleto",
+          "Repasse feito pelo próprio subadquirente",
+          "Ferramentas prontas: link de pagamento, plugin para loja, painel",
+          "Menos poder de negociação das condições"
+        ]
+      },
+      {
+        "titulo": "Quando migrar",
+        "paragrafos": [
+          "Se o volume mensal cresce e o custo por venda pesa no resultado, vale abrir uma negociação ou contratar adquirência direta. Peça ao seu desenvolvedor para registrar o custo de cada meio de pagamento no relatório de vendas, assim a decisão fica baseada em dado."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma microempresa que vende por link de pagamento"
+    },
+    "faq": [
+      {
+        "pergunta": "Subadquirente é seguro?",
+        "resposta": "Os que operam regularmente seguem as regras das bandeiras e do Banco Central. Confira se a empresa tem autorização para atuar e leia os termos sobre retenção de valores e contestações."
+      },
+      {
+        "pergunta": "Qual a diferença para o intermediador de pagamento?",
+        "resposta": "Na prática, o subadquirente é um tipo de intermediador. O termo destaca que ele opera sob a adquirente; o intermediador é o conceito mais amplo."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "subadquirente",
+      "exemploPratico": "Uma confeitaria artesanal de Passo Fundo recebe encomendas por WhatsApp. Sem máquina própria, passa a mandar link de pagamento de um subadquirente: o cliente paga por cartão ou Pix na hora, o valor cai na conta digital e o pedido é confirmado. Quando as encomendas crescem, a dona pede um site com checkout integrado ao mesmo subadquirente.",
+      "termosRelacionados": [
+        "adquirente",
+        "intermediador de pagamento",
+        "split de pagamento",
+        "gateway de pagamento"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-antifraude",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é antifraude",
+    "consultasSecundarias": [
+      "antifraude o que é",
+      "para que serve antifraude",
+      "antifraude significado"
+    ],
+    "title": "O que é antifraude: definição e exemplo",
+    "description": "Veja o que é antifraude: como evitar compras fraudulentas na sua loja. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é antifraude",
+    "respostaDireta": "Antifraude é o conjunto de regras e ferramentas que analisa cada compra online para identificar tentativas de golpe antes de aprovar o pagamento. O antifraude olha dados do cliente, do cartão, do dispositivo e do pedido, e decide se aprova, reprova ou manda para revisão manual. Ele reduz prejuízo com chargeback.",
+    "secoes": [
+      {
+        "titulo": "Sinais que o antifraude analisa",
+        "paragrafos": [
+          "Nenhum sinal sozinho prova fraude. O sistema combina vários e atribui uma pontuação de risco ao pedido."
+        ],
+        "lista": [
+          "Endereço de entrega diferente do histórico do cliente",
+          "Compra de valor alto logo no primeiro acesso",
+          "Várias tentativas de cartão em sequência",
+          "E-mail recém-criado ou de domínio descartável",
+          "Dispositivo ou local incomum para o perfil",
+          "Muitos itens iguais para entrega em endereço novo",
+          "Divergência entre o nome do cartão e o do cadastro"
+        ]
+      },
+      {
+        "titulo": "O equilíbrio entre segurança e venda",
+        "paragrafos": [
+          "Regra muito rígida recusa cliente bom e derruba a conversão. Regra frouxa deixa passar fraude. O ajuste certo vem de acompanhar as recusas e os chargebacks do próprio negócio e revisar as regras com frequência."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja de eletrônicos que ajusta regras de risco"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso de antifraude em loja pequena?",
+        "resposta": "Quanto maior o ticket e mais fácil revender o produto, maior o risco. Mesmo em loja pequena, ao menos uma camada de análise e a confirmação manual de pedidos suspeitos costuma compensar."
+      },
+      {
+        "pergunta": "Antifraude elimina o chargeback?",
+        "resposta": "Reduz, mas não zera. Alguns casos de contestação não são fraude, e sim desacordo comercial, e exigem boa descrição e comprovante de entrega."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "antifraude",
+      "exemploPratico": "Uma loja de celulares percebe que pedidos de valor alto, com entrega em endereço novo e pagos em cartão no primeiro acesso, geram a maioria das contestações. Ela configura uma regra para enviar esses pedidos à revisão manual: a equipe liga para confirmar os dados antes de despachar, e só o que passa na conferência vai para a transportadora.",
+      "termosRelacionados": [
+        "chargeback",
+        "gateway de pagamento",
+        "checkout",
+        "intermediador de pagamento"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-chargeback",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é chargeback",
+    "consultasSecundarias": [
+      "chargeback o que é",
+      "para que serve chargeback",
+      "chargeback significado"
+    ],
+    "title": "O que é chargeback: definição e exemplo",
+    "description": "Veja o que é chargeback: contestação de compra e como se defender. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é chargeback",
+    "respostaDireta": "Chargeback é a contestação de uma compra no cartão feita pelo titular ao banco, que pode devolver o valor ao cliente e debitá-lo da loja. O chargeback ocorre por suspeita de fraude, produto não recebido ou desacordo comercial. A loja pode se defender enviando provas da venda e da entrega.",
+    "secoes": [
+      {
+        "titulo": "Motivos mais comuns e a prova que ajuda",
+        "paragrafos": [
+          "Cada motivo pede uma evidência diferente. Guardar os documentos certos desde a venda faz diferença na hora da defesa."
+        ],
+        "tabela": {
+          "colunas": [
+            "Motivo da contestação",
+            "Prova útil"
+          ],
+          "linhas": [
+            [
+              "Não reconhece a compra",
+              "Dados de acesso, endereço de entrega, histórico do cliente"
+            ],
+            [
+              "Produto não recebido",
+              "Código de rastreio e comprovante de entrega"
+            ],
+            [
+              "Produto diferente do anunciado",
+              "Descrição da página, fotos e conversa de atendimento"
+            ],
+            [
+              "Cancelamento não reembolsado",
+              "Registro do pedido de cancelamento e do estorno"
+            ],
+            [
+              "Cobrança duplicada",
+              "Log das transações e dos pedidos"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como se preparar",
+        "paragrafos": [
+          "Registre tudo no sistema: IP, data, nota fiscal, rastreio e mensagens com o cliente. Quanto mais fácil for reunir esses dados, mais rápido sai a resposta dentro do prazo da adquirente."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja que organiza as provas para contestar um chargeback"
+    },
+    "faq": [
+      {
+        "pergunta": "Chargeback é a mesma coisa que estorno?",
+        "resposta": "Não. Estorno é a devolução feita pela própria loja. Chargeback é a contestação iniciada pelo cliente junto ao banco, e o valor pode ser retirado da loja mesmo sem a sua concordância."
+      },
+      {
+        "pergunta": "Dá para evitar chargeback?",
+        "resposta": "Dá para reduzir: descrição clara do produto, nome da loja reconhecível na fatura, atendimento rápido e antifraude. Evite que o cliente prefira ligar para o banco a falar com você."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "chargeback",
+      "exemploPratico": "Um cliente contesta no banco uma compra de valor alto em uma loja de ferramentas, dizendo que não recebeu. O sistema da loja guarda o código de rastreio, a data de entrega e a foto da assinatura do recebedor. Com esses dados, a equipe envia a defesa dentro do prazo e demonstra que o pedido foi entregue no endereço informado.",
+      "termosRelacionados": [
+        "antifraude",
+        "adquirente",
+        "gateway de pagamento",
+        "intermediador de pagamento"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-checkout",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é checkout",
+    "consultasSecundarias": [
+      "checkout o que é",
+      "para que serve checkout",
+      "checkout significado"
+    ],
+    "title": "O que é checkout: definição e exemplo",
+    "description": "Veja o que é checkout: a etapa final da compra, onde a venda se confirma ou se perde. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é checkout",
+    "respostaDireta": "Checkout é a etapa final da compra online, em que o cliente confere o carrinho, informa endereço, escolhe frete e paga. O checkout é onde a venda se confirma ou se perde, por isso deve ser curto, claro e funcionar bem no celular. Cada campo a mais é um motivo para desistir.",
+    "secoes": [
+      {
+        "titulo": "O que o checkout precisa mostrar",
+        "paragrafos": [
+          "O cliente chega ao checkout decidido a comprar. O trabalho da página é não atrapalhar. Ela deve mostrar o resumo do pedido, o valor total com frete e as formas de pagamento sem surpresas."
+        ],
+        "lista": [
+          "Resumo do pedido com foto, quantidade e preço de cada item",
+          "Valor do frete e prazo antes do pagamento",
+          "Campos mínimos: nome, e-mail, telefone, endereço",
+          "Preenchimento do endereço automático pelo CEP",
+          "Pix, cartão e as demais formas de pagamento claras",
+          "Opção de comprar sem criar senha",
+          "Selo ou texto sobre segurança e política de troca",
+          "Mensagens de erro que explicam o que corrigir"
+        ]
+      },
+      {
+        "titulo": "Checkout em uma página ou em etapas",
+        "paragrafos": [
+          "Há quem prefira tudo na mesma tela e quem divida em passos. Não existe resposta única: teste com o seu público e observe onde as pessoas abandonam. O relatório de carrinhos abandonados ajuda a localizar o ponto de queda."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja que enxuga o formulário do checkout"
+    },
+    "faq": [
+      {
+        "pergunta": "Checkout e carrinho são a mesma coisa?",
+        "resposta": "Não. O carrinho guarda os produtos escolhidos. O checkout é a etapa seguinte, onde o cliente informa dados, escolhe entrega e paga."
+      },
+      {
+        "pergunta": "O checkout precisa de login?",
+        "resposta": "Não é obrigatório. Muitas lojas permitem comprar como visitante e oferecem criar a conta depois. Exigir cadastro antes do pagamento costuma aumentar desistências."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "checkout",
+      "exemploPratico": "Uma loja de suplementos tinha um checkout com onze campos e criação obrigatória de conta. Ao revisar, a equipe deixa só nome, e-mail, telefone e CEP, preenche rua e bairro automaticamente e permite compra sem cadastro. O desenvolvedor passa a medir em qual etapa cada cliente sai, e a loja compara o número de pedidos concluídos antes e depois da mudança.",
+      "termosRelacionados": [
+        "checkout transparente",
+        "carrinho abandonado",
+        "gateway de pagamento",
+        "cálculo de frete"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-checkout-transparente",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é checkout transparente",
+    "consultasSecundarias": [
+      "checkout transparente o que é",
+      "para que serve checkout transparente",
+      "checkout transparente significado"
+    ],
+    "title": "O que é checkout transparente: definição e exemplo",
+    "description": "Veja o que é checkout transparente: pagar sem sair do seu site. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é checkout transparente",
+    "respostaDireta": "Checkout transparente é o modelo em que o cliente digita os dados de pagamento dentro do próprio site da loja, sem ser levado a outra página. O checkout transparente mantém a marca e a confiança do cliente do começo ao fim, e o processamento acontece por trás, via gateway ou intermediador.",
+    "secoes": [
+      {
+        "titulo": "Transparente x redirecionado",
+        "paragrafos": [
+          "No checkout redirecionado, o cliente sai do seu site para a página do provedor de pagamento e depois volta. No transparente, ele nem percebe a troca. A diferença muda a experiência e também a responsabilidade técnica da loja."
+        ],
+        "tabela": {
+          "colunas": [
+            "Ponto",
+            "Transparente",
+            "Redirecionado"
+          ],
+          "linhas": [
+            [
+              "Experiência",
+              "Contínua, dentro do site",
+              "Sai e volta"
+            ],
+            [
+              "Aparência",
+              "Totalmente da loja",
+              "Da página do provedor"
+            ],
+            [
+              "Esforço de integração",
+              "Maior",
+              "Menor"
+            ],
+            [
+              "Segurança dos dados do cartão",
+              "Exige cuidados e uso de recursos do provedor",
+              "Fica com o provedor"
+            ],
+            [
+              "Risco de abandono na troca de página",
+              "Menor",
+              "Maior"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Cuidado com os dados do cartão",
+        "paragrafos": [
+          "Mesmo no transparente, o número do cartão não deve passar nem ser guardado nos servidores da loja. Os provedores oferecem campos seguros ou geração de token que mantêm esse dado fora do seu sistema. Confirme a prática recomendada na documentação do provedor escolhido."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja que troca o redirecionamento pelo checkout transparente"
+    },
+    "faq": [
+      {
+        "pergunta": "Checkout transparente é mais seguro?",
+        "resposta": "Não necessariamente. A segurança depende de como é implementado. Bem feito, com tokenização, é seguro. A principal vantagem é a experiência do cliente, que não sai do seu site."
+      },
+      {
+        "pergunta": "Preciso de desenvolvedor para implantar?",
+        "resposta": "Em geral, sim. A integração exige código para montar o formulário, tratar respostas e atualizar pedidos, além de testes de aprovação e recusa."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "checkout transparente",
+      "exemploPratico": "Uma loja de produtos para pets usava o redirecionamento ao provedor de pagamento e percebia clientes que não voltavam depois de pagar, deixando pedidos sem confirmação. Com o checkout transparente, o cliente paga na própria tela, o provedor avisa a loja por webhook e o pedido muda de status sozinho, sem depender de o cliente retornar ao site.",
+      "termosRelacionados": [
+        "checkout",
+        "gateway de pagamento",
+        "intermediador de pagamento",
+        "antifraude"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-carrinho-abandonado",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é carrinho abandonado",
+    "consultasSecundarias": [
+      "carrinho abandonado o que é",
+      "para que serve carrinho abandonado",
+      "carrinho abandonado significado"
+    ],
+    "title": "O que é carrinho abandonado: definição e exemplo",
+    "description": "Veja o que é carrinho abandonado: por que o cliente desiste e como recuperar a venda. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é carrinho abandonado",
+    "respostaDireta": "Carrinho abandonado é a compra em que o cliente coloca produtos no carrinho, mas sai do site sem finalizar o pedido. O carrinho abandonado indica interesse e uma venda quase feita, e pode ser recuperado com lembretes por e-mail ou WhatsApp, desde que haja o consentimento do cliente.",
+    "secoes": [
+      {
+        "titulo": "Motivos comuns para o abandono",
+        "paragrafos": [
+          "Cada loja tem seus motivos, e só os dados da própria operação mostram o principal. Estes são os suspeitos de sempre, por ordem de facilidade de verificar."
+        ],
+        "lista": [
+          "Frete mostrado só no final e mais caro do que o cliente esperava",
+          "Obrigação de criar conta antes de pagar",
+          "Formulário longo ou com erros confusos",
+          "Poucas formas de pagamento",
+          "Site lento ou com falha no celular",
+          "Falta de confiança: sem política de troca ou contato visível"
+        ]
+      },
+      {
+        "titulo": "Como recuperar sem incomodar",
+        "paragrafos": [
+          "Para contatar o cliente, você precisa de e-mail ou telefone coletados com permissão, conforme a LGPD. Um lembrete simples, com a foto do produto e o link direto ao carrinho, costuma ser suficiente. Evite sequências longas de mensagens."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja que mede o abandono por etapa e envia um lembrete"
+    },
+    "faq": [
+      {
+        "pergunta": "Como saber quantos carrinhos são abandonados?",
+        "resposta": "O sistema da loja ou a ferramenta de análise registra quantos carrinhos foram criados e quantos viraram pedido. A diferença entre os dois é o abandono. Peça o relatório ao desenvolvedor."
+      },
+      {
+        "pergunta": "Posso mandar mensagem para quem abandonou o carrinho?",
+        "resposta": "Pode, se o cliente informou o contato e deu permissão para receber comunicações. Inclua sempre uma forma simples de parar de receber as mensagens."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "carrinho abandonado",
+      "exemploPratico": "Uma loja de móveis percebe, pelo relatório, que a maior parte das desistências acontece quando o frete aparece. Ela passa a mostrar a estimativa de frete já na página do produto, a partir do CEP, e configura um e-mail de lembrete, enviado no dia seguinte só a quem informou o contato, com o link para retomar o carrinho de onde parou.",
+      "termosRelacionados": [
+        "checkout",
+        "cálculo de frete",
+        "ticket médio",
+        "e-commerce"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-ticket-medio",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é ticket médio",
+    "consultasSecundarias": [
+      "ticket médio o que é",
+      "para que serve ticket médio",
+      "ticket médio significado"
+    ],
+    "title": "O que é ticket médio: definição e exemplo",
+    "description": "Veja o que é ticket médio: como calcular o valor médio de cada venda. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é ticket médio",
+    "respostaDireta": "Ticket médio é o valor médio gasto por pedido em um período. Para calcular o ticket médio, divida o faturamento total pelo número de pedidos. O indicador mostra se os clientes compram pouco ou muito por vez e orienta ações como kits, frete grátis acima de um valor e venda de itens complementares.",
+    "secoes": [
+      {
+        "titulo": "Como calcular, com um exemplo",
+        "paragrafos": [
+          "A conta é simples e deve ser feita sempre sobre o mesmo recorte de período e tipo de pedido. Veja um exemplo com números redondos, só para ilustrar."
+        ],
+        "tabela": {
+          "colunas": [
+            "Item",
+            "Valor no exemplo"
+          ],
+          "linhas": [
+            [
+              "Faturamento do mês",
+              "20.000"
+            ],
+            [
+              "Pedidos no mês",
+              "100"
+            ],
+            [
+              "Ticket médio",
+              "20.000 ÷ 100 = 200"
+            ],
+            [
+              "Se o ticket subir para 220 com os mesmos 100 pedidos",
+              "Faturamento vai a 22.000"
+            ]
+          ]
+        },
+        "listaOrdenada": false
+      },
+      {
+        "titulo": "Como aumentar sem forçar o cliente",
+        "paragrafos": [
+          "Subir o ticket médio costuma ser mais barato do que atrair novos visitantes. Ofereça produtos complementares no carrinho, monte kits, crie faixa de frete grátis a partir de certo valor e destaque itens de maior valor na vitrine. Acompanhe também a margem: vender mais caro nem sempre significa lucrar mais."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cálculo de ticket médio com números redondos e ação para elevá-lo"
+    },
+    "faq": [
+      {
+        "pergunta": "Ticket médio é lucro por venda?",
+        "resposta": "Não. É o valor médio vendido por pedido, antes de descontar custos. O lucro depende da margem de cada produto, do frete e das taxas de pagamento."
+      },
+      {
+        "pergunta": "Qual é um bom ticket médio?",
+        "resposta": "Não existe número único. Depende do segmento e da margem. O melhor parâmetro é a evolução do seu próprio ticket ao longo dos meses, comparada com o custo para atender cada pedido."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "ticket médio",
+      "exemploPratico": "Uma loja de pet shop online vende ração, petiscos e acessórios. Ao ver que o ticket médio está baixo, o dono cria um aviso no carrinho: faltam alguns reais para ganhar frete grátis, com sugestão de petiscos de baixo valor. O desenvolvedor registra o ticket médio de cada mês no painel, e o dono compara os resultados antes e depois da regra.",
+      "termosRelacionados": [
+        "carrinho abandonado",
+        "SKU",
+        "cálculo de frete",
+        "e-commerce"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-sku",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é sku",
+    "consultasSecundarias": [
+      "sku o que é",
+      "para que serve sku",
+      "sku significado"
+    ],
+    "title": "O que é SKU: definição e exemplo",
+    "description": "Veja o que é SKU: o código que identifica cada item do seu estoque. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é SKU",
+    "respostaDireta": "SKU é o código interno que identifica de forma única cada item que a loja vende, incluindo cada variação de cor ou tamanho. O SKU, sigla de Stock Keeping Unit, permite controlar estoque, preço e pedidos sem confundir produtos parecidos. Cada empresa cria o seu padrão.",
+    "secoes": [
+      {
+        "titulo": "Como montar um bom código",
+        "paragrafos": [
+          "Um SKU útil é curto, legível e não muda depois de criado. Muita gente começa com código sequencial e depois sofre para achar o produto. Prefira um padrão que carregue sentido e que qualquer pessoa da equipe consiga ler."
+        ],
+        "tabela": {
+          "colunas": [
+            "Produto",
+            "Variação",
+            "SKU de exemplo"
+          ],
+          "linhas": [
+            [
+              "Camiseta básica",
+              "Azul, M",
+              "CAM-BAS-AZ-M"
+            ],
+            [
+              "Camiseta básica",
+              "Azul, G",
+              "CAM-BAS-AZ-G"
+            ],
+            [
+              "Camiseta básica",
+              "Preta, M",
+              "CAM-BAS-PT-M"
+            ],
+            [
+              "Caneca de porcelana",
+              "Branca",
+              "CAN-POR-BR"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Erros comuns",
+        "paragrafos": [
+          "Reaproveitar o SKU de um produto descontinuado em outro item, usar espaços e acentos que quebram integrações e deixar duas variações com o mesmo código. Qualquer um desses erros causa estoque errado e pedido enviado trocado."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja de roupas que padroniza os códigos"
+    },
+    "faq": [
+      {
+        "pergunta": "SKU é o mesmo que código de barras?",
+        "resposta": "Não. O código de barras (GTIN/EAN) é um padrão internacional impresso na embalagem. O SKU é interno da loja. Um produto pode ter os dois, e o sistema relaciona um ao outro."
+      },
+      {
+        "pergunta": "Precisa de um SKU por variação?",
+        "resposta": "Sim. Cada combinação que tem estoque próprio, como camiseta azul tamanho M, deve ter o seu SKU, para que a quantidade seja controlada separadamente."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "SKU",
+      "sigla": "SKU",
+      "exemploPratico": "Uma loja de roupas tinha o mesmo código para a camiseta em todos os tamanhos e não sabia quais estavam em falta. Ao criar um SKU por cor e tamanho, o estoque passou a ser controlado por variação, o site esconde o tamanho esgotado e o relatório mostra quais SKUs vendem mais para orientar a próxima compra com o fornecedor.",
+      "termosRelacionados": [
+        "grade de produto (variação)",
+        "catálogo digital",
+        "NF-e",
+        "omnichannel"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-grade-de-produto",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é grade de produto",
+    "consultasSecundarias": [
+      "o que é variação de produto",
+      "grade de produto o que é",
+      "o que é grade de tamanhos e cores"
+    ],
+    "title": "O que é grade de produto (variação): definição e exemplo",
+    "description": "Veja o que é grade de produto (variação): organizar cor e tamanho de um item. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é grade de produto (variação)",
+    "respostaDireta": "Grade de produto é o conjunto de variações de um mesmo item, como cor, tamanho ou voltagem, cada uma com estoque e preço próprios. A grade de produto, também chamada variação, deixa o cliente escolher a opção na mesma página. Para a loja, cada combinação vira um SKU.",
+    "secoes": [
+      {
+        "titulo": "Como a grade funciona na prática",
+        "paragrafos": [
+          "O produto-pai guarda o que é comum: nome, descrição e fotos gerais. Cada variação herda isso e acrescenta o que muda, como código, estoque, peso e, às vezes, foto e preço."
+        ],
+        "tabela": {
+          "colunas": [
+            "Nível",
+            "Exemplo",
+            "O que guarda"
+          ],
+          "linhas": [
+            [
+              "Produto-pai",
+              "Tênis de corrida",
+              "Descrição, marca, categoria"
+            ],
+            [
+              "Atributo",
+              "Cor e tamanho",
+              "As opções disponíveis"
+            ],
+            [
+              "Variação (SKU)",
+              "Preto, tamanho 40",
+              "Estoque, código, peso, preço"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Cuidados",
+        "paragrafos": [
+          "Quanto mais atributos, mais combinações: três cores e seis tamanhos já são dezoito itens para controlar. Cadastre só as combinações que realmente existem e mostre ao cliente quais estão disponíveis. Variações com peso diferente exigem frete calculado por variação."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja de calçados que organiza sua grade"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso de uma página para cada variação?",
+        "resposta": "Em geral, não. O ideal é uma página para o produto, com seleção de cor e tamanho. Isso evita duplicar conteúdo e mantém as avaliações juntas."
+      },
+      {
+        "pergunta": "Plataformas importam grades de planilha?",
+        "resposta": "Muitas importam, desde que a planilha siga o modelo da plataforma, com o produto-pai e uma linha por variação. Teste com poucos itens antes de subir o catálogo todo."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "grade de produto (variação)",
+      "exemploPratico": "Uma loja de calçados vende um tênis em quatro cores e sete numerações. Em vez de cadastrar vinte e oito produtos soltos, cria um produto com grade: o cliente escolhe a cor, vê as numerações disponíveis e o site bloqueia as esgotadas. O estoque de cada combinação é controlado por SKU e atualizado a cada venda, inclusive no balcão.",
+      "termosRelacionados": [
+        "SKU",
+        "catálogo digital",
+        "omnichannel",
+        "cálculo de frete"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-calculo-de-frete",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é cálculo de frete",
+    "consultasSecundarias": [
+      "cálculo de frete o que é",
+      "para que serve cálculo de frete",
+      "cálculo de frete significado"
+    ],
+    "title": "O que é cálculo de frete: definição e exemplo",
+    "description": "Veja o que é cálculo de frete: como o site mostra o valor e o prazo da entrega. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é cálculo de frete",
+    "respostaDireta": "Cálculo de frete é a conta que o site faz para mostrar ao cliente o valor e o prazo de entrega a partir do CEP e das medidas do pedido. O cálculo de frete usa peso, dimensões, origem e destino, e pode consultar Correios, transportadoras ou uma tabela própria.",
+    "secoes": [
+      {
+        "titulo": "O que entra na conta",
+        "paragrafos": [
+          "Quando o frete calculado no site não bate com o custo real, a loja perde margem ou o cliente desiste. Por isso o cadastro de cada produto precisa ter medidas e peso corretos."
+        ],
+        "lista": [
+          "CEP de origem (de onde a loja despacha)",
+          "CEP de destino informado pelo cliente",
+          "Peso real de cada item e da embalagem",
+          "Dimensões da caixa (altura, largura, comprimento)",
+          "Valor declarado, quando há seguro",
+          "Prazo de manuseio da loja antes de postar",
+          "Regras próprias: frete grátis acima de certo valor, retirada na loja"
+        ]
+      },
+      {
+        "titulo": "Três formas de calcular",
+        "paragrafos": [
+          "Integrar o serviço de uma transportadora ou dos Correios, usar um agregador que compara várias opções ou criar uma tabela própria por região e faixa de peso. A tabela própria funciona bem para entrega local ou frota própria; as integrações atendem o país inteiro."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja regional que combina tabela própria e transportadora"
+    },
+    "faq": [
+      {
+        "pergunta": "Por que o frete do site difere do da transportadora?",
+        "resposta": "Costuma ser por medidas ou peso cadastrados errado, ou por diferença na embalagem real. Confira as dimensões de cada produto e o peso da caixa pronta para despacho."
+      },
+      {
+        "pergunta": "Posso oferecer frete grátis?",
+        "resposta": "Pode. Defina uma regra, como valor mínimo do pedido ou região atendida, e inclua o custo no preço ou na margem para não ter prejuízo."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "cálculo de frete",
+      "exemploPratico": "Uma loja de tintas em Passo Fundo entrega com veículo próprio na cidade e usa transportadora no resto do estado. No site, o frete para CEPs da região urbana usa uma tabela fixa por bairro; para os demais, o sistema consulta a transportadora com o peso das latas. O cadastro de peso por produto foi corrigido, porque estava gerando frete abaixo do custo.",
+      "termosRelacionados": [
+        "checkout",
+        "logística reversa",
+        "SKU",
+        "carrinho abandonado"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-logistica-reversa",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é logística reversa",
+    "consultasSecundarias": [
+      "logística reversa o que é",
+      "para que serve logística reversa",
+      "logística reversa significado"
+    ],
+    "title": "O que é logística reversa: definição e exemplo",
+    "description": "Veja o que é logística reversa: trocas, devoluções e retorno de produtos na loja virtual. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é logística reversa",
+    "respostaDireta": "Logística reversa é o caminho de volta do produto: o processo que traz da casa do cliente para a loja itens devolvidos, trocados ou com defeito. Na logística reversa de uma loja virtual, entram a autorização da devolução, a coleta, a conferência, o estorno ou a troca e o retorno ao estoque.",
+    "secoes": [
+      {
+        "titulo": "Etapas de uma devolução bem organizada",
+        "paragrafos": [
+          "Quem não tem processo resolve cada devolução por mensagem e perde tempo e dinheiro. Um fluxo definido, com status no sistema, acelera a resposta ao cliente."
+        ],
+        "lista": [
+          "Cliente solicita a troca ou devolução pelo site ou atendimento",
+          "Loja confere o prazo e o motivo e autoriza",
+          "Gera etiqueta ou código de postagem reverso",
+          "Cliente envia o produto",
+          "Loja recebe e confere o estado do item",
+          "Estorno do valor ou envio do novo produto",
+          "Item volta ao estoque ou é descartado, com registro",
+          "Nota fiscal de devolução emitida quando aplicável"
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Pontos de atenção",
+        "paragrafos": [
+          "Defina por escrito a política de troca e devolução e deixe-a visível no site. O direito de arrependimento em compras online e a troca por defeito têm regras no Código de Defesa do Consumidor; confirme os prazos com seu advogado ou contador. Registre a causa de cada devolução: ela mostra quais produtos têm problema."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja de roupas com fluxo de troca por tamanho"
+    },
+    "faq": [
+      {
+        "pergunta": "Quem paga o frete da devolução?",
+        "resposta": "Depende da política da loja e do motivo. Em geral, produto com defeito ou enviado errado é por conta da loja. Deixe a regra clara no site antes da compra para evitar conflito."
+      },
+      {
+        "pergunta": "Logística reversa é o mesmo que descarte de embalagens?",
+        "resposta": "O termo também é usado em legislação ambiental para retorno de embalagens e resíduos. No e-commerce, costuma significar o fluxo de troca e devolução de produtos."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "logística reversa",
+      "exemploPratico": "Uma loja de roupas recebe muitos pedidos de troca de tamanho. Ela cria no site uma página de solicitação de troca, em que o cliente informa o número do pedido e o motivo. O sistema gera a etiqueta de postagem, avisa a equipe quando o item chega, e só então libera o envio da nova numeração. O motivo fica registrado para ajustar a tabela de medidas.",
+      "termosRelacionados": [
+        "cálculo de frete",
+        "chargeback",
+        "SKU",
+        "e-commerce"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-dropshipping",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é dropshipping",
+    "consultasSecundarias": [
+      "dropshipping o que é",
+      "para que serve dropshipping",
+      "dropshipping significado"
+    ],
+    "title": "O que é dropshipping: definição e exemplo",
+    "description": "Veja o que é dropshipping: vender sem estoque próprio, com o fornecedor enviando ao cliente. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é dropshipping",
+    "respostaDireta": "Dropshipping é o modelo em que a loja vende o produto, mas quem guarda o estoque e envia ao cliente é o fornecedor. No dropshipping, você recebe o pedido, repassa ao fornecedor e fica com a diferença entre o preço de venda e o de custo. Em troca, depende dele para prazo, qualidade e estoque.",
+    "secoes": [
+      {
+        "titulo": "Vantagens e riscos",
+        "paragrafos": [
+          "O modelo reduz o investimento inicial, mas tira de você o controle da entrega, que é o que o cliente mais cobra. A responsabilidade perante o consumidor continua sendo da loja que vendeu."
+        ],
+        "tabela": {
+          "colunas": [
+            "Ponto",
+            "Vantagem",
+            "Risco"
+          ],
+          "linhas": [
+            [
+              "Estoque",
+              "Sem capital parado",
+              "Produto pode acabar sem aviso"
+            ],
+            [
+              "Operação",
+              "Sem separar e embalar",
+              "Você não vê a qualidade enviada"
+            ],
+            [
+              "Prazo",
+              "Fornecedor despacha",
+              "Atraso derruba a reputação da sua loja"
+            ],
+            [
+              "Margem",
+              "Sem custo de armazenagem",
+              "Fornecedor pode vender mais barato direto"
+            ],
+            [
+              "Fiscal",
+              "Menos operação",
+              "Notas e CFOP exigem orientação do contador"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que automatizar",
+        "paragrafos": [
+          "O ponto fraco é o trabalho manual: copiar pedido, conferir estoque do fornecedor, atualizar rastreio. Uma integração que envia o pedido ao fornecedor e puxa estoque e rastreio de volta evita erro e libera a equipe."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja de decoração que integra estoque do fornecedor"
+    },
+    "faq": [
+      {
+        "pergunta": "Dropshipping precisa de CNPJ e nota fiscal?",
+        "resposta": "Se você vende como empresa, a venda ao cliente precisa de documento fiscal. A forma de emitir e de tratar a remessa do fornecedor varia; consulte seu contador antes de começar."
+      },
+      {
+        "pergunta": "Quem responde por produto com defeito?",
+        "resposta": "Perante o consumidor, a loja que vendeu. Depois você acerta com o fornecedor. Por isso, escolha parceiros com política clara de troca e defeito."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "dropshipping",
+      "exemploPratico": "Uma loja de decoração vende luminárias de três fornecedores sem ter estoque. Quando o pedido é pago, o sistema envia os dados ao fornecedor certo e atualiza o status. Diariamente, uma rotina lê o estoque de cada fornecedor e esconde do site o que acabou, evitando vender o que ninguém tem para enviar. O código de rastreio retorna e é repassado ao cliente.",
+      "termosRelacionados": [
+        "marketplace",
+        "e-commerce",
+        "SKU",
+        "logística reversa"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-split-de-pagamento",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é split de pagamento",
+    "consultasSecundarias": [
+      "split de pagamento o que é",
+      "para que serve split de pagamento",
+      "split de pagamento significado"
+    ],
+    "title": "O que é split de pagamento: definição e exemplo",
+    "description": "Veja o que é split de pagamento: dividir um pagamento entre vários recebedores. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é split de pagamento",
+    "respostaDireta": "Split de pagamento é a divisão automática do valor de uma venda entre dois ou mais recebedores no momento do pagamento. No split de pagamento, o provedor separa a parte da plataforma, a do vendedor e a de outros participantes, e repassa cada uma à conta correta, sem acerto manual depois.",
+    "secoes": [
+      {
+        "titulo": "Quando o split faz sentido",
+        "paragrafos": [
+          "Ele aparece em operações em que mais de uma parte recebe pela mesma venda. Sem ele, alguém precisa receber tudo e repassar depois, o que gera trabalho e risco fiscal."
+        ],
+        "lista": [
+          "Marketplace próprio: comissão da plataforma e valor do vendedor",
+          "Franquias: repasse da parte da franqueadora",
+          "Plataformas de serviços: parte do profissional e parte da empresa",
+          "Venda com parceiro ou representante comissionado",
+          "Cobrança de mensalidade com repasse a terceiros"
+        ]
+      },
+      {
+        "titulo": "Cuidados",
+        "paragrafos": [
+          "As regras do split variam por provedor, assim como o cadastro de cada recebedor, que normalmente exige dados e documentos. A responsabilidade fiscal e tributária de cada parte deve ser definida com o contador. Compare as condições direto com cada provedor."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de um marketplace regional com comissão automática"
+    },
+    "faq": [
+      {
+        "pergunta": "Split de pagamento é permitido?",
+        "resposta": "É uma funcionalidade oferecida por provedores de pagamento autorizados. A forma de usar e a tributação dependem do seu modelo de negócio; peça orientação contábil e leia o contrato do provedor."
+      },
+      {
+        "pergunta": "Preciso de desenvolvedor para implantar?",
+        "resposta": "Sim, na maioria dos casos. É preciso cadastrar recebedores, definir as regras de divisão no momento da cobrança e tratar os avisos do provedor sobre cada repasse."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "split de pagamento",
+      "exemploPratico": "Uma plataforma local conecta clientes a diaristas e cobra uma comissão por serviço. Sem split, a empresa recebia tudo e transferia manualmente no fim da semana. Com split, quando o cliente paga, o provedor separa a comissão da plataforma e repassa o restante à conta da profissional, e o painel mostra a cada serviço quanto foi dividido.",
+      "termosRelacionados": [
+        "marketplace",
+        "subadquirente",
+        "gateway de pagamento",
+        "conciliação de vendas"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-pix",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é pix",
+    "consultasSecundarias": [
+      "pix o que é",
+      "para que serve pix",
+      "pix significado"
+    ],
+    "title": "O que é Pix: definição e exemplo",
+    "description": "Veja o que é Pix: o pagamento instantâneo que cai na hora na sua conta. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é Pix",
+    "respostaDireta": "Pix é o meio de pagamento instantâneo criado pelo Banco Central do Brasil, em que a transferência sai de uma conta e chega a outra em segundos. O Pix funciona com chave, QR Code ou código copia e cola, e pode ser usado por pessoas e empresas, inclusive para cobrar clientes em loja física e virtual.",
+    "secoes": [
+      {
+        "titulo": "Como a loja recebe por Pix",
+        "paragrafos": [
+          "Na loja virtual, o fluxo mais comum é o site gerar uma cobrança com QR Code e código copia e cola. O cliente paga no aplicativo do banco e o provedor avisa a loja, que libera o pedido. Tudo isso pode ser automático."
+        ],
+        "lista": [
+          "O cliente escolhe Pix no checkout",
+          "O site gera o QR Code e o código copia e cola da cobrança",
+          "O cliente paga no aplicativo do banco dele",
+          "O provedor avisa a loja por webhook que o pagamento chegou",
+          "O sistema confirma o valor e muda o pedido para pago",
+          "A loja separa, emite a nota e despacha"
+        ]
+      },
+      {
+        "titulo": "O que muda para o caixa",
+        "paragrafos": [
+          "Receber por Pix evita esperar o prazo de repasse do cartão. Por outro lado, o recebimento exige conciliação: é preciso casar cada pagamento com o pedido certo. Quando há muitos Pix por dia, a conferência manual vira gargalo e vale automatizar."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja que confirma pedidos automaticamente por Pix"
+    },
+    "faq": [
+      {
+        "pergunta": "Pix e Pix Cobrança são a mesma coisa?",
+        "resposta": "Não. Pix é o pagamento em si. O Pix Cobrança é a cobrança gerada pela empresa, com valor e identificação, que o cliente paga. É o que o e-commerce usa para ligar pagamento a pedido."
+      },
+      {
+        "pergunta": "Preciso de CNPJ para receber Pix na loja?",
+        "resposta": "Para vender de forma recorrente como empresa, o ideal é ter conta no nome do CNPJ. Isso organiza a contabilidade e evita misturar o dinheiro da empresa com o pessoal."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Pix — Banco Central do Brasil",
+        "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix",
+        "orgao": "Banco Central do Brasil",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "Pix",
+      "exemploPratico": "Uma loja de autopeças recebia Pix por chave e a atendente conferia o extrato à mão para liberar pedidos, o que atrasava o envio. Ao trocar por cobrança com QR Code gerada no checkout, cada pagamento passou a trazer o número do pedido. A confirmação virou automática, e a atendente só precisa olhar os casos em que o valor pago diverge.",
+      "termosRelacionados": [
+        "Pix Cobrança",
+        "conciliação de vendas",
+        "checkout",
+        "webhook"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-pix-cobranca",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é pix cobrança",
+    "consultasSecundarias": [
+      "pix cobrança o que é",
+      "para que serve pix cobrança",
+      "pix cobrança significado"
+    ],
+    "title": "O que é Pix Cobrança: definição e exemplo",
+    "description": "Veja o que é Pix Cobrança: cobrar clientes por Pix com valor e prazo definidos. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é Pix Cobrança",
+    "respostaDireta": "Pix Cobrança é a cobrança por Pix gerada pela empresa com valor e identificação próprios, que o cliente paga por QR Code ou código copia e cola. O Pix Cobrança permite associar o pagamento a um pedido ou fatura e definir vencimento, o que facilita o controle de quem pagou.",
+    "secoes": [
+      {
+        "titulo": "Pix comum x Pix Cobrança",
+        "paragrafos": [
+          "Quando a empresa só passa uma chave, o cliente digita o valor e o sistema não sabe de qual pedido é. Na cobrança, o valor e a identificação já vêm no QR Code."
+        ],
+        "tabela": {
+          "colunas": [
+            "Ponto",
+            "Pix com chave",
+            "Pix Cobrança"
+          ],
+          "linhas": [
+            [
+              "Valor",
+              "Digitado pelo cliente",
+              "Definido pela empresa"
+            ],
+            [
+              "Identificação do pedido",
+              "Manual",
+              "Embutida na cobrança"
+            ],
+            [
+              "Conferência",
+              "Olhando extrato",
+              "Automática por avisos do provedor"
+            ],
+            [
+              "Prazo",
+              "Sem prazo",
+              "Pode ter vencimento"
+            ],
+            [
+              "Risco de erro",
+              "Maior",
+              "Menor"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Onde é útil na pequena empresa",
+        "paragrafos": [
+          "Mensalidades de clínicas e academias, parcelas de serviços, vendas de loja virtual, cobranças recorrentes de clientes de transporte e faturas de manutenção. Em todas, o ganho é saber, sem planilha, quem pagou e quem ainda deve. O detalhamento técnico das cobranças está na documentação do Banco Central sobre o Pix."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma clínica que cobra mensalidade por Pix Cobrança"
+    },
+    "faq": [
+      {
+        "pergunta": "Pix Cobrança tem vencimento?",
+        "resposta": "A cobrança pode ter data de vencimento, conforme a modalidade usada. A disponibilidade de recursos como juros e multa depende do banco ou provedor. Confira o que a sua instituição oferece."
+      },
+      {
+        "pergunta": "Como o sistema sabe que o cliente pagou?",
+        "resposta": "O provedor ou o banco envia um aviso automático, em geral por webhook, quando o pagamento é concluído. O sistema confere o valor e baixa a cobrança."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Pix — Banco Central do Brasil",
+        "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix",
+        "orgao": "Banco Central do Brasil",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "Pix Cobrança",
+      "exemploPratico": "Uma clínica de fisioterapia gera, no começo do mês, uma cobrança por Pix para cada paciente com plano mensal. Cada cobrança leva o nome do paciente e o mês. Quando o paciente paga, o sistema da clínica recebe o aviso e marca a mensalidade como paga. No relatório, a recepção vê só quem está pendente e envia um lembrete.",
+      "termosRelacionados": [
+        "Pix",
+        "conciliação de vendas",
+        "gateway de pagamento",
+        "webhook"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-mdr",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é mdr",
+    "consultasSecundarias": [
+      "mdr taxa de desconto",
+      "mdr o que é cartão",
+      "o que é taxa de desconto do cartão"
+    ],
+    "title": "O que é MDR (taxa de desconto): definição e exemplo",
+    "description": "Veja o que é MDR (taxa de desconto): a taxa cobrada em cada venda no cartão. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é MDR (taxa de desconto)",
+    "respostaDireta": "MDR, sigla de Merchant Discount Rate, é a taxa de desconto que a adquirente cobra do lojista em cada venda no cartão. O MDR é um percentual descontado do valor da venda e cobre o custo do processamento, da bandeira e do banco emissor. Quem recebe vê um valor líquido menor que o cobrado do cliente.",
+    "secoes": [
+      {
+        "titulo": "Como a taxa aparece na sua conta",
+        "paragrafos": [
+          "O MDR costuma variar por bandeira, por débito ou crédito e por número de parcelas. Por isso a taxa efetiva do negócio é uma média e não um número único. Esse é o dado que importa para precificar."
+        ],
+        "tabela": {
+          "colunas": [
+            "Etapa",
+            "O que acontece"
+          ],
+          "linhas": [
+            [
+              "Venda no cartão",
+              "Cliente paga o valor cheio"
+            ],
+            [
+              "Desconto do MDR",
+              "Adquirente desconta a taxa contratada"
+            ],
+            [
+              "Valor líquido",
+              "É o que sobra para a loja"
+            ],
+            [
+              "Antecipação (opcional)",
+              "Pode haver um desconto adicional pelo adiantamento"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como acompanhar",
+        "paragrafos": [
+          "Peça um relatório que mostre, por meio de pagamento e parcelamento, o valor bruto, a taxa e o líquido. Com isso, a loja descobre se o cartão parcelado está comendo a margem e pode ajustar preço, desconto para Pix ou condições de parcelamento. As taxas específicas devem ser conferidas direto com a sua adquirente."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja que calcula o líquido de uma venda no cartão"
+    },
+    "faq": [
+      {
+        "pergunta": "MDR é igual para todos os lojistas?",
+        "resposta": "Não. A taxa depende do contrato, do ramo de atividade, da bandeira e da modalidade. Por isso, vale comparar propostas e acompanhar a taxa efetiva do seu próprio faturamento."
+      },
+      {
+        "pergunta": "Posso repassar o MDR ao cliente?",
+        "resposta": "Em muitas lojas, a prática é oferecer desconto no Pix e preço cheio no cartão. Defina a política com clareza no site e confirme com seu contador ou advogado como apresentar o preço."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "MDR (taxa de desconto)",
+      "sigla": "MDR",
+      "exemploPratico": "Uma loja de móveis vende no cartão em até seis parcelas e quer saber quanto sobra de cada pedido. O sistema registra, para cada venda, o valor bruto, a taxa descontada pela adquirente e o líquido a receber em cada parcela. Ao ver que o parcelamento longo pesa na margem, a loja passa a oferecer desconto para pagamento por Pix.",
+      "termosRelacionados": [
+        "adquirente",
+        "antecipação de recebíveis",
+        "conciliação de vendas",
+        "gateway de pagamento"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-antecipacao-de-recebiveis",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é antecipação de recebíveis",
+    "consultasSecundarias": [
+      "antecipação de recebíveis o que é",
+      "para que serve antecipação de recebíveis",
+      "antecipação de recebíveis significado"
+    ],
+    "title": "O que é antecipação de recebíveis: definição e exemplo",
+    "description": "Veja o que é antecipação de recebíveis: receber hoje o que o cartão só pagaria depois. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é antecipação de recebíveis",
+    "respostaDireta": "Antecipação de recebíveis é receber antes do prazo o dinheiro de vendas parceladas no cartão, mediante um desconto. A antecipação de recebíveis converte parcelas futuras em caixa imediato, e o custo é descontado do valor. Serve para cobrir contas e estoque, mas reduz a margem se for usada sem controle.",
+    "secoes": [
+      {
+        "titulo": "Quando antecipar faz sentido",
+        "paragrafos": [
+          "A antecipação resolve falta de caixa pontual. O risco é virar hábito. Antes de antecipar, compare o desconto com o ganho que o dinheiro rápido traz."
+        ],
+        "lista": [
+          "Comprar estoque com desconto à vista que supere o custo da antecipação",
+          "Pagar fornecedor com multa por atraso",
+          "Cobrir o pico de folha ou impostos de um mês específico",
+          "Aproveitar uma oportunidade de compra que não volta",
+          "Evitar: antecipar todo mês para pagar despesas fixas"
+        ]
+      },
+      {
+        "titulo": "Como não perder o controle",
+        "paragrafos": [
+          "Cada antecipação reduz o que você receberá nos meses seguintes. Mantenha uma planilha ou relatório do sistema com o que foi antecipado e o que ainda falta receber, por adquirente. Sem esse mapa, é comum o caixa do mês seguinte ser menor do que o esperado."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja que antecipa parcelas para comprar estoque"
+    },
+    "faq": [
+      {
+        "pergunta": "Antecipação de recebíveis é empréstimo?",
+        "resposta": "É uma operação financeira diferente: você recebe antes dinheiro que já era seu, com desconto. Mas o efeito no caixa lembra o do crédito, porque reduz recebimentos futuros."
+      },
+      {
+        "pergunta": "Todas as vendas podem ser antecipadas?",
+        "resposta": "Em geral, as vendas no crédito, principalmente as parceladas. Débito e Pix já caem rápido. As condições dependem da adquirente ou instituição, então confirme no contrato."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "antecipação de recebíveis",
+      "exemploPratico": "Uma loja de materiais de construção recebe uma oferta de lote de tinta com desconto, válido por uma semana. As vendas parceladas só entrariam no caixa nos meses seguintes. A dona antecipa parte dos recebíveis, paga o lote à vista e registra no sistema o valor antecipado, para saber que o fluxo do mês seguinte será menor.",
+      "termosRelacionados": [
+        "MDR (taxa de desconto)",
+        "adquirente",
+        "conciliação de vendas",
+        "ticket médio"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-conciliacao-de-vendas",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é conciliação de vendas",
+    "consultasSecundarias": [
+      "conciliação de vendas o que é",
+      "para que serve conciliação de vendas",
+      "conciliação de vendas significado"
+    ],
+    "title": "O que é conciliação de vendas: definição e exemplo",
+    "description": "Veja o que é conciliação de vendas: conferir se o que vendeu é o que entrou no caixa. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é conciliação de vendas",
+    "respostaDireta": "Conciliação de vendas é o processo de conferir se cada venda registrada no sistema corresponde a um recebimento no extrato da adquirente ou do banco. A conciliação de vendas aponta valores que faltam, taxas descontadas e pagamentos sem pedido, e evita perder dinheiro por falha de controle.",
+    "secoes": [
+      {
+        "titulo": "O que se compara",
+        "paragrafos": [
+          "A conciliação cruza três fontes: o que o sistema de vendas diz ter vendido, o que a adquirente diz ter repassado e o que o banco mostra ter entrado."
+        ],
+        "tabela": {
+          "colunas": [
+            "Fonte",
+            "O que mostra",
+            "Divergência típica"
+          ],
+          "linhas": [
+            [
+              "Sistema de vendas",
+              "Pedidos e valores brutos",
+              "Pedido cancelado que não foi estornado"
+            ],
+            [
+              "Extrato da adquirente",
+              "Valor líquido por parcela e data",
+              "Taxa maior que a contratada"
+            ],
+            [
+              "Extrato bancário",
+              "O que realmente entrou",
+              "Repasse atrasado ou agrupado"
+            ],
+            [
+              "Chargebacks",
+              "Valores contestados e retirados",
+              "Contestação não registrada no sistema"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Planilha ou automação",
+        "paragrafos": [
+          "No começo, a conciliação em planilha funciona. Quando o volume sobe, o tempo gasto cresce e os erros também. Um sistema que importa os extratos e cruza pelos identificadores dos pedidos mostra só as exceções, e a equipe resolve apenas o que não bate."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja que automatiza a conciliação do extrato"
+    },
+    "faq": [
+      {
+        "pergunta": "Quem deve fazer a conciliação?",
+        "resposta": "Normalmente o financeiro ou o contador, com apoio do sistema. O importante é a rotina: diária ou semanal, para pegar a divergência antes que o prazo de contestação passe."
+      },
+      {
+        "pergunta": "Conciliação e conciliação bancária são a mesma coisa?",
+        "resposta": "São parentes. A conciliação bancária compara o caixa da empresa com o extrato do banco. A de vendas foca em cartão, Pix e marketplace, casando cada pedido ao recebimento."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "conciliação de vendas",
+      "exemploPratico": "Uma loja que vende por site, marketplace e balcão recebia repasses em datas e valores diferentes e o financeiro gastava dois dias por mês casando tudo numa planilha. Com um relatório que importa os extratos e liga cada recebimento ao pedido, o time passou a ver só as exceções, como uma taxa acima do contratado ou um repasse faltando.",
+      "termosRelacionados": [
+        "adquirente",
+        "MDR (taxa de desconto)",
+        "Pix Cobrança",
+        "chargeback"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-omnichannel",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é omnichannel",
+    "consultasSecundarias": [
+      "omnichannel o que é",
+      "para que serve omnichannel",
+      "omnichannel significado"
+    ],
+    "title": "O que é omnichannel: definição e exemplo",
+    "description": "Veja o que é omnichannel: integrar loja física, site e WhatsApp em uma só operação. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é omnichannel",
+    "respostaDireta": "Omnichannel é a integração de todos os canais de venda e atendimento, como loja física, site, WhatsApp e marketplace, em uma operação única. No omnichannel, estoque, cadastro de cliente e pedidos são compartilhados, e o cliente pode começar a compra em um canal e terminar em outro sem recomeçar.",
+    "secoes": [
+      {
+        "titulo": "Multicanal x omnichannel",
+        "paragrafos": [
+          "Ter vários canais não é o mesmo que ser omnichannel. No multicanal, cada canal funciona sozinho, com estoque e cadastro próprios. No omnichannel, eles conversam."
+        ],
+        "tabela": {
+          "colunas": [
+            "Aspecto",
+            "Multicanal",
+            "Omnichannel"
+          ],
+          "linhas": [
+            [
+              "Estoque",
+              "Um por canal",
+              "Único e compartilhado"
+            ],
+            [
+              "Cadastro do cliente",
+              "Duplicado",
+              "Unificado"
+            ],
+            [
+              "Histórico de compras",
+              "Separado por canal",
+              "Completo, em qualquer canal"
+            ],
+            [
+              "Retirada em loja de compra online",
+              "Não existe",
+              "Possível"
+            ],
+            [
+              "Atendimento",
+              "Recomeça a cada contato",
+              "Continua de onde parou"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que é preciso para funcionar",
+        "paragrafos": [
+          "O centro de tudo é um sistema que concentre estoque, pedidos e clientes e se conecte a cada canal. Sem ele, o omnichannel vira planilha copiada e o risco de vender duas vezes o mesmo item cresce."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja de roupas com retirada em loja de compra do site"
+    },
+    "faq": [
+      {
+        "pergunta": "Omnichannel serve para empresa pequena?",
+        "resposta": "Serve, em formato enxuto. Basta começar com estoque único entre loja física e site, e só depois acrescentar canais. Não é preciso grande estrutura para ter ganho."
+      },
+      {
+        "pergunta": "Qual a primeira integração a fazer?",
+        "resposta": "Em geral, o estoque. É o que mais gera prejuízo quando está desencontrado: item vendido que não existe, ou parado na prateleira e indisponível no site."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "omnichannel",
+      "exemploPratico": "Uma loja de roupas com uma unidade física e um site mantinha estoques separados. A cliente via o vestido no site e chegava à loja sem o tamanho. Com estoque único, o site mostra a disponibilidade de cada unidade, permite reservar para retirada e dá baixa na mesma quantidade quando alguém compra no balcão ou online.",
+      "termosRelacionados": [
+        "e-commerce",
+        "SKU",
+        "marketplace",
+        "venda direta ao consumidor (D2C)"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-venda-direta-ao-consumidor",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é venda direta ao consumidor",
+    "consultasSecundarias": [
+      "o que é d2c",
+      "d2c o que significa",
+      "venda direta ao consumidor o que é"
+    ],
+    "title": "O que é venda direta ao consumidor (D2C) e exemplo",
+    "description": "Veja o que é venda direta ao consumidor (D2C): vender direto ao cliente, sem varejista no meio. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é venda direta ao consumidor (D2C)",
+    "respostaDireta": "Venda direta ao consumidor, ou D2C (direct to consumer), é quando o fabricante ou a marca vende o produto direto ao cliente final, sem passar por distribuidor ou varejista. Na venda direta ao consumidor, a empresa controla preço, marca, dados do cliente e experiência, mas assume também estoque, entrega e atendimento.",
+    "secoes": [
+      {
+        "titulo": "O que muda ao vender direto",
+        "paragrafos": [
+          "Quem vendia por revenda passa a ter de cuidar de tudo que o varejista fazia. Em troca, ganha margem e conhecimento do cliente."
+        ],
+        "tabela": {
+          "colunas": [
+            "Ponto",
+            "Venda por revenda",
+            "D2C"
+          ],
+          "linhas": [
+            [
+              "Preço final",
+              "Definido pelo varejista",
+              "Definido pela marca"
+            ],
+            [
+              "Dados do cliente",
+              "Ficam com o varejista",
+              "Ficam com a marca"
+            ],
+            [
+              "Margem",
+              "Dividida",
+              "Maior, com mais custos"
+            ],
+            [
+              "Entrega e atendimento",
+              "Do varejista",
+              "Da marca"
+            ],
+            [
+              "Alcance",
+              "Da rede de lojas",
+              "Precisa ser construído"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Cuidado com o conflito de canal",
+        "paragrafos": [
+          "Se você já vende para lojistas, venda direta a preço menor cria atrito com eles. Muitas indústrias mantêm a loja própria com preços alinhados e foco em linhas exclusivas, kits ou clientes que o revendedor não atende."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma pequena indústria de alimentos que abre loja própria"
+    },
+    "faq": [
+      {
+        "pergunta": "D2C é a mesma coisa que loja virtual?",
+        "resposta": "A loja virtual é o canal mais comum de D2C, mas D2C também pode ser venda por WhatsApp, loja própria física ou assinatura. O ponto central é a marca vender direto ao consumidor final."
+      },
+      {
+        "pergunta": "Precisa de uma plataforma especial para D2C?",
+        "resposta": "Não. Precisa de loja virtual com bons pagamento, frete e nota fiscal. O diferencial é a operação logística e o relacionamento com o cliente depois da compra."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "venda direta ao consumidor (D2C)",
+      "sigla": "D2C",
+      "exemploPratico": "Uma pequena fábrica de molhos artesanais vendia só para mercados da região. Ao abrir uma loja própria, passou a oferecer kits e assinatura mensal para clientes finais, com entrega pelos Correios. Como o cadastro do cliente fica com a fábrica, ela envia aviso de novo sabor e sabe quais produtos o consumidor recompra.",
+      "termosRelacionados": [
+        "e-commerce",
+        "loja virtual",
+        "omnichannel",
+        "marketplace"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-nf-e",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é nf-e",
+    "consultasSecundarias": [
+      "nf-e o que é",
+      "para que serve nf-e",
+      "nf-e significado"
+    ],
+    "title": "O que é NF-e: definição e exemplo",
+    "description": "Veja o que é NF-e: a nota fiscal eletrônica que acompanha a venda. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é NF-e",
+    "respostaDireta": "NF-e é a Nota Fiscal Eletrônica, um documento digital que registra a venda de mercadorias e tem validade jurídica garantida pela assinatura digital e pela autorização da Secretaria da Fazenda. A NF-e substitui a nota em papel, acompanha o produto no transporte e é emitida por sistema ou emissor.",
+    "secoes": [
+      {
+        "titulo": "Como a NF-e é emitida",
+        "paragrafos": [
+          "A empresa gera o arquivo com os dados da venda, assina digitalmente e envia à Secretaria da Fazenda. Se tudo estiver correto, vem a autorização de uso e o DANFE, a versão impressa para acompanhar a carga."
+        ],
+        "lista": [
+          "Cadastro correto de produtos: NCM, unidade e origem",
+          "Dados do cliente: CNPJ ou CPF e endereço",
+          "Natureza da operação e CFOP definidos pelo contador",
+          "Certificado digital da empresa para assinar",
+          "Envio e autorização pela Secretaria da Fazenda",
+          "Armazenamento do XML por prazo exigido pela legislação"
+        ]
+      },
+      {
+        "titulo": "Integração com a loja virtual",
+        "paragrafos": [
+          "Um e-commerce bem montado emite a nota automaticamente quando o pedido é pago, envia o XML e o DANFE ao cliente e guarda o arquivo. Tributação, CFOP e regras por estado devem ser definidos com o contador; o sistema só executa o que foi combinado. Veja a página oficial do portal da NF-e para a documentação técnica."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja que emite a NF-e ao confirmar o pagamento"
+    },
+    "faq": [
+      {
+        "pergunta": "NF-e e NFC-e são a mesma coisa?",
+        "resposta": "Não. A NF-e é usada em vendas entre empresas e em muitas vendas à distância. A NFC-e é voltada à venda presencial ao consumidor final. Qual usar depende da operação e da regra do seu estado."
+      },
+      {
+        "pergunta": "Quem emite a NF-e da loja virtual?",
+        "resposta": "A empresa vendedora, por um emissor integrado ao sistema da loja. O contador define o regime e a tributação; o sistema emite com base nessas regras."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Portal da Nota Fiscal Eletrônica",
+        "url": "https://www.nfe.fazenda.gov.br/portal/",
+        "orgao": "Receita Federal / Encat",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "NF-e",
+      "sigla": "NF-e",
+      "exemploPratico": "Uma loja de ferragens vende pelo site para clientes de outras cidades. Quando o pagamento é aprovado, o sistema da loja envia os dados do pedido ao emissor, que gera a NF-e com os códigos fiscais já cadastrados. O cliente recebe o XML e o DANFE por e-mail e o separador imprime o DANFE para colocar na caixa antes da coleta da transportadora.",
+      "termosRelacionados": [
+        "NFC-e",
+        "e-commerce",
+        "SKU",
+        "cálculo de frete"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-nfc-e",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é nfc-e",
+    "consultasSecundarias": [
+      "nfc-e o que é",
+      "para que serve nfc-e",
+      "nfc-e significado"
+    ],
+    "title": "O que é NFC-e: definição e exemplo",
+    "description": "Veja o que é NFC-e: a nota fiscal do consumidor emitida na venda de balcão. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é NFC-e",
+    "respostaDireta": "NFC-e é a Nota Fiscal de Consumidor Eletrônica, documento digital usado na venda presencial a consumidor final, no lugar do antigo cupom fiscal. A NFC-e é emitida no caixa, autorizada pela Secretaria da Fazenda do estado e entregue ao cliente impressa ou por QR Code e e-mail.",
+    "secoes": [
+      {
+        "titulo": "NFC-e x NF-e",
+        "paragrafos": [
+          "As duas são notas eletrônicas, mas servem a vendas diferentes. A escolha depende do tipo de operação e das regras de cada estado, então confirme com o contador."
+        ],
+        "tabela": {
+          "colunas": [
+            "Ponto",
+            "NFC-e",
+            "NF-e"
+          ],
+          "linhas": [
+            [
+              "Uso típico",
+              "Venda presencial a consumidor final",
+              "Venda entre empresas e muitas vendas à distância"
+            ],
+            [
+              "Onde é emitida",
+              "No caixa ou PDV",
+              "No sistema de gestão ou emissor"
+            ],
+            [
+              "Comprovante",
+              "Cupom com QR Code",
+              "DANFE e XML"
+            ],
+            [
+              "Identificação do cliente",
+              "Opcional (CPF na nota)",
+              "Obrigatória"
+            ],
+            [
+              "Regras",
+              "Definidas pelo estado",
+              "Definidas pelo estado e pelo ajuste nacional"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que o caixa precisa",
+        "paragrafos": [
+          "Um sistema de PDV com emissor de NFC-e, internet estável e certificado digital. Também é necessário um plano para o caso de a internet cair: a legislação prevê o modo de contingência, que o contador e o fornecedor do sistema devem configurar."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma padaria que emite NFC-e no caixa"
+    },
+    "faq": [
+      {
+        "pergunta": "Toda loja precisa emitir NFC-e?",
+        "resposta": "Depende do tipo de atividade, do regime tributário e da regra do seu estado. A obrigatoriedade é definida pela Secretaria da Fazenda estadual; consulte o contador."
+      },
+      {
+        "pergunta": "O que fazer se a internet cair no caixa?",
+        "resposta": "O sistema pode operar em contingência, emitindo a nota e transmitindo depois. É preciso que o PDV esteja preparado para isso, por isso pergunte ao fornecedor antes da implantação."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Portal da Nota Fiscal Eletrônica",
+        "url": "https://www.nfe.fazenda.gov.br/portal/",
+        "orgao": "Receita Federal / Encat",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "NFC-e",
+      "sigla": "NFC-e",
+      "exemploPratico": "Uma padaria com dois caixas passa a emitir NFC-e no sistema de PDV. O operador registra o pedido, o sistema envia os dados à Secretaria da Fazenda e imprime o cupom com QR Code em poucos segundos. No fim do dia, o contador recebe os XMLs das notas, e o dono compara o total vendido por forma de pagamento com o fechamento do caixa.",
+      "termosRelacionados": [
+        "NF-e",
+        "omnichannel",
+        "SKU",
+        "conciliação de vendas"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-catalogo-digital",
+    "tipo": "glossario",
+    "cluster": "ecommerce",
+    "consulta": "o que é catálogo digital",
+    "consultasSecundarias": [
+      "catálogo digital o que é",
+      "para que serve catálogo digital",
+      "catálogo digital significado"
+    ],
+    "title": "O que é catálogo digital: definição e exemplo",
+    "description": "Veja o que é catálogo digital: mostrar seus produtos online sem montar uma loja completa. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é catálogo digital",
+    "respostaDireta": "Catálogo digital é a vitrine online dos produtos da empresa, com fotos, descrição, medidas e preço, sem necessariamente ter carrinho e pagamento. O catálogo digital pode ser uma página no site ou um aplicativo, e serve para o cliente consultar e pedir orçamento ou enviar o pedido pelo WhatsApp.",
+    "secoes": [
+      {
+        "titulo": "Catálogo digital ou loja virtual",
+        "paragrafos": [
+          "Se o seu negócio vende por orçamento, tem preço por cliente ou fecha pedidos por atendimento, o catálogo digital resolve sem a complexidade de um checkout. Se o cliente compra e paga sozinho, o caminho é a loja virtual."
+        ],
+        "tabela": {
+          "colunas": [
+            "Característica",
+            "Catálogo digital",
+            "Loja virtual"
+          ],
+          "linhas": [
+            [
+              "Carrinho e pagamento",
+              "Opcional",
+              "Sim"
+            ],
+            [
+              "Pedido",
+              "Por WhatsApp, e-mail ou formulário",
+              "Finalizado no próprio site"
+            ],
+            [
+              "Preço",
+              "Pode ser sob consulta",
+              "Visível e fixo"
+            ],
+            [
+              "Estoque online",
+              "Opcional",
+              "Normalmente"
+            ],
+            [
+              "Complexidade",
+              "Menor",
+              "Maior"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que um catálogo bom tem",
+        "paragrafos": [
+          "Fotos consistentes, nome claro, código do produto, medidas, categorias fáceis de navegar e um botão visível para pedir. Mantenha o catálogo atualizado: item indisponível ainda aparecendo gera frustração. A planilha de produtos pode ser a base para alimentar o catálogo automaticamente."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma distribuidora que troca o PDF por catálogo digital"
+    },
+    "faq": [
+      {
+        "pergunta": "Catálogo digital é o mesmo que PDF de produtos?",
+        "resposta": "Não. O PDF é um arquivo parado, que fica desatualizado. O catálogo digital é uma página ou app com busca, filtros e dados atualizados a partir do cadastro de produtos da empresa."
+      },
+      {
+        "pergunta": "Dá para começar com catálogo e virar loja depois?",
+        "resposta": "Dá, e é um caminho comum. Se os produtos já estão cadastrados com SKU, fotos e preço, ligar carrinho e pagamento depois é bem mais simples."
+      }
+    ],
+    "fontes": [],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "catálogo digital",
+      "exemploPratico": "Uma distribuidora de embalagens enviava um PDF de produtos por WhatsApp, e metade dos preços já estava desatualizada. Ela passa a ter um catálogo digital alimentado pela mesma planilha do estoque: o cliente filtra por tipo, vê as medidas e envia a lista de itens pelo botão de pedido, que chega pronta ao vendedor com os códigos corretos.",
+      "termosRelacionados": [
+        "loja virtual",
+        "SKU",
+        "e-commerce",
+        "grade de produto (variação)"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-aplicativo-nativo",
+    "tipo": "glossario",
+    "cluster": "aplicativos",
+    "consulta": "o que é aplicativo nativo",
+    "consultasSecundarias": [
+      "aplicativo nativo o que é",
+      "para que serve aplicativo nativo",
+      "aplicativo nativo significado"
+    ],
+    "title": "O que é aplicativo nativo: definição e exemplo",
+    "description": "Veja o que é aplicativo nativo: app feito na linguagem própria de cada celular. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é aplicativo nativo",
+    "respostaDireta": "Aplicativo nativo é o app desenvolvido especificamente para um sistema operacional, como Android ou iOS, na linguagem e nas ferramentas oficiais dele. O aplicativo nativo acessa todos os recursos do aparelho com o melhor desempenho, mas exige um código para cada plataforma, o que costuma aumentar prazo e custo.",
+    "secoes": [
+      {
+        "titulo": "Como funciona",
+        "paragrafos": [
+          "No Android, o app nativo é escrito em Kotlin ou Java com as ferramentas do Android Studio. No iPhone, em Swift com o Xcode. Cada versão é um projeto próprio, com seu cronograma de testes e de publicação."
+        ],
+        "tabela": {
+          "colunas": [
+            "Plataforma",
+            "Linguagem típica",
+            "Ferramenta oficial",
+            "Loja"
+          ],
+          "linhas": [
+            [
+              "Android",
+              "Kotlin",
+              "Android Studio",
+              "Google Play"
+            ],
+            [
+              "iOS",
+              "Swift",
+              "Xcode",
+              "App Store"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Quando vale a pena",
+        "paragrafos": [
+          "Quando o app depende muito do aparelho, como câmera avançada, sensores, Bluetooth, processamento pesado ou animações exigentes. Para apps de pedidos, agendamento e consulta, as opções multiplataforma costumam atender bem, com um só código. A comparação com as outras opções está em /quanto-custa/app-mobile."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma empresa de medição que precisa de acesso total ao hardware"
+    },
+    "faq": [
+      {
+        "pergunta": "Aplicativo nativo é melhor que híbrido?",
+        "resposta": "Não é sempre melhor. É o mais indicado quando o app exige desempenho e recursos específicos do aparelho. Para a maioria dos apps de negócio, um só código multiplataforma entrega o resultado com menos custo."
+      },
+      {
+        "pergunta": "Preciso de dois apps para ter nativo?",
+        "resposta": "Sim, para estar nas duas lojas você precisa de uma versão para Android e outra para iPhone, cada uma com seu código, ou usar uma tecnologia multiplataforma."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Android Developers",
+        "url": "https://developer.android.com",
+        "orgao": "Android Developers",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "aplicativo nativo",
+      "exemploPratico": "Uma empresa de manutenção industrial precisa de um app que leia sensores por Bluetooth, grave medições mesmo sem internet e use a câmera para escanear plaquetas. Por depender muito do aparelho, a equipe decide pelo app nativo no Android, onde está a maioria dos celulares da frota dos técnicos, e deixa a versão para iPhone para uma segunda etapa.",
+      "termosRelacionados": [
+        "aplicativo híbrido",
+        "Android",
+        "iOS",
+        "Flutter"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-aplicativo-hibrido",
+    "tipo": "glossario",
+    "cluster": "aplicativos",
+    "consulta": "o que é aplicativo híbrido",
+    "consultasSecundarias": [
+      "aplicativo híbrido o que é",
+      "para que serve aplicativo híbrido",
+      "aplicativo híbrido significado"
+    ],
+    "title": "O que é aplicativo híbrido: definição e exemplo",
+    "description": "Veja o que é aplicativo híbrido: um só código para Android e iPhone. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é aplicativo híbrido",
+    "respostaDireta": "Aplicativo híbrido é o app construído com uma única base de código que roda em Android e iPhone. O aplicativo híbrido reduz tempo e custo frente a fazer dois apps nativos, e atende bem a maioria dos usos de negócio. Tecnologias como Flutter e React Native entram nessa categoria, embora funcionem de formas diferentes.",
+    "secoes": [
+      {
+        "titulo": "Como se compara ao nativo",
+        "paragrafos": [
+          "O ganho principal é reaproveitar o trabalho: o que se programa uma vez vale para as duas lojas. O custo é depender da evolução da tecnologia escolhida e, em casos raros, esperar suporte a recursos novos do sistema."
+        ],
+        "tabela": {
+          "colunas": [
+            "Critério",
+            "Nativo",
+            "Híbrido / multiplataforma"
+          ],
+          "linhas": [
+            [
+              "Código",
+              "Um por plataforma",
+              "Um só"
+            ],
+            [
+              "Prazo",
+              "Maior",
+              "Menor"
+            ],
+            [
+              "Acesso ao aparelho",
+              "Total e imediato",
+              "Quase total, via plugins"
+            ],
+            [
+              "Manutenção",
+              "Dobrada",
+              "Concentrada"
+            ],
+            [
+              "Indicado para",
+              "Apps muito específicos",
+              "Maioria dos apps de negócio"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Orientação de preço",
+        "paragrafos": [
+          "Na tabela pública da AndersDev, um app mobile simples fica na faixa de R$ 10.800 a R$ 27.000, e um app completo com backend, de R$ 30.000 a R$ 72.000. Cada integração, como pagamento ou push, soma um percentual ao valor. Os detalhes estão em /quanto-custa/app-mobile."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma empresa que lança o app nas duas lojas com um só projeto"
+    },
+    "faq": [
+      {
+        "pergunta": "Aplicativo híbrido é lento?",
+        "resposta": "Não necessariamente. Tecnologias atuais entregam boa fluidez para apps de negócio, como pedidos, agenda e consulta. Diferença perceptível costuma aparecer só em casos exigentes, como jogos ou edição de vídeo."
+      },
+      {
+        "pergunta": "Híbrido é o mesmo que PWA?",
+        "resposta": "Não. O PWA é um site instalável pelo navegador. O app híbrido é publicado nas lojas como um aplicativo, com acesso ao aparelho, embora tenha uma base de código única."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Tabela pública de preços da AndersDev",
+        "url": "/calculadora-app",
+        "orgao": "AndersDev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "aplicativo híbrido",
+      "exemploPratico": "Uma rede de academias quer um app para o aluno ver treinos e agendar aulas, tanto no Android quanto no iPhone. Em vez de contratar dois projetos, opta por uma tecnologia multiplataforma e lança nas duas lojas ao mesmo tempo. Uma correção na tela de agendamento é feita uma vez e chega às duas versões, e o time acompanha tudo em um só painel de erros.",
+      "termosRelacionados": [
+        "aplicativo nativo",
+        "Flutter",
+        "React Native",
+        "PWA"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-pwa",
+    "tipo": "glossario",
+    "cluster": "aplicativos",
+    "consulta": "o que é pwa",
+    "consultasSecundarias": [
+      "pwa o que é",
+      "para que serve pwa",
+      "pwa significado"
+    ],
+    "title": "O que é PWA: definição e exemplo",
+    "description": "Veja o que é PWA: um site que se instala como aplicativo. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é PWA",
+    "respostaDireta": "PWA, ou Progressive Web App, é um site construído com recursos que o fazem se comportar como um aplicativo: pode ser instalado na tela inicial, abrir em tela cheia e funcionar com conexão fraca. O PWA dispensa a loja de aplicativos e roda no navegador, com um só código para todos os aparelhos.",
+    "secoes": [
+      {
+        "titulo": "O que torna um site um PWA",
+        "paragrafos": [
+          "Um PWA é um site comum com alguns acréscimos técnicos que o navegador reconhece."
+        ],
+        "lista": [
+          "Manifesto com nome, ícones e cores do aplicativo",
+          "Service worker, que controla o cache e permite uso offline parcial",
+          "Endereço seguro (HTTPS)",
+          "Layout responsivo, que se adapta ao celular",
+          "Botão ou aviso para o usuário instalar na tela inicial",
+          "Notificações push, onde o navegador e o sistema permitirem"
+        ]
+      },
+      {
+        "titulo": "Limites a considerar",
+        "paragrafos": [
+          "O PWA não tem acesso a todos os recursos que um app tem, e o suporte varia entre navegadores e sistemas, principalmente no iPhone. Se o cliente espera encontrar sua marca na App Store ou precisa de recursos avançados do aparelho, um app publicado nas lojas é mais adequado. Consulte a documentação do web.dev sobre PWA."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma pizzaria que usa PWA para pedidos"
+    },
+    "faq": [
+      {
+        "pergunta": "PWA aparece na App Store ou no Google Play?",
+        "resposta": "Por padrão, não: ele é instalado direto pelo navegador. Existem formas de empacotá-lo para as lojas, mas isso envolve regras e adaptações próprias de cada loja."
+      },
+      {
+        "pergunta": "PWA substitui um aplicativo?",
+        "resposta": "Para muitos casos simples, como cardápio, consulta e agenda, sim. Para os que dependem de recursos do aparelho ou de presença nas lojas, o app nativo ou híbrido continua melhor."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Progressive Web Apps — web.dev",
+        "url": "https://web.dev/learn/pwa",
+        "orgao": "web.dev",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "PWA",
+      "sigla": "PWA",
+      "exemploPratico": "Uma pizzaria de bairro quer um jeito de os clientes pedirem sem pagar comissão de plataforma, mas não tem verba para dois aplicativos. Cria um PWA: o cliente abre o site, toca em instalar e passa a ter um ícone na tela do celular. O pedido chega direto na cozinha, e o cardápio atualiza sem o cliente precisar baixar nada na loja.",
+      "termosRelacionados": [
+        "aplicativo híbrido",
+        "aplicativo nativo",
+        "notificação push",
+        "mobile first"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-flutter",
+    "tipo": "glossario",
+    "cluster": "aplicativos",
+    "consulta": "o que é flutter",
+    "consultasSecundarias": [
+      "flutter o que é",
+      "para que serve flutter",
+      "flutter significado"
+    ],
+    "title": "O que é Flutter: definição e exemplo",
+    "description": "Veja o que é Flutter: a tecnologia do Google para criar apps com um só código. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é Flutter",
+    "respostaDireta": "Flutter é um kit de desenvolvimento criado pelo Google para construir aplicativos de celular, web e computador a partir de um único código. O Flutter usa a linguagem Dart e desenha a interface por conta própria, o que dá aparência igual nas plataformas e bom desempenho em apps de negócio.",
+    "secoes": [
+      {
+        "titulo": "O que o Flutter oferece",
+        "paragrafos": [
+          "Em vez de usar os componentes visuais do sistema, o Flutter desenha cada elemento da tela com seu próprio mecanismo. O resultado é um visual consistente entre Android e iPhone e liberdade para criar telas personalizadas."
+        ],
+        "lista": [
+          "Um código para Android e iOS, além de web e desktop",
+          "Recarga rápida das alterações durante o desenvolvimento",
+          "Grande coleção de componentes visuais prontos",
+          "Pacotes para câmera, mapas, pagamento, notificações e outros recursos",
+          "Documentação oficial mantida pelo Google"
+        ]
+      },
+      {
+        "titulo": "Quando escolher",
+        "paragrafos": [
+          "O Flutter é uma boa opção para apps com identidade visual própria e para empresas que querem lançar nas duas lojas com um time só. Quando o app vai ser integrado a um time que já domina JavaScript e React, o React Native pode encaixar melhor. A escolha deve considerar quem fará a manutenção depois."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma transportadora que escolhe Flutter para o app do motorista"
+    },
+    "faq": [
+      {
+        "pergunta": "Flutter é só do Google?",
+        "resposta": "Foi criado e é mantido pelo Google, mas é de código aberto e tem uma comunidade grande. Isso reduz o risco de ficar preso a um único desenvolvedor."
+      },
+      {
+        "pergunta": "Apps em Flutter são publicados normalmente nas lojas?",
+        "resposta": "Sim. O resultado é um aplicativo comum, empacotado e enviado à App Store e ao Google Play como qualquer outro, passando pela mesma revisão."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Documentação do Flutter",
+        "url": "https://docs.flutter.dev",
+        "orgao": "Flutter",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "Flutter",
+      "exemploPratico": "Uma transportadora regional quer um app para o motorista registrar entregas, fotografar canhotos e ver a rota do dia, nos celulares Android e iPhone da frota. A equipe escolhe o Flutter para ter um só projeto, usa pacotes prontos para câmera e mapas e publica nas duas lojas. As atualizações do app chegam juntas para todos os motoristas.",
+      "termosRelacionados": [
+        "React Native",
+        "aplicativo híbrido",
+        "Android",
+        "iOS"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-react-native",
+    "tipo": "glossario",
+    "cluster": "aplicativos",
+    "consulta": "o que é react native",
+    "consultasSecundarias": [
+      "react native o que é",
+      "para que serve react native",
+      "react native significado"
+    ],
+    "title": "O que é React Native: definição e exemplo",
+    "description": "Veja o que é React Native: criar apps de celular com JavaScript e React. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é React Native",
+    "respostaDireta": "React Native é uma tecnologia criada pela Meta para desenvolver aplicativos de Android e iPhone com JavaScript e React, compartilhando grande parte do código. O React Native transforma o código em componentes nativos de cada sistema, e é uma das formas mais comuns de criar um app multiplataforma.",
+    "secoes": [
+      {
+        "titulo": "Diferenças em relação ao Flutter",
+        "paragrafos": [
+          "As duas tecnologias resolvem o mesmo problema por caminhos distintos. A escolha costuma depender da equipe e do projeto, mais do que de uma superioridade técnica."
+        ],
+        "tabela": {
+          "colunas": [
+            "Ponto",
+            "React Native",
+            "Flutter"
+          ],
+          "linhas": [
+            [
+              "Linguagem",
+              "JavaScript ou TypeScript",
+              "Dart"
+            ],
+            [
+              "Interface",
+              "Componentes nativos do sistema",
+              "Desenhada pelo próprio Flutter"
+            ],
+            [
+              "Compartilhamento com web",
+              "Possível com React",
+              "Possível com Flutter Web"
+            ],
+            [
+              "Origem",
+              "Meta",
+              "Google"
+            ],
+            [
+              "Ponto forte",
+              "Aproveita quem já sabe React",
+              "Visual consistente entre plataformas"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Atualizações e manutenção",
+        "paragrafos": [
+          "Como o React Native evolui rápido, é preciso planejar atualizações de versão e de bibliotecas. Isso vale para qualquer app, mas é parte do custo de manter o app vivo depois da publicação. Plataformas de apoio, como o Expo, simplificam parte do processo de build e atualização."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma loja que aproveita seu time web para criar o app"
+    },
+    "faq": [
+      {
+        "pergunta": "React Native serve para app complexo?",
+        "resposta": "Serve para a maioria dos apps de negócio. Casos com processamento pesado ou recursos muito específicos do aparelho podem exigir módulos nativos escritos à parte."
+      },
+      {
+        "pergunta": "Preciso saber React para contratar?",
+        "resposta": "Não. Você contrata o resultado. Mas ajuda saber que, se o seu site já usa React, parte da lógica e do time pode ser aproveitada no app."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Documentação do React Native",
+        "url": "https://reactnative.dev/docs/getting-started",
+        "orgao": "React Native",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "React Native",
+      "exemploPratico": "Uma empresa de serviços com site feito em React quer um app para os clientes acompanharem ordens de serviço. Como a equipe já conhece React, escolhe o React Native: parte das regras de negócio e das chamadas à API é reaproveitada do site, e o app sai para Android e iPhone com um só código, com telas que usam os componentes de cada sistema.",
+      "termosRelacionados": [
+        "Flutter",
+        "aplicativo híbrido",
+        "atualização OTA",
+        "SDK"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-android",
+    "tipo": "glossario",
+    "cluster": "aplicativos",
+    "consulta": "o que é android",
+    "consultasSecundarias": [
+      "android o que é",
+      "para que serve android",
+      "android significado"
+    ],
+    "title": "O que é Android: definição e exemplo",
+    "description": "Veja o que é Android: o sistema da maioria dos celulares no Brasil e o que ele exige de um app. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é Android",
+    "respostaDireta": "Android é o sistema operacional móvel do Google, usado em celulares e tablets de várias marcas. Para a empresa que quer um aplicativo, Android significa publicar no Google Play, atender uma grande variedade de modelos e telas e escolher a versão mínima do sistema que o app vai aceitar.",
+    "secoes": [
+      {
+        "titulo": "O que muda ao fazer app para Android",
+        "paragrafos": [
+          "Como existem muitos fabricantes e tamanhos de tela, o app precisa ser testado em mais de um aparelho. Em compensação, o processo de publicação é, em geral, mais flexível, e há mais formas de distribuir o app."
+        ],
+        "lista": [
+          "Publicação pelo Google Play Console",
+          "Formato de pacote AAB para a loja",
+          "Variedade de aparelhos, telas e versões do sistema",
+          "Distribuição fora da loja possível, por arquivo ou loja corporativa",
+          "Linguagem oficial: Kotlin",
+          "Permissões pedidas ao usuário, como câmera e localização"
+        ]
+      },
+      {
+        "titulo": "Como decidir se começa pelo Android",
+        "paragrafos": [
+          "Veja quais aparelhos sua equipe e seus clientes usam. Em frotas de técnicos e entregadores, é comum predominar o Android. Se o público for de poder aquisitivo alto, o iPhone pode ser a prioridade. Pergunte, não suponha."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma empresa que decide a plataforma inicial pelo aparelho da equipe"
+    },
+    "faq": [
+      {
+        "pergunta": "Android e iOS: por qual começar?",
+        "resposta": "Comece pela plataforma que o seu público realmente usa. Em apps internos, pergunte à equipe. Em apps para clientes, use os dados de acesso do seu site para ver quais aparelhos aparecem."
+      },
+      {
+        "pergunta": "Preciso testar em vários celulares?",
+        "resposta": "Sim, ao menos nos modelos mais comuns do seu público, com versões diferentes do sistema. Os emuladores ajudam, mas não substituem o teste em aparelho real."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Android Developers",
+        "url": "https://developer.android.com",
+        "orgao": "Android Developers",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "Android",
+      "exemploPratico": "Uma empresa de entregas com 25 motoristas quer um app de rota. Antes de decidir, o gestor levanta os modelos de celular dos motoristas e descobre que quase todos usam Android de diferentes marcas e versões. O app é lançado primeiro no Android, testado em três modelos reais da frota, e a versão para iPhone fica de fora, por ora.",
+      "termosRelacionados": [
+        "iOS",
+        "Google Play Console",
+        "Android App Bundle (AAB)",
+        "versão mínima do sistema operacional"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-ios",
+    "tipo": "glossario",
+    "cluster": "aplicativos",
+    "consulta": "o que é ios",
+    "consultasSecundarias": [
+      "ios o que é",
+      "para que serve ios",
+      "ios significado"
+    ],
+    "title": "O que é iOS: definição e exemplo",
+    "description": "Veja o que é iOS: o sistema do iPhone e o que ele exige de um app. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é iOS",
+    "respostaDireta": "iOS é o sistema operacional do iPhone, desenvolvido pela Apple. Para a empresa que quer um aplicativo, iOS significa publicar na App Store, passar pela revisão da Apple e atender menos modelos de aparelho que no Android, com regras mais rígidas de interface e de distribuição.",
+    "secoes": [
+      {
+        "titulo": "Características do ecossistema Apple",
+        "paragrafos": [
+          "A Apple controla hardware, sistema e loja. Isso torna o ambiente mais previsível, mas dá menos liberdade de distribuição."
+        ],
+        "tabela": {
+          "colunas": [
+            "Tema",
+            "Como é no iOS"
+          ],
+          "linhas": [
+            [
+              "Loja",
+              "App Store, com revisão da Apple antes de publicar"
+            ],
+            [
+              "Conta",
+              "Programa de desenvolvedores da Apple, anual"
+            ],
+            [
+              "Ferramenta oficial",
+              "Xcode, que roda em computador Mac"
+            ],
+            [
+              "Linguagem",
+              "Swift"
+            ],
+            [
+              "Testes",
+              "TestFlight para testadores antes da publicação"
+            ],
+            [
+              "Distribuição interna",
+              "Opções específicas para empresas, com regras próprias"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que a empresa precisa providenciar",
+        "paragrafos": [
+          "Conta de desenvolvedor da empresa, aprovada pela Apple, e atenção às diretrizes de revisão, em especial sobre privacidade e pagamentos. Reservar tempo para a revisão no cronograma evita atrasos de lançamento. Detalhes e valores atuais ficam na página oficial da Apple."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma clínica que publica o app para pacientes no iPhone"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso de um Mac para fazer app de iPhone?",
+        "resposta": "Para compilar e enviar o app com as ferramentas oficiais, sim. Quem contrata um desenvolvedor não precisa ter o Mac, pois é o profissional que cuida do build e da publicação."
+      },
+      {
+        "pergunta": "Por que a App Store demora mais para aprovar?",
+        "resposta": "Porque a Apple revisa cada versão antes de liberar, conferindo diretrizes de conteúdo, privacidade e funcionamento. Prepare o app com a política de privacidade e contas de teste para a revisão."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "iOS — Apple Developer",
+        "url": "https://developer.apple.com/ios/",
+        "orgao": "Apple Developer",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "iOS",
+      "exemploPratico": "Uma clínica de estética tem pacientes que, em sua maioria, usam iPhone. Antes de lançar o app de agendamento, o desenvolvedor cria a conta da clínica no programa de desenvolvedores da Apple, envia a versão para testadores pelo TestFlight e prepara a política de privacidade e uma conta de demonstração para o revisor da App Store conseguir abrir as telas.",
+      "termosRelacionados": [
+        "Android",
+        "App Store",
+        "TestFlight",
+        "revisão de aplicativo (app review)"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-app-store",
+    "tipo": "glossario",
+    "cluster": "aplicativos",
+    "consulta": "o que é app store",
+    "consultasSecundarias": [
+      "app store o que é",
+      "para que serve app store",
+      "app store significado"
+    ],
+    "title": "O que é App Store: definição e exemplo",
+    "description": "Veja o que é App Store: a loja da Apple e o que sua empresa precisa para publicar. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é App Store",
+    "respostaDireta": "App Store é a loja oficial de aplicativos da Apple, a única forma comum de distribuir um app para o público em iPhones e iPads. Para publicar na App Store, a empresa precisa de uma conta de desenvolvedor, de um app que cumpra as diretrizes da Apple e de aprovação na revisão antes de cada lançamento.",
+    "secoes": [
+      {
+        "titulo": "Passos para publicar",
+        "paragrafos": [
+          "O caminho é sempre parecido. O que varia é o tempo de revisão e o número de ajustes pedidos pela Apple."
+        ],
+        "lista": [
+          "Criar a conta de desenvolvedor da empresa",
+          "Registrar o app na App Store Connect",
+          "Preparar ícone, capturas de tela, descrição e política de privacidade",
+          "Testar com TestFlight",
+          "Enviar a versão para revisão",
+          "Corrigir pontos apontados pela revisão, se houver",
+          "Liberar a versão ao público"
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "O que costuma travar",
+        "paragrafos": [
+          "Falta de política de privacidade, app que mostra tela vazia sem dados de teste, descrição que não bate com o que o app faz e uso de pagamento fora das regras da Apple. Leia as diretrizes antes de começar para evitar retrabalho."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma empresa que prepara o envio do primeiro app para a App Store"
+    },
+    "faq": [
+      {
+        "pergunta": "Quanto tempo leva a aprovação?",
+        "resposta": "O tempo varia e a Apple não garante prazo. Reserve alguns dias no cronograma e evite marcar lançamento em data fixa sem folga para uma eventual rejeição e reenvio."
+      },
+      {
+        "pergunta": "Posso ter o app só para meus funcionários?",
+        "resposta": "Sim, existem formas de distribuição privada pela Apple para uso interno ou para clientes específicos. As regras são diferentes das do público geral, então confira os programas indicados pela Apple."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "App Review — Apple Developer",
+        "url": "https://developer.apple.com/app-store/review/",
+        "orgao": "Apple Developer",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "App Store",
+      "exemploPratico": "Uma empresa de seguros quer lançar um app para clientes acompanharem apólices. A equipe cria a conta, registra o app, prepara capturas de tela e a política de privacidade e envia para revisão. A Apple pede uma conta de demonstração, porque o revisor não conseguia entrar. O desenvolvedor cria um login de teste, reenvia, e a versão é aprovada e liberada.",
+      "termosRelacionados": [
+        "iOS",
+        "TestFlight",
+        "revisão de aplicativo (app review)",
+        "Google Play Console"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-google-play-console",
+    "tipo": "glossario",
+    "cluster": "aplicativos",
+    "consulta": "o que é google play console",
+    "consultasSecundarias": [
+      "google play console o que é",
+      "para que serve google play console",
+      "google play console significado"
+    ],
+    "title": "O que é Google Play Console: definição e exemplo",
+    "description": "Veja o que é Google Play Console: o painel onde você publica e acompanha seu app Android. Confira um exemplo prático para pequenas e médias empresas.",
+    "h1": "O que é Google Play Console",
+    "respostaDireta": "Google Play Console é o painel do Google em que a empresa publica, atualiza e monitora seus aplicativos Android no Google Play. No Google Play Console você envia o pacote do app, preenche a ficha da loja, define países e testadores, acompanha erros, avaliações e a distribuição de cada versão.",
+    "secoes": [
+      {
+        "titulo": "O que se faz no painel",
+        "paragrafos": [
+          "O Play Console reúne a publicação e o dia a dia do app. É o lugar onde a empresa precisa ter acesso de administrador, de preferência no nome do CNPJ e não de um prestador."
+        ],
+        "lista": [
+          "Enviar o pacote AAB de cada versão",
+          "Preencher a ficha da loja: textos, ícone e imagens",
+          "Declarar política de privacidade e uso de dados do app",
+          "Criar faixas de teste interno, fechado e aberto",
+          "Escolher países e liberar de forma gradual",
+          "Acompanhar travamentos, avaliações e instalações",
+          "Responder avaliações dos usuários"
+        ]
+      },
+      {
+        "titulo": "Boas práticas de acesso",
+        "paragrafos": [
+          "Crie a conta em nome da empresa e dê ao desenvolvedor um acesso de usuário com as permissões necessárias, em vez de ele criar o app na conta pessoal dele. Se o contrato acabar, você mantém o controle do app, das avaliações e das chaves de assinatura."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma empresa que mantém a conta do Play Console em nome do CNPJ"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso de conta de desenvolvedor para publicar?",
+        "resposta": "Sim. É preciso uma conta no Google Play Console, com cadastro e verificação. Consulte a Central de Ajuda do Google Play para os requisitos e valores atuais, que mudam com o tempo."
+      },
+      {
+        "pergunta": "Quem deve ser o dono da conta?",
+        "resposta": "A empresa. Assim, a marca, as avaliações e o histórico do app ficam sob o seu controle, independentemente de quem desenvolve ou de qual prestador está ativo."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Central de Ajuda do Google Play Console",
+        "url": "https://support.google.com/googleplay/android-developer",
+        "orgao": "Google Play",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "Google Play Console",
+      "exemploPratico": "Um desenvolvedor autônomo publica o app de uma empresa de logística na própria conta pessoal. Meses depois, o contrato termina e a empresa não consegue atualizar o app. Para evitar isso no novo projeto, a empresa cria a conta do Play Console em nome do CNPJ, convida o desenvolvedor como usuário com permissão de publicar e guarda os acessos de administrador com o sócio.",
+      "termosRelacionados": [
+        "Android",
+        "Android App Bundle (AAB)",
+        "beta fechado",
+        "revisão de aplicativo (app review)"
+      ]
+    }
+  },
+  {
+    "slug": "o-que-e-android-app-bundle",
+    "tipo": "glossario",
+    "cluster": "aplicativos",
+    "consulta": "o que é android app bundle",
+    "consultasSecundarias": [
+      "o que é aab",
+      "aab android o que é",
+      "diferença entre apk e aab"
+    ],
+    "title": "O que é Android App Bundle (AAB): definição e exemplo",
+    "description": "Veja o que é Android App Bundle (AAB): o formato de pacote exigido para publicar apps no Google Play. Confira um exemplo prático para pequenas e médias.",
+    "h1": "O que é Android App Bundle (AAB)",
+    "respostaDireta": "Android App Bundle, ou AAB, é o formato de pacote que o desenvolvedor envia ao Google Play para publicar um app Android. O Android App Bundle reúne todo o código e os recursos, e a loja gera a partir dele os arquivos otimizados para cada aparelho, o que costuma reduzir o tamanho do download.",
+    "secoes": [
+      {
+        "titulo": "AAB x APK",
+        "paragrafos": [
+          "O APK é o arquivo de instalação tradicional, que contém tudo de uma vez. O AAB é um formato de publicação: ele não é instalado diretamente no celular. A loja o transforma em APKs sob medida para cada modelo."
+        ],
+        "tabela": {
+          "colunas": [
+            "Ponto",
+            "APK",
+            "AAB"
+          ],
+          "linhas": [
+            [
+              "Para que serve",
+              "Instalar direto no aparelho",
+              "Publicar na loja"
+            ],
+            [
+              "Tamanho do download",
+              "Inclui recursos de todos os aparelhos",
+              "Otimizado para cada aparelho"
+            ],
+            [
+              "Distribuição fora da loja",
+              "Possível",
+              "Não instala diretamente"
+            ],
+            [
+              "Uso no Google Play",
+              "Formato antigo",
+              "Formato padrão para publicar"
+            ],
+            [
+              "Quem o gera",
+              "Ferramentas de build",
+              "Ferramentas de build"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que importa para a empresa",
+        "paragrafos": [
+          "Você não precisa mexer no AAB, mas deve saber que o desenvolvedor entrega esse arquivo e a chave de assinatura. Guarde cópia da chave em local seguro: sem ela, não é possível atualizar o app. Para testes internos fora da loja, o time pode gerar um APK à parte."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "exemplo",
+      "descricao": "Cenário de uma empresa que guarda a chave de assinatura do app"
+    },
+    "faq": [
+      {
+        "pergunta": "Posso instalar um AAB direto no celular?",
+        "resposta": "Não. O AAB é para a loja. Para instalar direto em um aparelho de teste, o desenvolvedor gera um APK, ou usa ferramentas que extraem os pacotes do bundle."
+      },
+      {
+        "pergunta": "O que acontece se eu perder a chave de assinatura?",
+        "resposta": "Pode ficar difícil ou impossível atualizar o app da forma normal. O Google Play oferece assinatura gerenciada pela loja, que reduz esse risco. Peça ao desenvolvedor para configurar e documentar."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Android App Bundle — documentação",
+        "url": "https://developer.android.com/guide/app-bundle",
+        "orgao": "Android Developers",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "revisadoEm": "2026-11-18",
+    "onda": 1,
+    "glossario": {
+      "termo": "Android App Bundle (AAB)",
+      "sigla": "AAB",
+      "exemploPratico": "Uma loja que encomendou um app recebe do desenvolvedor, no fim do projeto, o arquivo AAB, o código-fonte e a chave de assinatura. A dona guarda a chave em dois lugares seguros, ao lado dos acessos do Play Console. Quando precisa publicar uma correção, outro desenvolvedor gera um novo AAB, e a loja de aplicativos aceita a atualização por ser assinada pela mesma chave.",
+      "termosRelacionados": [
+        "Google Play Console",
+        "Android",
+        "aplicativo nativo",
+        "versão mínima do sistema operacional"
+      ]
+    }
+  }
+]

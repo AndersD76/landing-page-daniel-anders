@@ -1,0 +1,3222 @@
+[
+  {
+    "slug": "lgpd-art-7-bases-legais",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "lgpd artigo 7",
+    "consultasSecundarias": [
+      "art 7 lgpd",
+      "bases legais da lgpd",
+      "hipóteses de tratamento de dados lgpd",
+      "lgpd art 7 incisos"
+    ],
+    "title": "LGPD artigo 7: as 10 bases legais e como escolher",
+    "description": "Veja as 10 bases legais do artigo 7 da LGPD, qual usar em cada formulário, cadastro e venda do seu site e o que guardar como prova.",
+    "h1": "LGPD artigo 7: bases legais para tratar dados pessoais",
+    "respostaDireta": "O artigo 7 da LGPD lista as dez bases legais que autorizam uma empresa a tratar dados pessoais, como consentimento, execução de contrato, obrigação legal e legítimo interesse. Sem uma dessas bases, a coleta é irregular. Para cada formulário, cadastro ou venda do seu site, escolha uma base, registre a escolha e informe ao titular.",
+    "secoes": [
+      {
+        "titulo": "Os dez incisos com exemplos de site, loja e sistema",
+        "paragrafos": [
+          "O artigo 7º diz que o tratamento de dados pessoais \"somente poderá ser realizado\" nas hipóteses dos incisos I a X. O texto não coloca uma base acima da outra: a escolha depende da finalidade de cada uso. A tabela traduz cada inciso para situações comuns de uma PME."
+        ],
+        "tabela": {
+          "colunas": [
+            "Inciso",
+            "Base legal",
+            "Exemplo prático"
+          ],
+          "linhas": [
+            [
+              "I",
+              "Consentimento do titular",
+              "Newsletter de ofertas para quem marcou a caixa de inscrição"
+            ],
+            [
+              "II",
+              "Cumprimento de obrigação legal ou regulatória",
+              "Dados do comprador na nota fiscal eletrônica"
+            ],
+            [
+              "III",
+              "Execução de políticas públicas pela administração pública",
+              "Exclusiva do poder público; empresa privada em regra não usa"
+            ],
+            [
+              "IV",
+              "Estudos por órgão de pesquisa",
+              "Só para órgão de pesquisa definido na lei; não cobre pesquisa de mercado da sua empresa"
+            ],
+            [
+              "V",
+              "Execução de contrato ou procedimentos preliminares a pedido do titular",
+              "Usar o endereço para entregar o pedido; montar o orçamento que o cliente pediu"
+            ],
+            [
+              "VI",
+              "Exercício regular de direitos em processo judicial, administrativo ou arbitral",
+              "Guardar histórico do pedido para se defender de reclamação no Procon ou na Justiça"
+            ],
+            [
+              "VII",
+              "Proteção da vida ou da incolumidade física",
+              "Passar dados de um visitante acidentado ao socorro"
+            ],
+            [
+              "VIII",
+              "Tutela da saúde, por profissionais ou serviços de saúde ou autoridade sanitária",
+              "Atendimento clínico; dado de saúde é sensível e segue o artigo 11"
+            ],
+            [
+              "IX",
+              "Legítimo interesse do controlador ou de terceiro",
+              "Registrar acessos ao painel para prevenir fraude"
+            ],
+            [
+              "X",
+              "Proteção do crédito",
+              "Consultar birô de crédito antes de vender a prazo no boleto"
+            ]
+          ],
+          "legenda": "Incisos do art. 7º da Lei nº 13.709/2018, com redação atualizada pela Lei nº 13.853/2019."
+        }
+      },
+      {
+        "titulo": "Como escolher a base certa para cada tela",
+        "paragrafos": [
+          "O erro mais caro é escolher a base pela conveniência. Comece pela finalidade e só depois procure o inciso que a sustenta. Uma mesma informação pode ter bases diferentes: o e-mail do cliente serve ao pedido (contrato) e, se ele aceitou, à newsletter (consentimento)."
+        ],
+        "lista": [
+          "Liste cada ponto de coleta: contato, cadastro, checkout, newsletter, chat, cookies de análise e área do cliente",
+          "Escreva a finalidade de cada ponto em uma frase, como \"entregar o pedido\" ou \"responder o orçamento\"",
+          "Escolha o inciso que corresponde a essa finalidade, não o que parece mais fácil",
+          "Se a base for consentimento, siga o artigo 8º: pedido destacado, finalidade específica e revogação simples",
+          "Se a base for legítimo interesse, documente a avaliação e trate só os dados estritamente necessários (art. 10, § 1º)",
+          "Anote a base no registro das operações (art. 37) e na política de privacidade",
+          "Revise sempre que a finalidade mudar, porque uma finalidade nova pode exigir outra base",
+          "Separe os dados sensíveis, como saúde e biometria: eles seguem a lista própria do artigo 11"
+        ]
+      },
+      {
+        "titulo": "Dado público não é dado liberado",
+        "paragrafos": [
+          "O § 3º manda tratar dados de acesso público considerando a finalidade, a boa-fé e o interesse público que justificaram a divulgação. O § 4º dispensa o consentimento para dados tornados manifestamente públicos pelo próprio titular, mas mantém os direitos dele e os princípios da lei. Copiar telefones de perfis de redes sociais para disparar ofertas no WhatsApp não fica autorizado só porque o número estava visível.",
+          "O § 5º exige consentimento específico para repassar a outro controlador dados obtidos por consentimento. O § 6º lembra que dispensar o consentimento não dispensa as demais obrigações. Este resumo orienta decisões de projeto e não é parecer jurídico; em casos com dados sensíveis, crianças ou grande volume, consulte um advogado."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Tabela dos 10 incisos do artigo 7 com exemplo de uso em site, loja virtual e sistema de PME, mais roteiro de escolha da base"
+    },
+    "faq": [
+      {
+        "pergunta": "Preciso de consentimento para tudo que meu site coleta?",
+        "resposta": "Não. Consentimento é só uma das dez bases do artigo 7. Entregar um pedido usa a execução de contrato; emitir nota fiscal usa obrigação legal. Pedir consentimento onde ele não é a base certa cria um problema: se o cliente revogar, você perde o fundamento de uma atividade que precisava continuar."
+      },
+      {
+        "pergunta": "Posso usar mais de uma base legal para o mesmo dado?",
+        "resposta": "Sim, desde que cada finalidade tenha a sua. O e-mail do cliente pode servir à entrega do pedido, com base no contrato, e à newsletter, com base no consentimento. O que não funciona é juntar finalidades diferentes num pedido único e genérico, porque a lei exige finalidade determinada."
+      },
+      {
+        "pergunta": "O que é legítimo interesse na prática?",
+        "resposta": "É a base do inciso IX, para usos que a empresa precisa e que o titular pode razoavelmente esperar, como prevenção de fraude. O artigo 10 limita o uso: só dados estritamente necessários, transparência e respeito aos direitos do titular. Documente a avaliação por escrito antes de começar."
+      },
+      {
+        "pergunta": "Dados de saúde dos pacientes da clínica entram no artigo 7?",
+        "resposta": "Não. Dados de saúde são dados pessoais sensíveis e seguem as hipóteses do artigo 11 da LGPD, que são mais restritas. Um sistema de clínica precisa mapear separadamente o que é dado comum, como endereço de cobrança, e o que é sensível, como prontuário e exames."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Lei nº 13.709/2018 (LGPD) — texto compilado",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Resolução CD/ANPD nº 4/2023 — Regulamento de Dosimetria e Aplicação de Sanções",
+        "url": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-4-de-24-de-fevereiro-de-2023-466146077",
+        "orgao": "Imprensa Nacional / ANPD",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Lei nº 13.709/2018 (LGPD)",
+      "dispositivo": "Art. 7º — hipóteses de tratamento de dados pessoais",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "oQuePede": [
+        "Que todo tratamento de dados pessoais se apoie em uma das dez hipóteses dos incisos I a X",
+        "Que dados de acesso público sejam tratados conforme a finalidade, a boa-fé e o interesse público da divulgação (§ 3º)",
+        "Consentimento específico para repassar a outros controladores dados obtidos por consentimento (§ 5º)",
+        "Respeito aos princípios e aos direitos do titular mesmo quando o consentimento é dispensado (§ 6º)"
+      ],
+      "oQueCobram": [
+        "Em fiscalização, a ANPD pode pedir o registro das operações (art. 37), onde a base de cada tratamento deve aparecer",
+        "Pelo Regulamento de Dosimetria (Resolução CD/ANPD nº 4/2023, art. 8º, § 3º), tratar dados sem hipótese legal pode tornar grave uma infração que afete significativamente os titulares",
+        "Em reclamação de titular, a empresa precisa explicar com qual base tratou aquele dado"
+      ],
+      "evidencias": [
+        "Registro que liga cada ponto de coleta a uma finalidade e a uma base legal",
+        "Avaliação escrita do legítimo interesse, quando usar o inciso IX",
+        "Prova do consentimento (data, hora, texto exibido e versão), quando usar o inciso I",
+        "Pedido, contrato ou orçamento que justifica o uso com base no inciso V"
+      ],
+      "errosComuns": [
+        "Pedir consentimento até para entregar o pedido e ficar sem base quando o cliente revoga",
+        "Usar o legítimo interesse como coringa, sem documentar a avaliação",
+        "Tratar dado visível na internet como livre para qualquer finalidade",
+        "Usar a base de órgão de pesquisa (inciso IV) para pesquisa de mercado da própria empresa"
+      ]
+    }
+  },
+  {
+    "slug": "lgpd-art-8-consentimento",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "lgpd artigo 8 consentimento",
+    "consultasSecundarias": [
+      "art 8 lgpd",
+      "consentimento lgpd como coletar",
+      "prova de consentimento lgpd",
+      "revogação do consentimento lgpd"
+    ],
+    "title": "LGPD artigo 8: consentimento válido e como provar",
+    "description": "Entenda o artigo 8 da LGPD: como pedir consentimento no site, o que guardar como prova e como permitir a revogação. Confira o checklist.",
+    "h1": "LGPD artigo 8: como coletar e provar o consentimento",
+    "respostaDireta": "O artigo 8 da LGPD define como o consentimento deve ser coletado: por escrito ou outro meio que demonstre a vontade do titular, para finalidade determinada e com revogação gratuita e facilitada. O ônus da prova é da empresa. No site, isso significa caixa não marcada, texto claro e registro de quem aceitou, quando e o quê.",
+    "secoes": [
+      {
+        "titulo": "Cada parágrafo do artigo 8 traduzido para a interface",
+        "paragrafos": [
+          "O artigo trata só do consentimento, a base do inciso I do artigo 7º. A definição está no artigo 5º, XII: manifestação livre, informada e inequívoca para uma finalidade determinada. A tabela mostra como cada regra aparece na tela."
+        ],
+        "tabela": {
+          "colunas": [
+            "Regra",
+            "O que o texto diz",
+            "Como fica no site ou app"
+          ],
+          "linhas": [
+            [
+              "Caput",
+              "Por escrito ou outro meio que demonstre a vontade do titular",
+              "Caixa desmarcada, botão específico ou confirmação por e-mail"
+            ],
+            [
+              "§ 1º",
+              "Em contrato escrito, cláusula destacada das demais",
+              "Caixa própria, fora do bloco de termos de uso"
+            ],
+            [
+              "§ 2º",
+              "Ônus da prova é do controlador",
+              "Log com data, hora, identificador do usuário e versão do texto"
+            ],
+            [
+              "§ 3º",
+              "Proibido tratar dados com vício de consentimento",
+              "Sem informação enganosa, pressão ou botão que confunde"
+            ],
+            [
+              "§ 4º",
+              "Finalidade determinada; autorização genérica é nula",
+              "Uma caixa por finalidade: e-mail, WhatsApp, parceiros"
+            ],
+            [
+              "§ 5º",
+              "Revogação a qualquer momento, gratuita e facilitada",
+              "Link de descadastro em toda mensagem e opção na área do cliente"
+            ],
+            [
+              "§ 6º",
+              "Mudança relevante deve ser informada com destaque",
+              "Aviso destacado com opção de revogar se discordar"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Checklist do consentimento bem feito",
+        "paragrafos": [
+          "Use esta lista ao revisar formulários, pop-ups de inscrição e o banner de cookies."
+        ],
+        "lista": [
+          "Caixa de seleção desmarcada por padrão, separada do aceite dos termos de uso",
+          "Texto ao lado da caixa com a finalidade concreta, como \"receber ofertas por WhatsApp\"",
+          "Uma caixa para cada finalidade diferente",
+          "Gravação no banco do identificador do titular, data e hora, canal, texto exibido e versão da política",
+          "Revogação tão simples quanto o aceite, sem login complicado nem justificativa",
+          "Rotina que, ao revogar, interrompe os envios e grava a data da revogação",
+          "Aviso destacado quando a finalidade mudar, com nova chance de aceitar ou recusar",
+          "Conferência prévia de que consentimento é mesmo a base certa para aquele uso"
+        ]
+      },
+      {
+        "titulo": "Quando a revogação chega",
+        "paragrafos": [
+          "O § 5º diz que a revogação confirma os tratamentos feitos enquanto o consentimento valia, até que haja pedido de eliminação. Na prática, você para de usar o dado para aquela finalidade a partir do pedido, mas não precisa desfazer o que já foi feito. Se o titular pedir também a eliminação, entra o artigo 18, VI.",
+          "Para cookies, a ANPD publicou um guia orientativo que trata de banners e consentimento. Este conteúdo resume a lei para quem decide sobre o site e não substitui parecer jurídico."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "checklist",
+      "descricao": "Checklist de 8 itens para formulários e banners, com a tradução de cada parágrafo do artigo 8 para a interface"
+    },
+    "faq": [
+      {
+        "pergunta": "O \"Li e concordo\" dos termos de uso vale como consentimento?",
+        "resposta": "Para o contrato, ele mostra que o cliente aceitou as regras de uso. Para tratamentos baseados em consentimento, como marketing, não basta: a lei pede finalidade determinada e, em contrato escrito, cláusula destacada. Use caixas separadas para cada finalidade opcional."
+      },
+      {
+        "pergunta": "Consentimento pelo WhatsApp vale?",
+        "resposta": "Pode valer, porque o artigo 8 aceita qualquer meio que demonstre a vontade do titular. O problema é a prova: guarde a mensagem com data e hora, o texto apresentado e o número que respondeu. Sem isso, fica difícil demonstrar o aceite se houver reclamação."
+      },
+      {
+        "pergunta": "Se o cliente revogar, preciso apagar tudo?",
+        "resposta": "Não necessariamente. A revogação vale dali para frente e confirma o que já foi feito. A eliminação dos dados tratados com consentimento é outro direito, do artigo 18, VI, e depende de pedido. Dados com outra base, como os da nota fiscal, continuam guardados pelo prazo da obrigação."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Lei nº 13.709/2018 (LGPD) — texto compilado",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Guia orientativo: cookies e proteção de dados pessoais",
+        "url": "https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia-orientativo-cookies-e-protecao-de-dados-pessoais.pdf",
+        "orgao": "ANPD",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Lei nº 13.709/2018 (LGPD)",
+      "dispositivo": "Art. 8º — forma, prova e revogação do consentimento",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "oQuePede": [
+        "Consentimento por escrito ou por outro meio que demonstre a vontade do titular (caput)",
+        "Cláusula destacada quando o consentimento estiver em contrato escrito (§ 1º)",
+        "Finalidade determinada; autorizações genéricas são nulas (§ 4º)",
+        "Revogação a qualquer momento, por procedimento gratuito e facilitado (§ 5º)"
+      ],
+      "oQueCobram": [
+        "Como o ônus da prova é do controlador (§ 2º), em reclamação ou fiscalização a empresa precisa mostrar o registro do aceite",
+        "Revogação que funcione de fato, com o mesmo nível de esforço do aceite",
+        "Aviso destacado ao titular quando finalidade, forma, controlador ou compartilhamento mudarem (§ 6º)"
+      ],
+      "evidencias": [
+        "Log de consentimento com data, hora, canal e identificador do titular",
+        "Cópia de cada versão do texto exibido junto à caixa de aceite",
+        "Log de revogações e prova de que os envios pararam",
+        "Comunicados enviados quando a finalidade ou o compartilhamento mudou"
+      ],
+      "errosComuns": [
+        "Caixa já marcada ou aceite embutido no botão de finalizar compra",
+        "Um único \"Li e aceito\" para termos de uso, política de privacidade e marketing",
+        "Guardar só \"aceitou = sim\", sem data nem versão do texto",
+        "Descadastro que exige login, ligação ou justificativa"
+      ]
+    }
+  },
+  {
+    "slug": "lgpd-art-9-informacao-ao-titular",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "lgpd artigo 9",
+    "consultasSecundarias": [
+      "art 9 lgpd",
+      "direito à informação lgpd",
+      "o que colocar na política de privacidade",
+      "acesso facilitado às informações lgpd"
+    ],
+    "title": "LGPD artigo 9: o que informar ao titular no seu site",
+    "description": "O artigo 9 da LGPD lista o que o titular precisa saber sobre o uso dos dados dele. Veja como transformar isso numa política de privacidade útil.",
+    "h1": "LGPD artigo 9: o que a empresa precisa informar ao titular",
+    "respostaDireta": "O artigo 9 da LGPD garante ao titular acesso facilitado a sete informações sobre o tratamento dos dados dele: finalidade, forma e duração, quem é o controlador, como contatá-lo, com quem os dados são compartilhados, responsabilidades dos agentes e direitos do titular. No site, isso vira uma política de privacidade clara e avisos curtos no ponto de coleta.",
+    "secoes": [
+      {
+        "titulo": "As sete informações e um exemplo de redação",
+        "paragrafos": [
+          "O caput pede que as informações sejam claras, adequadas e ostensivas. A tabela usa uma loja virtual como exemplo; adapte para o que o seu site realmente faz."
+        ],
+        "tabela": {
+          "colunas": [
+            "Inciso",
+            "Informação",
+            "Exemplo de redação"
+          ],
+          "linhas": [
+            [
+              "I",
+              "Finalidade específica",
+              "Usamos seu endereço para entregar o pedido e calcular o frete"
+            ],
+            [
+              "II",
+              "Forma e duração do tratamento",
+              "Os dados do pedido ficam no sistema da loja pelo prazo exigido pela legislação fiscal"
+            ],
+            [
+              "III",
+              "Identificação do controlador",
+              "Razão social e CNPJ da empresa que decide sobre os dados"
+            ],
+            [
+              "IV",
+              "Contato do controlador",
+              "E-mail ou formulário específico para assuntos de privacidade"
+            ],
+            [
+              "V",
+              "Uso compartilhado e finalidade",
+              "Transportadora para entrega, gateway para cobrança, ferramenta de e-mail para mensagens"
+            ],
+            [
+              "VI",
+              "Responsabilidades dos agentes",
+              "Quem decide (controlador) e quem executa em nome dele (operador, como a hospedagem)"
+            ],
+            [
+              "VII",
+              "Direitos do titular, citando o art. 18",
+              "Lista dos direitos e o caminho para exercê-los"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Clara, adequada e ostensiva: o que muda no layout",
+        "paragrafos": [
+          "Ostensiva quer dizer fácil de achar. Um link para a política no rodapé de todas as páginas e outro junto de cada formulário resolvem a parte de acesso. Um aviso curto ao lado do campo, com link para o texto completo, ajuda o titular a entender na hora em que entrega o dado.",
+          "O § 3º pede destaque quando o tratamento for condição para fornecer o produto ou serviço. No checkout, por exemplo, diga que sem endereço não há entrega. O § 1º anula o consentimento obtido com informação enganosa ou não apresentada antes, e o § 2º exige aviso prévio se a finalidade mudar de forma incompatível.",
+          "Este texto é informativo e não substitui parecer jurídico sobre a política da sua empresa."
+        ]
+      },
+      {
+        "titulo": "Checklist para revisar a política de privacidade",
+        "paragrafos": [],
+        "lista": [
+          "Nome empresarial e CNPJ do controlador visíveis",
+          "Canal de contato para privacidade que alguém de fato acompanha",
+          "Finalidade descrita por tipo de dado, sem frases genéricas como \"melhorar sua experiência\"",
+          "Lista de quem recebe dados, por categoria e com a finalidade",
+          "Prazo ou critério de guarda para cada tipo de dado",
+          "Direitos do artigo 18 citados de forma explícita, com o caminho para exercê-los",
+          "Aviso no formulário quando o dado for condição para o serviço",
+          "Data da última atualização e versões anteriores arquivadas",
+          "Linguagem que o seu cliente entende, sem texto copiado de outra empresa"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Tabela das 7 informações do artigo 9 com exemplo de redação para loja virtual e checklist de revisão da política"
+    },
+    "faq": [
+      {
+        "pergunta": "Política de privacidade é obrigatória?",
+        "resposta": "A LGPD não usa o nome \"política de privacidade\", mas o artigo 9 obriga a disponibilizar as informações sobre o tratamento de forma clara e acessível. Para um site, a forma mais prática de cumprir é uma página própria, com link no rodapé e nos formulários, trazendo as sete informações do artigo."
+      },
+      {
+        "pergunta": "Posso usar um gerador de política de privacidade?",
+        "resposta": "Pode servir de ponto de partida, mas o texto precisa refletir o que o seu site faz: quais dados coleta, para quê, com quem compartilha e por quanto tempo guarda. Uma política que descreve tratamentos inexistentes, ou omite os reais, não cumpre o artigo 9."
+      },
+      {
+        "pergunta": "Quem não tem site também precisa informar o titular?",
+        "resposta": "Sim. A obrigação vale para qualquer tratamento. Para agentes de pequeno porte, a Resolução CD/ANPD nº 2/2022 aceita que as informações sejam dadas por meio eletrônico, impresso ou qualquer outro que garanta acesso facilitado, como um aviso no balcão ou uma mensagem automática no WhatsApp."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Lei nº 13.709/2018 (LGPD) — texto compilado",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Resolução CD/ANPD nº 2/2022 — agentes de tratamento de pequeno porte",
+        "url": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-2-de-27-de-janeiro-de-2022-376562019",
+        "orgao": "Imprensa Nacional / ANPD",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Lei nº 13.709/2018 (LGPD)",
+      "dispositivo": "Art. 9º — acesso facilitado às informações sobre o tratamento",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "oQuePede": [
+        "Informações sobre o tratamento disponíveis de forma clara, adequada e ostensiva (caput)",
+        "Sete itens mínimos: finalidade, forma e duração, identificação e contato do controlador, uso compartilhado, responsabilidades e direitos (incisos I a VII)",
+        "Informação prévia e transparente quando a base for consentimento, sob pena de nulidade (§ 1º)",
+        "Destaque quando o tratamento for condição para fornecer produto ou serviço (§ 3º)"
+      ],
+      "oQueCobram": [
+        "Identificação do controlador e canal de contato funcionando",
+        "Finalidades descritas de forma que o titular entenda o uso real",
+        "Menção explícita aos direitos do artigo 18, exigida pelo inciso VII",
+        "Para agentes de pequeno porte, informação por meio eletrônico, impresso ou outro (Resolução CD/ANPD nº 2/2022, art. 7º)"
+      ],
+      "evidencias": [
+        "Versões datadas da política de privacidade e dos avisos de coleta",
+        "Capturas das telas de coleta mostrando onde o aviso aparece",
+        "Lista atualizada de operadores e parceiros que recebem dados"
+      ],
+      "errosComuns": [
+        "Copiar a política de outra empresa, com finalidades e parceiros que não são os seus",
+        "Esconder a política em link sem destaque ou em PDF difícil de abrir no celular",
+        "Mudar a finalidade e só trocar o texto, sem avisar quem já está na base"
+      ]
+    }
+  },
+  {
+    "slug": "lgpd-art-18-direitos-do-titular",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "lgpd artigo 18 direitos do titular",
+    "consultasSecundarias": [
+      "art 18 lgpd",
+      "direitos do titular lgpd",
+      "prazo para responder titular lgpd",
+      "pedido de exclusão de dados lgpd"
+    ],
+    "title": "LGPD artigo 18: direitos do titular e prazos de resposta",
+    "description": "Os 9 direitos do artigo 18 da LGPD, os prazos de resposta e como montar o atendimento no seu sistema. Veja o fluxo e o que registrar.",
+    "h1": "LGPD artigo 18: direitos do titular dos dados",
+    "respostaDireta": "O artigo 18 da LGPD lista os direitos do titular, que podem ser exercidos a qualquer momento e sem custo: confirmação de tratamento, acesso, correção, anonimização ou eliminação, portabilidade, informação sobre compartilhamento e revogação do consentimento. Para a empresa, isso exige um canal de pedidos, verificação de identidade e um processo para responder dentro do prazo.",
+    "secoes": [
+      {
+        "titulo": "Os nove direitos e a função que o sistema precisa ter",
+        "paragrafos": [
+          "Cada direito vira uma capacidade técnica. Se o seu sistema não consegue localizar, exportar ou apagar os dados de uma pessoa, o atendimento fica manual, lento e sujeito a erro."
+        ],
+        "tabela": {
+          "colunas": [
+            "Inciso",
+            "Direito",
+            "O que o sistema precisa permitir"
+          ],
+          "linhas": [
+            [
+              "I",
+              "Confirmação da existência de tratamento",
+              "Buscar o titular por CPF ou e-mail em todas as bases"
+            ],
+            [
+              "II",
+              "Acesso aos dados",
+              "Gerar relatório legível com tudo que existe sobre ele"
+            ],
+            [
+              "III",
+              "Correção de dados incompletos, inexatos ou desatualizados",
+              "Editar cadastro pela área do cliente ou pelo atendimento"
+            ],
+            [
+              "IV",
+              "Anonimização, bloqueio ou eliminação de dados desnecessários ou excessivos",
+              "Bloquear ou apagar campos sem quebrar pedidos antigos"
+            ],
+            [
+              "V",
+              "Portabilidade, conforme regulamentação da ANPD",
+              "Exportar em formato estruturado"
+            ],
+            [
+              "VI",
+              "Eliminação dos dados tratados com consentimento",
+              "Apagar dados de marketing e manter os de obrigação legal"
+            ],
+            [
+              "VII",
+              "Informação sobre uso compartilhado",
+              "Listar parceiros e operadores que receberam os dados"
+            ],
+            [
+              "VIII",
+              "Informação sobre não consentir e suas consequências",
+              "Explicar o que o titular perde ao recusar"
+            ],
+            [
+              "IX",
+              "Revogação do consentimento",
+              "Descadastro simples, com efeito imediato nos envios"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Prazos: o que a lei fixa e o que depende de regulamento",
+        "paragrafos": [
+          "O § 5º diz que o pedido será atendido sem custos, nos prazos do regulamento. Para confirmação e acesso, o artigo 19 já fixa: formato simplificado de imediato, ou declaração clara e completa em até 15 dias contados do requerimento. Agentes de pequeno porte têm prazo em dobro para a declaração completa (Resolução CD/ANPD nº 2/2022, art. 14).",
+          "Se não der para atender de imediato, o § 4º manda responder explicando o motivo ou indicando quem é o agente de tratamento. O § 6º obriga a avisar quem recebeu os dados sobre correção, eliminação, anonimização ou bloqueio. Este resumo não é parecer jurídico; casos com dados sensíveis pedem análise individual."
+        ]
+      },
+      {
+        "titulo": "Fluxo de atendimento em sete passos",
+        "paragrafos": [],
+        "listaOrdenada": true,
+        "lista": [
+          "Canal único divulgado na política: formulário ou e-mail de privacidade",
+          "Registro do pedido com data, número de protocolo e tipo de direito",
+          "Verificação de identidade proporcional, como confirmação pelo e-mail cadastrado",
+          "Busca em todos os lugares: loja, ERP, e-mail marketing, planilhas e WhatsApp",
+          "Resposta dentro do prazo, ou resposta que explica o impedimento",
+          "Aviso aos operadores e parceiros quando houver correção ou eliminação",
+          "Arquivo do protocolo com a resposta enviada"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Tabela dos 9 direitos do artigo 18 com a função que o sistema precisa ter, mais fluxo de atendimento em 7 passos"
+    },
+    "faq": [
+      {
+        "pergunta": "Qual o prazo para responder um pedido de acesso?",
+        "resposta": "A confirmação ou o acesso em formato simplificado deve ser imediato. A declaração clara e completa, com origem dos dados, critérios e finalidade, deve sair em até 15 dias do pedido, pelo artigo 19. Agentes de pequeno porte têm prazo em dobro para essa declaração, conforme a Resolução CD/ANPD nº 2/2022."
+      },
+      {
+        "pergunta": "O cliente pediu para apagar tudo. Preciso apagar as notas fiscais?",
+        "resposta": "Não. O artigo 16 autoriza conservar dados para cumprir obrigação legal ou regulatória, e a eliminação do inciso VI se refere aos dados tratados com consentimento. Explique na resposta quais dados foram apagados, quais ficaram e por qual motivo."
+      },
+      {
+        "pergunta": "Posso cobrar para entregar os dados ao titular?",
+        "resposta": "Não. O § 5º do artigo 18 diz que o requerimento será atendido sem custos para o titular. Você pode organizar o atendimento por um canal específico, mas não pode cobrar taxa nem condicionar a resposta a compra ou contratação."
+      },
+      {
+        "pergunta": "O que acontece se eu ignorar o pedido?",
+        "resposta": "O titular pode levar a reclamação à ANPD e a organismos de defesa do consumidor, como o Procon, conforme os §§ 1º e 8º do artigo 18. Ignorar o pedido também enfraquece a defesa da empresa num eventual processo, porque mostra falta de procedimento."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Lei nº 13.709/2018 (LGPD) — texto compilado",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Resolução CD/ANPD nº 2/2022 — agentes de tratamento de pequeno porte",
+        "url": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-2-de-27-de-janeiro-de-2022-376562019",
+        "orgao": "Imprensa Nacional / ANPD",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Lei nº 13.709/2018 (LGPD)",
+      "dispositivo": "Art. 18 — direitos do titular (com prazos do art. 19)",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "oQuePede": [
+        "Atender nove direitos mediante requisição do titular ou de representante legal (incisos I a IX e § 3º)",
+        "Atendimento sem custos, nos prazos do regulamento (§ 5º)",
+        "Resposta justificada quando não for possível atender de imediato (§ 4º)",
+        "Aviso aos agentes que receberam os dados sobre correção, eliminação, anonimização ou bloqueio (§ 6º)"
+      ],
+      "oQueCobram": [
+        "O titular pode peticionar contra o controlador na ANPD (§ 1º) e em organismos de defesa do consumidor, como o Procon (§ 8º)",
+        "Declaração completa de acesso em até 15 dias (art. 19, II), em dobro para agentes de pequeno porte",
+        "Atendimento sem taxa e sem obstáculos injustificados"
+      ],
+      "evidencias": [
+        "Protocolo de cada pedido com data de entrada e de resposta",
+        "Cópia da resposta e do arquivo de dados entregue",
+        "Registro do que foi excluído e do que ficou por obrigação legal, com o motivo",
+        "Comunicação aos operadores sobre correções e exclusões"
+      ],
+      "errosComuns": [
+        "Não ter canal definido e deixar pedidos se perderem no WhatsApp dos vendedores",
+        "Apagar o cadastro inteiro, inclusive dados fiscais que precisam ser guardados",
+        "Excluir do sistema principal e esquecer a cópia no e-mail marketing ou em planilhas",
+        "Responder sem verificar se quem pediu é mesmo o titular"
+      ]
+    }
+  },
+  {
+    "slug": "lgpd-art-37-registro-das-operacoes",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "lgpd artigo 37 registro das operações",
+    "consultasSecundarias": [
+      "art 37 lgpd",
+      "registro das operações de tratamento",
+      "inventário de dados pessoais",
+      "modelo de registro de tratamento anpd"
+    ],
+    "title": "LGPD artigo 37: registro das operações de tratamento",
+    "description": "O que o artigo 37 da LGPD exige, quais campos o registro precisa ter e como montá-lo a partir do seu sistema. Veja a tabela de exemplo.",
+    "h1": "LGPD artigo 37: registro das operações de tratamento de dados",
+    "respostaDireta": "O artigo 37 da LGPD obriga controlador e operador a manter registro das operações de tratamento de dados pessoais que realizam, especialmente quando a base é o legítimo interesse. Na prática, é um inventário: que dados você coleta, de quem, para quê, com qual base legal, com quem compartilha, por quanto tempo guarda e como protege.",
+    "secoes": [
+      {
+        "titulo": "O que o artigo diz e o que ele deixa em aberto",
+        "paragrafos": [
+          "O artigo tem uma frase só e não define formato. Quem detalhou foi a ANPD. A Resolução CD/ANPD nº 2/2022 (art. 9º) permite que agentes de pequeno porte façam o registro de forma simplificada, e em 14 de junho de 2023 a ANPD publicou um modelo com oito campos: contato da instituição, categorias de titulares, dados pessoais, compartilhamento, medidas de segurança, período de armazenamento, processo com finalidade e hipótese legal, e observações.",
+          "O registro não é enviado periodicamente. Ele fica com a empresa e é apresentado quando pedido, por exemplo após um incidente de segurança (Resolução CD/ANPD nº 15/2024, art. 8º)."
+        ]
+      },
+      {
+        "titulo": "Exemplo de registro para uma loja virtual",
+        "paragrafos": [
+          "Cada linha é um processo, não um sistema. O mesmo banco de dados pode aparecer em várias linhas."
+        ],
+        "tabela": {
+          "colunas": [
+            "Processo",
+            "Dados",
+            "Finalidade e base",
+            "Compartilhado com",
+            "Guarda"
+          ],
+          "linhas": [
+            [
+              "Cadastro e pedido",
+              "Nome, CPF, e-mail, telefone, endereço",
+              "Entregar e cobrar — contrato (art. 7º, V)",
+              "Transportadora e gateway",
+              "Enquanto a conta existir, mais o prazo legal"
+            ],
+            [
+              "Nota fiscal",
+              "Nome, CPF, endereço, itens",
+              "Obrigação legal (art. 7º, II)",
+              "Emissor fiscal e Fisco",
+              "Prazo da legislação fiscal"
+            ],
+            [
+              "Newsletter",
+              "Nome e e-mail",
+              "Ofertas — consentimento (art. 7º, I)",
+              "Ferramenta de e-mail",
+              "Até a revogação"
+            ],
+            [
+              "Antifraude no checkout",
+              "IP, dispositivo, histórico de compras",
+              "Segurança — legítimo interesse (art. 7º, IX)",
+              "Serviço antifraude",
+              "Prazo definido e justificado"
+            ],
+            [
+              "Registros de acesso",
+              "IP, data e hora",
+              "Marco Civil, art. 15",
+              "Hospedagem",
+              "6 meses"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como montar e manter o registro",
+        "paragrafos": [
+          "Este roteiro não é parecer jurídico; serve para organizar a informação que um advogado ou encarregado vai revisar."
+        ],
+        "lista": [
+          "Comece pelas telas do sistema: cada formulário e cada integração vira pelo menos uma linha",
+          "Inclua o que está fora do sistema: planilhas, WhatsApp, e-mail e papel",
+          "Identifique os operadores: hospedagem, e-mail, ERP, gateway, contabilidade",
+          "Escreva a base legal de cada linha e justifique à parte as de legítimo interesse",
+          "Defina prazo ou critério de guarda para cada tipo de dado",
+          "Anote as medidas de segurança principais, como controle de acesso, backup e criptografia",
+          "Revise o registro sempre que uma funcionalidade nova entrar no ar",
+          "Guarde versões datadas para mostrar a evolução"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Registro de exemplo de uma loja virtual com 5 processos, base legal, compartilhamento e prazo de guarda"
+    },
+    "faq": [
+      {
+        "pergunta": "Existe modelo oficial do registro?",
+        "resposta": "Para agentes de pequeno porte, sim. A ANPD publicou em junho de 2023 um modelo simplificado, em Excel e PDF, com oito campos, como categorias de titulares, dados, compartilhamento, medidas de segurança, prazo de armazenamento e hipótese legal. Empresas maiores podem partir dele e detalhar mais."
+      },
+      {
+        "pergunta": "Preciso enviar o registro para a ANPD?",
+        "resposta": "Não há envio periódico. O registro fica com a empresa e é apresentado quando a ANPD solicitar, por exemplo em fiscalização ou depois de um incidente de segurança, como prevê o artigo 8º do regulamento de comunicação de incidentes."
+      },
+      {
+        "pergunta": "O desenvolvedor do meu sistema também precisa ter registro?",
+        "resposta": "Se ele trata dados pessoais em seu nome, como em suporte com acesso ao banco ou na hospedagem, atua como operador. O artigo 37 vale para controlador e operador, então ele também deve manter o registro das operações que realiza para você."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Lei nº 13.709/2018 (LGPD) — texto compilado",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Resolução CD/ANPD nº 2/2022 — agentes de tratamento de pequeno porte",
+        "url": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-2-de-27-de-janeiro-de-2022-376562019",
+        "orgao": "Imprensa Nacional / ANPD",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "ANPD divulga modelo de registro simplificado para agentes de pequeno porte",
+        "url": "https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-divulga-modelo-de-registro-simplificado-de-operacoes-com-dados-pessoais-para-agentes-de-tratamento-de-pequeno-porte-atpp",
+        "orgao": "ANPD",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Resolução CD/ANPD nº 15/2024 — Regulamento de Comunicação de Incidente de Segurança",
+        "url": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-15-de-24-de-abril-de-2024-556243024",
+        "orgao": "Imprensa Nacional / ANPD",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Lei nº 12.965/2014 (Marco Civil da Internet)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Lei nº 13.709/2018 (LGPD)",
+      "dispositivo": "Art. 37 — registro das operações de tratamento",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "oQuePede": [
+        "Controlador e operador mantêm registro das operações de tratamento que realizam",
+        "Atenção especial às operações baseadas em legítimo interesse",
+        "Agentes de pequeno porte podem fazer o registro de forma simplificada (Resolução CD/ANPD nº 2/2022, art. 9º)"
+      ],
+      "oQueCobram": [
+        "Após incidente, a ANPD pode pedir o registro das operações dos dados afetados (Resolução CD/ANPD nº 15/2024, art. 8º)",
+        "Em fiscalização, o registro precisa mostrar base legal e prazo de guarda de cada tratamento",
+        "Coerência entre o registro, a política de privacidade e o que o sistema faz"
+      ],
+      "evidencias": [
+        "Documento ou planilha de registro com a data de cada revisão",
+        "Lista de operadores com contrato ou cláusula de tratamento de dados",
+        "Justificativa escrita das operações baseadas em legítimo interesse"
+      ],
+      "errosComuns": [
+        "Fazer o registro uma vez e nunca mais atualizar",
+        "Registrar só o sistema principal e ignorar planilhas e WhatsApp",
+        "Achar que o operador (agência, desenvolvedor, hospedagem) não precisa de registro próprio"
+      ]
+    }
+  },
+  {
+    "slug": "lgpd-art-41-encarregado",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "lgpd artigo 41 encarregado",
+    "consultasSecundarias": [
+      "encarregado de dados lgpd",
+      "dpo é obrigatório",
+      "art 41 lgpd",
+      "resolução anpd 18 encarregado"
+    ],
+    "title": "LGPD artigo 41: encarregado de dados (DPO) e Resolução 18",
+    "description": "Quem precisa indicar encarregado pela LGPD, o que a Resolução CD/ANPD 18/2024 exige e como divulgar o contato no site. Confira o checklist.",
+    "h1": "LGPD artigo 41: encarregado pelo tratamento de dados",
+    "respostaDireta": "O artigo 41 da LGPD obriga o controlador a indicar um encarregado pelo tratamento de dados pessoais, o DPO, e a divulgar identidade e contato dele, de preferência no site. A Resolução CD/ANPD nº 18/2024 detalha indicação, atribuições e conflito de interesse. Agentes de pequeno porte podem ser dispensados, desde que mantenham canal com o titular.",
+    "secoes": [
+      {
+        "titulo": "O que a lei e a Resolução 18/2024 exigem",
+        "paragrafos": [
+          "O artigo 41 tem quatro regras: indicar o encarregado, divulgar identidade e contato, definir as atividades dele e permitir que a ANPD crie normas complementares. A Resolução CD/ANPD nº 18, de 16 de julho de 2024, fez esse detalhamento. Os pontos que mais afetam uma PME estão na tabela."
+        ],
+        "tabela": {
+          "colunas": [
+            "Tema",
+            "Regra",
+            "Onde está"
+          ],
+          "linhas": [
+            [
+              "Indicação",
+              "Ato formal escrito, datado e assinado, com formas de atuação e atividades",
+              "Res. 18/2024, art. 3º"
+            ],
+            [
+              "Substituto",
+              "Designado formalmente para ausências e impedimentos",
+              "Res. 18/2024, art. 4º"
+            ],
+            [
+              "Divulgação",
+              "Nome e contato em local de destaque no site; sem site, nos canais usados com os titulares",
+              "LGPD, art. 41, § 1º; Res. 18, art. 9º"
+            ],
+            [
+              "Quem pode ser",
+              "Pessoa natural, interna ou externa, ou pessoa jurídica",
+              "Res. 18/2024, art. 12"
+            ],
+            [
+              "Formação",
+              "Não exige inscrição, certificação ou formação específica",
+              "Res. 18/2024, art. 14"
+            ],
+            [
+              "Idioma",
+              "Comunicar-se com titulares e ANPD de forma clara, em português",
+              "Res. 18/2024, art. 13"
+            ],
+            [
+              "Responsabilidade",
+              "A conformidade continua sendo do agente de tratamento",
+              "Res. 18/2024, arts. 11 e 17"
+            ],
+            [
+              "Operador",
+              "Indicação facultativa, conta como boa prática de governança",
+              "Res. 18/2024, art. 6º"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Quem pode ser dispensado",
+        "paragrafos": [
+          "A Resolução CD/ANPD nº 2/2022 (art. 11) dispensa os agentes de tratamento de pequeno porte, como microempresas, empresas de pequeno porte e startups, de indicar encarregado. Em troca, eles precisam manter um canal de comunicação com o titular. Indicar mesmo assim conta como política de boas práticas na hora de dosar uma sanção.",
+          "A dispensa não vale para quem faz tratamento de alto risco, para quem passa do limite de receita da empresa de pequeno porte (R$ 4,8 milhões por ano-calendário, pela Lei Complementar nº 123/2006) ou para quem integra grupo econômico acima desse limite (Res. 2/2022, art. 3º). Uma clínica com prontuários em grande volume, por exemplo, precisa avaliar se cai no alto risco. Este conteúdo não é parecer jurídico; na dúvida, documente a análise com apoio de um advogado."
+        ]
+      },
+      {
+        "titulo": "Checklist para indicar o encarregado",
+        "paragrafos": [],
+        "lista": [
+          "Decidir se a empresa é agente de pequeno porte e registrar o motivo",
+          "Escolher a pessoa ou empresa e checar conflito de interesse (Res. 18, art. 19)",
+          "Assinar o ato formal de indicação, com data, atividades e forma de atuação",
+          "Designar um substituto por escrito",
+          "Publicar nome e contato no site, em local de destaque, e manter atualizados",
+          "Criar e-mail ou formulário que chegue ao encarregado, não a uma caixa genérica",
+          "Garantir acesso à direção e às áreas que decidem sobre dados (Res. 18, art. 10, V)",
+          "Guardar o ato formal para apresentar à ANPD quando solicitado"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "checklist",
+      "descricao": "Checklist de 8 passos para indicar o encarregado e tabela com as regras da Resolução CD/ANPD 18/2024"
+    },
+    "faq": [
+      {
+        "pergunta": "Minha empresa é obrigada a ter encarregado?",
+        "resposta": "Em regra, sim: o artigo 41 vale para todo controlador. Agentes de pequeno porte, como micro e pequenas empresas, são dispensados pela Resolução CD/ANPD nº 2/2022, desde que não façam tratamento de alto risco nem passem do limite de receita, e mantenham um canal de comunicação com o titular."
+      },
+      {
+        "pergunta": "O encarregado pode ser uma empresa terceirizada?",
+        "resposta": "Pode. A Resolução CD/ANPD nº 18/2024 admite pessoa natural, do quadro da empresa ou externa, ou pessoa jurídica. Se for pessoa jurídica, o site deve trazer o nome empresarial e o nome completo da pessoa natural responsável."
+      },
+      {
+        "pergunta": "Precisa ter certificação para ser encarregado?",
+        "resposta": "Não. O artigo 14 do regulamento diz que a função não pressupõe inscrição em entidade nem certificação ou formação específica. Cabe à empresa definir as qualificações necessárias, considerando o conhecimento de proteção de dados e o volume e o risco dos tratamentos."
+      },
+      {
+        "pergunta": "O sócio pode ser o encarregado?",
+        "resposta": "Não há proibição expressa, mas o regulamento aponta como possível conflito de interesse acumular a função com decisões estratégicas sobre o tratamento de dados. A situação é avaliada caso a caso, então documente por que a escolha não compromete a autonomia técnica."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Lei nº 13.709/2018 (LGPD) — texto compilado",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Resolução CD/ANPD nº 18/2024 — Regulamento sobre a atuação do encarregado",
+        "url": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-18-de-16-de-julho-de-2024-572632074",
+        "orgao": "Imprensa Nacional / ANPD",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Resolução CD/ANPD nº 2/2022 — agentes de tratamento de pequeno porte",
+        "url": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-2-de-27-de-janeiro-de-2022-376562019",
+        "orgao": "Imprensa Nacional / ANPD",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Lei Complementar nº 123/2006 — art. 3º",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Lei nº 13.709/2018 (LGPD) e Resolução CD/ANPD nº 18/2024",
+      "dispositivo": "Art. 41 — encarregado pelo tratamento de dados pessoais",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "oQuePede": [
+        "Controlador indica encarregado pelo tratamento de dados (caput)",
+        "Identidade e contato divulgados de forma clara e objetiva, preferencialmente no site (§ 1º)",
+        "Atividades: receber reclamações dos titulares e comunicações da ANPD e orientar funcionários e contratados (§ 2º)",
+        "Indicação por ato formal escrito, datado e assinado (Resolução CD/ANPD nº 18/2024, art. 3º)"
+      ],
+      "oQueCobram": [
+        "Apresentação do ato formal de indicação quando a ANPD solicitar (Res. 18, art. 3º, § 2º)",
+        "Contato do encarregado em local de destaque e atualizado (Res. 18, arts. 8º e 9º)",
+        "Conflito de interesse pode levar a sanção do agente de tratamento (Res. 18, art. 19, § 2º)"
+      ],
+      "evidencias": [
+        "Ato formal de indicação e de designação do substituto",
+        "Captura da página do site com nome e contato do encarregado",
+        "Declaração do encarregado sobre conflito de interesse (Res. 18, art. 20)",
+        "Registro dos atendimentos feitos pelo canal do encarregado"
+      ],
+      "errosComuns": [
+        "Divulgar só um e-mail genérico sem dizer quem é o encarregado",
+        "Indicar alguém sem tempo, acesso ou autonomia para a função",
+        "Achar que indicar o encarregado transfere a responsabilidade pela conformidade",
+        "Pequena empresa que se considera dispensada mas faz tratamento de alto risco"
+      ]
+    }
+  },
+  {
+    "slug": "lgpd-art-46-seguranca-da-informacao",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "lgpd artigo 46 segurança da informação",
+    "consultasSecundarias": [
+      "art 46 lgpd",
+      "medidas de segurança lgpd",
+      "segurança de dados lgpd site",
+      "privacy by design lgpd"
+    ],
+    "title": "LGPD artigo 46: segurança da informação em site e sistema",
+    "description": "O que o artigo 46 da LGPD exige em segurança, quais medidas técnicas e administrativas adotar no site ou sistema e como provar. Veja a tabela.",
+    "h1": "LGPD artigo 46: segurança da informação no tratamento de dados",
+    "respostaDireta": "O artigo 46 da LGPD exige que a empresa adote medidas de segurança da informação, técnicas e administrativas, para proteger dados pessoais contra acesso não autorizado, perda, destruição, alteração ou vazamento. A lei não lista ferramentas: cobra proteção proporcional ao risco, pensada desde a concepção do sistema até a operação do dia a dia.",
+    "secoes": [
+      {
+        "titulo": "O que o texto pede, em três partes",
+        "paragrafos": [
+          "O caput define o objetivo: proteger os dados de acessos não autorizados e de situações acidentais ou ilícitas. O § 1º permite que a ANPD defina padrões técnicos mínimos. O § 2º manda observar as medidas desde a concepção do produto ou serviço até a execução, o que costuma ser chamado de privacidade desde a concepção.",
+          "O artigo 47 estende o dever de segurança a todos que participam do tratamento, mesmo depois que ele termina, e o artigo 49 pede sistemas estruturados para atender aos requisitos de segurança. Para agentes de pequeno porte, a Resolução CD/ANPD nº 2/2022 pede medidas essenciais e admite política simplificada de segurança; seguir os guias da ANPD conta a favor na dosimetria de sanções."
+        ]
+      },
+      {
+        "titulo": "Medidas técnicas e administrativas por camada",
+        "paragrafos": [
+          "A lei fala em medidas técnicas e administrativas. A tabela mostra os dois lados em cada camada de um site ou sistema de PME."
+        ],
+        "tabela": {
+          "colunas": [
+            "Camada",
+            "Medida técnica",
+            "Medida administrativa"
+          ],
+          "linhas": [
+            [
+              "Acesso",
+              "Login individual, senha forte e segundo fator no painel",
+              "Permissão por função e bloqueio no desligamento do funcionário"
+            ],
+            [
+              "Transmissão",
+              "HTTPS em todas as páginas e integrações",
+              "Proibir envio de listas de clientes por WhatsApp pessoal"
+            ],
+            [
+              "Armazenamento",
+              "Criptografia de dados sensíveis e dos backups",
+              "Inventário de onde existem cópias de dados"
+            ],
+            [
+              "Disponibilidade",
+              "Backup automático com teste de restauração",
+              "Responsável nomeado para conferir os backups"
+            ],
+            [
+              "Software",
+              "Atualização de sistema, plugins e bibliotecas",
+              "Contrato de manutenção com prazo para corrigir falhas"
+            ],
+            [
+              "Rastreabilidade",
+              "Logs de acesso e de alteração de dados",
+              "Revisão periódica dos logs"
+            ],
+            [
+              "Fornecedores",
+              "Hospedagem com controles documentados",
+              "Cláusula de segurança e de aviso de incidente no contrato"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Sinais de alerta no seu site hoje",
+        "paragrafos": [
+          "Se algum item abaixo descreve a sua operação, comece por ele. Esta lista é técnica e não substitui parecer jurídico."
+        ],
+        "lista": [
+          "Painel administrativo com usuário e senha compartilhados entre várias pessoas",
+          "Plugin ou sistema sem atualização há muitos meses",
+          "Backup que nunca foi restaurado em teste",
+          "Planilha de clientes circulando por e-mail e WhatsApp",
+          "Ex-funcionário ou ex-fornecedor com acesso ativo",
+          "Formulário do site enviando dados para e-mail pessoal",
+          "Dados antigos guardados sem finalidade, aumentando o tamanho de um eventual vazamento"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Tabela de medidas técnicas e administrativas por camada de um site ou sistema de PME, com lista de sinais de alerta"
+    },
+    "faq": [
+      {
+        "pergunta": "A ANPD exige alguma ferramenta específica?",
+        "resposta": "Não. O artigo 46 permite que a ANPD defina padrões técnicos mínimos, mas não lista produtos. Para agentes de pequeno porte, a ANPD publicou um guia orientativo de segurança da informação com checklist de medidas, que serve de referência prática para PMEs."
+      },
+      {
+        "pergunta": "Hospedar o site numa empresa grande resolve a segurança?",
+        "resposta": "Resolve parte. A hospedagem cuida da infraestrutura dela, mas senha fraca no painel, plugin desatualizado ou planilha compartilhada continuam sendo problema seu. Como controlador, você também responde pela escolha do fornecedor e pelo contrato com ele."
+      },
+      {
+        "pergunta": "O que é segurança desde a concepção?",
+        "resposta": "É o § 2º do artigo 46: as medidas devem ser pensadas desde o projeto do produto ou serviço. Em software, significa definir controle de acesso, criptografia, logs e coleta mínima de dados no escopo, antes de programar, e não como remendo depois do lançamento."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Lei nº 13.709/2018 (LGPD) — texto compilado",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Resolução CD/ANPD nº 2/2022 — agentes de tratamento de pequeno porte",
+        "url": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-2-de-27-de-janeiro-de-2022-376562019",
+        "orgao": "Imprensa Nacional / ANPD",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Guia orientativo sobre segurança da informação para agentes de tratamento de pequeno porte",
+        "url": "https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia-orientativo-sobre-seguranca-da-informacao-para-agentes-de-tratamento-de-pequeno-porte",
+        "orgao": "ANPD",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Resolução CD/ANPD nº 15/2024 — Regulamento de Comunicação de Incidente de Segurança",
+        "url": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-15-de-24-de-abril-de-2024-556243024",
+        "orgao": "Imprensa Nacional / ANPD",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Lei nº 13.709/2018 (LGPD)",
+      "dispositivo": "Art. 46 — medidas de segurança, técnicas e administrativas",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "oQuePede": [
+        "Medidas técnicas e administrativas contra acessos não autorizados e situações acidentais ou ilícitas (caput)",
+        "Medidas observadas desde a concepção do produto ou serviço até a execução (§ 2º)",
+        "Dever de segurança de todos que intervêm no tratamento, mesmo após o término (art. 47)",
+        "Para pequeno porte, medidas essenciais e política simplificada (Resolução CD/ANPD nº 2/2022, arts. 12 e 13)"
+      ],
+      "oQueCobram": [
+        "Após incidente, a comunicação à ANPD deve trazer as medidas adotadas antes e depois (Resolução CD/ANPD nº 15/2024, art. 6º, § 2º, III)",
+        "Mecanismos internos para minimizar danos pesam na dosimetria de sanções (LGPD, art. 52, § 1º, VIII)",
+        "Seguir os guias da ANPD conta como observância desse critério para pequeno porte (Res. 2/2022, art. 12)"
+      ],
+      "evidencias": [
+        "Política de segurança, mesmo simplificada, com data e responsável",
+        "Lista de usuários com acesso e data da última revisão",
+        "Relatórios de backup e de teste de restauração",
+        "Histórico de atualizações e de correção de vulnerabilidades"
+      ],
+      "errosComuns": [
+        "Tratar segurança como tarefa só de TI e deixar de fora processos e pessoas",
+        "Contratar desenvolvimento sem exigir requisitos de segurança desde o projeto",
+        "Guardar dados que já não são necessários"
+      ]
+    }
+  },
+  {
+    "slug": "lgpd-art-48-comunicacao-de-incidente",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "lgpd artigo 48 comunicação de incidente",
+    "consultasSecundarias": [
+      "art 48 lgpd",
+      "prazo para comunicar incidente à anpd",
+      "vazamento de dados o que fazer",
+      "resolução anpd 15 2024"
+    ],
+    "title": "LGPD artigo 48: comunicar incidente em 3 dias úteis",
+    "description": "Prazo de 3 dias úteis, o que comunicar à ANPD e aos titulares e o que registrar após um vazamento. Veja o passo a passo do artigo 48 da LGPD.",
+    "h1": "LGPD artigo 48: comunicação de incidente de segurança",
+    "respostaDireta": "O artigo 48 da LGPD obriga o controlador a comunicar à ANPD e aos titulares o incidente de segurança que possa acarretar risco ou dano relevante. A Resolução CD/ANPD nº 15/2024 fixou o prazo: três dias úteis a partir do conhecimento de que o incidente afetou dados pessoais, contados em dobro para agentes de pequeno porte.",
+    "secoes": [
+      {
+        "titulo": "Quando o incidente precisa ser comunicado",
+        "paragrafos": [
+          "Pelo artigo 5º da Resolução CD/ANPD nº 15/2024, o incidente exige comunicação quando puder afetar significativamente interesses e direitos fundamentais dos titulares e, ao mesmo tempo, envolver pelo menos um destes itens: dados sensíveis; dados de crianças, adolescentes ou idosos; dados financeiros; dados de autenticação, como senhas e tokens; dados protegidos por sigilo; ou dados em larga escala.",
+          "Vazamento de senhas de clientes de uma loja virtual, por exemplo, envolve dado de autenticação. Incidente que não preenche os critérios não é comunicado, mas precisa ser registrado."
+        ]
+      },
+      {
+        "titulo": "Linha do tempo depois de descobrir o incidente",
+        "paragrafos": [],
+        "tabela": {
+          "colunas": [
+            "Quando",
+            "O que fazer",
+            "Base"
+          ],
+          "linhas": [
+            [
+              "Imediatamente",
+              "Conter: isolar o sistema, trocar credenciais e preservar os logs",
+              "LGPD, art. 46"
+            ],
+            [
+              "Até 3 dias úteis (6 para pequeno porte)",
+              "Comunicar a ANPD por formulário eletrônico, via encarregado ou representante",
+              "Res. 15/2024, art. 6º"
+            ],
+            [
+              "Até 3 dias úteis (6 para pequeno porte)",
+              "Comunicar os titulares de forma direta, individual e em linguagem simples",
+              "Res. 15/2024, art. 9º"
+            ],
+            [
+              "Até 20 dias úteis da comunicação (em dobro para pequeno porte)",
+              "Complementar as informações, de forma fundamentada",
+              "Res. 15/2024, art. 6º, §§ 3º e 8º"
+            ],
+            [
+              "Até 3 dias úteis após o prazo dos titulares",
+              "Juntar declaração de que os titulares foram avisados e por quais meios",
+              "Res. 15/2024, art. 9º, § 4º"
+            ],
+            [
+              "Por no mínimo 5 anos",
+              "Manter o registro do incidente, inclusive se não foi comunicado",
+              "Res. 15/2024, art. 10"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que a comunicação à ANPD precisa trazer",
+        "paragrafos": [
+          "O § 1º do artigo 48 traz o mínimo legal, e o artigo 6º, § 2º, da Resolução 15/2024 ampliou a lista. Este resumo não é parecer jurídico; num incidente real, envolva o encarregado e um advogado desde a primeira hora."
+        ],
+        "lista": [
+          "Natureza e categoria dos dados afetados",
+          "Número de titulares afetados, separando crianças, adolescentes e idosos",
+          "Medidas de segurança adotadas antes e depois do incidente",
+          "Riscos e possíveis impactos aos titulares",
+          "Motivos da demora, se o prazo não foi cumprido",
+          "Medidas para reverter ou mitigar os efeitos",
+          "Data do incidente, quando possível, e data do conhecimento",
+          "Dados do encarregado ou de quem representa o controlador",
+          "Identificação do controlador, do operador e, se for o caso, declaração de pequeno porte",
+          "Descrição do incidente, com a causa principal se identificada, e total de titulares nas atividades afetadas"
+        ]
+      },
+      {
+        "titulo": "Como avisar os titulares",
+        "paragrafos": [
+          "O aviso vai pelos meios que a empresa já usa para falar com o cliente: e-mail, telefone, mensagem ou carta. Se não der para identificar todos, publique o aviso no site, no aplicativo, nas redes sociais e nos canais de atendimento por pelo menos três meses. Incluir recomendações, como trocar a senha, pode ser considerado boa prática."
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Linha do tempo com todos os prazos da Resolução CD/ANPD 15/2024, inclusive os dobrados para pequeno porte"
+    },
+    "faq": [
+      {
+        "pergunta": "Todo vazamento precisa ser comunicado à ANPD?",
+        "resposta": "Não. Só o incidente que possa acarretar risco ou dano relevante: que possa afetar significativamente os titulares e envolva, por exemplo, dados sensíveis, financeiros, de autenticação, de crianças ou em larga escala. Mas todo incidente, comunicado ou não, deve ser registrado e guardado por cinco anos."
+      },
+      {
+        "pergunta": "E se eu não tiver todas as informações em três dias úteis?",
+        "resposta": "Faça a comunicação preliminar no prazo e complemente depois. A Resolução CD/ANPD nº 15/2024 permite complementar, de forma fundamentada, em até 20 dias úteis da comunicação. A própria ANPD avisa que a comunicação preliminar sozinha não cumpre a obrigação."
+      },
+      {
+        "pergunta": "Quem comunica: a empresa ou o desenvolvedor do sistema?",
+        "resposta": "A obrigação é do controlador, a empresa que se relaciona com os titulares. O operador, como hospedagem ou desenvolvedor, deve fornecer informações. Por isso, o contrato com fornecedores deve prever aviso imediato de qualquer incidente que eles detectarem."
+      },
+      {
+        "pergunta": "Como é feita a comunicação à ANPD?",
+        "resposta": "Por formulário eletrônico no peticionamento do SEI da ANPD, enviado pelo encarregado ou por representante com procuração. Os documentos que comprovam o vínculo ou a representação precisam ir junto, dentro do prazo."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Lei nº 13.709/2018 (LGPD) — texto compilado",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Resolução CD/ANPD nº 15/2024 — Regulamento de Comunicação de Incidente de Segurança",
+        "url": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-15-de-24-de-abril-de-2024-556243024",
+        "orgao": "Imprensa Nacional / ANPD",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Comunicação de incidente de segurança — orientações",
+        "url": "https://www.gov.br/anpd/pt-br/canais_atendimento/agente-de-tratamento/comunicado-de-incidente-de-seguranca-cis",
+        "orgao": "ANPD",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Lei nº 13.709/2018 (LGPD) e Resolução CD/ANPD nº 15/2024",
+      "dispositivo": "Art. 48 — comunicação de incidente de segurança",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "oQuePede": [
+        "Comunicar à ANPD e ao titular incidente que possa acarretar risco ou dano relevante (caput)",
+        "Conteúdo mínimo: dados afetados, titulares, medidas de proteção, riscos, motivo da demora e medidas de mitigação (§ 1º)",
+        "Prazo de três dias úteis do conhecimento de que dados pessoais foram afetados (Res. 15/2024, arts. 6º e 9º)",
+        "Registro de todo incidente por no mínimo cinco anos (Res. 15/2024, art. 10)"
+      ],
+      "oQueCobram": [
+        "A ANPD pode apurar incidente não comunicado e abrir processo sancionador (Res. 15/2024, arts. 16 e 17)",
+        "Pode determinar ampla divulgação do incidente em meios de comunicação, às custas do controlador (LGPD, art. 48, § 2º; Res. 15, art. 19)",
+        "Na avaliação de gravidade, pesa ter tornado os dados ininteligíveis para terceiros, como por criptografia (§ 3º)"
+      ],
+      "evidencias": [
+        "Registro do incidente com data de conhecimento, circunstâncias, dados e titulares afetados e avaliação de risco",
+        "Protocolo da comunicação à ANPD e das complementações",
+        "Cópia dos avisos aos titulares e declaração juntada ao processo",
+        "Motivos documentados quando a decisão foi não comunicar"
+      ],
+      "errosComuns": [
+        "Esperar ter todas as respostas e perder o prazo, quando a norma permite complementar depois",
+        "Não registrar incidentes considerados pequenos",
+        "Publicar só um aviso genérico quando era possível contatar cada titular",
+        "Contrato com hospedagem ou agência sem obrigação de avisar rápido"
+      ]
+    }
+  },
+  {
+    "slug": "lgpd-art-52-sancoes-e-multas",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "lgpd artigo 52 sanções",
+    "consultasSecundarias": [
+      "multa da lgpd",
+      "art 52 lgpd",
+      "sanções administrativas lgpd",
+      "valor da multa lgpd"
+    ],
+    "title": "LGPD artigo 52: sanções e multa de até 2% do faturamento",
+    "description": "Quais são as sanções do artigo 52 da LGPD, como a ANPD calcula a multa e o que reduz a penalidade. Confira a tabela de sanções e atenuantes.",
+    "h1": "LGPD artigo 52: sanções administrativas e multas",
+    "respostaDireta": "O artigo 52 da LGPD lista as sanções que a ANPD pode aplicar: advertência, multa simples de até 2% do faturamento no Brasil limitada a R$ 50 milhões por infração, multa diária, publicização, bloqueio ou eliminação dos dados e suspensão ou proibição do tratamento. A aplicação é gradual e depende de processo com ampla defesa.",
+    "secoes": [
+      {
+        "titulo": "As sanções em vigor",
+        "paragrafos": [
+          "As sanções valem desde 1º de agosto de 2021 (art. 65, I-A). Os incisos VII, VIII e IX foram vetados; os incisos X a XII entraram pela Lei nº 13.853/2019."
+        ],
+        "tabela": {
+          "colunas": [
+            "Inciso",
+            "Sanção",
+            "Detalhe"
+          ],
+          "linhas": [
+            [
+              "I",
+              "Advertência, com prazo para medidas corretivas",
+              "Cabível em infração leve ou média sem reincidência específica (Res. 4/2023, art. 9º)"
+            ],
+            [
+              "II",
+              "Multa simples",
+              "Até 2% do faturamento da empresa, grupo ou conglomerado no Brasil no último exercício, sem tributos, limitada a R$ 50 milhões por infração"
+            ],
+            [
+              "III",
+              "Multa diária",
+              "Para forçar o cumprimento; mesmo limite total do inciso II"
+            ],
+            [
+              "IV",
+              "Publicização da infração",
+              "Depois de apurada e confirmada"
+            ],
+            [
+              "V",
+              "Bloqueio dos dados da infração",
+              "Até a regularização"
+            ],
+            [
+              "VI",
+              "Eliminação dos dados da infração",
+              "Apaga a base envolvida"
+            ],
+            [
+              "X",
+              "Suspensão parcial do banco de dados",
+              "Até 6 meses, prorrogável por igual período"
+            ],
+            [
+              "XI",
+              "Suspensão da atividade de tratamento",
+              "Até 6 meses, prorrogável por igual período"
+            ],
+            [
+              "XII",
+              "Proibição parcial ou total do tratamento",
+              "X a XII só depois de aplicada sanção dos incisos II a VI no mesmo caso (§ 6º)"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como a multa é calculada",
+        "paragrafos": [
+          "O Regulamento de Dosimetria (Resolução CD/ANPD nº 4/2023) classifica a infração em leve, média ou grave e calcula um valor-base a partir do faturamento no ramo de atividade afetado e do grau do dano. Depois aplica agravantes, como reincidência e descumprimento de medidas, e atenuantes.",
+          "Os atenuantes do artigo 13 do regulamento mostram o que vale a pena ter pronto: cessar a infração antes de procedimento preparatório reduz 75%; política de boas práticas e governança reduz 20%; medidas para reverter ou mitigar os efeitos, adotadas antes do procedimento, reduzem 20%; cooperação ou boa-fé reduz 5%. A multa é paga em 20 dias úteis, em dobro para agentes de pequeno porte, e renunciar ao recurso dá redução de 25% se o pagamento sair no prazo.",
+          "O § 7º permite conciliação direta entre controlador e titular em vazamentos individuais. Este resumo não é parecer jurídico e não substitui a defesa técnica num processo."
+        ]
+      },
+      {
+        "titulo": "O que conta a seu favor (art. 52, § 1º)",
+        "paragrafos": [
+          "Entre os 11 critérios que a ANPD considera, estes dependem de documentos que a empresa pode preparar antes de qualquer problema."
+        ],
+        "lista": [
+          "Política de boas práticas e governança, escrita e aplicada (inciso IX)",
+          "Mecanismos internos para minimizar danos, adotados de forma reiterada e demonstrada (inciso VIII)",
+          "Pronta adoção de medidas corretivas quando o problema aparece (inciso X)",
+          "Cooperação com a ANPD durante a fiscalização (inciso VII)",
+          "Boa-fé demonstrável, como pedidos de titulares respondidos no prazo (inciso II)",
+          "Ausência de reincidência (inciso V)",
+          "Dano limitado por medidas como criptografia e backup (inciso VI)"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Tabela das sanções em vigor com limites e condições, mais os percentuais de atenuantes do regulamento de dosimetria"
+    },
+    "faq": [
+      {
+        "pergunta": "Qual o valor máximo da multa da LGPD?",
+        "resposta": "A multa simples vai até 2% do faturamento da pessoa jurídica, grupo ou conglomerado no Brasil no último exercício, sem tributos, limitada a R$ 50 milhões por infração. A multa diária tem o mesmo limite total. Para PME, o valor real depende da classificação da infração e do grau do dano."
+      },
+      {
+        "pergunta": "Pequena empresa pode ser multada pela LGPD?",
+        "resposta": "Pode. A Resolução CD/ANPD nº 2/2022 flexibiliza obrigações e dá prazos em dobro, mas não cria isenção de sanção. O regulamento de dosimetria até prevê prazo em dobro para agentes de pequeno porte pagarem a multa, o que confirma que ela pode ser aplicada."
+      },
+      {
+        "pergunta": "A ANPD aplica multa logo de cara?",
+        "resposta": "Não necessariamente. A lei pede aplicação gradativa e o regulamento prevê advertência para infração leve ou média sem reincidência específica. A multa simples vem, entre outros casos, em infração grave ou quando a empresa não cumpre medidas corretivas no prazo."
+      },
+      {
+        "pergunta": "Além da ANPD, quem mais pode punir?",
+        "resposta": "O § 2º do artigo 52 diz que as sanções da LGPD não substituem as administrativas, civis ou penais do Código de Defesa do Consumidor e de outras leis. E o artigo 42 obriga controlador e operador a reparar danos causados ao titular."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Lei nº 13.709/2018 (LGPD) — texto compilado",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Resolução CD/ANPD nº 4/2023 — Regulamento de Dosimetria e Aplicação de Sanções",
+        "url": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-4-de-24-de-fevereiro-de-2023-466146077",
+        "orgao": "Imprensa Nacional / ANPD",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Sanções administrativas",
+        "url": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/sancoes-administrativas",
+        "orgao": "ANPD",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Lei nº 13.709/2018 (LGPD)",
+      "dispositivo": "Art. 52 — sanções administrativas",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "oQuePede": [
+        "Sanções aplicadas pela ANPD após processo administrativo com ampla defesa (§ 1º)",
+        "Aplicação gradativa, isolada ou cumulativa, conforme 11 critérios como gravidade, boa-fé, reincidência e cooperação (§ 1º)",
+        "Suspensões e proibição só depois de aplicada sanção dos incisos II a VI no mesmo caso (§ 6º)"
+      ],
+      "oQueCobram": [
+        "Dosimetria pela Resolução CD/ANPD nº 4/2023: infração leve, média ou grave e valor-base pelo faturamento e pelo grau do dano",
+        "Multa paga em até 20 dias úteis, prazo em dobro para agentes de pequeno porte (Res. 4/2023, art. 17)",
+        "Sanções da LGPD não substituem as do Código de Defesa do Consumidor e de leis específicas (§ 2º)"
+      ],
+      "evidencias": [
+        "Política de governança em privacidade e registros de que é aplicada",
+        "Prova das medidas corretivas e da data em que foram adotadas",
+        "Demonstração do faturamento do ramo de atividade afetado, para o cálculo correto",
+        "Histórico de atendimento a titulares e de comunicação de incidentes"
+      ],
+      "errosComuns": [
+        "Achar que pequena empresa está fora das sanções; o regulamento só dá prazos diferenciados",
+        "Demorar a corrigir: cessar antes do procedimento preparatório reduz mais do que depois",
+        "Não guardar documentos de boas práticas, que é o que conta como atenuante"
+      ]
+    }
+  },
+  {
+    "slug": "lgpd-art-33-transferencia-internacional",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "lgpd artigo 33 transferência internacional",
+    "consultasSecundarias": [
+      "transferência internacional de dados lgpd",
+      "servidor fora do brasil lgpd",
+      "cláusulas-padrão contratuais anpd",
+      "hospedagem nos eua lgpd"
+    ],
+    "title": "LGPD artigo 33: transferência internacional e nuvem",
+    "description": "Servidor nos EUA ou na Europa? Veja quando o artigo 33 da LGPD se aplica, o que muda com a Resolução 19/2024 e o que pedir ao fornecedor.",
+    "h1": "LGPD artigo 33: transferência internacional de dados",
+    "respostaDireta": "O artigo 33 da LGPD só permite transferência internacional de dados pessoais em hipóteses definidas, como país com proteção adequada reconhecida pela ANPD, cláusulas-padrão contratuais ou consentimento específico. Se o seu site, e-mail ou sistema guarda dados em servidor fora do Brasil, você precisa de um desses mecanismos e de transparência ao titular.",
+    "secoes": [
+      {
+        "titulo": "Os nove caminhos do artigo 33",
+        "paragrafos": [
+          "Nem todos servem a uma empresa privada. Para PME, os incisos I, II, VIII e IX são os que costumam aparecer."
+        ],
+        "tabela": {
+          "colunas": [
+            "Inciso",
+            "Mecanismo",
+            "Uso típico"
+          ],
+          "linhas": [
+            [
+              "I",
+              "País ou organismo com proteção adequada reconhecida",
+              "Servidores na União Europeia (Resolução CD/ANPD nº 32/2026)"
+            ],
+            [
+              "II",
+              "Garantias: cláusulas específicas, cláusulas-padrão, normas corporativas globais, selos e códigos",
+              "Contrato com provedor de nuvem que incorpora as cláusulas-padrão da ANPD"
+            ],
+            [
+              "III",
+              "Cooperação jurídica internacional entre órgãos públicos",
+              "Não se aplica à rotina da empresa"
+            ],
+            [
+              "IV",
+              "Proteção da vida ou da incolumidade física",
+              "Emergência médica de cliente no exterior"
+            ],
+            [
+              "V",
+              "Autorização da ANPD",
+              "Caso específico, mediante pedido"
+            ],
+            [
+              "VI",
+              "Compromisso em acordo de cooperação internacional",
+              "Atos do Estado"
+            ],
+            [
+              "VII",
+              "Política pública ou atribuição legal do serviço público",
+              "Órgãos públicos"
+            ],
+            [
+              "VIII",
+              "Consentimento específico e em destaque, com aviso prévio do caráter internacional",
+              "Cliente que contrata sabendo que os dados vão para fora"
+            ],
+            [
+              "IX",
+              "Hipóteses dos incisos II, V e VI do art. 7º",
+              "Reserva de hotel no exterior feita a pedido do cliente"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que a Resolução CD/ANPD nº 19/2024 detalhou",
+        "paragrafos": [
+          "A transferência acontece quando um exportador transmite ou disponibiliza dados a um importador no exterior (arts. 3º e 5º). Contratar hospedagem ou banco de dados fora do país coloca a sua empresa no papel de exportadora. Já a coleta feita diretamente por um agente no exterior não é transferência (art. 6º), embora a LGPD possa se aplicar a ela.",
+          "As cláusulas-padrão do Anexo II precisam ser adotadas na íntegra e sem alteração, em contrato próprio ou aditivo (art. 16). Quem usava cláusulas contratuais teve 12 meses, contados de agosto de 2024, para incorporá-las. O controlador também deve publicar no site, em português e linguagem simples, a forma, a duração, a finalidade e o país de destino da transferência, além dos direitos do titular (art. 17, § 2º), e entregar a íntegra das cláusulas em 15 dias, se pedirem.",
+          "Em 26 de janeiro de 2026, a Resolução CD/ANPD nº 32 reconheceu a União Europeia como adequada, abrangendo também Islândia, Liechtenstein e Noruega. Até esta revisão, a lista de regulamentações da ANPD não traz decisão de adequação para outros destinos. Este texto não é parecer jurídico."
+        ]
+      },
+      {
+        "titulo": "O que levantar sobre seus fornecedores",
+        "paragrafos": [],
+        "lista": [
+          "Onde ficam o servidor da hospedagem, o banco de dados e os backups",
+          "Onde ficam e-mail corporativo, CRM, ferramenta de e-mail marketing e chat",
+          "Se o fornecedor opera dados em seu nome ou coleta por conta própria",
+          "Qual inciso do artigo 33 ampara cada transferência",
+          "Se o contrato traz as cláusulas-padrão da ANPD sem alteração, quando for essa a base",
+          "Se a política de privacidade informa país de destino e finalidade",
+          "Se só os dados necessários saem do país (Res. 19/2024, art. 9º, parágrafo único)"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Tabela dos 9 mecanismos do artigo 33 com uso típico em PME, atualizada com a decisão de adequação da União Europeia"
+    },
+    "faq": [
+      {
+        "pergunta": "Usar hospedagem nos Estados Unidos é proibido?",
+        "resposta": "Não é proibido, mas precisa de um mecanismo do artigo 33. Para destinos sem decisão de adequação, o caminho comum é o contrato com as cláusulas-padrão aprovadas pela ANPD, adotadas sem alteração. Também é preciso informar o titular sobre o país de destino e a finalidade."
+      },
+      {
+        "pergunta": "E se o servidor estiver na Europa?",
+        "resposta": "A Resolução CD/ANPD nº 32/2026 reconheceu a União Europeia como organismo com proteção adequada, incluindo Islândia, Liechtenstein e Noruega. A transferência pode se apoiar no inciso I do artigo 33, mas continua precisando de base legal e de transparência."
+      },
+      {
+        "pergunta": "Ferramentas de e-mail e CRM estrangeiras entram nisso?",
+        "resposta": "Entram, se armazenam ou processam dados pessoais fora do Brasil em seu nome. O levantamento precisa incluir todos os serviços, não só a hospedagem do site. Verifique nos termos de cada fornecedor onde os dados ficam e qual contrato se aplica."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Lei nº 13.709/2018 (LGPD) — texto compilado",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Resolução CD/ANPD nº 19/2024 — Regulamento de Transferência Internacional de Dados",
+        "url": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-19-de-23-de-agosto-de-2024-580095396",
+        "orgao": "Imprensa Nacional / ANPD",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Resolução CD/ANPD nº 32/2026 — adequação da União Europeia",
+        "url": "https://www.in.gov.br/web/dou/-/resolucao-n-32-de-26-de-janeiro-de-2026-683334547",
+        "orgao": "Imprensa Nacional / ANPD",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Regulamentações da ANPD",
+        "url": "https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd",
+        "orgao": "ANPD",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Lei nº 13.709/2018 (LGPD) e Resolução CD/ANPD nº 19/2024",
+      "dispositivo": "Art. 33 — transferência internacional de dados",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+      "oQuePede": [
+        "Transferência internacional só nas hipóteses dos incisos I a IX",
+        "Garantias oferecidas e comprovadas pelo controlador quando não houver adequação (inciso II)",
+        "Consentimento específico e em destaque, com informação prévia, quando for essa a base (inciso VIII)",
+        "Cláusulas-padrão da ANPD adotadas na íntegra e sem alteração, quando usadas (Res. 19/2024, art. 16)"
+      ],
+      "oQueCobram": [
+        "O controlador verifica se há transferência e se existem hipótese legal e mecanismo válidos (Res. 19/2024, art. 4º)",
+        "Informações sobre a transferência publicadas no site, em português e linguagem simples (art. 17, § 2º)",
+        "Íntegra das cláusulas entregue ao titular em até 15 dias, se solicitada (art. 17, § 1º)"
+      ],
+      "evidencias": [
+        "Mapa de fornecedores com o país de cada servidor e a base da transferência",
+        "Contratos ou aditivos com as cláusulas-padrão da ANPD",
+        "Seção da política de privacidade sobre transferência internacional"
+      ],
+      "errosComuns": [
+        "Achar que só há transferência quando se envia arquivo para fora; nuvem no exterior também conta",
+        "Alterar o texto das cláusulas-padrão para encaixar no contrato do fornecedor",
+        "Usar consentimento genérico na política em vez de consentimento específico e destacado"
+      ]
+    }
+  },
+  {
+    "slug": "resolucao-anpd-2-2022-pequeno-porte",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "agente de tratamento de pequeno porte",
+    "consultasSecundarias": [
+      "resolução cd/anpd 2/2022",
+      "lgpd para pequenas empresas",
+      "lgpd para microempresa",
+      "atpp lgpd"
+    ],
+    "title": "Agente de tratamento de pequeno porte: Resolução 2/2022",
+    "description": "O que a Resolução CD/ANPD 2/2022 flexibiliza na LGPD para micro e pequenas empresas, quem fica de fora e o que segue obrigatório. Veja a tabela.",
+    "h1": "Agente de tratamento de pequeno porte na LGPD",
+    "respostaDireta": "Agente de tratamento de pequeno porte é a microempresa, empresa de pequeno porte, startup ou outro agente privado que trata dados pessoais e se enquadra na Resolução CD/ANPD nº 2/2022. Esse agente tem regras mais leves na LGPD: registro simplificado, dispensa de encarregado e prazos em dobro, mas continua obrigado a bases legais, segurança e direitos do titular.",
+    "secoes": [
+      {
+        "titulo": "Quem se enquadra e quem fica de fora",
+        "paragrafos": [
+          "O artigo 2º inclui microempresas e empresas de pequeno porte, inclusive o MEI, enquadradas na Lei Complementar nº 123/2006, startups da Lei Complementar nº 182/2021, pessoas jurídicas sem fins lucrativos, pessoas naturais e entes despersonalizados que tratam dados como controlador ou operador.",
+          "O critério é a receita bruta, não o número de funcionários. Pela Lei Complementar nº 123/2006, microempresa fatura até R$ 360 mil por ano-calendário e empresa de pequeno porte, até R$ 4,8 milhões. O artigo 3º tira o benefício de quem faz tratamento de alto risco, de quem passa desse limite e de quem pertence a grupo econômico cuja receita global ultrapassa o teto. Se a ANPD pedir, o enquadramento deve ser comprovado em até 15 dias (art. 5º)."
+        ]
+      },
+      {
+        "titulo": "O que muda para o pequeno porte",
+        "paragrafos": [
+          "A tabela compara a regra geral da LGPD com a regra da resolução, já com a alteração feita pela Resolução CD/ANPD nº 15/2024."
+        ],
+        "tabela": {
+          "colunas": [
+            "Obrigação",
+            "Regra geral",
+            "Pequeno porte"
+          ],
+          "linhas": [
+            [
+              "Registro das operações (LGPD, art. 37)",
+              "Registro completo",
+              "Registro simplificado, com modelo da ANPD (art. 9º)"
+            ],
+            [
+              "Encarregado (LGPD, art. 41)",
+              "Indicação obrigatória",
+              "Dispensa, com canal de comunicação com o titular (art. 11)"
+            ],
+            [
+              "Segurança (LGPD, art. 46)",
+              "Medidas técnicas e administrativas",
+              "Medidas essenciais e política simplificada (arts. 12 e 13)"
+            ],
+            [
+              "Pedidos de titulares (LGPD, art. 18)",
+              "Prazos do regulamento",
+              "Prazo em dobro (art. 14, I)"
+            ],
+            [
+              "Declaração completa de acesso (LGPD, art. 19, II)",
+              "15 dias",
+              "Prazo em dobro (art. 14, III)"
+            ],
+            [
+              "Comunicação de incidente (LGPD, art. 48)",
+              "3 dias úteis",
+              "Prazo em dobro, salvo risco à integridade dos titulares (art. 14, II)"
+            ],
+            [
+              "Pedidos de documentos da ANPD",
+              "Prazo do normativo",
+              "Prazo em dobro (art. 14, IV)"
+            ],
+            [
+              "Informação ao titular (LGPD, art. 9º)",
+              "Acesso facilitado",
+              "Meio eletrônico, impresso ou outro (art. 7º)"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O teste de alto risco e o checklist",
+        "paragrafos": [
+          "Pelo artigo 4º, o tratamento é de alto risco quando reúne pelo menos um critério geral (larga escala ou possibilidade de afetar significativamente direitos) e um específico (tecnologia emergente, vigilância de áreas públicas, decisão automatizada, ou dados sensíveis, de crianças, adolescentes ou idosos). Um sistema de clínica com muitos prontuários pode reunir larga escala e dado sensível. Este resumo não é parecer jurídico; registre a sua análise."
+        ],
+        "lista": [
+          "Guardar o comprovante de enquadramento e a receita bruta do último ano-calendário",
+          "Somar a receita do grupo econômico, se houver",
+          "Avaliar e documentar se algum tratamento é de alto risco",
+          "Preencher o modelo de registro simplificado da ANPD",
+          "Publicar canal de comunicação com o titular, se não indicar encarregado",
+          "Escrever uma política simplificada de segurança",
+          "Seguir o guia de segurança da ANPD para pequeno porte",
+          "Lembrar que bases legais, princípios e direitos do titular continuam valendo (art. 6º)"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Tabela comparando a regra geral da LGPD com as flexibilizações da Resolução CD/ANPD 2/2022, já com a alteração de 2024"
+    },
+    "faq": [
+      {
+        "pergunta": "MEI é agente de tratamento de pequeno porte?",
+        "resposta": "Sim. A Resolução CD/ANPD nº 2/2022 inclui o microempreendedor individual na definição de microempresa e empresa de pequeno porte, desde que registrado e enquadrado na Lei Complementar nº 123/2006. Ele tem as mesmas flexibilizações, salvo se fizer tratamento de alto risco."
+      },
+      {
+        "pergunta": "Minha empresa tem 80 funcionários. Ainda é pequeno porte?",
+        "resposta": "Depende da receita bruta, não do número de funcionários. A resolução usa o enquadramento da Lei Complementar nº 123/2006: empresa de pequeno porte fatura até R$ 4,8 milhões por ano-calendário. Acima disso, ou em grupo que passe do limite, valem as regras gerais da LGPD."
+      },
+      {
+        "pergunta": "Pequena empresa precisa de política de privacidade?",
+        "resposta": "Precisa informar o titular, como exige o artigo 9º da LGPD. A resolução só flexibiliza o meio: eletrônico, impresso ou outro que garanta acesso fácil. Para quem tem site ou loja virtual, uma página de política de privacidade continua sendo o caminho mais simples."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Resolução CD/ANPD nº 2/2022 — agentes de tratamento de pequeno porte",
+        "url": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-2-de-27-de-janeiro-de-2022-376562019",
+        "orgao": "Imprensa Nacional / ANPD",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Resolução CD/ANPD nº 15/2024 (altera o art. 14, II, da Resolução nº 2/2022)",
+        "url": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-15-de-24-de-abril-de-2024-556243024",
+        "orgao": "Imprensa Nacional / ANPD",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Lei Complementar nº 123/2006 — art. 3º",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Lei nº 13.709/2018 (LGPD) — texto compilado",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Guia orientativo sobre segurança da informação para agentes de tratamento de pequeno porte",
+        "url": "https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia-orientativo-sobre-seguranca-da-informacao-para-agentes-de-tratamento-de-pequeno-porte",
+        "orgao": "ANPD",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Resolução CD/ANPD nº 2/2022",
+      "dispositivo": "Regulamento de aplicação da LGPD para agentes de tratamento de pequeno porte",
+      "urlOficial": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-2-de-27-de-janeiro-de-2022-376562019",
+      "oQuePede": [
+        "Enquadramento pela natureza jurídica e pela receita bruta (arts. 2º e 3º)",
+        "Comprovação do enquadramento em até 15 dias, quando a ANPD pedir (art. 5º)",
+        "Canal de comunicação com o titular para quem não indicar encarregado (art. 11, § 1º)",
+        "Medidas de segurança essenciais, considerando o risco e a realidade do agente (art. 12)"
+      ],
+      "oQueCobram": [
+        "A flexibilização não isenta de bases legais, princípios e direitos do titular (art. 6º)",
+        "A ANPD pode exigir obrigações dispensadas conforme natureza, volume e riscos do tratamento (art. 16)",
+        "Tratamento de alto risco tira o benefício (art. 3º, I)"
+      ],
+      "evidencias": [
+        "Documento de enquadramento com a receita bruta do último ano-calendário",
+        "Avaliação escrita de alto risco",
+        "Registro simplificado preenchido e datado",
+        "Política simplificada de segurança"
+      ],
+      "errosComuns": [
+        "Medir o porte pelo número de funcionários em vez da receita bruta",
+        "Esquecer a receita do grupo econômico",
+        "Concluir que pequena empresa está fora da LGPD"
+      ]
+    }
+  },
+  {
+    "slug": "marco-civil-art-15-guarda-de-registros",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "marco civil da internet artigo 15",
+    "consultasSecundarias": [
+      "marco civil art 15",
+      "guarda de registros de acesso 6 meses",
+      "logs de acesso marco civil",
+      "provedor de aplicação guarda de logs"
+    ],
+    "title": "Marco Civil da Internet artigo 15: logs por 6 meses",
+    "description": "Seu site ou app precisa guardar registros de acesso por 6 meses? Veja quem é obrigado, o que registrar e como proteger os logs pelo Marco Civil.",
+    "h1": "Marco Civil da Internet artigo 15: guarda de registros de acesso",
+    "respostaDireta": "O artigo 15 do Marco Civil da Internet obriga o provedor de aplicações constituído como pessoa jurídica, com atividade organizada, profissional e com fins econômicos, a guardar os registros de acesso a aplicações por 6 meses, sob sigilo e em ambiente seguro. Na prática, sua loja virtual, app ou sistema web precisa registrar data, hora e IP de uso.",
+    "secoes": [
+      {
+        "titulo": "O que é registro de acesso e quem deve guardar",
+        "paragrafos": [
+          "O artigo 5º, VIII, define registro de acesso a aplicações como o conjunto de informações sobre data e hora de uso de uma aplicação a partir de um endereço IP. Aplicação de internet é qualquer funcionalidade acessada por um terminal conectado: loja virtual, área do cliente, app, sistema web.",
+          "Quem não se enquadra no caput pode ser obrigado por ordem judicial a guardar registros de fatos específicos (§ 1º). Autoridade policial, administrativa ou o Ministério Público podem pedir, de forma cautelar, guarda por prazo maior (§ 2º). Entregar os registros a alguém exige autorização judicial (§ 3º). E o artigo 16 proíbe guardar registros de acesso a outras aplicações sem consentimento e dados pessoais excessivos."
+        ]
+      },
+      {
+        "titulo": "O que registrar, como proteger e por quanto tempo",
+        "paragrafos": [
+          "Os padrões de segurança vêm do Decreto nº 8.771/2016, que regulamenta o Marco Civil."
+        ],
+        "tabela": {
+          "colunas": [
+            "Item",
+            "Recomendação",
+            "Fundamento"
+          ],
+          "linhas": [
+            [
+              "Data e hora",
+              "Relógio do servidor sincronizado, com fuso horário ou em UTC",
+              "Marco Civil, art. 5º, VIII"
+            ],
+            [
+              "Endereço IP",
+              "IP de origem do usuário, IPv4 ou IPv6",
+              "Marco Civil, art. 5º, VIII"
+            ],
+            [
+              "Porta de origem",
+              "Registrar também, porque um mesmo IP pode ser compartilhado por vários usuários",
+              "RFC 6302 (IETF)"
+            ],
+            [
+              "Prazo",
+              "Mínimo de 6 meses; excluir depois, salvo pedido de preservação",
+              "Marco Civil, art. 15; Decreto 8.771/2016, art. 13, § 2º"
+            ],
+            [
+              "Acesso aos logs",
+              "Restrito, com autenticação e responsáveis definidos",
+              "Decreto 8.771/2016, art. 13, I e II"
+            ],
+            [
+              "Inventário de consultas",
+              "Quem acessou, quando, por quanto tempo e qual arquivo",
+              "Decreto 8.771/2016, art. 13, III"
+            ],
+            [
+              "Proteção",
+              "Criptografia ou medida equivalente que garanta inviolabilidade",
+              "Decreto 8.771/2016, art. 13, IV"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Checklist para o seu sistema",
+        "paragrafos": [
+          "Esta lista é técnica; a análise de enquadramento no caso concreto não substitui parecer jurídico."
+        ],
+        "lista": [
+          "Confirmar se a empresa se enquadra no caput: pessoa jurídica, atividade organizada e fins econômicos",
+          "Ativar log de acesso na aplicação, sem depender só dos logs padrão da hospedagem",
+          "Garantir que o IP real do usuário seja gravado mesmo atrás de CDN ou proxy",
+          "Sincronizar o relógio do servidor e registrar o fuso horário",
+          "Configurar retenção de 6 meses com exclusão automática depois",
+          "Restringir quem lê os logs e registrar cada consulta",
+          "Ter procedimento escrito para pedido de preservação e para ordem judicial"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "checklist",
+      "descricao": "Checklist técnico de 7 itens e tabela do que registrar e como proteger os logs, com base no Marco Civil e no Decreto 8.771/2016"
+    },
+    "faq": [
+      {
+        "pergunta": "Site institucional também precisa guardar logs?",
+        "resposta": "O caput vale para provedor de aplicações pessoa jurídica com atividade organizada, profissional e com fins econômicos. Loja virtual, app e sistema com login se encaixam com mais clareza. Para site institucional simples, o enquadramento é discutível, e manter os logs do servidor por 6 meses é a escolha prudente."
+      },
+      {
+        "pergunta": "Posso guardar os logs por mais de 6 meses?",
+        "resposta": "O Marco Civil fixa o mínimo. Guardar mais exige motivo, porque o Decreto nº 8.771/2016 manda reter a menor quantidade possível e excluir os registros quando a finalidade acabar ou o prazo legal terminar. Pedido cautelar de autoridade pode exigir guarda maior."
+      },
+      {
+        "pergunta": "A polícia pediu os logs. Posso entregar?",
+        "resposta": "O artigo 15, § 3º, exige autorização judicial para disponibilizar os registros. A autoridade pode pedir que você preserve os dados enquanto busca a ordem do juiz. Já dados cadastrais, como nome e endereço, podem ser requisitados por autoridade com competência legal (art. 10, § 3º)."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Lei nº 12.965/2014 (Marco Civil da Internet)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Decreto nº 8.771/2016 — regulamenta o Marco Civil da Internet",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8771.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "RFC 6302 — Logging Recommendations for Internet-Facing Servers",
+        "url": "https://www.rfc-editor.org/rfc/rfc6302",
+        "orgao": "IETF",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Lei nº 12.965/2014 (Marco Civil da Internet)",
+      "dispositivo": "Art. 15 — guarda de registros de acesso a aplicações de internet",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm",
+      "oQuePede": [
+        "Guarda dos registros de acesso a aplicações por 6 meses, por provedor pessoa jurídica com fins econômicos (caput)",
+        "Sigilo e ambiente controlado e de segurança (caput)",
+        "Guarda por prazo maior quando autoridade ou Ministério Público requerer cautelarmente (§ 2º)",
+        "Disponibilização dos registros só com autorização judicial (§ 3º)"
+      ],
+      "oQueCobram": [
+        "Em processo judicial, a parte pode pedir ao juiz que ordene o fornecimento dos registros (art. 22)",
+        "Sanções consideram natureza, gravidade, danos, vantagem, antecedentes e reincidência (§ 4º)",
+        "Padrões de segurança do Decreto nº 8.771/2016: controle de acesso, autenticação, inventário de acessos e criptografia"
+      ],
+      "evidencias": [
+        "Configuração de retenção de logs documentada",
+        "Inventário de quem consultou os registros e quando",
+        "Cópia dos pedidos de preservação e das ordens judiciais recebidas e cumpridas"
+      ],
+      "errosComuns": [
+        "Depender dos logs padrão da hospedagem, que podem ter retenção menor",
+        "Gravar o IP da CDN em vez do IP do usuário",
+        "Guardar registros de outras aplicações ou dados excessivos (art. 16)",
+        "Entregar logs a terceiros sem ordem judicial"
+      ]
+    }
+  },
+  {
+    "slug": "marco-civil-art-7-direitos-do-usuario",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "marco civil da internet artigo 7",
+    "consultasSecundarias": [
+      "marco civil art 7",
+      "direitos do usuário marco civil",
+      "marco civil consentimento expresso",
+      "marco civil e lgpd"
+    ],
+    "title": "Marco Civil da Internet artigo 7: direitos do usuário",
+    "description": "Os direitos do usuário no artigo 7 do Marco Civil e o que eles exigem de site, app e termos de uso. Confira a tabela inciso por inciso.",
+    "h1": "Marco Civil da Internet artigo 7: direitos do usuário",
+    "respostaDireta": "O artigo 7 do Marco Civil da Internet lista os direitos do usuário, como privacidade, informações claras sobre coleta e uso de dados, consentimento expresso e destacado, exclusão dos dados ao fim da relação e acessibilidade. Para quem tem site, loja ou app, esses direitos viram exigências concretas em termos de uso, política de privacidade e cadastro.",
+    "secoes": [
+      {
+        "titulo": "Os incisos que afetam quem oferece site ou app",
+        "paragrafos": [
+          "Alguns incisos tratam do provedor de conexão, como a qualidade e a não suspensão da internet. Os da tabela atingem diretamente quem oferece uma aplicação."
+        ],
+        "tabela": {
+          "colunas": [
+            "Inciso",
+            "Direito do usuário",
+            "O que fazer no seu produto"
+          ],
+          "linhas": [
+            [
+              "I",
+              "Inviolabilidade da intimidade e da vida privada, com indenização",
+              "Não expor dados de clientes em telas públicas, URLs ou e-mails com cópia aberta"
+            ],
+            [
+              "III",
+              "Sigilo das comunicações privadas armazenadas",
+              "Chat e mensagens da área do cliente com acesso restrito"
+            ],
+            [
+              "VII",
+              "Dados e registros não fornecidos a terceiros sem consentimento livre, expresso e informado ou hipótese legal",
+              "Não vender nem repassar lista de clientes sem base legal"
+            ],
+            [
+              "VIII",
+              "Informações claras e completas sobre coleta, uso, armazenamento, tratamento e proteção",
+              "Política de privacidade e termos coerentes com o que o sistema faz"
+            ],
+            [
+              "IX",
+              "Consentimento expresso, destacado das demais cláusulas",
+              "Aceite separado, fora do bloco de termos"
+            ],
+            [
+              "X",
+              "Exclusão definitiva dos dados ao fim da relação, a pedido, ressalvada guarda obrigatória",
+              "Fluxo para encerrar conta e apagar dados, mantendo os logs do prazo legal"
+            ],
+            [
+              "XI",
+              "Publicidade e clareza das políticas de uso",
+              "Termos publicados e acessíveis antes do cadastro"
+            ],
+            [
+              "XII",
+              "Acessibilidade",
+              "Telas utilizáveis por pessoas com deficiência"
+            ],
+            [
+              "XIII",
+              "Normas de defesa do consumidor nas relações de consumo online",
+              "Código de Defesa do Consumidor e Decreto nº 7.962/2013 na loja virtual"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Marco Civil e LGPD: como as duas leis convivem",
+        "paragrafos": [
+          "A LGPD, de 2018, mudou o inciso X do artigo 7 e o artigo 16 do Marco Civil para incluir referência à lei de proteção de dados. O inciso IX continua falando em consentimento expresso para coleta e tratamento, enquanto a LGPD detalha outras bases legais. A forma prudente de atender aos dois textos é informar com clareza toda coleta, usar aceite destacado quando a base for consentimento e documentar a base da LGPD nos demais casos.",
+          "O artigo 8º completa o artigo 7: são nulas as cláusulas que violem a privacidade e, em contrato de adesão, as que não ofereçam foro brasileiro para serviços prestados no Brasil. Este texto é informativo e não é parecer jurídico."
+        ]
+      },
+      {
+        "titulo": "Checklist de termos de uso e cadastro",
+        "paragrafos": [],
+        "lista": [
+          "Termos de uso publicados e com link antes do cadastro (inciso XI)",
+          "Política de privacidade explicando coleta, uso, guarda e proteção (inciso VIII)",
+          "Aceite de tratamentos opcionais em caixa destacada (inciso IX)",
+          "Nenhum repasse de dados a terceiros sem base legal (inciso VII)",
+          "Fluxo para encerrar conta e excluir dados (inciso X)",
+          "Foro brasileiro disponível no contrato de adesão (art. 8º, parágrafo único, II)",
+          "Regras de consumo aplicadas na venda online (inciso XIII)",
+          "Recursos de acessibilidade nas telas principais (inciso XII)"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Tabela dos incisos do artigo 7 que afetam site e app, com a ação correspondente no produto"
+    },
+    "faq": [
+      {
+        "pergunta": "O Marco Civil foi substituído pela LGPD?",
+        "resposta": "Não. As duas leis estão em vigor. A LGPD alterou pontos do Marco Civil, como o inciso X do artigo 7 e o artigo 16, para fazer referência à lei de proteção de dados. O Marco Civil continua regendo guarda de registros, sigilo das comunicações e direitos do usuário."
+      },
+      {
+        "pergunta": "O consentimento expresso do inciso IX vale para tudo?",
+        "resposta": "O texto do Marco Civil pede consentimento expresso e destacado sobre coleta e tratamento. A LGPD, posterior, trouxe outras bases legais. A conduta prudente é informar toda coleta com clareza e documentar a base legal de cada uso, usando aceite destacado quando a base for consentimento."
+      },
+      {
+        "pergunta": "Preciso apagar os dados quando o cliente encerra a conta?",
+        "resposta": "Se ele pedir, sim, ao término da relação, pelo inciso X. A exceção são os dados de guarda obrigatória, como os registros de acesso do artigo 15 e o que a LGPD autoriza conservar para cumprir obrigação legal. Informe ao cliente o que ficou e por quê."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Lei nº 12.965/2014 (Marco Civil da Internet)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Lei nº 13.709/2018 (LGPD) — texto compilado",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Lei nº 12.965/2014 (Marco Civil da Internet)",
+      "dispositivo": "Art. 7º — direitos e garantias dos usuários",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm",
+      "oQuePede": [
+        "Informações claras e completas sobre coleta, uso, armazenamento, tratamento e proteção de dados (inciso VIII)",
+        "Consentimento expresso, destacado das demais cláusulas (inciso IX)",
+        "Não fornecer dados pessoais e registros a terceiros sem consentimento ou hipótese legal (inciso VII)",
+        "Exclusão definitiva dos dados ao fim da relação, a pedido, ressalvada a guarda obrigatória (inciso X)"
+      ],
+      "oQueCobram": [
+        "Indenização por dano material ou moral decorrente de violação da intimidade (inciso I)",
+        "Nulidade de cláusulas que violem a privacidade ou que neguem foro brasileiro em contrato de adesão (art. 8º)",
+        "Aplicação das normas de defesa do consumidor nas relações de consumo pela internet (inciso XIII)"
+      ],
+      "evidencias": [
+        "Versões datadas dos termos de uso e da política de privacidade",
+        "Registro de aceites e de pedidos de exclusão de conta",
+        "Lista de terceiros que recebem dados e a base de cada repasse"
+      ],
+      "errosComuns": [
+        "Termos de uso copiados que não descrevem o que o sistema faz",
+        "Encerrar a conta mas continuar usando os dados para marketing",
+        "Contrato de adesão com foro exclusivo no exterior"
+      ]
+    }
+  },
+  {
+    "slug": "decreto-7962-art-2-informacoes-obrigatorias",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "decreto 7962 informações obrigatórias no site",
+    "consultasSecundarias": [
+      "decreto 7962 art 2",
+      "informações obrigatórias e-commerce",
+      "cnpj no site é obrigatório",
+      "lei do e-commerce"
+    ],
+    "title": "Decreto 7.962 art. 2: informações obrigatórias no site",
+    "description": "Nome, CNPJ, endereço, frete e condições: veja o que o artigo 2 do Decreto 7.962/2013 exige da loja virtual e onde colocar cada item.",
+    "h1": "Decreto 7.962 artigo 2: informações obrigatórias no site de e-commerce",
+    "respostaDireta": "O artigo 2 do Decreto 7.962/2013 lista as informações obrigatórias no site que vende ao consumidor: nome empresarial e CNPJ, endereço físico e eletrônico, características essenciais do produto, despesas adicionais como frete, condições integrais da oferta e restrições. Tudo em local de destaque e fácil visualização, não escondido em páginas secundárias.",
+    "secoes": [
+      {
+        "titulo": "Os seis incisos e onde cada um aparece na loja",
+        "paragrafos": [
+          "O decreto regulamenta o Código de Defesa do Consumidor para o comércio eletrônico e vale para sites e demais meios eletrônicos usados para oferta ou conclusão de contrato de consumo."
+        ],
+        "tabela": {
+          "colunas": [
+            "Inciso",
+            "Informação",
+            "Onde colocar"
+          ],
+          "linhas": [
+            [
+              "I",
+              "Nome empresarial e CPF ou CNPJ do fornecedor",
+              "Rodapé de todas as páginas e página institucional"
+            ],
+            [
+              "II",
+              "Endereço físico e eletrônico e demais dados de contato",
+              "Rodapé e página de contato, com e-mail e telefone"
+            ],
+            [
+              "III",
+              "Características essenciais, incluindo riscos à saúde e à segurança",
+              "Página do produto: medidas, material, voltagem, validade, advertências"
+            ],
+            [
+              "IV",
+              "Despesas adicionais discriminadas no preço, como entrega e seguro",
+              "Cálculo de frete na página do produto e resumo no carrinho"
+            ],
+            [
+              "V",
+              "Condições integrais da oferta: pagamento, disponibilidade, forma e prazo de entrega",
+              "Página do produto e checkout: parcelas, estoque, prazo"
+            ],
+            [
+              "VI",
+              "Restrições à fruição da oferta, de forma clara e ostensiva",
+              "Junto à oferta: validade, limite por cliente, regiões atendidas"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Destaque, compras coletivas e consequências",
+        "paragrafos": [
+          "\"Local de destaque e de fácil visualização\" exclui o hábito de colocar CNPJ e endereço só nos termos de uso. Para ofertas de compra coletiva, o artigo 3º soma três informações: quantidade mínima de consumidores, prazo para usar a oferta e identificação do responsável pelo site e do fornecedor do produto.",
+          "O descumprimento sujeita a loja às sanções do artigo 56 do Código de Defesa do Consumidor, como multa e suspensão de atividade (art. 7º do decreto). E o artigo 30 do CDC faz a oferta suficientemente precisa integrar o contrato. As regras de preço do Decreto nº 5.903/2006 também valem para o comércio eletrônico. Este resumo é informativo e não é parecer jurídico."
+        ]
+      },
+      {
+        "titulo": "Checklist de conferência da loja virtual",
+        "paragrafos": [],
+        "lista": [
+          "Razão social e CNPJ no rodapé, iguais aos do cadastro na Receita",
+          "Endereço físico completo, não só a cidade",
+          "E-mail e telefone ou WhatsApp que de fato respondem",
+          "Ficha técnica com características essenciais em cada produto",
+          "Frete calculado e mostrado antes do fechamento",
+          "Formas de pagamento, parcelas e prazo de entrega visíveis na página do produto",
+          "Disponibilidade de estoque real, sem selo fixo de \"em estoque\"",
+          "Restrições da promoção escritas junto à oferta, não só em regulamento separado"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Tabela dos 6 incisos do artigo 2 com o lugar de cada informação na loja virtual, mais checklist de conferência"
+    },
+    "faq": [
+      {
+        "pergunta": "É obrigatório colocar CNPJ no site?",
+        "resposta": "Para quem vende ao consumidor pela internet, sim. O inciso I do artigo 2 pede o nome empresarial e o número no CNPJ, ou no CPF quando o fornecedor for pessoa física, em local de destaque e fácil visualização. O rodapé de todas as páginas é o lugar mais usado."
+      },
+      {
+        "pergunta": "Site que só mostra produtos, sem venda online, precisa seguir o decreto?",
+        "resposta": "O artigo 2 vale para sites usados para oferta ou conclusão de contrato de consumo. Um catálogo com preço e botão de pedido pelo WhatsApp já faz oferta. Na dúvida, publicar as informações do artigo custa pouco e evita discussão com o consumidor."
+      },
+      {
+        "pergunta": "Vender pelo Instagram ou WhatsApp também entra?",
+        "resposta": "O decreto fala em sítios eletrônicos ou demais meios eletrônicos usados para oferta ou contratação. Redes sociais e aplicativos de mensagem são meios eletrônicos, então as mesmas informações devem estar acessíveis antes da compra, por exemplo no perfil ou no catálogo."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Decreto nº 7.962/2013 — contratação no comércio eletrônico",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Lei nº 8.078/1990 (Código de Defesa do Consumidor) — texto compilado",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Decreto nº 5.903/2006 — informação de preços",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/decreto/d5903.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Decreto nº 7.962/2013",
+      "dispositivo": "Art. 2º — informações obrigatórias em sites de comércio eletrônico",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+      "oQuePede": [
+        "Identificação do fornecedor: nome empresarial e CPF ou CNPJ (inciso I)",
+        "Endereço físico e eletrônico e dados de contato (inciso II)",
+        "Características essenciais do produto ou serviço, inclusive riscos (inciso III)",
+        "Despesas adicionais discriminadas, condições integrais da oferta e restrições claras (incisos IV a VI)"
+      ],
+      "oQueCobram": [
+        "Sanções do art. 56 do Código de Defesa do Consumidor, como multa e suspensão de atividade (art. 7º)",
+        "Fiscalização da oferta por Procon e demais órgãos de defesa do consumidor",
+        "Oferta precisa integra o contrato e pode ser exigida nos termos anunciados (CDC, arts. 30 e 35)"
+      ],
+      "evidencias": [
+        "Capturas datadas das páginas de produto e do checkout",
+        "Histórico de alterações de preço, frete e condições",
+        "Prova de que as restrições estavam visíveis durante a promoção"
+      ],
+      "errosComuns": [
+        "CNPJ e endereço só nos termos de uso",
+        "Frete revelado apenas na última etapa da compra",
+        "Restrições da promoção só em regulamento separado"
+      ]
+    }
+  },
+  {
+    "slug": "decreto-7962-art-4-atendimento-facilitado",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "decreto 7962 atendimento ao consumidor",
+    "consultasSecundarias": [
+      "decreto 7962 art 4",
+      "sac de loja virtual é obrigatório",
+      "prazo de resposta ao consumidor e-commerce",
+      "atendimento facilitado comércio eletrônico"
+    ],
+    "title": "Decreto 7.962 art. 4: atendimento ao consumidor online",
+    "description": "Resumo do contrato, correção de erros, confirmação imediata e resposta em 5 dias: veja o que o artigo 4 do Decreto 7.962 exige da loja virtual.",
+    "h1": "Decreto 7.962 artigo 4: atendimento facilitado ao consumidor",
+    "respostaDireta": "O artigo 4 do Decreto 7.962/2013 define o atendimento ao consumidor no comércio eletrônico: resumo do contrato antes da compra, ferramenta para corrigir erros, confirmação imediata do pedido, contrato disponível para guardar, canal eletrônico eficaz e segurança no pagamento. As demandas do consumidor devem ser respondidas em até cinco dias.",
+    "secoes": [
+      {
+        "titulo": "Os sete incisos convertidos em funcionalidade",
+        "paragrafos": [
+          "Quase tudo o que o artigo pede se resolve no fluxo de compra e no sistema de atendimento. A tabela mostra a funcionalidade correspondente a cada inciso."
+        ],
+        "tabela": {
+          "colunas": [
+            "Inciso",
+            "Exigência",
+            "Funcionalidade na loja"
+          ],
+          "linhas": [
+            [
+              "I",
+              "Sumário do contrato antes da contratação, com destaque para cláusulas que limitam direitos",
+              "Tela de revisão com itens, total, frete, prazo, trocas e restrições"
+            ],
+            [
+              "II",
+              "Ferramentas eficazes para identificar e corrigir erros antes de finalizar",
+              "Editar quantidade, endereço e pagamento antes de confirmar"
+            ],
+            [
+              "III",
+              "Confirmação imediata do recebimento da aceitação da oferta",
+              "Página de confirmação e e-mail automático com número do pedido"
+            ],
+            [
+              "IV",
+              "Contrato disponível, logo após a compra, em meio que permita guardar e reproduzir",
+              "E-mail com resumo e link para os termos daquela compra"
+            ],
+            [
+              "V",
+              "Atendimento eletrônico adequado e eficaz para informação, dúvida, reclamação, suspensão ou cancelamento",
+              "Formulário, e-mail ou chat com protocolo"
+            ],
+            [
+              "VI",
+              "Confirmação imediata do recebimento das demandas, pelo mesmo meio usado pelo consumidor",
+              "Resposta automática com protocolo no mesmo canal"
+            ],
+            [
+              "VII",
+              "Mecanismos de segurança eficazes para pagamento e dados do consumidor",
+              "Gateway de pagamento confiável, HTTPS e proteção dos dados (LGPD, art. 46)"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O prazo de cinco dias",
+        "paragrafos": [
+          "O parágrafo único manda encaminhar a manifestação do fornecedor sobre as demandas do inciso V em até cinco dias. O texto não diz dias úteis, então o mais seguro é contar dias corridos e configurar alerta antes do vencimento. Responder dentro do prazo não encerra a obrigação: o artigo 6º exige cumprir as condições da oferta, com entrega no prazo, na quantidade e na qualidade anunciadas.",
+          "Na publicação oficial, o inciso VI menciona as demandas \"referidas no inciso\" sem indicar o número; pela redação, a referência mais provável é o inciso V. Este conteúdo é informativo e não é parecer jurídico."
+        ]
+      },
+      {
+        "titulo": "Checklist do atendimento online",
+        "paragrafos": [],
+        "lista": [
+          "Tela de revisão com total, frete, prazo e política de troca antes do botão final",
+          "Possibilidade de voltar e corrigir sem perder o carrinho",
+          "E-mail automático de confirmação com número do pedido",
+          "Resumo da compra que o cliente consiga salvar ou imprimir",
+          "Canal eletrônico de atendimento com número de protocolo",
+          "Confirmação automática de recebimento no mesmo canal usado pelo cliente",
+          "Painel com prazo de resposta e alerta antes de completar cinco dias",
+          "Cancelamento possível pelo canal eletrônico, sem exigir ligação"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "checklist",
+      "descricao": "Checklist de 8 itens do atendimento online e tabela que converte cada inciso do artigo 4 em funcionalidade da loja"
+    },
+    "faq": [
+      {
+        "pergunta": "Qual o prazo para responder reclamação de cliente da loja virtual?",
+        "resposta": "O parágrafo único do artigo 4 do Decreto 7.962/2013 fixa até cinco dias para o fornecedor se manifestar sobre demandas de informação, dúvida, reclamação, suspensão ou cancelamento. O texto não diz dias úteis, então o mais seguro é contar dias corridos."
+      },
+      {
+        "pergunta": "Atendimento só por WhatsApp cumpre o decreto?",
+        "resposta": "O decreto pede serviço adequado e eficaz em meio eletrônico, e WhatsApp é meio eletrônico. O cuidado é garantir confirmação imediata de recebimento, registro das conversas e resposta no prazo, inclusive quando o atendente estiver ausente."
+      },
+      {
+        "pergunta": "Preciso mandar o contrato para o cliente depois da compra?",
+        "resposta": "Sim. O inciso IV pede que o contrato fique disponível, logo após a contratação, em meio que permita conservação e reprodução. Um e-mail com o resumo do pedido e link para os termos vigentes naquela data atende bem."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Decreto nº 7.962/2013 — contratação no comércio eletrônico",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Lei nº 8.078/1990 (Código de Defesa do Consumidor) — texto compilado",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Decreto nº 7.962/2013",
+      "dispositivo": "Art. 4º — atendimento facilitado ao consumidor no comércio eletrônico",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+      "oQuePede": [
+        "Sumário do contrato antes da compra, com cláusulas restritivas em destaque (inciso I)",
+        "Ferramentas para corrigir erros antes de finalizar e confirmação imediata do pedido (incisos II e III)",
+        "Contrato disponível para conservação e reprodução logo após a compra (inciso IV)",
+        "Atendimento eletrônico eficaz, com confirmação imediata das demandas, e segurança no pagamento (incisos V a VII)"
+      ],
+      "oQueCobram": [
+        "Manifestação sobre as demandas do consumidor em até cinco dias (parágrafo único)",
+        "Sanções do art. 56 do Código de Defesa do Consumidor pela inobservância (art. 7º)",
+        "Cumprimento das condições da oferta, com entrega no prazo, quantidade e qualidade (art. 6º)"
+      ],
+      "evidencias": [
+        "Protocolos de atendimento com data de entrada e de resposta",
+        "Modelos dos e-mails de confirmação de pedido e de demanda",
+        "Capturas da tela de revisão do pedido"
+      ],
+      "errosComuns": [
+        "Atendimento só por telefone em horário comercial",
+        "Pedido de cancelamento recebido sem protocolo nem confirmação",
+        "Resumo do pedido sem as regras que limitam direitos, como condições de troca"
+      ]
+    }
+  },
+  {
+    "slug": "cdc-art-49-direito-de-arrependimento",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "art 49 cdc direito de arrependimento",
+    "consultasSecundarias": [
+      "direito de arrependimento compra online",
+      "prazo de 7 dias para devolução",
+      "decreto 7962 art 5",
+      "quem paga o frete na devolução por arrependimento"
+    ],
+    "title": "Art. 49 CDC: direito de arrependimento na compra online",
+    "description": "Prazo de 7 dias, devolução dos valores, estorno no cartão e o que o Decreto 7.962 exige da loja. Veja o fluxo do direito de arrependimento.",
+    "h1": "Art. 49 do CDC: direito de arrependimento na compra online",
+    "respostaDireta": "O art. 49 do CDC garante o direito de arrependimento: o consumidor pode desistir da compra feita fora do estabelecimento comercial, como na internet, em até 7 dias da assinatura ou do recebimento do produto. Os valores pagos voltam de imediato e corrigidos. O Decreto 7.962/2013 exige informar como desistir e aceitar o pedido pelo mesmo canal da compra.",
+    "secoes": [
+      {
+        "titulo": "O que o CDC e o decreto dizem",
+        "paragrafos": [
+          "O artigo 49 do Código de Defesa do Consumidor permite desistir do contrato em 7 dias, contados da assinatura ou do recebimento do produto ou serviço, sempre que a contratação ocorrer fora do estabelecimento comercial. O parágrafo único manda devolver de imediato, com correção monetária, os valores pagos a qualquer título durante o prazo de reflexão.",
+          "O artigo 5º do Decreto 7.962/2013 adapta a regra para o comércio eletrônico: a loja deve informar de forma clara e ostensiva como exercer o direito (caput), aceitar o pedido pela mesma ferramenta usada na compra (§ 1º), cancelar sem ônus os contratos acessórios (§ 2º), avisar de imediato a operadora do cartão (§ 3º) e confirmar o recebimento do pedido na hora (§ 4º)."
+        ]
+      },
+      {
+        "titulo": "Fluxo do arrependimento na loja virtual",
+        "paragrafos": [],
+        "tabela": {
+          "colunas": [
+            "Etapa",
+            "O que a loja faz",
+            "Base"
+          ],
+          "linhas": [
+            [
+              "Antes da compra",
+              "Explica, de forma visível, como desistir e em qual prazo",
+              "Decreto 7.962, art. 5º, caput"
+            ],
+            [
+              "Pedido do cliente",
+              "Aceita pela mesma ferramenta da compra, como botão na área do cliente, sem excluir outros meios",
+              "Decreto 7.962, art. 5º, § 1º"
+            ],
+            [
+              "Recebimento do pedido",
+              "Envia confirmação imediata, com protocolo",
+              "Decreto 7.962, art. 5º, § 4º"
+            ],
+            [
+              "Compra no cartão",
+              "Avisa a operadora para não lançar a cobrança ou estornar o valor",
+              "Decreto 7.962, art. 5º, § 3º"
+            ],
+            [
+              "Pix, boleto ou transferência",
+              "Devolve de imediato, com correção monetária",
+              "CDC, art. 49, parágrafo único"
+            ],
+            [
+              "Contratos acessórios",
+              "Cancela garantia estendida, seguro e similares sem ônus",
+              "Decreto 7.962, art. 5º, § 2º"
+            ],
+            [
+              "Frete da compra",
+              "Devolve junto, porque a lei fala em valores pagos a qualquer título",
+              "CDC, art. 49, parágrafo único"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Checklist para a loja virtual",
+        "paragrafos": [
+          "O texto do artigo 49 não trata do frete de retorno do produto. Cobrá-lo do consumidor reduz o valor que a lei manda devolver e tende a ser questionado; defina essa regra com orientação jurídica, porque este conteúdo não é parecer."
+        ],
+        "lista": [
+          "Página de trocas e devoluções com o prazo de 7 dias e o passo a passo",
+          "Botão ou formulário de arrependimento na área do cliente e no e-mail do pedido",
+          "Confirmação automática do pedido de arrependimento, com protocolo",
+          "Data de entrega registrada pelo rastreio, para contar o prazo",
+          "Integração com o gateway para cancelar ou estornar a cobrança no cartão",
+          "Rotina de devolução imediata para Pix e boleto, com correção",
+          "Cancelamento automático de garantia estendida e outros acessórios",
+          "Logística reversa combinada com a transportadora"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Fluxo do arrependimento em 7 etapas com a base legal de cada uma, mais checklist de implementação na loja"
+    },
+    "faq": [
+      {
+        "pergunta": "O prazo de 7 dias conta da compra ou da entrega?",
+        "resposta": "O artigo 49 fala em 7 dias a contar da assinatura ou do ato de recebimento do produto ou serviço. Em compra online com entrega, o marco prático é o recebimento. Por isso, guarde a data de entrega registrada pela transportadora."
+      },
+      {
+        "pergunta": "Quem paga o frete de devolução?",
+        "resposta": "O CDC manda devolver de imediato os valores pagos a qualquer título, o que inclui o frete da compra. O texto não fala do frete de retorno; cobrá-lo do consumidor reduz o valor devolvido e tende a ser questionado. Defina a regra com orientação jurídica."
+      },
+      {
+        "pergunta": "Posso devolver em vale-compra em vez de dinheiro?",
+        "resposta": "Não como regra. O parágrafo único do artigo 49 diz que os valores pagos serão devolvidos, de imediato e corrigidos. O vale-compra pode ser oferecido como opção, desde que o cliente escolha livremente e a devolução em dinheiro continue disponível."
+      },
+      {
+        "pergunta": "Serviço contratado pela internet também tem arrependimento?",
+        "resposta": "Sim. O artigo 49 fala em fornecimento de produtos e serviços fora do estabelecimento comercial, e o prazo conta da assinatura do contrato ou do recebimento do serviço. Registre o que foi informado ao cliente antes da contratação."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Lei nº 8.078/1990 (Código de Defesa do Consumidor) — texto compilado",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Decreto nº 7.962/2013 — contratação no comércio eletrônico",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Lei nº 8.078/1990 (CDC) e Decreto nº 7.962/2013",
+      "dispositivo": "Art. 49 do CDC e art. 5º do Decreto 7.962/2013 — direito de arrependimento",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm",
+      "oQuePede": [
+        "Desistência em 7 dias da assinatura ou do recebimento, na compra fora do estabelecimento (CDC, art. 49)",
+        "Devolução imediata e corrigida dos valores pagos a qualquer título (parágrafo único)",
+        "Informação clara sobre como desistir e uso da mesma ferramenta da compra (Decreto 7.962, art. 5º, caput e § 1º)",
+        "Aviso imediato à operadora do cartão e cancelamento dos contratos acessórios sem ônus (§§ 2º e 3º)"
+      ],
+      "oQueCobram": [
+        "A inobservância do decreto sujeita às sanções do art. 56 do CDC (Decreto 7.962, art. 7º)",
+        "O consumidor pode reclamar ao Procon e ir à Justiça para exigir a devolução",
+        "Confirmação imediata do recebimento do pedido de arrependimento (§ 4º)"
+      ],
+      "evidencias": [
+        "Data de entrega comprovada pelo rastreio",
+        "Protocolo e data do pedido de arrependimento",
+        "Comprovante do estorno ou da devolução e do aviso à operadora"
+      ],
+      "errosComuns": [
+        "Exigir justificativa para aceitar a desistência",
+        "Oferecer só vale-compra em vez de devolver o dinheiro",
+        "Contar os 7 dias da data do pedido, e não do recebimento",
+        "Aceitar arrependimento só por telefone"
+      ]
+    }
+  },
+  {
+    "slug": "lbi-art-63-acessibilidade-em-sites",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "lei brasileira de inclusão artigo 63",
+    "consultasSecundarias": [
+      "acessibilidade em sites é obrigatória",
+      "lei 13146 art 63",
+      "lbi acessibilidade digital",
+      "símbolo de acessibilidade no site"
+    ],
+    "title": "Lei Brasileira de Inclusão artigo 63: site acessível",
+    "description": "O artigo 63 da LBI obriga empresas a manter sites acessíveis. Veja o que a lei pede, como aplicar as diretrizes WCAG e o que guardar como prova.",
+    "h1": "Lei Brasileira de Inclusão artigo 63: acessibilidade em sites",
+    "respostaDireta": "O artigo 63 da Lei Brasileira de Inclusão (Lei 13.146/2015) torna obrigatória a acessibilidade nos sites de empresas com sede ou representação comercial no Brasil, garantindo à pessoa com deficiência acesso às informações, conforme as melhores práticas internacionais. O site também deve exibir o símbolo de acessibilidade em destaque. Na prática, isso aponta para as diretrizes WCAG, do W3C.",
+    "secoes": [
+      {
+        "titulo": "O que o artigo 63 diz",
+        "paragrafos": [
+          "O caput vale para sites mantidos por empresas com sede ou representação comercial no País e por órgãos de governo. O objetivo é garantir à pessoa com deficiência acesso às informações disponíveis, seguindo as melhores práticas e diretrizes de acessibilidade adotadas internacionalmente. O § 1º exige símbolo de acessibilidade em destaque. Os §§ 2º e 3º tratam de telecentros e lan houses.",
+          "O artigo 64 exige essa acessibilidade para aprovar financiamento de projeto com recursos públicos (art. 54, III). O Marco Civil da Internet também lista a acessibilidade entre os direitos do usuário (art. 7º, XII). A lei não traz lista técnica própria; a referência internacional publicada pelo W3C são as WCAG, hoje na versão 2.2."
+        ]
+      },
+      {
+        "titulo": "Do texto da lei aos critérios WCAG",
+        "paragrafos": [
+          "A tabela liga necessidades comuns de pessoas com deficiência a barreiras frequentes em sites de PME e ao critério WCAG que resolve cada uma."
+        ],
+        "tabela": {
+          "colunas": [
+            "Necessidade",
+            "Barreira comum",
+            "Correção (critério WCAG)"
+          ],
+          "linhas": [
+            [
+              "Ouvir imagens pelo leitor de tela",
+              "Foto de produto sem texto alternativo",
+              "Texto alternativo descritivo (1.1.1)"
+            ],
+            [
+              "Navegar só pelo teclado",
+              "Menu que abre apenas com o mouse",
+              "Tudo operável por teclado (2.1.1)"
+            ],
+            [
+              "Ler com baixa visão",
+              "Texto cinza-claro sobre fundo branco",
+              "Contraste mínimo de 4,5:1 no texto normal (1.4.3)"
+            ],
+            [
+              "Preencher formulários",
+              "Campo sem rótulo, só com texto de exemplo",
+              "Rótulos ou instruções (3.3.2)"
+            ],
+            [
+              "Acompanhar vídeo sem áudio",
+              "Vídeo institucional sem legenda",
+              "Legendas em mídia gravada (1.2.2)"
+            ],
+            [
+              "Ampliar a tela",
+              "Layout que quebra com zoom de 200%",
+              "Texto redimensionável até 200% (1.4.4)"
+            ],
+            [
+              "Saber onde está o cursor",
+              "Foco invisível ao navegar com Tab",
+              "Foco visível (2.4.7)"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Como mostrar que o site cumpre",
+        "paragrafos": [
+          "Acessibilidade se prova com registro do que foi testado. Este conteúdo é técnico e informativo, não um parecer jurídico."
+        ],
+        "lista": [
+          "Relatório datado com avaliação automática e revisão manual das páginas principais",
+          "Lista das páginas testadas e dos critérios WCAG verificados",
+          "Teste com leitor de tela no fluxo de contato e no de compra",
+          "Declaração de acessibilidade publicada, com canal para relatar barreiras",
+          "Símbolo de acessibilidade em destaque (art. 63, § 1º)",
+          "Cláusula no contrato de desenvolvimento exigindo conformidade com as WCAG",
+          "Reteste a cada nova versão do site"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Tabela que liga necessidades de pessoas com deficiência a barreiras comuns e ao critério WCAG correspondente"
+    },
+    "faq": [
+      {
+        "pergunta": "Acessibilidade no site é obrigatória para empresa privada?",
+        "resposta": "Sim. O artigo 63 da Lei 13.146/2015 torna obrigatória a acessibilidade nos sites mantidos por empresas com sede ou representação comercial no País, e não só nos de órgãos públicos. A lei manda seguir as melhores práticas e diretrizes internacionais de acessibilidade."
+      },
+      {
+        "pergunta": "Plugin de acessibilidade resolve?",
+        "resposta": "Não sozinho. Botões que aumentam fonte ou mudam contraste ajudam, mas não corrigem imagem sem texto alternativo, formulário sem rótulo ou menu que não funciona pelo teclado. Essas correções ficam no código do site e precisam ser testadas."
+      },
+      {
+        "pergunta": "Que símbolo de acessibilidade colocar?",
+        "resposta": "O § 1º do artigo 63 exige símbolo de acessibilidade em destaque, mas não define o desenho. Use um símbolo reconhecível, com link para a página de acessibilidade do site explicando os recursos disponíveis e como relatar barreiras."
+      },
+      {
+        "pergunta": "Quem pode cobrar a falta de acessibilidade?",
+        "resposta": "O artigo 79, § 3º, da Lei Brasileira de Inclusão atribui à Defensoria Pública e ao Ministério Público as medidas necessárias para garantir os direitos previstos na lei. Usuários prejudicados também podem reclamar diretamente à empresa e aos órgãos de defesa do consumidor."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Lei nº 13.146/2015 (Lei Brasileira de Inclusão)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Web Content Accessibility Guidelines (WCAG) 2.2",
+        "url": "https://www.w3.org/TR/WCAG22/",
+        "orgao": "W3C",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Lei nº 12.965/2014 (Marco Civil da Internet)",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Lei nº 13.146/2015 (Lei Brasileira de Inclusão)",
+      "dispositivo": "Art. 63 — acessibilidade nos sítios da internet",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm",
+      "oQuePede": [
+        "Acessibilidade nos sites de empresas com sede ou representação comercial no País (caput)",
+        "Acesso da pessoa com deficiência às informações disponíveis (caput)",
+        "Conformidade com as melhores práticas e diretrizes internacionais de acessibilidade (caput)",
+        "Símbolo de acessibilidade em destaque (§ 1º)"
+      ],
+      "oQueCobram": [
+        "Defensoria Pública e Ministério Público tomam as medidas para garantir os direitos da lei (art. 79, § 3º)",
+        "Acessibilidade do site como condição para financiamento de projeto com recursos públicos (art. 64)",
+        "Acessibilidade também é direito do usuário no Marco Civil da Internet (art. 7º, XII)"
+      ],
+      "evidencias": [
+        "Relatórios datados de avaliação de acessibilidade",
+        "Declaração de acessibilidade publicada no site",
+        "Registro das barreiras relatadas por usuários e das correções feitas"
+      ],
+      "errosComuns": [
+        "Confiar só em plugin de acessibilidade",
+        "Testar apenas a página inicial e esquecer checkout e formulários",
+        "Corrigir uma vez e não retestar a cada nova versão"
+      ]
+    }
+  },
+  {
+    "slug": "lei-do-software-art-4-titularidade",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "lei do software artigo 4",
+    "consultasSecundarias": [
+      "lei 9609 art 4",
+      "de quem é o software desenvolvido por funcionário",
+      "propriedade do código-fonte",
+      "direitos sobre software contratado"
+    ],
+    "title": "Lei do Software artigo 4: de quem é o sistema desenvolvido",
+    "description": "Quem fica com os direitos do software feito por empregado ou fornecedor contratado? Veja o artigo 4 da Lei 9.609/1998 e o que pôr no contrato.",
+    "h1": "Lei do Software artigo 4: titularidade do programa desenvolvido",
+    "respostaDireta": "O artigo 4 da Lei do Software (Lei 9.609/1998) diz que, salvo estipulação em contrário, os direitos sobre o programa desenvolvido durante contrato de trabalho ou de prestação de serviços destinado a isso pertencem exclusivamente ao empregador ou contratante. A expressão \"salvo estipulação em contrário\" faz do contrato o documento que decide de quem é o sistema.",
+    "secoes": [
+      {
+        "titulo": "Quem fica com o programa em cada situação",
+        "paragrafos": [
+          "O caput cobre três situações: contrato expressamente destinado a pesquisa e desenvolvimento, contrato em que a atividade de programar está prevista, e casos em que o programa decorre da própria natureza do cargo ou do serviço. Pelo § 1º, a compensação pelo trabalho fica limitada ao salário ou à remuneração combinada, salvo ajuste diferente."
+        ],
+        "tabela": {
+          "colunas": [
+            "Situação",
+            "Titular, sem cláusula em contrário",
+            "Fundamento"
+          ],
+          "linhas": [
+            [
+              "Empregado contratado para programar desenvolve o sistema da empresa",
+              "Empregador",
+              "Art. 4º, caput"
+            ],
+            [
+              "Fornecedor contratado para desenvolver o sistema",
+              "Contratante",
+              "Art. 4º, caput"
+            ],
+            [
+              "Programar decorre da natureza do cargo, mesmo sem previsão expressa",
+              "Empregador ou contratante",
+              "Art. 4º, caput"
+            ],
+            [
+              "Programa sem relação com o contrato e feito sem recursos, informações ou equipamentos da empresa",
+              "Empregado ou contratado",
+              "Art. 4º, § 2º"
+            ],
+            [
+              "Estagiário ou bolsista",
+              "Mesmas regras acima",
+              "Art. 4º, § 3º"
+            ],
+            [
+              "Modificação autorizada feita por terceiro",
+              "Quem fez a derivação, salvo contrato",
+              "Art. 5º"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "O que o artigo não resolve e o contrato precisa resolver",
+        "paragrafos": [
+          "Ser titular dos direitos não é o mesmo que ter o código-fonte nas mãos. Se o contrato não prevê entrega do código, acesso ao repositório e documentação, trocar de fornecedor pode exigir reescrever o sistema. Componentes de terceiros e bibliotecas de código aberto seguem a licença de quem os criou: o fornecedor só cede o que escreveu.",
+          "O autor mantém o direito de reivindicar a paternidade do programa e de se opor a alterações não autorizadas que prejudiquem sua honra ou reputação (art. 2º, § 1º). A proteção dura 50 anos e independe de registro (art. 2º, §§ 2º e 3º); o registro no INPI é opcional (art. 3º). Este resumo não substitui a revisão do contrato por advogado."
+        ]
+      },
+      {
+        "titulo": "Cláusulas para pedir no contrato de desenvolvimento",
+        "paragrafos": [],
+        "lista": [
+          "Cessão expressa dos direitos patrimoniais do código desenvolvido para a sua empresa",
+          "Entrega do código-fonte e acesso ao repositório durante e depois do projeto",
+          "Lista de componentes de terceiros e de código aberto, com as licenças",
+          "Definição do que o fornecedor reaproveita de projetos anteriores e em que termos isso é licenciado a você",
+          "Documentação técnica mínima e contas de produção em nome da empresa",
+          "Confidencialidade sobre regras de negócio e dados",
+          "Cláusula equivalente nos contratos de funcionários e estagiários que programam",
+          "Registro no INPI, se quiser prova adicional de autoria e data"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "checklist",
+      "descricao": "Checklist de 8 cláusulas para o contrato de desenvolvimento e tabela de titularidade por situação, com o fundamento legal"
+    },
+    "faq": [
+      {
+        "pergunta": "Paguei pelo desenvolvimento. O sistema é meu?",
+        "resposta": "Se o programa foi desenvolvido em contrato de prestação de serviços destinado a isso, o artigo 4 atribui os direitos ao contratante, salvo estipulação em contrário. O ponto crítico é essa ressalva: se o contrato ou os termos do fornecedor disserem outra coisa, vale o combinado. Leia antes de assinar."
+      },
+      {
+        "pergunta": "Preciso registrar o software no INPI?",
+        "resposta": "Não é obrigatório. A Lei do Software diz que a proteção independe de registro, e o registro é feito a critério do titular. Ele serve como prova de autoria e de data, útil numa disputa. O pedido é feito no INPI."
+      },
+      {
+        "pergunta": "Funcionário que fez um sistema fora do expediente pode levá-lo embora?",
+        "resposta": "Depende. Pelo § 2º, o programa é do empregado se não tiver relação com o contrato de trabalho e se ele não usou recursos, informações, segredos, materiais ou equipamentos da empresa. Se usou o notebook ou dados da empresa, a regra muda."
+      },
+      {
+        "pergunta": "E as bibliotecas de código aberto usadas no meu sistema?",
+        "resposta": "Continuam sob a licença de quem as criou. O fornecedor pode ceder o código que escreveu, mas não os componentes de terceiros. Peça a lista de componentes e licenças, porque algumas licenças impõem condições para distribuir o software."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Lei nº 9.609/1998 (Lei do Software)",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l9609.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Programas de computador — registro",
+        "url": "https://www.gov.br/inpi/pt-br/servicos/programas-de-computador",
+        "orgao": "INPI",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Lei nº 9.609/1998 (Lei do Software)",
+      "dispositivo": "Art. 4º — titularidade do programa desenvolvido por empregado ou contratado",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/leis/l9609.htm",
+      "oQuePede": [
+        "Direitos do programa ao empregador ou contratante quando desenvolvido em contrato destinado a isso, salvo estipulação em contrário (caput)",
+        "Compensação limitada ao salário ou à remuneração combinada, salvo ajuste (§ 1º)",
+        "Direitos ao empregado ou contratado quando o programa não tem relação com o contrato nem usa recursos da empresa (§ 2º)",
+        "Mesma regra para bolsistas e estagiários (§ 3º)"
+      ],
+      "oQueCobram": [
+        "Em disputa, a cláusula contratual em contrário prevalece sobre a regra do caput",
+        "Uso de recursos, informações ou equipamentos da empresa enfraquece a alegação de criação independente (§ 2º)",
+        "Proteção de 50 anos, independente de registro (art. 2º, §§ 2º e 3º)"
+      ],
+      "evidencias": [
+        "Contrato com cláusula de titularidade e cessão de direitos",
+        "Histórico do repositório com autores e datas",
+        "Escopo, propostas e aceite das entregas",
+        "Certificado de registro no INPI, se houver"
+      ],
+      "errosComuns": [
+        "Contratar só com proposta comercial, sem cláusula sobre titularidade",
+        "Confundir ser dono dos direitos com ter o código-fonte",
+        "Ignorar as licenças dos componentes de terceiros"
+      ]
+    }
+  },
+  {
+    "slug": "lei-14063-assinatura-eletronica",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "lei 14063 assinatura eletrônica",
+    "consultasSecundarias": [
+      "tipos de assinatura eletrônica",
+      "assinatura eletrônica simples avançada e qualificada",
+      "assinatura eletrônica tem validade jurídica",
+      "lei 14.063/2020"
+    ],
+    "title": "Lei 14.063: assinatura eletrônica e seus 3 tipos",
+    "description": "Simples, avançada ou qualificada: veja o que a Lei 14.063/2020 define, onde ela se aplica e o que vale para contratos entre empresas e clientes.",
+    "h1": "Lei 14.063/2020: assinatura eletrônica e seus tipos",
+    "respostaDireta": "A Lei 14.063/2020 classifica a assinatura eletrônica em três tipos: simples, avançada e qualificada, esta última com certificado ICP-Brasil e maior nível de confiança. A classificação vale para interações com o poder público e alguns atos específicos. Entre empresas e clientes, a validade vem da MP 2.200-2/2001, que aceita outros meios de prova admitidos pelas partes.",
+    "secoes": [
+      {
+        "titulo": "Os três tipos definidos no artigo 4º",
+        "paragrafos": [
+          "O § 1º do artigo 4º diz que os três tipos indicam o nível de confiança sobre a identidade e a vontade de quem assina, e que a qualificada tem o nível mais elevado."
+        ],
+        "tabela": {
+          "colunas": [
+            "Tipo",
+            "Definição na lei",
+            "Exemplo"
+          ],
+          "linhas": [
+            [
+              "Simples",
+              "Permite identificar o signatário ou associa dados a outros dados eletrônicos dele (art. 4º, I)",
+              "Aceite com login e senha registrado com e-mail, data, hora e IP"
+            ],
+            [
+              "Avançada",
+              "Usa certificado fora da ICP-Brasil ou outro meio de comprovar autoria e integridade admitido pelas partes; ligada ao signatário de forma unívoca, sob controle exclusivo dele e com detecção de alterações (art. 4º, II)",
+              "Plataforma de assinatura com validação de identidade e trilha de auditoria"
+            ],
+            [
+              "Qualificada",
+              "Usa certificado digital ICP-Brasil, nos termos da MP 2.200-2/2001 (art. 4º, III)",
+              "Certificado e-CPF ou e-CNPJ em token, cartão ou nuvem"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Onde a lei se aplica e onde não se aplica",
+        "paragrafos": [
+          "O capítulo sobre assinaturas vale para interações dentro do poder público, entre particulares e o poder público, e entre entes públicos (art. 2º). O parágrafo único exclui processos judiciais e a interação entre pessoas naturais ou entre pessoas jurídicas de direito privado. Cada ente define o nível mínimo para interagir com ele (art. 5º); na administração federal, isso está no Decreto nº 10.543/2020, que também permite assinar pela conta gov.br respeitando esses níveis.",
+          "A lei torna a qualificada obrigatória em casos como emissão de notas fiscais eletrônicas, salvo emitente pessoa física ou MEI, e atos de transferência e registro de imóveis (art. 5º, § 2º). Na saúde, receitas de controlados e atestados eletrônicos exigem qualificada (art. 13). Entre particulares, vale o artigo 10 da MP 2.200-2/2001: documento com certificado ICP-Brasil presume-se verdadeiro em relação aos signatários, e outros meios valem se admitidos pelas partes ou aceitos por quem recebe o documento. Este resumo não é parecer jurídico."
+        ]
+      },
+      {
+        "titulo": "Qual assinatura usar em cada situação",
+        "paragrafos": [],
+        "lista": [
+          "Aceite de termos e de pedido na loja virtual: simples, com registro de login, data, hora e IP",
+          "Contrato de serviço com cliente: plataforma com trilha de auditoria e cláusula em que as partes admitem o meio",
+          "Documentos enviados a órgão público: o nível mínimo definido por aquele órgão",
+          "Nota fiscal eletrônica: certificado ICP-Brasil, salvo emitente pessoa física ou MEI",
+          "Receita de medicamento controlado e atestado médico eletrônico: qualificada",
+          "Ata de assembleia ou reunião apresentada ao poder público: a qualificada deve ser aceita (art. 8º)",
+          "Em qualquer caso: guardar o documento junto com o relatório de evidências da plataforma"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Tabela dos 3 tipos de assinatura com definição legal e exemplo, mais guia de qual usar em cada situação de uma PME"
+    },
+    "faq": [
+      {
+        "pergunta": "Contrato assinado em plataforma online tem validade?",
+        "resposta": "Tem. Entre particulares, a MP 2.200-2/2001 admite outros meios de comprovar autoria e integridade, inclusive certificados fora da ICP-Brasil, desde que admitidos pelas partes ou aceitos por quem recebe o documento. Por isso, inclua no contrato uma cláusula aceitando a forma de assinatura eletrônica."
+      },
+      {
+        "pergunta": "Qual a diferença entre assinatura digital e eletrônica?",
+        "resposta": "Assinatura eletrônica é o gênero. O que muita gente chama de assinatura digital é a qualificada, feita com certificado ICP-Brasil, que a lei descreve como a de nível mais elevado de confiabilidade. Simples e avançada também são assinaturas eletrônicas."
+      },
+      {
+        "pergunta": "A assinatura pelo gov.br serve para contrato entre empresas?",
+        "resposta": "O Decreto nº 10.543/2020 regula a assinatura pela conta gov.br nas interações com a administração pública federal. Entre particulares, um documento assinado assim pode valer se as partes admitirem esse meio, como prevê a MP 2.200-2/2001. Combine isso por escrito no contrato."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Lei nº 14.063/2020 — assinaturas eletrônicas",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14063.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Medida Provisória nº 2.200-2/2001 — ICP-Brasil",
+        "url": "https://www.planalto.gov.br/ccivil_03/mpv/antigas_2001/2200-2.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Decreto nº 10.543/2020 — assinaturas eletrônicas na administração federal",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10543.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Lei nº 14.063/2020",
+      "dispositivo": "Arts. 2º a 5º — classificação e uso das assinaturas eletrônicas",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14063.htm",
+      "oQuePede": [
+        "Três níveis de assinatura: simples, avançada e qualificada (art. 4º)",
+        "Nível mínimo definido por cada ente público para interagir com ele (art. 5º)",
+        "Qualificada obrigatória em casos como nota fiscal eletrônica, salvo pessoa física e MEI, e transferência de imóveis (art. 5º, § 2º)",
+        "Formas de revogar ou cancelar o meio de assinatura, sobretudo em caso de vazamento (art. 4º, § 2º)"
+      ],
+      "oQueCobram": [
+        "Órgão público pode exigir o nível mínimo que fixou; na esfera federal, pelo Decreto nº 10.543/2020",
+        "Entre particulares, assinatura fora da ICP-Brasil vale se admitida pelas partes ou aceita por quem recebe o documento (MP 2.200-2/2001, art. 10, § 2º)",
+        "Documento com certificado ICP-Brasil presume-se verdadeiro em relação aos signatários (MP 2.200-2/2001, art. 10, § 1º)"
+      ],
+      "evidencias": [
+        "Documento assinado com relatório de evidências: IP, data, hora, e-mail e código de verificação",
+        "Cláusula contratual em que as partes admitem o meio de assinatura eletrônica",
+        "Registro da validação de identidade, quando usada"
+      ],
+      "errosComuns": [
+        "Achar que só certificado ICP-Brasil vale em contrato privado",
+        "Usar assinatura simples onde a lei exige qualificada, como em receita de controlado",
+        "Guardar só o PDF, sem a trilha de auditoria da plataforma"
+      ]
+    }
+  },
+  {
+    "slug": "lei-10962-preco-no-comercio-eletronico",
+    "tipo": "norma",
+    "cluster": "lgpd-legal",
+    "consulta": "lei 10962 preço no comércio eletrônico",
+    "consultasSecundarias": [
+      "como informar preço em loja virtual",
+      "decreto 5903 preço",
+      "tamanho da fonte do preço no site",
+      "preço só em parcelas é proibido"
+    ],
+    "title": "Lei 10.962: como mostrar o preço no comércio eletrônico",
+    "description": "Preço à vista junto à imagem, fonte mínima 12 e total ao lado das parcelas: veja as regras da Lei 10.962 e do Decreto 5.903 para lojas online.",
+    "h1": "Lei 10.962 e Decreto 5.903: preço no comércio eletrônico",
+    "respostaDireta": "A Lei 10.962/2004 exige que o preço no comércio eletrônico seja divulgado de forma ostensiva, à vista, junto à imagem do produto ou à descrição do serviço, em fonte de tamanho não inferior a doze. O Decreto 5.903/2006 completa: total à vista discriminado, dados do parcelamento e proibição de informar o preço só em parcelas.",
+    "secoes": [
+      {
+        "titulo": "De onde vêm as regras",
+        "paragrafos": [
+          "O inciso III do artigo 2º da Lei 10.962/2004, incluído pela Lei 13.543/2017, trata do comércio eletrônico: preço à vista ostensivo, junto à imagem ou à descrição, em caracteres facilmente legíveis com fonte não inferior a doze. O artigo 5º manda cobrar o menor preço quando houver divergência entre os sistemas de informação da loja, e o artigo 5º-A, incluído em 2017, exige informar de forma visível os descontos por prazo ou meio de pagamento.",
+          "O Decreto 5.903/2006 regulamenta essa lei e o CDC. O parágrafo único do artigo 10, incluído pelo Decreto 7.962/2013, aplica ao comércio eletrônico os artigos 2º (informação correta, clara, precisa, ostensiva e legível), 3º (total à vista e dados do parcelamento) e 9º (lista de infrações)."
+        ]
+      },
+      {
+        "titulo": "Na página de produto: errado e certo",
+        "paragrafos": [],
+        "tabela": {
+          "colunas": [
+            "Regra",
+            "Errado",
+            "Certo"
+          ],
+          "linhas": [
+            [
+              "Preço à vista junto à imagem (Lei 10.962, art. 2º, III)",
+              "Preço visível só no carrinho",
+              "Preço à vista na listagem e ao lado da foto do produto"
+            ],
+            [
+              "Fonte não inferior a doze (art. 2º, III)",
+              "Preço à vista em letra miúda e parcela em destaque",
+              "Preço à vista legível, com folga sobre o mínimo"
+            ],
+            [
+              "Total à vista discriminado (Decreto 5.903, art. 3º)",
+              "Apenas \"10x sem juros\"",
+              "Total à vista e, ao lado, número e valor das parcelas"
+            ],
+            [
+              "Dados do parcelamento (art. 3º, parágrafo único)",
+              "Parcelas com juros sem informar a taxa",
+              "Total a prazo, juros e encargos antes do checkout"
+            ],
+            [
+              "Contraste entre letra e fundo (art. 9º, II)",
+              "Preço cinza-claro sobre fundo branco",
+              "Preço com contraste forte"
+            ],
+            [
+              "Moeda estrangeira (art. 9º, V)",
+              "Produto importado com preço só em dólar",
+              "Valor em reais com o mesmo destaque"
+            ],
+            [
+              "Preço único por item (art. 9º, VII; Lei 10.962, art. 5º)",
+              "Preço diferente na vitrine e no carrinho",
+              "Uma única fonte de preço em todo o site"
+            ],
+            [
+              "Desconto por meio de pagamento (Lei 10.962, art. 5º-A)",
+              "Desconto do Pix aparece só no checkout",
+              "Preço com Pix indicado na página do produto"
+            ]
+          ]
+        }
+      },
+      {
+        "titulo": "Checklist para quem desenvolve a loja",
+        "paragrafos": [
+          "Os itens traduzem a lei em requisitos de sistema. É conteúdo informativo, não parecer jurídico."
+        ],
+        "lista": [
+          "Componente de preço com tamanho mínimo definido no CSS e no app",
+          "Preço à vista sempre visível na listagem, na página do produto e no carrinho",
+          "Total a prazo e juros calculados pelo sistema, nunca digitados à mão",
+          "Uma única fonte de preço no banco de dados, para evitar divergência",
+          "Teste de contraste do preço com o fundo",
+          "Descontos por meio de pagamento exibidos antes do checkout",
+          "Histórico de alterações de preço com data e hora"
+        ]
+      }
+    ],
+    "valorProprio": {
+      "tipo": "tabela",
+      "descricao": "Tabela de 8 regras de preço com exemplo errado e certo na página de produto, cada uma com o artigo correspondente"
+    },
+    "faq": [
+      {
+        "pergunta": "Qual o tamanho mínimo da fonte do preço no site?",
+        "resposta": "O inciso III do artigo 2º da Lei 10.962/2004, incluído em 2017, pede o preço à vista em caracteres facilmente legíveis, com tamanho de fonte não inferior a doze. A lei não define a unidade de medida, então deixe folga e confira a leitura no celular."
+      },
+      {
+        "pergunta": "Posso anunciar só o valor da parcela?",
+        "resposta": "Não. O artigo 9º, IV, do Decreto 5.903/2006 considera infração informar preços apenas em parcelas, obrigando o consumidor a calcular o total. E o artigo 3º exige o total à vista e, no parcelamento, o valor total, o número e o valor das prestações, os juros e os encargos."
+      },
+      {
+        "pergunta": "Se o site mostrou dois preços diferentes, qual vale?",
+        "resposta": "Se houver preços diferentes para o mesmo produto nos sistemas de informação da loja, o artigo 5º da Lei 10.962/2004 manda o consumidor pagar o menor. A melhor prevenção é ter uma única fonte de preço no sistema e registrar cada alteração."
+      }
+    ],
+    "fontes": [
+      {
+        "titulo": "Lei nº 10.962/2004 — oferta e afixação de preços",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.962.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Decreto nº 5.903/2006 — regulamenta a Lei 10.962/2004",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/decreto/d5903.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      },
+      {
+        "titulo": "Decreto nº 7.962/2013 — contratação no comércio eletrônico",
+        "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm",
+        "orgao": "Presidência da República",
+        "consultadoEm": "2026-11-18"
+      }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18",
+    "norma": {
+      "norma": "Lei nº 10.962/2004 e Decreto nº 5.903/2006",
+      "dispositivo": "Lei 10.962, art. 2º, III; Decreto 5.903, arts. 2º, 3º, 9º e 10",
+      "urlOficial": "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.962.htm",
+      "oQuePede": [
+        "Preço à vista ostensivo, junto à imagem ou descrição, em fonte não inferior a doze (Lei 10.962, art. 2º, III)",
+        "Informação correta, clara, precisa, ostensiva e legível (Decreto 5.903, art. 2º)",
+        "Total à vista e, no parcelamento, total a prazo, número, periodicidade e valor das prestações, juros e encargos (art. 3º)",
+        "Descontos por prazo ou meio de pagamento informados de forma visível (Lei 10.962, art. 5º-A)"
+      ],
+      "oQueCobram": [
+        "As condutas do art. 9º do Decreto 5.903 são infrações sujeitas às penalidades do Código de Defesa do Consumidor",
+        "Na divergência de preços, o consumidor paga o menor (Lei 10.962, art. 5º)",
+        "Infrações ao art. 5º-A seguem as sanções do Código de Defesa do Consumidor (parágrafo único)"
+      ],
+      "evidencias": [
+        "Capturas datadas das páginas de produto no computador e no celular",
+        "Histórico de preços do sistema",
+        "Configuração do componente de preço, com tamanho de fonte e contraste"
+      ],
+      "errosComuns": [
+        "Destacar a parcela e esconder o total",
+        "Mostrar o desconto do Pix só no checkout",
+        "Preço diferente entre listagem, página do produto e carrinho"
+      ]
+    }
+  }
+]

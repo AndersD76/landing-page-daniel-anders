@@ -1,0 +1,1372 @@
+{
+ "https://agilemanifesto.org/iso/ptbr/manifesto.html": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://aws.amazon.com/what-is/api/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://aws.amazon.com/what-is/middleware/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://aws.amazon.com/what-is/restful-api/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://business.whatsapp.com/products/business-app": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://cgi.br/resolucoes/documento/2008/008": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://cloud.google.com/discover/what-are-ai-agents": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://cloud.google.com/discover/what-are-large-language-models": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://cloud.google.com/discover/what-is-a-chatbot": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://cloud.google.com/discover/what-is-ocr": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://cloud.google.com/discover/what-is-retrieval-augmented-generation": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://cloud.google.com/discover/what-is-rpa": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://cloud.google.com/learn/what-is-artificial-intelligence": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://cloud.google.com/learn/what-is-etl": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://cloud.google.com/learn/what-is-ipaas": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://cloud.google.com/learn/what-is-machine-learning": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://cloud.google.com/scheduler/docs": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://cloud.google.com/use-cases/low-code-no-code": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.android.com": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.android.com/develop/ui/views/layout/webapps/webview": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.android.com/develop/ui/views/notifications": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.android.com/guide/app-bundle": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.android.com/kotlin": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.android.com/topic/architecture/data-layer/offline-first": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.apple.com/app-store-connect/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.apple.com/app-store/app-privacy-details/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.apple.com/app-store/review/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.apple.com/app-store/review/guidelines/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.apple.com/app-store/submissions/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.apple.com/app-store/submitting/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.apple.com/documentation/usernotifications": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.apple.com/ios/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.apple.com/programs/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.apple.com/programs/enroll/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.apple.com/programs/whats-included/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.apple.com/support/D-U-N-S/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.apple.com/support/unlisted-app-distribution/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.apple.com/swift/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.apple.com/testflight/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/en-US/docs/Glossary/DNS": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps/Guides/Making_PWAs_installable": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Glossary/API": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Glossary/CDN": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Glossary/CMS": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Glossary/HTTPS": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Glossary/REST": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Glossary/SSL": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_mechanics/Pages_sites_servers_and_search_engines": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_mechanics/What_is_a_domain_name": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Learn/CSS/First_steps/What_is_CSS": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Learn/Getting_started_with_the_web/How_the_Web_works": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Getting_started": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Learn/JavaScript/First_steps/What_is_JavaScript": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/First_steps/Introduction": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Learn/Server-side/First_steps/Website_security": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Guides/Caching": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Web/HTTP/Status": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/JSON": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.facebook.com/docs/whatsapp": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.facebook.com/docs/whatsapp/business-management-api/message-templates": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.facebook.com/docs/whatsapp/cloud-api": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.facebook.com/docs/whatsapp/cloud-api/get-started": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-message-templates": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.facebook.com/docs/whatsapp/cloud-api/guides/send-messages": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.facebook.com/docs/whatsapp/cloud-api/overview": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.facebook.com/docs/whatsapp/cloud-api/webhooks": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.facebook.com/docs/whatsapp/message-templates": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.facebook.com/documentation/business-messaging/whatsapp/messages/send-messages": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/apps-script/guides/sheets": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/apps-script/guides/triggers": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/appearance/ai-features": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/appearance/core-web-vitals": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/appearance/page-experience": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/appearance/structured-data/intro-structured-data": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/appearance/structured-data/local-business": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/appearance/structured-data/review-snippet": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/appearance/title-link": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/crawling-indexing/301-redirects": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/crawling-indexing/ask-google-to-recrawl": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/crawling-indexing/block-indexing": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/crawling-indexing/http-network-errors": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/crawling-indexing/javascript/javascript-seo-basics": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/crawling-indexing/robots/intro": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/crawling-indexing/url-structure": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/essentials/spam-policies": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/fundamentals/creating-helpful-content": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/fundamentals/get-on-google": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/fundamentals/how-search-works": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/fundamentals/seo-starter-guide": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/monitor-debug/security": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/search/docs/specialty/international/managing-multi-regional-sites": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/sheets/api": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.google.com/sheets/api/guides/concepts": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.mercadolivre.com.br/pt_br/gerenciamento-de-vendas": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.mercadolivre.com.br/pt_br/notificacoes": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://developers.openai.com/api/docs/bots": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://docs.anthropic.com/en/docs/about-claude/models/overview": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://docs.flutter.dev": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://docs.flutter.dev/resources/architectural-overview": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://docs.n8n.io/choose-n8n/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://docs.n8n.io/hosting/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://docs.stripe.com/payments/boleto": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://docs.stripe.com/payments/pix": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://docs.stripe.com/webhooks": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://faq.whatsapp.com/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://faq.whatsapp.com/5913398998672934": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://faq.whatsapp.com/general/about-the-whatsapp-business-app": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://firebase.google.com/docs/analytics": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://firebase.google.com/docs/cloud-messaging": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://git-scm.com/book/pt-br/v2": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://help.zapier.com/hc/en-us/articles/37518970271245-What-is-Zapier": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://learn.microsoft.com/en-us/office/dev/scripts/overview/excel": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://learn.microsoft.com/pt-br/azure/ai-services/agents/overview": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://learn.microsoft.com/pt-br/azure/ai-services/computer-vision/overview-ocr": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://learn.microsoft.com/pt-br/azure/architecture/data-guide/relational-data/etl": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://learn.microsoft.com/pt-br/azure/logic-apps/logic-apps-overview": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://learn.microsoft.com/pt-br/azure/machine-learning/overview-what-is-azure-machine-learning": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://learn.microsoft.com/pt-br/azure/search/retrieval-augmented-generation-overview": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://learn.microsoft.com/pt-br/power-apps/maker/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://learn.microsoft.com/pt-br/power-automate/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://letsencrypt.org/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://letsencrypt.org/docs/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://letsencrypt.org/pt-br/how-it-works/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://man7.org/linux/man-pages/man5/crontab.5.html": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://nextjs.org/docs": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://oauth.net/2/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://opensource.org/osd": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://owasp.org/Top10/A06_2021-Vulnerable_and_Outdated_Components/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://owasp.org/www-project-top-ten/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://parceiros.ifood.com.br/restaurante/planos": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://platform.openai.com/docs/guides/prompt-engineering": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://play.google.com/console/about/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://reactnative.dev/docs/getting-started": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://reactnative.dev/docs/intro-react-native-components": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://registro.br/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://registro.br/ajuda/gerenciamento-de-conta/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://registro.br/ajuda/procedimentos-administrativos/transferencia-de-titularidade/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://registro.br/dominio/categorias/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://registro.br/dominio/como-registrar/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://registro.br/dominio/contrato/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://registro.br/dominio/propagacao/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://registro.br/dominio/regras/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://registro.br/novo-dominio/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://registro.br/tecnologia/dns/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://registro.br/tecnologia/ferramentas/whois/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://registro.br/tecnologia/hospedagem/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://scrumguides.org/scrum-guide.html": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/analytics/answer/11583528?hl=pt-BR": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/analytics/answer/9304153": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/business/answer/2622994": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/business/answer/2911778": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/business/answer/3038177": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/business/answer/3039617": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/business/answer/3039617?hl=pt-BR": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/business/answer/3474050?hl=pt-BR": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/business/answer/3474122?hl=pt-BR": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/business/answer/7035772": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/business/answer/7091": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/business/answer/7091?hl=pt-BR": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/business/answer/7107242": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/docs/answer/190843": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/google-ads/answer/6366577": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/googleplay/android-developer": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/googleplay/android-developer/answer/10144311": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/googleplay/android-developer/answer/10787469": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/googleplay/android-developer/answer/13634885": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/googleplay/android-developer/answer/14151465": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/googleplay/android-developer/answer/6112435": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/googleplay/android-developer/answer/9844486": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/googleplay/android-developer/answer/9859152": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/googleplay/android-developer/answer/9859751": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/mail/answer/81126": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/maps/answer/144361?hl=pt-BR": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/webmasters/answer/34592": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/webmasters/answer/7440203": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/webmasters/answer/7576553": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/webmasters/answer/9008080": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/webmasters/answer/9012289": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/webmasters/answer/9012289?hl=pt-BR": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/webmasters/answer/9128668": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/webmasters/answer/9128668?hl=pt-BR": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.google.com/webmasters/answer/9205520": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.microsoft.com/en-us/office/about-power-query-in-excel-7104fbee-9e62-4cb9-a02e-5bfb1a6c536a": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.microsoft.com/en-us/office/collaborate-on-excel-workbooks-at-the-same-time-with-co-authoring-7152aa8b-b791-414c-a3bb-3024e46fb104": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.microsoft.com/en-us/office/work-with-vba-macros-in-excel-for-the-web-98784ad0-898c-43aa-a1da-4f0fb5014343": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://support.wix.com/pt/article/exportar-ou-incorporar-o-site-wix-em-outro-lugar": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://web.dev/articles/choose-the-right-image-format": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://web.dev/articles/content-delivery-networks": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://web.dev/articles/http-cache": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://web.dev/articles/optimize-cls": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://web.dev/articles/optimize-lcp": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://web.dev/articles/responsive-web-design-basics": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://web.dev/articles/vitals": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://web.dev/explore/progressive-web-apps": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://web.dev/learn/design": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://web.dev/learn/forms/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://web.dev/learn/pwa": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://webkit.org/blog/13878/web-push-for-web-apps-on-ios-and-ipados/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://whatsappbusiness.com/pt-br/products/business-app/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://wordpress.org/about/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://wordpress.org/about/license/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://wordpress.org/documentation/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.bcb.gov.br/estabilidadefinanceira/boleto": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.bcb.gov.br/estabilidadefinanceira/open-finance": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.bcb.gov.br/estabilidadefinanceira/pix": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.bing.com/webmasters/about": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.gov.br/anpd": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.gov.br/anpd/pt-br": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.gov.br/anpd/pt-br/acesso-a-informacao/institucional/atos-normativos/regulamentacoes_anpd": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.gov.br/anpd/pt-br/acesso-a-informacao/sancoes-administrativas": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.gov.br/anpd/pt-br/assuntos/incidente-de-seguranca": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.gov.br/anpd/pt-br/assuntos/noticias/anpd-divulga-modelo-de-registro-simplificado-de-operacoes-com-dados-pessoais-para-agentes-de-tratamento-de-pequeno-porte-atpp": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.gov.br/anpd/pt-br/canais_atendimento/agente-de-tratamento/comunicado-de-incidente-de-seguranca-cis": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia-orientativo-cookies-e-protecao-de-dados-pessoais.pdf": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.gov.br/anpd/pt-br/centrais-de-conteudo/materiais-educativos-e-publicacoes/guia-orientativo-sobre-seguranca-da-informacao-para-agentes-de-tratamento-de-pequeno-porte": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.gov.br/empresas-e-negocios/pt-br/empreendedor": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.gov.br/governodigital/pt-br/acessibilidade-e-usuario/acessibilidade-digital": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.gov.br/inpi/pt-br/servicos/programas-de-computador": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.gov.br/inpi/pt-br/servicos/programas-de-computador/guia-basico": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.gov.br/nfse": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.gov.br/nfse/pt-br": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-15-de-24-de-abril-de-2024-556243024": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-18-de-16-de-julho-de-2024-572632074": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-19-de-23-de-agosto-de-2024-580095396": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-2-de-27-de-janeiro-de-2022-376562019": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-4-de-24-de-fevereiro-de-2023-466146077": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.in.gov.br/web/dou/-/resolucao-n-32-de-26-de-janeiro-de-2026-683334547": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.mercadopago.com.br/developers/pt/docs/checkout-api/overview": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.mercadopago.com.br/developers/pt/docs/checkout-pro/overview": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.nfe.fazenda.gov.br/portal/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.omg.org/spec/BPMN/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2004/lei/l10.962.htm": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.planalto.gov.br/ccivil_03/_ato2004-2006/2006/decreto/d5903.htm": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2015/lei/l13146.htm": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2016/decreto/d8771.htm": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/decreto/d10543.htm": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l14063.htm": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.planalto.gov.br/ccivil_03/leis/2002/l10406compilada.htm": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.planalto.gov.br/ccivil_03/leis/l5172compilado.htm": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.planalto.gov.br/ccivil_03/leis/l9609.htm": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp123.htm": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.planalto.gov.br/ccivil_03/mpv/antigas_2001/2200-2.htm": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.postgresql.org/about/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.postgresql.org/docs/current/tutorial-sql.html": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.rfc-editor.org/rfc/rfc4180": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.rfc-editor.org/rfc/rfc6302": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.rfc-editor.org/rfc/rfc6749": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.rfc-editor.org/rfc/rfc8259": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.w3.org/standards/webdesign/htmlcss": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.w3.org/TR/WCAG22/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.w3.org/TR/xml/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.w3.org/WAI/fundamentals/accessibility-intro/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.w3.org/WAI/standards-guidelines/wcag/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.w3.org/WAI/test-evaluate/easy-checks/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.w3.org/WAI/WCAG22/quickref/": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www.whatsapp.com/legal/terms-of-service": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www2.camara.leg.br/legin/fed/decret/2013/decreto-7962-15-marco-2013-775557-norma-pe.html": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www2.camara.leg.br/legin/fed/lei/1990/lei-8078-11-setembro-1990-365086-normaatualizada-pl.pdf": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www2.camara.leg.br/legin/fed/lei/1998/lei-9609-19-fevereiro-1998-364738-norma-pl.html": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www2.camara.leg.br/legin/fed/lei/2015/lei-13146-6-julho-2015-781174-publicacaooriginal-147468-pl.html": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ },
+ "https://www2.camara.leg.br/legin/fed/lei/2018/lei-13709-14-agosto-2018-787077-norma-pl.html": {
+  "ok": true,
+  "status": 200,
+  "em": "2026-11-19"
+ }
+}

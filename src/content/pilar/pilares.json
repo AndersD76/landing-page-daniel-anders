@@ -1,0 +1,1547 @@
+[
+  {
+    "slug": "guia-quanto-custa-software",
+    "tipo": "pilar",
+    "cluster": "custo-projeto",
+    "consulta": "quanto custa um projeto de software",
+    "consultasSecundarias": ["quanto custa desenvolver um software", "preço de desenvolvimento de software", "valor de um sistema sob medida", "quanto custa criar um sistema"],
+    "title": "Quanto custa um projeto de software: faixas e o que pesa",
+    "description": "Faixas de preço para site, loja, app e sistema, o que move o valor e os custos mensais depois da entrega. Veja como comparar propostas.",
+    "h1": "Quanto custa um projeto de software",
+    "respostaDireta": "Um projeto de software custa de R$ 1.500, numa landing page simples, a R$ 72.000, num aplicativo completo com backend, pela tabela pública da AndersDev. O que define onde o seu projeto cai nessa faixa é o tipo de entrega, o número de telas, as integrações e o prazo. Depois da entrega ainda há custos mensais de hospedagem e manutenção.",
+    "secoes": [
+      {
+        "titulo": "Quanto custa cada tipo de projeto de software",
+        "paragrafos": [
+          "O jeito mais honesto de responder é por tipo de entrega. Cada tipo tem uma estrutura mínima de trabalho que não desaparece, por menor que seja o projeto: alguém precisa desenhar as telas, programar, testar, publicar e deixar os acessos com você. A tabela abaixo traz as faixas da tabela pública da AndersDev, a mesma usada nas calculadoras de site e de app.",
+          "O piso de cada faixa vale para escopo enxuto, com poucas páginas ou telas e sem integração. O teto vale para escopo maior, com mais telas, regras e conteúdo. Cada tipo tem uma página própria em /quanto-custa com o que entra e o que fica de fora; este guia explica a lógica que vale para todos."
+        ],
+        "tabela": {
+          "colunas": ["Tipo de projeto", "Faixa de preço", "Serve para", "Página com detalhes"],
+          "linhas": [
+            ["Landing page", "R$ 1.500 a R$ 4.000", "Uma oferta, uma página, captar contato", "/quanto-custa/landing-page"],
+            ["Site institucional", "R$ 3.400 a R$ 11.500", "Apresentar a empresa e gerar pedidos de orçamento", "/quanto-custa/site-institucional"],
+            ["Loja virtual", "R$ 10.400 a R$ 32.500", "Vender com carrinho, pagamento e gestão de pedidos", "/quanto-custa/ecommerce"],
+            ["App mobile simples", "R$ 10.800 a R$ 27.000", "Poucas telas no celular: pedido, agenda, fidelidade", "/quanto-custa/app-mobile"],
+            ["Sistema web ou MVP SaaS", "R$ 15.000 a R$ 40.000", "Sistema com login, cadastros e regra de negócio", "/quanto-custa/mvp-saas"],
+            ["App completo com backend", "R$ 30.000 a R$ 72.000", "App, servidor e painel administrativo juntos", "/quanto-custa/app-completo"]
+          ],
+          "legenda": "Fonte: tabela pública de preços da AndersDev, consultada em 18/11/2026."
+        }
+      },
+      {
+        "titulo": "O que faz o preço subir ou descer dentro da faixa",
+        "paragrafos": [
+          "Duas propostas para o mesmo tipo de projeto podem cair em pontas opostas da faixa. Quase sempre a diferença vem de seis fatores. Vale conhecê-los antes de pedir orçamento, porque você controla vários deles."
+        ],
+        "lista": [
+          "Quantidade de páginas ou telas: cada tela nova é desenho, programação e teste a mais.",
+          "Regras de negócio: um cadastro simples custa pouco; um cálculo de comissão com exceções por vendedor custa muito mais.",
+          "Perfis de acesso: um sistema em que todos veem tudo é mais simples do que um em que vendedor, gerente e financeiro enxergam coisas diferentes.",
+          "Integrações com outros sistemas: pagamento, ERP, WhatsApp e IA têm acréscimo próprio na tabela.",
+          "Migração de dados: trazer anos de planilha para dentro do sistema exige limpeza, padronização e conferência.",
+          "Prazo: entregar antes do padrão obriga a reorganizar a agenda e tem acréscimo."
+        ]
+      },
+      {
+        "titulo": "Quanto cada integração acrescenta ao orçamento",
+        "paragrafos": [
+          "Integração é quando o seu projeto conversa com outro sistema: o banco que confirma o Pix, o ERP que guarda o estoque, a ferramenta que dispara mensagens. Ela pesa no preço porque exige estudar a documentação do outro lado, tratar falhas e testar situações que você não controla, como o gateway fora do ar.",
+          "Na tabela pública, cada integração soma um percentual sobre a base do projeto. O prazo urgente entra por último, multiplicando o subtotal."
+        ],
+        "tabela": {
+          "colunas": ["Item", "Em site ou loja", "Em app ou sistema", "O que costuma incluir"],
+          "linhas": [
+            ["Pagamento online", "+20%", "+20%", "Pix, cartão, assinatura e confirmação automática do pedido"],
+            ["Inteligência artificial", "+25%", "+25%", "Chatbot, busca inteligente, leitura de documentos"],
+            ["ERP ou CRM", "+30%", "+30%", "Estoque, notas, funil de vendas, cadastro único de clientes"],
+            ["Automação de marketing", "+15%", "não se aplica", "Sequência de e-mails e mensagens a partir do site"],
+            ["Push ou WhatsApp", "não se aplica", "+15%", "Notificação no celular e mensagens automáticas"],
+            ["Prazo urgente", "+25% (menos de 3 semanas)", "+25% (menos de 6 semanas)", "Agenda reorganizada para entregar antes"]
+          ],
+          "legenda": "Percentuais da tabela pública de preços da AndersDev (calculadoras de site e de app)."
+        }
+      },
+      {
+        "titulo": "Exemplo de conta com a tabela pública",
+        "paragrafos": [
+          "Imagine uma distribuidora que quer um site institucional com área de pedido e pagamento online, e precisa dele no ar em duas semanas, antes de uma feira do setor. A conta segue a mesma lógica da calculadora.",
+          "A base de site institucional vai de R$ 3.400 a R$ 11.500. O pagamento online soma 20% sobre a base, o que leva a faixa para R$ 4.080 a R$ 13.800. Como o prazo é menor que três semanas, entra o acréscimo de 25% sobre esse subtotal, e a faixa final fica entre R$ 5.100 e R$ 17.250.",
+          "Se a mesma distribuidora aceitar o prazo padrão de um a dois meses, economiza o acréscimo inteiro. Muitas vezes negociar a data rende mais do que cortar funcionalidade. A calculadora arredonda os valores, então pequenas diferenças em relação a esta conta são normais."
+        ]
+      },
+      {
+        "titulo": "Como estimar o seu projeto em seis passos",
+        "paragrafos": [
+          "Antes de falar com qualquer fornecedor, dá para chegar sozinho a uma faixa realista. O exercício também organiza o pedido, o que já reduz a distância entre as propostas que você vai receber."
+        ],
+        "lista": [
+          "Escreva em uma frase o problema que o projeto resolve e quem vai usar: cliente, equipe interna ou os dois.",
+          "Escolha na tabela o tipo de entrega mais próximo: landing page, site, loja, app ou sistema web.",
+          "Liste as páginas ou telas que não podem faltar na primeira versão e marque o resto como fase dois.",
+          "Marque as integrações obrigatórias (pagamento, ERP, WhatsApp, IA) e some os percentuais sobre a base.",
+          "Defina a data de que o negócio realmente precisa; abaixo de 3 semanas para site ou 6 para app, conte com o acréscimo de urgência.",
+          "Reserve um valor mensal para hospedagem, domínio, serviços pagos por uso e manutenção, que começam no dia da publicação."
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Custos que continuam depois da entrega",
+        "paragrafos": [
+          "O valor do projeto é o custo de construir. Manter no ar é outra conta, e muita empresa só percebe isso na primeira fatura do servidor. Alguns custos são taxas oficiais estáveis; outros variam com o uso e mudam conforme o fornecedor, por isso aparecem aqui sem valor."
+        ],
+        "tabela": {
+          "colunas": ["Custo recorrente", "Quem cobra", "Frequência", "Observação"],
+          "linhas": [
+            ["Domínio .com.br", "Registro.br", "Anual", "O Registro.br informa R$ 40 por ano no próprio site"],
+            ["Hospedagem ou servidor", "Provedor de nuvem", "Mensal", "Cresce com acessos, arquivos e tamanho do banco de dados"],
+            ["Conta de desenvolvedor Apple", "Apple", "Anual", "US$ 99 por ano, exigida para publicar na App Store"],
+            ["Conta de desenvolvedor Google Play", "Google", "Pagamento único", "US$ 25 no cadastro da conta"],
+            ["Serviços pagos por uso", "Gateway, API de WhatsApp, IA, envio de e-mail", "Por transação ou volume", "Confira a tabela atual de cada fornecedor antes de fechar"],
+            ["Manutenção e evolução", "Desenvolvedor", "Mensal ou por demanda", "Atualizações de segurança, correções e pequenas melhorias"]
+          ],
+          "legenda": "Taxas oficiais conferidas nas páginas do Registro.br, da Apple e do Google Play em 18/11/2026."
+        }
+      },
+      {
+        "titulo": "Por que orçamentos para o mesmo projeto variam tanto",
+        "paragrafos": [
+          "Quando você manda o mesmo pedido para três fornecedores e recebe três números distantes, raramente alguém está tentando enganar. O mais comum é que cada um entendeu um projeto diferente. Um imaginou um tema pronto com ajustes; outro, um sistema desenhado do zero; o terceiro incluiu testes, publicação e treinamento que os outros deixaram de fora.",
+          "Também pesa quem faz o trabalho. Uma agência soma gerente de projeto, designer e programadores, e essa estrutura entra no preço. Um profissional solo tem custo fixo menor, mas agenda limitada. Nenhum modelo é melhor em si; o que importa é se o escopo descrito na proposta é o mesmo que você tem na cabeça.",
+          "Por isso a primeira pergunta diante de um orçamento muito abaixo dos outros não é como ele consegue cobrar tão pouco, e sim o que ficou de fora."
+        ]
+      },
+      {
+        "titulo": "Como comparar propostas de preço lado a lado",
+        "paragrafos": [
+          "Coloque as propostas numa mesma tabela e compare linha por linha. Se uma proposta não responde a algum item, pergunte por escrito antes de decidir. A resposta, ou a falta dela, diz muito sobre como o projeto vai correr."
+        ],
+        "tabela": {
+          "colunas": ["O que conferir", "Proposta clara", "Sinal de alerta"],
+          "linhas": [
+            ["Escopo", "Lista as telas e funções, e diz o que fica fora", "Só fala em “sistema completo” ou “site profissional”"],
+            ["Conteúdo", "Diz quem escreve os textos e fornece as fotos", "Não menciona conteúdo"],
+            ["Testes e publicação", "Inclui testes, publicação e configuração do domínio", "Termina na entrega do código"],
+            ["Ajustes", "Define quantas rodadas de ajuste estão incluídas", "Promete ajustes ilimitados"],
+            ["Garantia", "Prazo para corrigir defeito sem custo", "Nada sobre defeitos depois da entrega"],
+            ["Código e acessos", "Código, domínio e contas em nome da sua empresa", "Hospedagem e domínio em nome do fornecedor"],
+            ["Custos recorrentes", "Lista o que você vai pagar todo mês", "Silêncio sobre o que vem depois"]
+          ]
+        }
+      },
+      {
+        "titulo": "Preço fechado, por hora ou mensalidade: qual modelo escolher",
+        "paragrafos": [
+          "O modelo de cobrança muda quem assume o risco. No preço fechado, o fornecedor assume o risco de errar a estimativa, por isso protege o escopo. Na cobrança por hora, você paga o tempo gasto, mas assume o risco de o projeto crescer. Na mensalidade de evolução, você compra capacidade de trabalho e decide as prioridades a cada ciclo."
+        ],
+        "tabela": {
+          "colunas": ["Modelo", "Bom quando", "Cuidado"],
+          "linhas": [
+            ["Preço fechado", "O escopo está claro e cabe numa lista", "Toda mudança vira aditivo; descreva bem antes de assinar"],
+            ["Por hora", "O escopo é incerto ou o trabalho é manutenção pontual", "Peça relatório de horas e um teto mensal"],
+            ["Mensalidade de evolução", "O produto vai crescer por vários meses", "Defina entregas esperadas por ciclo, não só horas"],
+            ["Por fases", "Projeto grande que pode ser dividido", "Cada fase precisa entregar algo usável sozinho"]
+          ]
+        }
+      },
+      {
+        "titulo": "Como gastar menos sem comprar um projeto ruim",
+        "paragrafos": [
+          "Baixar o preço cortando qualidade sai caro depois. Reduzir o escopo com critério, não. Estas alavancas diminuem o valor sem comprometer o resultado."
+        ],
+        "lista": [
+          "Começar pela versão mínima que resolve o problema principal e deixar o resto para a fase dois.",
+          "Trocar uma integração automática por um processo manual nos primeiros meses, enquanto o volume é baixo.",
+          "Entregar textos, fotos e dados organizados, em vez de pagar para alguém produzir ou garimpar.",
+          "Usar ferramenta pronta onde não há diferencial, como e-mail, agenda ou emissão de nota.",
+          "Aceitar o prazo padrão, já que a urgência acrescenta 25% na tabela.",
+          "Decidir rápido: projeto parado esperando aprovação também consome horas."
+        ]
+      },
+      {
+        "titulo": "Quando um sistema pronto sai mais barato que o sob medida",
+        "paragrafos": [
+          "Se o processo da sua empresa é parecido com o de muitas outras, um sistema pronto com mensalidade costuma sair mais barato nos primeiros anos. Faça a conta somando a mensalidade de todos os usuários por 36 meses, mais implantação e treinamento, e compare com o projeto sob medida somado à hospedagem e à manutenção do mesmo período.",
+          "O sob medida começa a valer quando a ferramenta pronta obriga a equipe a trabalhar contra ela, quando a mensalidade cresce a cada usuário novo ou quando o processo é justamente o diferencial da empresa. As páginas de alternativa a Wix, WordPress, Shopify, agência e no-code detalham esse ponto de virada caso a caso."
+        ]
+      }
+    ],
+    "valorProprio": { "tipo": "tabela", "descricao": "Faixas por tipo de projeto, acréscimo por integração e prazo, conta de exemplo e tabela de custos recorrentes com taxas oficiais conferidas" },
+    "faq": [
+      { "pergunta": "Por que não existe um preço fixo para software?", "resposta": "Porque software não é produto de prateleira. Duas empresas que pedem um sistema de pedidos podem precisar de coisas muito diferentes: uma com três telas, outra com vinte e integração com o ERP. A faixa por tipo de projeto dá a ordem de grandeza; o escopo escrito define onde o seu cai dentro dela." },
+      { "pergunta": "Quanto custa um sistema web sob medida?", "resposta": "Pela tabela pública da AndersDev, um sistema web ou MVP SaaS fica entre R$ 15.000 e R$ 40.000. Integração com ERP soma 30%, pagamento soma 20% e IA soma 25% sobre a base. Prazo menor que seis semanas acrescenta 25% ao total." },
+      { "pergunta": "Quanto custa a manutenção mensal de um software?", "resposta": "Depende do que entra no pacote. Manutenção mínima cobre atualizações de segurança, backups e correção de defeitos. Evolução inclui funcionalidades novas. Some ainda hospedagem e serviços pagos por uso, como gateway e mensagens de WhatsApp, que variam com o volume. Peça que a proposta liste cada item separado." },
+      { "pergunta": "O orçamento pode mudar no meio do projeto?", "resposta": "Pode, se o escopo mudar. Em preço fechado, o valor só muda por aditivo: um pedido novo, descrito por escrito, com preço e prazo próprios. Se a proposta não explica como mudanças são tratadas, pergunte antes de assinar para não ter surpresa no meio do caminho." },
+      { "pergunta": "Vale a pena pagar mais para entregar mais rápido?", "resposta": "Só se a data tiver valor concreto, como uma feira, o início de uma safra ou um contrato que depende do sistema. Na tabela pública, site em menos de três semanas e app em menos de seis custam 25% a mais. Se a data é apenas desejo, o prazo padrão economiza esse valor." },
+      { "pergunta": "Pagar barato agora e refazer depois compensa?", "resposta": "Raramente. Um projeto refeito paga duas vezes o levantamento, o desenho e os testes, e ainda exige migrar os dados do sistema antigo. Se o orçamento está curto, é melhor reduzir o escopo da primeira versão e construir bem a parte que resolve o problema principal." }
+    ],
+    "fontes": [
+      { "titulo": "Tabela pública de preços da AndersDev", "url": "/calculadora-site", "orgao": "AndersDev", "consultadoEm": "2026-11-18" },
+      { "titulo": "Tabela pública de preços da AndersDev", "url": "/calculadora-app", "orgao": "AndersDev", "consultadoEm": "2026-11-18" },
+      { "titulo": "Registro de domínio .br", "url": "https://registro.br/", "orgao": "Registro.br (NIC.br)", "consultadoEm": "2026-11-18" },
+      { "titulo": "Apple Developer Program", "url": "https://developer.apple.com/programs/", "orgao": "Apple", "consultadoEm": "2026-11-18" },
+      { "titulo": "Como usar o Play Console: taxa de registro", "url": "https://support.google.com/googleplay/android-developer/answer/6112435", "orgao": "Google", "consultadoEm": "2026-11-18" }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "guia-site-para-empresa",
+    "tipo": "pilar",
+    "cluster": "sites",
+    "consulta": "site para empresa",
+    "consultasSecundarias": ["como fazer site para empresa", "criar site para empresa", "site institucional para empresa", "site profissional para empresa"],
+    "title": "Site para empresa: guia completo do domínio ao Google",
+    "description": "Tipos de site, páginas essenciais, domínio, hospedagem, prazo e o que a lei pede. Confira o passo a passo para colocar o site da empresa no ar.",
+    "h1": "Site para empresa: o guia completo",
+    "respostaDireta": "Um site para empresa é o endereço próprio onde o cliente confirma que você existe, entende o que você vende e pede contato. Para a maioria das empresas, um site institucional de poucas páginas, rápido no celular, com domínio .com.br e WhatsApp visível resolve; loja virtual e sistema entram quando há venda ou atendimento online.",
+    "secoes": [
+      {
+        "titulo": "Que tipo de site a sua empresa precisa",
+        "paragrafos": [
+          "Site de empresa não é um formato só. Antes de falar de cores e fontes, decida qual trabalho o site vai fazer: apresentar a empresa, captar pedidos de orçamento para uma oferta específica ou vender direto. Cada trabalho pede um tipo diferente, com preço e prazo diferentes."
+        ],
+        "tabela": {
+          "colunas": ["Tipo", "Trabalho principal", "Quando escolher", "Faixa de preço"],
+          "linhas": [
+            ["Landing page", "Converter o visitante de uma campanha em contato", "Você anuncia uma oferta e precisa medir a resposta", "R$ 1.500 a R$ 4.000"],
+            ["Site institucional", "Apresentar a empresa e gerar pedido de orçamento", "O cliente pesquisa antes de comprar e precisa confiar", "R$ 3.400 a R$ 11.500"],
+            ["Loja virtual", "Vender com carrinho e pagamento online", "Produto com preço definido que pode ser enviado ou retirado", "R$ 10.400 a R$ 32.500"],
+            ["Site com área do cliente", "Atender por login: pedidos, documentos, agenda", "O cliente precisa acompanhar algo depois da compra", "Orçado como sistema web"]
+          ],
+          "legenda": "Faixas da tabela pública de preços da AndersDev (calculadora de site), consultada em 18/11/2026."
+        }
+      },
+      {
+        "titulo": "O que todo site de empresa precisa ter",
+        "paragrafos": [
+          "Quem chega ao seu site quer resolver três dúvidas em poucos segundos: o que você faz, se atende o caso dele e como falar com você. Tudo que não ajuda a responder isso disputa atenção com o que ajuda."
+        ],
+        "lista": [
+          "Frase de abertura dizendo o que a empresa faz e para quem, sem slogan genérico",
+          "Uma página por serviço ou linha de produto, com o nome que o cliente usaria na busca",
+          "Cidade e região de atendimento escritas em texto, não só num mapa",
+          "Botão de WhatsApp e telefone que funcionam com um toque no celular",
+          "Provas concretas: fotos reais da operação, trabalhos entregues, avaliações e CNPJ visível",
+          "Formulário curto, com aviso de para onde vão os dados",
+          "Política de privacidade acessível no rodapé",
+          "Endereço seguro (HTTPS) e carregamento rápido em rede móvel"
+        ]
+      },
+      {
+        "titulo": "Quais páginas criar e o que vai em cada uma",
+        "paragrafos": [
+          "Para a maioria das empresas, de cinco a dez páginas cobrem o essencial. Mais do que isso só vale quando cada página nova responde a uma busca diferente do cliente, como um serviço específico ou uma cidade atendida."
+        ],
+        "tabela": {
+          "colunas": ["Página", "Pergunta que responde", "Erro comum"],
+          "linhas": [
+            ["Início", "Vocês fazem o que eu preciso?", "Carrossel de banners que não diz o que a empresa faz"],
+            ["Serviço ou produto (uma por item)", "Como funciona, para quem é, quanto tempo leva", "Juntar todos os serviços numa página só"],
+            ["Sobre", "Posso confiar nessa empresa?", "Missão e valores sem nenhum fato concreto"],
+            ["Trabalhos realizados", "Já fizeram algo parecido com o meu caso?", "Galeria de fotos sem legenda nem contexto"],
+            ["Contato", "Como falo com alguém agora?", "Só formulário, sem telefone nem WhatsApp"],
+            ["Perguntas frequentes", "Quanto custa, qual o prazo, atende minha cidade?", "Perguntas que nenhum cliente faz"],
+            ["Política de privacidade", "O que vocês fazem com os meus dados?", "Texto copiado de outra empresa"]
+          ]
+        }
+      },
+      {
+        "titulo": "Domínio, hospedagem e e-mail: o que é cada coisa",
+        "paragrafos": [
+          "Domínio é o endereço (suaempresa.com.br). Hospedagem é o servidor ligado na internet onde os arquivos do site ficam. E-mail profissional usa o domínio no endereço (contato@suaempresa.com.br) e costuma ser contratado à parte. São três contratos diferentes, e confundir os três é a origem de muita dor de cabeça na troca de fornecedor.",
+          "O .com.br é registrado no Registro.br, que informa no próprio site a taxa de R$ 40 por ano. Registre no CNPJ da empresa, com um e-mail que a empresa controla. Domínio no nome do sobrinho, da agência ou de um ex-sócio é um dos problemas mais comuns quando a empresa decide mudar de fornecedor.",
+          "O certificado que deixa o endereço com HTTPS pode ser gratuito: o Let's Encrypt é uma autoridade certificadora sem fins lucrativos que emite certificados sem custo, e muitas hospedagens já fazem a instalação automática. Com HTTPS, o que o cliente digita no formulário trafega criptografado."
+        ]
+      },
+      {
+        "titulo": "Passo a passo para colocar o site da empresa no ar",
+        "paragrafos": [
+          "A ordem importa. Quem começa pelo visual costuma refazer o trabalho quando descobre, no fim, que faltam textos, fotos ou acesso ao domínio antigo."
+        ],
+        "lista": [
+          "Defina o trabalho do site (apresentar, captar ou vender) e a ação principal que o visitante deve tomar.",
+          "Liste os serviços ou produtos e as cidades que você atende; cada item importante vira uma página.",
+          "Registre o domínio .com.br no CNPJ da empresa e guarde o acesso com um e-mail corporativo.",
+          "Reúna o conteúdo: texto de cada serviço, fotos reais, logotipo, perguntas frequentes e dados de contato.",
+          "Escolha como construir: construtor pronto, WordPress com tema ou site sob medida, conforme o peso do site nas vendas.",
+          "Aprove primeiro a versão de celular, porque é nela que muita gente vai ver o site pela primeira vez.",
+          "Configure HTTPS, formulário com aviso de privacidade, botão de WhatsApp e medição dos cliques.",
+          "Antes de publicar, teste cada formulário, link e botão num celular comum, usando rede móvel.",
+          "Publique e cadastre o site no Google Search Console e no Perfil da Empresa no Google.",
+          "Revise a cada trimestre: páginas mais vistas, buscas que trazem visitas e contatos recebidos."
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Quanto tempo leva para o site ficar pronto",
+        "paragrafos": [
+          "O prazo depende mais do conteúdo do que da programação. Site com textos e fotos prontos anda rápido; site em que o conteúdo é escrito durante o projeto anda no ritmo das aprovações.",
+          "Na tabela pública da AndersDev, o prazo padrão de um site é de um a dois meses. Abaixo de três semanas, o projeto é tratado como urgente e recebe acréscimo de 25%. Landing page, por ser uma página só, costuma ficar pronta antes.",
+          "O que mais atrasa site de empresa raramente é técnico: é a foto que ninguém tirou, o texto que espera a aprovação do sócio e o acesso ao domínio antigo que ninguém sabe onde está."
+        ]
+      },
+      {
+        "titulo": "Site rápido e bom no celular: o que o Google mede",
+        "paragrafos": [
+          "O Google indexa e classifica os sites pela versão para celular, rastreada com o robô de smartphone. Na prática, se um conteúdo ou o botão de contato só existe na versão de computador, para o Google ele não existe.",
+          "Para medir a experiência, o Google usa as Core Web Vitals, três métricas de velocidade e estabilidade calculadas com dados de visitantes reais. A recomendação é atingir o limite bom em pelo menos 75% dos carregamentos de página, separando celular e computador."
+        ],
+        "tabela": {
+          "colunas": ["Métrica", "O que mede", "Limite bom", "O que costuma estragar"],
+          "linhas": [
+            ["LCP (maior conteúdo visível)", "Quanto demora para o conteúdo principal aparecer", "Até 2,5 segundos", "Foto de capa pesada e servidor lento"],
+            ["INP (resposta à interação)", "Quanto o site demora para reagir a um toque ou clique", "Até 200 milissegundos", "Excesso de scripts de terceiros, chats e pixels"],
+            ["CLS (estabilidade visual)", "Quanto a página pula enquanto carrega", "Até 0,1", "Imagem sem tamanho definido e banner que empurra o texto"]
+          ],
+          "legenda": "Limites publicados pelo Google em web.dev, conferidos em 18/11/2026."
+        }
+      },
+      {
+        "titulo": "Construtor pronto, WordPress ou site sob medida",
+        "paragrafos": [
+          "Construtor pronto, como o Wix, cobra mensalidade e entrega rápido, mas prende o site à plataforma. WordPress com tema é flexível e tem muitos profissionais no mercado, mas exige atualização constante de plugins. Site sob medida custa mais na largada e dá controle total de velocidade, estrutura e integrações.",
+          "A pergunta que decide é quanto do seu faturamento passa pelo site. Se ele é um cartão de visitas, o construtor resolve. Se é o principal canal de pedidos ou precisa conversar com outros sistemas, o sob medida tende a se pagar. As páginas de alternativa a Wix e a WordPress mostram o ponto de virada em detalhe."
+        ]
+      },
+      {
+        "titulo": "O que a lei pede de um site de empresa",
+        "paragrafos": [
+          "Se o site tem formulário, newsletter, chat ou ferramenta de análise, ele coleta dados pessoais e entra na LGPD (Lei 13.709/2018). O art. 9º garante ao titular acesso facilitado a informações claras sobre o tratamento: finalidade, forma e duração, quem é o controlador, como contatá-lo, com quem os dados são compartilhados e quais são os direitos dele. É isso que a política de privacidade precisa responder.",
+          "O art. 41 pede que a identidade e o contato do encarregado sejam divulgados publicamente, de preferência no site. A Resolução CD/ANPD nº 2/2022 dispensa agentes de pequeno porte de indicar encarregado, mas exige que mantenham um canal de comunicação com o titular. Loja virtual tem regras extras de comércio eletrônico, tratadas no guia de loja virtual.",
+          "Acessibilidade também conta. As diretrizes WCAG, publicadas pelo W3C, são a referência técnica para que pessoas com deficiência consigam usar o site e cobrem pontos como contraste, texto alternativo em imagens e navegação pelo teclado."
+        ]
+      },
+      {
+        "titulo": "Erros que fazem o site não trazer cliente",
+        "paragrafos": [
+          "A maioria dos sites de empresa não falha por design feio. Falha por não responder ao cliente na hora em que ele está decidindo."
+        ],
+        "lista": [
+          "Abrir com slogan bonito e não dizer o que a empresa faz",
+          "Esconder o WhatsApp numa página de contato",
+          "Usar fotos de banco de imagens no lugar da operação real",
+          "Colocar todos os serviços numa página só, sem texto próprio para cada um",
+          "Deixar domínio e hospedagem no nome de terceiros",
+          "Pedir no formulário dados que você não vai usar",
+          "Publicar e nunca mais olhar os números"
+        ]
+      },
+      {
+        "titulo": "Depois de publicar: manutenção e medição",
+        "paragrafos": [
+          "Site não é obra acabada. Plugins e bibliotecas recebem correções de segurança, o certificado precisa renovar, formulários quebram quando um serviço externo muda. Reserve uma rotina mensal de conferência ou contrate manutenção que cubra atualização, backup e teste dos formulários.",
+          "Meça o que importa para o negócio: cliques no WhatsApp, formulários enviados, ligações. Visita sozinha não paga conta. No Search Console você vê por quais buscas o site aparece e quais páginas recebem clique, o que mostra onde vale a pena escrever mais."
+        ]
+      }
+    ],
+    "valorProprio": { "tipo": "passo-a-passo", "descricao": "Passo a passo de dez etapas do domínio à publicação, mapa de páginas com o erro comum de cada uma e limites das Core Web Vitals explicados" },
+    "faq": [
+      { "pergunta": "Preciso de site se já tenho Instagram?", "resposta": "O Instagram é bom para relacionamento, mas o perfil pertence à plataforma, aparece pouco nas buscas do Google por serviço e cidade e não organiza a informação por serviço. O site é o endereço que você controla, que o Google indexa por assunto e que continua no ar se a conta da rede social tiver problema." },
+      { "pergunta": "Site de uma página só resolve?", "resposta": "Resolve para uma oferta única ou uma campanha. Para aparecer no Google em buscas diferentes, como cada serviço e cada cidade, uma página só é pouco, porque cada busca precisa de um conteúdo que responda a ela. Nesses casos, um site institucional com uma página por serviço rende mais." },
+      { "pergunta": "Quanto custa manter um site no ar por mês?", "resposta": "Há o domínio, que no Registro.br custa R$ 40 por ano, a hospedagem, que varia com o tipo de site e o provedor, e o e-mail profissional, cobrado por usuário. Construtores prontos juntam tudo numa mensalidade. Manutenção contratada entra à parte. Peça ao fornecedor a lista completa antes de fechar." },
+      { "pergunta": "Posso trocar de desenvolvedor depois?", "resposta": "Pode, desde que domínio, hospedagem e código estejam em nome da empresa e você tenha os acessos. Peça na entrega o login do Registro.br, o acesso à hospedagem, o repositório do código e as senhas das ferramentas conectadas. Sem isso, a troca vira um resgate." },
+      { "pergunta": "Site de empresa precisa de política de privacidade?", "resposta": "Se coleta qualquer dado pessoal, como nome e telefone num formulário, sim. A LGPD garante ao titular informação clara sobre finalidade, duração, compartilhamento e direitos. A política deve descrever o que o seu site realmente faz, e não repetir um texto copiado de outra empresa." },
+      { "pergunta": "Em quanto tempo o site aparece no Google?", "resposta": "Não há prazo garantido. O Google precisa descobrir, rastrear e indexar as páginas, e informa que algumas mudanças surtem efeito em horas e outras levam meses. Cadastrar o site no Search Console e enviar o sitemap ajuda o Google a encontrar as páginas novas." }
+    ],
+    "fontes": [
+      { "titulo": "Tabela pública de preços da AndersDev", "url": "/calculadora-site", "orgao": "AndersDev", "consultadoEm": "2026-11-18" },
+      { "titulo": "Registro de domínio .br", "url": "https://registro.br/", "orgao": "Registro.br (NIC.br)", "consultadoEm": "2026-11-18" },
+      { "titulo": "Let's Encrypt", "url": "https://letsencrypt.org/", "orgao": "Internet Security Research Group", "consultadoEm": "2026-11-18" },
+      { "titulo": "Web Vitals", "url": "https://web.dev/articles/vitals", "orgao": "Google", "consultadoEm": "2026-11-18" },
+      { "titulo": "Práticas recomendadas para a indexação que prioriza dispositivos móveis", "url": "https://developers.google.com/search/docs/crawling-indexing/mobile/mobile-sites-mobile-first-indexing", "orgao": "Google Search Central", "consultadoEm": "2026-11-18" },
+      { "titulo": "Lei nº 13.709/2018 (LGPD)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm", "orgao": "Presidência da República", "consultadoEm": "2026-11-18" },
+      { "titulo": "Resolução CD/ANPD nº 2/2022 (agentes de pequeno porte)", "url": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-2-de-27-de-janeiro-de-2022-376562019", "orgao": "ANPD / Diário Oficial da União", "consultadoEm": "2026-11-18" },
+      { "titulo": "WCAG 2 Overview", "url": "https://www.w3.org/WAI/standards-guidelines/wcag/", "orgao": "W3C", "consultadoEm": "2026-11-18" },
+      { "titulo": "Guia de otimização para mecanismos de pesquisa (SEO) para iniciantes", "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide", "orgao": "Google Search Central", "consultadoEm": "2026-11-18" }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "guia-como-aparecer-no-google",
+    "tipo": "pilar",
+    "cluster": "seo-google",
+    "consulta": "como aparecer no google",
+    "consultasSecundarias": ["como colocar minha empresa no google", "como aparecer na pesquisa do google", "como fazer meu site aparecer no google", "como aparecer no google maps"],
+    "title": "Como aparecer no Google: guia completo para empresas",
+    "description": "Perfil da Empresa, Search Console, SEO local, conteúdo, parte técnica e respostas de IA explicados sem jargão. Veja o passo a passo do zero.",
+    "h1": "Como aparecer no Google",
+    "respostaDireta": "Para aparecer no Google, a empresa precisa de duas frentes: o Perfil da Empresa no Google, que coloca você no mapa e na busca local, e um site que o Google consiga rastrear e indexar. Depois disso, aparecer bem depende de conteúdo que responde ao que o cliente pesquisa, de avaliações reais e de tempo.",
+    "secoes": [
+      {
+        "titulo": "Como o Google decide o que mostrar",
+        "paragrafos": [
+          "A busca do Google funciona em três etapas. Primeiro o robô rastreia: descobre endereços e baixa o conteúdo das páginas. Depois indexa: analisa textos, imagens e marcações e guarda a página no índice. Por fim, na hora da pesquisa, escolhe no índice as páginas mais relevantes para aquela pessoa, considerando local, idioma e aparelho.",
+          "Dois avisos do próprio Google ajudam a separar promessa de realidade. Ele não aceita pagamento para rastrear um site com mais frequência ou para posicioná-lo melhor nos resultados orgânicos. E não garante que vai rastrear, indexar ou exibir qualquer página, mesmo que ela siga todas as regras. Quem vende primeira página garantida está vendendo outra coisa."
+        ]
+      },
+      {
+        "titulo": "Onde a empresa pode aparecer: mapa, resultados, anúncios e IA",
+        "paragrafos": [
+          "Aparecer no Google não é uma coisa só. Na mesma tela de resultados convivem quatro vitrines, e cada uma tem regra própria."
+        ],
+        "tabela": {
+          "colunas": ["Vitrine", "Onde aparece", "O que você precisa", "Dá para pagar pela posição?"],
+          "linhas": [
+            ["Perfil da Empresa (mapa)", "Mapa e bloco local em buscas com intenção de lugar", "Perfil criado, verificado e completo", "Não; o Google diz que não há como pagar por posição local"],
+            ["Resultados orgânicos", "Lista de sites na página de resultados", "Site rastreável, com página que responde à busca", "Não; o Google não aceita pagamento para posicionar melhor"],
+            ["Anúncios", "Espaços marcados como patrocinados", "Conta no Google Ads e verba", "Sim; a exibição acaba quando a verba acaba"],
+            ["Respostas de IA (AI Overviews e AI Mode)", "Resumo no topo de algumas buscas, com links", "Página indexada e apta a aparecer com trecho de texto", "Não há inscrição; valem os requisitos da busca comum"]
+          ]
+        }
+      },
+      {
+        "titulo": "Perfil da Empresa no Google: o primeiro passo",
+        "paragrafos": [
+          "Para quem atende uma região, o Perfil da Empresa no Google é o que faz a empresa aparecer no mapa e no bloco local de buscas como “oficina perto de mim” ou “contabilidade em Passo Fundo”. Criar o perfil é gratuito, e você adiciona ou reivindica a empresa com uma conta Google.",
+          "O Google informa que os resultados locais dependem principalmente de três fatores: relevância (o quanto o perfil corresponde ao que foi pesquisado), distância (o quanto a empresa está perto de quem pesquisa) e destaque (o quanto a empresa é conhecida). Também afirma que não há como pedir ou pagar por uma posição local melhor.",
+          "O que está nas suas mãos: concluir a verificação, preencher todas as informações com precisão, manter o horário atualizado (inclusive em feriados), escolher a categoria principal correta, publicar fotos reais e responder às avaliações. Segundo o Google, empresa com informações completas e corretas tem mais chance de aparecer na busca local."
+        ]
+      },
+      {
+        "titulo": "SEO local: como ganhar a busca da sua cidade",
+        "paragrafos": [
+          "SEO local é o conjunto de ajustes que liga a sua empresa a uma cidade e a um serviço, no perfil e no site ao mesmo tempo. Funciona melhor quando as duas pontas contam a mesma história, com os mesmos dados."
+        ],
+        "lista": [
+          "Nome, endereço e telefone escritos do mesmo jeito no perfil, no site e nas redes",
+          "Categoria principal do perfil igual ao serviço que mais vende, e categorias secundárias para os demais",
+          "Uma página no site para cada serviço, citando em texto a cidade e a região atendida",
+          "Pedido de avaliação logo depois de cada atendimento, com link direto para o perfil",
+          "Resposta educada a toda avaliação, inclusive às negativas, explicando o que foi feito",
+          "Fotos novas da fachada, da equipe e do trabalho entregue ao longo do ano",
+          "Dados estruturados de empresa local (LocalBusiness) no site, com endereço, horário e telefone iguais aos do perfil"
+        ]
+      },
+      {
+        "titulo": "Search Console: o painel gratuito que mostra o que o Google vê",
+        "paragrafos": [
+          "O Google Search Console é um serviço gratuito do Google para acompanhar como o site aparece na busca. Ele não é obrigatório para entrar nos resultados, mas sem ele você trabalha no escuro: é por lá que o Google avisa sobre problemas de indexação, spam e segurança.",
+          "Três relatórios resolvem a maior parte das dúvidas de uma empresa. O de desempenho mostra as buscas que exibiram o site, as impressões e os cliques. O de indexação mostra quais páginas entraram no índice e por que outras ficaram de fora. A inspeção de URL mostra como o Google enxerga uma página específica e permite pedir nova indexação depois de uma correção.",
+          "Envie também o sitemap, um arquivo que lista as páginas do site. Ele ajuda o Google a descobrir o que existe, principalmente em site novo, que ainda tem poucos links apontando para ele."
+        ]
+      },
+      {
+        "titulo": "Passo a passo para aparecer no Google do zero",
+        "paragrafos": [
+          "Se a empresa ainda não aparece em lugar nenhum, siga esta ordem. As primeiras etapas são de cadastro e conferência; as últimas, de rotina."
+        ],
+        "lista": [
+          "Crie ou reivindique o Perfil da Empresa no Google, escolha a categoria principal e conclua a verificação.",
+          "Preencha endereço ou área de atendimento, horário, telefone, site, serviços e fotos reais.",
+          "Garanta que o site abre bem no celular, usa HTTPS e não bloqueia o robô do Google por engano.",
+          "Crie uma página para cada serviço importante, com título que use as palavras que o cliente pesquisa.",
+          "Cadastre o site no Search Console, comprove a propriedade e envie o sitemap.",
+          "Pesquise site:seudominio.com.br no Google para conferir quais páginas já estão no índice.",
+          "Peça avaliação a cada cliente atendido e responda a todas.",
+          "Publique conteúdo que responde às perguntas reais de quem compra: preço, prazo, como funciona, o que levar.",
+          "Depois de quatro semanas, abra o relatório de desempenho e reforce as páginas que aparecem mas recebem poucos cliques."
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Conteúdo que aparece: responder ao que o cliente pesquisa",
+        "paragrafos": [
+          "Os sistemas de classificação do Google procuram priorizar informação útil e confiável, criada para ajudar pessoas e não para ganhar posição. Na prática, a página que ganha a busca “quanto custa instalar ar-condicionado split” é a que responde ao preço, ao prazo e ao que muda o valor, não a que repete a frase dez vezes.",
+          "O próprio Google desmonta alguns mitos. O tamanho do texto, sozinho, não conta para a classificação. Palavra-chave no nome do domínio quase não tem efeito. A meta tag keywords é ignorada. E repetir a mesma palavra muitas vezes cansa o leitor e viola as políticas contra spam.",
+          "O que ajuda é deixar claro quem escreveu, como o conteúdo foi produzido e por que ele existe. Entre os aspectos de qualidade que o Google descreve, a confiança é o mais importante. Para empresa local, isso significa fotos próprias, endereço real, nome do responsável e respostas precisas."
+        ]
+      },
+      {
+        "titulo": "A parte técnica que impede o site de aparecer",
+        "paragrafos": [
+          "Antes de investir em conteúdo, confirme que nada técnico está barrando o Google. Estes são os problemas mais comuns em sites de empresa e onde enxergá-los. Se o seu caso é um site que já existe e não aparece de jeito nenhum, o artigo do blog sobre site que não aparece no Google aprofunda o diagnóstico."
+        ],
+        "tabela": {
+          "colunas": ["Problema", "Como descobrir", "Correção"],
+          "linhas": [
+            ["Página marcada com noindex", "Inspeção de URL no Search Console", "Remover a marcação das páginas que devem aparecer"],
+            ["robots.txt bloqueando o rastreamento", "Abrir seudominio.com.br/robots.txt e procurar Disallow: /", "Liberar as páginas públicas para o robô"],
+            ["Site lento no celular", "Relatório de Core Web Vitals no Search Console", "Comprimir imagens, cortar scripts, melhorar a hospedagem"],
+            ["Conteúdo só na versão de computador", "Abrir o site no celular e comparar", "Ter o mesmo conteúdo nas duas versões"],
+            ["Título igual em todas as páginas", "Pesquisar site:seudominio.com.br e ler os títulos", "Título único e descritivo em cada página"],
+            ["Mesmo conteúdo em vários endereços (com e sem www, http e https)", "Relatório de indexação, páginas duplicadas", "Redirecionar tudo para um endereço só"]
+          ]
+        }
+      },
+      {
+        "titulo": "O que muda com as respostas de IA do Google",
+        "paragrafos": [
+          "O Google mostra resumos gerados por IA no topo de parte das buscas (AI Overviews) e oferece um modo de conversa (AI Mode), ambos com links para os sites usados como base. A dúvida comum é se é preciso fazer algo especial para aparecer ali.",
+          "Segundo a documentação do Google, não há requisito técnico adicional nem marcação de dados estruturados especial. Para ser exibida como link de apoio, a página precisa estar indexada e apta a aparecer na busca com trecho de texto, e as práticas de SEO de sempre continuam valendo. Os cliques vindos desses recursos entram no relatório de desempenho do Search Console, no tipo de pesquisa Web, junto com o tráfego da busca comum.",
+          "O efeito prático é que respostas diretas e verificáveis ganham peso. Uma página que responde à pergunta já no primeiro parágrafo, com preço, prazo ou condição explícitos, é mais fácil de aproveitar do que um texto que enrola até o fim. Para limitar o uso do conteúdo nesses resumos, os controles são os mesmos dos trechos da busca, como nosnippet e max-snippet."
+        ]
+      },
+      {
+        "titulo": "Quanto tempo leva para aparecer",
+        "paragrafos": [
+          "O guia do Google para iniciantes diz que algumas mudanças surtem efeito em poucas horas e outras levam vários meses, e recomenda esperar algumas semanas antes de avaliar se uma alteração funcionou.",
+          "As duas frentes andam em ritmos diferentes. No Perfil da Empresa, boa parte do trabalho é preenchimento e verificação, que você conclui em dias. No site, o resultado depende de rastreamento, indexação e da concorrência em cada busca, então é trabalho de meses, feito página por página."
+        ]
+      },
+      {
+        "titulo": "O que não funciona e ainda é vendido",
+        "paragrafos": [
+          "Desconfie de qualquer oferta que dependa de um destes itens. Todos contrariam o que o próprio Google documenta."
+        ],
+        "lista": [
+          "Garantia de primeira posição: o Google não vende posição orgânica nem local",
+          "Pacotes de links comprados: as políticas contra spam do Google tratam isso como manipulação",
+          "Meta tag keywords recheada: o Google ignora essa tag",
+          "Domínio cheio de palavras-chave: o efeito é praticamente nenhum",
+          "Texto longo só para bater número de palavras: o tamanho sozinho não conta",
+          "Dezenas de páginas quase iguais trocando só o nome da cidade, sem conteúdo próprio"
+        ]
+      }
+    ],
+    "valorProprio": { "tipo": "passo-a-passo", "descricao": "Passo a passo em nove etapas do perfil ao relatório de desempenho, comparação das quatro vitrines do Google e tabela de diagnóstico técnico com correção" },
+    "faq": [
+      { "pergunta": "Quanto custa aparecer no Google?", "resposta": "O Perfil da Empresa e o Search Console são gratuitos, e o Google não cobra por posição orgânica ou local. O custo está no trabalho: site bem feito, conteúdo e o tempo de quem cuida disso. Anúncio é a única vitrine paga, e a exibição termina quando a verba acaba." },
+      { "pergunta": "Por que minha empresa não aparece no Google Maps?", "resposta": "As causas mais comuns são perfil não verificado, categoria principal errada, endereço ou área de atendimento incompletos e a distância de quem pesquisa. Os resultados locais dependem de relevância, distância e destaque. Revise o perfil inteiro, confirme a verificação e peça avaliações aos clientes." },
+      { "pergunta": "Preciso de site para aparecer no Google?", "resposta": "Para o mapa, não: o Perfil da Empresa aparece sozinho. Para os resultados orgânicos, sim, porque eles listam páginas da web. Na prática as duas frentes se reforçam: o perfil aponta para o site, e o site confirma serviços, endereço e área de atendimento." },
+      { "pergunta": "Como saber se meu site está no Google?", "resposta": "Pesquise site:seudominio.com.br na busca do Google. Se aparecerem resultados, o site está no índice. Para ver página por página e entender por que alguma ficou de fora, use o relatório de indexação e a inspeção de URL do Search Console." },
+      { "pergunta": "Preciso mudar algo no site por causa da IA do Google?", "resposta": "Não há requisito técnico novo. O Google diz que a página precisa estar indexada e apta a aparecer com trecho, e que as práticas de SEO de sempre continuam valendo. O que ganha força é responder de forma direta e precisa logo no início da página." },
+      { "pergunta": "Vale a pena anunciar enquanto o orgânico não vem?", "resposta": "Pode valer para serviços com margem que aguenta o custo por clique e para datas específicas. O anúncio traz visitas logo, mas para quando a verba acaba. Use esse período para descobrir quais buscas geram contato e depois crie páginas orgânicas para elas." }
+    ],
+    "fontes": [
+      { "titulo": "Como funciona a Pesquisa Google", "url": "https://developers.google.com/search/docs/fundamentals/how-search-works", "orgao": "Google Search Central", "consultadoEm": "2026-11-18" },
+      { "titulo": "Dicas para melhorar sua classificação local no Google", "url": "https://support.google.com/business/answer/7091", "orgao": "Google", "consultadoEm": "2026-11-18" },
+      { "titulo": "Adicionar ou reivindicar seu Perfil da Empresa", "url": "https://support.google.com/business/answer/2911778", "orgao": "Google", "consultadoEm": "2026-11-18" },
+      { "titulo": "Sobre o Search Console", "url": "https://support.google.com/webmasters/answer/9128668", "orgao": "Google", "consultadoEm": "2026-11-18" },
+      { "titulo": "Saiba mais sobre sitemaps", "url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview", "orgao": "Google Search Central", "consultadoEm": "2026-11-18" },
+      { "titulo": "Guia de otimização para mecanismos de pesquisa (SEO) para iniciantes", "url": "https://developers.google.com/search/docs/fundamentals/seo-starter-guide", "orgao": "Google Search Central", "consultadoEm": "2026-11-18" },
+      { "titulo": "Como criar conteúdo útil, confiável e que priorize as pessoas", "url": "https://developers.google.com/search/docs/fundamentals/creating-helpful-content", "orgao": "Google Search Central", "consultadoEm": "2026-11-18" },
+      { "titulo": "Recursos de IA e seu site", "url": "https://developers.google.com/search/docs/appearance/ai-features", "orgao": "Google Search Central", "consultadoEm": "2026-11-18" },
+      { "titulo": "Dados estruturados de empresa local (LocalBusiness)", "url": "https://developers.google.com/search/docs/appearance/structured-data/local-business", "orgao": "Google Search Central", "consultadoEm": "2026-11-18" },
+      { "titulo": "Introdução ao robots.txt", "url": "https://developers.google.com/search/docs/crawling-indexing/robots/intro", "orgao": "Google Search Central", "consultadoEm": "2026-11-18" },
+      { "titulo": "Políticas de spam da Pesquisa Google", "url": "https://developers.google.com/search/docs/essentials/spam-policies", "orgao": "Google Search Central", "consultadoEm": "2026-11-18" }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "guia-como-montar-loja-virtual",
+    "tipo": "pilar",
+    "cluster": "ecommerce",
+    "consulta": "como montar uma loja virtual",
+    "consultasSecundarias": ["como criar uma loja virtual", "como abrir uma loja online", "montar loja virtual do zero", "loja virtual própria ou marketplace"],
+    "title": "Como montar uma loja virtual: guia do zero à primeira venda",
+    "description": "Canal de venda, catálogo, pagamento, frete, regras do comércio eletrônico e indicadores. Confira o passo a passo para montar a loja sem perder margem.",
+    "h1": "Como montar uma loja virtual",
+    "respostaDireta": "Para montar uma loja virtual, você decide primeiro onde vender (marketplace, plataforma pronta ou loja própria) e depois organiza catálogo, pagamento, frete e as informações que a lei de comércio eletrônico exige. A loja só fica de pé quando estoque, entrega e atendimento funcionam no mesmo ritmo das vendas.",
+    "secoes": [
+      {
+        "titulo": "Marketplace, plataforma pronta ou loja própria",
+        "paragrafos": [
+          "A primeira decisão não é visual, é de canal. Marketplace é vender dentro de um shopping digital que já tem público. Plataforma pronta é alugar uma loja com o seu nome, pagando mensalidade. Loja própria é um site de vendas construído para você, com código e dados sob o seu controle.",
+          "Dá para usar mais de um ao mesmo tempo: marketplace para volume, loja própria para margem e relacionamento. O que não funciona é escolher pelo custo de entrada e esquecer o custo por venda, que é o que pesa quando o faturamento cresce. A página de alternativa a Shopify mostra esse ponto de virada em detalhe."
+        ],
+        "tabela": {
+          "colunas": ["Critério", "Marketplace", "Plataforma pronta", "Loja própria"],
+          "linhas": [
+            ["Custo para começar", "Baixo: cadastro e anúncios", "Baixo: mensalidade e tema", "Alto: projeto de desenvolvimento"],
+            ["Custo por venda", "Comissão do marketplace mais taxa de pagamento", "Mensalidade, taxa da plataforma em alguns planos e taxa de pagamento", "Só a taxa do meio de pagamento"],
+            ["Público", "Já existe, mas compara você com o concorrente na mesma tela", "Você precisa trazer", "Você precisa trazer"],
+            ["Dados do cliente", "Ficam com o marketplace", "Ficam com você, dentro da plataforma", "Ficam com você, no seu banco de dados"],
+            ["Personalização", "Quase nenhuma", "Limitada ao que a plataforma permite", "Total"],
+            ["Quando faz sentido", "Testar produto e girar estoque", "Começar a marca própria com pouco investimento", "Volume em que as taxas superam o custo do projeto, ou venda com regra própria"]
+          ]
+        }
+      },
+      {
+        "titulo": "Antes da loja: o que precisa estar resolvido",
+        "paragrafos": [
+          "Loja virtual que nasce antes da operação vende e não entrega. Confira estes pontos antes de contratar qualquer plataforma ou desenvolvedor."
+        ],
+        "lista": [
+          "Emissão de nota fiscal para venda ao consumidor, com o contador já alinhado",
+          "Cadastro de cada produto com peso, medidas, variações (cor, tamanho) e código interno",
+          "Fotos próprias, com fundo limpo e pelo menos um ângulo de detalhe",
+          "Política de troca e devolução escrita, coerente com o direito de arrependimento",
+          "Estoque com contagem confiável, de preferência num único lugar",
+          "Embalagem testada para o produto chegar inteiro",
+          "Quem vai separar, embalar e responder ao cliente, e em que horário"
+        ]
+      },
+      {
+        "titulo": "Catálogo que vende: fotos, descrição e categorias",
+        "paragrafos": [
+          "Na loja online o cliente não pega o produto na mão. A descrição precisa responder ao que ele perguntaria ao vendedor: medidas reais, material, compatibilidade, o que vem na caixa, garantia. Texto copiado do fabricante deixa a página igual a centenas de outras e não ajuda o cliente nem o Google.",
+          "Organize as categorias pelo jeito que o cliente procura, não pelo jeito que o estoque está arrumado. Uma loja de ferragens pode ter categoria por uso (hidráulica, elétrica, pintura) em vez de por fornecedor. Cada categoria bem descrita também vira uma porta de entrada pela busca.",
+          "Descrição completa, além de vender, é obrigação: o decreto do comércio eletrônico exige informar as características essenciais do produto, incluindo os riscos à saúde e à segurança do consumidor."
+        ]
+      },
+      {
+        "titulo": "Pagamento: Pix, cartão e boleto",
+        "paragrafos": [
+          "Quem processa o pagamento numa loja é o gateway, ou intermediador: ele recebe os dados do cartão ou gera o Pix, confirma com o banco e avisa a loja. Esse aviso automático, normalmente por webhook, é o que muda o pedido para pago sem ninguém conferir extrato.",
+          "O Pix é o meio de pagamento instantâneo criado pelo Banco Central, e a confirmação chega em segundos. Cartão permite parcelar, mas a compra pode ser contestada depois. Boleto atende quem não usa cartão, só que a confirmação não é imediata e nem todo boleto gerado é pago, então a reserva de estoque precisa de prazo."
+        ],
+        "tabela": {
+          "colunas": ["Meio", "Quando o pedido é confirmado", "Ponto de atenção", "Configuração na loja"],
+          "linhas": [
+            ["Pix", "Em segundos, por aviso automático", "Conferir o valor no gateway antes de liberar o pedido", "QR Code com prazo de expiração"],
+            ["Cartão de crédito", "Na aprovação da operadora", "Contestação depois da compra (chargeback)", "Antifraude e regra de parcelamento"],
+            ["Boleto", "Depois da compensação bancária", "Nem todo boleto gerado é pago", "Reserva de estoque com prazo e cancelamento automático"],
+            ["Pagamento na entrega ou na retirada", "Quando o cliente paga no ato", "Risco de viagem perdida", "Só para região próxima e cliente conhecido"]
+          ]
+        }
+      },
+      {
+        "titulo": "Frete e entrega: como definir",
+        "paragrafos": [
+          "Frete é onde a loja perde dinheiro sem perceber. O cálculo precisa usar peso e medidas reais do produto embalado e o CEP de destino. Produto cadastrado sem medida gera frete errado, e quem paga a diferença é você.",
+          "As opções mais comuns são Correios, transportadoras, entrega própria na cidade e retirada no local. Frete grátis não existe: ele sai da margem, então defina a partir de qual valor de pedido vale a pena oferecer. Para quem também atende no balcão, a retirada na loja reduz custo e traz o cliente para dentro.",
+          "O cliente precisa ver o frete antes de fechar a compra. O decreto do comércio eletrônico manda discriminar no preço as despesas adicionais, como as de entrega."
+        ]
+      },
+      {
+        "titulo": "O que a lei exige de uma loja virtual",
+        "paragrafos": [
+          "Além do Código de Defesa do Consumidor, a loja virtual segue o Decreto 7.962/2013, que trata do comércio eletrônico. O art. 2º manda exibir, em local de destaque e fácil de ver, o nome empresarial e o número de inscrição do fornecedor, o endereço físico e eletrônico, as características essenciais do produto, a discriminação das despesas adicionais no preço, as condições integrais da oferta e qualquer restrição a ela.",
+          "O art. 4º pede, entre outros pontos, um sumário do contrato antes da compra, ferramentas para o cliente corrigir erros antes de confirmar, confirmação imediata do recebimento do pedido, atendimento em meio eletrônico e mecanismos de segurança eficazes para pagamento e dados. O art. 5º obriga a informar os meios para o consumidor exercer o direito de arrependimento.",
+          "Esse direito está no art. 49 do Código de Defesa do Consumidor: em compra feita fora do estabelecimento comercial, o consumidor pode desistir em até 7 dias, contados da assinatura ou do recebimento do produto, e os valores pagos são devolvidos de imediato, com atualização monetária. Como a loja coleta nome, endereço e CPF, ela também precisa cumprir a LGPD, com política de privacidade clara."
+        ]
+      },
+      {
+        "titulo": "Passo a passo para montar a loja virtual",
+        "paragrafos": [
+          "Esta é a ordem que evita retrabalho. Cada etapa depende da anterior, principalmente cadastro, pagamento e frete."
+        ],
+        "lista": [
+          "Defina o canal: marketplace, plataforma pronta, loja própria ou uma combinação.",
+          "Escolha os produtos de entrada: comece pelo que tem estoque, margem e frete viável.",
+          "Cadastre os produtos com fotos próprias, descrição completa, peso, medidas e variações.",
+          "Contrate o meio de pagamento e teste Pix, cartão e boleto com pedidos reais de valor baixo.",
+          "Configure o frete por CEP com as medidas da embalagem e defina a regra de frete grátis.",
+          "Publique as informações exigidas: CNPJ, endereço, contato, política de troca, arrependimento e privacidade.",
+          "Ligue a loja à emissão de nota fiscal e ao controle de estoque para não vender o que não tem.",
+          "Faça uma compra completa como cliente, do anúncio à entrega, e corrija cada atrito encontrado.",
+          "Lance primeiro para quem já conhece a empresa: clientes do balcão, lista de WhatsApp e redes sociais.",
+          "Acompanhe toda semana pedidos, abandono de carrinho e margem por pedido, e ajuste."
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Quanto custa montar uma loja própria",
+        "paragrafos": [
+          "Pela tabela pública da AndersDev, uma loja virtual própria fica entre R$ 10.400 e R$ 32.500. O valor sobe com o número de produtos e páginas, com regras de preço (atacado e varejo, tabela por cliente) e com integrações: pagamento online soma 20% e integração com ERP soma 30% sobre a base. A página de custo de e-commerce detalha o que entra em cada ponta da faixa.",
+          "Na plataforma pronta o custo de entrada é menor, mas há mensalidade e, conforme o plano, taxa por venda. Compare as duas opções somando 24 ou 36 meses de operação com o faturamento esperado, e não só o primeiro mês."
+        ]
+      },
+      {
+        "titulo": "Integrações que evitam redigitar pedidos",
+        "paragrafos": [
+          "Uma loja que não conversa com o resto da empresa obriga alguém a copiar pedido de uma tela para outra. Estas integrações são as que mais tiram trabalho manual da operação."
+        ],
+        "lista": [
+          "Estoque único entre loja, balcão e marketplace, para não vender o mesmo item duas vezes",
+          "Emissão de nota fiscal a partir do pedido pago",
+          "Etiqueta de frete gerada pelo pedido, com o código de rastreio enviado ao cliente",
+          "Aviso de pedido pago e de envio pelo WhatsApp ou por e-mail",
+          "Cadastro de clientes ligado ao CRM ou ao ERP",
+          "Relatório de vendas com custo, frete e taxas, para enxergar a margem real"
+        ]
+      },
+      {
+        "titulo": "Indicadores para acompanhar nos primeiros meses",
+        "paragrafos": [
+          "Faturamento sozinho engana. Estes números mostram se a loja está saudável e onde agir primeiro."
+        ],
+        "tabela": {
+          "colunas": ["Indicador", "Como calcular", "Se estiver ruim, olhe para"],
+          "linhas": [
+            ["Taxa de conversão", "Pedidos pagos divididos pelas visitas", "Fotos, descrição, preço do frete e confiança na página"],
+            ["Ticket médio", "Faturamento dividido pelo número de pedidos", "Kits, frete grátis a partir de um valor, produtos complementares"],
+            ["Abandono de carrinho", "Carrinhos sem pedido pago divididos pelos carrinhos criados", "Frete revelado tarde, cadastro longo, poucas formas de pagamento"],
+            ["Margem por pedido", "Preço menos custo do produto, frete subsidiado, taxas e embalagem", "Regra de frete grátis e taxa do canal"],
+            ["Taxa de devolução", "Pedidos devolvidos divididos pelos entregues", "Descrição incompleta, medidas erradas, embalagem"],
+            ["Tempo até o envio", "Horas entre o pagamento e a postagem", "Separação, estoque e horário de corte"]
+          ]
+        }
+      },
+      {
+        "titulo": "Como trazer as primeiras vendas",
+        "paragrafos": [
+          "Loja nova não tem visita. O caminho mais curto para as primeiras vendas é quem já conhece a empresa: clientes do balcão, contatos do WhatsApp, seguidores. Avise essa base com um motivo concreto para comprar online, como entrega na cidade ou retirada sem fila.",
+          "Em paralelo, trabalhe a busca: páginas de categoria com texto próprio, nome do produto escrito como o cliente pesquisa e Perfil da Empresa no Google apontando para a loja. Anúncio pago acelera, mas só vale quando a página do produto já converte; caso contrário, você paga para mostrar uma página que não vende."
+        ]
+      }
+    ],
+    "valorProprio": { "tipo": "passo-a-passo", "descricao": "Passo a passo de dez etapas, comparação de canais, tabela de meios de pagamento e indicadores com fórmula e onde agir" },
+    "faq": [
+      { "pergunta": "É melhor começar no marketplace ou com loja própria?", "resposta": "Depende da margem e da marca. Marketplace dá público imediato, mas cobra comissão e coloca você lado a lado com o concorrente. Loja própria exige trazer o público, mas o cliente e a margem ficam com você. Dá para começar no marketplace e abrir a loja própria quando a comissão passar a pesar mais que o projeto." },
+      { "pergunta": "O cliente pode devolver qualquer produto comprado pela internet?", "resposta": "Em compra feita fora do estabelecimento comercial, o Código de Defesa do Consumidor garante o direito de arrependimento em até 7 dias, contados da assinatura ou do recebimento, com devolução imediata dos valores pagos. A loja precisa informar como o cliente exerce esse direito, conforme o decreto do comércio eletrônico." },
+      { "pergunta": "Quanto tempo leva para montar uma loja virtual?", "resposta": "Em plataforma pronta, o tempo depende quase só do cadastro de produtos e das configurações. Loja própria segue o prazo de site da tabela pública da AndersDev: o padrão é de um a dois meses, e menos de três semanas conta como urgente, com acréscimo de 25%. Catálogo grande com fotos por fazer alonga qualquer prazo." },
+      { "pergunta": "Preciso integrar a loja com o estoque desde o começo?", "resposta": "Se você vende o mesmo produto no balcão, no marketplace e na loja, sim, ou vai acabar vendendo o que não tem. Com poucos produtos e um canal só, dá para começar com baixa manual e integrar quando o volume justificar. Integração com ERP soma 30% na tabela pública." },
+      { "pergunta": "Loja virtual precisa de política de privacidade?", "resposta": "Sim. A loja coleta nome, endereço, CPF e telefone para entregar e emitir nota, e a LGPD garante ao cliente informação clara sobre finalidade, duração, compartilhamento e direitos. A política deve citar quem mais recebe os dados, como a transportadora e o meio de pagamento." },
+      { "pergunta": "Dá para vender pelo WhatsApp sem ter loja virtual?", "resposta": "Dá, e com catálogo pequeno e clientes conhecidos funciona. O limite aparece quando o volume cresce: pedidos se perdem na conversa, o estoque não baixa sozinho e cada venda exige alguém respondendo. A loja automatiza pedido, pagamento e confirmação, e o WhatsApp fica para o atendimento." }
+    ],
+    "fontes": [
+      { "titulo": "Tabela pública de preços da AndersDev", "url": "/calculadora-site", "orgao": "AndersDev", "consultadoEm": "2026-11-18" },
+      { "titulo": "Decreto nº 7.962/2013 (comércio eletrônico)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2013/decreto/d7962.htm", "orgao": "Presidência da República", "consultadoEm": "2026-11-18" },
+      { "titulo": "Lei nº 8.078/1990 (Código de Defesa do Consumidor), art. 49", "url": "https://www.planalto.gov.br/ccivil_03/leis/l8078compilado.htm", "orgao": "Presidência da República", "consultadoEm": "2026-11-18" },
+      { "titulo": "Lei nº 13.709/2018 (LGPD)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm", "orgao": "Presidência da República", "consultadoEm": "2026-11-18" },
+      { "titulo": "Pix", "url": "https://www.bcb.gov.br/estabilidadefinanceira/pix", "orgao": "Banco Central do Brasil", "consultadoEm": "2026-11-18" },
+      { "titulo": "Webhooks — documentação", "url": "https://docs.stripe.com/webhooks", "orgao": "Stripe", "consultadoEm": "2026-11-18" }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "guia-aplicativo-para-empresa",
+    "tipo": "pilar",
+    "cluster": "aplicativos",
+    "consulta": "aplicativo para empresa",
+    "consultasSecundarias": ["criar aplicativo para empresa", "app para empresa", "como fazer um aplicativo para minha empresa", "aplicativo próprio para empresa"],
+    "title": "Aplicativo para empresa: quando vale a pena e como fazer",
+    "description": "Quando um app se paga, nativo, multiplataforma ou PWA, publicação nas lojas, custos e manutenção. Veja o passo a passo antes de pedir orçamento.",
+    "h1": "Aplicativo para empresa",
+    "respostaDireta": "Um aplicativo para empresa vale a pena quando alguém vai abrir a ferramenta várias vezes por semana: equipe em campo, cliente que pede sempre, entregador com rota. Se o uso é eventual, um site rápido ou um sistema web resolve por menos. Pela tabela pública da AndersDev, um app simples custa de R$ 10.800 a R$ 27.000.",
+    "secoes": [
+      {
+        "titulo": "Quando um aplicativo faz sentido para a empresa",
+        "paragrafos": [
+          "App é a ferramenta certa quando alguém vai abri-lo muitas vezes, de preferência no meio do trabalho ou da rotina. O ícone na tela, as notificações e o acesso à câmera e ao GPS fazem diferença para quem usa toda semana. Para quem usa uma vez por ano, baixar um app é um obstáculo.",
+          "O blog já compara site e aplicativo de forma geral. Aqui a pergunta é mais prática: em quais situações de uma empresa o app se paga."
+        ],
+        "tabela": {
+          "colunas": ["Situação", "App resolve bem?", "Por quê"],
+          "linhas": [
+            ["Técnico ou vendedor em campo registrando visita, foto e assinatura", "Sim", "Usa câmera e GPS e pode funcionar sem sinal, sincronizando depois"],
+            ["Cliente que pede toda semana (distribuidora, gás, água, refeição)", "Sim", "Repete o pedido em dois toques e recebe aviso de entrega"],
+            ["Motorista ou entregador com rota do dia", "Sim", "Rota, comprovante de entrega e status em tempo real"],
+            ["Cardápio ou catálogo para consulta eventual", "Não", "Um site rápido abre sem instalar nada"],
+            ["Cliente que compra uma ou duas vezes por ano", "Não", "Ninguém instala app para uso raro; site e WhatsApp atendem"],
+            ["Equipe de escritório no computador", "Raramente", "Um sistema web atende no navegador do computador e do celular"]
+          ]
+        }
+      },
+      {
+        "titulo": "Tipos de aplicativo que empresas usam",
+        "paragrafos": [
+          "Quase todos os apps de empresa têm a mesma estrutura: uma tela de celular que consulta e grava dados num servidor central. O app é a ponta visível; boa parte do trabalho fica por trás dele."
+        ],
+        "lista": [
+          "App da equipe: ordem de serviço, vistoria, checklist, inventário, registro de visita",
+          "App do cliente: pedido recorrente, agendamento, segunda via, programa de fidelidade",
+          "App de entrega: rota, assinatura do recebedor, foto do comprovante, ocorrências",
+          "App de vendas externas: catálogo sem internet, tabela de preço por cliente, pedido sincronizado com o ERP",
+          "App de autoatendimento: abertura de chamado, acompanhamento de status, envio de documentos",
+          "Portal do revendedor: estoque disponível, pedidos e comissões"
+        ]
+      },
+      {
+        "titulo": "Nativo, multiplataforma ou PWA: qual tecnologia escolher",
+        "paragrafos": [
+          "App nativo é escrito separadamente para iPhone e para Android, com as ferramentas de cada fabricante. Multiplataforma usa um código só para os dois sistemas, com tecnologias como React Native ou Flutter. PWA é um site que se comporta como app: pode ser instalado pelo navegador, ganha ícone na tela e usa cache para abrir rápido, sem passar pelas lojas.",
+          "Em app de empresa, o multiplataforma costuma equilibrar custo e experiência. O nativo se justifica quando o app depende de recurso avançado do aparelho. O PWA é a porta de entrada mais barata quando ninguém precisa encontrar o app numa loja, como em ferramenta interna da equipe."
+        ],
+        "tabela": {
+          "colunas": ["Critério", "Nativo", "Multiplataforma", "PWA"],
+          "linhas": [
+            ["Código", "Um para iPhone e outro para Android", "Um só para os dois", "Um só, que roda no navegador"],
+            ["Publicação nas lojas", "Sim", "Sim", "Não precisa; instala pelo navegador"],
+            ["Câmera, GPS e notificações", "Acesso completo", "Acesso quase completo", "Acesso parcial, varia por navegador e sistema"],
+            ["Custo de desenvolvimento", "O mais alto", "Intermediário", "O mais baixo"],
+            ["Quando escolher", "Recurso avançado do aparelho ou desempenho crítico", "App de empresa com público nas duas lojas", "Uso interno ou teste de ideia fora das lojas"]
+          ]
+        }
+      },
+      {
+        "titulo": "O que existe por trás do app: servidor e painel",
+        "paragrafos": [
+          "Quase todo app de empresa precisa de três peças. O app em si, que roda no celular. O backend, um servidor com banco de dados e API, onde ficam pedidos, usuários e regras. E o painel administrativo, que a equipe usa no computador para cadastrar produtos, acompanhar pedidos e resolver ocorrências.",
+          "É por isso que a tabela de preços separa app simples de app completo com backend. Um app de catálogo com poucos dados pode usar um serviço pronto; um app de pedidos com estoque, preço por cliente e integração com o ERP precisa de backend próprio. Pergunte em toda proposta se o painel e o servidor estão incluídos, porque um app sem eles é só a vitrine."
+        ]
+      },
+      {
+        "titulo": "Como publicar na App Store e no Google Play",
+        "paragrafos": [
+          "Para publicar, a empresa precisa de uma conta de desenvolvedor em cada loja, de preferência em nome da própria empresa e não do fornecedor. A conta guarda o app, as avaliações e o histórico de versões; trocar de dono depois é trabalhoso.",
+          "As duas lojas revisam o app antes de liberar. A Apple, nas diretrizes de revisão, pede que o app ofereça recursos, conteúdo e interface que vão além de um site reempacotado, e exige que apps que permitem criar conta também permitam excluí-la dentro do próprio app. No Google Play, contas pessoais criadas depois de 13 de novembro de 2023 precisam manter um teste fechado com pelo menos 12 testadores por 14 dias seguidos antes de publicar para todos."
+        ],
+        "tabela": {
+          "colunas": ["Loja", "Taxa da conta", "Exigência que surpreende", "Dica"],
+          "linhas": [
+            ["App Store (Apple)", "US$ 99 por ano", "App que é só um site reempacotado pode ser recusado; exclusão de conta dentro do app", "Planeje funções próprias de app já no escopo"],
+            ["Google Play", "US$ 25, pagamento único", "Conta pessoal nova exige teste fechado com 12 testadores por 14 dias", "Abra a conta como organização, em nome da empresa"]
+          ],
+          "legenda": "Taxas e regras conferidas nas páginas oficiais da Apple e do Google em 18/11/2026."
+        }
+      },
+      {
+        "titulo": "Quanto custa um aplicativo para empresa",
+        "paragrafos": [
+          "A tabela pública da AndersDev separa três faixas. As páginas de custo de app mobile, de MVP e de app completo detalham o que entra em cada uma; abaixo está o resumo, com os acréscimos que mais aparecem em app de empresa."
+        ],
+        "tabela": {
+          "colunas": ["Item", "Valor na tabela", "Exemplo de uso"],
+          "linhas": [
+            ["App mobile simples", "R$ 10.800 a R$ 27.000", "Catálogo, agendamento, fidelidade, poucas telas"],
+            ["Sistema web ou MVP SaaS", "R$ 15.000 a R$ 40.000", "Ferramenta com login usada no navegador do celular e do computador"],
+            ["App completo com backend", "R$ 30.000 a R$ 72.000", "App, servidor e painel: pedidos, entregas, equipe em campo"],
+            ["Push ou WhatsApp", "+15%", "Aviso de pedido, lembrete de agenda"],
+            ["Integração com ERP", "+30%", "Estoque, preço e pedido sincronizados"],
+            ["Pagamento no app", "+20%", "Pix e cartão sem sair do app"],
+            ["Prazo menor que 6 semanas", "+25%", "Lançamento com data fixa"]
+          ],
+          "legenda": "Tabela pública de preços da AndersDev (calculadora de app), consultada em 18/11/2026."
+        }
+      },
+      {
+        "titulo": "Passo a passo para tirar o app do papel",
+        "paragrafos": [
+          "App caro que ninguém usa é o risco principal. Esta sequência testa o uso antes de investir no projeto inteiro."
+        ],
+        "lista": [
+          "Escreva quem vai usar o app, com que frequência e qual tarefa ele precisa resolver no celular.",
+          "Teste a hipótese mais barata primeiro: um formulário, um site ou um PWA mostram se as pessoas usam.",
+          "Liste as telas da primeira versão e corte tudo que não é necessário para a tarefa principal.",
+          "Escolha a tecnologia (nativo, multiplataforma ou PWA) pelo uso de câmera, GPS, modo sem internet e notificações.",
+          "Abra as contas de desenvolvedor da Apple e do Google em nome da empresa.",
+          "Aprove protótipos clicáveis das telas antes de começar a programação.",
+          "Teste com usuários reais em aparelhos comuns, inclusive os mais antigos da equipe.",
+          "Publique primeiro para um grupo fechado, corrija e só então libere para todos.",
+          "Acompanhe falhas, avaliações nas lojas e uso real, e planeje as atualizações do primeiro trimestre."
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Custos e cuidados depois da publicação",
+        "paragrafos": [
+          "App publicado não é app terminado. A cada nova versão do iOS e do Android algum comportamento pode mudar, e as lojas atualizam as regras com frequência. App sem manutenção acaba ficando fora das exigências novas e para de receber atualizações que a loja cobra.",
+          "Conte com custos recorrentes: a anuidade da Apple, o servidor do backend, serviços pagos por uso (mapas, SMS, mensagens de WhatsApp) e a manutenção para atualizar bibliotecas e corrigir defeitos. Peça que a proposta separe o valor de construir do valor de manter."
+        ]
+      },
+      {
+        "titulo": "Segurança e dados pessoais no app",
+        "paragrafos": [
+          "App de empresa costuma lidar com dados de clientes e funcionários: nome, telefone, endereço, localização, fotos. Peça só as permissões que o app usa de fato. As diretrizes da Apple dizem que o app não deve exigir dados pessoais para funcionar, a não ser quando forem diretamente relevantes para a função principal ou exigidos por lei.",
+          "No servidor, o básico é login seguro, senha guardada com hash (criptografia de mão única), acesso por perfil, para que o entregador não veja o financeiro, e cópia de segurança. A LGPD vale para app como para qualquer sistema; o guia de LGPD para sites e sistemas traz o passo a passo de adequação."
+        ]
+      },
+      {
+        "titulo": "Erros comuns em app de empresa",
+        "paragrafos": [
+          "Os erros mais caros acontecem antes da primeira linha de código, na hora de decidir o que o app é e para quem."
+        ],
+        "lista": [
+          "Fazer app para quem usaria uma vez por ano",
+          "Copiar o site dentro de um app sem nenhuma função própria",
+          "Deixar as contas das lojas no nome do fornecedor",
+          "Esquecer o painel administrativo no escopo",
+          "Não prever uso sem internet para a equipe em campo",
+          "Lançar para todos sem testar com um grupo pequeno",
+          "Não reservar verba para as atualizações depois da publicação"
+        ]
+      }
+    ],
+    "valorProprio": { "tipo": "tabela", "descricao": "Tabela de situações em que o app se paga, comparação nativo, multiplataforma e PWA, regras e taxas das lojas conferidas e faixas de preço com acréscimos" },
+    "faq": [
+      { "pergunta": "Preciso de aplicativo ou um site responsivo resolve?", "resposta": "Se o uso é eventual e envolve só consultar informação e pedir contato, o site resolve. O app passa a valer quando o uso é frequente, quando precisa de câmera, GPS, notificações ou funcionamento sem internet, ou quando repetir um pedido em dois toques faz diferença para o cliente." },
+      { "pergunta": "Dá para lançar o app só no Android?", "resposta": "Dá, e às vezes faz sentido, como em app interno para uma equipe que usa aparelhos Android da empresa. Para app do cliente, deixar o iPhone de fora corta parte do público. Com tecnologia multiplataforma, o mesmo código atende os dois sistemas, o que reduz o custo de estar nas duas lojas." },
+      { "pergunta": "Quanto custa manter um app por ano?", "resposta": "Há taxas fixas, como a anuidade de US$ 99 da Apple e o cadastro único de US$ 25 no Google Play, e custos que variam com o uso: servidor, mapas, mensagens e notificações. Some a manutenção para acompanhar versões novas do iOS e do Android. Peça esse valor separado na proposta." },
+      { "pergunta": "O app funciona sem internet?", "resposta": "Pode funcionar, se for planejado para isso. O app guarda os dados no aparelho e sincroniza quando o sinal volta. Isso é essencial para equipes em campo, como técnicos em zona rural, mas exige tratar conflitos, por exemplo quando duas pessoas alteram o mesmo registro. Peça no escopo, porque muda o projeto." },
+      { "pergunta": "Em nome de quem deve ficar o app nas lojas?", "resposta": "Da empresa. A conta de desenvolvedor guarda o app, as avaliações e o histórico. Se ela estiver no nome do fornecedor, trocar de desenvolvedor vira uma transferência burocrática. Abra as contas da Apple e do Google com dados e e-mail da empresa e dê acesso ao fornecedor como membro da equipe." },
+      { "pergunta": "Quanto tempo leva para criar um aplicativo?", "resposta": "Depende do escopo, mas a tabela pública da AndersDev considera padrão um prazo de dois a três meses para app e trata menos de seis semanas como urgente, com acréscimo de 25%. Some o tempo de revisão das lojas e, em conta pessoal nova do Google Play, os 14 dias de teste fechado." }
+    ],
+    "fontes": [
+      { "titulo": "Tabela pública de preços da AndersDev", "url": "/calculadora-app", "orgao": "AndersDev", "consultadoEm": "2026-11-18" },
+      { "titulo": "Apple Developer Program", "url": "https://developer.apple.com/programs/", "orgao": "Apple", "consultadoEm": "2026-11-18" },
+      { "titulo": "App Review Guidelines", "url": "https://developer.apple.com/app-store/review/guidelines/", "orgao": "Apple", "consultadoEm": "2026-11-18" },
+      { "titulo": "Como usar o Play Console: taxa de registro", "url": "https://support.google.com/googleplay/android-developer/answer/6112435", "orgao": "Google", "consultadoEm": "2026-11-18" },
+      { "titulo": "Requisitos de teste de apps para novas contas pessoais de desenvolvedor", "url": "https://support.google.com/googleplay/android-developer/answer/14151465", "orgao": "Google", "consultadoEm": "2026-11-18" },
+      { "titulo": "Progressive Web Apps", "url": "https://web.dev/explore/progressive-web-apps", "orgao": "Google (web.dev)", "consultadoEm": "2026-11-18" }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "guia-sistema-de-gestao-pequena-empresa",
+    "tipo": "pilar",
+    "cluster": "sistemas-gestao",
+    "consulta": "sistema de gestão para pequena empresa",
+    "consultasSecundarias": ["erp para pequena empresa", "sistema de gestão empresarial simples", "melhor sistema de gestão para pequena empresa", "software de gestão para pequenas empresas"],
+    "title": "Sistema de gestão para pequena empresa: guia de escolha",
+    "description": "ERP pronto, sob medida ou híbrido, módulos que importam, migração da planilha e custo de três anos. Confira o passo a passo para escolher sem errar.",
+    "h1": "Sistema de gestão para pequena empresa",
+    "respostaDireta": "Um sistema de gestão para pequena empresa reúne vendas, estoque, financeiro, clientes e notas fiscais num só lugar, no lugar de planilhas e cadernos espalhados. A escolha certa começa pelo processo que mais dá prejuízo hoje, não pela lista de módulos: às vezes um ERP pronto basta, às vezes só um sistema sob medida encaixa.",
+    "secoes": [
+      {
+        "titulo": "O que um sistema de gestão faz na prática",
+        "paragrafos": [
+          "Sistema de gestão, ou ERP, é o software em que a empresa registra o que vende, o que compra, o que tem em estoque, quanto recebe e quanto paga. A diferença para a planilha não é a tabela; é que o sistema liga as informações: a venda baixa o estoque, gera a conta a receber e a nota fiscal, sem ninguém copiar dado de um lugar para outro.",
+          "Na pequena empresa, o ganho vem menos de relatórios sofisticados e mais de três coisas simples: um número só para o estoque, um número só para o caixa e o histórico de cada cliente acessível para qualquer pessoa da equipe."
+        ]
+      },
+      {
+        "titulo": "Sinais de que a planilha virou custo",
+        "paragrafos": [
+          "O blog tem artigos sobre como sair da planilha e sobre os sinais de que a empresa precisa de sistema personalizado. Aqui o foco é ligar cada sintoma do dia a dia ao módulo que resolve."
+        ],
+        "tabela": {
+          "colunas": ["Sintoma", "Custo escondido", "Módulo que resolve"],
+          "linhas": [
+            ["Vendeu o que não tinha em estoque", "Cancelamento, frete perdido e cliente irritado", "Estoque integrado às vendas"],
+            ["Ninguém sabe o saldo de caixa sem perguntar ao sócio", "Decisão de compra no escuro", "Financeiro com contas a pagar e a receber"],
+            ["Pedido anotado no WhatsApp se perde", "Venda esquecida e retrabalho", "Pedidos ou CRM com status"],
+            ["Cada vendedor tem a própria planilha de clientes", "O histórico vai embora quando o vendedor sai", "Cadastro único de clientes"],
+            ["Nota fiscal digitada à mão depois da venda", "Erro de imposto e horas do administrativo", "Emissão de nota integrada"],
+            ["Comissão calculada no fim do mês com calculadora", "Discussão com a equipe e pagamento errado", "Regras de comissão no sistema"]
+          ]
+        }
+      },
+      {
+        "titulo": "ERP pronto, sistema sob medida ou os dois juntos",
+        "paragrafos": [
+          "ERP pronto é um sistema vendido por assinatura, igual para muitas empresas, com módulos que você liga e desliga. Sistema sob medida é construído para o processo da sua empresa. Existe ainda o caminho híbrido: ERP pronto para fiscal e financeiro, e um sistema sob medida para a parte que é o diferencial, conectado a ele por integração.",
+          "As páginas de sistema por setor mostram como essa escolha muda em oficina, clínica, transportadora e outros segmentos."
+        ],
+        "tabela": {
+          "colunas": ["Critério", "ERP pronto", "Sob medida", "Híbrido"],
+          "linhas": [
+            ["Custo para começar", "Baixo: implantação e mensalidade", "Alto: projeto de desenvolvimento", "Médio: mensalidade mais o projeto da parte específica"],
+            ["Custo ao longo do tempo", "Mensalidade que cresce com usuários e módulos", "Hospedagem e manutenção", "Os dois, em escala menor"],
+            ["Aderência ao processo", "A empresa se adapta ao sistema", "O sistema se adapta à empresa", "Padrão no fiscal, sob medida no diferencial"],
+            ["Tempo para começar a usar", "Semanas", "Meses", "Semanas no ERP, meses na parte sob medida"],
+            ["Quando faz sentido", "Processo comum no setor", "O processo é o diferencial ou nenhum pronto encaixa", "Fiscal padrão e operação muito específica"]
+          ]
+        }
+      },
+      {
+        "titulo": "Módulos que a pequena empresa realmente usa",
+        "paragrafos": [
+          "Não compre módulo pela lista. Para cada um, faça na demonstração a pergunta que testa se ele serve para o seu dia a dia, usando um caso real da empresa."
+        ],
+        "tabela": {
+          "colunas": ["Módulo", "Para que serve", "Pergunta para fazer na demonstração"],
+          "linhas": [
+            ["Cadastros", "Clientes, produtos, fornecedores, tabela de preço", "Consigo importar minha planilha atual sem redigitar?"],
+            ["Vendas e pedidos", "Orçamento, pedido, status, comissão", "Como faço um pedido com desconto por cliente e entrega parcial?"],
+            ["Estoque", "Entradas, saídas, inventário, lote", "O estoque baixa sozinho quando a venda é faturada?"],
+            ["Financeiro", "Contas a pagar e a receber, fluxo de caixa", "Consigo conciliar com o extrato do banco sem digitar?"],
+            ["Fiscal", "Emissão de nota de produto e de serviço", "Quem atualiza as regras de imposto quando a legislação muda?"],
+            ["Relatórios", "Vendas, margem, inadimplência", "Consigo exportar os dados para planilha quando quiser?"]
+          ]
+        }
+      },
+      {
+        "titulo": "Como escolher o sistema: passo a passo",
+        "paragrafos": [
+          "A escolha começa dentro da empresa, não na vitrine dos fornecedores. Siga a ordem abaixo e você chega à demonstração sabendo o que perguntar."
+        ],
+        "lista": [
+          "Escreva os três processos que mais geram erro ou retrabalho hoje, com um exemplo real de cada.",
+          "Desenhe cada processo do jeito que acontece hoje, de quem começa a quem termina, incluindo as exceções.",
+          "Separe o que é padrão de mercado (fiscal, financeiro) do que é jeito próprio da empresa.",
+          "Peça demonstração de dois ou três sistemas prontos usando os seus exemplos, não o roteiro do vendedor.",
+          "Anote onde cada sistema obriga a equipe a mudar o processo e se essa mudança é aceitável.",
+          "Calcule o custo de três anos de cada opção, com usuários, módulos, implantação e treinamento.",
+          "Se nenhum pronto encaixa no processo principal, peça orçamento de sob medida ou híbrido para essa parte.",
+          "Confirme por escrito como os dados saem do sistema se um dia você quiser trocar.",
+          "Defina um responsável interno pela implantação e uma data para desligar a planilha."
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Migração: como sair da planilha sem perder dados",
+        "paragrafos": [
+          "A migração é onde muito sistema novo morre. Os dados da planilha têm cliente duplicado, produto com três nomes e saldo que ninguém confere há meses. Levar isso para o sistema só muda a bagunça de lugar.",
+          "Comece pelos cadastros: clientes, produtos e fornecedores, limpos e padronizados. Depois, os saldos iniciais de estoque e de contas em aberto, conferidos numa data de corte. Por fim, defina um período curto de convivência, de uma a duas semanas, em que a planilha só é consultada, nunca alimentada. Enquanto a planilha continua sendo atualizada em paralelo, a equipe nunca se muda de verdade."
+        ]
+      },
+      {
+        "titulo": "Integrações que fazem diferença",
+        "paragrafos": [
+          "Sistema de gestão isolado vira mais uma tela para alimentar. Ele rende quando recebe e envia dados sozinho."
+        ],
+        "lista": [
+          "Loja virtual e marketplace: o pedido entra direto e o estoque sai de um saldo só",
+          "Banco: extrato importado para conciliar recebimentos",
+          "Meio de pagamento: Pix e boleto baixam a conta a receber automaticamente",
+          "WhatsApp: aviso de pedido pronto, cobrança e lembrete de vencimento",
+          "Contabilidade: exportação de notas e lançamentos no formato que o escritório usa",
+          "Equipe em campo: app ou tela de celular que grava direto no sistema"
+        ]
+      },
+      {
+        "titulo": "Quanto custa um sistema de gestão",
+        "paragrafos": [
+          "No sistema pronto, o custo é a mensalidade, que costuma variar com o número de usuários, de notas emitidas e de módulos, mais a implantação. Os preços mudam com frequência, então compare propostas atuais de cada fornecedor.",
+          "No sob medida, a referência da tabela pública da AndersDev é a faixa de sistema web: R$ 15.000 a R$ 40.000 para a primeira versão. Integração com um ERP existente soma 30%, pagamento soma 20% e avisos por WhatsApp somam 15% sobre a base. Depois da entrega entram hospedagem e manutenção.",
+          "Para comparar, monte a conta de três anos: no pronto, mensalidade vezes 36 mais implantação; no sob medida, projeto mais 36 meses de hospedagem e manutenção. O guia de quanto custa um projeto de software explica o que move cada valor."
+        ]
+      },
+      {
+        "titulo": "Implantação: o que derruba um sistema novo",
+        "paragrafos": [
+          "Sistema bom mal implantado vira sistema ruim em poucos meses. Os motivos raramente são técnicos."
+        ],
+        "lista": [
+          "Ninguém dentro da empresa responsável pela implantação",
+          "Treinamento feito uma vez, na semana errada, para metade da equipe",
+          "Planilha antiga continuando a ser alimentada em paralelo",
+          "Cadastros migrados sem limpeza",
+          "Sistema configurado pelo jeito ideal, e não pelo jeito real de trabalhar",
+          "Dono da empresa que não usa o sistema e continua pedindo relatório em planilha"
+        ]
+      },
+      {
+        "titulo": "Segurança, acessos e dados",
+        "paragrafos": [
+          "Um sistema de gestão guarda dados de clientes, preços, margens e salários. Cada pessoa deve ver só o que precisa: o vendedor vê os próprios clientes, o financeiro vê as contas, o estoquista vê os produtos. Peça também histórico de alterações, para saber quem mudou o preço ou excluiu o pedido.",
+          "Confirme onde ficam os dados, com que frequência há cópia de segurança e como você exporta tudo se quiser sair. Cadastro de clientes pessoa física é dado pessoal, então a LGPD vale aqui também; o guia de LGPD para sites e sistemas trata do assunto em detalhe."
+        ]
+      }
+    ],
+    "valorProprio": { "tipo": "passo-a-passo", "descricao": "Passo a passo de escolha em nove etapas, tabela de sintomas ligados ao módulo que resolve e perguntas de teste para cada módulo na demonstração" },
+    "faq": [
+      { "pergunta": "Qual o melhor sistema de gestão para pequena empresa?", "resposta": "Não existe um melhor para todas. O melhor é o que resolve o processo que mais dá prejuízo na sua empresa sem obrigar a equipe a trabalhar contra a ferramenta. Teste na demonstração com exemplos reais do seu dia a dia e compare o custo de três anos, não só o do primeiro mês." },
+      { "pergunta": "Sistema na nuvem é seguro?", "resposta": "Pode ser mais seguro do que uma planilha no computador do escritório, desde que o fornecedor faça cópia de segurança, use conexão criptografada e controle o acesso por usuário. Pergunte onde os dados ficam, com que frequência há backup e como você recupera tudo se o contrato acabar." },
+      { "pergunta": "Quanto tempo leva para implantar um sistema de gestão?", "resposta": "Um sistema pronto pode estar em uso em semanas, se os cadastros estiverem limpos. Um sob medida leva meses, porque precisa ser construído. Em qualquer caso, o que mais atrasa é a migração de dados e o treinamento da equipe, não a parte técnica." },
+      { "pergunta": "Posso começar só com um módulo?", "resposta": "Pode, e costuma ser o caminho mais seguro. Comece pelo processo que mais dói, como estoque ou pedidos, e acrescente módulos quando a equipe já estiver usando o primeiro de verdade. Confirme apenas que os módulos futuros conversam com o que você implantar agora." },
+      { "pergunta": "Se eu trocar de sistema, levo meus dados?", "resposta": "Deveria. Antes de assinar, pergunte em que formato os dados saem (planilha, CSV ou cópia do banco de dados) e se há custo para exportar. Num sistema sob medida, garanta em contrato que o banco de dados e o código pertencem à sua empresa." },
+      { "pergunta": "Sistema sob medida tem mensalidade?", "resposta": "Não há licença por usuário, mas há custos recorrentes: hospedagem do servidor, serviços pagos por uso e manutenção para atualizações e correções. A diferença é que esses custos não crescem a cada funcionário novo, como acontece na mensalidade por usuário de muitos sistemas prontos." }
+    ],
+    "fontes": [
+      { "titulo": "Tabela pública de preços da AndersDev", "url": "/calculadora-app", "orgao": "AndersDev", "consultadoEm": "2026-11-18" },
+      { "titulo": "Lei nº 13.709/2018 (LGPD)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm", "orgao": "Presidência da República", "consultadoEm": "2026-11-18" }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "guia-automacao-de-processos",
+    "tipo": "pilar",
+    "cluster": "automacao-integracao",
+    "consulta": "automação de processos",
+    "consultasSecundarias": ["automação de processos empresariais", "como automatizar processos na empresa", "automatizar tarefas repetitivas", "integração entre sistemas"],
+    "title": "Automação de processos: guia prático para pequenas empresas",
+    "description": "Como escolher o primeiro processo, mapear, escolher ferramenta, integrar por API e WhatsApp e evitar falhas. Veja o passo a passo com exemplo real.",
+    "h1": "Automação de processos",
+    "respostaDireta": "Automação de processos é fazer o computador executar sozinho as etapas repetitivas de uma rotina, como copiar pedido para a planilha, emitir cobrança ou avisar o cliente no WhatsApp. Para automatizar processos com retorno, comece pelos frequentes, de regra clara e erro caro, e deixe com as pessoas as decisões que exigem julgamento.",
+    "secoes": [
+      {
+        "titulo": "O que dá para automatizar numa empresa",
+        "paragrafos": [
+          "Quase toda empresa tem tarefas em que alguém copia dado de uma tela para outra, confere uma regra fixa ou manda a mesma mensagem dezenas de vezes por dia. São essas que a automação resolve primeiro."
+        ],
+        "tabela": {
+          "colunas": ["Área", "Como é feito hoje", "Como fica automatizado"],
+          "linhas": [
+            ["Vendas", "Lead do site copiado para a planilha e repassado no grupo", "O lead entra no CRM e o vendedor da região recebe aviso"],
+            ["Financeiro", "Boleto gerado um a um e cobrança feita por telefone", "Cobrança emitida na data e lembrete enviado antes do vencimento"],
+            ["Atendimento", "Mesma resposta digitada para perguntas repetidas", "Respostas prontas e triagem antes de chegar à pessoa"],
+            ["Estoque", "Pedido ao fornecedor quando alguém percebe a falta", "Alerta de estoque mínimo com sugestão de compra"],
+            ["Operação", "Ordem de serviço em papel e foto mandada no WhatsApp", "Ordem no celular com foto anexada e cliente avisado ao concluir"],
+            ["Administrativo", "Dados do pedido redigitados no ERP para emitir a nota", "Pedido pago gera a nota e o lançamento sozinho"]
+          ]
+        }
+      },
+      {
+        "titulo": "Como escolher o primeiro processo para automatizar",
+        "paragrafos": [
+          "Nem todo processo vale a pena. O melhor candidato acontece muitas vezes, segue uma regra que cabe numa frase, usa dados que já estão em formato digital e custa caro quando dá errado. Dê uma nota de 1 a 3 para cada critério da tabela e comece pelo processo com a maior soma.",
+          "Para estimar o tempo em jogo, multiplique quantas vezes o processo acontece por mês pelos minutos de cada execução e divida por 60. Um processo de 6 minutos feito 400 vezes por mês consome 40 horas, quase uma semana inteira de trabalho de uma pessoa."
+        ],
+        "tabela": {
+          "colunas": ["Critério", "Pergunta", "Nota 1", "Nota 3"],
+          "linhas": [
+            ["Frequência", "Quantas vezes acontece por mês?", "Poucas vezes", "Centenas de vezes"],
+            ["Tempo", "Quantos minutos leva cada execução?", "Menos de 1 minuto", "Mais de 5 minutos"],
+            ["Regra", "Dá para explicar a decisão numa frase?", "Depende de julgamento", "Regra fixa, sem exceção relevante"],
+            ["Dados", "A informação já está em formato digital?", "Papel ou foto de papel", "Sistema, planilha ou formulário"],
+            ["Custo do erro", "O que acontece quando alguém erra?", "Pequeno retrabalho", "Multa, prejuízo ou cliente perdido"]
+          ]
+        }
+      },
+      {
+        "titulo": "Mapeie o processo antes de automatizar",
+        "paragrafos": [
+          "Automatizar um processo confuso só faz a confusão acontecer mais rápido. Antes de escolher ferramenta, escreva o processo como ele é hoje, com cinco elementos: o gatilho (o que dá início), as entradas (os dados necessários), as decisões (as regras do tipo se isto, então aquilo), as saídas (o que precisa existir no fim) e as exceções (o que foge da regra).",
+          "As exceções merecem atenção especial. A regra principal costuma ser fácil de automatizar; é o pedido com endereço incompleto, o cliente com desconto especial e o boleto pago em duplicidade que derrubam a automação. Para cada exceção, decida se o sistema vai tratar ou encaminhar para uma pessoa."
+        ]
+      },
+      {
+        "titulo": "Ferramentas: planilha, no-code, RPA ou código",
+        "paragrafos": [
+          "Existem quatro caminhos principais, e eles não se excluem. Uma mesma empresa pode usar fórmula de planilha num lugar e integração programada em outro. A página de alternativa a no-code mostra quando a ferramenta pronta deixa de compensar."
+        ],
+        "tabela": {
+          "colunas": ["Caminho", "Como funciona", "Bom para", "Limite"],
+          "linhas": [
+            ["Planilha com fórmulas e scripts", "Regras dentro da própria planilha", "Cálculos e relatórios de uma equipe pequena", "Quebra quando várias pessoas editam ao mesmo tempo"],
+            ["Ferramenta no-code de automação", "Liga aplicativos prontos com gatilhos e ações", "Fluxos simples entre serviços conhecidos", "Custo cresce com o volume; regra complexa fica difícil de manter"],
+            ["RPA (robô de tela)", "Software que imita cliques e digitação de uma pessoa", "Sistema antigo sem API", "Quebra quando a tela muda"],
+            ["Integração programada", "Código que conversa com as APIs dos sistemas", "Volume alto, regra própria, dado sensível", "Exige desenvolvedor para criar e manter"]
+          ]
+        }
+      },
+      {
+        "titulo": "API e webhook: como os sistemas conversam",
+        "paragrafos": [
+          "API é a porta que um sistema oferece para outro consultar ou gravar dados sem passar pela tela. O Google Sheets, por exemplo, tem uma API para ler e escrever dados de planilhas por programa. Quando os dois lados têm API, a integração é estável: não depende de layout, de clique nem de alguém deixar o computador ligado.",
+          "Webhook é o caminho inverso: em vez de perguntar de tempos em tempos se há novidade, o seu sistema recebe um aviso automático quando algo acontece, como um pagamento aprovado. A documentação de webhooks do Stripe descreve os cuidados básicos: conferir a assinatura de cada aviso antes de processar, responder rápido e tratar avisos repetidos.",
+          "Antes de contratar uma automação, pergunte a cada fornecedor de sistema que você usa se ele oferece API documentada. A resposta define o caminho mais barato e mais estável."
+        ]
+      },
+      {
+        "titulo": "Automação no WhatsApp: o que a regra permite",
+        "paragrafos": [
+          "Para mensagens automáticas em escala, a via documentada pela Meta é a WhatsApp Business Platform, com a Cloud API. Ela tem uma regra que muda o desenho de qualquer automação: a janela de atendimento.",
+          "Quando um cliente manda mensagem ou liga para a empresa, abre-se uma janela de atendimento de 24 horas, que reinicia a cada novo contato dele. Dentro dela, a empresa pode responder livremente. Fora dela, só pode enviar mensagens de modelo (templates) aprovadas previamente. Na prática, cobrança, lembrete de agendamento e aviso de entrega precisam ser escritos como modelos e aprovados antes de entrar em produção."
+        ]
+      },
+      {
+        "titulo": "Passo a passo para automatizar um processo",
+        "paragrafos": [
+          "A sequência abaixo serve tanto para uma automação simples entre duas ferramentas quanto para uma integração programada. O que muda é o tamanho de cada etapa."
+        ],
+        "lista": [
+          "Escolha o processo pela tabela de critérios e registre quanto tempo e quantos erros ele gera hoje.",
+          "Escreva o processo atual com gatilho, entradas, decisões, saídas e exceções.",
+          "Simplifique antes de automatizar: elimine etapas que só existem por costume.",
+          "Verifique se os sistemas envolvidos têm API ou webhook; isso define a ferramenta.",
+          "Construa a primeira versão só para o caminho principal e mande as exceções para uma pessoa.",
+          "Rode em paralelo com o processo manual por alguns dias e compare os resultados.",
+          "Configure alertas de falha e um registro de cada execução.",
+          "Defina um responsável interno que sabe o que a automação faz e a quem recorrer quando ela parar.",
+          "Depois de um mês, compare tempo e erros com o registro inicial e escolha o próximo processo."
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Exemplo: do pedido no WhatsApp à cobrança automática",
+        "paragrafos": [
+          "Uma distribuidora de água mineral recebe pedidos de empresas pelo WhatsApp. Hoje a atendente copia cada pedido para uma planilha, confere o cadastro, avisa o motorista e, no fim do mês, monta a cobrança de cada cliente somando os pedidos.",
+          "Automatizado, o fluxo fica assim. O cliente escolhe os itens num formulário curto enviado pelo WhatsApp. O pedido entra no sistema já ligado ao cadastro, e a rota do motorista é atualizada. Na entrega, o motorista confirma pelo celular, com foto. No fechamento do mês, o sistema soma os pedidos entregues, gera a cobrança com Pix e envia por mensagem de modelo aprovada. Quando o pagamento cai, o aviso automático do banco dá baixa na conta.",
+          "A atendente continua no processo, mas só para as exceções: cliente novo, endereço fora da rota, reclamação. É esse o desenho que vale buscar: a máquina faz o repetitivo e a pessoa faz o que exige conversa."
+        ]
+      },
+      {
+        "titulo": "Riscos: como evitar que a automação quebre em silêncio",
+        "paragrafos": [
+          "O perigo de uma automação não é parar; é parar sem ninguém perceber. Estes cuidados evitam descobrir o problema pela reclamação do cliente."
+        ],
+        "lista": [
+          "Alerta por e-mail ou WhatsApp sempre que uma execução falhar",
+          "Registro de cada execução, com data, dados recebidos e resultado",
+          "Tratamento de avisos repetidos, para não cobrar nem enviar duas vezes",
+          "Credenciais e senhas guardadas em local seguro, nunca dentro da planilha",
+          "Conta da ferramenta em nome da empresa, e não de um funcionário",
+          "Documento curto explicando o que cada automação faz e quem é o responsável",
+          "Revisão sempre que um sistema ligado à automação mudar de versão ou de plano"
+        ]
+      },
+      {
+        "titulo": "Quanto custa automatizar processos",
+        "paragrafos": [
+          "Automação simples entre ferramentas prontas pode custar pouco para montar, mas tem mensalidade que cresce com o volume de execuções. Integração programada custa mais na largada e tem custo recorrente de hospedagem e manutenção.",
+          "Na tabela pública da AndersDev, automação entra como acréscimo sobre um projeto: automação de marketing soma 15% num site, push ou WhatsApp soma 15% num app, integração com ERP ou CRM soma 30% e IA soma 25%. Quando a automação é o próprio produto, como um sistema que orquestra pedidos, cobrança e entrega, a referência é a faixa de sistema web, de R$ 15.000 a R$ 40.000.",
+          "Para saber se compensa, compare o custo com as horas liberadas por mês e com os erros evitados. A conta de horas da seção sobre como escolher o processo dá a base."
+        ]
+      },
+      {
+        "titulo": "Onde entra a inteligência artificial",
+        "paragrafos": [
+          "IA ajuda nas etapas em que a regra não cabe numa frase: entender a intenção de uma mensagem, extrair dados de uma nota ou de um comprovante enviado como foto, resumir um atendimento longo, classificar um chamado pela urgência.",
+          "O desenho seguro é usar a IA para preparar e uma pessoa para confirmar, sempre que o erro custar caro. Uma IA que lê o comprovante e sugere a baixa economiza tempo; uma IA que dá baixa sozinha, sem conferir no banco, cria um risco que não existia."
+        ]
+      }
+    ],
+    "valorProprio": { "tipo": "tabela", "descricao": "Matriz de priorização com nota por critério, conta de horas por mês, comparação de ferramentas e passo a passo com exemplo de fluxo completo" },
+    "faq": [
+      { "pergunta": "Automação vai substituir funcionários?", "resposta": "Automação substitui tarefas, não necessariamente pessoas. Ela tira da equipe o trabalho de copiar e conferir e libera tempo para exceções, atendimento e venda. Se uma função era só redigitação, planeje a mudança de papel junto com a automação, e não depois que ela estiver rodando." },
+      { "pergunta": "Preciso de programador para automatizar?", "resposta": "Para fluxos simples entre ferramentas conhecidas, uma ferramenta no-code pode bastar. Quando o volume cresce, a regra tem muitas exceções, o dado é sensível ou um dos sistemas não tem integração pronta, um desenvolvedor faz a integração por API com mais estabilidade e menor custo por execução." },
+      { "pergunta": "O que é RPA?", "resposta": "RPA é um software que imita uma pessoa usando o computador: clica, digita e copia dados entre telas. É útil quando um sistema antigo não oferece API. O ponto fraco é a fragilidade, porque qualquer mudança de layout pode quebrar o robô, e por isso ele exige monitoramento constante." },
+      { "pergunta": "Posso mandar mensagens automáticas pelo WhatsApp?", "resposta": "Pode, pela WhatsApp Business Platform da Meta. Dentro da janela de 24 horas aberta pela última mensagem ou ligação do cliente, a empresa responde livremente. Fora dela, só envia mensagens de modelo aprovadas previamente, como lembrete de vencimento ou aviso de entrega." },
+      { "pergunta": "Quanto tempo leva para automatizar um processo?", "resposta": "Um fluxo simples entre duas ferramentas pode ficar pronto em dias. Uma integração com regras, exceções e vários sistemas leva semanas. O que mais pesa no prazo é mapear o processo e decidir o que fazer com as exceções, e não a programação em si." },
+      { "pergunta": "Como saber se a automação valeu a pena?", "resposta": "Registre antes de começar quantas vezes o processo acontece, quanto tempo leva e quantos erros gera. Um mês depois da automação, meça de novo. Se as horas liberadas e os erros evitados valem mais que o custo de montar e manter, valeu; se não, ajuste ou desligue." }
+    ],
+    "fontes": [
+      { "titulo": "Tabela pública de preços da AndersDev", "url": "/calculadora-site", "orgao": "AndersDev", "consultadoEm": "2026-11-18" },
+      { "titulo": "Tabela pública de preços da AndersDev", "url": "/calculadora-app", "orgao": "AndersDev", "consultadoEm": "2026-11-18" },
+      { "titulo": "Send messages: customer service windows", "url": "https://developers.facebook.com/documentation/business-messaging/whatsapp/messages/send-messages", "orgao": "Meta (WhatsApp Business Platform)", "consultadoEm": "2026-11-18" },
+      { "titulo": "WhatsApp Cloud API", "url": "https://developers.facebook.com/docs/whatsapp/cloud-api", "orgao": "Meta (WhatsApp Business Platform)", "consultadoEm": "2026-11-18" },
+      { "titulo": "Webhooks — documentação", "url": "https://docs.stripe.com/webhooks", "orgao": "Stripe", "consultadoEm": "2026-11-18" },
+      { "titulo": "Google Sheets API: conceitos", "url": "https://developers.google.com/sheets/api/guides/concepts", "orgao": "Google for Developers", "consultadoEm": "2026-11-18" }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "guia-lgpd-para-sites-e-sistemas",
+    "tipo": "pilar",
+    "cluster": "lgpd-legal",
+    "consulta": "lgpd para sites e sistemas",
+    "consultasSecundarias": ["lgpd para site", "como adequar site à lgpd", "lgpd em sistemas", "o que a lgpd exige de um site"],
+    "title": "LGPD para sites e sistemas: guia prático de adequação",
+    "description": "O que a LGPD pede de sites, lojas e sistemas: bases legais, política, encarregado, segurança e incidentes. Veja o passo a passo de adequação.",
+    "h1": "LGPD para sites e sistemas",
+    "respostaDireta": "A LGPD vale para sites e sistemas sempre que eles tratam dados de pessoa física: nome no formulário, e-mail na newsletter, CPF no cadastro, histórico de pedidos. Em sites e sistemas, cumprir a lei é saber que dado entra, para quê, com qual base legal, quem acessa, por quanto tempo fica e como o titular exerce seus direitos.",
+    "secoes": [
+      {
+        "titulo": "Quando a LGPD se aplica ao seu site ou sistema",
+        "paragrafos": [
+          "A Lei 13.709/2018 define dado pessoal como informação relacionada a pessoa natural identificada ou identificável (art. 5º, I). Nome, e-mail, telefone, CPF, endereço, foto e o login de um usuário entram nessa definição. Basta um formulário de contato para o site tratar dados pessoais.",
+          "Alguns dados são sensíveis (art. 5º, II): origem racial ou étnica, convicção religiosa, opinião política, filiação a sindicato, dados de saúde ou de vida sexual, dados genéticos ou biométricos. Clínica que agenda consulta pelo site ou empresa que usa biometria no controle de ponto lida com dados sensíveis, que seguem regras mais restritas (art. 11).",
+          "A lei também separa os papéis. Controlador é quem toma as decisões sobre o tratamento; operador é quem trata os dados em nome do controlador (art. 5º, VI e VII). Na prática, a sua empresa é a controladora dos dados do site; o desenvolvedor, a hospedagem e a ferramenta de e-mail costumam atuar como operadores."
+        ]
+      },
+      {
+        "titulo": "Onde os dados pessoais aparecem num site, loja ou sistema",
+        "paragrafos": [
+          "O primeiro passo da adequação é o inventário: saber onde cada dado entra. A tabela mostra os pontos mais comuns e a base legal que costuma se aplicar, que você deve confirmar caso a caso, a partir da finalidade real."
+        ],
+        "tabela": {
+          "colunas": ["Ponto de coleta", "Dados", "Base legal provável (art. 7º)", "Cuidado"],
+          "linhas": [
+            ["Formulário de orçamento", "Nome, telefone, e-mail", "Procedimentos preliminares de contrato, a pedido do titular", "Usar só para responder ao pedido, não para lista de marketing"],
+            ["Newsletter", "E-mail e nome", "Consentimento", "Caixa desmarcada e descadastro fácil em todo envio"],
+            ["Checkout da loja", "Nome, CPF, endereço, pagamento", "Execução de contrato e obrigação legal (nota fiscal)", "Não guardar dados do cartão no seu sistema"],
+            ["Cadastro de clientes no sistema", "Contato e histórico de compras", "Execução de contrato e legítimo interesse", "Acesso por perfil e registro de quem consultou"],
+            ["Registros de acesso (logs)", "IP, data e hora de uso", "Obrigação legal (Marco Civil da Internet)", "Guardar em ambiente seguro e pelo prazo definido"],
+            ["Ferramentas de análise e anúncios", "Identificadores de navegação", "Consentimento ou legítimo interesse, conforme o uso", "Informar na política e permitir recusa"]
+          ],
+          "legenda": "Bases legais do art. 7º da Lei 13.709/2018; a escolha depende da finalidade de cada tratamento."
+        }
+      },
+      {
+        "titulo": "As bases legais em linguagem simples",
+        "paragrafos": [
+          "O art. 7º lista dez hipóteses em que o tratamento é permitido. Consentimento é só uma delas, e muita empresa erra ao pedir consentimento para tudo: se a pessoa revoga, o tratamento precisa parar, o que não faz sentido para emitir nota fiscal, por exemplo.",
+          "Quando o consentimento for a base, ele precisa ser dado por escrito ou por outro meio que demonstre a vontade do titular, para finalidades determinadas; autorizações genéricas são nulas, e cabe à empresa provar que o obteve (art. 8º). Ele pode ser revogado a qualquer momento, por procedimento gratuito e facilitado."
+        ],
+        "tabela": {
+          "colunas": ["Base legal", "O que significa", "Exemplo em pequena empresa"],
+          "linhas": [
+            ["Consentimento (inciso I)", "A pessoa autoriza, para finalidade determinada", "Receber novidades por e-mail"],
+            ["Obrigação legal ou regulatória (II)", "Uma norma manda tratar", "Emitir nota fiscal com CPF; guardar registros de acesso"],
+            ["Execução de contrato (V)", "Necessário para cumprir ou preparar contrato pedido pelo titular", "Entregar o pedido; responder a um orçamento"],
+            ["Exercício regular de direitos (VI)", "Defesa em processo judicial, administrativo ou arbitral", "Guardar o histórico de uma venda contestada"],
+            ["Legítimo interesse (IX)", "Interesse legítimo da empresa, sem ferir direitos do titular", "Prevenir fraude no checkout; manter histórico de atendimento"],
+            ["Proteção do crédito (X)", "Análise e cobrança de crédito", "Consulta antes de vender a prazo"]
+          ]
+        }
+      },
+      {
+        "titulo": "O que a política de privacidade precisa dizer",
+        "paragrafos": [
+          "O art. 9º dá ao titular direito de acesso facilitado às informações sobre o tratamento, disponibilizadas de forma clara, adequada e ostensiva. A política de privacidade é onde o site cumpre isso, e ela deve nascer do inventário de dados, não de um texto pronto. No mínimo, precisa informar:"
+        ],
+        "lista": [
+          "A finalidade específica de cada tratamento",
+          "A forma e a duração do tratamento",
+          "A identificação do controlador (razão social e CNPJ)",
+          "As informações de contato do controlador",
+          "Com quem os dados são compartilhados e para quê",
+          "As responsabilidades de quem trata os dados",
+          "Os direitos do titular e como exercê-los"
+        ]
+      },
+      {
+        "titulo": "Direitos do titular: o que o sistema precisa conseguir fazer",
+        "paragrafos": [
+          "O art. 18 garante ao titular, mediante requisição, direitos que viram funcionalidades concretas num sistema. Se o sistema não consegue localizar todos os dados de uma pessoa, não consegue atender a nenhum deles.",
+          "O prazo também importa: a confirmação de existência ou o acesso aos dados são fornecidos em formato simplificado, imediatamente, ou por declaração clara e completa em até 15 dias contados do requerimento (art. 19)."
+        ],
+        "tabela": {
+          "colunas": ["Direito (art. 18)", "O que o sistema precisa ter"],
+          "linhas": [
+            ["Confirmação e acesso aos dados", "Busca por CPF ou e-mail que encontre a pessoa em todas as tabelas"],
+            ["Correção de dados incompletos ou desatualizados", "Edição com registro de quem alterou e quando"],
+            ["Anonimização, bloqueio ou eliminação de dados desnecessários", "Rotina que exclui ou anonimiza, preservando o que a lei manda guardar"],
+            ["Portabilidade", "Exportação dos dados em formato legível, como planilha"],
+            ["Informação sobre compartilhamento", "Lista atualizada dos fornecedores que recebem dados"],
+            ["Revogação do consentimento", "Descadastro que realmente interrompe os envios"]
+          ]
+        }
+      },
+      {
+        "titulo": "Encarregado de dados: quem precisa indicar",
+        "paragrafos": [
+          "O art. 41 manda o controlador indicar um encarregado, o canal de comunicação entre a empresa, os titulares e a ANPD. A identidade e o contato do encarregado devem ser divulgados publicamente, de forma clara e objetiva, de preferência no site.",
+          "A Resolução CD/ANPD nº 2/2022 dispensa os agentes de tratamento de pequeno porte de indicar encarregado (art. 11), desde que mantenham um canal de comunicação com o titular. Agentes de pequeno porte incluem microempresas e empresas de pequeno porte, mas o tratamento diferenciado não vale para quem faz tratamento de alto risco ou passa do limite de receita previsto (art. 3º). Indicar encarregado mesmo assim é considerado boa prática.",
+          "O encarregado pode ser alguém da empresa ou um serviço externo. O que não pode acontecer é o contato divulgado ficar sem resposta."
+        ]
+      },
+      {
+        "titulo": "Segurança: o que a lei espera do sistema",
+        "paragrafos": [
+          "O art. 46 obriga os agentes de tratamento a adotar medidas de segurança, técnicas e administrativas, para proteger os dados de acessos não autorizados e de situações acidentais ou ilícitas de destruição, perda, alteração ou comunicação. O art. 49 vai além: os sistemas usados no tratamento devem ser estruturados para atender aos requisitos de segurança e aos princípios da lei. Segurança é requisito do projeto, não acessório. Na prática, isso significa:"
+        ],
+        "lista": [
+          "HTTPS em todas as páginas e conexão criptografada com o banco de dados",
+          "Senhas guardadas com hash, nunca em texto puro",
+          "Acesso por perfil: cada pessoa vê só o que precisa",
+          "Registro de quem acessou e alterou dados pessoais",
+          "Cópia de segurança com restauração testada",
+          "Atualização de bibliotecas e do servidor com correções de segurança",
+          "Dados de cartão processados pelo gateway, e não guardados no seu sistema",
+          "Eliminação ou anonimização quando a finalidade termina"
+        ]
+      },
+      {
+        "titulo": "Incidente de segurança: o que fazer e em quanto tempo",
+        "paragrafos": [
+          "O art. 48 manda o controlador comunicar à ANPD e ao titular o incidente de segurança que possa acarretar risco ou dano relevante. O regulamento da ANPD (Resolução CD/ANPD nº 15/2024) fixou três dias úteis para a comunicação à ANPD (art. 6º) e ao titular (art. 9º), e exige guardar o registro de todo incidente, inclusive dos não comunicados, por no mínimo cinco anos (art. 10).",
+          "O prazo é curto para quem descobre o problema sem plano. Por isso o roteiro de resposta precisa existir antes do incidente, com nomes, telefones e acessos definidos."
+        ],
+        "lista": [
+          "Conter: bloquear o acesso indevido, trocar senhas e chaves, isolar o servidor afetado.",
+          "Apurar: quais dados, de quantos titulares, desde quando e por qual falha.",
+          "Avaliar o risco aos titulares e decidir se a comunicação é obrigatória.",
+          "Comunicar à ANPD e aos titulares dentro do prazo, quando houver risco ou dano relevante.",
+          "Registrar o incidente e as medidas tomadas, mesmo que não haja comunicação.",
+          "Corrigir a causa e revisar o que permitiu a falha."
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Responsabilidades entre empresa, desenvolvedor e fornecedores",
+        "paragrafos": [
+          "O operador deve realizar o tratamento segundo as instruções do controlador (art. 39). Se descumprir a lei ou as instruções lícitas recebidas, responde solidariamente pelos danos e se equipara ao controlador (art. 42, § 1º, I). Isso vale para o desenvolvedor que mantém o sistema, para a hospedagem e para as ferramentas de envio de e-mail.",
+          "Por isso, o contrato com cada fornecedor que toca em dados pessoais deve dizer quais dados ele acessa e para quê, que medidas de segurança adota, como avisa sobre incidentes, o que acontece com os dados no fim do contrato e se pode subcontratar. O registro das operações de tratamento, exigido pelo art. 37, fica mais fácil quando cada contrato já descreve isso."
+        ]
+      },
+      {
+        "titulo": "Passo a passo de adequação de um site ou sistema",
+        "paragrafos": [
+          "A adequação é um projeto com começo, meio e rotina. Esta ordem evita escrever a política antes de saber quais dados existem."
+        ],
+        "lista": [
+          "Faça o inventário: liste cada ponto em que o site ou sistema coleta dado pessoal e onde esse dado fica guardado.",
+          "Para cada tratamento, escreva a finalidade e escolha a base legal do art. 7º que realmente se aplica.",
+          "Corte o que não tem finalidade: campos de formulário, cópias de planilha e dados antigos sem uso.",
+          "Defina por quanto tempo cada dado fica e o que acontece no fim: eliminação ou anonimização.",
+          "Escreva a política de privacidade a partir do inventário, com os itens do art. 9º.",
+          "Indique o encarregado ou, se a empresa se enquadra como agente de pequeno porte, publique um canal de contato.",
+          "Implemente no sistema as funções de acesso, correção, exportação e eliminação a pedido do titular.",
+          "Revise a segurança: HTTPS, senhas com hash, acesso por perfil, registro de acessos e backup testado.",
+          "Revise os contratos com desenvolvedor, hospedagem e ferramentas que recebem dados.",
+          "Monte o roteiro de resposta a incidentes e o registro das operações, e revise tudo uma vez por ano."
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Sanções: o que a ANPD pode aplicar",
+        "paragrafos": [
+          "O art. 52 lista as sanções administrativas: advertência com prazo para correção; multa simples de até 2% do faturamento da pessoa jurídica no Brasil no último exercício, excluídos os tributos, limitada a R$ 50 milhões por infração; multa diária; publicização da infração; bloqueio e eliminação dos dados envolvidos; e suspensão ou proibição, parcial ou total, das atividades de tratamento.",
+          "Além da ANPD, o titular pode buscar reparação de danos na Justiça, e o operador que descumpre a lei responde junto. Para uma pequena empresa, responder a um incidente sem plano já custa caro antes de qualquer multa. Este guia explica a lei para orientar o projeto do site ou do sistema e não substitui a análise de um advogado para o caso da sua empresa."
+        ]
+      }
+    ],
+    "valorProprio": { "tipo": "passo-a-passo", "descricao": "Passo a passo de adequação em dez etapas, mapa de pontos de coleta com base legal, direitos do titular traduzidos em funções do sistema e roteiro de incidente com prazos" },
+    "faq": [
+      { "pergunta": "Site só com formulário de contato precisa se adequar à LGPD?", "resposta": "Sim. Nome, e-mail e telefone são dados pessoais, então o formulário já é tratamento. A adequação, nesse caso, é simples: usar os dados só para responder ao pedido, informar isso numa política de privacidade clara, proteger o envio com HTTPS e não acumular mensagens antigas sem necessidade." },
+      { "pergunta": "Pequena empresa precisa ter encarregado de dados?", "resposta": "A Resolução CD/ANPD nº 2/2022 dispensa os agentes de tratamento de pequeno porte, como microempresas e empresas de pequeno porte, de indicar encarregado, desde que ofereçam um canal de comunicação com o titular. A dispensa não vale para quem faz tratamento de alto risco ou passa do limite de receita previsto." },
+      { "pergunta": "Preciso pedir consentimento para tudo?", "resposta": "Não. O consentimento é uma das dez bases legais do art. 7º. Emitir nota fiscal é obrigação legal; entregar um pedido é execução de contrato. Usar consentimento onde ele não cabe cria problema, porque o titular pode revogá-lo a qualquer momento e o tratamento teria de parar." },
+      { "pergunta": "Por quanto tempo posso guardar os dados?", "resposta": "Enquanto durar a finalidade. A lei manda encerrar o tratamento quando a finalidade é alcançada e eliminar os dados depois, mas permite guardar para cumprir obrigação legal ou regulatória (arts. 15 e 16). Provedores de aplicação organizados como empresa, por exemplo, devem manter registros de acesso por seis meses, pelo Marco Civil da Internet." },
+      { "pergunta": "Quem responde se o desenvolvedor vazar os dados?", "resposta": "A empresa, como controladora, responde perante a ANPD e os titulares. O operador, como o desenvolvedor ou a hospedagem, responde solidariamente quando descumpre a lei ou as instruções lícitas do controlador. Por isso o contrato deve definir medidas de segurança, aviso de incidente e destino dos dados no fim da relação." },
+      { "pergunta": "Qual o prazo para avisar a ANPD sobre um vazamento?", "resposta": "Pelo regulamento da ANPD (Resolução CD/ANPD nº 15/2024), são três dias úteis para comunicar à ANPD e aos titulares, quando o incidente puder causar risco ou dano relevante. Todo incidente, mesmo os não comunicados, deve ficar registrado por pelo menos cinco anos." }
+    ],
+    "fontes": [
+      { "titulo": "Lei nº 13.709/2018 (LGPD)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm", "orgao": "Presidência da República", "consultadoEm": "2026-11-18" },
+      { "titulo": "Lei nº 12.965/2014 (Marco Civil da Internet), art. 15", "url": "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2014/lei/l12965.htm", "orgao": "Presidência da República", "consultadoEm": "2026-11-18" },
+      { "titulo": "Resolução CD/ANPD nº 2/2022 (agentes de pequeno porte)", "url": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-2-de-27-de-janeiro-de-2022-376562019", "orgao": "ANPD / Diário Oficial da União", "consultadoEm": "2026-11-18" },
+      { "titulo": "Resolução CD/ANPD nº 15/2024 (comunicação de incidente de segurança)", "url": "https://www.in.gov.br/en/web/dou/-/resolucao-cd/anpd-n-15-de-24-de-abril-de-2024-556243024", "orgao": "ANPD / Diário Oficial da União", "consultadoEm": "2026-11-18" },
+      { "titulo": "Autoridade Nacional de Proteção de Dados", "url": "https://www.gov.br/anpd/pt-br", "orgao": "ANPD", "consultadoEm": "2026-11-18" }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  },
+  {
+    "slug": "guia-contratar-desenvolvimento-de-software",
+    "tipo": "pilar",
+    "cluster": "contratacao-projeto",
+    "consulta": "como contratar desenvolvimento de software",
+    "consultasSecundarias": ["como contratar uma empresa de software", "contratar desenvolvedor de software", "como contratar programador para criar sistema", "terceirizar desenvolvimento de software"],
+    "title": "Como contratar desenvolvimento de software: guia prático",
+    "description": "Quem contratar, briefing, avaliação do fornecedor, modelo de cobrança, contrato e acompanhamento. Veja o passo a passo e as cláusulas que protegem você.",
+    "h1": "Como contratar desenvolvimento de software",
+    "respostaDireta": "Para contratar desenvolvimento de software com segurança, defina o problema e o resultado esperado antes de pedir orçamento, compare propostas pelo escopo e não só pelo preço, e assine contrato que diga quem fica com o código. Durante o projeto, acompanhe entregas curtas e teste cada parte, em vez de esperar o produto final.",
+    "secoes": [
+      {
+        "titulo": "Freelancer, agência, fábrica de software ou equipe própria",
+        "paragrafos": [
+          "Não existe opção melhor em geral; existe a que combina com o tamanho do projeto e com quanto você consegue acompanhar. O blog tem um comparativo entre freelancer, agência e CTO; aqui o foco é o risco de cada caminho e como reduzi-lo."
+        ],
+        "tabela": {
+          "colunas": ["Opção", "Faz sentido quando", "Risco principal", "Como reduzir"],
+          "linhas": [
+            ["Profissional independente", "Projeto com escopo claro e uma pessoa como ponto de contato", "Dependência de uma pessoa só", "Código em repositório da empresa e documentação mínima"],
+            ["Agência digital", "Site ou loja com peso grande de design e marketing", "Sistema complexo tratado como se fosse site", "Pedir portfólio de sistemas, não só de sites"],
+            ["Fábrica ou empresa de software", "Sistema grande, com várias frentes ao mesmo tempo", "Custo de estrutura e troca de pessoas no meio do projeto", "Contrato com equipe nomeada e entregas por fase"],
+            ["Equipe própria", "Software é o centro do negócio e evolui sem parar", "Custo fixo alto e dificuldade de contratar", "Começar terceirizado e internalizar depois"]
+          ]
+        }
+      },
+      {
+        "titulo": "Antes de pedir orçamento: o que ter em mãos",
+        "paragrafos": [
+          "Quanto mais claro o pedido, mais parecidas e confiáveis ficam as propostas. Você não precisa saber programar, mas precisa saber responder a estes pontos."
+        ],
+        "lista": [
+          "O problema, descrito com um exemplo real do dia a dia",
+          "Quem vai usar: clientes, equipe interna ou os dois, e quantas pessoas",
+          "Como o processo funciona hoje, com as planilhas, papéis e mensagens envolvidos",
+          "O que é obrigatório na primeira versão e o que pode esperar",
+          "Sistemas com que o software precisa conversar (ERP, banco, loja, WhatsApp)",
+          "A data de que o negócio precisa, e por quê",
+          "Uma faixa de orçamento disponível",
+          "Quem na empresa decide e aprova as entregas"
+        ]
+      },
+      {
+        "titulo": "Como escrever um briefing que gera propostas comparáveis",
+        "paragrafos": [
+          "Briefing é o documento curto que você envia a todos os fornecedores. Mandar o mesmo texto para todos é o que torna as propostas comparáveis. Duas ou três páginas bastam, organizadas nestes blocos."
+        ],
+        "tabela": {
+          "colunas": ["Bloco", "O que escrever", "Exemplo"],
+          "linhas": [
+            ["Contexto", "O que a empresa faz e o tamanho da operação", "Distribuidora de bebidas com 40 funcionários e 300 clientes ativos"],
+            ["Problema", "O que dá errado hoje e quanto custa", "Pedidos chegam por WhatsApp e se perdem; retrabalho diário no faturamento"],
+            ["Usuários", "Quem usa e em que aparelho", "Seis vendedores no celular e dois faturistas no computador"],
+            ["Primeira versão", "Funções obrigatórias, em lista", "Pedido no celular, tabela de preço por cliente, envio ao ERP"],
+            ["Fora do escopo agora", "O que fica para depois", "App para o cliente final e relatórios gerenciais"],
+            ["Integrações", "Sistemas existentes e se oferecem API", "ERP atual, com API documentada"],
+            ["Prazo e orçamento", "Data de negócio e faixa disponível", "Em uso antes do início da safra; faixa de sistema web"]
+          ]
+        }
+      },
+      {
+        "titulo": "Como avaliar o fornecedor antes de fechar",
+        "paragrafos": [
+          "Preço e simpatia não dizem se o projeto vai sair. Peça para ver um sistema funcionando, não só imagens de telas, e pergunte qual foi a parte mais difícil daquele projeto. Quem construiu de verdade responde com detalhe.",
+          "Observe também as perguntas que o fornecedor faz. Bons fornecedores perguntam sobre exceções, volume, quem aprova e o que acontece hoje quando algo dá errado. Quem devolve preço em poucas horas, sem nenhuma pergunta, provavelmente orçou outro projeto. Faça estas perguntas e peça a resposta por escrito:"
+        ],
+        "lista": [
+          "Quem vai programar de fato, e se essa pessoa participa das conversas",
+          "Como as mudanças de escopo são tratadas e cobradas",
+          "Com que frequência você verá o sistema funcionando",
+          "Onde o código fica guardado durante o projeto",
+          "O que acontece se o fornecedor ficar indisponível",
+          "Como é o suporte depois da entrega"
+        ]
+      },
+      {
+        "titulo": "Escopo e MVP: o que entra na primeira versão",
+        "paragrafos": [
+          "MVP, ou produto mínimo viável, é a menor versão do software que já resolve o problema principal e pode ser usada de verdade. Não é um protótipo descartável; é a base sobre a qual as próximas funções serão construídas.",
+          "Para definir o MVP, pegue a lista de funções e pergunte de cada uma: sem isso, alguém deixa de usar o sistema no primeiro dia? Se a resposta é não, a função vai para a fase dois. Relatórios elaborados, telas de configuração e automações de casos raros quase sempre podem esperar. Um escopo menor entregue no prazo vale mais do que um escopo completo que nunca termina."
+        ]
+      },
+      {
+        "titulo": "Modelos de contratação e como acompanhar cada um",
+        "paragrafos": [
+          "A forma de cobrar define quem assume o risco de o projeto crescer. O guia de quanto custa um projeto de software detalha o efeito de cada modelo no preço; aqui, o que importa é como você acompanha o andamento em cada um."
+        ],
+        "tabela": {
+          "colunas": ["Modelo", "Você acompanha por", "Combina com"],
+          "linhas": [
+            ["Preço fechado por escopo", "Entregas previstas no cronograma", "Escopo bem definido e prazo de negócio fixo"],
+            ["Banco de horas", "Relatório de horas e tarefas concluídas", "Manutenção e ajustes pontuais"],
+            ["Mensalidade de evolução", "Lista de prioridades revista a cada ciclo", "Produto que vai crescer por meses"],
+            ["Fases com preço próprio", "Aceite de cada fase antes de iniciar a próxima", "Projeto grande ou com incerteza alta"]
+          ]
+        }
+      },
+      {
+        "titulo": "O que o contrato precisa ter",
+        "paragrafos": [
+          "Pela Lei 9.609/1998, a Lei do Software, salvo estipulação em contrário, os direitos sobre o programa desenvolvido durante contrato de prestação de serviços em que essa atividade esteja prevista pertencem ao contratante (art. 4º). Mesmo assim, escreva no contrato quem é o titular do código: a própria lei admite combinação diferente, e componentes de terceiros usados no projeto podem ter licença própria. Os itens abaixo protegem os dois lados."
+        ],
+        "lista": [
+          "Escopo anexado, com a lista de funções e o que está fora",
+          "Cronograma com marcos e pagamento ligado a cada entrega aceita",
+          "Critério de aceite: como se decide que uma entrega está pronta",
+          "Titularidade do código e entrega do código-fonte, com acesso ao repositório",
+          "Domínio, hospedagem e contas de serviços em nome da empresa contratante",
+          "Garantia: prazo para corrigir defeitos sem custo depois da entrega",
+          "Tratamento de dados pessoais pelo fornecedor, como operador, conforme a LGPD",
+          "Confidencialidade sobre as informações do negócio",
+          "Como mudanças de escopo são orçadas e aprovadas",
+          "Rescisão: o que é pago e o que é entregue se o projeto parar no meio"
+        ]
+      },
+      {
+        "titulo": "Passo a passo para contratar desenvolvimento de software",
+        "paragrafos": [
+          "Do primeiro rascunho ao início do projeto, esta é a sequência que reduz surpresa no preço, no prazo e na entrega."
+        ],
+        "lista": [
+          "Descreva o problema e o resultado esperado em uma página, com exemplos reais.",
+          "Escreva o briefing com contexto, usuários, primeira versão, integrações, prazo e faixa de orçamento.",
+          "Envie o mesmo briefing para três a cinco fornecedores de perfis diferentes.",
+          "Converse com cada um e observe as perguntas que eles fazem.",
+          "Peça propostas com escopo detalhado, cronograma, modelo de cobrança e o que fica fora.",
+          "Compare as propostas linha por linha e esclareça por escrito o que estiver vago.",
+          "Confira referências: um sistema funcionando e uma conversa com quem já contratou.",
+          "Feche o contrato com escopo anexado, marcos, aceite, titularidade do código e garantia.",
+          "Crie as contas de domínio, hospedagem, repositório e lojas em nome da empresa antes de começar.",
+          "Acompanhe entregas curtas, teste cada uma e só aprove o que funcionou no seu caso real."
+        ],
+        "listaOrdenada": true
+      },
+      {
+        "titulo": "Como acompanhar o projeto sem ser técnico",
+        "paragrafos": [
+          "Você não precisa ler código para saber se o projeto vai bem. Precisa ver o sistema funcionando com frequência. Combine entregas a cada uma ou duas semanas, num ambiente de teste com endereço próprio, onde você e a equipe possam usar as telas novas com dados de exemplo.",
+          "Em cada entrega, teste com um caso real da empresa, não com o exemplo do desenvolvedor. Anote o que não funcionou numa lista única e compartilhada, com capturas de tela. E desconfie de semanas seguidas de “quase pronto” sem nada novo para testar: é o sinal mais claro de atraso."
+        ]
+      },
+      {
+        "titulo": "Sinais de alerta antes e durante o projeto",
+        "paragrafos": [
+          "Nenhum destes sinais prova má-fé, mas cada um aumenta o risco. Quando aparecerem, peça explicação por escrito antes de seguir."
+        ],
+        "lista": [
+          "Proposta com preço, mas sem lista de funções",
+          "Fornecedor que não faz nenhuma pergunta sobre o seu processo",
+          "Pedido de pagamento integral antes de qualquer entrega",
+          "Domínio, hospedagem ou código registrados no nome do fornecedor",
+          "Semanas sem nada novo para testar",
+          "Respostas vagas sobre quem está programando",
+          "Resistência em dar acesso ao repositório do código"
+        ]
+      },
+      {
+        "titulo": "Depois da entrega: código, acessos e manutenção",
+        "paragrafos": [
+          "Ao final, confira se a empresa recebeu acesso administrativo ao repositório do código, ao servidor e ao banco de dados, ao domínio, às contas de e-mail e de lojas de aplicativo, além de uma documentação curta de como publicar uma nova versão. Sem isso, a empresa fica presa ao fornecedor mesmo sendo dona do código no papel.",
+          "O registro do programa no INPI é opcional: pela Lei do Software, a proteção independe de registro (art. 2º, § 3º) e vale por cinquenta anos (art. 2º, § 2º). O registro serve para documentar autoria e data. Combine também como será a manutenção: atualizações de segurança, correção de defeitos e evolução, com preço e tempo de resposta definidos."
+        ]
+      }
+    ],
+    "valorProprio": { "tipo": "passo-a-passo", "descricao": "Passo a passo de contratação em dez etapas, modelo de briefing por blocos com exemplo, comparação de tipos de fornecedor e lista de cláusulas do contrato" },
+    "faq": [
+      { "pergunta": "Quanto custa contratar desenvolvimento de software?", "resposta": "Pela tabela pública da AndersDev, vai de R$ 1.500, numa landing page, a R$ 72.000, num app completo com backend. Um sistema web fica entre R$ 15.000 e R$ 40.000. Integrações e prazo urgente somam percentuais à base. O guia de quanto custa um projeto de software detalha a conta." },
+      { "pergunta": "Quem fica dono do código-fonte?", "resposta": "Pela Lei do Software, salvo estipulação em contrário, o programa desenvolvido em contrato de prestação de serviços destinado a isso pertence ao contratante. Mesmo assim, escreva no contrato que o código é da empresa e que o fornecedor entrega o código-fonte e os acessos ao repositório." },
+      { "pergunta": "Preciso registrar o software no INPI?", "resposta": "Não é obrigatório. A proteção prevista na Lei 9.609/1998 independe de registro, e o registro fica a critério do titular. Ele serve para documentar autoria e data. Para sistemas internos de pequena empresa, o que mais protege é um contrato claro e o acesso ao código." },
+      { "pergunta": "É melhor pagar por hora ou preço fechado?", "resposta": "Preço fechado funciona quando o escopo está claro e cabe numa lista. Por hora funciona para manutenção e escopo incerto, com relatório e teto mensal. Em projeto grande, dividir em fases com preço fechado por fase equilibra previsibilidade e flexibilidade." },
+      { "pergunta": "Como evitar que o projeto atrase?", "resposta": "Reduza a primeira versão ao essencial, combine entregas curtas que você consiga testar e aprove rápido. Atraso costuma nascer de escopo que cresce sem aditivo, de aprovações paradas dentro da empresa e de integrações com sistemas que ninguém testou antes. Trate os três desde o primeiro dia." },
+      { "pergunta": "Posso trocar de desenvolvedor no meio do projeto?", "resposta": "Pode, se o código estiver num repositório da empresa, os acessos estiverem em nome dela e houver documentação mínima. O novo fornecedor vai precisar de tempo para entender o que existe, então conte com um custo de transição. Sem acesso ao código, a troca pode significar recomeçar." }
+    ],
+    "fontes": [
+      { "titulo": "Tabela pública de preços da AndersDev", "url": "/calculadora-site", "orgao": "AndersDev", "consultadoEm": "2026-11-18" },
+      { "titulo": "Tabela pública de preços da AndersDev", "url": "/calculadora-app", "orgao": "AndersDev", "consultadoEm": "2026-11-18" },
+      { "titulo": "Lei nº 9.609/1998 (Lei do Software)", "url": "https://www.planalto.gov.br/ccivil_03/leis/l9609.htm", "orgao": "Presidência da República", "consultadoEm": "2026-11-18" },
+      { "titulo": "Registro de programa de computador", "url": "https://www.gov.br/inpi/pt-br/servicos/programas-de-computador", "orgao": "INPI", "consultadoEm": "2026-11-18" },
+      { "titulo": "Lei nº 13.709/2018 (LGPD)", "url": "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm", "orgao": "Presidência da República", "consultadoEm": "2026-11-18" }
+    ],
+    "dependeAutor": false,
+    "onda": 1,
+    "revisadoEm": "2026-11-18"
+  }
+]

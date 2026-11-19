@@ -1,0 +1,36 @@
+# Agendador dos jobs que rodam dentro do app (Railway não tem cron no plano
+# atual e o vercel.json antigo nunca disparou lá).
+# Requer o segredo CRON_SECRET (o mesmo valor configurado no Railway).
+name: Crons
+on:
+  schedule:
+    - cron: "0 9 * * *"     # diário 06:00 (Brasília): ingestão, ondas, filas, alertas
+    - cron: "15 * * * *"    # de hora em hora: e-mails das sequências
+    - cron: "0 11 * * 1"    # segunda 08:00: SERP, expansão do mapa, ondas, resumo semanal
+  workflow_dispatch:
+    inputs:
+      job:
+        description: "diario | semanal | sequencias | nurture"
+        required: true
+        default: diario
+jobs:
+  chamar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Escolher job
+        id: job
+        run: |
+          if [ -n "${{ github.event.inputs.job }}" ]; then echo "nomes=${{ github.event.inputs.job }}" >> "$GITHUB_OUTPUT";
+          elif [ "${{ github.event.schedule }}" = "15 * * * *" ]; then echo "nomes=sequencias" >> "$GITHUB_OUTPUT";
+          elif [ "${{ github.event.schedule }}" = "0 11 * * 1" ]; then echo "nomes=semanal" >> "$GITHUB_OUTPUT";
+          else echo "nomes=diario nurture" >> "$GITHUB_OUTPUT"; fi
+      - name: Chamar
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+        run: |
+          if [ -z "$CRON_SECRET" ]; then echo "::warning::CRON_SECRET não configurado"; exit 0; fi
+          for job in ${{ steps.job.outputs.nomes }}; do
+            echo "== $job"
+            curl -sS --max-time 300 -H "Authorization: Bearer $CRON_SECRET" "https://www.andersdev.com.br/api/cron/$job" | head -c 4000
+            echo
+          done

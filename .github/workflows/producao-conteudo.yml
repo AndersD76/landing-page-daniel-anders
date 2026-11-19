@@ -1,0 +1,48 @@
+# Produção contínua: gera as próximas páginas da fila com a API do Claude,
+# passa no portão de qualidade e faz commit do que foi aprovado. O push
+# dispara o deploy no Railway; a página só vai ao ar na data da onda dela.
+# Requer os segredos ANTHROPIC_API_KEY e DATABASE_URL.
+name: Produção de conteúdo
+on:
+  schedule:
+    - cron: "0 7 * * *"   # diário 04:00 (Brasília), antes do job diário
+  workflow_dispatch:
+    inputs:
+      lote:
+        description: "quantas consultas da fila"
+        required: false
+        default: "60"
+permissions:
+  contents: write
+concurrency:
+  group: producao-conteudo
+  cancel-in-progress: false
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - name: Gerar e avaliar
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
+          LOTE: ${{ github.event.inputs.lote || '60' }}
+        run: npx tsx scripts/producao/gerar-conteudo.ts
+      - name: Conferir o conjunto inteiro
+        env:
+          DATABASE_URL: postgresql://ci:ci@localhost/dummy
+        run: npm run conteudo:gate
+      - name: Commit
+        run: |
+          if git diff --quiet; then echo "nada novo"; exit 0; fi
+          git config user.name "producao-conteudo[bot]"
+          git config user.email "producao-conteudo@users.noreply.github.com"
+          git add src/content src/data/seo/ondas.json src/data/seo/fontes-verificadas.json
+          git commit -m "conteudo: lote diário da fila de produção"
+          git push

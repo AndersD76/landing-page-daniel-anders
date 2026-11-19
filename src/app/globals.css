@@ -275,3 +275,8 @@
     animation: none;
   }
 }
+
+/* Página com barra de isca no celular esconde a barra genérica (uma barra só). */
+body:has([data-barra-isca]) .mobile-cta-global {
+  display: none;
+}
